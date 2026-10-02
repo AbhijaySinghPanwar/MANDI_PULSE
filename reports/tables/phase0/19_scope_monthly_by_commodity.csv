@@ -1,0 +1,2961 @@
+commodity,state,month,n_rows,days_with_data,n_markets
+Onion,Karnataka,2001-01,3,1,1
+Onion,Karnataka,2001-11,1,1,1
+Onion,Karnataka,2001-12,10,5,2
+Onion,Karnataka,2002-01,82,25,6
+Onion,Karnataka,2002-02,148,25,6
+Onion,Karnataka,2002-03,127,23,11
+Onion,Karnataka,2002-04,308,29,31
+Onion,Karnataka,2002-05,281,30,37
+Onion,Karnataka,2002-06,335,30,39
+Onion,Karnataka,2002-07,416,31,37
+Onion,Karnataka,2002-08,374,31,37
+Onion,Karnataka,2002-09,406,30,40
+Onion,Karnataka,2002-10,375,31,45
+Onion,Karnataka,2002-11,389,30,42
+Onion,Karnataka,2002-12,310,31,36
+Onion,Karnataka,2003-01,321,31,38
+Onion,Karnataka,2003-02,312,28,36
+Onion,Karnataka,2003-03,312,31,35
+Onion,Karnataka,2003-04,301,30,37
+Onion,Karnataka,2003-05,400,31,43
+Onion,Karnataka,2003-06,374,30,36
+Onion,Karnataka,2003-07,392,31,40
+Onion,Karnataka,2003-08,380,31,40
+Onion,Karnataka,2003-09,424,30,39
+Onion,Karnataka,2003-10,306,31,38
+Onion,Karnataka,2003-11,348,30,40
+Onion,Karnataka,2003-12,202,24,34
+Onion,Karnataka,2004-01,304,31,34
+Onion,Karnataka,2004-02,292,29,32
+Onion,Karnataka,2004-03,337,31,36
+Onion,Karnataka,2004-04,229,28,33
+Onion,Karnataka,2004-05,151,30,31
+Onion,Karnataka,2004-06,204,27,33
+Onion,Karnataka,2004-07,185,29,31
+Onion,Karnataka,2004-08,282,31,36
+Onion,Karnataka,2004-09,405,30,42
+Onion,Karnataka,2004-10,359,31,45
+Onion,Karnataka,2004-11,292,30,39
+Onion,Karnataka,2004-12,291,31,37
+Onion,Karnataka,2005-01,319,31,33
+Onion,Karnataka,2005-02,283,28,35
+Onion,Karnataka,2005-03,328,31,37
+Onion,Karnataka,2005-04,269,30,34
+Onion,Karnataka,2005-05,276,31,31
+Onion,Karnataka,2005-06,310,30,31
+Onion,Karnataka,2005-07,285,31,32
+Onion,Karnataka,2005-08,298,31,32
+Onion,Karnataka,2005-09,283,30,34
+Onion,Karnataka,2005-10,215,27,35
+Onion,Karnataka,2005-11,137,19,28
+Onion,Karnataka,2005-12,127,17,25
+Onion,Karnataka,2006-01,193,30,27
+Onion,Karnataka,2006-02,177,28,28
+Onion,Karnataka,2006-03,196,31,25
+Onion,Karnataka,2006-04,145,28,20
+Onion,Karnataka,2006-05,160,31,21
+Onion,Karnataka,2006-06,195,29,24
+Onion,Karnataka,2006-07,192,29,25
+Onion,Karnataka,2006-08,208,29,29
+Onion,Karnataka,2006-09,225,30,29
+Onion,Karnataka,2006-10,185,30,31
+Onion,Karnataka,2006-11,148,30,26
+Onion,Karnataka,2006-12,108,28,27
+Onion,Karnataka,2007-01,164,29,25
+Onion,Karnataka,2007-02,154,20,27
+Onion,Karnataka,2007-03,272,31,29
+Onion,Karnataka,2007-04,183,25,27
+Onion,Karnataka,2007-05,244,28,31
+Onion,Karnataka,2007-06,302,30,32
+Onion,Karnataka,2007-07,358,31,30
+Onion,Karnataka,2007-08,340,31,33
+Onion,Karnataka,2007-09,307,30,32
+Onion,Karnataka,2007-10,348,31,32
+Onion,Karnataka,2007-11,313,30,35
+Onion,Karnataka,2007-12,226,24,30
+Onion,Karnataka,2008-01,209,28,27
+Onion,Karnataka,2008-02,234,29,33
+Onion,Karnataka,2008-03,243,30,28
+Onion,Karnataka,2008-04,243,30,29
+Onion,Karnataka,2008-05,242,31,31
+Onion,Karnataka,2008-06,329,30,32
+Onion,Karnataka,2008-07,420,31,33
+Onion,Karnataka,2008-08,423,31,33
+Onion,Karnataka,2008-09,252,27,29
+Onion,Karnataka,2008-10,342,31,35
+Onion,Karnataka,2008-11,343,30,32
+Onion,Karnataka,2008-12,187,16,25
+Onion,Karnataka,2009-01,283,28,29
+Onion,Karnataka,2009-02,345,28,28
+Onion,Karnataka,2009-03,403,31,33
+Onion,Karnataka,2009-04,340,30,30
+Onion,Karnataka,2009-05,259,25,30
+Onion,Karnataka,2009-06,417,30,30
+Onion,Karnataka,2009-07,418,31,32
+Onion,Karnataka,2009-08,196,30,23
+Onion,Karnataka,2009-09,90,26,17
+Onion,Karnataka,2009-10,417,30,39
+Onion,Karnataka,2009-11,340,30,33
+Onion,Karnataka,2009-12,301,31,28
+Onion,Karnataka,2010-01,332,30,27
+Onion,Karnataka,2010-02,266,26,29
+Onion,Karnataka,2010-03,330,26,27
+Onion,Karnataka,2010-04,325,25,38
+Onion,Karnataka,2010-05,328,29,33
+Onion,Karnataka,2010-06,366,28,35
+Onion,Karnataka,2010-07,375,28,36
+Onion,Karnataka,2010-08,377,29,38
+Onion,Karnataka,2010-09,326,30,34
+Onion,Karnataka,2010-10,398,30,40
+Onion,Karnataka,2010-11,166,29,32
+Onion,Karnataka,2010-12,355,27,33
+Onion,Karnataka,2011-01,271,27,29
+Onion,Karnataka,2011-02,376,27,32
+Onion,Karnataka,2011-03,253,29,27
+Onion,Karnataka,2011-04,338,26,31
+Onion,Karnataka,2011-05,383,28,32
+Onion,Karnataka,2011-06,499,30,34
+Onion,Karnataka,2011-07,478,31,34
+Onion,Karnataka,2011-08,408,31,34
+Onion,Karnataka,2011-09,409,30,38
+Onion,Karnataka,2011-10,412,31,38
+Onion,Karnataka,2011-11,459,30,43
+Onion,Karnataka,2011-12,451,31,34
+Onion,Karnataka,2012-01,478,31,36
+Onion,Karnataka,2012-02,480,29,35
+Onion,Karnataka,2012-03,508,31,33
+Onion,Karnataka,2012-04,419,30,30
+Onion,Karnataka,2012-05,447,31,35
+Onion,Karnataka,2012-06,452,30,35
+Onion,Karnataka,2012-07,531,31,35
+Onion,Karnataka,2012-08,485,31,38
+Onion,Karnataka,2012-09,472,30,35
+Onion,Karnataka,2012-10,467,31,42
+Onion,Karnataka,2012-11,494,30,43
+Onion,Karnataka,2012-12,466,31,32
+Onion,Karnataka,2013-01,450,31,30
+Onion,Karnataka,2013-02,459,28,33
+Onion,Karnataka,2013-03,463,31,29
+Onion,Karnataka,2013-04,417,30,33
+Onion,Karnataka,2013-05,448,31,35
+Onion,Karnataka,2013-06,460,30,36
+Onion,Karnataka,2013-07,559,31,40
+Onion,Karnataka,2013-08,188,22,34
+Onion,Karnataka,2013-09,288,27,38
+Onion,Karnataka,2013-10,237,24,37
+Onion,Karnataka,2013-11,22,17,5
+Onion,Karnataka,2013-12,33,22,6
+Onion,Karnataka,2014-01,459,30,31
+Onion,Karnataka,2014-02,410,28,28
+Onion,Karnataka,2014-03,382,31,23
+Onion,Karnataka,2014-04,296,27,23
+Onion,Karnataka,2014-05,352,30,21
+Onion,Karnataka,2014-06,365,30,26
+Onion,Karnataka,2014-07,419,31,26
+Onion,Karnataka,2014-08,289,29,21
+Onion,Karnataka,2014-09,362,30,22
+Onion,Karnataka,2014-10,215,24,22
+Onion,Karnataka,2014-11,160,26,18
+Onion,Karnataka,2014-12,222,28,20
+Onion,Karnataka,2015-01,471,31,30
+Onion,Karnataka,2015-02,390,28,31
+Onion,Karnataka,2015-03,438,31,29
+Onion,Karnataka,2015-04,369,30,29
+Onion,Karnataka,2015-05,344,29,25
+Onion,Karnataka,2015-06,386,30,26
+Onion,Karnataka,2015-07,385,31,24
+Onion,Karnataka,2015-08,373,31,27
+Onion,Karnataka,2015-09,409,29,30
+Onion,Karnataka,2015-10,389,30,28
+Onion,Karnataka,2015-11,347,29,25
+Onion,Karnataka,2015-12,417,31,27
+Onion,Karnataka,2016-01,313,28,24
+Onion,Karnataka,2016-02,261,29,21
+Onion,Karnataka,2016-03,398,31,26
+Onion,Karnataka,2016-04,347,30,25
+Onion,Karnataka,2016-05,362,29,25
+Onion,Karnataka,2016-06,393,30,29
+Onion,Karnataka,2016-07,409,31,25
+Onion,Karnataka,2016-08,420,30,24
+Onion,Karnataka,2016-09,365,29,24
+Onion,Karnataka,2016-10,365,28,27
+Onion,Karnataka,2016-11,423,30,27
+Onion,Karnataka,2016-12,449,30,27
+Onion,Karnataka,2017-01,362,28,24
+Onion,Karnataka,2017-02,311,26,24
+Onion,Karnataka,2017-03,347,31,28
+Onion,Karnataka,2017-04,299,30,26
+Onion,Karnataka,2017-05,332,31,28
+Onion,Karnataka,2017-06,344,30,28
+Onion,Karnataka,2017-07,355,31,27
+Onion,Karnataka,2017-08,325,30,25
+Onion,Karnataka,2017-09,312,29,25
+Onion,Karnataka,2017-10,345,29,24
+Onion,Karnataka,2017-11,366,29,24
+Onion,Karnataka,2017-12,348,30,26
+Onion,Karnataka,2018-01,344,30,27
+Onion,Karnataka,2018-02,321,28,24
+Onion,Karnataka,2018-03,291,28,21
+Onion,Karnataka,2018-04,224,26,22
+Onion,Karnataka,2018-05,325,30,22
+Onion,Karnataka,2018-06,345,29,25
+Onion,Karnataka,2018-07,357,31,27
+Onion,Karnataka,2018-08,361,30,25
+Onion,Karnataka,2018-09,386,30,27
+Onion,Karnataka,2018-10,400,31,27
+Onion,Karnataka,2018-11,328,29,28
+Onion,Karnataka,2018-12,405,30,24
+Onion,Karnataka,2019-01,340,31,25
+Onion,Karnataka,2019-02,319,28,22
+Onion,Karnataka,2019-03,352,31,30
+Onion,Karnataka,2019-04,302,29,28
+Onion,Karnataka,2019-05,341,30,28
+Onion,Karnataka,2019-06,243,25,30
+Onion,Karnataka,2019-07,199,27,24
+Onion,Karnataka,2019-08,331,30,29
+Onion,Karnataka,2019-09,315,27,27
+Onion,Karnataka,2019-10,388,30,30
+Onion,Karnataka,2019-11,368,29,30
+Onion,Karnataka,2019-12,392,31,30
+Onion,Karnataka,2020-01,342,28,27
+Onion,Karnataka,2020-02,308,26,28
+Onion,Karnataka,2020-03,288,26,28
+Onion,Karnataka,2020-04,653,30,40
+Onion,Karnataka,2020-05,618,31,34
+Onion,Karnataka,2020-06,490,30,32
+Onion,Karnataka,2020-07,459,31,33
+Onion,Karnataka,2020-08,427,31,33
+Onion,Karnataka,2020-09,467,30,30
+Onion,Karnataka,2020-10,408,30,30
+Onion,Karnataka,2020-11,368,30,28
+Onion,Karnataka,2020-12,408,31,31
+Onion,Karnataka,2021-01,365,31,29
+Onion,Karnataka,2021-02,316,27,28
+Onion,Karnataka,2021-03,390,31,29
+Onion,Karnataka,2021-04,334,28,26
+Onion,Karnataka,2021-05,408,31,28
+Onion,Karnataka,2021-06,412,30,29
+Onion,Karnataka,2021-07,497,31,31
+Onion,Karnataka,2021-08,457,31,32
+Onion,Karnataka,2021-09,466,30,33
+Onion,Karnataka,2021-10,433,31,35
+Onion,Karnataka,2021-11,407,30,33
+Onion,Karnataka,2021-12,517,31,35
+Onion,Karnataka,2022-01,446,31,32
+Onion,Karnataka,2022-02,432,28,31
+Onion,Karnataka,2022-03,486,31,33
+Onion,Karnataka,2022-04,455,30,31
+Onion,Karnataka,2022-05,452,31,31
+Onion,Karnataka,2022-06,452,30,32
+Onion,Karnataka,2022-07,459,31,31
+Onion,Karnataka,2022-08,458,31,32
+Onion,Karnataka,2022-09,485,30,32
+Onion,Karnataka,2022-10,395,30,30
+Onion,Karnataka,2022-11,415,30,30
+Onion,Karnataka,2022-12,469,30,33
+Onion,Karnataka,2023-01,461,30,31
+Onion,Karnataka,2023-02,368,27,29
+Onion,Karnataka,2023-03,430,31,33
+Onion,Karnataka,2023-04,435,30,31
+Onion,Karnataka,2023-05,453,31,35
+Onion,Karnataka,2023-06,493,30,34
+Onion,Karnataka,2023-07,450,31,36
+Onion,Karnataka,2023-08,381,29,32
+Onion,Karnataka,2023-09,332,29,31
+Onion,Karnataka,2023-10,381,29,36
+Onion,Karnataka,2023-11,388,28,33
+Onion,Karnataka,2023-12,424,29,31
+Onion,Karnataka,2024-01,340,30,30
+Onion,Karnataka,2024-02,394,29,32
+Onion,Karnataka,2024-03,403,31,27
+Onion,Karnataka,2024-04,331,27,26
+Onion,Karnataka,2024-05,415,31,26
+Onion,Karnataka,2024-06,382,28,30
+Onion,Karnataka,2024-07,397,29,28
+Onion,Karnataka,2024-08,368,30,26
+Onion,Karnataka,2024-09,353,29,28
+Onion,Karnataka,2024-10,391,30,27
+Onion,Karnataka,2024-11,249,26,25
+Onion,Karnataka,2024-12,332,31,24
+Onion,Karnataka,2025-01,358,31,25
+Onion,Karnataka,2025-02,281,28,25
+Onion,Karnataka,2025-03,105,25,17
+Onion,Karnataka,2025-04,153,26,15
+Onion,Karnataka,2025-05,168,30,15
+Onion,Karnataka,2025-06,177,29,18
+Onion,Karnataka,2025-07,195,31,16
+Onion,Karnataka,2025-08,140,31,15
+Onion,Karnataka,2025-09,181,30,18
+Onion,Karnataka,2025-10,105,23,17
+Onion,Karnataka,2025-11,8,2,7
+Onion,Karnataka,2025-12,99,24,18
+Onion,Karnataka,2026-01,114,24,20
+Onion,Karnataka,2026-02,94,26,22
+Onion,Karnataka,2026-03,95,19,22
+Onion,Karnataka,2026-04,90,18,20
+Onion,Madhya Pradesh,2002-02,1,1,1
+Onion,Madhya Pradesh,2002-03,15,14,2
+Onion,Madhya Pradesh,2002-04,23,23,1
+Onion,Madhya Pradesh,2002-05,25,25,1
+Onion,Madhya Pradesh,2002-06,16,16,1
+Onion,Madhya Pradesh,2002-07,48,24,6
+Onion,Madhya Pradesh,2002-08,89,29,7
+Onion,Madhya Pradesh,2002-09,126,30,8
+Onion,Madhya Pradesh,2002-10,151,31,8
+Onion,Madhya Pradesh,2002-11,167,30,9
+Onion,Madhya Pradesh,2002-12,154,31,9
+Onion,Madhya Pradesh,2003-01,136,30,8
+Onion,Madhya Pradesh,2003-02,118,28,8
+Onion,Madhya Pradesh,2003-03,146,31,8
+Onion,Madhya Pradesh,2003-04,160,30,9
+Onion,Madhya Pradesh,2003-05,150,31,8
+Onion,Madhya Pradesh,2003-06,122,28,7
+Onion,Madhya Pradesh,2003-07,156,31,8
+Onion,Madhya Pradesh,2003-08,110,29,8
+Onion,Madhya Pradesh,2003-09,80,29,5
+Onion,Madhya Pradesh,2003-10,63,30,5
+Onion,Madhya Pradesh,2003-11,93,30,6
+Onion,Madhya Pradesh,2003-12,88,31,5
+Onion,Madhya Pradesh,2004-01,107,31,7
+Onion,Madhya Pradesh,2004-02,112,29,7
+Onion,Madhya Pradesh,2004-03,95,31,6
+Onion,Madhya Pradesh,2004-04,95,30,7
+Onion,Madhya Pradesh,2004-05,95,31,7
+Onion,Madhya Pradesh,2004-06,84,29,6
+Onion,Madhya Pradesh,2004-07,145,31,7
+Onion,Madhya Pradesh,2004-08,134,31,6
+Onion,Madhya Pradesh,2004-09,122,30,7
+Onion,Madhya Pradesh,2004-10,96,30,6
+Onion,Madhya Pradesh,2004-11,39,22,4
+Onion,Madhya Pradesh,2004-12,40,27,5
+Onion,Madhya Pradesh,2005-01,38,26,4
+Onion,Madhya Pradesh,2005-02,57,27,5
+Onion,Madhya Pradesh,2005-03,49,24,4
+Onion,Madhya Pradesh,2005-04,42,24,4
+Onion,Madhya Pradesh,2005-05,45,30,2
+Onion,Madhya Pradesh,2005-06,50,30,3
+Onion,Madhya Pradesh,2005-07,34,24,3
+Onion,Madhya Pradesh,2005-08,45,25,4
+Onion,Madhya Pradesh,2005-09,46,25,4
+Onion,Madhya Pradesh,2005-10,33,24,3
+Onion,Madhya Pradesh,2005-11,37,22,4
+Onion,Madhya Pradesh,2005-12,25,23,3
+Onion,Madhya Pradesh,2006-01,35,25,3
+Onion,Madhya Pradesh,2006-02,17,15,3
+Onion,Madhya Pradesh,2006-03,13,10,4
+Onion,Madhya Pradesh,2006-04,121,14,30
+Onion,Madhya Pradesh,2006-05,520,21,59
+Onion,Madhya Pradesh,2006-06,576,23,61
+Onion,Madhya Pradesh,2006-07,605,21,59
+Onion,Madhya Pradesh,2006-08,492,18,91
+Onion,Madhya Pradesh,2006-09,200,11,82
+Onion,Madhya Pradesh,2006-10,268,11,82
+Onion,Madhya Pradesh,2006-11,539,22,82
+Onion,Madhya Pradesh,2006-12,590,23,62
+Onion,Madhya Pradesh,2007-01,948,25,63
+Onion,Madhya Pradesh,2007-02,913,23,63
+Onion,Madhya Pradesh,2007-03,881,23,62
+Onion,Madhya Pradesh,2007-04,637,22,82
+Onion,Madhya Pradesh,2007-05,640,20,81
+Onion,Madhya Pradesh,2007-06,686,25,83
+Onion,Madhya Pradesh,2007-07,829,23,81
+Onion,Madhya Pradesh,2007-08,977,25,81
+Onion,Madhya Pradesh,2007-09,768,21,81
+Onion,Madhya Pradesh,2007-10,775,25,81
+Onion,Madhya Pradesh,2007-11,527,19,82
+Onion,Madhya Pradesh,2007-12,914,24,82
+Onion,Madhya Pradesh,2008-01,601,26,52
+Onion,Madhya Pradesh,2008-02,650,27,82
+Onion,Madhya Pradesh,2008-03,560,30,49
+Onion,Madhya Pradesh,2008-04,242,29,49
+Onion,Madhya Pradesh,2008-05,475,17,49
+Onion,Madhya Pradesh,2008-06,440,19,85
+Onion,Madhya Pradesh,2008-07,726,21,86
+Onion,Madhya Pradesh,2008-08,434,28,83
+Onion,Madhya Pradesh,2008-09,385,26,83
+Onion,Madhya Pradesh,2008-10,870,25,83
+Onion,Madhya Pradesh,2008-11,935,25,83
+Onion,Madhya Pradesh,2008-12,804,27,83
+Onion,Madhya Pradesh,2009-01,1266,30,83
+Onion,Madhya Pradesh,2009-02,1296,27,83
+Onion,Madhya Pradesh,2009-03,339,31,64
+Onion,Madhya Pradesh,2009-04,52,28,5
+Onion,Madhya Pradesh,2009-05,34,22,5
+Onion,Madhya Pradesh,2009-06,12,11,3
+Onion,Madhya Pradesh,2009-07,10,7,3
+Onion,Madhya Pradesh,2009-08,136,31,10
+Onion,Madhya Pradesh,2009-09,195,30,14
+Onion,Madhya Pradesh,2009-10,255,31,14
+Onion,Madhya Pradesh,2009-11,229,30,15
+Onion,Madhya Pradesh,2009-12,230,31,14
+Onion,Madhya Pradesh,2010-01,198,31,12
+Onion,Madhya Pradesh,2010-02,193,28,13
+Onion,Madhya Pradesh,2010-03,223,31,12
+Onion,Madhya Pradesh,2010-04,256,30,12
+Onion,Madhya Pradesh,2010-05,224,31,12
+Onion,Madhya Pradesh,2010-06,196,30,11
+Onion,Madhya Pradesh,2010-07,151,31,11
+Onion,Madhya Pradesh,2010-08,204,31,11
+Onion,Madhya Pradesh,2010-09,223,30,16
+Onion,Madhya Pradesh,2010-10,284,31,19
+Onion,Madhya Pradesh,2010-11,289,30,19
+Onion,Madhya Pradesh,2010-12,269,31,19
+Onion,Madhya Pradesh,2011-01,259,31,19
+Onion,Madhya Pradesh,2011-02,245,28,17
+Onion,Madhya Pradesh,2011-03,256,31,18
+Onion,Madhya Pradesh,2011-04,259,30,16
+Onion,Madhya Pradesh,2011-05,233,31,15
+Onion,Madhya Pradesh,2011-06,252,30,19
+Onion,Madhya Pradesh,2011-07,319,31,23
+Onion,Madhya Pradesh,2011-08,335,31,24
+Onion,Madhya Pradesh,2011-09,368,30,25
+Onion,Madhya Pradesh,2011-10,283,31,23
+Onion,Madhya Pradesh,2011-11,338,30,24
+Onion,Madhya Pradesh,2011-12,313,31,22
+Onion,Madhya Pradesh,2012-01,251,31,21
+Onion,Madhya Pradesh,2012-02,293,29,22
+Onion,Madhya Pradesh,2012-03,295,31,21
+Onion,Madhya Pradesh,2012-04,289,30,22
+Onion,Madhya Pradesh,2012-05,327,31,25
+Onion,Madhya Pradesh,2012-06,310,30,23
+Onion,Madhya Pradesh,2012-07,309,31,20
+Onion,Madhya Pradesh,2012-08,298,31,22
+Onion,Madhya Pradesh,2012-09,328,30,23
+Onion,Madhya Pradesh,2012-10,342,31,20
+Onion,Madhya Pradesh,2012-11,272,30,16
+Onion,Madhya Pradesh,2012-12,332,31,16
+Onion,Madhya Pradesh,2013-01,347,31,19
+Onion,Madhya Pradesh,2013-02,339,28,18
+Onion,Madhya Pradesh,2013-03,365,31,20
+Onion,Madhya Pradesh,2013-04,294,30,18
+Onion,Madhya Pradesh,2013-05,362,31,20
+Onion,Madhya Pradesh,2013-06,311,30,18
+Onion,Madhya Pradesh,2013-07,315,31,19
+Onion,Madhya Pradesh,2013-08,296,31,19
+Onion,Madhya Pradesh,2013-09,309,30,18
+Onion,Madhya Pradesh,2013-10,289,31,17
+Onion,Madhya Pradesh,2013-11,291,30,16
+Onion,Madhya Pradesh,2013-12,323,31,16
+Onion,Madhya Pradesh,2014-01,388,31,19
+Onion,Madhya Pradesh,2014-02,283,28,18
+Onion,Madhya Pradesh,2014-03,355,31,20
+Onion,Madhya Pradesh,2014-04,280,30,18
+Onion,Madhya Pradesh,2014-05,369,31,18
+Onion,Madhya Pradesh,2014-06,344,30,22
+Onion,Madhya Pradesh,2014-07,346,31,26
+Onion,Madhya Pradesh,2014-08,357,31,24
+Onion,Madhya Pradesh,2014-09,368,30,24
+Onion,Madhya Pradesh,2014-10,300,31,21
+Onion,Madhya Pradesh,2014-11,371,30,25
+Onion,Madhya Pradesh,2014-12,463,31,27
+Onion,Madhya Pradesh,2015-01,394,31,24
+Onion,Madhya Pradesh,2015-02,416,28,26
+Onion,Madhya Pradesh,2015-03,415,31,25
+Onion,Madhya Pradesh,2015-04,469,30,28
+Onion,Madhya Pradesh,2015-05,505,31,27
+Onion,Madhya Pradesh,2015-06,493,30,28
+Onion,Madhya Pradesh,2015-07,474,31,27
+Onion,Madhya Pradesh,2015-08,419,31,26
+Onion,Madhya Pradesh,2015-09,348,30,25
+Onion,Madhya Pradesh,2015-10,400,31,30
+Onion,Madhya Pradesh,2015-11,463,30,28
+Onion,Madhya Pradesh,2015-12,489,31,25
+Onion,Madhya Pradesh,2016-01,481,31,30
+Onion,Madhya Pradesh,2016-02,470,29,30
+Onion,Madhya Pradesh,2016-03,469,31,26
+Onion,Madhya Pradesh,2016-04,455,30,28
+Onion,Madhya Pradesh,2016-05,576,31,28
+Onion,Madhya Pradesh,2016-06,636,30,36
+Onion,Madhya Pradesh,2016-07,517,31,31
+Onion,Madhya Pradesh,2016-08,356,31,23
+Onion,Madhya Pradesh,2016-09,273,30,20
+Onion,Madhya Pradesh,2016-10,408,31,29
+Onion,Madhya Pradesh,2016-11,461,30,29
+Onion,Madhya Pradesh,2016-12,528,31,30
+Onion,Madhya Pradesh,2017-01,601,31,29
+Onion,Madhya Pradesh,2017-02,532,28,30
+Onion,Madhya Pradesh,2017-03,535,31,29
+Onion,Madhya Pradesh,2017-04,532,30,28
+Onion,Madhya Pradesh,2017-05,592,31,29
+Onion,Madhya Pradesh,2017-06,731,30,45
+Onion,Madhya Pradesh,2017-07,528,31,36
+Onion,Madhya Pradesh,2017-08,552,31,30
+Onion,Madhya Pradesh,2017-09,538,30,31
+Onion,Madhya Pradesh,2017-10,445,31,30
+Onion,Madhya Pradesh,2017-11,380,30,29
+Onion,Madhya Pradesh,2017-12,286,31,26
+Onion,Madhya Pradesh,2018-01,538,31,28
+Onion,Madhya Pradesh,2018-02,541,28,31
+Onion,Madhya Pradesh,2018-03,575,31,32
+Onion,Madhya Pradesh,2018-04,488,30,34
+Onion,Madhya Pradesh,2018-05,572,31,38
+Onion,Madhya Pradesh,2018-06,687,30,45
+Onion,Madhya Pradesh,2018-07,612,31,39
+Onion,Madhya Pradesh,2018-08,595,31,37
+Onion,Madhya Pradesh,2018-09,666,30,37
+Onion,Madhya Pradesh,2018-10,703,31,37
+Onion,Madhya Pradesh,2018-11,657,30,42
+Onion,Madhya Pradesh,2018-12,881,31,45
+Onion,Madhya Pradesh,2019-01,857,31,44
+Onion,Madhya Pradesh,2019-02,832,28,48
+Onion,Madhya Pradesh,2019-03,953,31,49
+Onion,Madhya Pradesh,2019-04,1012,30,50
+Onion,Madhya Pradesh,2019-05,1003,31,50
+Onion,Madhya Pradesh,2019-06,1062,30,55
+Onion,Madhya Pradesh,2019-07,1027,31,52
+Onion,Madhya Pradesh,2019-08,893,31,48
+Onion,Madhya Pradesh,2019-09,626,30,50
+Onion,Madhya Pradesh,2019-10,715,31,42
+Onion,Madhya Pradesh,2019-11,536,30,40
+Onion,Madhya Pradesh,2019-12,128,31,17
+Onion,Madhya Pradesh,2020-01,555,31,36
+Onion,Madhya Pradesh,2020-02,530,29,40
+Onion,Madhya Pradesh,2020-03,529,31,38
+Onion,Madhya Pradesh,2020-04,219,27,21
+Onion,Madhya Pradesh,2020-05,392,31,32
+Onion,Madhya Pradesh,2020-06,633,30,36
+Onion,Madhya Pradesh,2020-07,645,31,41
+Onion,Madhya Pradesh,2020-08,622,31,44
+Onion,Madhya Pradesh,2020-09,422,27,42
+Onion,Madhya Pradesh,2020-10,308,27,35
+Onion,Madhya Pradesh,2020-11,563,30,37
+Onion,Madhya Pradesh,2020-12,642,31,41
+Onion,Madhya Pradesh,2021-01,675,31,48
+Onion,Madhya Pradesh,2021-02,752,28,53
+Onion,Madhya Pradesh,2021-03,938,31,53
+Onion,Madhya Pradesh,2021-04,552,30,52
+Onion,Madhya Pradesh,2021-05,444,31,29
+Onion,Madhya Pradesh,2021-06,800,30,50
+Onion,Madhya Pradesh,2021-07,846,31,51
+Onion,Madhya Pradesh,2021-08,847,31,51
+Onion,Madhya Pradesh,2021-09,966,30,54
+Onion,Madhya Pradesh,2021-10,802,31,49
+Onion,Madhya Pradesh,2021-11,741,30,45
+Onion,Madhya Pradesh,2021-12,904,31,50
+Onion,Madhya Pradesh,2022-01,1050,31,54
+Onion,Madhya Pradesh,2022-02,1021,28,54
+Onion,Madhya Pradesh,2022-03,1016,31,54
+Onion,Madhya Pradesh,2022-04,1012,30,56
+Onion,Madhya Pradesh,2022-05,1184,31,65
+Onion,Madhya Pradesh,2022-06,1090,30,59
+Onion,Madhya Pradesh,2022-07,1080,31,56
+Onion,Madhya Pradesh,2022-08,1067,31,58
+Onion,Madhya Pradesh,2022-09,1202,30,57
+Onion,Madhya Pradesh,2022-10,1019,31,58
+Onion,Madhya Pradesh,2022-11,1131,30,54
+Onion,Madhya Pradesh,2022-12,1166,31,57
+Onion,Madhya Pradesh,2023-01,1040,31,54
+Onion,Madhya Pradesh,2023-02,1035,28,55
+Onion,Madhya Pradesh,2023-03,1016,31,55
+Onion,Madhya Pradesh,2023-04,1021,30,54
+Onion,Madhya Pradesh,2023-05,1104,31,54
+Onion,Madhya Pradesh,2023-06,1079,30,54
+Onion,Madhya Pradesh,2023-07,1199,31,58
+Onion,Madhya Pradesh,2023-08,1104,31,60
+Onion,Madhya Pradesh,2023-09,884,30,58
+Onion,Madhya Pradesh,2023-10,1078,31,58
+Onion,Madhya Pradesh,2023-11,813,30,54
+Onion,Madhya Pradesh,2023-12,792,31,62
+Onion,Madhya Pradesh,2024-01,408,31,26
+Onion,Madhya Pradesh,2024-02,388,29,26
+Onion,Madhya Pradesh,2024-03,413,31,27
+Onion,Madhya Pradesh,2024-04,547,27,32
+Onion,Madhya Pradesh,2024-05,755,31,40
+Onion,Madhya Pradesh,2024-06,858,30,37
+Onion,Madhya Pradesh,2024-07,877,31,36
+Onion,Madhya Pradesh,2024-08,681,30,34
+Onion,Madhya Pradesh,2024-09,770,30,49
+Onion,Madhya Pradesh,2024-10,957,31,56
+Onion,Madhya Pradesh,2024-11,958,30,51
+Onion,Madhya Pradesh,2024-12,902,31,50
+Onion,Madhya Pradesh,2025-01,938,31,48
+Onion,Madhya Pradesh,2025-02,867,28,47
+Onion,Madhya Pradesh,2025-03,881,31,49
+Onion,Madhya Pradesh,2025-04,1342,30,61
+Onion,Madhya Pradesh,2025-05,1513,31,63
+Onion,Madhya Pradesh,2025-06,1443,30,63
+Onion,Madhya Pradesh,2025-07,1607,31,62
+Onion,Madhya Pradesh,2025-08,1511,31,71
+Onion,Madhya Pradesh,2025-09,1584,30,76
+Onion,Madhya Pradesh,2025-10,982,31,75
+Onion,Madhya Pradesh,2025-11,103,5,58
+Onion,Madhya Pradesh,2025-12,448,30,34
+Onion,Madhya Pradesh,2026-01,335,31,40
+Onion,Madhya Pradesh,2026-02,321,27,60
+Onion,Madhya Pradesh,2026-03,219,22,53
+Onion,Madhya Pradesh,2026-04,206,20,52
+Onion,Maharashtra,2001-02,1,1,1
+Onion,Maharashtra,2001-03,9,9,2
+Onion,Maharashtra,2001-04,8,8,1
+Onion,Maharashtra,2001-05,10,10,3
+Onion,Maharashtra,2001-06,29,22,4
+Onion,Maharashtra,2001-07,45,25,4
+Onion,Maharashtra,2001-08,45,24,4
+Onion,Maharashtra,2001-09,35,24,3
+Onion,Maharashtra,2001-10,41,28,3
+Onion,Maharashtra,2001-11,8,6,2
+Onion,Maharashtra,2001-12,16,14,3
+Onion,Maharashtra,2002-01,38,24,3
+Onion,Maharashtra,2002-02,26,17,4
+Onion,Maharashtra,2002-03,49,24,5
+Onion,Maharashtra,2002-04,94,28,6
+Onion,Maharashtra,2002-05,99,29,6
+Onion,Maharashtra,2002-06,107,29,5
+Onion,Maharashtra,2002-07,101,29,5
+Onion,Maharashtra,2002-08,140,30,9
+Onion,Maharashtra,2002-09,114,27,9
+Onion,Maharashtra,2002-10,137,29,12
+Onion,Maharashtra,2002-11,107,28,11
+Onion,Maharashtra,2002-12,145,28,12
+Onion,Maharashtra,2003-01,177,27,16
+Onion,Maharashtra,2003-02,204,27,19
+Onion,Maharashtra,2003-03,263,31,23
+Onion,Maharashtra,2003-04,265,30,22
+Onion,Maharashtra,2003-05,322,31,24
+Onion,Maharashtra,2003-06,361,30,24
+Onion,Maharashtra,2003-07,370,31,25
+Onion,Maharashtra,2003-08,283,30,24
+Onion,Maharashtra,2003-09,321,30,23
+Onion,Maharashtra,2003-10,294,30,24
+Onion,Maharashtra,2003-11,268,30,21
+Onion,Maharashtra,2003-12,324,31,21
+Onion,Maharashtra,2004-01,365,30,22
+Onion,Maharashtra,2004-02,317,29,22
+Onion,Maharashtra,2004-03,323,31,23
+Onion,Maharashtra,2004-04,291,30,23
+Onion,Maharashtra,2004-05,270,30,22
+Onion,Maharashtra,2004-06,323,30,22
+Onion,Maharashtra,2004-07,352,31,25
+Onion,Maharashtra,2004-08,404,31,28
+Onion,Maharashtra,2004-09,416,30,34
+Onion,Maharashtra,2004-10,389,31,32
+Onion,Maharashtra,2004-11,323,28,36
+Onion,Maharashtra,2004-12,464,31,38
+Onion,Maharashtra,2005-01,408,30,34
+Onion,Maharashtra,2005-02,428,28,36
+Onion,Maharashtra,2005-03,433,31,37
+Onion,Maharashtra,2005-04,414,30,37
+Onion,Maharashtra,2005-05,410,31,38
+Onion,Maharashtra,2005-06,446,30,41
+Onion,Maharashtra,2005-07,470,31,45
+Onion,Maharashtra,2005-08,430,31,44
+Onion,Maharashtra,2005-09,370,30,43
+Onion,Maharashtra,2005-10,444,31,39
+Onion,Maharashtra,2005-11,423,30,41
+Onion,Maharashtra,2005-12,451,31,45
+Onion,Maharashtra,2006-01,306,31,37
+Onion,Maharashtra,2006-02,197,28,25
+Onion,Maharashtra,2006-03,208,31,23
+Onion,Maharashtra,2006-04,182,30,23
+Onion,Maharashtra,2006-05,115,30,16
+Onion,Maharashtra,2006-06,173,30,20
+Onion,Maharashtra,2006-07,201,31,28
+Onion,Maharashtra,2006-08,235,31,30
+Onion,Maharashtra,2006-09,258,30,33
+Onion,Maharashtra,2006-10,297,31,37
+Onion,Maharashtra,2006-11,362,30,38
+Onion,Maharashtra,2006-12,382,30,48
+Onion,Maharashtra,2007-01,575,31,59
+Onion,Maharashtra,2007-02,589,28,58
+Onion,Maharashtra,2007-03,584,31,53
+Onion,Maharashtra,2007-04,684,30,58
+Onion,Maharashtra,2007-05,593,31,59
+Onion,Maharashtra,2007-06,705,30,60
+Onion,Maharashtra,2007-07,676,31,61
+Onion,Maharashtra,2007-08,640,31,59
+Onion,Maharashtra,2007-09,553,30,55
+Onion,Maharashtra,2007-10,519,31,47
+Onion,Maharashtra,2007-11,424,30,46
+Onion,Maharashtra,2007-12,370,31,45
+Onion,Maharashtra,2008-01,258,31,31
+Onion,Maharashtra,2008-02,159,29,29
+Onion,Maharashtra,2008-03,177,31,26
+Onion,Maharashtra,2008-04,165,30,28
+Onion,Maharashtra,2008-05,134,30,18
+Onion,Maharashtra,2008-06,277,30,31
+Onion,Maharashtra,2008-07,342,31,39
+Onion,Maharashtra,2008-08,207,27,30
+Onion,Maharashtra,2008-09,280,30,37
+Onion,Maharashtra,2008-10,262,31,32
+Onion,Maharashtra,2008-11,414,30,41
+Onion,Maharashtra,2008-12,502,31,46
+Onion,Maharashtra,2009-01,461,31,50
+Onion,Maharashtra,2009-02,643,28,57
+Onion,Maharashtra,2009-03,687,31,61
+Onion,Maharashtra,2009-04,591,30,56
+Onion,Maharashtra,2009-05,730,31,62
+Onion,Maharashtra,2009-06,673,30,63
+Onion,Maharashtra,2009-07,840,31,63
+Onion,Maharashtra,2009-08,648,29,58
+Onion,Maharashtra,2009-09,735,30,62
+Onion,Maharashtra,2009-10,686,31,62
+Onion,Maharashtra,2009-11,851,30,60
+Onion,Maharashtra,2009-12,869,31,56
+Onion,Maharashtra,2010-01,806,31,60
+Onion,Maharashtra,2010-02,701,28,59
+Onion,Maharashtra,2010-03,776,31,57
+Onion,Maharashtra,2010-04,707,30,58
+Onion,Maharashtra,2010-05,700,31,60
+Onion,Maharashtra,2010-06,662,30,58
+Onion,Maharashtra,2010-07,806,31,65
+Onion,Maharashtra,2010-08,772,31,63
+Onion,Maharashtra,2010-09,778,30,66
+Onion,Maharashtra,2010-10,774,31,65
+Onion,Maharashtra,2010-11,689,30,58
+Onion,Maharashtra,2010-12,823,31,67
+Onion,Maharashtra,2011-01,758,31,63
+Onion,Maharashtra,2011-02,754,28,66
+Onion,Maharashtra,2011-03,689,31,63
+Onion,Maharashtra,2011-04,701,30,67
+Onion,Maharashtra,2011-05,600,31,56
+Onion,Maharashtra,2011-06,740,30,61
+Onion,Maharashtra,2011-07,695,31,65
+Onion,Maharashtra,2011-08,714,31,64
+Onion,Maharashtra,2011-09,641,30,63
+Onion,Maharashtra,2011-10,612,31,60
+Onion,Maharashtra,2011-11,738,30,63
+Onion,Maharashtra,2011-12,784,31,60
+Onion,Maharashtra,2012-01,610,31,56
+Onion,Maharashtra,2012-02,496,29,49
+Onion,Maharashtra,2012-03,506,31,50
+Onion,Maharashtra,2012-04,558,30,61
+Onion,Maharashtra,2012-05,644,31,58
+Onion,Maharashtra,2012-06,615,30,60
+Onion,Maharashtra,2012-07,653,31,56
+Onion,Maharashtra,2012-08,644,31,61
+Onion,Maharashtra,2012-09,597,30,61
+Onion,Maharashtra,2012-10,698,31,60
+Onion,Maharashtra,2012-11,607,30,58
+Onion,Maharashtra,2012-12,727,30,59
+Onion,Maharashtra,2013-01,702,31,56
+Onion,Maharashtra,2013-02,668,28,55
+Onion,Maharashtra,2013-03,675,31,57
+Onion,Maharashtra,2013-04,664,30,57
+Onion,Maharashtra,2013-05,629,31,61
+Onion,Maharashtra,2013-06,743,30,61
+Onion,Maharashtra,2013-07,841,31,63
+Onion,Maharashtra,2013-08,508,31,61
+Onion,Maharashtra,2013-09,490,30,50
+Onion,Maharashtra,2013-10,669,31,56
+Onion,Maharashtra,2013-11,497,30,48
+Onion,Maharashtra,2013-12,520,31,46
+Onion,Maharashtra,2014-01,498,31,38
+Onion,Maharashtra,2014-02,338,28,39
+Onion,Maharashtra,2014-03,403,31,39
+Onion,Maharashtra,2014-04,339,30,40
+Onion,Maharashtra,2014-05,372,30,35
+Onion,Maharashtra,2014-06,493,30,46
+Onion,Maharashtra,2014-07,633,31,57
+Onion,Maharashtra,2014-08,424,31,50
+Onion,Maharashtra,2014-09,371,30,45
+Onion,Maharashtra,2014-10,385,31,45
+Onion,Maharashtra,2014-11,729,30,53
+Onion,Maharashtra,2014-12,792,31,57
+Onion,Maharashtra,2015-01,732,31,61
+Onion,Maharashtra,2015-02,618,28,58
+Onion,Maharashtra,2015-03,691,31,54
+Onion,Maharashtra,2015-04,804,30,63
+Onion,Maharashtra,2015-05,826,31,58
+Onion,Maharashtra,2015-06,953,30,64
+Onion,Maharashtra,2015-07,960,31,67
+Onion,Maharashtra,2015-08,886,31,67
+Onion,Maharashtra,2015-09,910,30,61
+Onion,Maharashtra,2015-10,1059,31,64
+Onion,Maharashtra,2015-11,828,30,70
+Onion,Maharashtra,2015-12,1214,31,74
+Onion,Maharashtra,2016-01,1183,31,76
+Onion,Maharashtra,2016-02,1182,29,78
+Onion,Maharashtra,2016-03,1171,31,77
+Onion,Maharashtra,2016-04,1037,30,77
+Onion,Maharashtra,2016-05,1234,31,81
+Onion,Maharashtra,2016-06,1376,30,81
+Onion,Maharashtra,2016-07,899,31,78
+Onion,Maharashtra,2016-08,1156,31,75
+Onion,Maharashtra,2016-09,739,28,70
+Onion,Maharashtra,2016-10,862,31,72
+Onion,Maharashtra,2016-11,989,30,73
+Onion,Maharashtra,2016-12,1136,31,75
+Onion,Maharashtra,2017-01,966,28,74
+Onion,Maharashtra,2017-02,829,26,73
+Onion,Maharashtra,2017-03,1124,31,73
+Onion,Maharashtra,2017-04,972,30,70
+Onion,Maharashtra,2017-05,1087,31,74
+Onion,Maharashtra,2017-06,953,30,75
+Onion,Maharashtra,2017-07,1129,31,74
+Onion,Maharashtra,2017-08,1011,31,71
+Onion,Maharashtra,2017-09,952,30,69
+Onion,Maharashtra,2017-10,986,31,69
+Onion,Maharashtra,2017-11,1204,30,67
+Onion,Maharashtra,2017-12,978,31,68
+Onion,Maharashtra,2018-01,1051,31,72
+Onion,Maharashtra,2018-02,954,28,71
+Onion,Maharashtra,2018-03,1109,31,74
+Onion,Maharashtra,2018-04,928,30,73
+Onion,Maharashtra,2018-05,1101,31,74
+Onion,Maharashtra,2018-06,1197,30,77
+Onion,Maharashtra,2018-07,1163,31,77
+Onion,Maharashtra,2018-08,1063,31,75
+Onion,Maharashtra,2018-09,1026,30,73
+Onion,Maharashtra,2018-10,1164,31,72
+Onion,Maharashtra,2018-11,992,30,73
+Onion,Maharashtra,2018-12,1451,31,78
+Onion,Maharashtra,2019-01,1332,31,75
+Onion,Maharashtra,2019-02,1041,28,73
+Onion,Maharashtra,2019-03,1091,31,75
+Onion,Maharashtra,2019-04,972,30,74
+Onion,Maharashtra,2019-05,923,28,73
+Onion,Maharashtra,2019-06,1087,30,75
+Onion,Maharashtra,2019-07,1169,31,78
+Onion,Maharashtra,2019-08,1031,31,72
+Onion,Maharashtra,2019-09,1000,30,73
+Onion,Maharashtra,2019-10,899,31,71
+Onion,Maharashtra,2019-11,1201,30,75
+Onion,Maharashtra,2019-12,1139,31,71
+Onion,Maharashtra,2020-01,1106,31,72
+Onion,Maharashtra,2020-02,1057,29,73
+Onion,Maharashtra,2020-03,993,31,76
+Onion,Maharashtra,2020-04,243,20,53
+Onion,Maharashtra,2020-05,713,30,67
+Onion,Maharashtra,2020-06,1196,30,78
+Onion,Maharashtra,2020-07,1058,31,76
+Onion,Maharashtra,2020-08,1071,31,75
+Onion,Maharashtra,2020-09,1210,30,77
+Onion,Maharashtra,2020-10,678,21,71
+Onion,Maharashtra,2020-11,1171,30,70
+Onion,Maharashtra,2020-12,1504,31,75
+Onion,Maharashtra,2021-01,1003,29,76
+Onion,Maharashtra,2021-02,1109,28,77
+Onion,Maharashtra,2021-03,1136,29,75
+Onion,Maharashtra,2021-04,1155,30,76
+Onion,Maharashtra,2021-05,1004,31,76
+Onion,Maharashtra,2021-06,1344,30,79
+Onion,Maharashtra,2021-07,1284,31,76
+Onion,Maharashtra,2021-08,1255,31,72
+Onion,Maharashtra,2021-09,1245,30,76
+Onion,Maharashtra,2021-10,1206,31,75
+Onion,Maharashtra,2021-11,1227,30,78
+Onion,Maharashtra,2021-12,1709,31,79
+Onion,Maharashtra,2022-01,1166,31,76
+Onion,Maharashtra,2022-02,1241,28,76
+Onion,Maharashtra,2022-03,1444,31,79
+Onion,Maharashtra,2022-04,1275,30,77
+Onion,Maharashtra,2022-05,1140,31,77
+Onion,Maharashtra,2022-06,1223,30,81
+Onion,Maharashtra,2022-07,1359,31,81
+Onion,Maharashtra,2022-08,1240,31,79
+Onion,Maharashtra,2022-09,909,30,76
+Onion,Maharashtra,2022-10,1059,31,75
+Onion,Maharashtra,2022-11,1165,30,76
+Onion,Maharashtra,2022-12,1492,31,79
+Onion,Maharashtra,2023-01,990,31,80
+Onion,Maharashtra,2023-02,1229,28,78
+Onion,Maharashtra,2023-03,1593,31,85
+Onion,Maharashtra,2023-04,1337,30,81
+Onion,Maharashtra,2023-05,1373,31,85
+Onion,Maharashtra,2023-06,1453,30,88
+Onion,Maharashtra,2023-07,1635,31,93
+Onion,Maharashtra,2023-08,1460,31,94
+Onion,Maharashtra,2023-09,1121,30,90
+Onion,Maharashtra,2023-10,1350,31,87
+Onion,Maharashtra,2023-11,1214,29,83
+Onion,Maharashtra,2023-12,1511,30,85
+Onion,Maharashtra,2024-01,1349,31,82
+Onion,Maharashtra,2024-02,1288,29,85
+Onion,Maharashtra,2024-03,1537,31,89
+Onion,Maharashtra,2024-04,850,27,89
+Onion,Maharashtra,2024-05,1426,31,93
+Onion,Maharashtra,2024-06,1354,30,93
+Onion,Maharashtra,2024-07,1519,31,92
+Onion,Maharashtra,2024-08,1467,31,92
+Onion,Maharashtra,2024-09,1431,30,92
+Onion,Maharashtra,2024-10,1518,30,89
+Onion,Maharashtra,2024-11,1430,29,87
+Onion,Maharashtra,2024-12,1575,31,88
+Onion,Maharashtra,2025-01,1539,31,90
+Onion,Maharashtra,2025-02,1213,28,85
+Onion,Maharashtra,2025-03,1570,31,88
+Onion,Maharashtra,2025-04,1454,30,91
+Onion,Maharashtra,2025-05,1516,30,91
+Onion,Maharashtra,2025-06,1580,30,94
+Onion,Maharashtra,2025-07,1598,31,90
+Onion,Maharashtra,2025-08,1376,31,92
+Onion,Maharashtra,2025-09,1179,30,88
+Onion,Maharashtra,2025-10,783,30,86
+Onion,Maharashtra,2025-11,77,4,56
+Onion,Maharashtra,2025-12,385,29,66
+Onion,Maharashtra,2026-01,431,31,72
+Onion,Maharashtra,2026-02,365,27,75
+Onion,Maharashtra,2026-03,342,21,78
+Onion,Maharashtra,2026-04,311,20,79
+Onion,Tamil Nadu,2004-05,1,1,1
+Onion,Tamil Nadu,2005-09,3,3,1
+Onion,Tamil Nadu,2005-10,16,16,1
+Onion,Tamil Nadu,2005-11,7,7,1
+Onion,Tamil Nadu,2005-12,15,15,1
+Onion,Tamil Nadu,2006-01,7,7,1
+Onion,Tamil Nadu,2006-03,1,1,1
+Onion,Tamil Nadu,2006-07,16,16,1
+Onion,Tamil Nadu,2006-08,21,21,1
+Onion,Tamil Nadu,2006-09,4,4,1
+Onion,Tamil Nadu,2006-12,10,10,1
+Onion,Tamil Nadu,2007-01,10,10,1
+Onion,Tamil Nadu,2007-02,11,11,1
+Onion,Tamil Nadu,2007-03,14,14,1
+Onion,Tamil Nadu,2007-04,14,14,1
+Onion,Tamil Nadu,2007-05,13,13,1
+Onion,Tamil Nadu,2007-06,4,4,1
+Onion,Tamil Nadu,2007-07,15,10,3
+Onion,Tamil Nadu,2007-08,13,13,1
+Onion,Tamil Nadu,2007-09,6,6,1
+Onion,Tamil Nadu,2007-12,15,12,2
+Onion,Tamil Nadu,2008-01,3,3,1
+Onion,Tamil Nadu,2008-02,3,3,1
+Onion,Tamil Nadu,2008-03,18,18,1
+Onion,Tamil Nadu,2008-04,11,11,1
+Onion,Tamil Nadu,2008-05,9,9,1
+Onion,Tamil Nadu,2008-06,30,30,1
+Onion,Tamil Nadu,2008-07,22,22,1
+Onion,Tamil Nadu,2008-12,5,5,1
+Onion,Tamil Nadu,2009-01,11,11,1
+Onion,Tamil Nadu,2009-02,4,2,1
+Onion,Tamil Nadu,2009-03,16,12,2
+Onion,Tamil Nadu,2009-04,7,7,1
+Onion,Tamil Nadu,2009-05,10,10,1
+Onion,Tamil Nadu,2009-06,18,18,1
+Onion,Tamil Nadu,2009-07,23,23,1
+Onion,Tamil Nadu,2009-08,20,20,1
+Onion,Tamil Nadu,2009-09,19,19,1
+Onion,Tamil Nadu,2009-10,21,21,1
+Onion,Tamil Nadu,2009-11,21,21,1
+Onion,Tamil Nadu,2009-12,21,21,1
+Onion,Tamil Nadu,2010-01,17,17,1
+Onion,Tamil Nadu,2010-02,15,15,1
+Onion,Tamil Nadu,2010-03,22,22,2
+Onion,Tamil Nadu,2010-04,16,16,1
+Onion,Tamil Nadu,2010-05,11,11,1
+Onion,Tamil Nadu,2010-06,22,22,1
+Onion,Tamil Nadu,2010-07,39,24,2
+Onion,Tamil Nadu,2010-08,48,22,2
+Onion,Tamil Nadu,2010-09,35,21,2
+Onion,Tamil Nadu,2010-10,21,21,2
+Onion,Tamil Nadu,2010-11,37,21,2
+Onion,Tamil Nadu,2010-12,27,16,2
+Onion,Tamil Nadu,2011-01,18,18,1
+Onion,Tamil Nadu,2011-02,19,19,1
+Onion,Tamil Nadu,2011-03,26,22,2
+Onion,Tamil Nadu,2011-04,9,9,1
+Onion,Tamil Nadu,2011-05,22,22,1
+Onion,Tamil Nadu,2011-06,22,22,1
+Onion,Tamil Nadu,2011-07,20,20,1
+Onion,Tamil Nadu,2011-08,21,21,1
+Onion,Tamil Nadu,2011-09,25,21,2
+Onion,Tamil Nadu,2011-10,24,18,2
+Onion,Tamil Nadu,2011-11,22,21,2
+Onion,Tamil Nadu,2011-12,22,22,1
+Onion,Tamil Nadu,2012-01,3,3,1
+Onion,Tamil Nadu,2012-02,21,21,1
+Onion,Tamil Nadu,2012-03,21,21,1
+Onion,Tamil Nadu,2012-04,16,16,1
+Onion,Tamil Nadu,2012-05,10,10,1
+Onion,Tamil Nadu,2012-06,7,7,1
+Onion,Tamil Nadu,2012-07,11,11,1
+Onion,Tamil Nadu,2012-08,9,9,1
+Onion,Tamil Nadu,2012-10,2,2,1
+Onion,Tamil Nadu,2013-02,3,3,1
+Onion,Tamil Nadu,2013-03,10,10,1
+Onion,Tamil Nadu,2014-03,1,1,1
+Onion,Tamil Nadu,2014-04,8,8,1
+Onion,Tamil Nadu,2014-05,1,1,1
+Onion,Tamil Nadu,2014-06,3,3,1
+Onion,Tamil Nadu,2014-07,2,1,1
+Onion,Tamil Nadu,2014-08,1,1,1
+Onion,Tamil Nadu,2016-11,2,2,1
+Onion,Tamil Nadu,2017-05,1,1,1
+Onion,Tamil Nadu,2018-05,1,1,1
+Onion,Tamil Nadu,2018-07,1,1,1
+Onion,Tamil Nadu,2018-10,1,1,1
+Onion,Tamil Nadu,2018-11,2,2,2
+Onion,Tamil Nadu,2023-08,4,4,1
+Onion,Tamil Nadu,2023-09,5,5,1
+Onion,Tamil Nadu,2023-10,6,6,1
+Onion,Tamil Nadu,2023-11,1,1,1
+Onion,Tamil Nadu,2023-12,2,2,1
+Onion,Tamil Nadu,2024-01,3,3,1
+Onion,Tamil Nadu,2024-02,7,7,1
+Onion,Tamil Nadu,2024-03,2,2,1
+Onion,Tamil Nadu,2024-06,1130,13,87
+Onion,Tamil Nadu,2024-07,3993,31,243
+Onion,Tamil Nadu,2024-08,5039,31,164
+Onion,Tamil Nadu,2024-09,4879,30,166
+Onion,Tamil Nadu,2024-10,5030,31,165
+Onion,Tamil Nadu,2024-11,4646,29,166
+Onion,Tamil Nadu,2024-12,4844,30,166
+Onion,Tamil Nadu,2025-01,4943,31,164
+Onion,Tamil Nadu,2025-02,4500,28,165
+Onion,Tamil Nadu,2025-03,4813,30,163
+Onion,Tamil Nadu,2025-04,4878,30,163
+Onion,Tamil Nadu,2025-05,4874,30,164
+Onion,Tamil Nadu,2025-06,4554,28,163
+Onion,Tamil Nadu,2025-07,4312,27,164
+Onion,Tamil Nadu,2025-08,4350,27,163
+Onion,Tamil Nadu,2025-09,3745,29,163
+Onion,Tamil Nadu,2025-10,2677,26,162
+Onion,Tamil Nadu,2025-11,233,4,128
+Onion,Tamil Nadu,2025-12,1649,29,161
+Onion,Tamil Nadu,2026-01,1995,31,161
+Onion,Tamil Nadu,2026-02,1790,27,176
+Onion,Tamil Nadu,2026-03,1398,23,176
+Onion,Tamil Nadu,2026-04,1368,20,331
+Potato,Karnataka,2001-01,1,1,1
+Potato,Karnataka,2001-11,1,1,1
+Potato,Karnataka,2001-12,2,2,2
+Potato,Karnataka,2002-01,37,21,6
+Potato,Karnataka,2002-02,58,25,5
+Potato,Karnataka,2002-03,53,23,8
+Potato,Karnataka,2002-04,182,29,20
+Potato,Karnataka,2002-05,184,30,17
+Potato,Karnataka,2002-06,183,30,21
+Potato,Karnataka,2002-07,232,31,22
+Potato,Karnataka,2002-08,226,31,24
+Potato,Karnataka,2002-09,298,30,29
+Potato,Karnataka,2002-10,263,31,27
+Potato,Karnataka,2002-11,284,30,27
+Potato,Karnataka,2002-12,230,31,20
+Potato,Karnataka,2003-01,280,31,24
+Potato,Karnataka,2003-02,257,28,23
+Potato,Karnataka,2003-03,215,31,20
+Potato,Karnataka,2003-04,179,30,21
+Potato,Karnataka,2003-05,229,31,21
+Potato,Karnataka,2003-06,221,30,20
+Potato,Karnataka,2003-07,238,31,20
+Potato,Karnataka,2003-08,227,31,24
+Potato,Karnataka,2003-09,255,30,29
+Potato,Karnataka,2003-10,259,31,27
+Potato,Karnataka,2003-11,216,30,24
+Potato,Karnataka,2003-12,142,24,20
+Potato,Karnataka,2004-01,244,31,26
+Potato,Karnataka,2004-02,225,29,24
+Potato,Karnataka,2004-03,234,31,25
+Potato,Karnataka,2004-04,153,28,21
+Potato,Karnataka,2004-05,106,28,19
+Potato,Karnataka,2004-06,113,25,16
+Potato,Karnataka,2004-07,101,27,16
+Potato,Karnataka,2004-08,182,31,24
+Potato,Karnataka,2004-09,289,30,27
+Potato,Karnataka,2004-10,230,31,26
+Potato,Karnataka,2004-11,221,30,24
+Potato,Karnataka,2004-12,224,31,20
+Potato,Karnataka,2005-01,224,31,21
+Potato,Karnataka,2005-02,217,28,23
+Potato,Karnataka,2005-03,231,31,23
+Potato,Karnataka,2005-04,195,30,20
+Potato,Karnataka,2005-05,218,31,20
+Potato,Karnataka,2005-06,247,30,19
+Potato,Karnataka,2005-07,171,31,18
+Potato,Karnataka,2005-08,217,31,25
+Potato,Karnataka,2005-09,256,30,29
+Potato,Karnataka,2005-10,222,28,28
+Potato,Karnataka,2005-11,115,19,20
+Potato,Karnataka,2005-12,120,18,18
+Potato,Karnataka,2006-01,175,30,19
+Potato,Karnataka,2006-02,199,28,18
+Potato,Karnataka,2006-03,225,31,21
+Potato,Karnataka,2006-04,179,30,18
+Potato,Karnataka,2006-05,195,31,19
+Potato,Karnataka,2006-06,182,30,19
+Potato,Karnataka,2006-07,170,31,17
+Potato,Karnataka,2006-08,261,31,24
+Potato,Karnataka,2006-09,329,30,25
+Potato,Karnataka,2006-10,240,31,25
+Potato,Karnataka,2006-11,199,30,23
+Potato,Karnataka,2006-12,127,26,17
+Potato,Karnataka,2007-01,116,28,19
+Potato,Karnataka,2007-02,83,18,15
+Potato,Karnataka,2007-03,165,30,19
+Potato,Karnataka,2007-04,151,28,18
+Potato,Karnataka,2007-05,165,31,18
+Potato,Karnataka,2007-06,191,30,22
+Potato,Karnataka,2007-07,172,31,19
+Potato,Karnataka,2007-08,246,30,25
+Potato,Karnataka,2007-09,247,29,29
+Potato,Karnataka,2007-10,243,31,25
+Potato,Karnataka,2007-11,206,30,23
+Potato,Karnataka,2007-12,161,24,21
+Potato,Karnataka,2008-01,173,29,21
+Potato,Karnataka,2008-02,214,29,22
+Potato,Karnataka,2008-03,216,31,23
+Potato,Karnataka,2008-04,202,30,22
+Potato,Karnataka,2008-05,222,31,22
+Potato,Karnataka,2008-06,237,30,25
+Potato,Karnataka,2008-07,224,31,20
+Potato,Karnataka,2008-08,295,31,30
+Potato,Karnataka,2008-09,224,27,25
+Potato,Karnataka,2008-10,249,31,26
+Potato,Karnataka,2008-11,204,30,23
+Potato,Karnataka,2008-12,113,16,19
+Potato,Karnataka,2009-01,178,28,21
+Potato,Karnataka,2009-02,215,28,21
+Potato,Karnataka,2009-03,218,31,23
+Potato,Karnataka,2009-04,220,30,22
+Potato,Karnataka,2009-05,157,26,18
+Potato,Karnataka,2009-06,253,30,20
+Potato,Karnataka,2009-07,240,31,23
+Potato,Karnataka,2009-08,90,29,18
+Potato,Karnataka,2009-09,57,28,13
+Potato,Karnataka,2009-10,284,30,27
+Potato,Karnataka,2009-11,233,29,28
+Potato,Karnataka,2009-12,230,30,19
+Potato,Karnataka,2010-01,261,30,21
+Potato,Karnataka,2010-02,195,25,18
+Potato,Karnataka,2010-03,244,26,20
+Potato,Karnataka,2010-04,224,25,20
+Potato,Karnataka,2010-05,245,29,20
+Potato,Karnataka,2010-06,235,27,19
+Potato,Karnataka,2010-07,203,28,23
+Potato,Karnataka,2010-08,263,26,27
+Potato,Karnataka,2010-09,298,30,27
+Potato,Karnataka,2010-10,313,30,28
+Potato,Karnataka,2010-11,144,28,19
+Potato,Karnataka,2010-12,308,27,29
+Potato,Karnataka,2011-01,234,28,19
+Potato,Karnataka,2011-02,290,25,22
+Potato,Karnataka,2011-03,205,28,19
+Potato,Karnataka,2011-04,260,25,26
+Potato,Karnataka,2011-05,272,28,23
+Potato,Karnataka,2011-06,323,30,23
+Potato,Karnataka,2011-07,281,31,23
+Potato,Karnataka,2011-08,306,31,31
+Potato,Karnataka,2011-09,364,30,31
+Potato,Karnataka,2011-10,289,31,28
+Potato,Karnataka,2011-11,326,30,29
+Potato,Karnataka,2011-12,323,31,25
+Potato,Karnataka,2012-01,365,31,24
+Potato,Karnataka,2012-02,377,29,30
+Potato,Karnataka,2012-03,405,31,31
+Potato,Karnataka,2012-04,339,30,24
+Potato,Karnataka,2012-05,332,31,22
+Potato,Karnataka,2012-06,313,30,22
+Potato,Karnataka,2012-07,331,31,22
+Potato,Karnataka,2012-08,336,31,29
+Potato,Karnataka,2012-09,381,30,33
+Potato,Karnataka,2012-10,370,31,36
+Potato,Karnataka,2012-11,308,30,31
+Potato,Karnataka,2012-12,359,31,27
+Potato,Karnataka,2013-01,338,31,22
+Potato,Karnataka,2013-02,306,28,26
+Potato,Karnataka,2013-03,306,31,25
+Potato,Karnataka,2013-04,299,30,22
+Potato,Karnataka,2013-05,322,31,21
+Potato,Karnataka,2013-06,295,30,21
+Potato,Karnataka,2013-07,333,31,25
+Potato,Karnataka,2013-08,169,30,26
+Potato,Karnataka,2013-09,277,28,33
+Potato,Karnataka,2013-10,203,25,25
+Potato,Karnataka,2013-11,16,13,4
+Potato,Karnataka,2013-12,11,11,2
+Potato,Karnataka,2014-01,344,30,24
+Potato,Karnataka,2014-02,282,28,19
+Potato,Karnataka,2014-03,264,31,18
+Potato,Karnataka,2014-04,222,28,14
+Potato,Karnataka,2014-05,244,30,15
+Potato,Karnataka,2014-06,185,29,14
+Potato,Karnataka,2014-07,200,31,16
+Potato,Karnataka,2014-08,180,30,17
+Potato,Karnataka,2014-09,281,30,22
+Potato,Karnataka,2014-10,194,28,20
+Potato,Karnataka,2014-11,140,28,17
+Potato,Karnataka,2014-12,131,29,10
+Potato,Karnataka,2015-01,353,31,22
+Potato,Karnataka,2015-02,278,28,19
+Potato,Karnataka,2015-03,275,31,22
+Potato,Karnataka,2015-04,236,30,23
+Potato,Karnataka,2015-05,248,29,21
+Potato,Karnataka,2015-06,230,30,19
+Potato,Karnataka,2015-07,214,30,19
+Potato,Karnataka,2015-08,265,30,24
+Potato,Karnataka,2015-09,300,30,24
+Potato,Karnataka,2015-10,283,31,22
+Potato,Karnataka,2015-11,249,29,24
+Potato,Karnataka,2015-12,321,31,23
+Potato,Karnataka,2016-01,206,27,20
+Potato,Karnataka,2016-02,169,26,16
+Potato,Karnataka,2016-03,250,30,19
+Potato,Karnataka,2016-04,207,29,21
+Potato,Karnataka,2016-05,228,30,17
+Potato,Karnataka,2016-06,227,30,18
+Potato,Karnataka,2016-07,215,31,18
+Potato,Karnataka,2016-08,262,30,22
+Potato,Karnataka,2016-09,282,30,20
+Potato,Karnataka,2016-10,262,29,21
+Potato,Karnataka,2016-11,244,28,21
+Potato,Karnataka,2016-12,258,29,19
+Potato,Karnataka,2017-01,217,27,19
+Potato,Karnataka,2017-02,209,25,17
+Potato,Karnataka,2017-03,258,31,18
+Potato,Karnataka,2017-04,230,28,18
+Potato,Karnataka,2017-05,240,30,18
+Potato,Karnataka,2017-06,217,30,17
+Potato,Karnataka,2017-07,225,31,18
+Potato,Karnataka,2017-08,254,31,21
+Potato,Karnataka,2017-09,236,30,20
+Potato,Karnataka,2017-10,196,28,21
+Potato,Karnataka,2017-11,247,30,18
+Potato,Karnataka,2017-12,259,31,19
+Potato,Karnataka,2018-01,256,31,17
+Potato,Karnataka,2018-02,232,28,16
+Potato,Karnataka,2018-03,234,29,16
+Potato,Karnataka,2018-04,172,28,18
+Potato,Karnataka,2018-05,233,30,15
+Potato,Karnataka,2018-06,215,29,17
+Potato,Karnataka,2018-07,207,31,18
+Potato,Karnataka,2018-08,253,31,22
+Potato,Karnataka,2018-09,249,29,20
+Potato,Karnataka,2018-10,212,29,19
+Potato,Karnataka,2018-11,212,28,16
+Potato,Karnataka,2018-12,265,30,19
+Potato,Karnataka,2019-01,240,31,18
+Potato,Karnataka,2019-02,259,28,17
+Potato,Karnataka,2019-03,243,31,17
+Potato,Karnataka,2019-04,198,29,17
+Potato,Karnataka,2019-05,222,30,16
+Potato,Karnataka,2019-06,146,23,11
+Potato,Karnataka,2019-07,131,24,14
+Potato,Karnataka,2019-08,199,29,20
+Potato,Karnataka,2019-09,247,30,22
+Potato,Karnataka,2019-10,214,30,21
+Potato,Karnataka,2019-11,233,28,21
+Potato,Karnataka,2019-12,261,30,22
+Potato,Karnataka,2020-01,258,29,19
+Potato,Karnataka,2020-02,212,27,18
+Potato,Karnataka,2020-03,234,29,20
+Potato,Karnataka,2020-04,591,30,36
+Potato,Karnataka,2020-05,557,31,30
+Potato,Karnataka,2020-06,407,30,26
+Potato,Karnataka,2020-07,378,31,26
+Potato,Karnataka,2020-08,374,31,27
+Potato,Karnataka,2020-09,397,30,27
+Potato,Karnataka,2020-10,349,31,25
+Potato,Karnataka,2020-11,308,30,23
+Potato,Karnataka,2020-12,324,31,23
+Potato,Karnataka,2021-01,313,31,24
+Potato,Karnataka,2021-02,296,27,21
+Potato,Karnataka,2021-03,358,31,23
+Potato,Karnataka,2021-04,268,29,22
+Potato,Karnataka,2021-05,388,31,24
+Potato,Karnataka,2021-06,374,30,22
+Potato,Karnataka,2021-07,409,31,23
+Potato,Karnataka,2021-08,402,31,28
+Potato,Karnataka,2021-09,397,29,24
+Potato,Karnataka,2021-10,337,30,25
+Potato,Karnataka,2021-11,339,29,26
+Potato,Karnataka,2021-12,434,31,27
+Potato,Karnataka,2022-01,403,31,27
+Potato,Karnataka,2022-02,376,28,25
+Potato,Karnataka,2022-03,417,31,28
+Potato,Karnataka,2022-04,357,29,24
+Potato,Karnataka,2022-05,373,31,21
+Potato,Karnataka,2022-06,348,30,21
+Potato,Karnataka,2022-07,342,31,23
+Potato,Karnataka,2022-08,340,31,24
+Potato,Karnataka,2022-09,363,30,25
+Potato,Karnataka,2022-10,324,31,24
+Potato,Karnataka,2022-11,352,30,25
+Potato,Karnataka,2022-12,392,31,26
+Potato,Karnataka,2023-01,386,30,26
+Potato,Karnataka,2023-02,348,28,24
+Potato,Karnataka,2023-03,370,31,26
+Potato,Karnataka,2023-04,348,30,27
+Potato,Karnataka,2023-05,358,30,25
+Potato,Karnataka,2023-06,366,30,26
+Potato,Karnataka,2023-07,346,31,28
+Potato,Karnataka,2023-08,314,30,27
+Potato,Karnataka,2023-09,251,29,26
+Potato,Karnataka,2023-10,297,30,30
+Potato,Karnataka,2023-11,270,26,25
+Potato,Karnataka,2023-12,285,27,22
+Potato,Karnataka,2024-01,247,30,22
+Potato,Karnataka,2024-02,274,28,23
+Potato,Karnataka,2024-03,277,31,20
+Potato,Karnataka,2024-04,234,27,20
+Potato,Karnataka,2024-05,292,31,20
+Potato,Karnataka,2024-06,286,29,19
+Potato,Karnataka,2024-07,294,31,20
+Potato,Karnataka,2024-08,270,31,20
+Potato,Karnataka,2024-09,251,29,21
+Potato,Karnataka,2024-10,247,29,19
+Potato,Karnataka,2024-11,180,26,20
+Potato,Karnataka,2024-12,260,31,23
+Potato,Karnataka,2025-01,294,31,22
+Potato,Karnataka,2025-02,254,28,21
+Potato,Karnataka,2025-03,106,26,19
+Potato,Karnataka,2025-04,157,27,16
+Potato,Karnataka,2025-05,163,30,16
+Potato,Karnataka,2025-06,188,29,17
+Potato,Karnataka,2025-07,200,31,15
+Potato,Karnataka,2025-08,137,31,13
+Potato,Karnataka,2025-09,170,30,15
+Potato,Karnataka,2025-10,105,26,16
+Potato,Karnataka,2025-11,5,3,5
+Potato,Karnataka,2025-12,81,21,15
+Potato,Karnataka,2026-01,84,26,17
+Potato,Karnataka,2026-02,74,23,22
+Potato,Karnataka,2026-03,57,19,20
+Potato,Karnataka,2026-04,56,15,21
+Potato,Madhya Pradesh,2002-03,6,6,2
+Potato,Madhya Pradesh,2002-04,20,20,1
+Potato,Madhya Pradesh,2002-05,24,24,1
+Potato,Madhya Pradesh,2002-06,23,23,1
+Potato,Madhya Pradesh,2002-07,42,27,4
+Potato,Madhya Pradesh,2002-08,95,30,6
+Potato,Madhya Pradesh,2002-09,115,30,7
+Potato,Madhya Pradesh,2002-10,103,31,7
+Potato,Madhya Pradesh,2002-11,113,29,8
+Potato,Madhya Pradesh,2002-12,134,31,8
+Potato,Madhya Pradesh,2003-01,159,31,7
+Potato,Madhya Pradesh,2003-02,127,28,7
+Potato,Madhya Pradesh,2003-03,150,31,8
+Potato,Madhya Pradesh,2003-04,159,30,8
+Potato,Madhya Pradesh,2003-05,142,31,7
+Potato,Madhya Pradesh,2003-06,84,26,6
+Potato,Madhya Pradesh,2003-07,105,31,7
+Potato,Madhya Pradesh,2003-08,83,30,6
+Potato,Madhya Pradesh,2003-09,65,30,4
+Potato,Madhya Pradesh,2003-10,68,30,4
+Potato,Madhya Pradesh,2003-11,90,30,5
+Potato,Madhya Pradesh,2003-12,87,31,5
+Potato,Madhya Pradesh,2004-01,121,31,6
+Potato,Madhya Pradesh,2004-02,111,29,6
+Potato,Madhya Pradesh,2004-03,114,31,6
+Potato,Madhya Pradesh,2004-04,94,30,6
+Potato,Madhya Pradesh,2004-05,96,31,6
+Potato,Madhya Pradesh,2004-06,104,29,6
+Potato,Madhya Pradesh,2004-07,109,31,6
+Potato,Madhya Pradesh,2004-08,108,31,5
+Potato,Madhya Pradesh,2004-09,103,30,6
+Potato,Madhya Pradesh,2004-10,71,30,5
+Potato,Madhya Pradesh,2004-11,37,20,3
+Potato,Madhya Pradesh,2004-12,57,31,4
+Potato,Madhya Pradesh,2005-01,57,30,3
+Potato,Madhya Pradesh,2005-02,67,27,5
+Potato,Madhya Pradesh,2005-03,54,28,5
+Potato,Madhya Pradesh,2005-04,52,27,5
+Potato,Madhya Pradesh,2005-05,50,29,3
+Potato,Madhya Pradesh,2005-06,61,28,4
+Potato,Madhya Pradesh,2005-07,49,27,3
+Potato,Madhya Pradesh,2005-08,79,27,5
+Potato,Madhya Pradesh,2005-09,65,28,5
+Potato,Madhya Pradesh,2005-10,55,28,5
+Potato,Madhya Pradesh,2005-11,64,25,6
+Potato,Madhya Pradesh,2005-12,69,29,4
+Potato,Madhya Pradesh,2006-01,106,30,6
+Potato,Madhya Pradesh,2006-02,79,27,5
+Potato,Madhya Pradesh,2006-03,60,27,6
+Potato,Madhya Pradesh,2006-04,68,28,5
+Potato,Madhya Pradesh,2006-05,59,27,5
+Potato,Madhya Pradesh,2006-06,66,27,4
+Potato,Madhya Pradesh,2006-07,62,29,4
+Potato,Madhya Pradesh,2006-08,40,23,5
+Potato,Madhya Pradesh,2006-09,53,28,4
+Potato,Madhya Pradesh,2006-10,39,25,4
+Potato,Madhya Pradesh,2006-11,37,20,4
+Potato,Madhya Pradesh,2006-12,22,20,3
+Potato,Madhya Pradesh,2007-01,34,22,5
+Potato,Madhya Pradesh,2007-02,49,23,4
+Potato,Madhya Pradesh,2007-03,36,23,3
+Potato,Madhya Pradesh,2007-04,38,22,3
+Potato,Madhya Pradesh,2007-05,33,22,4
+Potato,Madhya Pradesh,2007-06,32,23,3
+Potato,Madhya Pradesh,2007-07,14,13,2
+Potato,Madhya Pradesh,2007-08,16,16,1
+Potato,Madhya Pradesh,2007-09,12,12,2
+Potato,Madhya Pradesh,2007-10,17,17,1
+Potato,Madhya Pradesh,2007-11,22,21,2
+Potato,Madhya Pradesh,2007-12,30,23,3
+Potato,Madhya Pradesh,2008-01,30,24,2
+Potato,Madhya Pradesh,2008-02,35,23,3
+Potato,Madhya Pradesh,2008-03,27,19,3
+Potato,Madhya Pradesh,2008-04,14,14,1
+Potato,Madhya Pradesh,2008-05,11,9,2
+Potato,Madhya Pradesh,2008-06,15,15,1
+Potato,Madhya Pradesh,2008-08,42,26,3
+Potato,Madhya Pradesh,2008-09,37,26,2
+Potato,Madhya Pradesh,2008-10,27,21,2
+Potato,Madhya Pradesh,2008-11,24,22,3
+Potato,Madhya Pradesh,2008-12,28,24,2
+Potato,Madhya Pradesh,2009-01,37,25,2
+Potato,Madhya Pradesh,2009-02,50,27,3
+Potato,Madhya Pradesh,2009-03,63,29,3
+Potato,Madhya Pradesh,2009-04,17,12,3
+Potato,Madhya Pradesh,2009-05,26,20,5
+Potato,Madhya Pradesh,2009-06,11,10,2
+Potato,Madhya Pradesh,2009-07,1,1,1
+Potato,Madhya Pradesh,2009-08,108,31,8
+Potato,Madhya Pradesh,2009-09,167,30,9
+Potato,Madhya Pradesh,2009-10,208,31,10
+Potato,Madhya Pradesh,2009-11,216,30,10
+Potato,Madhya Pradesh,2009-12,233,31,12
+Potato,Madhya Pradesh,2010-01,211,31,12
+Potato,Madhya Pradesh,2010-02,204,28,12
+Potato,Madhya Pradesh,2010-03,210,31,13
+Potato,Madhya Pradesh,2010-04,179,30,12
+Potato,Madhya Pradesh,2010-05,144,31,10
+Potato,Madhya Pradesh,2010-06,128,30,8
+Potato,Madhya Pradesh,2010-07,113,31,8
+Potato,Madhya Pradesh,2010-08,143,31,9
+Potato,Madhya Pradesh,2010-09,177,30,12
+Potato,Madhya Pradesh,2010-10,251,31,16
+Potato,Madhya Pradesh,2010-11,274,30,16
+Potato,Madhya Pradesh,2010-12,219,31,16
+Potato,Madhya Pradesh,2011-01,327,31,19
+Potato,Madhya Pradesh,2011-02,247,28,18
+Potato,Madhya Pradesh,2011-03,295,31,18
+Potato,Madhya Pradesh,2011-04,234,30,15
+Potato,Madhya Pradesh,2011-05,177,31,12
+Potato,Madhya Pradesh,2011-06,236,30,15
+Potato,Madhya Pradesh,2011-07,339,31,17
+Potato,Madhya Pradesh,2011-08,372,31,19
+Potato,Madhya Pradesh,2011-09,364,30,20
+Potato,Madhya Pradesh,2011-10,344,31,20
+Potato,Madhya Pradesh,2011-11,390,30,21
+Potato,Madhya Pradesh,2011-12,331,31,20
+Potato,Madhya Pradesh,2012-01,333,31,22
+Potato,Madhya Pradesh,2012-02,318,29,19
+Potato,Madhya Pradesh,2012-03,288,31,20
+Potato,Madhya Pradesh,2012-04,251,30,18
+Potato,Madhya Pradesh,2012-05,247,31,19
+Potato,Madhya Pradesh,2012-06,287,30,21
+Potato,Madhya Pradesh,2012-07,313,31,19
+Potato,Madhya Pradesh,2012-08,295,31,19
+Potato,Madhya Pradesh,2012-09,355,30,23
+Potato,Madhya Pradesh,2012-10,350,31,17
+Potato,Madhya Pradesh,2012-11,346,30,16
+Potato,Madhya Pradesh,2012-12,375,31,16
+Potato,Madhya Pradesh,2013-01,340,31,16
+Potato,Madhya Pradesh,2013-02,344,28,17
+Potato,Madhya Pradesh,2013-03,348,31,16
+Potato,Madhya Pradesh,2013-04,271,30,16
+Potato,Madhya Pradesh,2013-05,241,31,18
+Potato,Madhya Pradesh,2013-06,209,30,14
+Potato,Madhya Pradesh,2013-07,233,31,16
+Potato,Madhya Pradesh,2013-08,285,31,16
+Potato,Madhya Pradesh,2013-09,282,30,15
+Potato,Madhya Pradesh,2013-10,299,31,13
+Potato,Madhya Pradesh,2013-11,268,30,12
+Potato,Madhya Pradesh,2013-12,259,31,14
+Potato,Madhya Pradesh,2014-01,366,31,17
+Potato,Madhya Pradesh,2014-02,362,28,18
+Potato,Madhya Pradesh,2014-03,368,31,19
+Potato,Madhya Pradesh,2014-04,274,30,16
+Potato,Madhya Pradesh,2014-05,278,31,15
+Potato,Madhya Pradesh,2014-06,257,30,16
+Potato,Madhya Pradesh,2014-07,286,31,22
+Potato,Madhya Pradesh,2014-08,306,31,17
+Potato,Madhya Pradesh,2014-09,343,30,19
+Potato,Madhya Pradesh,2014-10,298,31,21
+Potato,Madhya Pradesh,2014-11,386,30,23
+Potato,Madhya Pradesh,2014-12,459,31,27
+Potato,Madhya Pradesh,2015-01,442,31,22
+Potato,Madhya Pradesh,2015-02,434,28,22
+Potato,Madhya Pradesh,2015-03,420,30,24
+Potato,Madhya Pradesh,2015-04,445,30,23
+Potato,Madhya Pradesh,2015-05,397,31,23
+Potato,Madhya Pradesh,2015-06,407,30,25
+Potato,Madhya Pradesh,2015-07,397,31,22
+Potato,Madhya Pradesh,2015-08,389,31,20
+Potato,Madhya Pradesh,2015-09,400,30,25
+Potato,Madhya Pradesh,2015-10,445,31,26
+Potato,Madhya Pradesh,2015-11,448,30,24
+Potato,Madhya Pradesh,2015-12,437,31,25
+Potato,Madhya Pradesh,2016-01,421,31,27
+Potato,Madhya Pradesh,2016-02,449,29,28
+Potato,Madhya Pradesh,2016-03,470,31,28
+Potato,Madhya Pradesh,2016-04,403,30,26
+Potato,Madhya Pradesh,2016-05,445,31,26
+Potato,Madhya Pradesh,2016-06,434,30,23
+Potato,Madhya Pradesh,2016-07,404,31,24
+Potato,Madhya Pradesh,2016-08,413,31,23
+Potato,Madhya Pradesh,2016-09,430,30,25
+Potato,Madhya Pradesh,2016-10,450,31,26
+Potato,Madhya Pradesh,2016-11,503,30,28
+Potato,Madhya Pradesh,2016-12,555,31,26
+Potato,Madhya Pradesh,2017-01,577,31,27
+Potato,Madhya Pradesh,2017-02,527,28,28
+Potato,Madhya Pradesh,2017-03,594,31,30
+Potato,Madhya Pradesh,2017-04,563,30,29
+Potato,Madhya Pradesh,2017-05,555,31,27
+Potato,Madhya Pradesh,2017-06,459,30,27
+Potato,Madhya Pradesh,2017-07,574,31,26
+Potato,Madhya Pradesh,2017-08,614,31,30
+Potato,Madhya Pradesh,2017-09,582,30,27
+Potato,Madhya Pradesh,2017-10,576,31,29
+Potato,Madhya Pradesh,2017-11,550,30,26
+Potato,Madhya Pradesh,2017-12,586,31,27
+Potato,Madhya Pradesh,2018-01,630,31,27
+Potato,Madhya Pradesh,2018-02,582,28,26
+Potato,Madhya Pradesh,2018-03,617,31,28
+Potato,Madhya Pradesh,2018-04,535,30,26
+Potato,Madhya Pradesh,2018-05,553,31,26
+Potato,Madhya Pradesh,2018-06,582,30,29
+Potato,Madhya Pradesh,2018-07,620,31,29
+Potato,Madhya Pradesh,2018-08,618,31,27
+Potato,Madhya Pradesh,2018-09,601,30,27
+Potato,Madhya Pradesh,2018-10,546,31,29
+Potato,Madhya Pradesh,2018-11,571,30,31
+Potato,Madhya Pradesh,2018-12,669,31,34
+Potato,Madhya Pradesh,2019-01,767,31,33
+Potato,Madhya Pradesh,2019-02,761,28,40
+Potato,Madhya Pradesh,2019-03,849,31,45
+Potato,Madhya Pradesh,2019-04,817,30,43
+Potato,Madhya Pradesh,2019-05,760,31,40
+Potato,Madhya Pradesh,2019-06,732,30,37
+Potato,Madhya Pradesh,2019-07,793,31,38
+Potato,Madhya Pradesh,2019-08,753,31,36
+Potato,Madhya Pradesh,2019-09,719,30,35
+Potato,Madhya Pradesh,2019-10,729,31,37
+Potato,Madhya Pradesh,2019-11,825,30,38
+Potato,Madhya Pradesh,2019-12,791,31,40
+Potato,Madhya Pradesh,2020-01,587,31,30
+Potato,Madhya Pradesh,2020-02,310,29,20
+Potato,Madhya Pradesh,2020-03,554,31,37
+Potato,Madhya Pradesh,2020-04,210,30,18
+Potato,Madhya Pradesh,2020-05,355,31,25
+Potato,Madhya Pradesh,2020-06,433,30,27
+Potato,Madhya Pradesh,2020-07,538,30,34
+Potato,Madhya Pradesh,2020-08,490,31,33
+Potato,Madhya Pradesh,2020-09,273,26,32
+Potato,Madhya Pradesh,2020-10,459,27,34
+Potato,Madhya Pradesh,2020-11,553,30,32
+Potato,Madhya Pradesh,2020-12,596,31,33
+Potato,Madhya Pradesh,2021-01,734,31,39
+Potato,Madhya Pradesh,2021-02,763,28,43
+Potato,Madhya Pradesh,2021-03,925,31,45
+Potato,Madhya Pradesh,2021-04,545,30,40
+Potato,Madhya Pradesh,2021-05,378,31,25
+Potato,Madhya Pradesh,2021-06,613,30,34
+Potato,Madhya Pradesh,2021-07,777,31,41
+Potato,Madhya Pradesh,2021-08,764,31,38
+Potato,Madhya Pradesh,2021-09,766,30,38
+Potato,Madhya Pradesh,2021-10,746,31,38
+Potato,Madhya Pradesh,2021-11,737,30,39
+Potato,Madhya Pradesh,2021-12,851,31,41
+Potato,Madhya Pradesh,2022-01,972,31,47
+Potato,Madhya Pradesh,2022-02,957,28,50
+Potato,Madhya Pradesh,2022-03,950,31,48
+Potato,Madhya Pradesh,2022-04,894,30,49
+Potato,Madhya Pradesh,2022-05,951,31,49
+Potato,Madhya Pradesh,2022-06,851,30,47
+Potato,Madhya Pradesh,2022-07,874,31,42
+Potato,Madhya Pradesh,2022-08,938,31,44
+Potato,Madhya Pradesh,2022-09,959,30,43
+Potato,Madhya Pradesh,2022-10,904,31,44
+Potato,Madhya Pradesh,2022-11,981,30,47
+Potato,Madhya Pradesh,2022-12,1038,31,46
+Potato,Madhya Pradesh,2023-01,964,31,50
+Potato,Madhya Pradesh,2023-02,924,28,49
+Potato,Madhya Pradesh,2023-03,890,31,47
+Potato,Madhya Pradesh,2023-04,792,30,43
+Potato,Madhya Pradesh,2023-05,858,31,40
+Potato,Madhya Pradesh,2023-06,847,30,42
+Potato,Madhya Pradesh,2023-07,952,31,44
+Potato,Madhya Pradesh,2023-08,883,31,42
+Potato,Madhya Pradesh,2023-09,729,30,45
+Potato,Madhya Pradesh,2023-10,879,31,42
+Potato,Madhya Pradesh,2023-11,705,30,41
+Potato,Madhya Pradesh,2023-12,645,30,52
+Potato,Madhya Pradesh,2024-01,176,29,11
+Potato,Madhya Pradesh,2024-02,173,26,9
+Potato,Madhya Pradesh,2024-03,178,31,13
+Potato,Madhya Pradesh,2024-04,142,26,12
+Potato,Madhya Pradesh,2024-05,85,30,8
+Potato,Madhya Pradesh,2024-06,93,30,8
+Potato,Madhya Pradesh,2024-07,112,30,8
+Potato,Madhya Pradesh,2024-08,129,31,8
+Potato,Madhya Pradesh,2024-09,125,29,13
+Potato,Madhya Pradesh,2024-10,308,31,22
+Potato,Madhya Pradesh,2024-11,299,30,21
+Potato,Madhya Pradesh,2024-12,411,31,26
+Potato,Madhya Pradesh,2025-01,566,31,28
+Potato,Madhya Pradesh,2025-02,469,28,25
+Potato,Madhya Pradesh,2025-03,448,31,26
+Potato,Madhya Pradesh,2025-04,485,30,30
+Potato,Madhya Pradesh,2025-05,503,31,32
+Potato,Madhya Pradesh,2025-06,477,30,31
+Potato,Madhya Pradesh,2025-07,539,31,30
+Potato,Madhya Pradesh,2025-08,563,31,37
+Potato,Madhya Pradesh,2025-09,651,30,47
+Potato,Madhya Pradesh,2025-10,492,31,44
+Potato,Madhya Pradesh,2025-11,24,5,20
+Potato,Madhya Pradesh,2025-12,64,26,9
+Potato,Madhya Pradesh,2026-01,87,26,14
+Potato,Madhya Pradesh,2026-02,181,26,39
+Potato,Madhya Pradesh,2026-03,147,22,40
+Potato,Madhya Pradesh,2026-04,95,20,30
+Potato,Maharashtra,2001-02,1,1,1
+Potato,Maharashtra,2001-03,1,1,1
+Potato,Maharashtra,2001-04,7,7,1
+Potato,Maharashtra,2001-05,10,10,3
+Potato,Maharashtra,2001-06,29,22,4
+Potato,Maharashtra,2001-07,45,24,4
+Potato,Maharashtra,2001-08,44,24,4
+Potato,Maharashtra,2001-09,36,24,3
+Potato,Maharashtra,2001-10,37,26,3
+Potato,Maharashtra,2001-11,12,9,2
+Potato,Maharashtra,2001-12,25,19,3
+Potato,Maharashtra,2002-01,40,24,4
+Potato,Maharashtra,2002-02,37,22,5
+Potato,Maharashtra,2002-03,60,27,5
+Potato,Maharashtra,2002-04,109,28,7
+Potato,Maharashtra,2002-05,106,29,7
+Potato,Maharashtra,2002-06,103,29,5
+Potato,Maharashtra,2002-07,108,29,6
+Potato,Maharashtra,2002-08,145,30,8
+Potato,Maharashtra,2002-09,108,28,8
+Potato,Maharashtra,2002-10,112,28,11
+Potato,Maharashtra,2002-11,104,29,10
+Potato,Maharashtra,2002-12,88,28,9
+Potato,Maharashtra,2003-01,145,28,11
+Potato,Maharashtra,2003-02,143,27,13
+Potato,Maharashtra,2003-03,145,31,13
+Potato,Maharashtra,2003-04,163,30,13
+Potato,Maharashtra,2003-05,199,31,14
+Potato,Maharashtra,2003-06,214,30,13
+Potato,Maharashtra,2003-07,192,31,14
+Potato,Maharashtra,2003-08,159,31,13
+Potato,Maharashtra,2003-09,208,30,14
+Potato,Maharashtra,2003-10,193,30,14
+Potato,Maharashtra,2003-11,181,30,13
+Potato,Maharashtra,2003-12,199,31,12
+Potato,Maharashtra,2004-01,221,30,13
+Potato,Maharashtra,2004-02,206,29,13
+Potato,Maharashtra,2004-03,180,31,13
+Potato,Maharashtra,2004-04,150,29,12
+Potato,Maharashtra,2004-05,163,30,11
+Potato,Maharashtra,2004-06,209,30,12
+Potato,Maharashtra,2004-07,217,31,13
+Potato,Maharashtra,2004-08,215,31,11
+Potato,Maharashtra,2004-09,224,30,18
+Potato,Maharashtra,2004-10,220,31,16
+Potato,Maharashtra,2004-11,181,28,16
+Potato,Maharashtra,2004-12,268,31,19
+Potato,Maharashtra,2005-01,262,30,17
+Potato,Maharashtra,2005-02,270,28,19
+Potato,Maharashtra,2005-03,294,31,20
+Potato,Maharashtra,2005-04,300,30,20
+Potato,Maharashtra,2005-05,281,31,18
+Potato,Maharashtra,2005-06,290,30,18
+Potato,Maharashtra,2005-07,305,31,21
+Potato,Maharashtra,2005-08,275,31,20
+Potato,Maharashtra,2005-09,254,30,20
+Potato,Maharashtra,2005-10,306,31,22
+Potato,Maharashtra,2005-11,247,30,22
+Potato,Maharashtra,2005-12,335,31,25
+Potato,Maharashtra,2006-01,339,31,27
+Potato,Maharashtra,2006-02,346,28,30
+Potato,Maharashtra,2006-03,427,31,31
+Potato,Maharashtra,2006-04,264,30,25
+Potato,Maharashtra,2006-05,279,30,26
+Potato,Maharashtra,2006-06,334,30,23
+Potato,Maharashtra,2006-07,292,31,24
+Potato,Maharashtra,2006-08,269,31,24
+Potato,Maharashtra,2006-09,320,30,27
+Potato,Maharashtra,2006-10,339,31,27
+Potato,Maharashtra,2006-11,306,30,27
+Potato,Maharashtra,2006-12,296,30,30
+Potato,Maharashtra,2007-01,339,31,33
+Potato,Maharashtra,2007-02,297,28,28
+Potato,Maharashtra,2007-03,308,31,28
+Potato,Maharashtra,2007-04,383,30,28
+Potato,Maharashtra,2007-05,308,31,27
+Potato,Maharashtra,2007-06,276,30,23
+Potato,Maharashtra,2007-07,278,31,26
+Potato,Maharashtra,2007-08,272,31,22
+Potato,Maharashtra,2007-09,243,30,23
+Potato,Maharashtra,2007-10,260,31,26
+Potato,Maharashtra,2007-11,235,29,25
+Potato,Maharashtra,2007-12,248,31,23
+Potato,Maharashtra,2008-01,334,31,30
+Potato,Maharashtra,2008-02,329,29,27
+Potato,Maharashtra,2008-03,261,31,24
+Potato,Maharashtra,2008-04,232,30,23
+Potato,Maharashtra,2008-05,207,31,19
+Potato,Maharashtra,2008-06,202,30,21
+Potato,Maharashtra,2008-07,221,31,18
+Potato,Maharashtra,2008-08,160,29,14
+Potato,Maharashtra,2008-09,196,30,18
+Potato,Maharashtra,2008-10,185,31,16
+Potato,Maharashtra,2008-11,221,30,20
+Potato,Maharashtra,2008-12,232,31,20
+Potato,Maharashtra,2009-01,269,31,22
+Potato,Maharashtra,2009-02,370,28,25
+Potato,Maharashtra,2009-03,352,31,26
+Potato,Maharashtra,2009-04,298,30,27
+Potato,Maharashtra,2009-05,318,31,23
+Potato,Maharashtra,2009-06,297,30,24
+Potato,Maharashtra,2009-07,330,31,21
+Potato,Maharashtra,2009-08,273,29,19
+Potato,Maharashtra,2009-09,305,30,24
+Potato,Maharashtra,2009-10,300,31,24
+Potato,Maharashtra,2009-11,319,30,25
+Potato,Maharashtra,2009-12,352,31,23
+Potato,Maharashtra,2010-01,408,31,27
+Potato,Maharashtra,2010-02,326,28,25
+Potato,Maharashtra,2010-03,373,31,24
+Potato,Maharashtra,2010-04,295,30,21
+Potato,Maharashtra,2010-05,295,31,25
+Potato,Maharashtra,2010-06,296,30,19
+Potato,Maharashtra,2010-07,346,31,19
+Potato,Maharashtra,2010-08,296,31,21
+Potato,Maharashtra,2010-09,270,30,23
+Potato,Maharashtra,2010-10,299,31,24
+Potato,Maharashtra,2010-11,241,30,22
+Potato,Maharashtra,2010-12,357,31,27
+Potato,Maharashtra,2011-01,398,31,28
+Potato,Maharashtra,2011-02,359,28,29
+Potato,Maharashtra,2011-03,320,31,24
+Potato,Maharashtra,2011-04,310,30,28
+Potato,Maharashtra,2011-05,247,31,21
+Potato,Maharashtra,2011-06,291,30,20
+Potato,Maharashtra,2011-07,269,31,21
+Potato,Maharashtra,2011-08,261,31,21
+Potato,Maharashtra,2011-09,284,30,23
+Potato,Maharashtra,2011-10,248,31,23
+Potato,Maharashtra,2011-11,235,30,21
+Potato,Maharashtra,2011-12,311,31,26
+Potato,Maharashtra,2012-01,319,31,27
+Potato,Maharashtra,2012-02,242,29,20
+Potato,Maharashtra,2012-03,246,31,21
+Potato,Maharashtra,2012-04,226,29,23
+Potato,Maharashtra,2012-05,267,31,19
+Potato,Maharashtra,2012-06,252,30,17
+Potato,Maharashtra,2012-07,249,31,19
+Potato,Maharashtra,2012-08,243,31,19
+Potato,Maharashtra,2012-09,236,30,21
+Potato,Maharashtra,2012-10,310,31,24
+Potato,Maharashtra,2012-11,244,30,23
+Potato,Maharashtra,2012-12,247,30,23
+Potato,Maharashtra,2013-01,293,30,24
+Potato,Maharashtra,2013-02,256,28,25
+Potato,Maharashtra,2013-03,290,31,23
+Potato,Maharashtra,2013-04,286,30,24
+Potato,Maharashtra,2013-05,284,31,23
+Potato,Maharashtra,2013-06,326,30,23
+Potato,Maharashtra,2013-07,332,31,23
+Potato,Maharashtra,2013-08,166,31,22
+Potato,Maharashtra,2013-09,146,30,18
+Potato,Maharashtra,2013-10,236,31,23
+Potato,Maharashtra,2013-11,212,30,20
+Potato,Maharashtra,2013-12,227,31,17
+Potato,Maharashtra,2014-01,283,31,20
+Potato,Maharashtra,2014-02,211,28,20
+Potato,Maharashtra,2014-03,202,31,17
+Potato,Maharashtra,2014-04,171,30,17
+Potato,Maharashtra,2014-05,135,31,11
+Potato,Maharashtra,2014-06,184,30,14
+Potato,Maharashtra,2014-07,249,31,16
+Potato,Maharashtra,2014-08,265,31,23
+Potato,Maharashtra,2014-09,244,30,19
+Potato,Maharashtra,2014-10,228,31,17
+Potato,Maharashtra,2014-11,256,30,17
+Potato,Maharashtra,2014-12,345,31,26
+Potato,Maharashtra,2015-01,319,31,26
+Potato,Maharashtra,2015-02,254,27,24
+Potato,Maharashtra,2015-03,322,31,25
+Potato,Maharashtra,2015-04,273,30,22
+Potato,Maharashtra,2015-05,273,31,19
+Potato,Maharashtra,2015-06,347,30,24
+Potato,Maharashtra,2015-07,340,31,21
+Potato,Maharashtra,2015-08,348,31,23
+Potato,Maharashtra,2015-09,377,30,25
+Potato,Maharashtra,2015-10,403,31,27
+Potato,Maharashtra,2015-11,335,30,27
+Potato,Maharashtra,2015-12,480,31,32
+Potato,Maharashtra,2016-01,513,31,34
+Potato,Maharashtra,2016-02,506,29,36
+Potato,Maharashtra,2016-03,505,31,31
+Potato,Maharashtra,2016-04,450,30,32
+Potato,Maharashtra,2016-05,513,31,32
+Potato,Maharashtra,2016-06,578,30,30
+Potato,Maharashtra,2016-07,469,31,33
+Potato,Maharashtra,2016-08,546,31,28
+Potato,Maharashtra,2016-09,460,30,28
+Potato,Maharashtra,2016-10,481,31,29
+Potato,Maharashtra,2016-11,486,30,29
+Potato,Maharashtra,2016-12,553,31,34
+Potato,Maharashtra,2017-01,435,30,29
+Potato,Maharashtra,2017-02,409,28,30
+Potato,Maharashtra,2017-03,518,31,28
+Potato,Maharashtra,2017-04,483,30,29
+Potato,Maharashtra,2017-05,501,31,28
+Potato,Maharashtra,2017-06,457,30,28
+Potato,Maharashtra,2017-07,479,31,28
+Potato,Maharashtra,2017-08,447,31,25
+Potato,Maharashtra,2017-09,426,30,26
+Potato,Maharashtra,2017-10,400,31,25
+Potato,Maharashtra,2017-11,423,30,26
+Potato,Maharashtra,2017-12,437,31,25
+Potato,Maharashtra,2018-01,452,31,27
+Potato,Maharashtra,2018-02,442,28,29
+Potato,Maharashtra,2018-03,488,31,30
+Potato,Maharashtra,2018-04,430,30,26
+Potato,Maharashtra,2018-05,471,31,27
+Potato,Maharashtra,2018-06,476,30,27
+Potato,Maharashtra,2018-07,443,31,26
+Potato,Maharashtra,2018-08,449,31,27
+Potato,Maharashtra,2018-09,491,30,27
+Potato,Maharashtra,2018-10,486,31,26
+Potato,Maharashtra,2018-11,455,30,26
+Potato,Maharashtra,2018-12,498,31,28
+Potato,Maharashtra,2019-01,449,31,29
+Potato,Maharashtra,2019-02,404,28,27
+Potato,Maharashtra,2019-03,436,31,27
+Potato,Maharashtra,2019-04,377,30,28
+Potato,Maharashtra,2019-05,351,31,26
+Potato,Maharashtra,2019-06,406,30,25
+Potato,Maharashtra,2019-07,461,31,28
+Potato,Maharashtra,2019-08,406,31,28
+Potato,Maharashtra,2019-09,385,30,25
+Potato,Maharashtra,2019-10,402,31,26
+Potato,Maharashtra,2019-11,410,30,28
+Potato,Maharashtra,2019-12,376,31,25
+Potato,Maharashtra,2020-01,376,31,27
+Potato,Maharashtra,2020-02,397,29,29
+Potato,Maharashtra,2020-03,379,30,30
+Potato,Maharashtra,2020-04,137,22,26
+Potato,Maharashtra,2020-05,294,31,26
+Potato,Maharashtra,2020-06,433,30,25
+Potato,Maharashtra,2020-07,361,31,26
+Potato,Maharashtra,2020-08,425,31,26
+Potato,Maharashtra,2020-09,448,30,30
+Potato,Maharashtra,2020-10,294,27,28
+Potato,Maharashtra,2020-11,444,30,29
+Potato,Maharashtra,2020-12,497,31,33
+Potato,Maharashtra,2021-01,429,29,33
+Potato,Maharashtra,2021-02,500,28,33
+Potato,Maharashtra,2021-03,478,31,32
+Potato,Maharashtra,2021-04,516,30,34
+Potato,Maharashtra,2021-05,474,31,34
+Potato,Maharashtra,2021-06,580,30,31
+Potato,Maharashtra,2021-07,554,31,29
+Potato,Maharashtra,2021-08,516,31,27
+Potato,Maharashtra,2021-09,525,30,29
+Potato,Maharashtra,2021-10,558,31,33
+Potato,Maharashtra,2021-11,545,30,32
+Potato,Maharashtra,2021-12,599,31,35
+Potato,Maharashtra,2022-01,532,31,33
+Potato,Maharashtra,2022-02,562,28,36
+Potato,Maharashtra,2022-03,611,31,34
+Potato,Maharashtra,2022-04,581,30,32
+Potato,Maharashtra,2022-05,517,31,30
+Potato,Maharashtra,2022-06,485,30,31
+Potato,Maharashtra,2022-07,534,31,32
+Potato,Maharashtra,2022-08,514,31,31
+Potato,Maharashtra,2022-09,381,30,30
+Potato,Maharashtra,2022-10,520,31,33
+Potato,Maharashtra,2022-11,482,30,33
+Potato,Maharashtra,2022-12,554,31,35
+Potato,Maharashtra,2023-01,460,31,35
+Potato,Maharashtra,2023-02,656,28,37
+Potato,Maharashtra,2023-03,682,31,37
+Potato,Maharashtra,2023-04,634,30,35
+Potato,Maharashtra,2023-05,645,31,38
+Potato,Maharashtra,2023-06,649,30,34
+Potato,Maharashtra,2023-07,627,31,35
+Potato,Maharashtra,2023-08,622,31,34
+Potato,Maharashtra,2023-09,562,30,33
+Potato,Maharashtra,2023-10,596,31,34
+Potato,Maharashtra,2023-11,510,29,33
+Potato,Maharashtra,2023-12,600,30,37
+Potato,Maharashtra,2024-01,646,31,37
+Potato,Maharashtra,2024-02,637,29,38
+Potato,Maharashtra,2024-03,649,31,37
+Potato,Maharashtra,2024-04,428,26,37
+Potato,Maharashtra,2024-05,603,31,37
+Potato,Maharashtra,2024-06,586,30,35
+Potato,Maharashtra,2024-07,621,31,36
+Potato,Maharashtra,2024-08,609,31,35
+Potato,Maharashtra,2024-09,605,30,34
+Potato,Maharashtra,2024-10,598,30,37
+Potato,Maharashtra,2024-11,543,29,35
+Potato,Maharashtra,2024-12,696,31,37
+Potato,Maharashtra,2025-01,734,31,38
+Potato,Maharashtra,2025-02,563,27,36
+Potato,Maharashtra,2025-03,684,31,36
+Potato,Maharashtra,2025-04,656,30,38
+Potato,Maharashtra,2025-05,626,30,36
+Potato,Maharashtra,2025-06,650,30,38
+Potato,Maharashtra,2025-07,654,31,39
+Potato,Maharashtra,2025-08,585,31,36
+Potato,Maharashtra,2025-09,493,30,37
+Potato,Maharashtra,2025-10,346,30,33
+Potato,Maharashtra,2025-11,40,6,26
+Potato,Maharashtra,2025-12,174,30,35
+Potato,Maharashtra,2026-01,222,31,35
+Potato,Maharashtra,2026-02,189,26,37
+Potato,Maharashtra,2026-03,133,22,33
+Potato,Maharashtra,2026-04,150,20,33
+Potato,Tamil Nadu,2007-07,4,4,1
+Potato,Tamil Nadu,2007-12,16,13,2
+Potato,Tamil Nadu,2008-01,3,3,1
+Potato,Tamil Nadu,2008-02,3,3,1
+Potato,Tamil Nadu,2008-03,18,18,1
+Potato,Tamil Nadu,2008-04,11,11,1
+Potato,Tamil Nadu,2008-05,9,9,1
+Potato,Tamil Nadu,2008-06,30,30,1
+Potato,Tamil Nadu,2008-07,22,22,1
+Potato,Tamil Nadu,2008-12,5,5,1
+Potato,Tamil Nadu,2009-01,11,11,1
+Potato,Tamil Nadu,2009-02,2,2,1
+Potato,Tamil Nadu,2009-03,11,11,2
+Potato,Tamil Nadu,2009-04,7,7,1
+Potato,Tamil Nadu,2009-05,11,11,1
+Potato,Tamil Nadu,2009-06,18,18,1
+Potato,Tamil Nadu,2009-07,23,23,1
+Potato,Tamil Nadu,2009-08,20,20,1
+Potato,Tamil Nadu,2009-09,19,19,1
+Potato,Tamil Nadu,2009-10,21,21,1
+Potato,Tamil Nadu,2009-11,21,21,1
+Potato,Tamil Nadu,2009-12,21,21,1
+Potato,Tamil Nadu,2010-01,17,17,1
+Potato,Tamil Nadu,2010-02,15,15,1
+Potato,Tamil Nadu,2010-03,22,22,2
+Potato,Tamil Nadu,2010-04,15,15,1
+Potato,Tamil Nadu,2010-05,11,11,1
+Potato,Tamil Nadu,2010-06,22,22,1
+Potato,Tamil Nadu,2010-07,34,24,2
+Potato,Tamil Nadu,2010-08,34,22,2
+Potato,Tamil Nadu,2010-09,27,21,2
+Potato,Tamil Nadu,2010-10,20,20,1
+Potato,Tamil Nadu,2010-11,21,21,1
+Potato,Tamil Nadu,2010-12,17,17,1
+Potato,Tamil Nadu,2011-01,18,18,1
+Potato,Tamil Nadu,2011-02,19,19,1
+Potato,Tamil Nadu,2011-03,26,22,2
+Potato,Tamil Nadu,2011-04,9,9,1
+Potato,Tamil Nadu,2011-05,22,22,1
+Potato,Tamil Nadu,2011-06,22,22,1
+Potato,Tamil Nadu,2011-07,20,20,1
+Potato,Tamil Nadu,2011-08,21,21,1
+Potato,Tamil Nadu,2011-09,21,21,1
+Potato,Tamil Nadu,2011-10,18,18,1
+Potato,Tamil Nadu,2011-11,21,21,1
+Potato,Tamil Nadu,2011-12,22,22,1
+Potato,Tamil Nadu,2012-01,22,22,1
+Potato,Tamil Nadu,2012-02,21,21,1
+Potato,Tamil Nadu,2012-03,20,20,1
+Potato,Tamil Nadu,2012-04,16,16,1
+Potato,Tamil Nadu,2012-05,10,10,1
+Potato,Tamil Nadu,2012-06,5,5,1
+Potato,Tamil Nadu,2012-07,16,16,1
+Potato,Tamil Nadu,2014-07,2,1,1
+Potato,Tamil Nadu,2024-06,1013,13,78
+Potato,Tamil Nadu,2024-07,3569,31,221
+Potato,Tamil Nadu,2024-08,4510,31,150
+Potato,Tamil Nadu,2024-09,4351,30,150
+Potato,Tamil Nadu,2024-10,4461,31,147
+Potato,Tamil Nadu,2024-11,4104,29,147
+Potato,Tamil Nadu,2024-12,4296,30,148
+Potato,Tamil Nadu,2025-01,4391,31,145
+Potato,Tamil Nadu,2025-02,4034,28,150
+Potato,Tamil Nadu,2025-03,4339,30,147
+Potato,Tamil Nadu,2025-04,4355,30,147
+Potato,Tamil Nadu,2025-05,4360,30,148
+Potato,Tamil Nadu,2025-06,4079,28,149
+Potato,Tamil Nadu,2025-07,3321,27,147
+Potato,Tamil Nadu,2025-08,1790,27,107
+Potato,Tamil Nadu,2025-09,1570,29,109
+Potato,Tamil Nadu,2025-10,1230,26,105
+Potato,Tamil Nadu,2025-11,112,4,67
+Potato,Tamil Nadu,2025-12,836,29,100
+Potato,Tamil Nadu,2026-01,1027,31,114
+Potato,Tamil Nadu,2026-02,873,26,145
+Potato,Tamil Nadu,2026-03,1242,24,159
+Potato,Tamil Nadu,2026-04,1185,20,300
+Tomato,Karnataka,2001-11,1,1,1
+Tomato,Karnataka,2001-12,4,4,1
+Tomato,Karnataka,2002-01,46,24,4
+Tomato,Karnataka,2002-02,41,22,2
+Tomato,Karnataka,2002-03,39,21,4
+Tomato,Karnataka,2002-04,216,30,19
+Tomato,Karnataka,2002-05,242,31,19
+Tomato,Karnataka,2002-06,334,30,22
+Tomato,Karnataka,2002-07,370,31,24
+Tomato,Karnataka,2002-08,286,31,19
+Tomato,Karnataka,2002-09,280,30,19
+Tomato,Karnataka,2002-10,271,31,22
+Tomato,Karnataka,2002-11,255,30,23
+Tomato,Karnataka,2002-12,192,31,17
+Tomato,Karnataka,2003-01,234,31,17
+Tomato,Karnataka,2003-02,209,28,21
+Tomato,Karnataka,2003-03,227,31,23
+Tomato,Karnataka,2003-04,216,30,19
+Tomato,Karnataka,2003-05,288,31,20
+Tomato,Karnataka,2003-06,305,30,20
+Tomato,Karnataka,2003-07,337,31,25
+Tomato,Karnataka,2003-08,255,31,23
+Tomato,Karnataka,2003-09,318,30,25
+Tomato,Karnataka,2003-10,274,31,23
+Tomato,Karnataka,2003-11,302,30,28
+Tomato,Karnataka,2003-12,170,23,20
+Tomato,Karnataka,2004-01,231,31,22
+Tomato,Karnataka,2004-02,221,29,26
+Tomato,Karnataka,2004-03,142,30,23
+Tomato,Karnataka,2004-04,84,27,16
+Tomato,Karnataka,2004-05,166,28,21
+Tomato,Karnataka,2004-06,153,27,18
+Tomato,Karnataka,2004-07,135,29,20
+Tomato,Karnataka,2004-08,210,31,23
+Tomato,Karnataka,2004-09,246,30,24
+Tomato,Karnataka,2004-10,267,31,26
+Tomato,Karnataka,2004-11,268,30,27
+Tomato,Karnataka,2004-12,268,31,26
+Tomato,Karnataka,2005-01,205,31,22
+Tomato,Karnataka,2005-02,207,28,29
+Tomato,Karnataka,2005-03,227,30,26
+Tomato,Karnataka,2005-04,252,30,24
+Tomato,Karnataka,2005-05,263,31,23
+Tomato,Karnataka,2005-06,270,30,22
+Tomato,Karnataka,2005-07,295,31,22
+Tomato,Karnataka,2005-08,306,31,23
+Tomato,Karnataka,2005-09,259,29,23
+Tomato,Karnataka,2005-10,212,27,19
+Tomato,Karnataka,2005-11,125,17,17
+Tomato,Karnataka,2005-12,147,19,18
+Tomato,Karnataka,2006-01,206,29,19
+Tomato,Karnataka,2006-02,111,26,17
+Tomato,Karnataka,2006-03,48,24,12
+Tomato,Karnataka,2006-04,130,26,20
+Tomato,Karnataka,2006-05,249,31,20
+Tomato,Karnataka,2006-06,243,29,20
+Tomato,Karnataka,2006-07,228,31,20
+Tomato,Karnataka,2006-08,162,29,20
+Tomato,Karnataka,2006-09,181,30,20
+Tomato,Karnataka,2006-10,190,30,19
+Tomato,Karnataka,2006-11,235,30,22
+Tomato,Karnataka,2006-12,196,29,19
+Tomato,Karnataka,2007-01,221,29,20
+Tomato,Karnataka,2007-02,137,21,21
+Tomato,Karnataka,2007-03,141,27,17
+Tomato,Karnataka,2007-04,138,28,17
+Tomato,Karnataka,2007-05,215,30,24
+Tomato,Karnataka,2007-06,308,30,24
+Tomato,Karnataka,2007-07,324,31,26
+Tomato,Karnataka,2007-08,336,31,26
+Tomato,Karnataka,2007-09,244,30,26
+Tomato,Karnataka,2007-10,266,31,26
+Tomato,Karnataka,2007-11,257,30,26
+Tomato,Karnataka,2007-12,209,25,25
+Tomato,Karnataka,2008-01,150,28,22
+Tomato,Karnataka,2008-02,345,29,30
+Tomato,Karnataka,2008-03,332,31,28
+Tomato,Karnataka,2008-04,313,30,22
+Tomato,Karnataka,2008-05,303,31,27
+Tomato,Karnataka,2008-06,304,30,30
+Tomato,Karnataka,2008-07,219,31,25
+Tomato,Karnataka,2008-08,293,31,26
+Tomato,Karnataka,2008-09,229,27,28
+Tomato,Karnataka,2008-10,293,31,30
+Tomato,Karnataka,2008-11,260,30,27
+Tomato,Karnataka,2008-12,181,17,23
+Tomato,Karnataka,2009-01,259,27,24
+Tomato,Karnataka,2009-02,328,28,27
+Tomato,Karnataka,2009-03,329,31,30
+Tomato,Karnataka,2009-04,394,30,30
+Tomato,Karnataka,2009-05,307,28,28
+Tomato,Karnataka,2009-06,416,30,31
+Tomato,Karnataka,2009-07,409,31,32
+Tomato,Karnataka,2009-08,117,25,24
+Tomato,Karnataka,2009-09,78,26,13
+Tomato,Karnataka,2009-10,406,31,30
+Tomato,Karnataka,2009-11,423,30,36
+Tomato,Karnataka,2009-12,451,31,34
+Tomato,Karnataka,2010-01,522,31,33
+Tomato,Karnataka,2010-02,392,26,35
+Tomato,Karnataka,2010-03,457,29,35
+Tomato,Karnataka,2010-04,432,25,32
+Tomato,Karnataka,2010-05,453,30,33
+Tomato,Karnataka,2010-06,503,29,32
+Tomato,Karnataka,2010-07,504,30,31
+Tomato,Karnataka,2010-08,488,31,34
+Tomato,Karnataka,2010-09,357,30,32
+Tomato,Karnataka,2010-10,386,31,33
+Tomato,Karnataka,2010-11,225,30,26
+Tomato,Karnataka,2010-12,419,31,35
+Tomato,Karnataka,2011-01,294,31,32
+Tomato,Karnataka,2011-02,447,27,37
+Tomato,Karnataka,2011-03,201,31,30
+Tomato,Karnataka,2011-04,324,26,30
+Tomato,Karnataka,2011-05,421,31,33
+Tomato,Karnataka,2011-06,551,30,35
+Tomato,Karnataka,2011-07,559,31,41
+Tomato,Karnataka,2011-08,545,31,37
+Tomato,Karnataka,2011-09,465,30,32
+Tomato,Karnataka,2011-10,427,31,30
+Tomato,Karnataka,2011-11,495,30,31
+Tomato,Karnataka,2011-12,486,31,35
+Tomato,Karnataka,2012-01,501,31,33
+Tomato,Karnataka,2012-02,490,29,33
+Tomato,Karnataka,2012-03,505,31,30
+Tomato,Karnataka,2012-04,449,30,33
+Tomato,Karnataka,2012-05,472,31,32
+Tomato,Karnataka,2012-06,526,30,32
+Tomato,Karnataka,2012-07,634,31,38
+Tomato,Karnataka,2012-08,663,31,41
+Tomato,Karnataka,2012-09,611,30,40
+Tomato,Karnataka,2012-10,574,31,39
+Tomato,Karnataka,2012-11,563,30,40
+Tomato,Karnataka,2012-12,528,31,38
+Tomato,Karnataka,2013-01,501,31,36
+Tomato,Karnataka,2013-02,460,28,34
+Tomato,Karnataka,2013-03,469,31,31
+Tomato,Karnataka,2013-04,448,30,34
+Tomato,Karnataka,2013-05,422,31,30
+Tomato,Karnataka,2013-06,434,30,30
+Tomato,Karnataka,2013-07,587,31,35
+Tomato,Karnataka,2013-08,274,31,33
+Tomato,Karnataka,2013-09,353,29,36
+Tomato,Karnataka,2013-10,237,27,35
+Tomato,Karnataka,2013-11,80,26,10
+Tomato,Karnataka,2013-12,95,29,12
+Tomato,Karnataka,2014-01,493,31,34
+Tomato,Karnataka,2014-02,303,28,28
+Tomato,Karnataka,2014-03,299,31,21
+Tomato,Karnataka,2014-04,291,30,18
+Tomato,Karnataka,2014-05,346,31,20
+Tomato,Karnataka,2014-06,359,29,23
+Tomato,Karnataka,2014-07,423,31,24
+Tomato,Karnataka,2014-08,355,31,27
+Tomato,Karnataka,2014-09,479,30,29
+Tomato,Karnataka,2014-10,422,30,27
+Tomato,Karnataka,2014-11,408,30,26
+Tomato,Karnataka,2014-12,463,31,25
+Tomato,Karnataka,2015-01,541,31,31
+Tomato,Karnataka,2015-02,462,28,32
+Tomato,Karnataka,2015-03,498,31,30
+Tomato,Karnataka,2015-04,427,30,32
+Tomato,Karnataka,2015-05,451,30,29
+Tomato,Karnataka,2015-06,488,30,30
+Tomato,Karnataka,2015-07,516,31,32
+Tomato,Karnataka,2015-08,565,31,31
+Tomato,Karnataka,2015-09,550,30,31
+Tomato,Karnataka,2015-10,488,31,30
+Tomato,Karnataka,2015-11,451,30,29
+Tomato,Karnataka,2015-12,481,31,29
+Tomato,Karnataka,2016-01,352,28,26
+Tomato,Karnataka,2016-02,320,29,27
+Tomato,Karnataka,2016-03,452,31,27
+Tomato,Karnataka,2016-04,395,30,26
+Tomato,Karnataka,2016-05,393,31,24
+Tomato,Karnataka,2016-06,425,30,25
+Tomato,Karnataka,2016-07,482,31,28
+Tomato,Karnataka,2016-08,555,31,29
+Tomato,Karnataka,2016-09,460,30,25
+Tomato,Karnataka,2016-10,404,31,24
+Tomato,Karnataka,2016-11,438,30,25
+Tomato,Karnataka,2016-12,429,31,24
+Tomato,Karnataka,2017-01,363,30,23
+Tomato,Karnataka,2017-02,367,28,23
+Tomato,Karnataka,2017-03,445,31,24
+Tomato,Karnataka,2017-04,409,30,24
+Tomato,Karnataka,2017-05,467,31,24
+Tomato,Karnataka,2017-06,448,30,25
+Tomato,Karnataka,2017-07,442,31,26
+Tomato,Karnataka,2017-08,454,31,24
+Tomato,Karnataka,2017-09,429,30,25
+Tomato,Karnataka,2017-10,402,31,24
+Tomato,Karnataka,2017-11,396,30,24
+Tomato,Karnataka,2017-12,443,31,29
+Tomato,Karnataka,2018-01,473,31,26
+Tomato,Karnataka,2018-02,427,28,27
+Tomato,Karnataka,2018-03,461,31,23
+Tomato,Karnataka,2018-04,338,29,24
+Tomato,Karnataka,2018-05,495,31,24
+Tomato,Karnataka,2018-06,518,30,27
+Tomato,Karnataka,2018-07,520,31,27
+Tomato,Karnataka,2018-08,488,31,30
+Tomato,Karnataka,2018-09,466,30,26
+Tomato,Karnataka,2018-10,439,31,25
+Tomato,Karnataka,2018-11,434,30,26
+Tomato,Karnataka,2018-12,499,31,28
+Tomato,Karnataka,2019-01,483,31,25
+Tomato,Karnataka,2019-02,461,28,27
+Tomato,Karnataka,2019-03,521,31,28
+Tomato,Karnataka,2019-04,479,30,26
+Tomato,Karnataka,2019-05,492,31,26
+Tomato,Karnataka,2019-06,335,26,24
+Tomato,Karnataka,2019-07,325,28,25
+Tomato,Karnataka,2019-08,509,31,29
+Tomato,Karnataka,2019-09,464,30,27
+Tomato,Karnataka,2019-10,446,31,26
+Tomato,Karnataka,2019-11,463,30,26
+Tomato,Karnataka,2019-12,485,31,28
+Tomato,Karnataka,2020-01,487,31,27
+Tomato,Karnataka,2020-02,455,29,26
+Tomato,Karnataka,2020-03,452,31,29
+Tomato,Karnataka,2020-04,884,30,42
+Tomato,Karnataka,2020-05,860,31,39
+Tomato,Karnataka,2020-06,724,30,34
+Tomato,Karnataka,2020-07,739,31,36
+Tomato,Karnataka,2020-08,669,31,37
+Tomato,Karnataka,2020-09,680,30,34
+Tomato,Karnataka,2020-10,571,31,32
+Tomato,Karnataka,2020-11,615,30,34
+Tomato,Karnataka,2020-12,650,31,34
+Tomato,Karnataka,2021-01,628,31,32
+Tomato,Karnataka,2021-02,571,28,32
+Tomato,Karnataka,2021-03,617,31,31
+Tomato,Karnataka,2021-04,543,30,32
+Tomato,Karnataka,2021-05,632,31,32
+Tomato,Karnataka,2021-06,687,30,32
+Tomato,Karnataka,2021-07,699,31,36
+Tomato,Karnataka,2021-08,692,31,35
+Tomato,Karnataka,2021-09,698,30,36
+Tomato,Karnataka,2021-10,611,31,37
+Tomato,Karnataka,2021-11,607,30,35
+Tomato,Karnataka,2021-12,713,31,37
+Tomato,Karnataka,2022-01,646,31,36
+Tomato,Karnataka,2022-02,645,28,36
+Tomato,Karnataka,2022-03,711,31,36
+Tomato,Karnataka,2022-04,634,30,33
+Tomato,Karnataka,2022-05,623,31,32
+Tomato,Karnataka,2022-06,624,30,32
+Tomato,Karnataka,2022-07,626,31,34
+Tomato,Karnataka,2022-08,626,31,31
+Tomato,Karnataka,2022-09,623,30,31
+Tomato,Karnataka,2022-10,571,31,30
+Tomato,Karnataka,2022-11,577,30,31
+Tomato,Karnataka,2022-12,647,31,32
+Tomato,Karnataka,2023-01,616,31,31
+Tomato,Karnataka,2023-02,572,28,30
+Tomato,Karnataka,2023-03,615,31,29
+Tomato,Karnataka,2023-04,618,30,32
+Tomato,Karnataka,2023-05,618,31,31
+Tomato,Karnataka,2023-06,637,30,32
+Tomato,Karnataka,2023-07,702,31,39
+Tomato,Karnataka,2023-08,604,31,37
+Tomato,Karnataka,2023-09,476,30,33
+Tomato,Karnataka,2023-10,539,31,38
+Tomato,Karnataka,2023-11,528,29,39
+Tomato,Karnataka,2023-12,512,31,33
+Tomato,Karnataka,2024-01,425,31,33
+Tomato,Karnataka,2024-02,542,29,29
+Tomato,Karnataka,2024-03,533,31,32
+Tomato,Karnataka,2024-04,410,28,32
+Tomato,Karnataka,2024-05,514,31,32
+Tomato,Karnataka,2024-06,460,30,32
+Tomato,Karnataka,2024-07,506,31,28
+Tomato,Karnataka,2024-08,479,31,27
+Tomato,Karnataka,2024-09,439,30,30
+Tomato,Karnataka,2024-10,385,30,25
+Tomato,Karnataka,2024-11,337,25,28
+Tomato,Karnataka,2024-12,380,30,25
+Tomato,Karnataka,2025-01,452,31,28
+Tomato,Karnataka,2025-02,389,28,27
+Tomato,Karnataka,2025-03,221,28,22
+Tomato,Karnataka,2025-04,242,29,19
+Tomato,Karnataka,2025-05,294,31,20
+Tomato,Karnataka,2025-06,308,30,19
+Tomato,Karnataka,2025-07,312,31,18
+Tomato,Karnataka,2025-08,271,31,19
+Tomato,Karnataka,2025-09,345,30,22
+Tomato,Karnataka,2025-10,198,29,20
+Tomato,Karnataka,2025-11,10,3,9
+Tomato,Karnataka,2025-12,108,25,23
+Tomato,Karnataka,2026-01,138,29,24
+Tomato,Karnataka,2026-02,110,26,27
+Tomato,Karnataka,2026-03,94,22,31
+Tomato,Karnataka,2026-04,95,17,29
+Tomato,Madhya Pradesh,2002-03,1,1,1
+Tomato,Madhya Pradesh,2002-07,22,16,3
+Tomato,Madhya Pradesh,2002-08,72,29,4
+Tomato,Madhya Pradesh,2002-09,115,30,6
+Tomato,Madhya Pradesh,2002-10,120,31,6
+Tomato,Madhya Pradesh,2002-11,134,30,7
+Tomato,Madhya Pradesh,2002-12,131,31,7
+Tomato,Madhya Pradesh,2003-01,125,31,6
+Tomato,Madhya Pradesh,2003-02,101,28,6
+Tomato,Madhya Pradesh,2003-03,125,31,7
+Tomato,Madhya Pradesh,2003-04,131,30,7
+Tomato,Madhya Pradesh,2003-05,119,31,5
+Tomato,Madhya Pradesh,2003-06,79,27,5
+Tomato,Madhya Pradesh,2003-07,108,31,6
+Tomato,Madhya Pradesh,2003-08,88,30,6
+Tomato,Madhya Pradesh,2003-09,68,29,3
+Tomato,Madhya Pradesh,2003-10,64,30,3
+Tomato,Madhya Pradesh,2003-11,89,30,4
+Tomato,Madhya Pradesh,2003-12,86,31,4
+Tomato,Madhya Pradesh,2004-01,105,31,5
+Tomato,Madhya Pradesh,2004-02,94,29,5
+Tomato,Madhya Pradesh,2004-03,79,31,5
+Tomato,Madhya Pradesh,2004-04,51,25,5
+Tomato,Madhya Pradesh,2004-05,93,30,5
+Tomato,Madhya Pradesh,2004-06,98,30,5
+Tomato,Madhya Pradesh,2004-07,106,31,5
+Tomato,Madhya Pradesh,2004-08,97,31,4
+Tomato,Madhya Pradesh,2004-09,99,30,5
+Tomato,Madhya Pradesh,2004-10,96,30,5
+Tomato,Madhya Pradesh,2004-11,35,21,3
+Tomato,Madhya Pradesh,2004-12,53,31,5
+Tomato,Madhya Pradesh,2005-01,55,30,3
+Tomato,Madhya Pradesh,2005-02,68,27,5
+Tomato,Madhya Pradesh,2005-03,53,28,5
+Tomato,Madhya Pradesh,2005-04,44,25,4
+Tomato,Madhya Pradesh,2005-05,50,29,3
+Tomato,Madhya Pradesh,2005-06,61,28,4
+Tomato,Madhya Pradesh,2005-07,52,28,3
+Tomato,Madhya Pradesh,2005-08,60,27,4
+Tomato,Madhya Pradesh,2005-09,59,27,4
+Tomato,Madhya Pradesh,2005-10,65,28,4
+Tomato,Madhya Pradesh,2005-11,45,24,5
+Tomato,Madhya Pradesh,2005-12,19,13,3
+Tomato,Madhya Pradesh,2006-01,8,7,5
+Tomato,Madhya Pradesh,2006-02,15,14,2
+Tomato,Madhya Pradesh,2006-03,10,8,4
+Tomato,Madhya Pradesh,2006-04,3,3,2
+Tomato,Madhya Pradesh,2006-05,51,29,3
+Tomato,Madhya Pradesh,2006-06,56,29,3
+Tomato,Madhya Pradesh,2006-07,52,29,3
+Tomato,Madhya Pradesh,2006-08,35,25,2
+Tomato,Madhya Pradesh,2006-09,41,26,4
+Tomato,Madhya Pradesh,2006-10,35,23,3
+Tomato,Madhya Pradesh,2006-11,39,21,4
+Tomato,Madhya Pradesh,2006-12,31,22,3
+Tomato,Madhya Pradesh,2007-01,33,21,4
+Tomato,Madhya Pradesh,2007-02,26,20,3
+Tomato,Madhya Pradesh,2007-03,12,12,2
+Tomato,Madhya Pradesh,2007-04,13,12,1
+Tomato,Madhya Pradesh,2007-05,13,13,1
+Tomato,Madhya Pradesh,2007-06,35,27,3
+Tomato,Madhya Pradesh,2007-07,17,16,2
+Tomato,Madhya Pradesh,2007-08,15,15,1
+Tomato,Madhya Pradesh,2007-09,13,12,2
+Tomato,Madhya Pradesh,2007-10,16,16,1
+Tomato,Madhya Pradesh,2007-11,23,22,2
+Tomato,Madhya Pradesh,2007-12,27,23,2
+Tomato,Madhya Pradesh,2008-01,33,25,2
+Tomato,Madhya Pradesh,2008-02,46,28,2
+Tomato,Madhya Pradesh,2008-03,35,27,2
+Tomato,Madhya Pradesh,2008-04,26,26,1
+Tomato,Madhya Pradesh,2008-05,25,24,2
+Tomato,Madhya Pradesh,2008-06,23,22,2
+Tomato,Madhya Pradesh,2008-07,21,21,1
+Tomato,Madhya Pradesh,2008-08,59,30,3
+Tomato,Madhya Pradesh,2008-09,48,27,4
+Tomato,Madhya Pradesh,2008-10,36,21,3
+Tomato,Madhya Pradesh,2008-11,22,20,3
+Tomato,Madhya Pradesh,2008-12,24,19,3
+Tomato,Madhya Pradesh,2009-01,16,15,2
+Tomato,Madhya Pradesh,2009-02,46,27,3
+Tomato,Madhya Pradesh,2009-03,51,30,2
+Tomato,Madhya Pradesh,2009-04,39,28,3
+Tomato,Madhya Pradesh,2009-05,61,30,3
+Tomato,Madhya Pradesh,2009-06,10,8,2
+Tomato,Madhya Pradesh,2009-07,27,25,2
+Tomato,Madhya Pradesh,2009-08,147,31,8
+Tomato,Madhya Pradesh,2009-09,219,30,12
+Tomato,Madhya Pradesh,2009-10,244,31,13
+Tomato,Madhya Pradesh,2009-11,188,30,10
+Tomato,Madhya Pradesh,2009-12,208,31,9
+Tomato,Madhya Pradesh,2010-01,178,31,9
+Tomato,Madhya Pradesh,2010-02,173,28,10
+Tomato,Madhya Pradesh,2010-03,181,31,10
+Tomato,Madhya Pradesh,2010-04,191,30,11
+Tomato,Madhya Pradesh,2010-05,171,31,9
+Tomato,Madhya Pradesh,2010-06,159,30,9
+Tomato,Madhya Pradesh,2010-07,126,31,7
+Tomato,Madhya Pradesh,2010-08,190,31,10
+Tomato,Madhya Pradesh,2010-09,218,30,14
+Tomato,Madhya Pradesh,2010-10,268,31,16
+Tomato,Madhya Pradesh,2010-11,281,30,16
+Tomato,Madhya Pradesh,2010-12,224,31,15
+Tomato,Madhya Pradesh,2011-01,268,31,15
+Tomato,Madhya Pradesh,2011-02,219,28,15
+Tomato,Madhya Pradesh,2011-03,282,31,17
+Tomato,Madhya Pradesh,2011-04,258,30,14
+Tomato,Madhya Pradesh,2011-05,205,31,12
+Tomato,Madhya Pradesh,2011-06,276,30,14
+Tomato,Madhya Pradesh,2011-07,323,31,17
+Tomato,Madhya Pradesh,2011-08,380,31,20
+Tomato,Madhya Pradesh,2011-09,412,30,22
+Tomato,Madhya Pradesh,2011-10,395,31,21
+Tomato,Madhya Pradesh,2011-11,375,30,23
+Tomato,Madhya Pradesh,2011-12,363,31,21
+Tomato,Madhya Pradesh,2012-01,315,31,20
+Tomato,Madhya Pradesh,2012-02,309,29,17
+Tomato,Madhya Pradesh,2012-03,264,31,17
+Tomato,Madhya Pradesh,2012-04,258,30,15
+Tomato,Madhya Pradesh,2012-05,336,31,19
+Tomato,Madhya Pradesh,2012-06,334,30,19
+Tomato,Madhya Pradesh,2012-07,317,31,18
+Tomato,Madhya Pradesh,2012-08,316,31,18
+Tomato,Madhya Pradesh,2012-09,413,30,23
+Tomato,Madhya Pradesh,2012-10,362,31,19
+Tomato,Madhya Pradesh,2012-11,332,30,16
+Tomato,Madhya Pradesh,2012-12,343,31,15
+Tomato,Madhya Pradesh,2013-01,363,31,15
+Tomato,Madhya Pradesh,2013-02,342,28,17
+Tomato,Madhya Pradesh,2013-03,341,31,17
+Tomato,Madhya Pradesh,2013-04,310,30,15
+Tomato,Madhya Pradesh,2013-05,339,31,18
+Tomato,Madhya Pradesh,2013-06,281,30,15
+Tomato,Madhya Pradesh,2013-07,308,31,15
+Tomato,Madhya Pradesh,2013-08,348,31,17
+Tomato,Madhya Pradesh,2013-09,349,30,15
+Tomato,Madhya Pradesh,2013-10,329,31,13
+Tomato,Madhya Pradesh,2013-11,246,30,12
+Tomato,Madhya Pradesh,2013-12,218,31,12
+Tomato,Madhya Pradesh,2014-01,353,31,15
+Tomato,Madhya Pradesh,2014-02,286,28,15
+Tomato,Madhya Pradesh,2014-03,327,31,16
+Tomato,Madhya Pradesh,2014-04,259,30,14
+Tomato,Madhya Pradesh,2014-05,303,31,15
+Tomato,Madhya Pradesh,2014-06,360,30,17
+Tomato,Madhya Pradesh,2014-07,371,31,23
+Tomato,Madhya Pradesh,2014-08,355,31,19
+Tomato,Madhya Pradesh,2014-09,423,30,21
+Tomato,Madhya Pradesh,2014-10,401,31,21
+Tomato,Madhya Pradesh,2014-11,472,30,23
+Tomato,Madhya Pradesh,2014-12,534,31,25
+Tomato,Madhya Pradesh,2015-01,448,31,22
+Tomato,Madhya Pradesh,2015-02,413,28,21
+Tomato,Madhya Pradesh,2015-03,403,31,21
+Tomato,Madhya Pradesh,2015-04,424,30,20
+Tomato,Madhya Pradesh,2015-05,451,31,20
+Tomato,Madhya Pradesh,2015-06,467,30,22
+Tomato,Madhya Pradesh,2015-07,458,31,21
+Tomato,Madhya Pradesh,2015-08,471,31,22
+Tomato,Madhya Pradesh,2015-09,532,30,27
+Tomato,Madhya Pradesh,2015-10,567,31,27
+Tomato,Madhya Pradesh,2015-11,480,30,24
+Tomato,Madhya Pradesh,2015-12,482,31,24
+Tomato,Madhya Pradesh,2016-01,477,31,24
+Tomato,Madhya Pradesh,2016-02,438,29,23
+Tomato,Madhya Pradesh,2016-03,431,31,24
+Tomato,Madhya Pradesh,2016-04,419,30,23
+Tomato,Madhya Pradesh,2016-05,485,31,24
+Tomato,Madhya Pradesh,2016-06,469,30,23
+Tomato,Madhya Pradesh,2016-07,427,31,24
+Tomato,Madhya Pradesh,2016-08,497,31,25
+Tomato,Madhya Pradesh,2016-09,506,30,25
+Tomato,Madhya Pradesh,2016-10,529,31,28
+Tomato,Madhya Pradesh,2016-11,535,30,26
+Tomato,Madhya Pradesh,2016-12,564,31,27
+Tomato,Madhya Pradesh,2017-01,589,31,27
+Tomato,Madhya Pradesh,2017-02,515,28,26
+Tomato,Madhya Pradesh,2017-03,544,31,27
+Tomato,Madhya Pradesh,2017-04,510,30,25
+Tomato,Madhya Pradesh,2017-05,538,31,25
+Tomato,Madhya Pradesh,2017-06,497,30,26
+Tomato,Madhya Pradesh,2017-07,476,31,26
+Tomato,Madhya Pradesh,2017-08,465,31,22
+Tomato,Madhya Pradesh,2017-09,567,30,27
+Tomato,Madhya Pradesh,2017-10,584,31,27
+Tomato,Madhya Pradesh,2017-11,446,30,25
+Tomato,Madhya Pradesh,2017-12,513,31,24
+Tomato,Madhya Pradesh,2018-01,555,31,24
+Tomato,Madhya Pradesh,2018-02,496,28,24
+Tomato,Madhya Pradesh,2018-03,549,31,24
+Tomato,Madhya Pradesh,2018-04,444,30,25
+Tomato,Madhya Pradesh,2018-05,487,31,21
+Tomato,Madhya Pradesh,2018-06,583,30,33
+Tomato,Madhya Pradesh,2018-07,658,31,31
+Tomato,Madhya Pradesh,2018-08,656,31,29
+Tomato,Madhya Pradesh,2018-09,683,30,30
+Tomato,Madhya Pradesh,2018-10,710,31,32
+Tomato,Madhya Pradesh,2018-11,689,30,36
+Tomato,Madhya Pradesh,2018-12,824,31,37
+Tomato,Madhya Pradesh,2019-01,871,31,37
+Tomato,Madhya Pradesh,2019-02,835,28,41
+Tomato,Madhya Pradesh,2019-03,845,31,41
+Tomato,Madhya Pradesh,2019-04,849,30,40
+Tomato,Madhya Pradesh,2019-05,851,31,42
+Tomato,Madhya Pradesh,2019-06,810,30,40
+Tomato,Madhya Pradesh,2019-07,845,31,41
+Tomato,Madhya Pradesh,2019-08,848,31,39
+Tomato,Madhya Pradesh,2019-09,833,30,40
+Tomato,Madhya Pradesh,2019-10,767,31,39
+Tomato,Madhya Pradesh,2019-11,761,30,37
+Tomato,Madhya Pradesh,2019-12,842,31,38
+Tomato,Madhya Pradesh,2020-01,478,31,27
+Tomato,Madhya Pradesh,2020-02,584,29,34
+Tomato,Madhya Pradesh,2020-03,395,31,25
+Tomato,Madhya Pradesh,2020-04,254,30,16
+Tomato,Madhya Pradesh,2020-05,293,31,21
+Tomato,Madhya Pradesh,2020-06,465,30,29
+Tomato,Madhya Pradesh,2020-07,549,31,35
+Tomato,Madhya Pradesh,2020-08,526,31,35
+Tomato,Madhya Pradesh,2020-09,398,25,35
+Tomato,Madhya Pradesh,2020-10,488,27,32
+Tomato,Madhya Pradesh,2020-11,604,30,34
+Tomato,Madhya Pradesh,2020-12,772,31,34
+Tomato,Madhya Pradesh,2021-01,779,31,38
+Tomato,Madhya Pradesh,2021-02,719,28,40
+Tomato,Madhya Pradesh,2021-03,868,31,42
+Tomato,Madhya Pradesh,2021-04,597,30,43
+Tomato,Madhya Pradesh,2021-05,341,31,29
+Tomato,Madhya Pradesh,2021-06,649,30,36
+Tomato,Madhya Pradesh,2021-07,822,31,42
+Tomato,Madhya Pradesh,2021-08,849,31,41
+Tomato,Madhya Pradesh,2021-09,855,30,42
+Tomato,Madhya Pradesh,2021-10,805,31,42
+Tomato,Madhya Pradesh,2021-11,861,30,44
+Tomato,Madhya Pradesh,2021-12,898,31,42
+Tomato,Madhya Pradesh,2022-01,1051,31,45
+Tomato,Madhya Pradesh,2022-02,919,28,47
+Tomato,Madhya Pradesh,2022-03,991,31,49
+Tomato,Madhya Pradesh,2022-04,969,30,48
+Tomato,Madhya Pradesh,2022-05,933,31,48
+Tomato,Madhya Pradesh,2022-06,811,30,45
+Tomato,Madhya Pradesh,2022-07,964,31,48
+Tomato,Madhya Pradesh,2022-08,1048,31,48
+Tomato,Madhya Pradesh,2022-09,1069,30,49
+Tomato,Madhya Pradesh,2022-10,1016,31,49
+Tomato,Madhya Pradesh,2022-11,1056,30,47
+Tomato,Madhya Pradesh,2022-12,1108,31,47
+Tomato,Madhya Pradesh,2023-01,1072,31,48
+Tomato,Madhya Pradesh,2023-02,972,28,46
+Tomato,Madhya Pradesh,2023-03,969,31,47
+Tomato,Madhya Pradesh,2023-04,922,30,46
+Tomato,Madhya Pradesh,2023-05,951,31,46
+Tomato,Madhya Pradesh,2023-06,929,30,48
+Tomato,Madhya Pradesh,2023-07,658,31,42
+Tomato,Madhya Pradesh,2023-08,523,31,45
+Tomato,Madhya Pradesh,2023-09,786,30,45
+Tomato,Madhya Pradesh,2023-10,911,31,41
+Tomato,Madhya Pradesh,2023-11,779,30,43
+Tomato,Madhya Pradesh,2023-12,649,26,47
+Tomato,Madhya Pradesh,2024-01,20,17,3
+Tomato,Madhya Pradesh,2024-02,18,15,4
+Tomato,Madhya Pradesh,2024-03,11,10,3
+Tomato,Madhya Pradesh,2024-04,23,18,2
+Tomato,Madhya Pradesh,2024-05,18,15,4
+Tomato,Madhya Pradesh,2024-06,23,21,3
+Tomato,Madhya Pradesh,2024-07,9,9,2
+Tomato,Madhya Pradesh,2024-08,19,16,3
+Tomato,Madhya Pradesh,2024-09,68,22,16
+Tomato,Madhya Pradesh,2024-10,429,31,27
+Tomato,Madhya Pradesh,2024-11,476,30,26
+Tomato,Madhya Pradesh,2024-12,536,31,26
+Tomato,Madhya Pradesh,2025-01,582,31,30
+Tomato,Madhya Pradesh,2025-02,486,28,23
+Tomato,Madhya Pradesh,2025-03,414,31,23
+Tomato,Madhya Pradesh,2025-04,555,30,32
+Tomato,Madhya Pradesh,2025-05,631,31,34
+Tomato,Madhya Pradesh,2025-06,619,30,32
+Tomato,Madhya Pradesh,2025-07,619,31,31
+Tomato,Madhya Pradesh,2025-08,656,31,41
+Tomato,Madhya Pradesh,2025-09,999,30,48
+Tomato,Madhya Pradesh,2025-10,695,31,49
+Tomato,Madhya Pradesh,2025-11,47,5,29
+Tomato,Madhya Pradesh,2025-12,24,18,4
+Tomato,Madhya Pradesh,2026-01,26,19,10
+Tomato,Madhya Pradesh,2026-02,162,25,42
+Tomato,Madhya Pradesh,2026-03,131,23,41
+Tomato,Madhya Pradesh,2026-04,111,20,33
+Tomato,Maharashtra,2001-02,1,1,1
+Tomato,Maharashtra,2001-06,8,8,1
+Tomato,Maharashtra,2001-07,20,20,1
+Tomato,Maharashtra,2001-08,19,19,1
+Tomato,Maharashtra,2001-09,23,23,1
+Tomato,Maharashtra,2001-10,24,24,1
+Tomato,Maharashtra,2001-11,11,11,1
+Tomato,Maharashtra,2002-01,5,5,1
+Tomato,Maharashtra,2002-02,7,7,1
+Tomato,Maharashtra,2002-03,3,3,1
+Tomato,Maharashtra,2002-04,1,1,1
+Tomato,Maharashtra,2002-05,11,11,1
+Tomato,Maharashtra,2002-06,23,23,1
+Tomato,Maharashtra,2002-07,16,16,1
+Tomato,Maharashtra,2002-08,28,25,3
+Tomato,Maharashtra,2002-09,31,24,3
+Tomato,Maharashtra,2002-10,34,27,3
+Tomato,Maharashtra,2002-11,31,20,3
+Tomato,Maharashtra,2002-12,34,20,3
+Tomato,Maharashtra,2003-01,57,25,4
+Tomato,Maharashtra,2003-02,69,28,6
+Tomato,Maharashtra,2003-03,70,30,8
+Tomato,Maharashtra,2003-04,103,30,9
+Tomato,Maharashtra,2003-05,129,31,10
+Tomato,Maharashtra,2003-06,134,30,9
+Tomato,Maharashtra,2003-07,128,30,11
+Tomato,Maharashtra,2003-08,129,31,13
+Tomato,Maharashtra,2003-09,202,30,13
+Tomato,Maharashtra,2003-10,162,31,11
+Tomato,Maharashtra,2003-11,157,30,11
+Tomato,Maharashtra,2003-12,205,31,13
+Tomato,Maharashtra,2004-01,216,30,12
+Tomato,Maharashtra,2004-02,163,28,12
+Tomato,Maharashtra,2004-03,124,31,12
+Tomato,Maharashtra,2004-04,109,30,10
+Tomato,Maharashtra,2004-05,151,29,10
+Tomato,Maharashtra,2004-06,159,30,10
+Tomato,Maharashtra,2004-07,204,31,12
+Tomato,Maharashtra,2004-08,237,31,15
+Tomato,Maharashtra,2004-09,234,30,19
+Tomato,Maharashtra,2004-10,219,31,17
+Tomato,Maharashtra,2004-11,170,29,18
+Tomato,Maharashtra,2004-12,284,31,19
+Tomato,Maharashtra,2005-01,221,30,18
+Tomato,Maharashtra,2005-02,236,28,19
+Tomato,Maharashtra,2005-03,264,31,18
+Tomato,Maharashtra,2005-04,259,30,18
+Tomato,Maharashtra,2005-05,270,31,16
+Tomato,Maharashtra,2005-06,272,30,17
+Tomato,Maharashtra,2005-07,261,31,19
+Tomato,Maharashtra,2005-08,282,31,20
+Tomato,Maharashtra,2005-09,243,29,16
+Tomato,Maharashtra,2005-10,271,31,19
+Tomato,Maharashtra,2005-11,242,29,21
+Tomato,Maharashtra,2005-12,188,31,17
+Tomato,Maharashtra,2006-01,91,29,12
+Tomato,Maharashtra,2006-02,90,28,16
+Tomato,Maharashtra,2006-03,142,30,19
+Tomato,Maharashtra,2006-04,214,30,24
+Tomato,Maharashtra,2006-05,344,31,25
+Tomato,Maharashtra,2006-06,303,30,20
+Tomato,Maharashtra,2006-07,342,31,25
+Tomato,Maharashtra,2006-08,346,31,26
+Tomato,Maharashtra,2006-09,439,30,29
+Tomato,Maharashtra,2006-10,474,31,29
+Tomato,Maharashtra,2006-11,441,30,32
+Tomato,Maharashtra,2006-12,366,31,29
+Tomato,Maharashtra,2007-01,392,31,29
+Tomato,Maharashtra,2007-02,275,28,25
+Tomato,Maharashtra,2007-03,256,31,24
+Tomato,Maharashtra,2007-04,302,30,29
+Tomato,Maharashtra,2007-05,182,31,25
+Tomato,Maharashtra,2007-06,378,30,27
+Tomato,Maharashtra,2007-07,394,31,32
+Tomato,Maharashtra,2007-08,390,31,26
+Tomato,Maharashtra,2007-09,256,30,22
+Tomato,Maharashtra,2007-10,359,31,28
+Tomato,Maharashtra,2007-11,341,30,28
+Tomato,Maharashtra,2007-12,292,31,24
+Tomato,Maharashtra,2008-01,297,31,22
+Tomato,Maharashtra,2008-02,335,29,21
+Tomato,Maharashtra,2008-03,290,31,18
+Tomato,Maharashtra,2008-04,278,29,21
+Tomato,Maharashtra,2008-05,284,31,20
+Tomato,Maharashtra,2008-06,294,30,19
+Tomato,Maharashtra,2008-07,269,31,19
+Tomato,Maharashtra,2008-08,180,30,17
+Tomato,Maharashtra,2008-09,305,30,24
+Tomato,Maharashtra,2008-10,343,31,26
+Tomato,Maharashtra,2008-11,360,30,22
+Tomato,Maharashtra,2008-12,294,31,21
+Tomato,Maharashtra,2009-01,248,31,20
+Tomato,Maharashtra,2009-02,393,28,25
+Tomato,Maharashtra,2009-03,421,31,27
+Tomato,Maharashtra,2009-04,362,30,24
+Tomato,Maharashtra,2009-05,479,31,31
+Tomato,Maharashtra,2009-06,456,30,32
+Tomato,Maharashtra,2009-07,470,31,31
+Tomato,Maharashtra,2009-08,429,29,29
+Tomato,Maharashtra,2009-09,470,30,30
+Tomato,Maharashtra,2009-10,468,31,30
+Tomato,Maharashtra,2009-11,557,30,33
+Tomato,Maharashtra,2009-12,602,31,30
+Tomato,Maharashtra,2010-01,588,31,31
+Tomato,Maharashtra,2010-02,506,28,31
+Tomato,Maharashtra,2010-03,517,31,29
+Tomato,Maharashtra,2010-04,483,30,28
+Tomato,Maharashtra,2010-05,479,31,26
+Tomato,Maharashtra,2010-06,497,30,29
+Tomato,Maharashtra,2010-07,566,31,32
+Tomato,Maharashtra,2010-08,553,31,32
+Tomato,Maharashtra,2010-09,515,30,31
+Tomato,Maharashtra,2010-10,457,31,30
+Tomato,Maharashtra,2010-11,371,30,27
+Tomato,Maharashtra,2010-12,470,31,33
+Tomato,Maharashtra,2011-01,478,31,32
+Tomato,Maharashtra,2011-02,430,28,30
+Tomato,Maharashtra,2011-03,418,31,27
+Tomato,Maharashtra,2011-04,421,30,29
+Tomato,Maharashtra,2011-05,386,31,27
+Tomato,Maharashtra,2011-06,433,30,28
+Tomato,Maharashtra,2011-07,415,31,29
+Tomato,Maharashtra,2011-08,395,31,27
+Tomato,Maharashtra,2011-09,452,30,28
+Tomato,Maharashtra,2011-10,380,31,28
+Tomato,Maharashtra,2011-11,389,30,32
+Tomato,Maharashtra,2011-12,460,31,29
+Tomato,Maharashtra,2012-01,431,31,28
+Tomato,Maharashtra,2012-02,355,29,25
+Tomato,Maharashtra,2012-03,404,31,26
+Tomato,Maharashtra,2012-04,362,30,27
+Tomato,Maharashtra,2012-05,406,31,26
+Tomato,Maharashtra,2012-06,391,30,27
+Tomato,Maharashtra,2012-07,446,31,29
+Tomato,Maharashtra,2012-08,443,31,28
+Tomato,Maharashtra,2012-09,364,30,25
+Tomato,Maharashtra,2012-10,414,31,26
+Tomato,Maharashtra,2012-11,362,30,26
+Tomato,Maharashtra,2012-12,314,30,23
+Tomato,Maharashtra,2013-01,384,31,24
+Tomato,Maharashtra,2013-02,335,28,23
+Tomato,Maharashtra,2013-03,351,31,22
+Tomato,Maharashtra,2013-04,400,30,28
+Tomato,Maharashtra,2013-05,440,31,30
+Tomato,Maharashtra,2013-06,504,30,33
+Tomato,Maharashtra,2013-07,572,31,36
+Tomato,Maharashtra,2013-08,308,31,32
+Tomato,Maharashtra,2013-09,401,30,27
+Tomato,Maharashtra,2013-10,479,31,29
+Tomato,Maharashtra,2013-11,389,30,30
+Tomato,Maharashtra,2013-12,435,31,26
+Tomato,Maharashtra,2014-01,458,31,26
+Tomato,Maharashtra,2014-02,352,28,25
+Tomato,Maharashtra,2014-03,333,31,22
+Tomato,Maharashtra,2014-04,333,30,22
+Tomato,Maharashtra,2014-05,239,31,18
+Tomato,Maharashtra,2014-06,363,30,24
+Tomato,Maharashtra,2014-07,517,31,28
+Tomato,Maharashtra,2014-08,564,31,35
+Tomato,Maharashtra,2014-09,535,30,34
+Tomato,Maharashtra,2014-10,481,31,28
+Tomato,Maharashtra,2014-11,301,30,23
+Tomato,Maharashtra,2014-12,637,31,34
+Tomato,Maharashtra,2015-01,502,31,30
+Tomato,Maharashtra,2015-02,414,28,27
+Tomato,Maharashtra,2015-03,474,31,27
+Tomato,Maharashtra,2015-04,492,30,29
+Tomato,Maharashtra,2015-05,491,31,27
+Tomato,Maharashtra,2015-06,604,30,33
+Tomato,Maharashtra,2015-07,637,31,31
+Tomato,Maharashtra,2015-08,635,31,34
+Tomato,Maharashtra,2015-09,650,30,31
+Tomato,Maharashtra,2015-10,690,31,33
+Tomato,Maharashtra,2015-11,616,30,35
+Tomato,Maharashtra,2015-12,819,31,42
+Tomato,Maharashtra,2016-01,825,31,41
+Tomato,Maharashtra,2016-02,768,29,41
+Tomato,Maharashtra,2016-03,769,31,40
+Tomato,Maharashtra,2016-04,654,30,36
+Tomato,Maharashtra,2016-05,811,31,41
+Tomato,Maharashtra,2016-06,886,30,40
+Tomato,Maharashtra,2016-07,853,31,47
+Tomato,Maharashtra,2016-08,992,31,45
+Tomato,Maharashtra,2016-09,907,30,43
+Tomato,Maharashtra,2016-10,877,31,44
+Tomato,Maharashtra,2016-11,921,30,44
+Tomato,Maharashtra,2016-12,943,31,44
+Tomato,Maharashtra,2017-01,800,31,39
+Tomato,Maharashtra,2017-02,661,28,41
+Tomato,Maharashtra,2017-03,879,31,39
+Tomato,Maharashtra,2017-04,805,30,39
+Tomato,Maharashtra,2017-05,867,31,39
+Tomato,Maharashtra,2017-06,863,30,45
+Tomato,Maharashtra,2017-07,956,31,44
+Tomato,Maharashtra,2017-08,991,31,44
+Tomato,Maharashtra,2017-09,913,30,43
+Tomato,Maharashtra,2017-10,959,31,47
+Tomato,Maharashtra,2017-11,911,30,44
+Tomato,Maharashtra,2017-12,933,31,43
+Tomato,Maharashtra,2018-01,886,31,40
+Tomato,Maharashtra,2018-02,769,28,44
+Tomato,Maharashtra,2018-03,871,31,40
+Tomato,Maharashtra,2018-04,812,30,42
+Tomato,Maharashtra,2018-05,880,31,44
+Tomato,Maharashtra,2018-06,911,30,42
+Tomato,Maharashtra,2018-07,949,31,44
+Tomato,Maharashtra,2018-08,912,31,45
+Tomato,Maharashtra,2018-09,920,30,42
+Tomato,Maharashtra,2018-10,954,31,42
+Tomato,Maharashtra,2018-11,884,30,41
+Tomato,Maharashtra,2018-12,907,31,42
+Tomato,Maharashtra,2019-01,837,31,40
+Tomato,Maharashtra,2019-02,734,28,39
+Tomato,Maharashtra,2019-03,799,31,41
+Tomato,Maharashtra,2019-04,757,30,40
+Tomato,Maharashtra,2019-05,724,31,42
+Tomato,Maharashtra,2019-06,827,30,42
+Tomato,Maharashtra,2019-07,911,31,42
+Tomato,Maharashtra,2019-08,894,31,43
+Tomato,Maharashtra,2019-09,846,30,41
+Tomato,Maharashtra,2019-10,851,31,45
+Tomato,Maharashtra,2019-11,935,30,45
+Tomato,Maharashtra,2019-12,940,31,45
+Tomato,Maharashtra,2020-01,919,31,43
+Tomato,Maharashtra,2020-02,884,29,43
+Tomato,Maharashtra,2020-03,767,30,45
+Tomato,Maharashtra,2020-04,215,27,36
+Tomato,Maharashtra,2020-05,526,31,36
+Tomato,Maharashtra,2020-06,846,30,43
+Tomato,Maharashtra,2020-07,739,31,45
+Tomato,Maharashtra,2020-08,837,31,44
+Tomato,Maharashtra,2020-09,879,30,48
+Tomato,Maharashtra,2020-10,584,30,45
+Tomato,Maharashtra,2020-11,931,30,44
+Tomato,Maharashtra,2020-12,976,31,48
+Tomato,Maharashtra,2021-01,779,31,48
+Tomato,Maharashtra,2021-02,901,28,46
+Tomato,Maharashtra,2021-03,843,31,48
+Tomato,Maharashtra,2021-04,864,30,48
+Tomato,Maharashtra,2021-05,736,31,43
+Tomato,Maharashtra,2021-06,919,30,43
+Tomato,Maharashtra,2021-07,906,31,43
+Tomato,Maharashtra,2021-08,937,31,44
+Tomato,Maharashtra,2021-09,932,30,46
+Tomato,Maharashtra,2021-10,941,31,45
+Tomato,Maharashtra,2021-11,949,30,45
+Tomato,Maharashtra,2021-12,975,31,44
+Tomato,Maharashtra,2022-01,881,31,46
+Tomato,Maharashtra,2022-02,897,28,45
+Tomato,Maharashtra,2022-03,950,31,44
+Tomato,Maharashtra,2022-04,896,30,46
+Tomato,Maharashtra,2022-05,827,31,43
+Tomato,Maharashtra,2022-06,846,30,46
+Tomato,Maharashtra,2022-07,951,31,47
+Tomato,Maharashtra,2022-08,911,31,47
+Tomato,Maharashtra,2022-09,635,30,44
+Tomato,Maharashtra,2022-10,914,31,48
+Tomato,Maharashtra,2022-11,833,30,48
+Tomato,Maharashtra,2022-12,939,31,50
+Tomato,Maharashtra,2023-01,735,31,49
+Tomato,Maharashtra,2023-02,931,28,48
+Tomato,Maharashtra,2023-03,1008,31,47
+Tomato,Maharashtra,2023-04,926,30,45
+Tomato,Maharashtra,2023-05,977,31,47
+Tomato,Maharashtra,2023-06,975,30,47
+Tomato,Maharashtra,2023-07,1050,31,49
+Tomato,Maharashtra,2023-08,994,31,51
+Tomato,Maharashtra,2023-09,841,30,48
+Tomato,Maharashtra,2023-10,883,31,47
+Tomato,Maharashtra,2023-11,747,29,48
+Tomato,Maharashtra,2023-12,802,30,47
+Tomato,Maharashtra,2024-01,818,31,48
+Tomato,Maharashtra,2024-02,840,29,49
+Tomato,Maharashtra,2024-03,918,31,48
+Tomato,Maharashtra,2024-04,646,26,46
+Tomato,Maharashtra,2024-05,952,31,50
+Tomato,Maharashtra,2024-06,879,30,47
+Tomato,Maharashtra,2024-07,958,31,52
+Tomato,Maharashtra,2024-08,948,31,50
+Tomato,Maharashtra,2024-09,954,30,52
+Tomato,Maharashtra,2024-10,953,30,50
+Tomato,Maharashtra,2024-11,876,30,50
+Tomato,Maharashtra,2024-12,1023,31,48
+Tomato,Maharashtra,2025-01,1010,31,49
+Tomato,Maharashtra,2025-02,784,26,46
+Tomato,Maharashtra,2025-03,976,31,47
+Tomato,Maharashtra,2025-04,950,30,47
+Tomato,Maharashtra,2025-05,990,30,47
+Tomato,Maharashtra,2025-06,1011,30,50
+Tomato,Maharashtra,2025-07,996,31,49
+Tomato,Maharashtra,2025-08,929,31,50
+Tomato,Maharashtra,2025-09,956,30,48
+Tomato,Maharashtra,2025-10,640,30,48
+Tomato,Maharashtra,2025-11,35,4,23
+Tomato,Maharashtra,2025-12,231,29,36
+Tomato,Maharashtra,2026-01,273,31,44
+Tomato,Maharashtra,2026-02,264,26,45
+Tomato,Maharashtra,2026-03,210,22,40
+Tomato,Maharashtra,2026-04,176,20,44
+Tomato,Tamil Nadu,2005-08,4,4,2
+Tomato,Tamil Nadu,2005-09,20,16,3
+Tomato,Tamil Nadu,2005-10,30,21,2
+Tomato,Tamil Nadu,2005-11,27,20,3
+Tomato,Tamil Nadu,2005-12,29,23,4
+Tomato,Tamil Nadu,2006-01,23,19,3
+Tomato,Tamil Nadu,2006-02,13,13,2
+Tomato,Tamil Nadu,2006-03,9,9,1
+Tomato,Tamil Nadu,2006-04,12,11,2
+Tomato,Tamil Nadu,2006-06,12,12,1
+Tomato,Tamil Nadu,2006-07,25,22,2
+Tomato,Tamil Nadu,2006-08,44,30,2
+Tomato,Tamil Nadu,2006-09,21,19,2
+Tomato,Tamil Nadu,2006-10,14,13,2
+Tomato,Tamil Nadu,2006-11,18,18,1
+Tomato,Tamil Nadu,2006-12,18,15,2
+Tomato,Tamil Nadu,2007-01,22,17,2
+Tomato,Tamil Nadu,2007-02,22,17,2
+Tomato,Tamil Nadu,2007-03,31,21,2
+Tomato,Tamil Nadu,2007-04,30,20,2
+Tomato,Tamil Nadu,2007-05,31,22,2
+Tomato,Tamil Nadu,2007-06,15,15,2
+Tomato,Tamil Nadu,2007-07,22,20,2
+Tomato,Tamil Nadu,2007-08,17,17,1
+Tomato,Tamil Nadu,2007-11,10,10,1
+Tomato,Tamil Nadu,2007-12,28,15,3
+Tomato,Tamil Nadu,2008-01,22,16,2
+Tomato,Tamil Nadu,2008-02,20,18,2
+Tomato,Tamil Nadu,2008-03,20,17,2
+Tomato,Tamil Nadu,2008-04,11,10,2
+Tomato,Tamil Nadu,2008-05,14,12,2
+Tomato,Tamil Nadu,2008-06,40,29,2
+Tomato,Tamil Nadu,2008-07,38,25,2
+Tomato,Tamil Nadu,2008-08,9,9,1
+Tomato,Tamil Nadu,2008-09,5,5,1
+Tomato,Tamil Nadu,2008-10,11,11,1
+Tomato,Tamil Nadu,2008-11,8,8,1
+Tomato,Tamil Nadu,2008-12,21,11,2
+Tomato,Tamil Nadu,2009-01,27,14,2
+Tomato,Tamil Nadu,2009-02,2,2,1
+Tomato,Tamil Nadu,2009-03,10,9,2
+Tomato,Tamil Nadu,2009-04,7,7,1
+Tomato,Tamil Nadu,2009-05,11,11,1
+Tomato,Tamil Nadu,2009-06,18,18,1
+Tomato,Tamil Nadu,2009-07,23,23,1
+Tomato,Tamil Nadu,2009-08,20,20,1
+Tomato,Tamil Nadu,2009-09,19,19,1
+Tomato,Tamil Nadu,2009-10,21,21,1
+Tomato,Tamil Nadu,2009-11,20,20,1
+Tomato,Tamil Nadu,2009-12,21,21,1
+Tomato,Tamil Nadu,2010-01,17,17,1
+Tomato,Tamil Nadu,2010-02,15,15,1
+Tomato,Tamil Nadu,2010-03,22,22,2
+Tomato,Tamil Nadu,2010-04,16,16,1
+Tomato,Tamil Nadu,2010-05,11,11,1
+Tomato,Tamil Nadu,2010-06,22,22,1
+Tomato,Tamil Nadu,2010-07,24,24,1
+Tomato,Tamil Nadu,2010-08,22,22,1
+Tomato,Tamil Nadu,2010-09,19,19,1
+Tomato,Tamil Nadu,2010-10,20,20,1
+Tomato,Tamil Nadu,2010-11,21,21,1
+Tomato,Tamil Nadu,2010-12,17,17,1
+Tomato,Tamil Nadu,2011-01,18,18,1
+Tomato,Tamil Nadu,2011-02,18,18,1
+Tomato,Tamil Nadu,2011-03,26,22,2
+Tomato,Tamil Nadu,2011-04,9,9,1
+Tomato,Tamil Nadu,2011-05,14,14,1
+Tomato,Tamil Nadu,2011-06,21,21,1
+Tomato,Tamil Nadu,2011-07,20,20,1
+Tomato,Tamil Nadu,2011-08,21,21,1
+Tomato,Tamil Nadu,2011-09,21,21,1
+Tomato,Tamil Nadu,2011-10,18,18,1
+Tomato,Tamil Nadu,2011-11,21,21,1
+Tomato,Tamil Nadu,2011-12,21,21,1
+Tomato,Tamil Nadu,2012-01,5,5,1
+Tomato,Tamil Nadu,2012-02,21,21,1
+Tomato,Tamil Nadu,2012-03,21,21,1
+Tomato,Tamil Nadu,2012-04,15,15,1
+Tomato,Tamil Nadu,2012-05,9,9,1
+Tomato,Tamil Nadu,2013-02,8,8,1
+Tomato,Tamil Nadu,2023-10,1,1,1
+Tomato,Tamil Nadu,2023-11,1,1,1
+Tomato,Tamil Nadu,2024-02,1,1,1
+Tomato,Tamil Nadu,2024-03,1,1,1
+Tomato,Tamil Nadu,2024-05,2,2,1
+Tomato,Tamil Nadu,2024-06,1157,13,89
+Tomato,Tamil Nadu,2024-07,4080,31,247
+Tomato,Tamil Nadu,2024-08,5171,31,168
+Tomato,Tamil Nadu,2024-09,4983,30,169
+Tomato,Tamil Nadu,2024-10,5089,31,168
+Tomato,Tamil Nadu,2024-11,4719,29,166
+Tomato,Tamil Nadu,2024-12,4963,30,169
+Tomato,Tamil Nadu,2025-01,5070,31,167
+Tomato,Tamil Nadu,2025-02,4640,28,168
+Tomato,Tamil Nadu,2025-03,4993,30,168
+Tomato,Tamil Nadu,2025-04,5028,30,168
+Tomato,Tamil Nadu,2025-05,5026,30,169
+Tomato,Tamil Nadu,2025-06,4695,28,168
+Tomato,Tamil Nadu,2025-07,3899,27,170
+Tomato,Tamil Nadu,2025-08,2308,27,135
+Tomato,Tamil Nadu,2025-09,2597,30,133
+Tomato,Tamil Nadu,2025-10,1851,26,133
+Tomato,Tamil Nadu,2025-11,143,4,90
+Tomato,Tamil Nadu,2025-12,1167,29,131
+Tomato,Tamil Nadu,2026-01,1290,31,138
+Tomato,Tamil Nadu,2026-02,1138,26,181
+Tomato,Tamil Nadu,2026-03,1582,25,185
+Tomato,Tamil Nadu,2026-04,1162,20,343

@@ -1,0 +1,2 @@
+n_rows,n_null_names,n_null_variety,n_null_grade,n_null_price,n_modal_nonpositive,n_min_nonpositive,n_max_nonpositive,n_min_gt_max,n_modal_outside_min_max
+75984017,0,0,0,61,0,1833978,1768209,37686,1786196

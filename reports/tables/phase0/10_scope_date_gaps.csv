@@ -1,0 +1,273 @@
+commodity,state,year,days_with_data,longest_gap_days,n_gaps_over_7d
+Onion,Karnataka,2001,7,308,2
+Onion,Karnataka,2002,346,3,0
+Onion,Karnataka,2003,358,7,0
+Onion,Karnataka,2004,358,3,0
+Onion,Karnataka,2005,336,7,0
+Onion,Karnataka,2006,353,15,1
+Onion,Karnataka,2007,340,9,1
+Onion,Karnataka,2008,344,8,1
+Onion,Karnataka,2009,350,17,1
+Onion,Karnataka,2010,337,2,0
+Onion,Karnataka,2011,351,1,0
+Onion,Karnataka,2012,366,0,0
+Onion,Karnataka,2013,324,3,0
+Onion,Karnataka,2014,344,3,0
+Onion,Karnataka,2015,360,1,0
+Onion,Karnataka,2016,355,3,0
+Onion,Karnataka,2017,354,2,0
+Onion,Karnataka,2018,352,2,0
+Onion,Karnataka,2019,348,4,0
+Onion,Karnataka,2020,354,1,0
+Onion,Karnataka,2021,362,1,0
+Onion,Karnataka,2022,363,1,0
+Onion,Karnataka,2023,354,2,0
+Onion,Karnataka,2024,351,3,0
+Onion,Karnataka,2025,310,27,1
+Onion,Karnataka,2026,87,5,0
+Onion,Madhya Pradesh,2002,254,14,1
+Onion,Madhya Pradesh,2003,358,1,0
+Onion,Madhya Pradesh,2004,352,7,0
+Onion,Madhya Pradesh,2005,304,3,0
+Onion,Madhya Pradesh,2006,214,8,3
+Onion,Madhya Pradesh,2007,275,4,0
+Onion,Madhya Pradesh,2008,300,5,0
+Onion,Madhya Pradesh,2009,309,15,1
+Onion,Madhya Pradesh,2010,365,0,0
+Onion,Madhya Pradesh,2011,365,0,0
+Onion,Madhya Pradesh,2012,366,0,0
+Onion,Madhya Pradesh,2013,365,0,0
+Onion,Madhya Pradesh,2014,365,0,0
+Onion,Madhya Pradesh,2015,365,0,0
+Onion,Madhya Pradesh,2016,366,0,0
+Onion,Madhya Pradesh,2017,365,0,0
+Onion,Madhya Pradesh,2018,365,0,0
+Onion,Madhya Pradesh,2019,365,0,0
+Onion,Madhya Pradesh,2020,356,4,0
+Onion,Madhya Pradesh,2021,365,0,0
+Onion,Madhya Pradesh,2022,365,0,0
+Onion,Madhya Pradesh,2023,365,0,0
+Onion,Madhya Pradesh,2024,362,3,0
+Onion,Madhya Pradesh,2025,339,26,1
+Onion,Madhya Pradesh,2026,100,4,0
+Onion,Maharashtra,2001,171,32,2
+Onion,Maharashtra,2002,322,4,0
+Onion,Maharashtra,2003,358,1,0
+Onion,Maharashtra,2004,362,1,0
+Onion,Maharashtra,2005,364,1,0
+Onion,Maharashtra,2006,363,1,0
+Onion,Maharashtra,2007,365,0,0
+Onion,Maharashtra,2008,361,3,0
+Onion,Maharashtra,2009,363,2,0
+Onion,Maharashtra,2010,365,0,0
+Onion,Maharashtra,2011,365,0,0
+Onion,Maharashtra,2012,365,1,0
+Onion,Maharashtra,2013,365,0,0
+Onion,Maharashtra,2014,364,1,0
+Onion,Maharashtra,2015,365,0,0
+Onion,Maharashtra,2016,364,2,0
+Onion,Maharashtra,2017,360,3,0
+Onion,Maharashtra,2018,365,0,0
+Onion,Maharashtra,2019,362,3,0
+Onion,Maharashtra,2020,345,10,1
+Onion,Maharashtra,2021,361,2,0
+Onion,Maharashtra,2022,365,0,0
+Onion,Maharashtra,2023,363,1,0
+Onion,Maharashtra,2024,361,2,0
+Onion,Maharashtra,2025,335,28,1
+Onion,Maharashtra,2026,99,5,0
+Onion,Tamil Nadu,2004,1,,0
+Onion,Tamil Nadu,2005,41,491,3
+Onion,Tamil Nadu,2006,59,118,4
+Onion,Tamil Nadu,2007,107,87,7
+Onion,Tamil Nadu,2008,101,146,5
+Onion,Tamil Nadu,2009,185,37,4
+Onion,Tamil Nadu,2010,228,9,1
+Onion,Tamil Nadu,2011,235,18,2
+Onion,Tamil Nadu,2012,100,40,5
+Onion,Tamil Nadu,2013,13,126,2
+Onion,Tamil Nadu,2014,15,364,6
+Onion,Tamil Nadu,2016,2,834,2
+Onion,Tamil Nadu,2017,1,168,1
+Onion,Tamil Nadu,2018,5,377,4
+Onion,Tamil Nadu,2023,18,1723,4
+Onion,Tamil Nadu,2024,207,88,5
+Onion,Tamil Nadu,2025,319,28,1
+Onion,Tamil Nadu,2026,101,4,0
+Potato,Karnataka,2001,4,308,2
+Potato,Karnataka,2002,342,10,1
+Potato,Karnataka,2003,358,7,0
+Potato,Karnataka,2004,352,3,0
+Potato,Karnataka,2005,338,7,0
+Potato,Karnataka,2006,359,13,1
+Potato,Karnataka,2007,340,9,1
+Potato,Karnataka,2008,346,2,0
+Potato,Karnataka,2009,350,17,1
+Potato,Karnataka,2010,331,2,0
+Potato,Karnataka,2011,348,1,0
+Potato,Karnataka,2012,366,0,0
+Potato,Karnataka,2013,319,4,0
+Potato,Karnataka,2014,352,3,0
+Potato,Karnataka,2015,360,1,0
+Potato,Karnataka,2016,349,4,0
+Potato,Karnataka,2017,352,3,0
+Potato,Karnataka,2018,353,2,0
+Potato,Karnataka,2019,343,6,0
+Potato,Karnataka,2020,360,1,0
+Potato,Karnataka,2021,360,1,0
+Potato,Karnataka,2022,364,1,0
+Potato,Karnataka,2023,352,1,0
+Potato,Karnataka,2024,353,3,0
+Potato,Karnataka,2025,313,24,1
+Potato,Karnataka,2026,83,5,0
+Potato,Madhya Pradesh,2002,251,6,0
+Potato,Madhya Pradesh,2003,359,1,0
+Potato,Madhya Pradesh,2004,354,8,1
+Potato,Madhya Pradesh,2005,333,2,0
+Potato,Madhya Pradesh,2006,311,5,0
+Potato,Madhya Pradesh,2007,237,5,0
+Potato,Madhya Pradesh,2008,223,35,2
+Potato,Madhya Pradesh,2009,277,48,2
+Potato,Madhya Pradesh,2010,365,0,0
+Potato,Madhya Pradesh,2011,365,0,0
+Potato,Madhya Pradesh,2012,366,0,0
+Potato,Madhya Pradesh,2013,365,0,0
+Potato,Madhya Pradesh,2014,365,0,0
+Potato,Madhya Pradesh,2015,364,1,0
+Potato,Madhya Pradesh,2016,366,0,0
+Potato,Madhya Pradesh,2017,365,0,0
+Potato,Madhya Pradesh,2018,365,0,0
+Potato,Madhya Pradesh,2019,365,0,0
+Potato,Madhya Pradesh,2020,357,4,0
+Potato,Madhya Pradesh,2021,365,0,0
+Potato,Madhya Pradesh,2022,365,0,0
+Potato,Madhya Pradesh,2023,364,1,0
+Potato,Madhya Pradesh,2024,354,3,0
+Potato,Madhya Pradesh,2025,335,27,1
+Potato,Madhya Pradesh,2026,94,4,0
+Potato,Maharashtra,2001,167,49,2
+Potato,Maharashtra,2002,331,4,0
+Potato,Maharashtra,2003,360,1,0
+Potato,Maharashtra,2004,361,1,0
+Potato,Maharashtra,2005,364,1,0
+Potato,Maharashtra,2006,363,1,0
+Potato,Maharashtra,2007,364,1,0
+Potato,Maharashtra,2008,364,2,0
+Potato,Maharashtra,2009,363,2,0
+Potato,Maharashtra,2010,365,0,0
+Potato,Maharashtra,2011,365,0,0
+Potato,Maharashtra,2012,364,1,0
+Potato,Maharashtra,2013,364,1,0
+Potato,Maharashtra,2014,365,0,0
+Potato,Maharashtra,2015,364,1,0
+Potato,Maharashtra,2016,366,0,0
+Potato,Maharashtra,2017,364,1,0
+Potato,Maharashtra,2018,365,0,0
+Potato,Maharashtra,2019,365,0,0
+Potato,Maharashtra,2020,353,4,0
+Potato,Maharashtra,2021,363,2,0
+Potato,Maharashtra,2022,365,0,0
+Potato,Maharashtra,2023,363,1,0
+Potato,Maharashtra,2024,360,2,0
+Potato,Maharashtra,2025,337,24,1
+Potato,Maharashtra,2026,99,4,0
+Potato,Tamil Nadu,2007,17,147,1
+Potato,Tamil Nadu,2008,101,146,5
+Potato,Tamil Nadu,2009,185,37,4
+Potato,Tamil Nadu,2010,227,9,1
+Potato,Tamil Nadu,2011,235,18,2
+Potato,Tamil Nadu,2012,110,33,1
+Potato,Tamil Nadu,2014,1,701,1
+Potato,Tamil Nadu,2024,195,3638,1
+Potato,Tamil Nadu,2025,319,28,1
+Potato,Tamil Nadu,2026,101,3,0
+Tomato,Karnataka,2001,5,27,1
+Tomato,Karnataka,2002,342,3,0
+Tomato,Karnataka,2003,357,7,0
+Tomato,Karnataka,2004,354,4,0
+Tomato,Karnataka,2005,334,17,2
+Tomato,Karnataka,2006,344,2,0
+Tomato,Karnataka,2007,343,9,1
+Tomato,Karnataka,2008,346,3,0
+Tomato,Karnataka,2009,348,18,1
+Tomato,Karnataka,2010,353,2,0
+Tomato,Karnataka,2011,360,2,0
+Tomato,Karnataka,2012,366,0,0
+Tomato,Karnataka,2013,354,2,0
+Tomato,Karnataka,2014,363,1,0
+Tomato,Karnataka,2015,364,1,0
+Tomato,Karnataka,2016,363,3,0
+Tomato,Karnataka,2017,364,1,0
+Tomato,Karnataka,2018,364,1,0
+Tomato,Karnataka,2019,358,5,0
+Tomato,Karnataka,2020,366,0,0
+Tomato,Karnataka,2021,365,0,0
+Tomato,Karnataka,2022,365,0,0
+Tomato,Karnataka,2023,364,1,0
+Tomato,Karnataka,2024,357,3,0
+Tomato,Karnataka,2025,326,28,1
+Tomato,Karnataka,2026,94,4,0
+Tomato,Madhya Pradesh,2002,168,110,1
+Tomato,Madhya Pradesh,2003,359,1,0
+Tomato,Madhya Pradesh,2004,350,8,1
+Tomato,Madhya Pradesh,2005,314,8,1
+Tomato,Madhya Pradesh,2006,236,24,4
+Tomato,Madhya Pradesh,2007,209,14,2
+Tomato,Madhya Pradesh,2008,290,6,0
+Tomato,Madhya Pradesh,2009,316,21,2
+Tomato,Madhya Pradesh,2010,365,0,0
+Tomato,Madhya Pradesh,2011,365,0,0
+Tomato,Madhya Pradesh,2012,366,0,0
+Tomato,Madhya Pradesh,2013,365,0,0
+Tomato,Madhya Pradesh,2014,365,0,0
+Tomato,Madhya Pradesh,2015,365,0,0
+Tomato,Madhya Pradesh,2016,366,0,0
+Tomato,Madhya Pradesh,2017,365,0,0
+Tomato,Madhya Pradesh,2018,365,0,0
+Tomato,Madhya Pradesh,2019,365,0,0
+Tomato,Madhya Pradesh,2020,357,4,0
+Tomato,Madhya Pradesh,2021,365,0,0
+Tomato,Madhya Pradesh,2022,365,0,0
+Tomato,Madhya Pradesh,2023,360,2,0
+Tomato,Madhya Pradesh,2024,235,9,1
+Tomato,Madhya Pradesh,2025,327,28,1
+Tomato,Madhya Pradesh,2026,87,4,0
+Tomato,Maharashtra,2001,106,125,2
+Tomato,Maharashtra,2002,182,50,4
+Tomato,Maharashtra,2003,357,2,0
+Tomato,Maharashtra,2004,361,2,0
+Tomato,Maharashtra,2005,362,1,0
+Tomato,Maharashtra,2006,362,2,0
+Tomato,Maharashtra,2007,365,0,0
+Tomato,Maharashtra,2008,364,1,0
+Tomato,Maharashtra,2009,363,2,0
+Tomato,Maharashtra,2010,365,0,0
+Tomato,Maharashtra,2011,365,0,0
+Tomato,Maharashtra,2012,365,1,0
+Tomato,Maharashtra,2013,365,0,0
+Tomato,Maharashtra,2014,365,0,0
+Tomato,Maharashtra,2015,365,0,0
+Tomato,Maharashtra,2016,366,0,0
+Tomato,Maharashtra,2017,365,0,0
+Tomato,Maharashtra,2018,365,0,0
+Tomato,Maharashtra,2019,365,0,0
+Tomato,Maharashtra,2020,361,2,0
+Tomato,Maharashtra,2021,365,0,0
+Tomato,Maharashtra,2022,365,0,0
+Tomato,Maharashtra,2023,363,1,0
+Tomato,Maharashtra,2024,361,2,0
+Tomato,Maharashtra,2025,333,28,1
+Tomato,Maharashtra,2026,99,4,0
+Tomato,Tamil Nadu,2005,84,5,0
+Tomato,Tamil Nadu,2006,181,40,2
+Tomato,Tamil Nadu,2007,174,73,3
+Tomato,Tamil Nadu,2008,171,12,4
+Tomato,Tamil Nadu,2009,185,34,4
+Tomato,Tamil Nadu,2010,226,9,1
+Tomato,Tamil Nadu,2011,224,18,2
+Tomato,Tamil Nadu,2012,71,19,1
+Tomato,Tamil Nadu,2013,8,265,1
+Tomato,Tamil Nadu,2023,2,3909,1
+Tomato,Tamil Nadu,2024,199,89,5
+Tomato,Tamil Nadu,2025,320,28,1
+Tomato,Tamil Nadu,2026,102,3,0

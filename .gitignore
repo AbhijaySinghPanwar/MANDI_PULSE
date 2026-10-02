@@ -1,0 +1,51 @@
+# --- Raw Kaggle archive (6.5 GB CSV + 0.6 GB Parquet) — never commit ---
+/csv/
+/parquet/
+
+# --- Large / generated data ---
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.csv.gz
+*.zip
+/models/
+/exports/
+
+# Committed reference data lives in data/reference/ (small, hand-curated CSVs)
+!data/reference/
+!data/reference/*.csv
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+dbt/mandipulse/profiles.yml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# --- dbt ---
+dbt/mandipulse/target/
+dbt/mandipulse/dbt_packages/
+dbt/mandipulse/logs/
+logs/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

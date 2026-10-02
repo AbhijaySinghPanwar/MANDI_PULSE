@@ -1,0 +1,10 @@
+state,commodity,market_type,n_markets,n_rows,p10_modal,median_modal,p90_modal,n_modal_below_200
+Maharashtra,Onion,other,104,22748,1000.0,1800.0,4000.0,0
+Maharashtra,Potato,other,43,9663,1300.0,1800.0,2800.0,2
+Maharashtra,Tomato,other,57,14954,700.0,1500.0,3500.0,13
+Tamil Nadu,Onion,other,87,5736,50.0,4200.0,6000.0,597
+Tamil Nadu,Onion,uzhavar_sandhai,163,66341,2800.0,4000.0,6500.0,7
+Tamil Nadu,Potato,other,78,4581,55.0,4000.0,6000.0,538
+Tamil Nadu,Potato,uzhavar_sandhai,150,54179,3200.0,4500.0,6000.0,7
+Tamil Nadu,Tomato,other,88,5669,50.0,2500.0,5400.0,616
+Tamil Nadu,Tomato,uzhavar_sandhai,165,63443,1500.0,2500.0,5000.0,7

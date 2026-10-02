@@ -1,0 +1,13 @@
+commodity,state,n_series,n_series_180d,n_series_365d,median_report_days
+Onion,Karnataka,46,13,4,48.0
+Onion,Madhya Pradesh,133,40,16,52.0
+Onion,Maharashtra,109,70,42,259.0
+Onion,Tamil Nadu,251,166,158,432.0
+Potato,Karnataka,36,12,4,45.0
+Potato,Madhya Pradesh,102,17,4,34.0
+Potato,Maharashtra,44,30,21,346.5
+Potato,Tamil Nadu,228,147,111,364.0
+Tomato,Karnataka,43,21,13,152.0
+Tomato,Madhya Pradesh,94,23,0,41.5
+Tomato,Maharashtra,57,42,31,445.0
+Tomato,Tamil Nadu,254,167,137,368.0
