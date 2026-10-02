@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_mandi_prices
+    description: >
+      Cleaned, typed, de-duplicated price records. One row per dedupe key
+      (arrival_date, state, district, market, commodity, variety, grade); the row with the
+      latest ingested_at is kept.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [arrival_date, state, district, market, commodity, variety, grade]
+    columns:
+      - name: raw_id
+        tests: [unique, not_null]
+      - name: market
+        description: Canonical market name from reference.market_aliases.
+        tests: [not_null]
+      - name: district
+        description: District after reference.district_corrections.
+        tests: [not_null]
+      - name: commodity
+        tests:
+          - accepted_values:
+              arguments:
+                values: "{{ var('commodities') }}"
+      - name: period
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: "{{ var('periods') }}"
+      - name: arrival_date
+        tests: [not_null]
+      - name: modal_price
+        tests: [not_null]

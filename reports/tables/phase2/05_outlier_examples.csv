@@ -1,0 +1,31 @@
+state,district,market,commodity,arrival_date,variety,min_price,max_price,modal_price,rolling_median_30d,rolling_n_obs,ratio_to_median,flag_unit_suspect
+Madhya Pradesh,Ujjain,Badnagar,Onion,2024-11-13,1st Sort,15.0,15.0,15.0,2413.0,18,0.01,True
+Madhya Pradesh,Sagar,Deori,Onion,2025-04-05,2nd Sort,8.0,8.0,8.0,1210.0,17,0.01,True
+Madhya Pradesh,Ujjain,Badnagar,Onion,2024-10-21,Bellary,20.0,20.0,20.0,2510.0,21,0.01,True
+Madhya Pradesh,Ujjain,Badnagar,Onion,2024-10-18,Onion-Organic,22.0,22.0,22.0,2613.0,22,0.01,True
+Madhya Pradesh,Ujjain,Badnagar,Onion,2024-09-02,Small - I,10.0,10.0,10.0,1026.0,25,0.01,True
+Maharashtra,Thane,Kalyan,Onion,2018-11-17,Hybrid,10.0,20.0,15.0,1500.0,23,0.01,True
+Madhya Pradesh,Ratlam,Ratlam,Onion,2025-09-23,Onion-Organic,10.0,10.0,10.0,901.0,20,0.01,True
+Maharashtra,Sholapur,Akluj,Potato,2020-10-05,Local,45.0,60.0,50.0,3050.0,12,0.02,False
+Madhya Pradesh,Ratlam,Jaora,Onion,2023-12-22,Onion,50.0,1754.0,50.0,2250.0,18,0.02,False
+Madhya Pradesh,Ratlam,Jaora,Onion,2023-12-29,Onion,50.0,1206.0,50.0,2000.0,18,0.03,False
+Madhya Pradesh,Mandsaur,Shamgarh (F&V),Onion,2024-11-07,Onion,100.0,4900.0,100.0,3608.0,9,0.03,False
+Madhya Pradesh,Sehore,Sehore,Onion,2020-01-18,Other,100.0,100.0,100.0,3351.0,12,0.03,False
+Madhya Pradesh,Mandsaur,Mandsaur,Onion,2024-12-21,Onion,100.0,1961.0,100.0,3101.0,21,0.03,False
+Madhya Pradesh,Mandsaur,Mandsaur,Onion,2024-10-22,Onion,100.0,4056.0,100.0,3000.0,19,0.03,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-26,Red,700.0,1400.0,100.0,2525.0,18,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-26,Onion,100.0,1201.0,100.0,2525.0,18,0.04,False
+Maharashtra,Ahmednagar,Shevgaon,Onion,2019-11-14,Other,100.0,1500.0,100.0,2500.0,8,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-27,1st Sort,250.0,1250.0,100.0,2450.0,19,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-27,Red,140.0,1331.0,100.0,2450.0,19,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-27,Onion,100.0,1560.0,100.0,2450.0,19,0.04,False
+Madhya Pradesh,Indore,Gautampura,Onion,2024-06-05,Onion,120.0,9424.0,9424.0,400.0,13,23.56,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-28,Onion,100.0,1199.0,100.0,2325.0,20,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-28,1st Sort,635.0,1026.0,100.0,2325.0,20,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-28,Red,100.0,1385.0,100.0,2325.0,20,0.04,False
+Maharashtra,Ahmednagar,Shevgaon,Onion,2019-11-09,Other,100.0,1500.0,100.0,2300.0,9,0.04,False
+Madhya Pradesh,Shajapur,Sajapur,Onion,2024-03-07,Onion,700.0,1451.0,9900.0,441.0,25,22.45,False
+Madhya Pradesh,Shajapur,Sajapur,Onion,2024-03-07,Medium,230.0,9900.0,9900.0,441.0,25,22.45,False
+Madhya Pradesh,Ratlam,Ratlam,Onion,2025-09-16,Onion,50.0,1361.0,50.0,1119.0,20,0.04,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-29,Onion,100.0,1261.0,100.0,2010.0,20,0.05,False
+Madhya Pradesh,Neemuch,Neemuch,Onion,2023-12-29,Local,610.0,850.0,100.0,2010.0,20,0.05,False

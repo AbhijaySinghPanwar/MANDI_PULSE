@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: int_daily_baseline
+    description: Daily median modal price per market x commodity from plausible rows; input to the outlier flag.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [series_id, arrival_date]
+
+  - name: int_rolling_median
+    description: Trailing median of the daily baseline over the previous `outlier_window_days` days (current day excluded).
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [series_id, arrival_date]
+
+  - name: int_price_flags
+    description: Every staging row with the four spec 7.3 quality flags and is_valid. Rows are never deleted here.
+    tests:
+      - modal_between_min_max:
+          arguments:
+            modal: modal_price
+            low: min_price
+            high: max_price
+          config:
+            where: "is_valid"
+    columns:
+      - name: raw_id
+        tests: [unique, not_null]
+      - name: is_valid
+        tests: [not_null]
+      - name: flag_nonpositive
+        tests: [not_null]
+      - name: flag_order
+        tests: [not_null]
+      - name: flag_outlier
+        tests: [not_null]
+      - name: flag_unit_suspect
+        tests: [not_null]
+
+  - name: int_daily_prices
+    description: One row per market x commodity x day from valid rows; no gap filling.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [state, district, market, commodity, arrival_date]
+      - modal_between_min_max:
+          arguments:
+            modal: modal_price
+            low: min_price
+            high: max_price

@@ -1,0 +1,10 @@
+table_name,n_rows,min_value,max_value
+dim_commodity,3,,
+dim_market,595,,
+dim_market: markets with no valid daily price,1,,
+dim_market: markets sharing a town_key,187,,
+dim_market: distinct town_key,485,,
+dim_date,3032,2018-01-01,2026-04-20
+fact_daily_price: period post_format_change,17431,,
+fact_daily_price,1770723,20180101,20260420
+fact_daily_price: period main,1753292,,

@@ -1,0 +1,13 @@
+state,commodity,raw_rows,dedupe_exact_dup,dedupe_alias_same_price,dedupe_other,staging_rows,flagged_invalid,valid_rows,collapsed_in_daily,daily_fact_rows,check_raw_to_staging,check_flags
+Gujarat,Onion,42496,0,0,0,42496,33,42463,4404,38059,0,0
+Gujarat,Potato,38393,0,0,0,38393,26,38367,3046,35321,0,0
+Gujarat,Tomato,48334,1,0,0,48333,239,48094,691,47403,0,0
+Madhya Pradesh,Onion,80503,2,0,0,80501,1381,79120,4422,74698,0,0
+Madhya Pradesh,Potato,59736,0,0,0,59736,207,59529,683,58846,0,0
+Madhya Pradesh,Tomato,62603,0,0,0,62603,109,62494,400,62094,0,0
+Maharashtra,Onion,116203,2,0,0,116201,205,115996,10159,105837,0,0
+Maharashtra,Potato,48839,2,0,0,48837,52,48785,15,48770,0,0
+Maharashtra,Tomato,83040,2,0,0,83038,259,82779,1727,81052,0,0
+Uttar Pradesh,Onion,403088,8,0,0,403080,2167,400913,5242,395671,0,0
+Uttar Pradesh,Potato,446031,11,0,0,446020,2827,443193,8079,435114,0,0
+Uttar Pradesh,Tomato,397715,11,0,0,397704,2761,394943,7085,387858,0,0

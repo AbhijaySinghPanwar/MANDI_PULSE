@@ -1,0 +1,74 @@
+state,district,market,commodity,n_rows,first_date,last_date,avg_modal,avg_state_median,avg_ratio_to_state,n_below_state
+Madhya Pradesh,Rajgarh,Narsinghgarh,Tomato,528,2018-06-26,2023-12-17,264.0,1127.0,0.24,528
+Gujarat,Rajkot,Gondal (Veg.market Gondal),Potato,451,2024-04-15,2025-11-05,372.0,1843.0,0.2,451
+Maharashtra,Sangli,Islampur,Tomato,388,2018-01-02,2020-03-20,116.0,958.0,0.12,388
+Uttar Pradesh,Amroha,Dhanaura,Tomato,297,2018-07-23,2025-08-26,904.0,3356.0,0.28,297
+Uttar Pradesh,Sambhal,Sambhal,Tomato,254,2019-02-06,2025-08-21,867.0,3388.0,0.27,254
+Gujarat,Junagarh,Visavadar,Onion,201,2018-01-20,2026-01-17,312.0,1163.0,0.27,201
+Uttar Pradesh,Bijnor,Najibabad,Tomato,172,2018-06-07,2025-08-11,494.0,1945.0,0.27,171
+Uttar Pradesh,Mirzapur,Ahirora,Tomato,171,2019-01-18,2026-02-23,232.0,923.0,0.25,171
+Uttar Pradesh,Rampur,Tanda (Rampur),Tomato,170,2018-06-25,2024-07-14,509.0,1954.0,0.26,170
+Uttar Pradesh,Bijnor,Chaandpur,Tomato,156,2018-06-18,2025-07-21,616.0,2135.0,0.29,156
+Madhya Pradesh,Guna,Guna (F&V),Tomato,132,2019-02-12,2023-06-28,350.0,1558.0,0.23,132
+Maharashtra,Kolhapur,Kolhapur (Malkapur),Tomato,128,2018-01-05,2020-09-25,200.0,1240.0,0.18,128
+Madhya Pradesh,Indore,Gautampura,Onion,103,2021-03-08,2025-12-12,516.0,1903.0,0.27,103
+Uttar Pradesh,Bulandshahar,Gulavati,Tomato,103,2018-06-26,2021-10-19,459.0,1748.0,0.27,103
+Maharashtra,Nashik,Devala,Tomato,100,2018-01-01,2020-07-09,198.0,997.0,0.19,100
+Uttar Pradesh,Saharanpur,Deoband,Tomato,100,2018-07-05,2023-07-24,737.0,2711.0,0.28,100
+Uttar Pradesh,Kanpur,Uttaripura,Tomato,100,2018-03-04,2021-10-29,219.0,907.0,0.24,100
+Madhya Pradesh,Guna,Guna (F&V),Potato,93,2019-02-16,2023-03-24,361.0,1255.0,0.29,93
+Uttar Pradesh,Amroha,Dhanaura,Onion,89,2018-02-19,2024-12-26,988.0,3534.0,0.28,89
+Uttar Pradesh,Bulandshahar,Divai,Tomato,85,2019-06-08,2024-07-22,1049.0,4093.0,0.28,85
+Gujarat,Amreli,Damnagar,Tomato,81,2019-04-24,2026-04-03,4312.0,1175.0,3.9,4
+Maharashtra,Raigad,Pen,Tomato,81,2021-03-21,2023-09-28,3225.0,873.0,3.78,0
+Maharashtra,Nashik,Sinner,Tomato,77,2019-12-11,2020-03-20,109.0,660.0,0.16,77
+Madhya Pradesh,Mandsaur,Sitmau,Onion,76,2022-06-16,2026-01-13,440.0,1678.0,0.27,76
+Maharashtra,Nashik,Dindori,Tomato,73,2022-10-10,2025-10-19,401.0,1932.0,0.2,73
+Madhya Pradesh,Khandwa,Pandhana (F&V),Tomato,70,2021-11-10,2023-12-13,508.0,2187.0,0.23,70
+Madhya Pradesh,Sagar,Deori,Tomato,70,2018-06-22,2023-03-20,389.0,1429.0,0.28,70
+Madhya Pradesh,Dewas,Sonkatch,Onion,69,2022-06-18,2025-07-08,597.0,2488.0,0.25,69
+Uttar Pradesh,Amroha,Hasanpur,Tomato,68,2018-06-17,2025-12-04,1513.0,5135.0,0.32,67
+Madhya Pradesh,Chhindwara,Chhindwara (F&V),Tomato,68,2020-11-18,2022-10-05,468.0,1694.0,0.28,68
+Madhya Pradesh,Shajapur,Soyatkalan,Onion,68,2018-12-05,2026-02-12,182.0,722.0,0.25,68
+Madhya Pradesh,Mandsaur,Mandsaur (F&V),Tomato,66,2020-04-22,2023-12-20,3798.0,1117.0,4.57,7
+Gujarat,Gir Somnath,Talalagir,Tomato,57,2019-12-07,2025-04-02,3365.0,934.0,3.62,0
+Madhya Pradesh,Betul,Multai,Tomato,56,2019-04-03,2023-05-23,998.0,741.0,1.15,41
+Uttar Pradesh,Kanpur Dehat,Rura,Tomato,53,2019-08-14,2023-07-07,3222.0,1375.0,2.98,4
+Uttar Pradesh,Aligarh,Atrauli,Tomato,53,2019-09-22,2022-06-06,546.0,2033.0,0.27,53
+Uttar Pradesh,Amroha,Dhanaura,Potato,52,2018-05-28,2020-09-29,597.0,1963.0,0.31,52
+Uttar Pradesh,Bulandshahar,Gulavati,Onion,52,2019-09-18,2019-11-11,793.0,3229.0,0.25,52
+Madhya Pradesh,Dewas,Dewas (F&V),Potato,52,2018-01-12,2023-04-02,238.0,899.0,0.29,51
+Madhya Pradesh,Ratlam,A lot,Onion,51,2022-05-31,2025-12-19,210.0,819.0,0.25,51
+Madhya Pradesh,Shajapur,Shujalpur,Onion,50,2024-01-17,2026-01-09,386.0,1448.0,0.36,49
+Maharashtra,Ahmednagar,Shevgaon,Onion,49,2018-01-06,2026-03-26,609.0,2100.0,0.29,49
+Madhya Pradesh,Ujjain,Badnagar,Onion,49,2024-05-04,2025-08-22,692.0,2539.0,0.27,49
+Uttar Pradesh,Hathras,Shadabad,Tomato,47,2019-04-21,2023-11-17,482.0,1656.0,0.29,47
+Uttar Pradesh,Bulandshahar,Sikarpur,Tomato,46,2019-07-08,2023-06-30,605.0,2314.0,0.27,46
+Uttar Pradesh,Maharajganj,Nautnava,Tomato,45,2021-05-11,2023-07-06,550.0,2183.0,0.26,45
+Uttar Pradesh,Shahjahanpur,Jalalabad,Tomato,43,2019-07-20,2025-09-01,748.0,2748.0,0.28,43
+Madhya Pradesh,Rajgarh,Sarangpur,Onion,43,2020-11-24,2026-04-07,543.0,1936.0,0.28,43
+Uttar Pradesh,Shamli,Khandhla,Tomato,41,2019-11-16,2025-03-28,1557.0,5732.0,0.56,37
+Uttar Pradesh,Bijnor,Najibabad,Onion,41,2019-08-29,2019-10-11,599.0,2690.0,0.23,41
+Madhya Pradesh,Harda,Sirali,Tomato,41,2021-04-19,2025-04-24,4176.0,1214.0,3.53,2
+Madhya Pradesh,Ujjain,Ujjain (F&V),Potato,41,2018-01-01,2023-12-14,254.0,983.0,0.26,41
+Madhya Pradesh,Shivpuri,Shivpuri (F&V),Tomato,40,2018-04-17,2023-06-27,333.0,982.0,0.37,39
+Maharashtra,Nashik,Ghoti,Tomato,39,2018-02-05,2024-07-24,1478.0,1650.0,2.49,13
+Uttar Pradesh,Agra,Fatehabad,Tomato,39,2020-07-14,2024-12-30,785.0,3220.0,0.26,39
+Gujarat,Gandhinagar,"Kalol (Veg,Market,Kalol)",Tomato,38,2021-11-12,2024-06-24,1125.0,4073.0,0.28,38
+Maharashtra,Nagpur,Ramtek,Tomato,37,2019-03-19,2025-03-11,336.0,958.0,0.37,36
+Maharashtra,Ahmednagar,Shrirampur,Tomato,36,2018-10-28,2024-06-08,1690.0,3575.0,1.59,20
+Uttar Pradesh,Fatehpur,Jahanabad,Potato,35,2018-05-30,2024-04-30,460.0,1527.0,0.3,35
+Madhya Pradesh,Morena,Morena,Potato,34,2024-03-26,2026-04-17,450.0,1676.0,0.27,34
+Maharashtra,Thane,Kalyan,Tomato,34,2019-08-27,2025-09-01,2422.0,1238.0,2.79,9
+Gujarat,Surat,Mandvi,Tomato,34,2018-01-02,2022-01-10,3247.0,925.0,3.51,0
+Uttar Pradesh,Farukhabad,Mohamadabad,Potato,34,2018-06-19,2019-09-30,355.0,1140.0,0.31,34
+Madhya Pradesh,Guna,Guna (F&V),Onion,33,2019-07-20,2023-11-03,325.0,1447.0,0.23,33
+Madhya Pradesh,Khargone,Khargone,Tomato,33,2022-05-28,2023-08-09,803.0,3956.0,0.21,33
+Gujarat,Rajkot,Gondal,Onion,33,2018-01-25,2025-06-09,412.0,1385.0,0.29,33
+Maharashtra,Nagpur,Kalmeshwar,Tomato,33,2018-07-05,2025-09-20,1162.0,998.0,1.15,24
+Gujarat,Surat,S.Mandvi,Tomato,32,2018-01-02,2021-01-28,3167.0,986.0,3.43,1
+Madhya Pradesh,Mandsaur,Shamgarh (F&V),Onion,32,2019-09-17,2026-01-13,613.0,1715.0,0.52,29
+Madhya Pradesh,Indore,Sanwer,Tomato,32,2022-11-22,2026-03-02,3084.0,929.0,3.31,0
+Madhya Pradesh,Mandsaur,Shamgarh (F&V),Tomato,32,2022-05-10,2023-09-22,488.0,1863.0,0.27,32
+Madhya Pradesh,Shivpuri,Shivpuri,Tomato,30,2023-12-23,2025-10-17,468.0,2110.0,0.23,30
+Madhya Pradesh,Dewas,Dewas (F&V),Tomato,30,2018-12-13,2023-08-19,440.0,1538.0,0.29,30

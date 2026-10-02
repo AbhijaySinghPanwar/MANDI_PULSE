@@ -53,7 +53,7 @@ def aliases() -> None:
         f"{df.groupby(['state', 'district', 'market_canonical']).ngroups} canonical markets"
     )
     typer.echo(df["rule"].value_counts().to_string())
-    typer.echo(f"needs_review: {df['needs_review'].sum()} raw names")
+    typer.echo(df["review_decision"].replace("", "-").value_counts().to_string())
 
 
 @app.command("geocode")
@@ -63,6 +63,8 @@ def geocode(
     ),
 ) -> None:
     """Geocode canonical markets (resumable; cached in data/reference/market_geo.csv)."""
+    import pandas as pd
+
     from mandipulse.geo import geocode as g
 
     g.ensure_overrides_file()
@@ -74,10 +76,39 @@ def geocode(
         progress=typer.echo,
     )
     geo = g.load_market_geo()
+    # The cache may hold names that later reviews merged away; report current markets only.
+    current = pd.DataFrame(markets, columns=["state", "district", "market"])
+    geo = geo.merge(current, on=["state", "district", "market"])
     report = g.coverage_report(geo)
     out = PROJECT_ROOT / "reports" / "tables" / "phase1" / "geocode_coverage.csv"
     report.to_csv(out, index=False)
     typer.echo(report.to_string(index=False))
+
+
+@app.command("dbt", context_settings={"allow_extra_args": True, "ignore_unknown_options": True})
+def dbt(ctx: typer.Context) -> None:
+    """Run dbt in dbt/mandipulse with .env loaded and settings.yaml passed as --vars."""
+    from mandipulse.dbt_runner import run_dbt
+
+    raise typer.Exit(run_dbt(ctx.args))
+
+
+@app.command("queries")
+def queries(folder: str) -> None:
+    """Run analysis/queries/<folder>/*.sql against Postgres -> reports/tables/<folder>/."""
+    from mandipulse.queries import run_folder
+
+    for path in run_folder(folder):
+        typer.echo(f"wrote {path.relative_to(PROJECT_ROOT).as_posix()}")
+
+
+@app.command("data-dictionary")
+def data_dictionary() -> None:
+    """Write docs/DATA_DICTIONARY.md from the dbt mart docs and live Postgres column types."""
+    from mandipulse.data_dictionary import OUT, write
+
+    write()
+    typer.echo(f"wrote {OUT.relative_to(PROJECT_ROOT).as_posix()}")
 
 
 @app.command("version")

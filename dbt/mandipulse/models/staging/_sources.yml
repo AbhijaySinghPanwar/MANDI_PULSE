@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Rows exactly as received, loaded by `python -m mandipulse load`.
+    schema: raw
+    tables:
+      - name: mandi_prices
+        description: >
+          One row per raw price record. Today only source = 'kaggle_archive'.
+          Source freshness is deliberately NOT checked yet: the Kaggle archive is a static
+          snapshot that ends on 2026-04-21, so a "> 2 days old" freshness check (spec 7.7)
+          would always fail. Re-enable `freshness` (warn_after: 2 days on ingested_at /
+          arrival_date) when the daily data.gov.in feed is switched on.
+        columns:
+          - name: raw_id
+            tests: [unique, not_null]
+      - name: ingest_log
+        description: One row per load run (run_id, counts, status).

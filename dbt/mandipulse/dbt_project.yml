@@ -1,0 +1,100 @@
+name: mandipulse
+version: "1.0.0"
+config-version: 2
+profile: mandipulse
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+# Reference CSVs have one home, data/reference/, shared with the Python alias/geocoding code.
+# dbt-only lookups (commodity_category) live in ./seeds.
+seed-paths: ["../../data/reference", "seeds"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+# Defaults mirror config/settings.yaml. `python -m mandipulse dbt ...` passes the live values
+# from settings.yaml with --vars, so the YAML stays the single source of truth.
+vars:
+  commodities: ["Tomato", "Onion", "Potato"]
+  periods: ["main", "post_format_change"]
+  main_end: "2025-10-31"            # last day of period = main
+  unit_min_per_qtl: 50
+  unit_max_per_qtl: 20000
+  outlier_log_ratio: 1.0986        # ln(3)
+  outlier_window_days: 30          # trailing window for the rolling median
+  outlier_min_obs: 5               # fewer prior report days -> outlier check not applied
+  outlier_min_state_markets: 3     # fewer markets that day -> no same-day state reference
+  outlier_rule: temporal_and_cross_section   # or "temporal" (spec 7.3 as written)
+
+models:
+  mandipulse:
+    +materialized: table
+    staging:
+      +schema: staging
+    intermediate:
+      +schema: intermediate
+    marts:
+      +schema: marts
+
+seeds:
+  mandipulse:
+    +schema: reference
+    +quote_columns: false
+    market_aliases:
+      +column_types:
+        state: text
+        district_raw: text
+        district: text
+        market_raw: text
+        market_canonical: text
+        rule: text
+        needs_review: boolean
+        review_reason: text
+        suggested_canonical: text
+        suggested_district: text
+        n_rows: integer
+        first_date: date
+        last_date: date
+        review_decision: text
+    market_geo:
+      +column_types:
+        state: text
+        district: text
+        market: text
+        latitude: double precision
+        longitude: double precision
+        geo_precision: text
+        query_used: text
+        matched_name: text
+        km_from_district: double precision
+        geocoded_at: text
+    market_geo_overrides:
+      +column_types:
+        state: text
+        district: text
+        market: text
+        latitude: double precision
+        longitude: double precision
+        note: text
+    district_geo:
+      +column_types:
+        state: text
+        district: text
+        latitude: double precision
+        longitude: double precision
+        query_used: text
+        matched_name: text
+        geocoded_at: text
+    district_corrections:
+      +column_types:
+        state: text
+        district_raw: text
+        market_raw: text
+        district_corrected: text
+        reason: text
+    commodity_category:
+      +column_types:
+        commodity_key: integer
+        commodity: text
+        category: text

@@ -1,0 +1,150 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: Calendar, one row per day from the first to the last date in fact_daily_price.
+    columns:
+      - name: date_key
+        description: Surrogate key, YYYYMMDD as integer.
+        tests: [unique, not_null]
+      - name: date
+        description: Calendar date.
+        tests: [unique, not_null]
+      - name: day_of_week
+        description: ISO day of week, 1 = Monday ... 7 = Sunday.
+      - name: day_name
+        description: Day name, e.g. Monday.
+      - name: week
+        description: ISO week number (1-53).
+      - name: month
+        description: Month number (1-12).
+      - name: month_name
+        description: Month name, e.g. January.
+      - name: quarter
+        description: Calendar quarter (1-4).
+      - name: year
+        description: Calendar year.
+      - name: is_weekend
+        description: True on Saturday and Sunday.
+      - name: period
+        description: "'main' up to 2025-10-31 (analysis window); 'post_format_change' from 2025-11-01."
+        tests:
+          - accepted_values:
+              arguments:
+                values: "{{ var('periods') }}"
+
+  - name: dim_commodity
+    description: The three in-scope commodities.
+    columns:
+      - name: commodity_key
+        description: Surrogate key (1 Tomato, 2 Onion, 3 Potato).
+        tests: [unique, not_null]
+      - name: commodity
+        description: Commodity name exactly as in the source.
+        tests:
+          - unique
+          - not_null
+          - accepted_values:
+              arguments:
+                values: "{{ var('commodities') }}"
+      - name: category
+        description: "'perishable' (Tomato) or 'storable' (Onion, Potato)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["perishable", "storable"]
+
+  - name: dim_market
+    description: One row per canonical market (state x district x canonical market name).
+    columns:
+      - name: market_key
+        description: Surrogate key, md5 of 'state|district|market'.
+        tests: [unique, not_null]
+      - name: market
+        description: Canonical market name (raw names mapped via reference.market_aliases; ' APMC' suffix removed).
+        tests: [not_null]
+      - name: district
+        description: District, after reference.district_corrections. Spellings as in the source (older names).
+        tests: [not_null]
+      - name: state
+        description: State.
+        tests: [not_null]
+      - name: latitude
+        description: WGS-84 latitude from the geocode cache (or manual override).
+      - name: longitude
+        description: WGS-84 longitude from the geocode cache (or manual override).
+      - name: geo_precision
+        description: "'market' (town/locality-level hit), 'district_centroid' (fallback), 'manual' (override) or 'not_found'."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["market", "district_centroid", "manual", "not_found"]
+      - name: town_key
+        description: md5 of the rounded coordinate pair. Markets with identical coordinates (same-town yards, or markets sharing a district centroid) share a town_key.
+      - name: first_report_date
+        description: First date with a valid daily price for any commodity.
+      - name: last_report_date
+        description: Last date with a valid daily price for any commodity.
+      - name: n_report_days
+        description: Distinct dates with a valid daily price for any commodity.
+      - name: n_markets_in_town
+        description: Number of markets sharing this market's town_key.
+
+  - name: fact_daily_price
+    description: One row per date x market x commodity, from valid rows only. Gaps are not filled.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [date_key, market_key, commodity_key]
+      - modal_between_min_max:
+          arguments:
+            modal: modal_price
+            low: min_price
+            high: max_price
+    columns:
+      - name: date_key
+        description: FK to dim_date.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+      - name: market_key
+        description: FK to dim_market.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_market')
+                field: market_key
+      - name: commodity_key
+        description: FK to dim_commodity.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_commodity')
+                field: commodity_key
+      - name: modal_price
+        description: Median of the valid modal prices across varieties/grades that day, Rs per quintal.
+        tests: [not_null]
+      - name: min_price
+        description: Lowest valid min price across varieties/grades that day, Rs per quintal.
+      - name: max_price
+        description: Highest valid max price across varieties/grades that day, Rs per quintal.
+      - name: n_varieties
+        description: Distinct varieties behind the day's price.
+      - name: n_rows
+        description: Valid staging rows aggregated into this row.
+      - name: source
+        description: Source tag(s) of the underlying rows, comma-separated (today always 'kaggle_archive').
+      - name: period
+        description: "'main' or 'post_format_change' (see dim_date.period)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: "{{ var('periods') }}"

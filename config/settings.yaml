@@ -49,7 +49,11 @@ geo:
   spread_radius_km: 100
 
 quality:
-  outlier_log_ratio: 1.0986        # ln(3)
+  outlier_log_ratio: 1.0986        # ln(3): flag modal more than 3x off its rolling median
+  outlier_window_days: 30          # trailing window (days before the report; same day excluded)
+  outlier_min_obs: 5               # fewer prior report days in the window -> outlier not checked
+  outlier_min_state_markets: 3     # fewer markets reporting that state-day -> own-history rule only
+  outlier_rule: temporal_and_cross_section   # "temporal" = spec 7.3 as written (flags real spikes)
   unit_bounds_per_qtl: { min: 50, max: 20000 }
 
 opportunity:

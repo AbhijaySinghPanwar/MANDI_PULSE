@@ -235,6 +235,7 @@ Flag rows (don't delete them; filter them in marts):
 - `flag_nonpositive`: any price ≤ 0
 - `flag_order`: not (min ≤ modal ≤ max)
 - `flag_outlier`: |log(modal) − log(rolling 30-day median for that market × commodity)| > ln(3) (i.e., more than 3× off). Tune and document.
+  - *Tuned in Phase 2:* the rolling median uses the 30 days **before** the report (same day excluded, ≥ 5 prior report days required). A row is an outlier only if it is also > 3× off the **same-day median of its state's markets** (when ≥ 3 markets report that day). The own-history rule alone flagged 24% of tomato rows in July 2023 (the genuine nationwide spike), which would delete the very crashes and spikes the ML layer must learn. The spec-only result is kept as `flag_outlier_temporal`; `quality.outlier_rule: temporal` restores it.
 - `flag_unit_suspect`: price < ₹50/quintal or > ₹20,000/quintal for TOP crops (configurable bounds; likely a per-kg or per-tonne entry error)
 
 `is_valid = NOT any flag`. Report the % of rows flagged per flag in the README. This is a talking point ("I found and handled X% bad records").
@@ -294,7 +295,7 @@ Compute for **three cost scenarios** (low, mid, high) from config, so results ar
 - `accepted_values` for `commodity` (from config) and `category`.
 - Custom generic test: `modal_between_min_max` on `fact_daily_price`.
 - Custom singular test: no market appears with more than one coordinate pair.
-- Source freshness check on `raw.mandi_prices` (warn if > 2 days old).
+- Source freshness check on `raw.mandi_prices` (warn if > 2 days old). *Disabled while the only source is the static Kaggle archive (ends 2026-04-21); re-enable with the daily data.gov.in feed.*
 
 ---
 

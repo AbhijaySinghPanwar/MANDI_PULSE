@@ -1,0 +1,13 @@
+state,commodity,n_valid,n_far_from_state,pct_far_from_state,n_below_state
+Gujarat,Onion,42463,274,0.65,269
+Gujarat,Potato,38367,475,1.24,458
+Gujarat,Tomato,48094,344,0.72,118
+Madhya Pradesh,Onion,79120,1061,1.34,964
+Madhya Pradesh,Potato,59529,375,0.63,355
+Madhya Pradesh,Tomato,62494,1600,2.56,1281
+Maharashtra,Onion,115996,243,0.21,205
+Maharashtra,Potato,48785,20,0.04,12
+Maharashtra,Tomato,82779,1304,1.58,1047
+Uttar Pradesh,Onion,400913,327,0.08,307
+Uttar Pradesh,Potato,443193,219,0.05,203
+Uttar Pradesh,Tomato,394943,2609,0.66,2407
