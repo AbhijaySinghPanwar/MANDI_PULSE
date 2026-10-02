@@ -197,15 +197,173 @@ def build_aliases(names: list[MarketName]) -> pd.DataFrame:
     )
 
 
-def build_aliases_from_db(out: Path = ALIASES_CSV) -> pd.DataFrame:
+# --- Review step (user rule, 2026-10-02) -----------------------------------------------------
+# A flagged pair is merged only if (a) both names are in the same district after district
+# corrections AND (b) they never report on the same date (any commodity). The check is made
+# against everything already merged into the target, so chains of renames stay date-disjoint.
+# Explicit user decisions in market_review_overrides.csv take precedence.
+
+DISTRICT_CORRECTIONS_CSV = PROJECT_ROOT / "data" / "reference" / "district_corrections.csv"
+REVIEW_OVERRIDES_CSV = PROJECT_ROOT / "data" / "reference" / "market_review_overrides.csv"
+REVIEW_CSV = PROJECT_ROOT / "reports" / "tables" / "phase1" / "market_alias_review.csv"
+DATES_QUERY = PROJECT_ROOT / "analysis" / "queries" / "phase1" / "raw_market_dates.sql"
+
+RawKey = tuple[str, str, str]  # (state, district_raw, market_raw)
+
+
+def apply_review(
+    names: list[MarketName],
+    dates: dict[RawKey, set[date]],
+    corrections: pd.DataFrame,
+    overrides: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Return (aliases, review). `names` carry RAW districts; corrections relabel some."""
+    fix = {
+        (r.state, r.district_raw, r.market_raw): r.district_corrected
+        for r in corrections.itertuples()
+    }
+    plain = [n for n in names if (n.state, n.district, n.market) not in fix]
+    moved = [n for n in names if (n.state, n.district, n.market) in fix]
+
+    aliases = build_aliases(plain)
+    aliases.insert(1, "district_raw", aliases["district"])
+    aliases["review_decision"] = ""
+
+    # Units of identity: (state, district, canonical) -> raw keys and their report dates.
+    def unit_dates(state: str, district: str, canonical: str) -> set[date]:
+        rows = aliases[
+            (aliases.state == state)
+            & (aliases.district == district)
+            & (aliases.market_canonical == canonical)
+        ]
+        out: set[date] = set()
+        for r in rows.itertuples():
+            out |= dates.get((r.state, r.district_raw, r.market_raw), set())
+        return out
+
+    override = {
+        (r.state, r.district, r.market_canonical, r.target_canonical): (r.decision, r.reason)
+        for r in overrides.itertuples()
+    }
+    review_rows = []
+
+    def decide(state, district, flagged, target, flagged_dates, same_district, flag_reason):
+        target_dates = unit_dates(state, district, target)
+        shared = len(flagged_dates & target_dates)
+        user = override.get((state, district, flagged, target))
+        if user:
+            decision, reason = user
+        elif not same_district:
+            decision, reason = "keep_separate", "different district"
+        elif shared:
+            decision, reason = "keep_separate", f"reports on {shared} same date(s) as target"
+        else:
+            decision, reason = "merge", "same district, never reports on the same date"
+        review_rows.append(
+            {
+                "state": state,
+                "district": district,
+                "flagged_canonical": flagged,
+                "target_canonical": target,
+                "flag_reason": flag_reason,
+                "n_report_days": len(flagged_dates),
+                "n_target_report_days": len(target_dates),
+                "n_shared_dates": shared,
+                "decision": decision,
+                "reason": reason,
+            }
+        )
+        return decision
+
+    # 1) Names flagged by build_aliases, oldest first so renames chain in time order.
+    flagged = (
+        aliases[aliases.needs_review]
+        .groupby(["state", "district", "market_canonical"], as_index=False)
+        .agg(
+            target=("suggested_canonical", "first"),
+            target_district=("suggested_district", "first"),
+            flag_reason=("review_reason", "first"),
+            first=("first_date", "min"),
+        )
+        .sort_values(["first", "market_canonical"])
+    )
+    for f in flagged.itertuples():
+        mask = (
+            (aliases.state == f.state)
+            & (aliases.district == f.district)
+            & (aliases.market_canonical == f.market_canonical)
+        )
+        own = unit_dates(f.state, f.district, f.market_canonical)
+        same = f.target_district == f.district
+        decision = decide(
+            f.state, f.district, f.market_canonical, f.target, own, same, f.flag_reason
+        )
+        aliases.loc[mask, "review_decision"] = decision
+        if decision == "merge":
+            aliases.loc[mask, "market_canonical"] = f.target
+            aliases.loc[mask, "rule"] = "reviewed_merge"
+
+    # 2) Names whose district was corrected: merge into a same-named market in the corrected
+    #    district if the date rule allows; otherwise keep them apart under '<name> (ex-<district>)'.
+    for n in sorted(moved, key=lambda n: n.first_date):
+        new_district = fix[(n.state, n.district, n.market)]
+        base = strip_apmc(n.market)
+        own = dates.get((n.state, n.district, n.market), set())
+        twins = aliases[
+            (aliases.state == n.state)
+            & (aliases.district == new_district)
+            & (aliases.market_canonical.map(match_key) == match_key(base))
+        ]
+        canonical, decision = base, "district_corrected"
+        if len(twins):
+            target = twins.market_canonical.iloc[0]
+            decision = decide(
+                n.state,
+                new_district,
+                f"{base} [{n.district} record]",
+                target,
+                own,
+                True,
+                "district_corrected",
+            )
+            canonical = target if decision == "merge" else f"{base} (ex-{n.district})"
+        aliases.loc[len(aliases)] = {
+            "state": n.state,
+            "district_raw": n.district,
+            "district": new_district,
+            "market_raw": n.market,
+            "market_canonical": canonical,
+            "rule": "district_corrected" + ("+reviewed_merge" if decision == "merge" else ""),
+            "needs_review": False,
+            "review_reason": "",
+            "suggested_canonical": "",
+            "suggested_district": "",
+            "n_rows": n.n_rows,
+            "first_date": n.first_date,
+            "last_date": n.last_date,
+            "review_decision": decision,
+        }
+
+    aliases["needs_review"] = False  # every flag now carries a recorded decision
+    aliases = aliases.sort_values(["state", "district", "market_canonical", "market_raw"])
+    return aliases.reset_index(drop=True), pd.DataFrame(review_rows)
+
+
+def build_aliases_from_db(out: Path = ALIASES_CSV, review_out: Path = REVIEW_CSV) -> pd.DataFrame:
     from mandipulse.db import get_engine
 
-    df = pd.read_sql(NAMES_QUERY.read_text(encoding="utf-8"), get_engine())  # ~1000 rows
+    engine = get_engine()
+    df = pd.read_sql(NAMES_QUERY.read_text(encoding="utf-8"), engine)  # ~1000 rows
     names = [
         MarketName(r.state, r.district, r.market, int(r.n_rows), r.first_date, r.last_date)
         for r in df.itertuples()
     ]
-    aliases = build_aliases(names)
+    days = pd.read_sql(DATES_QUERY.read_text(encoding="utf-8"), engine)  # ~0.8M small rows
+    dates = days.groupby(["state", "district", "market"]).arrival_date.agg(set).to_dict()
+    aliases, review = apply_review(
+        names, dates, pd.read_csv(DISTRICT_CORRECTIONS_CSV), pd.read_csv(REVIEW_OVERRIDES_CSV)
+    )
     out.parent.mkdir(parents=True, exist_ok=True)
     aliases.to_csv(out, index=False)
+    review.to_csv(review_out, index=False)
     return aliases

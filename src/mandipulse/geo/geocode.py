@@ -60,7 +60,8 @@ OVERRIDE_FIELDS = ["state", "district", "market", "latitude", "longitude", "note
 
 # Bracketed text that describes the yard rather than naming a place.
 _DESCRIPTOR = re.compile(
-    r"f&v|veg|yard|market|grain|mandi|sub|station|road|dist|frui|bhajipura|phale|co\.?\s*ltd",
+    r"f&v|veg|yard|market|grain|mandi|sub|station|road|dist|frui|bhajipura|phale|co\.?\s*ltd"
+    r"|^ex-",  # '(ex-Hapur)' marks a district-corrected record, not a locality
     re.IGNORECASE,
 )
 

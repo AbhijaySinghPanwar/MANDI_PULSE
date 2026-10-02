@@ -41,6 +41,7 @@ dist/
 dbt/mandipulse/target/
 dbt/mandipulse/dbt_packages/
 dbt/mandipulse/logs/
+dbt/mandipulse/.user.yml
 logs/
 
 # --- OS / editor ---
