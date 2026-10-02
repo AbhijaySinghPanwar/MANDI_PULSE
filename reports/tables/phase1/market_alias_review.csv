@@ -1,0 +1,44 @@
+state,district,market_canonical,review_reason,suggested_district,suggested_canonical,raw_names,n_rows,first_date,last_date
+Gujarat,Morbi,Vankaner,similar_name_no_overlap,Morbi,Vankaner (Sub yard),Vankaner APMC,9,2026-03-12,2026-04-17
+Gujarat,Surat,Bardoli,similar_name_no_overlap,Surat,Bardoli (Katod),Bardoli,1,2019-03-15,2019-03-15
+Madhya Pradesh,Anupur,Anuppur (F&V),similar_name_no_overlap,Anupur,Anuppur,Anuppur (F&V) APMC,3,2026-02-23,2026-03-29
+Madhya Pradesh,Badwani,Badwani (F&V),similar_name_no_overlap,Badwani,Badwani,Badwani (F&V) / Badwani (F&V) APMC,665,2024-09-26,2026-04-19
+Madhya Pradesh,Badwani,Sendhwa (F&V),similar_name_no_overlap,Badwani,Sendhwa,Sendhwa (F&V) / Sendhwa (F&V) APMC / Sendhwa (F&amp;V) APMC,460,2024-09-23,2026-04-19
+Madhya Pradesh,Betul,Betul (F&V),similar_name_no_overlap,Betul,Betul,Betul (F&V),90,2025-09-02,2025-11-04
+Madhya Pradesh,Betul,Multai (F&V),similar_name_no_overlap,Betul,Multai,Multai (F&V),90,2025-08-28,2025-11-02
+Madhya Pradesh,Chhatarpur,Chattarpur (F&V),similar_name_no_overlap,Chhatarpur,Chhatarpur,Chattarpur (F&V) / Chattarpur (F&V) APMC,126,2024-10-03,2026-04-14
+Madhya Pradesh,Chhindwara,Chhindwara,similar_name_no_overlap,Chhindwara,Chhindwara (F&V),Chhindwara,7,2024-12-17,2025-01-09
+Madhya Pradesh,Chhindwara,Chindwara (F&V),similar_name_no_overlap,Chhindwara,Chhindwara (F&V),Chindwara (F&V) / Chindwara (F&V) APMC,422,2024-10-11,2026-04-16
+Madhya Pradesh,Damoh,Damoh,similar_name_no_overlap,Damoh,Damoh (F&V),Damoh APMC,1,2026-03-17,2026-03-17
+Madhya Pradesh,Dewas,Hatpiplya (F&V),similar_name_no_overlap,Dewas,Haatpipliya,Hatpiplya (F&V) APMC,20,2026-02-05,2026-04-17
+Madhya Pradesh,Dhar,Badnawar,similar_name_no_overlap,Dhar,Manawar,Badnawar / Badnawar APMC,973,2023-12-27,2026-04-13
+Madhya Pradesh,Dhar,Dhamnod (F&V),similar_name_no_overlap,Dhar,Dhamnod,Dhamnod (F&V) / Dhamnod (F&V) APMC,678,2024-10-02,2026-03-29
+Madhya Pradesh,Dhar,Kukshi (F&V),similar_name_no_overlap,Dhar,Kukshi,Kukshi (F&V) / Kukshi (F&V) APMC,150,2025-09-01,2026-04-17
+Madhya Pradesh,Dhar,Manawar (F&V),similar_name_no_overlap,Dhar,Manawar,Manawar (F&V),975,2024-09-26,2025-11-03
+Madhya Pradesh,Guna,Guna,similar_name_no_overlap,Guna,Guna (F&V),Guna,19,2025-05-31,2025-07-25
+Madhya Pradesh,Harda,Sirali (F&V),similar_name_no_overlap,Harda,Sirali,Sirali (F&V) / Sirali (F&V) APMC,133,2024-10-20,2026-04-10
+Madhya Pradesh,Harda,Timarni (F&V),similar_name_no_overlap,Harda,Timarni,Timarni (F&V) / Timarni (F&V) APMC,561,2024-09-23,2026-04-16
+Madhya Pradesh,Hoshangabad,Hoshangabad (F&V),similar_name_no_overlap,Hoshangabad,Hoshangabad,Hoshangabad (F&V),708,2024-10-03,2025-10-28
+Madhya Pradesh,Hoshangabad,Itarsi (F&V),similar_name_no_overlap,Hoshangabad,Itarsi,Itarsi (F&V),165,2024-12-16,2025-10-30
+Madhya Pradesh,Hoshangabad,Pipariya (F&V),similar_name_no_overlap,Hoshangabad,Pipariya,Pipariya (F&V) / Pipariya (F&V) APMC,848,2024-10-06,2026-04-18
+Madhya Pradesh,Indore,Mhow (F&V),similar_name_no_overlap,Indore,Mhow,Mhow (F&V),962,2024-10-08,2025-11-04
+Madhya Pradesh,Indore,Sanwer (F&V),similar_name_no_overlap,Indore,Sanwer,Sanwer (F&V) / Sanwer (F&V) APMC,187,2025-08-26,2026-04-17
+Madhya Pradesh,Jhabua,Thandla (F&V),similar_name_no_overlap,Jhabua,Thandla,Thandla (F&V),129,2025-08-29,2025-11-03
+Madhya Pradesh,Mandsaur,Shamgarh,similar_name_no_overlap,Mandsaur,Shamgarh (F&V),Shamgarh / Shamgarh APMC,425,2023-12-21,2026-04-18
+Madhya Pradesh,Morena,Sabalgarh (F&V),similar_name_no_overlap,Morena,Sabalgarh,Sabalgarh (F&V) / Sabalgarh (F&V) APMC,634,2024-10-14,2026-04-19
+Madhya Pradesh,Rewa,Rewa (F&V),similar_name_no_overlap,Rewa,Rewa,Rewa (F&V) / Rewa (F&V) APMC,257,2024-11-04,2026-04-18
+Madhya Pradesh,Sagar,Rehli (F&V),similar_name_no_overlap,Sagar,Rehli,Rehli (F&V) / Rehli (F&V) APMC,80,2025-08-28,2026-04-16
+Madhya Pradesh,Seoni,Seoni (F&V),similar_name_no_overlap,Seoni,Seoni,Seoni (F&V) APMC,30,2026-01-28,2026-04-17
+Madhya Pradesh,Shajapur,Akodiya,similar_name_no_overlap,Shajapur,Akodia,Akodiya,295,2023-12-21,2024-07-26
+Madhya Pradesh,Shajapur,Akodiya (F&V),similar_name_no_overlap,Shajapur,Akodia,Akodiya (F&V),17,2024-09-30,2025-11-03
+Madhya Pradesh,Shajapur,Shajapur,similar_name_no_overlap,Shajapur,Sajapur,Shajapur / Shajapur APMC,1206,2024-07-01,2026-04-18
+Madhya Pradesh,Sheopur,Sheopurkalan (F&V),similar_name_no_overlap,Sheopur,Syopurkalan (F&V),Sheopurkalan (F&V) / Sheopurkalan (F&V) APMC,287,2024-10-08,2026-04-14
+Madhya Pradesh,Singroli,Singroli (F&V),similar_name_no_overlap,Singroli,Singroli,Singroli (F&V),71,2025-05-13,2025-10-28
+Uttar Pradesh,Badaun,Bisoli,similar_name_no_overlap,Badaun,Visoli,Bisoli APMC,50,2025-12-03,2026-04-20
+Uttar Pradesh,Bareilly,Baheri,similar_name_no_overlap,Bareilly,Bahedi,Baheri APMC,1,2026-02-27,2026-02-27
+Uttar Pradesh,Ghazipur,Gazipur,same_name_other_district,Hapur,Gazipur,Gazipur / Gazipur APMC,1252,2024-05-01,2026-01-13
+Uttar Pradesh,Ghazipur,Jamanian,same_name_other_district,Hapur,Jamanian,Jamanian / Jamanian APMC,25,2025-06-21,2026-04-05
+Uttar Pradesh,Ghazipur,Jangipura,same_name_other_district,Hapur,Jangipura,Jangipura / Jangipura APMC,38,2025-02-28,2026-04-17
+Uttar Pradesh,Ghazipur,Yusufpur,same_name_other_district,Hapur,Yusufpur,Yusufpur / Yusufpur APMC,60,2024-05-09,2026-04-08
+Uttar Pradesh,Pillibhit,Bishalpur,similar_name_no_overlap,Pillibhit,Vishalpur,Bishalpur APMC,19,2025-12-11,2026-01-13
+Uttar Pradesh,Siddharth Nagar,Bansi,similar_name_no_overlap,Siddharth Nagar,Wansi,Bansi APMC,15,2025-12-16,2026-04-17

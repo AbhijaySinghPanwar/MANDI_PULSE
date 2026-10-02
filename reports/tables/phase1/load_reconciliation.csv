@@ -1,0 +1,109 @@
+commodity,state,year,n_rows_profile,n_rows_raw,diff
+Onion,Gujarat,2018,5587,5587,0
+Onion,Gujarat,2019,4846,4846,0
+Onion,Gujarat,2020,3986,3986,0
+Onion,Gujarat,2021,3953,3953,0
+Onion,Gujarat,2022,5132,5132,0
+Onion,Gujarat,2023,5682,5682,0
+Onion,Gujarat,2024,6646,6646,0
+Onion,Gujarat,2025,6037,6037,0
+Onion,Gujarat,2026,627,627,0
+Onion,Madhya Pradesh,2018,7515,7515,0
+Onion,Madhya Pradesh,2019,9644,9644,0
+Onion,Madhya Pradesh,2020,6060,6060,0
+Onion,Madhya Pradesh,2021,9267,9267,0
+Onion,Madhya Pradesh,2022,13038,13038,0
+Onion,Madhya Pradesh,2023,12165,12165,0
+Onion,Madhya Pradesh,2024,8514,8514,0
+Onion,Madhya Pradesh,2025,13219,13219,0
+Onion,Madhya Pradesh,2026,1081,1081,0
+Onion,Maharashtra,2018,13199,13199,0
+Onion,Maharashtra,2019,12885,12885,0
+Onion,Maharashtra,2020,12000,12000,0
+Onion,Maharashtra,2021,14677,14677,0
+Onion,Maharashtra,2022,14713,14713,0
+Onion,Maharashtra,2023,16266,16266,0
+Onion,Maharashtra,2024,16744,16744,0
+Onion,Maharashtra,2025,14270,14270,0
+Onion,Maharashtra,2026,1449,1449,0
+Onion,Uttar Pradesh,2018,49232,49232,0
+Onion,Uttar Pradesh,2019,47269,47269,0
+Onion,Uttar Pradesh,2020,50538,50538,0
+Onion,Uttar Pradesh,2021,50981,50981,0
+Onion,Uttar Pradesh,2022,52508,52508,0
+Onion,Uttar Pradesh,2023,51633,51633,0
+Onion,Uttar Pradesh,2024,51538,51538,0
+Onion,Uttar Pradesh,2025,47941,47941,0
+Onion,Uttar Pradesh,2026,1448,1448,0
+Potato,Gujarat,2018,4621,4621,0
+Potato,Gujarat,2019,5038,5038,0
+Potato,Gujarat,2020,3337,3337,0
+Potato,Gujarat,2021,3376,3376,0
+Potato,Gujarat,2022,3795,3795,0
+Potato,Gujarat,2023,4602,4602,0
+Potato,Gujarat,2024,6503,6503,0
+Potato,Gujarat,2025,6520,6520,0
+Potato,Gujarat,2026,601,601,0
+Potato,Madhya Pradesh,2018,7124,7124,0
+Potato,Madhya Pradesh,2019,9296,9296,0
+Potato,Madhya Pradesh,2020,5358,5358,0
+Potato,Madhya Pradesh,2021,8599,8599,0
+Potato,Madhya Pradesh,2022,11269,11269,0
+Potato,Madhya Pradesh,2023,10068,10068,0
+Potato,Madhya Pradesh,2024,2231,2231,0
+Potato,Madhya Pradesh,2025,5281,5281,0
+Potato,Madhya Pradesh,2026,510,510,0
+Potato,Maharashtra,2018,5581,5581,0
+Potato,Maharashtra,2019,4863,4863,0
+Potato,Maharashtra,2020,4485,4485,0
+Potato,Maharashtra,2021,6274,6274,0
+Potato,Maharashtra,2022,6273,6273,0
+Potato,Maharashtra,2023,7243,7243,0
+Potato,Maharashtra,2024,7221,7221,0
+Potato,Maharashtra,2025,6205,6205,0
+Potato,Maharashtra,2026,694,694,0
+Potato,Uttar Pradesh,2018,57623,57623,0
+Potato,Uttar Pradesh,2019,58124,58124,0
+Potato,Uttar Pradesh,2020,54228,54228,0
+Potato,Uttar Pradesh,2021,54956,54956,0
+Potato,Uttar Pradesh,2022,56978,56978,0
+Potato,Uttar Pradesh,2023,56109,56109,0
+Potato,Uttar Pradesh,2024,55332,55332,0
+Potato,Uttar Pradesh,2025,50387,50387,0
+Potato,Uttar Pradesh,2026,2294,2294,0
+Tomato,Gujarat,2018,6606,6606,0
+Tomato,Gujarat,2019,6724,6724,0
+Tomato,Gujarat,2020,5436,5436,0
+Tomato,Gujarat,2021,4775,4775,0
+Tomato,Gujarat,2022,4803,4803,0
+Tomato,Gujarat,2023,5320,5320,0
+Tomato,Gujarat,2024,6951,6951,0
+Tomato,Gujarat,2025,7032,7032,0
+Tomato,Gujarat,2026,687,687,0
+Tomato,Madhya Pradesh,2018,7334,7334,0
+Tomato,Madhya Pradesh,2019,9957,9957,0
+Tomato,Madhya Pradesh,2020,5806,5806,0
+Tomato,Madhya Pradesh,2021,9043,9043,0
+Tomato,Madhya Pradesh,2022,11935,11935,0
+Tomato,Madhya Pradesh,2023,10121,10121,0
+Tomato,Madhya Pradesh,2024,1650,1650,0
+Tomato,Madhya Pradesh,2025,6327,6327,0
+Tomato,Madhya Pradesh,2026,430,430,0
+Tomato,Maharashtra,2018,10655,10655,0
+Tomato,Maharashtra,2019,10055,10055,0
+Tomato,Maharashtra,2020,9103,9103,0
+Tomato,Maharashtra,2021,10682,10682,0
+Tomato,Maharashtra,2022,10480,10480,0
+Tomato,Maharashtra,2023,10869,10869,0
+Tomato,Maharashtra,2024,10765,10765,0
+Tomato,Maharashtra,2025,9508,9508,0
+Tomato,Maharashtra,2026,923,923,0
+Tomato,Uttar Pradesh,2018,45709,45709,0
+Tomato,Uttar Pradesh,2019,50297,50297,0
+Tomato,Uttar Pradesh,2020,49786,49786,0
+Tomato,Uttar Pradesh,2021,50885,50885,0
+Tomato,Uttar Pradesh,2022,50916,50916,0
+Tomato,Uttar Pradesh,2023,49421,49421,0
+Tomato,Uttar Pradesh,2024,51211,51211,0
+Tomato,Uttar Pradesh,2025,47902,47902,0
+Tomato,Uttar Pradesh,2026,1588,1588,0

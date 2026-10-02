@@ -1,0 +1,634 @@
+state,district,market,latitude,longitude,geo_precision,query_used,matched_name,km_from_district,geocoded_at
+Gujarat,Ahmedabad,Ahmedabad,23.0215374,72.5800568,market,"Ahmedabad, Ahmedabad, Gujarat, India","Ahmedabad, Gujarat, 380001, India",42.2,2026-10-02T12:41:19+00:00
+Gujarat,Ahmedabad,Ahmedabad (Chimanbhai Patal Market Vasana),23.0215374,72.5800568,market,"Ahmedabad, Ahmedabad, Gujarat, India","Ahmedabad, Gujarat, 380001, India",42.2,2026-10-02T12:41:19+00:00
+Gujarat,Ahmedabad,Dholka (Koth),22.6351443,72.3014603,market,"Koth, Ahmedabad, Gujarat, India","Koth, Dholka Taluka, Ahmedabad, Gujarat, India",12.3,2026-10-02T12:41:20+00:00
+Gujarat,Amreli,Babra,21.8485451,71.3036656,market,"Babra, Amreli, Gujarat, India","Babra, Babra Taluka, Amreli, Gujarat, 364421, India",48.2,2026-10-02T12:41:23+00:00
+Gujarat,Amreli,Damnagar,21.6950878,71.5160345,market,"Damnagar, Amreli, Gujarat, India","Damnagar, Lathi Taluka, Amreli, Gujarat, 364220, India",41.4,2026-10-02T12:41:24+00:00
+Gujarat,Amreli,Dhari,21.3280712,71.0262213,market,"Dhari, Amreli, Gujarat, India","Dhari, Dhari Taluka, Amreli, Gujarat, 364640, India",25.2,2026-10-02T12:41:25+00:00
+Gujarat,Amreli,Dhari (Chalala),21.4103193,71.1654783,market,"Chalala, Amreli, Gujarat, India","Chalala, Dhari Taluka, Amreli, Gujarat, 364630, India",8.7,2026-10-02T12:41:26+00:00
+Gujarat,Anand,"Anand (Veg,Yard,Anand)",22.5586555,72.9627227,market,"Anand, Anand, Gujarat, India","Anand, Anand City Taluka, Anand, Gujarat, 388001, India",25.1,2026-10-02T12:41:28+00:00
+Gujarat,Anand,Borsad (Veg Yard Barsad),22.4094019,72.905252,market,"Borsad, Anand, Gujarat, India","Borsad, Borsad Taluka, Anand, Gujarat, 388500, India",18.8,2026-10-02T12:41:29+00:00
+Gujarat,Anand,Khambhat (Veg Yard Khambhat),22.3166806,72.6243126,market,"Khambhat, Anand, Gujarat, India","Khambhat, Khambhat Taluka, Anand, Gujarat, 388600, India",20.9,2026-10-02T12:41:31+00:00
+Gujarat,Anand,"Petlad (Veg Yard, Petlad)",22.4770467,72.8003365,market,"Petlad, Anand, Gujarat, India","Petlad, Petlad Taluka, Anand, Gujarat, 388400, India",6.6,2026-10-02T12:41:32+00:00
+Gujarat,Bharuch,Ankleshwar,21.6293206,72.9945103,market,"Ankleshwar, Bharuch, Gujarat, India","Ankleshwar, Ankleshwar Taluka, Bharuch, Gujarat, 393001, India",25.7,2026-10-02T12:41:36+00:00
+Gujarat,Bharuch,Bharuch,21.7080427,72.9956936,market,"Bharuch, Bharuch, Gujarat, India","Bharuch, Bharuch Taluka, Bharuch, Gujarat, India",18.4,2026-10-02T12:41:38+00:00
+Gujarat,Bhavnagar,Bhavnagar,21.7718836,72.1416449,market,"Bhavnagar, Bhavnagar, Gujarat, India","Bhavnagar, Bhavnagar Taluka, Bhavnagar, Gujarat, 364001, India",33.3,2026-10-02T12:41:39+00:00
+Gujarat,Bhavnagar,Mahuva (Station Road),21.0914409,71.7621979,market,"Mahuva, Bhavnagar, Gujarat, India","Mahuva, Mahuva Taluka, Bhavnagar, Gujarat, 364290, India",54.8,2026-10-02T12:41:41+00:00
+Gujarat,Bhavnagar,Palitana,21.5236104,71.8219597,market,"Palitana, Bhavnagar, Gujarat, India","Palitana, Palitana Taluka, Bhavnagar, Gujarat, 364270, India",10.0,2026-10-02T12:41:42+00:00
+Gujarat,Dahod,Dahod (Veg. Market),22.8358786,74.2556823,market,"Dahod, Dahod, Gujarat, India","Dahod, Dahod Taluka, Dahod, Gujarat, 389100, India",15.5,2026-10-02T12:41:44+00:00
+Gujarat,Dahod,Jhalod,23.1006273,74.1560018,market,"Jhalod, Dahod, Gujarat, India","Jhalod, Jhalod Taluka, Dahod, Gujarat, 389170, India",20.3,2026-10-02T12:41:45+00:00
+Gujarat,Devbhumi Dwarka,Bhanvad,21.925446,69.777498,market,"Bhanvad, Devbhumi Dwarka, Gujarat, India","Param Hospital, Bhanvad, NH927K;NH151K, Bhanvad, Bhanvad Taluka, Devbhumi Dwaraka, Gujarat, 360510, India",90.8,2026-10-02T12:41:47+00:00
+Gujarat,Gandhinagar,"Kalol (Veg,Market,Kalol)",23.2452165,72.4966223,market,"Kalol, Gandhinagar, Gujarat, India","Kalol, Kalol Taluka, Gandhinagar, Gujarat, 382700, India",16.6,2026-10-02T12:41:49+00:00
+Gujarat,Gandhinagar,Mansa (Manas Veg Yard),23.425103,72.6583024,market,"Mansa, Gandhinagar, Gujarat, India","Mansa, Mansa Taluka, Gandhinagar, Gujarat, 382845, India",15.9,2026-10-02T12:41:51+00:00
+Gujarat,Gir Somnath,Una,20.8198898,71.0391641,market,"Una, Gir Somnath, Gujarat, India","Una, Una Taluka, Gir Somnath, Gujarat, 362560, India",31.2,2026-10-02T12:41:54+00:00
+Gujarat,Jamnagar,Jamnagar,22.4732415,70.0552102,market,"Jamnagar, Jamnagar, Gujarat, India","Jamnagar, Jamnagar City Taluka, Jamnagar, Gujarat, 361001, India",17.8,2026-10-02T12:41:55+00:00
+Gujarat,Kachchh,Bhuj,23.2472446,69.668339,market,"Bhuj, Kachchh, Gujarat, India","Bhuj, Bhuj Taluka, Kutch, Gujarat, 370001, India",17.9,2026-10-02T12:42:00+00:00
+Gujarat,Kachchh,K.Mandvi,22.8314482,69.35081,market,"K.Mandvi, Kachchh, Gujarat, India","માંડવી, Mandvi Taluka, Kutch, Gujarat, 370405, India",39.8,2026-10-02T12:42:00+00:00
+Gujarat,Kachchh,Mundra,22.8393153,69.7249477,market,"Mundra, Kachchh, Gujarat, India","મુન્દ્રા, Mundra Taluka, Kutch, Gujarat, 370421, India",30.5,2026-10-02T12:42:01+00:00
+Gujarat,Kheda,Kapadvanj,23.0232402,73.0727531,market,"Kapadvanj, Kheda, Gujarat, India","Kapadvanj, Kapadvanj Taluka, Kheda, Gujarat, 387600, India",20.5,2026-10-02T12:42:03+00:00
+Gujarat,Kheda,Nadiad,22.6895535,72.8713603,market,"Nadiad, Kheda, Gujarat, India","Nadiad, Nadlad City Taluka, Kheda, Gujarat, 387001, India",22.2,2026-10-02T12:42:04+00:00
+Gujarat,Kheda,Nadiyad (Chaklasi),22.6513989,72.9442452,market,"Chaklasi, Kheda, Gujarat, India","Chaklasi, Nadiad Taluka, Kheda, Gujarat, 387315, India",23.0,2026-10-02T12:42:05+00:00
+Gujarat,Kheda,Nadiyad (Piplag),22.6918582,72.9012671,market,"Nadiyad, Kheda, Gujarat, India","Nadiyad, Ahmadabad Vadodara Expressway, Nadiad Taluka, Kheda, Gujarat, 387001, India",20.4,2026-10-02T12:42:07+00:00
+Gujarat,Mehsana,Mehsana (Mehsana Veg),23.5962889,72.3899844,market,"Mehsana, Mehsana, Gujarat, India","APMC mehsana, Station road, Suryoday Nagar, Mahesana, Mahesana Taluka, Mahesana, Gujarat, 384001, India",0.6,2026-10-02T12:42:10+00:00
+Gujarat,Mehsana,Vijapur (veg),23.5670968,72.3849685,market,"Vijapur, Mehsana, Gujarat, India","Mehsana-Himatnagar Vijapur road, Nagalpur, Mahesana, Mahesana Taluka, Mahesana, Gujarat, 384001, India",3.8,2026-10-02T12:42:10+00:00
+Gujarat,Mehsana,Visnagar,23.604665,72.3931543,market,"Visnagar, Mehsana, Gujarat, India","Visnagar Road, Mehsana Lakhvad, Mahesana, Mahesana Taluka, Mahesana, Gujarat, 384001, India",0.5,2026-10-02T12:42:12+00:00
+Gujarat,Morbi,Morbi,22.8176662,70.8345928,market,"Morbi, Morbi, Gujarat, India","Morbi, Morbi Taluka, Morbi, Gujarat, 363641, India",5.6,2026-10-02T12:42:13+00:00
+Gujarat,Navsari,Bilimora,20.7671693,72.9693451,market,"Bilimora, Navsari, Gujarat, India","Bilimora, Gandevi Taluka, Navsari, Gujarat, 396321, India",9.6,2026-10-02T12:42:18+00:00
+Gujarat,Navsari,Navsari,20.952407,72.9323831,market,"Navsari, Navsari, Gujarat, India","Navsari, Navsari Taluka, Navsari, Gujarat, 396400, India",17.2,2026-10-02T12:42:19+00:00
+Gujarat,Patan,"Patan (Veg,Yard Patan)",23.8505032,72.1133403,market,"Patan, Patan, Gujarat, India","Patan, Patan Taluka, Patan, Gujarat, 384200, India",44.9,2026-10-02T12:42:23+00:00
+Gujarat,Patan,Siddhpur,23.918279,72.3681846,market,"Siddhpur, Patan, Gujarat, India","Siddhpur, Ahmedabad Palanpur State Highway SH41, Siddhpur, Sidhpur Taluka, Patan, Gujarat, 384151, India",71.8,2026-10-02T12:42:24+00:00
+Gujarat,Porbandar,Porbandar,21.6505229,69.6565371,market,"Porbandar, Porbandar, Gujarat, India","Porbandar, Terminal Road, Ranavav Taluka, Porbandar, Gujarat, 360578, India",21.1,2026-10-02T12:42:26+00:00
+Gujarat,Rajkot,Dhoraji,21.7220402,70.4443401,market,"Dhoraji, Rajkot, Gujarat, India","Dhoraji, SH26, Dhoraji, Dhoraji Taluka, Rajkot, Gujarat, 360400, India",71.6,2026-10-02T12:42:28+00:00
+Gujarat,Rajkot,Gondal,21.9721823,70.7955235,market,"Gondal, Rajkot, Gujarat, India","Gondal, NH27, Gondal, Gondal Taluka, Rajkot, Gujarat, 360300, India",26.4,2026-10-02T12:42:30+00:00
+Gujarat,Rajkot,Gondal (Veg.market Gondal),21.9721823,70.7955235,market,"Gondal, Rajkot, Gujarat, India","Gondal, NH27, Gondal, Gondal Taluka, Rajkot, Gujarat, 360300, India",26.4,2026-10-02T12:42:30+00:00
+Gujarat,Rajkot,Jetpur (Dist.Rajkot),21.7543725,70.6189391,market,"Jetpur, Rajkot, Gujarat, India","Jetpur, Jetpur Taluka, Rajkot, Gujarat, 360370, India",54.9,2026-10-02T12:42:31+00:00
+Gujarat,Rajkot,Rajkot (Veg.Sub Yard),22.3053263,70.8028377,market,"Rajkot, Rajkot, Gujarat, India","Rajkot, Rajkot East Taluka, Rajkot, Gujarat, 360001, India",35.1,2026-10-02T12:42:32+00:00
+Gujarat,Surat,Bardoli,21.1338291,73.1053896,market,"Bardoli, Surat, Gujarat, India","Bardoli, SH165, Bardoli, Bardoli Taluka, Surat, Gujarat, 394600, India",16.9,2026-10-02T12:42:35+00:00
+Gujarat,Surat,Bardoli (Katod),21.1338291,73.1053896,market,"Bardoli, Surat, Gujarat, India","Bardoli, SH165, Bardoli, Bardoli Taluka, Surat, Gujarat, 394600, India",16.9,2026-10-02T12:42:36+00:00
+Gujarat,Surat,Mandvi,21.254926,73.3046407,market,"Mandvi, Surat, Gujarat, India","Mandvi, Mandvi Taluka, Surat, Gujarat, 394160, India",36.9,2026-10-02T12:42:37+00:00
+Gujarat,Surat,S.Mandvi,21.254926,73.3046407,market,"S.Mandvi, Surat, Gujarat, India","Mandvi, Mandvi Taluka, Surat, Gujarat, 394160, India",36.9,2026-10-02T12:42:39+00:00
+Gujarat,Surat,Surat,21.2094892,72.8317058,market,"Surat, Surat, Gujarat, India","Surat, Katargam Taluka, Surat, Gujarat, 395008, India",12.9,2026-10-02T12:42:41+00:00
+Gujarat,Vadodara (Baroda),Padra,22.2412214,73.0855259,market,"Padra, Vadodara, Gujarat, India","Padra, Padra Taluka, Vadodara, Gujarat, 391400, India",24.1,2026-10-02T12:42:46+00:00
+Gujarat,Vadodara (Baroda),Vadodara (Sayajipura),22.2973142,73.1942567,market,"Vadodara, Vadodara, Gujarat, India","Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India",11.6,2026-10-02T12:42:47+00:00
+Madhya Pradesh,Agar Malwa,Agar (F&V),23.7177382,76.0194605,market,"Agar, Agar Malwa, Madhya Pradesh, India","Agar, Agar Tahsil, Agar Malwa, Madhya Pradesh, India",27.3,2026-10-02T12:42:50+00:00
+Madhya Pradesh,Alirajpur,Alirajpur (F&V),22.3050503,74.3489718,market,"Alirajpur, Alirajpur, Madhya Pradesh, India","Alirajpur, Alirajpur Tehsil, Alirajpur, Madhya Pradesh, India",2.2,2026-10-02T12:42:52+00:00
+Madhya Pradesh,Ashoknagar,Ashoknagar (F&V),24.576189,77.7302895,market,"Ashoknagar, Ashoknagar, Madhya Pradesh, India","Ashoknagar, Ashoknagar Tahsil, Ashoknagar, Madhya Pradesh, 473331, India",15.7,2026-10-02T12:42:59+00:00
+Madhya Pradesh,Betul,Betul,21.8971699,77.9061703,market,"Betul, Betul, Madhya Pradesh, India","Betul, MD3504, Betul, Betul Tahsil, Betul, Madhya Pradesh, 460001, India",3.7,2026-10-02T12:43:08+00:00
+Madhya Pradesh,Betul,Betul (F&V),21.8971699,77.9061703,market,"Betul, Betul, Madhya Pradesh, India","Betul, MD3504, Betul, Betul Tahsil, Betul, Madhya Pradesh, 460001, India",3.7,2026-10-02T12:43:08+00:00
+Madhya Pradesh,Betul,Multai,21.7828449,78.263508,market,"Multai, Betul, Madhya Pradesh, India","Multai, SH41, Multai, Chandora Khurd, Multai Tahsil, Betul, Madhya Pradesh, 460661, India",41.5,2026-10-02T12:43:10+00:00
+Madhya Pradesh,Betul,Multai (F&V),21.7828449,78.263508,market,"Multai, Betul, Madhya Pradesh, India","Multai, SH41, Multai, Chandora Khurd, Multai Tahsil, Betul, Madhya Pradesh, 460661, India",41.5,2026-10-02T12:43:10+00:00
+Madhya Pradesh,Bhind,Bhind,26.5884918,78.7771882,market,"Bhind, Bhind, Madhya Pradesh, India","Bhind, Station Road, Bhind, Bhind Nagar Tahsil, Bhind, Madhya Pradesh, 477001, India",27.8,2026-10-02T12:43:12+00:00
+Madhya Pradesh,Bhopal,Bhopal,23.2584857,77.401989,market,"Bhopal, Bhopal, Madhya Pradesh, India","Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India",25.1,2026-10-02T12:43:15+00:00
+Madhya Pradesh,Bhopal,Bhopal (F&V),23.2584857,77.401989,market,"Bhopal, Bhopal, Madhya Pradesh, India","Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India",25.1,2026-10-02T12:43:15+00:00
+Madhya Pradesh,Burhanpur,Burhanpur (F&V),21.3118839,76.2291992,market,"Burhanpur, Burhanpur, Madhya Pradesh, India","Burhanpur, Burhanpur Nagar Tahsil, Burhanpur, Madhya Pradesh, 450331, India",14.9,2026-10-02T12:43:18+00:00
+Madhya Pradesh,Chhatarpur,Chhatarpur,24.9204657,79.5839755,market,"Chhatarpur, Chhatarpur, Madhya Pradesh, India","Chhatarpur, Chhatarpur Nagar Tahsil, Chhatarpur, Madhya Pradesh, 471001, India",20.2,2026-10-02T12:43:21+00:00
+Madhya Pradesh,Chhindwara,Chhindwara,22.0578244,78.9386203,market,"Chhindwara, Chhindwara, Madhya Pradesh, India","Chhindwara, Chhindwara Tahsil, Chhindwara, Madhya Pradesh, 480001, India",22.0,2026-10-02T12:43:22+00:00
+Madhya Pradesh,Chhindwara,Chhindwara (F&V),22.0578244,78.9386203,market,"Chhindwara, Chhindwara, Madhya Pradesh, India","Chhindwara, Chhindwara Tahsil, Chhindwara, Madhya Pradesh, 480001, India",22.0,2026-10-02T12:43:23+00:00
+Madhya Pradesh,Chhindwara,Chindwara (F&V),21.9590151,78.9573897,market,"Chindwara, Chhindwara, Madhya Pradesh, India","Chindwara Ring Road, Paunari, Arjunvari, Mohkhed Tahsil, Chhindwara, Madhya Pradesh, India",32.1,2026-10-02T12:43:24+00:00
+Madhya Pradesh,Damoh,Damoh,23.8360587,79.4321389,market,"Damoh, Damoh, Madhya Pradesh, India","Damoh, SH63, Damoh, Danyantinagar Tahsil, Damoh, Madhya Pradesh, 470600, India",11.9,2026-10-02T12:43:27+00:00
+Madhya Pradesh,Damoh,Damoh (F&V),23.8360587,79.4321389,market,"Damoh, Damoh, Madhya Pradesh, India","Damoh, SH63, Damoh, Danyantinagar Tahsil, Damoh, Madhya Pradesh, 470600, India",11.9,2026-10-02T12:43:27+00:00
+Madhya Pradesh,Dewas,Dewas,22.96363,76.054867,market,"Dewas, Dewas, Madhya Pradesh, India","Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, 455001, India",30.1,2026-10-02T12:43:30+00:00
+Madhya Pradesh,Dewas,Dewas (F&V),22.96363,76.054867,market,"Dewas, Dewas, Madhya Pradesh, India","Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, 455001, India",30.1,2026-10-02T12:43:30+00:00
+Madhya Pradesh,Dewas,Hatpiplya (F&V),22.8230048,76.3693468,market,"Hatpiplya, Dewas, Madhya Pradesh, India","Hatpiplya Tahsil, Dewas, Madhya Pradesh, 455223, India",8.0,2026-10-02T12:43:32+00:00
+Madhya Pradesh,Dewas,Sonkatch,23.0690424,76.409346,market,"Sonkatch, Dewas, Madhya Pradesh, India","Sonkatch, Mundikheri, Kachnaria, Sonkatch Tahsil, Dewas, Madhya Pradesh, India",31.6,2026-10-02T12:43:34+00:00
+Madhya Pradesh,Dhar,Badnawar,23.0231263,75.2065,market,"Badnawar, Dhar, Madhya Pradesh, India","Badnawar, Badnawar Tahsil, Dhar, Madhya Pradesh, India",49.5,2026-10-02T12:43:36+00:00
+Madhya Pradesh,Dhar,Badnawar (F&V),23.0231263,75.2065,market,"Badnawar, Dhar, Madhya Pradesh, India","Badnawar, Badnawar Tahsil, Dhar, Madhya Pradesh, India",49.5,2026-10-02T12:43:37+00:00
+Madhya Pradesh,Dhar,Dhamnod,22.2012828,75.4768679,market,"Dhamnod, Dhar, Madhya Pradesh, India","Dhamnod, Dharampuri Tahsil, Dhar, Madhya Pradesh, India",49.3,2026-10-02T12:43:39+00:00
+Madhya Pradesh,Dhar,Dhamnod (F&V),22.2012828,75.4768679,market,"Dhamnod, Dhar, Madhya Pradesh, India","Dhamnod, Dharampuri Tahsil, Dhar, Madhya Pradesh, India",49.3,2026-10-02T12:43:39+00:00
+Madhya Pradesh,Dhar,Dhar,22.5972396,75.306565,market,"Dhar, Dhar, Madhya Pradesh, India","Dhar, Dhar Tahsil, Dhar, Madhya Pradesh, 454001, India",8.5,2026-10-02T12:43:41+00:00
+Madhya Pradesh,Dhar,Dhar (F&V),22.5972396,75.306565,market,"Dhar, Dhar, Madhya Pradesh, India","Dhar, Dhar Tahsil, Dhar, Madhya Pradesh, 454001, India",8.5,2026-10-02T12:43:41+00:00
+Madhya Pradesh,Dhar,Kukshi,22.2124514,74.7598806,market,"Kukshi, Dhar, Madhya Pradesh, India","Kukshi, Kukshi Tahsil, Dhar, Madhya Pradesh, 454331, India",62.9,2026-10-02T12:43:43+00:00
+Madhya Pradesh,Dhar,Kukshi (F&V),22.2124514,74.7598806,market,"Kukshi, Dhar, Madhya Pradesh, India","Kukshi, Kukshi Tahsil, Dhar, Madhya Pradesh, 454331, India",62.9,2026-10-02T12:43:43+00:00
+Madhya Pradesh,Dhar,Manawar,22.2299529,75.0815866,market,"Manawar, Dhar, Madhya Pradesh, India","Manawar, Manawar Tahsil, Dhar, Madhya Pradesh, India",41.5,2026-10-02T12:43:45+00:00
+Madhya Pradesh,Dhar,Manawar (F&V),22.2299529,75.0815866,market,"Manawar, Dhar, Madhya Pradesh, India","Manawar, Manawar Tahsil, Dhar, Madhya Pradesh, India",41.5,2026-10-02T12:43:45+00:00
+Madhya Pradesh,Dhar,Rajgarh,22.6648274,74.9520066,market,"Rajgarh, Dhar, Madhya Pradesh, India","Rajgarh, Sardarpur Tahsil, Dhar, Madhya Pradesh, India",29.7,2026-10-02T12:43:47+00:00
+Madhya Pradesh,Dhar,Rajgarh (F&V),22.6648274,74.9520066,market,"Rajgarh, Dhar, Madhya Pradesh, India","Rajgarh, Sardarpur Tahsil, Dhar, Madhya Pradesh, India",29.7,2026-10-02T12:43:47+00:00
+Madhya Pradesh,Guna,Guna,24.6476632,77.3161782,market,"Guna, Guna, Madhya Pradesh, India","Guna, Guna NagarTahsil, Guna, Madhya Pradesh, 473001, India",17.4,2026-10-02T12:43:49+00:00
+Madhya Pradesh,Guna,Guna (F&V),24.6476632,77.3161782,market,"Guna, Guna, Madhya Pradesh, India","Guna, Guna NagarTahsil, Guna, Madhya Pradesh, 473001, India",17.4,2026-10-02T12:43:50+00:00
+Madhya Pradesh,Harda,Harda (F&V),22.3390401,77.1015504,market,"Harda, Harda, Madhya Pradesh, India","Harda, SH71, Harda Khas, Harda, Harda Tahsil, Harda, Madhya Pradesh, 461331, India",10.8,2026-10-02T12:43:56+00:00
+Madhya Pradesh,Harda,Sirali,22.1571274,77.0621102,market,"Sirali, Harda, Madhya Pradesh, India","Sirali, Sirali Tahsil, Harda, Madhya Pradesh, 461335, India",11.1,2026-10-02T12:43:57+00:00
+Madhya Pradesh,Harda,Sirali (F&V),22.1571274,77.0621102,market,"Sirali, Harda, Madhya Pradesh, India","Sirali, Sirali Tahsil, Harda, Madhya Pradesh, 461335, India",11.1,2026-10-02T12:43:57+00:00
+Madhya Pradesh,Harda,Timarni,22.3762705,77.2301922,market,"Timarni, Harda, Madhya Pradesh, India","Timarni, SH67, Timarni, Timurni, Chhidgaon, Rehatgarh Tahsil, Harda, Madhya Pradesh, 461228, India",18.8,2026-10-02T12:43:59+00:00
+Madhya Pradesh,Harda,Timarni (F&V),22.3762705,77.2301922,market,"Timarni, Harda, Madhya Pradesh, India","Timarni, SH67, Timarni, Timurni, Chhidgaon, Rehatgarh Tahsil, Harda, Madhya Pradesh, 461228, India",18.8,2026-10-02T12:43:59+00:00
+Madhya Pradesh,Hoshangabad,Hoshangabad,22.7529598,77.7173261,market,"Hoshangabad, Hoshangabad, Madhya Pradesh, India","Hoshangabad, Gwaltoli Underbridge, Sethani Ghat, Hoshangabad, Narmadapuram, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, 461001, India",11.9,2026-10-02T12:44:01+00:00
+Madhya Pradesh,Hoshangabad,Hoshangabad (F&V),22.7529598,77.7173261,market,"Hoshangabad, Hoshangabad, Madhya Pradesh, India","Hoshangabad, Gwaltoli Underbridge, Sethani Ghat, Hoshangabad, Narmadapuram, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, 461001, India",11.9,2026-10-02T12:44:02+00:00
+Madhya Pradesh,Hoshangabad,Itarsi,22.6124961,77.762753,market,"Itarsi, Hoshangabad, Madhya Pradesh, India","Itarsi, Itarsi Tahsil, Narmadapuram, Madhya Pradesh, 461111, India",4.4,2026-10-02T12:44:04+00:00
+Madhya Pradesh,Hoshangabad,Itarsi (F&V),22.6124961,77.762753,market,"Itarsi, Hoshangabad, Madhya Pradesh, India","Itarsi, Itarsi Tahsil, Narmadapuram, Madhya Pradesh, 461111, India",4.4,2026-10-02T12:44:04+00:00
+Madhya Pradesh,Hoshangabad,Pipariya,22.6172328,77.8496804,market,"Pipariya, Hoshangabad, Madhya Pradesh, India","Pipariya, Dumdum, Itarsi Tahsil, Narmadapuram, Madhya Pradesh, India",10.8,2026-10-02T12:44:06+00:00
+Madhya Pradesh,Hoshangabad,Pipariya (F&V),22.6172328,77.8496804,market,"Pipariya, Hoshangabad, Madhya Pradesh, India","Pipariya, Dumdum, Itarsi Tahsil, Narmadapuram, Madhya Pradesh, India",10.8,2026-10-02T12:44:06+00:00
+Madhya Pradesh,Indore,Gautampura,23.0267776,75.5287674,market,"Gautampura, Indore, Madhya Pradesh, India","Gautampura Road, Indore - Depalpur - Ingoriya Road, Bahirampur, Narsinga, Depalpur Tahsil, Indore, Madhya Pradesh, 453220, India",45.3,2026-10-02T12:44:09+00:00
+Madhya Pradesh,Indore,Indore,22.7203616,75.8681996,market,"Indore, Indore, Madhya Pradesh, India","Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India",6.3,2026-10-02T12:44:10+00:00
+Madhya Pradesh,Indore,Indore (F&V),22.7203616,75.8681996,market,"Indore, Indore, Madhya Pradesh, India","Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India",6.3,2026-10-02T12:44:10+00:00
+Madhya Pradesh,Indore,Mhow,22.5586725,75.7686558,market,"Mhow, Indore, Madhya Pradesh, India","Dr. Ambedkar Nagar, Mhow Tahsil, Indore, Madhya Pradesh, 453441, India",17.4,2026-10-02T12:44:11+00:00
+Madhya Pradesh,Indore,Mhow (F&V),22.5586725,75.7686558,market,"Mhow, Indore, Madhya Pradesh, India","Dr. Ambedkar Nagar, Mhow Tahsil, Indore, Madhya Pradesh, 453441, India",17.4,2026-10-02T12:44:12+00:00
+Madhya Pradesh,Indore,Sanwer,22.9778614,75.8466312,market,"Sanwer, Indore, Madhya Pradesh, India","Sanwer, Sanwer Tahsil, Indore, Madhya Pradesh, India",30.0,2026-10-02T12:44:14+00:00
+Madhya Pradesh,Indore,Sanwer (F&V),22.9778614,75.8466312,market,"Sanwer, Indore, Madhya Pradesh, India","Sanwer, Sanwer Tahsil, Indore, Madhya Pradesh, India",30.0,2026-10-02T12:44:14+00:00
+Madhya Pradesh,Jabalpur,Jabalpur (F&V),23.1701522,79.9324505,market,"Jabalpur, Jabalpur, Madhya Pradesh, India","Jabalpur, Ranjhi Tahsil, Jabalpur, Madhya Pradesh, India",7.8,2026-10-02T12:44:17+00:00
+Madhya Pradesh,Jabalpur,Patan (F&V),23.2830097,79.6945343,market,"Patan, Jabalpur, Madhya Pradesh, India","Patan, Patan Tahsil, Jabalpur, Madhya Pradesh, 483113, India",30.2,2026-10-02T12:44:17+00:00
+Madhya Pradesh,Jabalpur,Sihora (F&V),23.4890237,80.093248,market,"Sihora, Jabalpur, Madhya Pradesh, India","Sihora, Sihora Tahsil, Jabalpur, Madhya Pradesh, 483225, India",31.7,2026-10-02T12:44:20+00:00
+Madhya Pradesh,Jhabua,Jhabua,22.760543,74.6049526,market,"Jhabua, Jhabua, Madhya Pradesh, India","Jhabua, Jhabua Tahsil, Jhabua, Madhya Pradesh, 457661, India",18.6,2026-10-02T12:44:21+00:00
+Madhya Pradesh,Jhabua,Petlawad,23.0209586,74.8071354,market,"Petlawad, Jhabua, Madhya Pradesh, India","Petlawad, Petlawad Tahsil, Jhabua, Madhya Pradesh, 457773, India",17.1,2026-10-02T12:44:23+00:00
+Madhya Pradesh,Jhabua,Petlawad (F&V),23.0209586,74.8071354,market,"Petlawad, Jhabua, Madhya Pradesh, India","Petlawad, Petlawad Tahsil, Jhabua, Madhya Pradesh, 457773, India",17.1,2026-10-02T12:44:23+00:00
+Madhya Pradesh,Jhabua,Thandla,23.0101198,74.5771286,market,"Thandla, Jhabua, Madhya Pradesh, India","Thandla, Thandla Tahsil, Jhabua, Madhya Pradesh, 457777, India",20.4,2026-10-02T12:44:25+00:00
+Madhya Pradesh,Jhabua,Thandla (F&V),23.0101198,74.5771286,market,"Thandla, Jhabua, Madhya Pradesh, India","Thandla, Thandla Tahsil, Jhabua, Madhya Pradesh, 457777, India",20.4,2026-10-02T12:44:25+00:00
+Madhya Pradesh,Katni,Katni,23.8339621,80.392456,market,"Katni, Katni, Madhya Pradesh, India","Katni, Murwara, Katni Nagar, Katni, Madhya Pradesh, 483500, India",18.6,2026-10-02T12:44:27+00:00
+Madhya Pradesh,Katni,Katni (F&V),23.8339621,80.392456,market,"Katni, Katni, Madhya Pradesh, India","Katni, Murwara, Katni Nagar, Katni, Madhya Pradesh, 483500, India",18.6,2026-10-02T12:44:28+00:00
+Madhya Pradesh,Khandwa,Khandwa,21.8203752,76.3555424,market,"Khandwa, Khandwa, Madhya Pradesh, India","Khandwa, Khandwa Nagar Tahsil, Khandwa, Madhya Pradesh, 450001, India",28.0,2026-10-02T12:44:32+00:00
+Madhya Pradesh,Khandwa,Khandwa (F&V),21.8203752,76.3555424,market,"Khandwa, Khandwa, Madhya Pradesh, India","Khandwa, Khandwa Nagar Tahsil, Khandwa, Madhya Pradesh, 450001, India",28.0,2026-10-02T12:44:32+00:00
+Madhya Pradesh,Khandwa,Khargone (F&V),22.1786463,76.0703565,market,"Khargone, Khandwa, Madhya Pradesh, India","Narmada Hospital, Khargone, NH 347BG, Sanawad, Sanawad Tahsil, Khargone, Madhya Pradesh, 451111, India",55.9,2026-10-02T12:44:34+00:00
+Madhya Pradesh,Khandwa,Pandhana (F&V),21.6908945,76.2237916,market,"Pandhana, Khandwa, Madhya Pradesh, India","Pandhana, Pandhana Tahsil, Khandwa, Madhya Pradesh, India",47.7,2026-10-02T12:44:35+00:00
+Madhya Pradesh,Khandwa,Sanawad (F&V),22.1777783,76.0737911,market,"Sanawad, Khandwa, Madhya Pradesh, India","Sanawad, SH36A, Sanawad, Bhogawan, Sanawad Tahsil, Khargone, Madhya Pradesh, 451111, India",55.6,2026-10-02T12:44:36+00:00
+Madhya Pradesh,Khargone,Khargone,21.825599,75.614182,market,"Khargone, Khargone, Madhya Pradesh, India","Khargone, Khargone Tahsil, Khargone, Madhya Pradesh, 451001, India",20.2,2026-10-02T12:44:39+00:00
+Madhya Pradesh,Khargone,Sanawad,22.1777783,76.0737911,market,"Sanawad, Khargone, Madhya Pradesh, India","Sanawad, SH36A, Sanawad, Bhogawan, Sanawad Tahsil, Khargone, Madhya Pradesh, 451111, India",41.4,2026-10-02T12:44:40+00:00
+Madhya Pradesh,Mandsaur,Bhanpura,24.519417,75.7477887,market,"Bhanpura, Mandsaur, Madhya Pradesh, India","Bhanpura, Bhanpura Tahsil, Mandsaur, Madhya Pradesh, 458775, India",46.5,2026-10-02T12:44:42+00:00
+Madhya Pradesh,Mandsaur,Daloda,23.9559753,75.1041283,market,"Daloda, Mandsaur, Madhya Pradesh, India","Daloda, Daloda Tahsil, Mandsaur, Madhya Pradesh, India",44.5,2026-10-02T12:44:43+00:00
+Madhya Pradesh,Mandsaur,Garoth,24.331508,75.5815798,market,"Garoth, Mandsaur, Madhya Pradesh, India","Garoth Tahsil, Mandsaur, Madhya Pradesh, 458880, India",21.3,2026-10-02T12:44:43+00:00
+Madhya Pradesh,Mandsaur,Mandsaur,24.0682898,75.0742388,market,"Mandsaur, Mandsaur, Madhya Pradesh, India","Mandsaur, Mandsaur Nagar Tahsil, Mandsaur, Madhya Pradesh, 458001, India",38.3,2026-10-02T12:44:44+00:00
+Madhya Pradesh,Mandsaur,Mandsaur (F&V),24.0682898,75.0742388,market,"Mandsaur, Mandsaur, Madhya Pradesh, India","Mandsaur, Mandsaur Nagar Tahsil, Mandsaur, Madhya Pradesh, 458001, India",38.3,2026-10-02T12:44:45+00:00
+Madhya Pradesh,Mandsaur,Piplya,24.2240391,75.2684218,market,"Piplya, Mandsaur, Madhya Pradesh, India","Piplya(Ratan), Malhargarh Tahsil, Mandsaur, Madhya Pradesh, India",12.6,2026-10-02T12:44:47+00:00
+Madhya Pradesh,Mandsaur,Shamgarh,24.1920321,75.6429568,market,"Shamgarh, Mandsaur, Madhya Pradesh, India","Shamgarh, SH8, Shamgarh, Shamgarh Tahsil, Mandsaur, Madhya Pradesh, India",27.2,2026-10-02T12:44:48+00:00
+Madhya Pradesh,Mandsaur,Shamgarh (F&V),24.1920321,75.6429568,market,"Shamgarh, Mandsaur, Madhya Pradesh, India","Shamgarh, SH8, Shamgarh, Shamgarh Tahsil, Mandsaur, Madhya Pradesh, India",27.2,2026-10-02T12:44:48+00:00
+Madhya Pradesh,Mandsaur,Sitamau (F&V),24.013932,75.343662,market,"Sitamau, Mandsaur, Madhya Pradesh, India","Sitamau, Sitamau Tahsil, Mandsaur, Madhya Pradesh, 458990, India",28.0,2026-10-02T12:44:50+00:00
+Madhya Pradesh,Morena,Jora,26.3421425,77.8043369,market,"Jora, Morena, Madhya Pradesh, India","Jora, Joura Tahsil, Morena, Madhya Pradesh, India",7.4,2026-10-02T12:44:55+00:00
+Madhya Pradesh,Morena,Morena,26.4909914,77.9813656,market,"Morena, Morena, Madhya Pradesh, India","Morena, Morena Nagar Tahsil, Morena, Madhya Pradesh, 476001, India",16.8,2026-10-02T12:44:56+00:00
+Madhya Pradesh,Morena,Morena (F&V),26.4909914,77.9813656,market,"Morena, Morena, Madhya Pradesh, India","Morena, Morena Nagar Tahsil, Morena, Madhya Pradesh, 476001, India",16.8,2026-10-02T12:44:56+00:00
+Madhya Pradesh,Morena,Porsa,26.6831456,78.3880545,market,"Porsa, Morena, Madhya Pradesh, India","Porsa, Porsa Tahsil, Morena, Madhya Pradesh, India",62.0,2026-10-02T12:44:57+00:00
+Madhya Pradesh,Morena,Porsa (F&V),26.6831456,78.3880545,market,"Porsa, Morena, Madhya Pradesh, India","Porsa, Porsa Tahsil, Morena, Madhya Pradesh, India",62.0,2026-10-02T12:44:58+00:00
+Madhya Pradesh,Morena,Sabalgarh,26.2485682,77.4097285,market,"Sabalgarh, Morena, Madhya Pradesh, India","Sabalgarh, Sabalgarh Tahsil, Morena, Madhya Pradesh, India",47.5,2026-10-02T12:44:59+00:00
+Madhya Pradesh,Morena,Sabalgarh (F&V),26.2485682,77.4097285,market,"Sabalgarh, Morena, Madhya Pradesh, India","Sabalgarh, Sabalgarh Tahsil, Morena, Madhya Pradesh, India",47.5,2026-10-02T12:45:00+00:00
+Madhya Pradesh,Neemuch,Manasa,24.4728129,75.150867,market,"Manasa, Neemuch, Madhya Pradesh, India","Manasa, Manasa Tehsil, Neemuch, Madhya Pradesh, 458110, India",17.8,2026-10-02T12:45:06+00:00
+Madhya Pradesh,Neemuch,Neemuch,24.4650023,74.8689508,market,"Neemuch, Neemuch, Madhya Pradesh, India","Neemuch, Neemuch Nagar Tehsil, Neemuch, Madhya Pradesh, 458411, India",36.7,2026-10-02T12:45:06+00:00
+Madhya Pradesh,Raisen,Bareli (F&V),23.2143044,78.3615386,market,"Bareli, Raisen, Madhya Pradesh, India","Bareli, Silwani Tahsil, Raisen, Madhya Pradesh, India",20.2,2026-10-02T12:45:08+00:00
+Madhya Pradesh,Raisen,Raisen,23.25,78.083333,market,"Raisen, Raisen, Madhya Pradesh, India","Raisen, Madhya Pradesh, India",9.3,2026-10-02T12:45:09+00:00
+Madhya Pradesh,Rajgarh,Biaora,23.9140506,76.9295366,market,"Biaora, Rajgarh, Madhya Pradesh, India","Biaora, Biaora Tahsil, Rajgarh, Madhya Pradesh, 465674, India",16.5,2026-10-02T12:45:11+00:00
+Madhya Pradesh,Rajgarh,Kurawar,23.5097199,77.0057794,market,"Kurawar, Rajgarh, Madhya Pradesh, India","Kurawar, Narsinghgarh Tahsil, Rajgarh, Madhya Pradesh, India",46.6,2026-10-02T12:45:12+00:00
+Madhya Pradesh,Rajgarh,Narsinghgarh,23.709099,77.088747,market,"Narsinghgarh, Rajgarh, Madhya Pradesh, India","Narsinghgarh, Narsinghgarh Tahsil, Rajgarh, Madhya Pradesh, India",36.7,2026-10-02T12:45:13+00:00
+Madhya Pradesh,Rajgarh,Sarangpur,23.5695524,76.4837614,market,"Sarangpur, Rajgarh, Madhya Pradesh, India","Sarangpur, Sarangpur Tahsil, Rajgarh, Madhya Pradesh, India",44.8,2026-10-02T12:45:15+00:00
+Madhya Pradesh,Rajgarh,Sarangpur (F&V),23.5695524,76.4837614,market,"Sarangpur, Rajgarh, Madhya Pradesh, India","Sarangpur, Sarangpur Tahsil, Rajgarh, Madhya Pradesh, India",44.8,2026-10-02T12:45:16+00:00
+Madhya Pradesh,Ratlam,Alot (F&V),23.7642192,75.5608869,market,"Alot, Ratlam, Madhya Pradesh, India","Alot, Alot Tahsil, Ratlam, Madhya Pradesh, India",68.2,2026-10-02T12:45:19+00:00
+Madhya Pradesh,Ratlam,Jaora,23.6379392,75.1281756,market,"Jaora, Ratlam, Madhya Pradesh, India","Jaora, Bhimakhedi, Jaora Tahsil, Ratlam, Madhya Pradesh, India",23.2,2026-10-02T12:45:20+00:00
+Madhya Pradesh,Ratlam,Ratlam,23.3311044,75.0360846,market,"Ratlam, Ratlam, Madhya Pradesh, India","Ratlam, Ratlam Nagar Tahsil, Ratlam, Madhya Pradesh, 457001, India",20.7,2026-10-02T12:45:23+00:00
+Madhya Pradesh,Ratlam,Ratlam (F&V),23.3311044,75.0360846,market,"Ratlam, Ratlam, Madhya Pradesh, India","Ratlam, Ratlam Nagar Tahsil, Ratlam, Madhya Pradesh, 457001, India",20.7,2026-10-02T12:45:23+00:00
+Madhya Pradesh,Ratlam,Sailana,23.4559437,74.9273527,market,"Sailana, Ratlam, Madhya Pradesh, India","Sailana, Sailana Tahsil, Ratlam, Madhya Pradesh, 457550, India",5.9,2026-10-02T12:45:24+00:00
+Madhya Pradesh,Ratlam,Sailana (F&V),23.4559437,74.9273527,market,"Sailana, Ratlam, Madhya Pradesh, India","Sailana, Sailana Tahsil, Ratlam, Madhya Pradesh, 457550, India",5.9,2026-10-02T12:45:25+00:00
+Madhya Pradesh,Rewa,Hanumana (F&V),24.7708325,82.0840651,market,"Hanumana, Rewa, Madhya Pradesh, India","Community Health Centre, Hanumana, MD1002, Dhawa, Hanumana, Rewa, Mauganj, Madhya Pradesh, 486335, India",71.0,2026-10-02T12:45:28+00:00
+Madhya Pradesh,Rewa,Rewa,24.5359,81.2934,market,"Rewa, Rewa, Madhya Pradesh, India","Rewa, Huzur Tahsil, Rewa, Madhya Pradesh, 486001, India",26.0,2026-10-02T12:45:29+00:00
+Madhya Pradesh,Rewa,Rewa (F&V),24.5359,81.2934,market,"Rewa, Rewa, Madhya Pradesh, India","Rewa, Huzur Tahsil, Rewa, Madhya Pradesh, 486001, India",26.0,2026-10-02T12:45:30+00:00
+Madhya Pradesh,Sagar,Deori,23.3855258,79.0157224,market,"Deori, Sagar, Madhya Pradesh, India","Deori, Deori Tahsil, Sagar, Madhya Pradesh, India",53.8,2026-10-02T12:45:32+00:00
+Madhya Pradesh,Sagar,Devri (F&V),23.9491152,78.6600676,market,"Devri, Sagar, Madhya Pradesh, India","Devri, Sagar Tahsil, Sagar, Madhya Pradesh, India",18.6,2026-10-02T12:45:34+00:00
+Madhya Pradesh,Sagar,Garhakota,23.7789982,79.1530257,market,"Garhakota, Sagar, Madhya Pradesh, India","Garhakota, Garhakota Tahsil, Sagar, Madhya Pradesh, 470229, India",40.3,2026-10-02T12:45:34+00:00
+Madhya Pradesh,Sagar,Khurai (F&V),24.0521941,78.3309666,market,"Khurai, Sagar, Madhya Pradesh, India","Khurai, SH62, Khurai, Karampur, Khurai Tahsil, Sagar, Madhya Pradesh, 470117, India",51.2,2026-10-02T12:45:35+00:00
+Madhya Pradesh,Sagar,Malthone,24.3087999,78.5370215,market,"Malthone, Sagar, Madhya Pradesh, India","Malthone, Malthon Tahsil, Sagar, Madhya Pradesh, India",60.0,2026-10-02T12:45:36+00:00
+Madhya Pradesh,Sagar,Rehli,23.6398386,79.0664723,market,"Rehli, Sagar, Madhya Pradesh, India","Rehli, Rehli Tahsil, Sagar, Madhya Pradesh, India",36.5,2026-10-02T12:45:38+00:00
+Madhya Pradesh,Sagar,Rehli (F&V),23.6398386,79.0664723,market,"Rehli, Sagar, Madhya Pradesh, India","Rehli, Rehli Tahsil, Sagar, Madhya Pradesh, India",36.5,2026-10-02T12:45:38+00:00
+Madhya Pradesh,Sagar,Sagar,23.8417793,78.7466817,market,"Sagar, Sagar, Madhya Pradesh, India","Sagar, Sagar Nagar Tahsil, Sagar, Madhya Pradesh, 470001, India",3.9,2026-10-02T12:45:40+00:00
+Madhya Pradesh,Sagar,Sagar (F&V),23.8417793,78.7466817,market,"Sagar, Sagar, Madhya Pradesh, India","Sagar, Sagar Nagar Tahsil, Sagar, Madhya Pradesh, 470001, India",3.9,2026-10-02T12:45:40+00:00
+Madhya Pradesh,Satna,Maihar (F&V),24.4107398,80.8701435,market,"Maihar, Satna, Madhya Pradesh, India","Maihar, Rampur Baghelan Tahsil, Satna, Madhya Pradesh, India",33.0,2026-10-02T12:45:42+00:00
+Madhya Pradesh,Satna,Satna,24.5751308,80.8325721,market,"Satna, Satna, Madhya Pradesh, India","Satna, Raghurajnagar Nagareey Tahsil, Satna, Madhya Pradesh, 485001, India",14.5,2026-10-02T12:45:44+00:00
+Madhya Pradesh,Satna,Satna (F&V),24.5751308,80.8325721,market,"Satna, Satna, Madhya Pradesh, India","Satna, Raghurajnagar Nagareey Tahsil, Satna, Madhya Pradesh, 485001, India",14.5,2026-10-02T12:45:45+00:00
+Madhya Pradesh,Sehore,Ashta,23.0111323,76.7198299,market,"Ashta, Sehore, Madhya Pradesh, India","Ashta, Ashta Tahsil, Sehore, Madhya Pradesh, India",37.3,2026-10-02T12:45:49+00:00
+Madhya Pradesh,Sehore,Ichhawar,23.0337159,77.0252424,market,"Ichhawar, Sehore, Madhya Pradesh, India","Ichhawar, Ichhawar Tahsil, Sehore, Madhya Pradesh, 466115, India",10.0,2026-10-02T12:45:49+00:00
+Madhya Pradesh,Sehore,Ichhawar (F&V),23.0337159,77.0252424,market,"Ichhawar, Sehore, Madhya Pradesh, India","Ichhawar, Ichhawar Tahsil, Sehore, Madhya Pradesh, 466115, India",10.0,2026-10-02T12:45:50+00:00
+Madhya Pradesh,Sehore,Sehore,23.2147418,77.0782892,market,"Sehore, Sehore, Madhya Pradesh, India","Sehore, MD3205, Sehore, Sehore Nagar Tahsil, Sehore, Madhya Pradesh, 466002, India",11.2,2026-10-02T12:45:52+00:00
+Madhya Pradesh,Sehore,Sehore (F&V),23.2147418,77.0782892,market,"Sehore, Sehore, Madhya Pradesh, India","Sehore, MD3205, Sehore, Sehore Nagar Tahsil, Sehore, Madhya Pradesh, 466002, India",11.2,2026-10-02T12:45:52+00:00
+Madhya Pradesh,Seoni,Seoni,22.0910049,79.5507791,market,"Seoni, Seoni, Madhya Pradesh, India","Seoni, Seoni Tahsil, Seoni, Madhya Pradesh, 480600, India",26.9,2026-10-02T12:45:54+00:00
+Madhya Pradesh,Seoni,Seoni (F&V),22.0910049,79.5507791,market,"Seoni, Seoni, Madhya Pradesh, India","Seoni, Seoni Tahsil, Seoni, Madhya Pradesh, 480600, India",26.9,2026-10-02T12:45:55+00:00
+Madhya Pradesh,Shajapur,Akodia,23.3786554,76.5993567,market,"Akodia, Shajapur, Madhya Pradesh, India","Akodia, MD2405, Akodia, Shujalpur Tahsil, Shajapur, Madhya Pradesh, 465223, India",4.4,2026-10-02T12:45:59+00:00
+Madhya Pradesh,Shajapur,Kalapipal,23.3330597,76.8350124,market,"Kalapipal, Shajapur, Madhya Pradesh, India","Kalapipal, MD2407, Kala Pipal, Kalapipal Tahsil, Shajapur, Madhya Pradesh, 465337, India",25.0,2026-10-02T12:46:03+00:00
+Madhya Pradesh,Shajapur,Kalapipal (F&V),23.3330597,76.8350124,market,"Kalapipal, Shajapur, Madhya Pradesh, India","Kalapipal, MD2407, Kala Pipal, Kalapipal Tahsil, Shajapur, Madhya Pradesh, 465337, India",25.0,2026-10-02T12:46:03+00:00
+Madhya Pradesh,Shajapur,Shajapur,23.4253101,76.2978867,market,"Shajapur, Shajapur, Madhya Pradesh, India","Shajapur, SH17, Mahupura, Shajapur, Shajapur Tahsil, Shajapur, Madhya Pradesh, 465001, India",31.6,2026-10-02T12:46:06+00:00
+Madhya Pradesh,Shajapur,Shajapur (F&V),23.4253101,76.2978867,market,"Shajapur, Shajapur, Madhya Pradesh, India","Shajapur, SH17, Mahupura, Shajapur, Shajapur Tahsil, Shajapur, Madhya Pradesh, 465001, India",31.6,2026-10-02T12:46:07+00:00
+Madhya Pradesh,Shajapur,Shujalpur,23.3805757,76.7232104,market,"Shujalpur, Shajapur, Madhya Pradesh, India","Shujalpur, NH752C, Shujalpur, Amlay, Shujalpur Tahsil, Shajapur, Madhya Pradesh, 465335, India",12.5,2026-10-02T12:46:09+00:00
+Madhya Pradesh,Shajapur,Shujalpur (F&V),23.3805757,76.7232104,market,"Shujalpur, Shajapur, Madhya Pradesh, India","Shujalpur, NH752C, Shujalpur, Amlay, Shujalpur Tahsil, Shajapur, Madhya Pradesh, 465335, India",12.5,2026-10-02T12:46:09+00:00
+Madhya Pradesh,Shivpuri,Bairad (F&V),25.7045728,77.4543107,market,"Bairad, Shivpuri, Madhya Pradesh, India","Goverment Hospital,Bairad, MD0601, Hariya Khedi, Pohri, Pohari, Bairrad Tahsil, Shivpuri, Madhya Pradesh, 473775, India",52.5,2026-10-02T12:46:16+00:00
+Madhya Pradesh,Shivpuri,Karera (F&V),25.451556,78.1411242,market,"Karera, Shivpuri, Madhya Pradesh, India","Karera, Karera Tahsil, Shivpuri, Madhya Pradesh, 473660, India",32.6,2026-10-02T12:46:17+00:00
+Madhya Pradesh,Shivpuri,Kolaras (F&V),25.2232473,77.6181948,market,"Kolaras, Shivpuri, Madhya Pradesh, India","Kolaras, Kolaras Tahsil, Shivpuri, Madhya Pradesh, India",26.9,2026-10-02T12:46:18+00:00
+Madhya Pradesh,Shivpuri,Magroni (F&V),25.7000872,77.9335784,market,"Magroni, Shivpuri, Madhya Pradesh, India","Magroni, Narwar Tahsil, Shivpuri, Madhya Pradesh, 473865, India",37.8,2026-10-02T12:46:19+00:00
+Madhya Pradesh,Shivpuri,Shivpuri,25.4235256,77.6551422,market,"Shivpuri, Shivpuri, Madhya Pradesh, India","Shivpuri, Shivpuri NagarTahsil, Shivpuri, Madhya Pradesh, 473500, India",18.2,2026-10-02T12:46:20+00:00
+Madhya Pradesh,Shivpuri,Shivpuri (F&V),25.4235256,77.6551422,market,"Shivpuri, Shivpuri, Madhya Pradesh, India","Shivpuri, Shivpuri NagarTahsil, Shivpuri, Madhya Pradesh, 473500, India",18.2,2026-10-02T12:46:21+00:00
+Madhya Pradesh,Tikamgarh,Tikamgarh,24.7665639,78.8403957,market,"Tikamgarh, Tikamgarh, Madhya Pradesh, India","Tikamgarh, Tikamgarh Station Road, Anantpura, Tikamgarh, Tikamgarh Tahsil, Tikamgarh, Madhya Pradesh, 472001, India",23.1,2026-10-02T12:46:28+00:00
+Madhya Pradesh,Ujjain,Badnagar,23.0640179,75.4493728,market,"Badnagar, Ujjain, Madhya Pradesh, India","Badnagar Tahsil, Ujjain, Madhya Pradesh, India",31.3,2026-10-02T12:46:29+00:00
+Madhya Pradesh,Ujjain,Mahidpur,23.5152103,75.6364392,market,"Mahidpur, Ujjain, Madhya Pradesh, India","Mahidpur Tahsil, Ujjain, Madhya Pradesh, 456551, India",24.7,2026-10-02T12:46:30+00:00
+Madhya Pradesh,Ujjain,Mahidpur (F&V),23.5152103,75.6364392,market,"Mahidpur, Ujjain, Madhya Pradesh, India","Mahidpur Tahsil, Ujjain, Madhya Pradesh, 456551, India",24.7,2026-10-02T12:46:31+00:00
+Madhya Pradesh,Ujjain,Ujjain,23.1885131,75.7716562,market,"Ujjain, Ujjain, Madhya Pradesh, India","Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 456001, India",18.9,2026-10-02T12:46:33+00:00
+Madhya Pradesh,Ujjain,Ujjain (F&V),23.1885131,75.7716562,market,"Ujjain, Ujjain, Madhya Pradesh, India","Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 456001, India",18.9,2026-10-02T12:46:33+00:00
+Maharashtra,Ahmednagar,Ahmednagar,19.092952,74.7493451,market,"Ahmednagar, Ahmednagar, Maharashtra, India","Ahilyanagar, Nagar Subdistrict, Ahilyanagar District, Maharashtra, 414001, India",13.8,2026-10-02T12:46:35+00:00
+Maharashtra,Ahmednagar,Akole,19.5419344,74.0092582,market,"Akole, Ahmednagar, Maharashtra, India","Akole, Akola, Ahilyanagar District, Maharashtra, 422600, India",98.5,2026-10-02T12:46:37+00:00
+Maharashtra,Ahmednagar,Jamkhed,18.6687506,75.3523878,market,"Jamkhed, Ahmednagar, Maharashtra, India","Jamkhed, Ahilyanagar District, Maharashtra, India",75.6,2026-10-02T12:46:37+00:00
+Maharashtra,Ahmednagar,Karjat,18.57983,75.0015318,market,"Karjat, Ahmednagar, Maharashtra, India","Karjat, Ahilyanagar District, Maharashtra, India",66.6,2026-10-02T12:46:39+00:00
+Maharashtra,Ahmednagar,Kopargaon,19.8370037,74.4829123,market,"Kopargaon, Ahmednagar, Maharashtra, India","Kopargaon, Ahilyanagar District, Maharashtra, India",84.7,2026-10-02T12:46:40+00:00
+Maharashtra,Ahmednagar,Newasa (Ghodegaon),19.3496722,74.8811801,market,"Ghodegaon, Ahmednagar, Maharashtra, India","Ghodegaon, Nevasa, Ahilyanagar District, Maharashtra, 414607, India",20.9,2026-10-02T12:46:40+00:00
+Maharashtra,Ahmednagar,Parner,19.0931856,74.3940633,market,"Parner, Ahmednagar, Maharashtra, India","Parner, Ahilyanagar District, Maharashtra, India",49.4,2026-10-02T12:46:43+00:00
+Maharashtra,Ahmednagar,Pathardi,19.1717199,75.174557,market,"Pathardi, Ahmednagar, Maharashtra, India","Pathardi, Ahilyanagar District, Maharashtra, 414102, India",33.3,2026-10-02T12:46:43+00:00
+Maharashtra,Ahmednagar,Rahata,19.7170595,74.4799561,market,"Rahata, Ahmednagar, Maharashtra, India","Rahata, Rahta, Ahilyanagar District, Maharashtra, 423107, India",73.3,2026-10-02T12:46:44+00:00
+Maharashtra,Ahmednagar,Rahuri,19.4031555,74.6105605,market,"Rahuri, Ahmednagar, Maharashtra, India","Rahuri, Ahilyanagar District, Maharashtra, India",37.3,2026-10-02T12:46:46+00:00
+Maharashtra,Ahmednagar,Rahuri (Songaon),19.5021242,74.4670849,market,"Songaon, Ahmednagar, Maharashtra, India","SubCentre, Songaon, MDR29, Guha, Rahuri, Ahilyanagar District, Maharashtra, 413714, India",55.7,2026-10-02T12:46:47+00:00
+Maharashtra,Ahmednagar,Rahuri (Vambori),19.2507906,74.757065,market,"Vambori, Ahmednagar, Maharashtra, India","Vambori Ghat, Nagar Subdistrict, Ahilyanagar District, Maharashtra, India",14.4,2026-10-02T12:46:48+00:00
+Maharashtra,Ahmednagar,Sangamner,19.4906351,74.2466821,market,"Sangamner, Ahmednagar, Maharashtra, India","Sangamner, Ahilyanagar District, Maharashtra, India",73.8,2026-10-02T12:46:48+00:00
+Maharashtra,Ahmednagar,Shevgaon,19.3797171,75.2954872,market,"Shevgaon, Ahmednagar, Maharashtra, India","Shevgaon, Ahilyanagar District, Maharashtra, India",51.9,2026-10-02T12:46:49+00:00
+Maharashtra,Ahmednagar,Shrigonda,18.6763838,74.6709339,market,"Shrigonda, Ahmednagar, Maharashtra, India","Shrigonda, Ahilyanagar District, Maharashtra, India",57.6,2026-10-02T12:46:51+00:00
+Maharashtra,Ahmednagar,Shrigonda (Gogargaon),18.6763838,74.6709339,market,"Shrigonda, Ahmednagar, Maharashtra, India","Shrigonda, Ahilyanagar District, Maharashtra, India",57.6,2026-10-02T12:46:53+00:00
+Maharashtra,Ahmednagar,Shrirampur,19.6419712,74.700709,market,"Shrirampur, Ahmednagar, Maharashtra, India","Shrirampur, Ahilyanagar District, Maharashtra, India",55.8,2026-10-02T12:46:54+00:00
+Maharashtra,Akola,Akola,20.7116604,77.002632,market,"Akola, Akola, Maharashtra, India","Akola, Maharashtra, 444001, India",20.5,2026-10-02T12:46:56+00:00
+Maharashtra,Beed,Kada,18.896328,75.0785773,market,"Kada, Beed, Maharashtra, India","Kada, Ashti, Beed, Maharashtra, 414202, India",88.1,2026-10-02T12:47:03+00:00
+Maharashtra,Buldhana,Malkapur,20.891958,76.2040353,market,"Malkapur, Buldhana, Maharashtra, India","Malkapur, NH753A, Malkapur (M Cl), Malkapur, Buldhana, Maharashtra, 443100, India",42.3,2026-10-02T12:47:06+00:00
+Maharashtra,Buldhana,Nandura,20.8385687,76.4603069,market,"Nandura, Buldhana, Maharashtra, India","Nandura, NH53, Ward Number 2, Mahamdpur, Nandura, Buldhana, Maharashtra, 443404, India",31.1,2026-10-02T12:47:08+00:00
+Maharashtra,Chandrapur,Chandrapur,19.9508161,79.2986673,market,"Chandrapur, Chandrapur, Maharashtra, India","Chandrapur, Chandrapur Taluka, Chandrapur, Maharashtra, 442401, India",26.9,2026-10-02T12:47:10+00:00
+Maharashtra,Chandrapur,Chandrapur (Ganjwad),19.9508161,79.2986673,market,"Chandrapur, Chandrapur, Maharashtra, India","Chandrapur, Chandrapur Taluka, Chandrapur, Maharashtra, 442401, India",26.9,2026-10-02T12:47:11+00:00
+Maharashtra,Chandrapur,Varora,20.3245584,79.0068514,market,"Varora, Chandrapur, Maharashtra, India","Warora Taluka, Chandrapur, Maharashtra, India",57.8,2026-10-02T12:47:12+00:00
+Maharashtra,Dharashiv (Usmanabad),Dharashiv,18.1853567,76.0420253,market,"Dharashiv, Dharashiv, Maharashtra, India","Dharashiv, Maharashtra, 413500, India",8.2,2026-10-02T12:47:23+00:00
+Maharashtra,Dharashiv (Usmanabad),Paranda,18.2683477,75.4507536,market,"Paranda, Dharashiv, Maharashtra, India","Paranda, Dharashiv, Maharashtra, 413502, India",71.3,2026-10-02T12:47:24+00:00
+Maharashtra,Dharashiv (Usmanabad),Washi (Dharashiv),18.1853567,76.0420253,market,"Dharashiv, Dharashiv, Maharashtra, India","Dharashiv, Maharashtra, 413500, India",8.2,2026-10-02T12:47:25+00:00
+Maharashtra,Dhule,Dhule,20.898,74.7732,market,"Dhule, Dhule, Maharashtra, India","Dhule, Dhule Taluka, Dhule, Maharashtra, 424001, India",39.1,2026-10-02T12:47:28+00:00
+Maharashtra,Dhule,Sakri,20.9910829,74.3154391,market,"Sakri, Dhule, Maharashtra, India","Sakri, Sakri Taluka, Dhule, Maharashtra, 424304, India",23.8,2026-10-02T12:47:31+00:00
+Maharashtra,Dhule,Shirpur,21.3527715,74.8841836,market,"Shirpur, Dhule, Maharashtra, India","Shirpur, Shirpur Taluka, Dhule, Maharashtra, 425405, India",47.7,2026-10-02T12:47:32+00:00
+Maharashtra,Jalana,Jalana,19.6781581,75.8182272,market,"Jalana, Jalana, Maharashtra, India","Jalna Beed Road, Shevga pati, Ambad, Jalna, Maharashtra, India",20.3,2026-10-02T12:47:34+00:00
+Maharashtra,Jalgaon,Amalner,21.0493189,75.0573385,market,"Amalner, Jalgaon, Maharashtra, India","Amalner, Railway Corters Road, Amalner, Jalgaon, Maharashtra, 425400, India",53.8,2026-10-02T12:47:36+00:00
+Maharashtra,Jalgaon,Bhusaval,21.0472554,75.7880594,market,"Bhusaval, Jalgaon, Maharashtra, India","Bhusaval Junction, SH187, Bhusawal, Jalgaon, Maharashtra, 425200, India",35.4,2026-10-02T12:47:37+00:00
+Maharashtra,Jalgaon,Chalisgaon,20.5023656,74.96557,market,"Chalisgaon, Jalgaon, Maharashtra, India","Chalisgaon, Jalgaon, Maharashtra, India",69.5,2026-10-02T12:47:37+00:00
+Maharashtra,Jalgaon,Jalgaon,21.0100695,75.5696003,market,"Jalgaon, Jalgaon, Maharashtra, India","Jalgaon, Maharashtra, 425001, India",19.1,2026-10-02T12:47:39+00:00
+Maharashtra,Jalgaon,Yawal,21.2260018,75.6950825,market,"Yawal, Jalgaon, Maharashtra, India","Yawal, Jalgaon, Maharashtra, India",46.1,2026-10-02T12:47:39+00:00
+Maharashtra,Kolhapur,Jaysingpur,16.7789886,74.5564244,market,"Jaysingpur, Kolhapur, Maharashtra, India","Jaysingpur, Shirol, Kolhapur, Maharashtra, 416101, India",60.9,2026-10-02T12:47:41+00:00
+Maharashtra,Kolhapur,Kolhapur,16.7028412,74.2405329,market,"Kolhapur, Kolhapur, Maharashtra, India","Kolhapur, Karvir, Kolhapur, Maharashtra, 416003, India",31.2,2026-10-02T12:47:42+00:00
+Maharashtra,Kolhapur,Kolhapur (Malkapur),16.9181006,73.9331923,market,"Malkapur, Kolhapur, Maharashtra, India","Malkapur, Shahuwadi, Kolhapur, Maharashtra, 415101, India",53.3,2026-10-02T12:47:44+00:00
+Maharashtra,Latur,Ahmedpur,18.6447571,76.9346572,market,"Ahmedpur, Latur, Maharashtra, India","Telgaon-Ahmedpur, Belure, Ahmadpur, Latur, Maharashtra, 413514, India",37.3,2026-10-02T12:47:46+00:00
+Maharashtra,Latur,Ausa,18.2510243,76.500958,market,"Ausa, Latur, Maharashtra, India","Ausa, Latur, Maharashtra, 413520, India",29.2,2026-10-02T12:47:47+00:00
+Maharashtra,Mumbai,Mumbai,19.0592671,72.861326,market,"Mumbai, Mumbai, Maharashtra, India","Securities Exchange Board of India, mumbai, Bandra Kurla Complex Road, Sant Dnyaneshwar Nagar, Bandra Kurla Complex, H/E Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",0.0,2026-10-02T12:47:51+00:00
+Maharashtra,Mumbai,Vashi New Mumbai,19.0612252,72.9696312,market,"Vashi New Mumbai, Mumbai, Maharashtra, India","New Vashi Bridge, M/E Ward, Mumbai Zone 5, Mumbai, Thane Subdistrict, Mumbai Suburban District, Maharashtra, 400056, India",11.4,2026-10-02T12:47:52+00:00
+Maharashtra,Nagpur,Hingna,20.9916033,78.8732421,market,"Hingna, Nagpur, Maharashtra, India","Hingna, Nagpur, Maharashtra, India",23.2,2026-10-02T12:47:54+00:00
+Maharashtra,Nagpur,Kalmeshwar,21.2374393,78.9081689,market,"Kalmeshwar, Nagpur, Maharashtra, India","Kalmeshwar, Kalameshwar, Nagpur, Maharashtra, 441501, India",14.5,2026-10-02T12:47:55+00:00
+Maharashtra,Nagpur,Kamthi,21.0711616,78.6274527,market,"Kamthi, Nagpur, Maharashtra, India","Kamthi, Katol, Nagpur, Maharashtra, India",41.2,2026-10-02T12:47:56+00:00
+Maharashtra,Nagpur,Nagpur,21.1498134,79.0820556,market,"Nagpur, Nagpur, Maharashtra, India","Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",7.0,2026-10-02T12:47:57+00:00
+Maharashtra,Nagpur,Ramtek,21.3935847,79.2999141,market,"Ramtek, Nagpur, Maharashtra, India","Ramtek, NH753, Khairi, Ramtek Taluka, Nagpur, Maharashtra, 441401, India",39.9,2026-10-02T12:47:59+00:00
+Maharashtra,Nandurbar,Nandurbar,21.3737635,74.2445558,market,"Nandurbar, Nandurbar, Maharashtra, India","Nandurbar, Street Havey, Nandurbar, Nandurbar Taluka, Nandurbar, Maharashtra, 425412, India",34.4,2026-10-02T12:48:01+00:00
+Maharashtra,Nandurbar,Navapur,21.1666239,73.7725174,market,"Navapur, Nandurbar, Maharashtra, India","Navapur, NH53, Karanji Kh, Navapur Taluka, Nandurbar, Maharashtra, 425418, India",88.4,2026-10-02T12:48:02+00:00
+Maharashtra,Nashik,Chandvad,20.3278147,74.2387228,market,"Chandvad, Nashik, Maharashtra, India","Chandvad, Chandwad Taluka, Nashik, Maharashtra, 423101, India",18.1,2026-10-02T12:48:04+00:00
+Maharashtra,Nashik,Dindori,20.2037292,73.8325882,market,"Dindori, Nashik, Maharashtra, India","Dindori, Dindori Taluka, Nashik, Maharashtra, India",28.4,2026-10-02T12:48:06+00:00
+Maharashtra,Nashik,Dindori (Vani),20.3306136,73.8894554,market,"Vani, Nashik, Maharashtra, India","Vani, Dindori Taluka, Nashik, Maharashtra, 422215, India",25.3,2026-10-02T12:48:07+00:00
+Maharashtra,Nashik,Ghoti,19.7167761,73.6244742,market,"Ghoti, Nashik, Maharashtra, India","Ghoti, Igatpuri Subdistrict, Nashik, Maharashtra, 422402, India",75.6,2026-10-02T12:48:08+00:00
+Maharashtra,Nashik,Lasalgaon,20.1426837,74.2377507,market,"Lasalgaon, Nashik, Maharashtra, India","Lasalgaon, Niphad Taluka, Nashik, Maharashtra, 422306, India",16.7,2026-10-02T12:48:10+00:00
+Maharashtra,Nashik,Lasalgaon (Niphad),20.0796924,74.1071124,market,"Niphad, Nashik, Maharashtra, India","Niphad, Niphad Taluka, Nashik, Maharashtra, 422230, India",16.2,2026-10-02T12:48:10+00:00
+Maharashtra,Nashik,Lasalgaon (Vinchur),20.1053152,74.2252387,market,"Vinchur, Nashik, Maharashtra, India","Vinchur, Niphad Taluka, Nashik, Maharashtra, 422305, India",18.4,2026-10-02T12:48:12+00:00
+Maharashtra,Nashik,Malegaon,20.5576062,74.5246514,market,"Malegaon, Nashik, Maharashtra, India","Malegaon, Malegaon Taluka, Nashik, Maharashtra, 423200, India",57.3,2026-10-02T12:48:13+00:00
+Maharashtra,Nashik,Manmad,20.2519828,74.4392286,market,"Manmad, Nashik, Maharashtra, India","Manmad, Nandgaon Taluka, Nashik, Maharashtra, 423104, India",35.1,2026-10-02T12:48:16+00:00
+Maharashtra,Nashik,Nampur,20.7295457,74.3109024,market,"Nampur, Nashik, Maharashtra, India","Nampur, Baglan Taluka, Nashik, Maharashtra, India",60.0,2026-10-02T12:48:17+00:00
+Maharashtra,Nashik,Nandgaon,20.3094018,74.6597622,market,"Nandgaon, Nashik, Maharashtra, India","Nandgaon, SH25, Nandgaon, Nandgaon Taluka, Nashik, Maharashtra, 423106, India",58.7,2026-10-02T12:48:18+00:00
+Maharashtra,Nashik,Nasik,19.9480582,73.8420837,market,"Nasik, Nashik, Maharashtra, India","Nashik Road, NashikRoad Railway-sation road, Nashik Road, Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422001, India",41.2,2026-10-02T12:48:19+00:00
+Maharashtra,Nashik,Pimpalgaon,19.7098759,73.6877021,market,"Pimpalgaon, Nashik, Maharashtra, India","Pimpalgaon, Igatpuri Subdistrict, Nashik, Maharashtra, India",72.0,2026-10-02T12:48:20+00:00
+Maharashtra,Nashik,Pimpalgaon Baswant (Saykheda),20.163372,73.9850591,market,"Pimpalgaon Baswant, Nashik, Maharashtra, India","SubCentre, Pimpalgaon Baswant, Umberkhed road, Pimpalgaon Basvant, Niphad Taluka, Nashik, Maharashtra, 422209, India",14.2,2026-10-02T12:48:22+00:00
+Maharashtra,Nashik,Satana,20.5991006,74.2021078,market,"Satana, Nashik, Maharashtra, India","Satana, Baglan Taluka, Nashik, Maharashtra, 423300, India",42.8,2026-10-02T12:48:24+00:00
+Maharashtra,Nashik,Sinner,19.8972539,74.1623127,market,"Sinner, Nashik, Maharashtra, India","Nimgaon Sinner, Sinnar Taluka, Nashik, Maharashtra, India",37.0,2026-10-02T12:48:27+00:00
+Maharashtra,Nashik,Umrane,20.42407,74.346869,market,"Umrane, Nashik, Maharashtra, India","Rural Hospital, Umrane, SH8, Umbrane, Deola Taluka, Nashik, Maharashtra, 423110, India",33.6,2026-10-02T12:48:29+00:00
+Maharashtra,Nashik,Yeola,20.0429079,74.4880389,market,"Yeola, Nashik, Maharashtra, India","Yeola, Yeola Taluka, Nashik, Maharashtra, 423400, India",44.9,2026-10-02T12:48:30+00:00
+Maharashtra,Pune,Baramati,18.2198538,74.4534054,market,"Baramati, Pune, Maharashtra, India","Baramati, Pune, Maharashtra, India",73.3,2026-10-02T12:48:32+00:00
+Maharashtra,Pune,Junnar,19.2006808,73.976819,market,"Junnar, Pune, Maharashtra, India","Junnar, Pune, Maharashtra, India",62.1,2026-10-02T12:48:35+00:00
+Maharashtra,Pune,Junnar (Alephata),19.2006808,73.976819,market,"Junnar, Pune, Maharashtra, India","Junnar, Pune, Maharashtra, India",62.1,2026-10-02T12:48:36+00:00
+Maharashtra,Pune,Junnar (Narayangaon),19.1202895,73.9732877,market,"Narayangaon, Pune, Maharashtra, India","Narayangaon, Junnar, Pune, Maharashtra, 410504, India",53.1,2026-10-02T12:48:38+00:00
+Maharashtra,Pune,Junnar (Otur),19.2633563,73.9805419,market,"Otur, Pune, Maharashtra, India","Otur, Junnar, Pune, Maharashtra, 412409, India",69.0,2026-10-02T12:48:39+00:00
+Maharashtra,Pune,Khed (Chakan),18.7623111,73.8625448,market,"Chakan, Pune, Maharashtra, India","Chakan, Khed, Pune, Maharashtra, 410500, India",14.5,2026-10-02T12:48:40+00:00
+Maharashtra,Pune,Manchar,19.0033298,73.942711,market,"Manchar, Pune, Maharashtra, India","Manchar, Ambegaon, Pune, Maharashtra, 410503, India",39.9,2026-10-02T12:48:41+00:00
+Maharashtra,Pune,Nira,18.1002478,74.2136809,market,"Nira, Pune, Maharashtra, India","Nira, Purandhar, Pune, Maharashtra, India",67.9,2026-10-02T12:48:42+00:00
+Maharashtra,Pune,Pune,18.5213738,73.8545071,market,"Pune, Pune, Maharashtra, India","Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",15.5,2026-10-02T12:48:43+00:00
+Maharashtra,Pune,Pune (Khadiki),18.5213738,73.8545071,market,"Pune, Pune, Maharashtra, India","Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India",15.5,2026-10-02T12:48:44+00:00
+Maharashtra,Pune,Pune (Manjri),18.5058249,73.9623288,market,"Manjri, Pune, Maharashtra, India","Orchids The Internatioanl School Manjri Bk, Gopalpatti, Haveli Subdistrict, Pune, Maharashtra, India",16.0,2026-10-02T12:48:46+00:00
+Maharashtra,Pune,Pune (Moshi),18.6523154,73.8442032,market,"Moshi, Pune, Maharashtra, India","Moshi Traffic Park, Pimpri-Chinchwad, Haveli Subdistrict, Pune, Maharashtra, India",8.3,2026-10-02T12:48:47+00:00
+Maharashtra,Pune,Pune (Pimpri),18.6231854,73.8019932,market,"Pimpri, Pune, Maharashtra, India","Pimpri, Pimpri Chinchwad Link Road Flyover, Pimpri, Pimpri-Chinchwad, Haveli Subdistrict, Pune, Maharashtra, 411089, India",12.9,2026-10-02T12:48:47+00:00
+Maharashtra,Pune,Shirur,18.7610989,74.209529,market,"Shirur, Pune, Maharashtra, India","Shirur, Pune, Maharashtra, India",32.9,2026-10-02T12:48:49+00:00
+Maharashtra,Raigad,Karjat (Raigad),18.2358199,73.4455222,market,"Raigad, Raigad, Maharashtra, India","Raigad, Raigad Fort Trail, Hirkaniwadi, Mahad Taluka, Raigad, Maharashtra, 402305, India",43.2,2026-10-02T12:48:51+00:00
+Maharashtra,Raigad,Panvel,18.9895249,73.1221935,market,"Panvel, Raigad, Maharashtra, India","Panvel, Panvel Subdistrict, Raigad, Maharashtra, India",55.3,2026-10-02T12:48:52+00:00
+Maharashtra,Raigad,Pen,18.735385,73.0868161,market,"Pen, Raigad, Maharashtra, India","Pen, NH66, Pen, Pen Taluka, Raigad, Maharashtra, 402107, India",27.5,2026-10-02T12:48:53+00:00
+Maharashtra,Ratnagiri,Ratnagiri (Nachane),16.9856131,73.3357329,market,"Nachane, Ratnagiri, Maharashtra, India","Nachane, Ratnagiri Taluka, Ratnagiri, Maharashtra, India",35.4,2026-10-02T12:48:55+00:00
+Maharashtra,Sangli,Islampur,17.0502198,74.2661719,market,"Islampur, Sangli, Maharashtra, India","Uran Ishwarpur, Walwa, Sangli, Maharashtra, 415409, India",36.7,2026-10-02T12:48:57+00:00
+Maharashtra,Sangli,Palus,17.0449956,74.4365833,market,"Palus, Sangli, Maharashtra, India","Palus, Sangli, Maharashtra, India",21.4,2026-10-02T12:48:58+00:00
+Maharashtra,Sangli,"Sangli (Phale, Bhajipura Market)",16.8502534,74.5948885,market,"Sangli, Sangli, Maharashtra, India","Sangli, Miraj, Sangli, Maharashtra, 416416, India",35.9,2026-10-02T12:48:59+00:00
+Maharashtra,Sangli,Vita,17.271977,74.5372841,market,"Vita, Sangli, Maharashtra, India","Vita, Khanapur, Sangli, Maharashtra, 415311, India",12.2,2026-10-02T12:49:00+00:00
+Maharashtra,Satara,Karad,17.2852127,74.1822147,market,"Karad, Satara, Maharashtra, India","Karad, Satara, Maharashtra, 415100, India",40.9,2026-10-02T12:49:02+00:00
+Maharashtra,Satara,Lonand,18.0387975,74.186926,market,"Lonand, Satara, Maharashtra, India","Lonand, Khandala, Satara, Maharashtra, 415521, India",46.3,2026-10-02T12:49:03+00:00
+Maharashtra,Satara,Patan,17.3565267,73.8634207,market,"Patan, Satara, Maharashtra, India","Patan, Satara, Maharashtra, India",55.6,2026-10-02T12:49:04+00:00
+Maharashtra,Satara,Phaltan,17.9579342,74.4142354,market,"Phaltan, Satara, Maharashtra, India","Phaltan, Satara, Maharashtra, India",37.8,2026-10-02T12:49:05+00:00
+Maharashtra,Satara,Satara,17.688321,74.0041726,market,"Satara, Satara, Maharashtra, India","Satara, Maharashtra, 415002, India",31.7,2026-10-02T12:49:06+00:00
+Maharashtra,Satara,Vaduj,17.5950822,74.4504661,market,"Vaduj, Satara, Maharashtra, India","Vaduj, Khatav, Satara, Maharashtra, 415506, India",16.8,2026-10-02T12:49:07+00:00
+Maharashtra,Satara,Vai,17.9423742,73.9192535,market,"Vai, Satara, Maharashtra, India","Wai, Satara, Maharashtra, India",52.6,2026-10-02T12:49:08+00:00
+Maharashtra,Sholapur,Solapur,17.6645286,75.8934941,market,"Solapur, Sholapur, Maharashtra, India","Solapur, Station Road, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",7.3,2026-10-02T12:49:19+00:00
+Maharashtra,Thane,Bhivandi,19.2688735,73.0463121,market,"Bhivandi, Thane, Maharashtra, India","Bhivandi Road, fffddss, Narpoli, Val, Bhiwandi Subdistrict, Thane, Maharashtra, 421305, India",35.5,2026-10-02T12:49:21+00:00
+Maharashtra,Thane,Kalyan,19.2396742,73.1366482,market,"Kalyan, Thane, Maharashtra, India","Kalyan, Ambivali, Kalyan-Dombivli, Kalyan Subdistrict, Thane, Maharashtra, India",28.1,2026-10-02T12:49:22+00:00
+Maharashtra,Thane,Murbad,19.257118,73.3907493,market,"Murbad, Thane, Maharashtra, India","Murbad, Murbad Subdistrict, Thane, Maharashtra, 421401, India",12.3,2026-10-02T12:49:23+00:00
+Maharashtra,Wardha,Wardha,20.7464941,78.5997922,market,"Wardha, Wardha, Maharashtra, India","Wardha, Maharashtra, 442001, India",8.9,2026-10-02T12:49:25+00:00
+Uttar Pradesh,Agra,Achnera,27.1771454,77.7575072,market,"Achnera, Agra, Uttar Pradesh, India","Achhnera, Kiraoli, Agra, Uttar Pradesh, India",16.2,2026-10-02T12:49:27+00:00
+Uttar Pradesh,Agra,Agra,27.1752554,78.0098161,market,"Agra, Agra, Uttar Pradesh, India","Agra, Uttar Pradesh, 280001, India",17.3,2026-10-02T12:49:29+00:00
+Uttar Pradesh,Agra,Fatehabad,27.0276683,78.2074341,market,"Fatehabad, Agra, Uttar Pradesh, India","Fatehabad, Agra, Uttar Pradesh, India",33.3,2026-10-02T12:49:29+00:00
+Uttar Pradesh,Agra,Fatehpur Sikri,27.0972404,77.665233,market,"Fatehpur Sikri, Agra, Uttar Pradesh, India","Fatehpur Sikri, SH45, Fatehpur Sikri, Kiraoli, Agra, Uttar Pradesh, 283110, India",20.9,2026-10-02T12:49:30+00:00
+Uttar Pradesh,Agra,Jarar,26.8709631,78.5699336,market,"Jarar, Agra, Uttar Pradesh, India","Jarar, Bah, Agra, Uttar Pradesh, India",72.5,2026-10-02T12:49:32+00:00
+Uttar Pradesh,Aligarh,Aligarh,27.8815412,78.0690216,market,"Aligarh, Aligarh, Uttar Pradesh, India","Aligarh, Koil, Aligarh, Uttar Pradesh, 202001, India",6.6,2026-10-02T12:49:36+00:00
+Uttar Pradesh,Aligarh,Atrauli,27.9730519,78.4005449,market,"Atrauli, Aligarh, Uttar Pradesh, India","Atrauli, Aligarh, Uttar Pradesh, India",28.2,2026-10-02T12:49:37+00:00
+Uttar Pradesh,Aligarh,Charra,27.8640627,78.1251799,market,"Charra, Aligarh, Uttar Pradesh, India","New Charra Bus Stand, Aligarh, Koil, Aligarh, Uttar Pradesh, 202001, India",1.7,2026-10-02T12:49:38+00:00
+Uttar Pradesh,Aligarh,Khair,27.9420637,77.842669,market,"Khair, Aligarh, Uttar Pradesh, India","Khair, Aligarh, Uttar Pradesh, 202138, India",29.7,2026-10-02T12:49:39+00:00
+Uttar Pradesh,Amethi,Jafarganj,26.4685222,81.5859582,market,"Jafarganj, Amethi, Uttar Pradesh, India","JAFARGANJ SABZIMANDI, NH731, Jagdishpur, Musafirkhana, Amethi, Uttar Pradesh, 227809, India",14.1,2026-10-02T12:49:44+00:00
+Uttar Pradesh,Amethi,Sultanpur,26.7595764,81.1333332,market,"Sultanpur, Amethi, Uttar Pradesh, India","Sultanpur Road, Amethi, Mohanlalganj, Lucknow, Uttar Pradesh, 227120, India",67.1,2026-10-02T12:49:45+00:00
+Uttar Pradesh,Amroha,Amroha,28.8922129,78.4744272,market,"Amroha, Amroha, Uttar Pradesh, India","Amroha, SH78, Amroha, Uttar Pradesh, 244221, India",16.7,2026-10-02T12:49:47+00:00
+Uttar Pradesh,Amroha,Dhanaura,28.934788,78.2141937,market,"Dhanaura, Amroha, Uttar Pradesh, India","Dhanaura, Amroha, Uttar Pradesh, India",20.0,2026-10-02T12:49:48+00:00
+Uttar Pradesh,Amroha,Hasanpur,28.7227817,78.2826224,market,"Hasanpur, Amroha, Uttar Pradesh, India","Hasanpur, Amroha, Uttar Pradesh, 244241, India",10.0,2026-10-02T12:49:49+00:00
+Uttar Pradesh,Auraiya,Auraiya,26.5200503,79.4714031,market,"Auraiya, Auraiya, Uttar Pradesh, India","Auraiya, Uttar Pradesh, India",15.7,2026-10-02T12:49:52+00:00
+Uttar Pradesh,Ayodhya,Ayodhya,26.7990707,82.2052321,market,"Ayodhya, Ayodhya, Uttar Pradesh, India","Ayodhya, Faizabad, Ayodhya, Uttar Pradesh, 224123, India",23.1,2026-10-02T12:49:55+00:00
+Uttar Pradesh,Ayodhya,Faizabad,26.7807986,82.1486589,market,"Faizabad, Ayodhya, Uttar Pradesh, India","Faizabad, Ayodhya, Uttar Pradesh, 224001, India",18.2,2026-10-02T12:49:56+00:00
+Uttar Pradesh,Ayodhya,Rudauli,26.7266489,81.7113871,market,"Rudauli, Ayodhya, Uttar Pradesh, India","Rudauli, Ayodhya, Uttar Pradesh, India",35.9,2026-10-02T12:49:57+00:00
+Uttar Pradesh,Azamgarh,Azamgarh,26.0654351,83.184439,market,"Azamgarh, Azamgarh, Uttar Pradesh, India","Azamgarh, Uttar Pradesh, 276001, India",16.2,2026-10-02T12:49:59+00:00
+Uttar Pradesh,Badaun,Bilsi,28.1402606,78.9549573,market,"Bilsi, Badaun, Uttar Pradesh, India","Bilsi, Badaun, Uttar Pradesh, India",12.1,2026-10-02T12:50:03+00:00
+Uttar Pradesh,Badaun,Ujhani,27.9951096,79.0153138,market,"Ujhani, Badaun, Uttar Pradesh, India","Ujhani, NH21, Ujhani, Budaun, Badaun, Uttar Pradesh, 243639, India",8.3,2026-10-02T12:50:07+00:00
+Uttar Pradesh,Badaun,Wazirganj,28.2104561,79.0568848,market,"Wazirganj, Badaun, Uttar Pradesh, India","Wazirganj, Bisauli, Badaun, Uttar Pradesh, 202526, India",16.2,2026-10-02T12:50:09+00:00
+Uttar Pradesh,Baghpat,Baraut,29.1560645,77.3064032,market,"Baraut, Baghpat, Uttar Pradesh, India","Baraut, Baghpat, Uttar Pradesh, India",13.2,2026-10-02T12:50:12+00:00
+Uttar Pradesh,Bahraich,Bahraich,27.5752,81.5954,market,"Bahraich, Bahraich, Uttar Pradesh, India","Bahraich, Uttar Pradesh, 271801, India",21.2,2026-10-02T12:50:15+00:00
+Uttar Pradesh,Ballia,Ballia,25.7557446,84.1503303,market,"Ballia, Ballia, Uttar Pradesh, India","Ballia, Uttar Pradesh, 277001, India",13.6,2026-10-02T12:50:19+00:00
+Uttar Pradesh,Balrampur,Balrampur,27.4156351,82.1609777,market,"Balrampur, Balrampur, Uttar Pradesh, India","Balrampur, NH330, Balrampur, Uttar Pradesh, 271200, India",23.4,2026-10-02T12:50:24+00:00
+Uttar Pradesh,Balrampur,Tulsipur,27.5318766,82.4090082,market,"Tulsipur, Balrampur, Uttar Pradesh, India","Tulsipur, MDR10E, Tulsīpur, Tulsipur, Balrampur, Uttar Pradesh, 271208, India",9.5,2026-10-02T12:50:26+00:00
+Uttar Pradesh,Balrampur,Utraula,27.2389916,82.3961845,market,"Utraula, Balrampur, Uttar Pradesh, India","Utraula, Balrampur, Uttar Pradesh, India",23.2,2026-10-02T12:50:27+00:00
+Uttar Pradesh,Banda,Atarra,25.2589804,80.6182217,market,"Atarra, Banda, Uttar Pradesh, India","Atarra, Banda, Uttar Pradesh, India",21.4,2026-10-02T12:50:29+00:00
+Uttar Pradesh,Banda,Baberu,25.5463728,80.7787302,market,"Baberu, Banda, Uttar Pradesh, India","Baberu, Banda, Uttar Pradesh, India",24.8,2026-10-02T12:50:30+00:00
+Uttar Pradesh,Banda,Banda,25.4775297,80.334921,market,"Banda, Banda, Uttar Pradesh, India","Banda, Station Road, Banda, Uttar Pradesh, 210001, India",22.9,2026-10-02T12:50:32+00:00
+Uttar Pradesh,Barabanki,Barabanki,26.9274097,81.1948375,market,"Barabanki, Barabanki, Uttar Pradesh, India","Barabanki, Nawabganj, Barabanki, Uttar Pradesh, 225001, India",19.0,2026-10-02T12:50:33+00:00
+Uttar Pradesh,Barabanki,Safdarganj,26.9143164,81.3616885,market,"Safdarganj, Barabanki, Uttar Pradesh, India","Safdarganj, NH27, Nawabganj, Barabanki, Uttar Pradesh, 225412, India",3.9,2026-10-02T12:50:34+00:00
+Uttar Pradesh,Bareilly,Baheri,28.7781228,79.500543,market,"Baheri, Bareilly, Uttar Pradesh, India","Baheri, SH37, Baheri, Bareilly, Uttar Pradesh, 243200, India",36.8,2026-10-02T12:50:38+00:00
+Uttar Pradesh,Bareilly,Bareilly,28.4582345,79.4047452,market,"Bareilly, Bareilly, Uttar Pradesh, India","Bareilly, Uttar Pradesh, India",0.0,2026-10-02T12:50:39+00:00
+Uttar Pradesh,Basti,Basti,26.8153868,82.7698883,market,"Basti, Basti, Uttar Pradesh, India","Basti, Railway Station Road, Basti, Uttar Pradesh, 272001, India",23.4,2026-10-02T12:50:41+00:00
+Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Gopiganj,25.2854413,82.4341202,market,"Gopiganj, Bhadohi, Uttar Pradesh, India","CHC, Gopiganj, NH19, گوپی گنج, Bhadohi, Sant Ravidas Nagar, Uttar Pradesh, 221303, India",26.6,2026-10-02T12:50:43+00:00
+Uttar Pradesh,Bijnor,Dhampur,29.2419144,78.5079901,market,"Dhampur, Bijnor, Uttar Pradesh, India","Dhampur, Bijnor, Uttar Pradesh, India",18.6,2026-10-02T12:50:47+00:00
+Uttar Pradesh,Bijnor,Kiratpur,29.504454,78.2027486,market,"Kiratpur, Bijnor, Uttar Pradesh, India","Kiratpur, Najibabad, Bijnor, Uttar Pradesh, 246731, India",29.1,2026-10-02T12:50:48+00:00
+Uttar Pradesh,Bijnor,Nagina,29.538422,78.5151467,market,"Nagina, Bijnor, Uttar Pradesh, India","Nagina, Bijnor, Uttar Pradesh, 246762, India",14.9,2026-10-02T12:50:49+00:00
+Uttar Pradesh,Bijnor,Najibabad,29.6131324,78.3430066,market,"Najibabad, Bijnor, Uttar Pradesh, India","Najibabad, Bijnor, Uttar Pradesh, 246763, India",26.5,2026-10-02T12:50:50+00:00
+Uttar Pradesh,Bulandshahar,Jahangirabad,28.4112085,78.1113748,market,"Jahangirabad, Bulandshahar, Uttar Pradesh, India","CHC Jahangirabad, MDR58W, Jahangirabad, Anupshahr, Bulandshahr, Uttar Pradesh, 203394, India",51.6,2026-10-02T12:50:56+00:00
+Uttar Pradesh,Bulandshahar,Khurja,28.2474639,77.8536782,market,"Khurja, Bulandshahar, Uttar Pradesh, India","PPC KHURJA, MDR70W, Khurja, Bulandshahr, Uttar Pradesh, 203001, India",39.6,2026-10-02T12:50:57+00:00
+Uttar Pradesh,Bulandshahar,Sikarpur,28.2795404,78.0052377,market,"Sikarpur, Bulandshahar, Uttar Pradesh, India","CHC Sikarpur, Khurja-Shikarpur Road, anchar kalan, Shikarpur, Bulandshahr, Uttar Pradesh, 203395, India",48.1,2026-10-02T12:50:59+00:00
+Uttar Pradesh,Deoria,Barhaj,26.2964543,83.7568964,market,"Barhaj, Deoria, Uttar Pradesh, India","Barhaj, Deoria, Uttar Pradesh, India",14.2,2026-10-02T12:51:06+00:00
+Uttar Pradesh,Etah,Aliganj,27.4856878,79.0839208,market,"Aliganj, Etah, Uttar Pradesh, India","Aliganj, Etah, Uttar Pradesh, India",48.4,2026-10-02T12:51:09+00:00
+Uttar Pradesh,Etah,Awagarh,27.4440366,78.4857649,market,"Awagarh, Etah, Uttar Pradesh, India","Awagarh, Jalesar, Etah, Uttar Pradesh, 207300, India",16.7,2026-10-02T12:51:10+00:00
+Uttar Pradesh,Etah,Etah,27.5721659,78.6539605,market,"Etah, Etah, Uttar Pradesh, India","Etah, Railway Road, Etah, Uttar Pradesh, 207001, India",5.7,2026-10-02T12:51:11+00:00
+Uttar Pradesh,Etawah,Etawah,26.8194655,79.0601195,market,"Etawah, Etawah, Uttar Pradesh, India","Etawah, Uttar Pradesh, India",12.0,2026-10-02T12:51:15+00:00
+Uttar Pradesh,Fatehpur,Bindki,26.0421896,80.5149166,market,"Bindki, Fatehpur, Uttar Pradesh, India","Bindki, Fatehpur, Uttar Pradesh, India",46.2,2026-10-02T12:51:23+00:00
+Uttar Pradesh,Fatehpur,Fatehpur,25.9167524,80.8016651,market,"Fatehpur, Fatehpur, Uttar Pradesh, India","Fatehpur, railway station road, Fatehpur, Uttar Pradesh, 212600, India",14.6,2026-10-02T12:51:24+00:00
+Uttar Pradesh,Fatehpur,Jahanabad,26.1036218,80.3531549,market,"Jahanabad, Fatehpur, Uttar Pradesh, India","Jahanabad, Bindki, Fatehpur, Uttar Pradesh, 212659, India",63.7,2026-10-02T12:51:26+00:00
+Uttar Pradesh,Fatehpur,Khaga,25.7196316,81.1058945,market,"Khaga, Fatehpur, Uttar Pradesh, India","Khaga, Fatehpur, Uttar Pradesh, India",23.0,2026-10-02T12:51:26+00:00
+Uttar Pradesh,Firozabad,Firozabad,27.1527986,78.3991439,market,"Firozabad, Firozabad, Uttar Pradesh, India","Firozabad, Uttar Pradesh, 283203, India",7.6,2026-10-02T12:51:29+00:00
+Uttar Pradesh,Firozabad,Shikohabad,27.1037645,78.5881058,market,"Shikohabad, Firozabad, Uttar Pradesh, India","Shikohabad, Firozabad, Uttar Pradesh, 205135, India",16.1,2026-10-02T12:51:30+00:00
+Uttar Pradesh,Firozabad,Sirsaganj,27.0569981,78.686047,market,"Sirsaganj, Firozabad, Uttar Pradesh, India","Sirsaganj, Shikohabad, Firozabad, Uttar Pradesh, 205151, India",27.0,2026-10-02T12:51:31+00:00
+Uttar Pradesh,Firozabad,Tundla,27.2132859,78.2371117,market,"Tundla, Firozabad, Uttar Pradesh, India","Tundla, Firozabad, Uttar Pradesh, 283204, India",22.2,2026-10-02T12:51:32+00:00
+Uttar Pradesh,Ghaziabad,Ghaziabad,28.6711527,77.4120356,market,"Ghaziabad, Ghaziabad, Uttar Pradesh, India","Ghaziabad, Uttar Pradesh, 201001, India",12.4,2026-10-02T12:51:38+00:00
+Uttar Pradesh,Ghaziabad,Hapur,28.7299677,77.775499,market,"Hapur, Ghaziabad, Uttar Pradesh, India","Hapur, Ghaziabad, Uttar Pradesh, 245101, India",31.3,2026-10-02T12:51:39+00:00
+Uttar Pradesh,Ghaziabad,Muradnagar,28.7733808,77.5033582,market,"Muradnagar, Ghaziabad, Uttar Pradesh, India","Muradnagar, Modinagar, Ghaziabad, Uttar Pradesh, 201206, India",4.4,2026-10-02T12:51:40+00:00
+Uttar Pradesh,Ghaziabad,Noida,28.569538,77.4282442,market,"Noida, Ghaziabad, Uttar Pradesh, India","Sokudo Electric India Pvt Ltd - Plant, 518, Bisrak, Faridabad-Noida-Ghaziabad Expressway, Kakrala, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201306, India",23.0,2026-10-02T12:51:41+00:00
+Uttar Pradesh,Ghazipur,Gazipur,25.5874162,83.5903956,market,"Gazipur, Ghazipur, Uttar Pradesh, India","Ghazipur, Uttar Pradesh, 233001, India",8.5,2026-10-02T12:51:43+00:00
+Uttar Pradesh,Ghazipur,Yusufpur,25.6364846,83.7474516,market,"Yusufpur, Ghazipur, Uttar Pradesh, India","Yusufpur, SH30A, Mohammadabad, Ghazipur, Uttar Pradesh, 233227, India",24.3,2026-10-02T12:51:46+00:00
+Uttar Pradesh,Gonda,Gonda,27.1334827,81.9619743,market,"Gonda, Gonda, Uttar Pradesh, India","Gonda, Uttar Pradesh, 271001, India",4.6,2026-10-02T12:51:48+00:00
+Uttar Pradesh,Gonda,Nawabganj,26.8637478,82.1381306,market,"Nawabganj, Gonda, Uttar Pradesh, India","Nawabganj, Tarabganj, Gonda, Uttar Pradesh, 271303, India",34.7,2026-10-02T12:51:50+00:00
+Uttar Pradesh,Gorakhpur,Gorakhpur,26.7600217,83.3668129,market,"Gorakhpur, Gorakhpur, Uttar Pradesh, India","Gorakhpur, Uttar Pradesh, 273001, India",10.3,2026-10-02T12:51:53+00:00
+Uttar Pradesh,Hamirpur,Hamirpur,25.9381591,80.0302681,market,"Hamirpur, Hamirpur, Uttar Pradesh, India","Hamirpur, Uttar Pradesh, India",21.1,2026-10-02T12:51:57+00:00
+Uttar Pradesh,Hamirpur,Kurara,25.9802343,79.9903952,market,"Kurara, Hamirpur, Uttar Pradesh, India","Kurara, Hamirpur, Uttar Pradesh, 210505, India",25.6,2026-10-02T12:51:58+00:00
+Uttar Pradesh,Hamirpur,Maudaha,25.7065665,80.0434571,market,"Maudaha, Hamirpur, Uttar Pradesh, India","Maudaha, Hamirpur, Uttar Pradesh, India",6.5,2026-10-02T12:52:00+00:00
+Uttar Pradesh,Hamirpur,Muskara,25.6614798,79.7953883,market,"Muskara, Hamirpur, Uttar Pradesh, India","SubCentre, Muskara, SH42, Muskira, Maudaha, Hamirpur, Uttar Pradesh, 210506, India",22.7,2026-10-02T12:52:00+00:00
+Uttar Pradesh,Hamirpur,Raath,25.5966524,79.5768386,market,"Raath, Hamirpur, Uttar Pradesh, India","CHC, Raath, SH42, Rath, Hamirpur, Uttar Pradesh, 210431, India",45.7,2026-10-02T12:52:01+00:00
+Uttar Pradesh,Hardoi,Hardoi,27.4010619,80.1329669,market,"Hardoi, Hardoi, Uttar Pradesh, India","Hardoi, Uttar Pradesh, 241001, India",7.8,2026-10-02T12:52:09+00:00
+Uttar Pradesh,Hardoi,Madhoganj,27.1005629,80.0548625,market,"Madhoganj, Hardoi, Uttar Pradesh, India","PHC,Madhoganj-Gaura, Ganga Expressway, Mallanwan, Bilgram, Hardoi, Uttar Pradesh, 241302, India",26.7,2026-10-02T12:52:09+00:00
+Uttar Pradesh,Hardoi,Sandi,27.2894559,79.9529044,market,"Sandi, Hardoi, Uttar Pradesh, India","Sandi, Bilgram, Hardoi, Uttar Pradesh, 241403, India",15.4,2026-10-02T12:52:11+00:00
+Uttar Pradesh,Hardoi,Sandila,27.1254439,80.5414908,market,"Sandila, Hardoi, Uttar Pradesh, India","Sandila, Hardoi, Uttar Pradesh, India",49.6,2026-10-02T12:52:12+00:00
+Uttar Pradesh,Hardoi,Shahabad (New Mandi),27.6446688,79.9394235,market,"Shahabad, Hardoi, Uttar Pradesh, India","Shahabad, Hardoi, Uttar Pradesh, 241124, India",37.7,2026-10-02T12:52:13+00:00
+Uttar Pradesh,Jalaun (Orai),Ait,25.8932799,79.2418956,market,"Ait, Jalaun, Uttar Pradesh, India","Ait, Orai, Jalaun, Uttar Pradesh, 285201, India",27.9,2026-10-02T12:52:18+00:00
+Uttar Pradesh,Jalaun (Orai),Jalaun,26.0,79.5,market,"Jalaun, Jalaun, Uttar Pradesh, India","Jalaun, Uttar Pradesh, India",15.9,2026-10-02T12:52:19+00:00
+Uttar Pradesh,Jalaun (Orai),Kalpi,26.1216714,79.7458188,market,"Kalpi, Jalaun, Uttar Pradesh, India","Kalpi, Jalaun, Uttar Pradesh, 285204, India",35.4,2026-10-02T12:52:20+00:00
+Uttar Pradesh,Jalaun (Orai),Konch,25.9867259,79.1055514,market,"Konch, Jalaun, Uttar Pradesh, India","Konch, Jalaun, Uttar Pradesh, India",31.5,2026-10-02T12:52:21+00:00
+Uttar Pradesh,Jalaun (Orai),Orai,25.9359555,79.4243277,market,"Orai, Jalaun, Uttar Pradesh, India","Orai, Jalaun, Uttar Pradesh, India",19.1,2026-10-02T12:52:22+00:00
+Uttar Pradesh,Jaunpur,Jaunpur,25.7472,82.689,market,"Jaunpur, Jaunpur, Uttar Pradesh, India","Jaunpur, Uttar Pradesh, 222001, India",20.8,2026-10-02T12:52:24+00:00
+Uttar Pradesh,Jaunpur,Shahganj,26.0186438,82.6172019,market,"Shahganj, Jaunpur, Uttar Pradesh, India","Shahganj, Jaunpur, Uttar Pradesh, India",27.8,2026-10-02T12:52:26+00:00
+Uttar Pradesh,Jhansi,Chirgaon,25.5735429,78.8126634,market,"Chirgaon, Jhansi, Uttar Pradesh, India","Chirgaon, Tahrauli, Jhansi, Uttar Pradesh, 284801, India",16.8,2026-10-02T12:52:28+00:00
+Uttar Pradesh,Jhansi,Jhansi,25.4502464,78.5800085,market,"Jhansi, Jhansi, Uttar Pradesh, India","Jhansi, Uttar Pradesh, India",11.5,2026-10-02T12:52:30+00:00
+Uttar Pradesh,Jhansi,Mauranipur,25.2964858,79.1171152,market,"Mauranipur, Jhansi, Uttar Pradesh, India","Mauranipur, Jhansi, Uttar Pradesh, India",53.4,2026-10-02T12:52:31+00:00
+Uttar Pradesh,Jhansi,Moth,25.7779968,78.9253888,market,"Moth, Jhansi, Uttar Pradesh, India","Moth, Jhansi, Uttar Pradesh, India",38.8,2026-10-02T12:52:32+00:00
+Uttar Pradesh,Kanpur,Kanpur (Grain),26.4609135,80.3217588,market,"Kanpur, Kanpur, Uttar Pradesh, India","Kanpur, Kanpur Nagar, Uttar Pradesh, 208012, India",32.3,2026-10-02T12:52:39+00:00
+Uttar Pradesh,Kanpur Dehat,Rura,26.489896,79.9011355,market,"Rura, Kanpur Dehat, Uttar Pradesh, India","Rura, Akbarpur, Kanpur Dehat, Uttar Pradesh, 209303, India",5.8,2026-10-02T12:52:45+00:00
+Uttar Pradesh,Kasganj,Kasganj,27.8842264,78.6338755,market,"Kasganj, Kasganj, Uttar Pradesh, India","Kasganj, Uttar Pradesh, India",21.4,2026-10-02T12:52:47+00:00
+Uttar Pradesh,Kaushambi,Bharwari,25.5615617,81.4899572,market,"Bharwari, Kaushambi, Uttar Pradesh, India","Bharwari, Chail, Kaushambi, Uttar Pradesh, 212201, India",5.1,2026-10-02T12:52:50+00:00
+Uttar Pradesh,Kaushambi,Manjhanpur,25.3998237,81.3318723,market,"Manjhanpur, Kaushambi, Uttar Pradesh, India","Manjhanpur, Kaushambi, Uttar Pradesh, India",19.0,2026-10-02T12:52:50+00:00
+Uttar Pradesh,Kushinagar,Kushinagar,26.7438272,83.9162322,market,"Kushinagar, Kushinagar, Uttar Pradesh, India","Kushinagar, Kasya, Kushinagar, Uttar Pradesh, 274402, India",21.7,2026-10-02T12:52:58+00:00
+Uttar Pradesh,Kushinagar,Tamkuhi road,26.7242174,84.2278795,market,"Tamkuhi road, Kushinagar, Uttar Pradesh, India","Tamkuhi Road, Agency Road, Seorahi, Tamkuhi Raj, Kushinagar, Uttar Pradesh, 274406, India",45.1,2026-10-02T12:52:59+00:00
+Uttar Pradesh,Lakhimpur,Lakhimpur,27.946309,80.7815166,market,"Lakhimpur, Lakhimpur, Uttar Pradesh, India","Lakhimpur, Lakhimpur Kheri, Uttar Pradesh, 262701, India",27.2,2026-10-02T12:53:02+00:00
+Uttar Pradesh,Lalitpur,Lalitpur,24.6935695,78.4178866,market,"Lalitpur, Lalitpur, Uttar Pradesh, India","Lalitpur, Lalitpur Tehsil, Lalitpur, Uttar Pradesh, 284403, India",10.2,2026-10-02T12:53:06+00:00
+Uttar Pradesh,Lucknow,Banthara,26.694679,80.8337445,market,"Banthara, Lucknow, Uttar Pradesh, India","SubCentre, Banthara, Kanpur-Lucknow Road, Sarojni Nagar, Sarojani Nagar, Lucknow, Uttar Pradesh, 226401, India",17.3,2026-10-02T12:53:08+00:00
+Uttar Pradesh,Lucknow,Lucknow,26.8381,80.9346001,market,"Lucknow, Lucknow, Uttar Pradesh, India","Lucknow, Uttar Pradesh, 226027, India",1.9,2026-10-02T12:53:09+00:00
+Uttar Pradesh,Maharajganj,Maharajganj,27.1445227,83.5623424,market,"Maharajganj, Maharajganj, Uttar Pradesh, India","Maharajganj, Mahrajganj, Uttar Pradesh, 273303, India",2.3,2026-10-02T12:53:12+00:00
+Uttar Pradesh,Mahoba,Charkhari,25.4149429,79.7494938,market,"Charkhari, Mahoba, Uttar Pradesh, India","Charkhari, Mahoba, Uttar Pradesh, India",7.4,2026-10-02T12:53:16+00:00
+Uttar Pradesh,Mahoba,Mahoba,25.2886851,79.8792071,market,"Mahoba, Mahoba, Uttar Pradesh, India","Mahoba, Uttar Pradesh, 210427, India",19.2,2026-10-02T12:53:17+00:00
+Uttar Pradesh,Mainpuri,Bewar,27.2183955,79.2971696,market,"Bewar, Mainpuri, Uttar Pradesh, India","Bewar, Bhogaon, Mainpuri, Uttar Pradesh, 206300, India",23.2,2026-10-02T12:53:19+00:00
+Uttar Pradesh,Mainpuri,Mainpuri,27.2270677,79.0271702,market,"Mainpuri, Mainpuri, Uttar Pradesh, India","Mainpuri, Uttar Pradesh, 205001, India",4.0,2026-10-02T12:53:21+00:00
+Uttar Pradesh,Mathura,Kosikalan,27.7927679,77.4406575,market,"Kosikalan, Mathura, Uttar Pradesh, India","CHC Kosikalan, MDR143W, Kosi Kalan, Chhata, Mathura, Uttar Pradesh, 281403, India",22.6,2026-10-02T12:53:24+00:00
+Uttar Pradesh,Mathura,Mathura,27.4955539,77.6855554,market,"Mathura, Mathura, Uttar Pradesh, India","Mathura, Uttar Pradesh, 281001, India",18.3,2026-10-02T12:53:25+00:00
+Uttar Pradesh,Mau (Maunathbhanjan),Kopaganj,26.0205442,83.5685545,market,"Kopaganj, Mau, Uttar Pradesh, India","Kopaganj, Maunath Bhanjan, Mau, Uttar Pradesh, 275305, India",7.3,2026-10-02T12:53:27+00:00
+Uttar Pradesh,Meerut,Mawana,29.0465882,77.9633451,market,"Mawana, Meerut, Uttar Pradesh, India","Mawana, Meerut, Uttar Pradesh, India",19.6,2026-10-02T12:53:29+00:00
+Uttar Pradesh,Meerut,Meerut,28.9963296,77.7061915,market,"Meerut, Meerut, Uttar Pradesh, India","Meerut, Uttar Pradesh, 250001, India",6.0,2026-10-02T12:53:30+00:00
+Uttar Pradesh,Meerut,Parikshitgarh,28.97107,77.932802,market,"Parikshitgarh, Meerut, Uttar Pradesh, India","CHC Parikshitgarh, MDR152W, Kithaur, Mawana, Meerut, Uttar Pradesh, 250406, India",16.4,2026-10-02T12:53:32+00:00
+Uttar Pradesh,Meerut,Sardhana,29.1486525,77.6362019,market,"Sardhana, Meerut, Uttar Pradesh, India","Sardhana, Meerut, Uttar Pradesh, India",20.7,2026-10-02T12:53:32+00:00
+Uttar Pradesh,Mirzapur,Mirzapur,25.1016024,82.6257562,market,"Mirzapur, Mirzapur, Uttar Pradesh, India","Mirzapur, Uttar Pradesh, India",18.9,2026-10-02T12:53:35+00:00
+Uttar Pradesh,Muzaffarnagar,Khatauli,29.2738601,77.7374607,market,"Khatauli, Muzaffarnagar, Uttar Pradesh, India","Khatauli, MDR18W, Khatauli, Muzaffarnagar, Uttar Pradesh, 251201, India",19.6,2026-10-02T12:53:37+00:00
+Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,29.4616316,77.7104573,market,"Muzzafarnagar, Muzaffarnagar, Uttar Pradesh, India","Muzzafarnagar-Mirapur Marg, Muzaffarnagar, Uttar Pradesh, 251001, India",3.4,2026-10-02T12:53:38+00:00
+Uttar Pradesh,Muzaffarnagar,Shahpur,29.3495615,77.5511169,market,"Shahpur, Muzaffarnagar, Uttar Pradesh, India","Shahpur, Budhana, Muzaffarnagar, Uttar Pradesh, 251318, India",21.7,2026-10-02T12:53:39+00:00
+Uttar Pradesh,Pratapgarh,Pratapgarh,25.8974011,81.9373652,market,"Pratapgarh, Pratapgarh, Uttar Pradesh, India","Pratapgarh, Uttar Pradesh, India",24.9,2026-10-02T12:53:48+00:00
+Uttar Pradesh,Prayagraj,Allahabad,25.4381302,81.8338005,market,"Allahabad, Prayagraj, Uttar Pradesh, India","Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",19.0,2026-10-02T12:53:52+00:00
+Uttar Pradesh,Prayagraj,Jasra,25.282806,81.7846701,market,"Jasra, Prayagraj, Uttar Pradesh, India","Jasra, Bara, Prayagraj, Uttar Pradesh, India",12.0,2026-10-02T12:53:52+00:00
+Uttar Pradesh,Prayagraj,Prayagraj,25.4381302,81.8338005,market,"Prayagraj, Prayagraj, Uttar Pradesh, India","Prayagraj, Allahabad, Prayagraj, Uttar Pradesh, 211001, India",19.0,2026-10-02T12:53:55+00:00
+Uttar Pradesh,Rampur,Milak,28.680259,79.1721862,market,"Milak, Rampur, Uttar Pradesh, India","Milak, Rampur, Uttar Pradesh, India",12.6,2026-10-02T12:54:04+00:00
+Uttar Pradesh,Rampur,Rampur,28.8014001,79.0284337,market,"Rampur, Rampur, Uttar Pradesh, India","Rampur, Uttar Pradesh, 244901, India",15.2,2026-10-02T12:54:05+00:00
+Uttar Pradesh,Rampur,Tanda (Rampur),28.8014001,79.0284337,market,"Rampur, Rampur, Uttar Pradesh, India","Rampur, Uttar Pradesh, 244901, India",15.2,2026-10-02T12:54:05+00:00
+Uttar Pradesh,Saharanpur,Deoband,29.7226695,77.6712233,market,"Deoband, Saharanpur, Uttar Pradesh, India","Deoband, Saharanpur, Uttar Pradesh, India",33.4,2026-10-02T12:54:10+00:00
+Uttar Pradesh,Saharanpur,Gangoh,29.780632,77.2629435,market,"Gangoh, Saharanpur, Uttar Pradesh, India","Gangoh, Nakur, Saharanpur, Uttar Pradesh, 247341, India",32.6,2026-10-02T12:54:10+00:00
+Uttar Pradesh,Saharanpur,Saharanpur,29.9637438,77.5427464,market,"Saharanpur, Saharanpur, Uttar Pradesh, India","Saharanpur, Uttar Pradesh, 247001, India",4.5,2026-10-02T12:54:14+00:00
+Uttar Pradesh,Sambhal,Chandausi,28.4480992,78.6730205,market,"Chandausi, Sambhal, Uttar Pradesh, India","Chandausi, Sambhal, Uttar Pradesh, India",11.6,2026-10-02T12:54:18+00:00
+Uttar Pradesh,Sambhal,Sambhal,28.585197,78.570932,market,"Sambhal, Sambhal, Uttar Pradesh, India","Sambhal, Uttar Pradesh, 244302, India",17.6,2026-10-02T12:54:20+00:00
+Uttar Pradesh,Sant Kabir Nagar,Khalilabad,26.7751208,83.05424,market,"Khalilabad, Sant Kabir Nagar, Uttar Pradesh, India","Khalilabad, NH27, Khalilabad, Sant Kabir Nagar, Uttar Pradesh, 272175, India",2.6,2026-10-02T12:54:22+00:00
+Uttar Pradesh,Shahjahanpur,Jalalabad,27.6762923,79.5401879,market,"Jalalabad, Shahjahanpur, Uttar Pradesh, India","Jalalabad, Shahjahanpur, Uttar Pradesh, India",33.3,2026-10-02T12:54:25+00:00
+Uttar Pradesh,Shahjahanpur,Meeranpur Katra,28.0214638,79.6743375,market,"Meeranpur Katra, Shahjahanpur, Uttar Pradesh, India","CHC Meeranpur Katra, NH30, Miranpur Katra, Tilhar, Shahjahanpur, Uttar Pradesh, 242301, India",14.1,2026-10-02T12:54:26+00:00
+Uttar Pradesh,Shahjahanpur,Powayan,28.1441486,80.115437,market,"Powayan, Shahjahanpur, Uttar Pradesh, India","Powayan, Shahjahanpur, Uttar Pradesh, India",44.3,2026-10-02T12:54:26+00:00
+Uttar Pradesh,Shahjahanpur,Shahjahanpur,27.8934038,79.9048982,market,"Shahjahanpur, Shahjahanpur, Uttar Pradesh, India","Shahjahanpur, NH731K, Cantonment, Tikri, Shahjahanpur, Uttar Pradesh, 242001, India",15.6,2026-10-02T12:54:29+00:00
+Uttar Pradesh,Shahjahanpur,Tilhar,28.0571981,79.7416689,market,"Tilhar, Shahjahanpur, Uttar Pradesh, India","Tilhar, Shahjahanpur, Uttar Pradesh, India",16.1,2026-10-02T12:54:30+00:00
+Uttar Pradesh,Shamli,Kairana,29.394447,77.2052786,market,"Kairana, Shamli, Uttar Pradesh, India","Kairana, Shamli, Uttar Pradesh, 247774, India",12.7,2026-10-02T12:54:32+00:00
+Uttar Pradesh,Shamli,Shamli,29.4483494,77.3087719,market,"Shamli, Shamli, Uttar Pradesh, India","Shamli, Uttar Pradesh, 247776, India",4.1,2026-10-02T12:54:34+00:00
+Uttar Pradesh,Shravasti,Bhinga,27.6633821,81.8843703,market,"Bhinga, Shravasti, Uttar Pradesh, India","Baldev prasad nagrik inter college amva bhinga shravasti, bridge village, newada village, Bhinga, Sharavasti, Uttar Pradesh, 271831, India",22.2,2026-10-02T12:54:37+00:00
+Uttar Pradesh,Sitapur,Hargaon (Laharpur),27.7256345,80.9869223,market,"Laharpur, Sitapur, Uttar Pradesh, India","Laharpur, Sitapur, Uttar Pradesh, India",29.0,2026-10-02T12:54:45+00:00
+Uttar Pradesh,Sitapur,Maholi,27.6522054,80.4754145,market,"Maholi, Sitapur, Uttar Pradesh, India","Maholi, Misrikh, Sitapur, Uttar Pradesh, 261141, India",39.0,2026-10-02T12:54:45+00:00
+Uttar Pradesh,Sitapur,Sidhauli,27.2875109,80.8254411,market,"Sidhauli, Sitapur, Uttar Pradesh, India","Sidhauli, Sitapur, Uttar Pradesh, India",23.9,2026-10-02T12:54:49+00:00
+Uttar Pradesh,Sitapur,Sitapur,27.5615568,80.6840082,market,"Sitapur, Sitapur, Uttar Pradesh, India","Sitapur, Uttar Pradesh, 261001, India",16.1,2026-10-02T12:54:50+00:00
+Uttar Pradesh,Sonbhadra,Dudhi,24.1148157,83.014122,market,"Dudhi, Sonbhadra, Uttar Pradesh, India","Dudhi, Sonbhadra, Uttar Pradesh, India",33.7,2026-10-02T12:54:53+00:00
+Uttar Pradesh,Sonbhadra,Robertsganj,24.6266156,83.2403026,market,"Robertsganj, Sonbhadra, Uttar Pradesh, India","Robertsganj, Sonbhadra, Uttar Pradesh, India",29.6,2026-10-02T12:54:54+00:00
+Uttar Pradesh,Unnao,Bangarmau,26.8916447,80.21506,market,"Bangarmau, Unnao, Uttar Pradesh, India","Bangarmau, Safipur, Unnao, Uttar Pradesh, 241500, India",54.0,2026-10-02T12:54:55+00:00
+Uttar Pradesh,Unnao,Purwa,26.4863403,80.8367138,market,"Purwa, Unnao, Uttar Pradesh, India","Purwa, Unnao, Uttar Pradesh, India",23.4,2026-10-02T12:54:57+00:00
+Uttar Pradesh,Unnao,Unnao,26.543584,80.487148,market,"Unnao, Unnao, Uttar Pradesh, India","Unnao, Uttar Pradesh, 209800, India",13.5,2026-10-02T12:54:58+00:00
+Uttar Pradesh,Varanasi,Varanasi,25.3356491,83.0076292,market,"Varanasi, Varanasi, Uttar Pradesh, India","Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",7.8,2026-10-02T12:55:00+00:00
+Uttar Pradesh,Varanasi,Varanasi (F&V),25.3356491,83.0076292,market,"Varanasi, Varanasi, Uttar Pradesh, India","Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",7.8,2026-10-02T12:55:00+00:00
+Gujarat,Banaskanth,Deesa (Deesa Veg Yard),24.2594977,72.1803348,market,"Deesa, Banaskantha, Gujarat, India","Deesa, Deesa Taluka, Banaskantha, Gujarat, 385535, India",36.1,2026-10-02T12:55:34+00:00
+Gujarat,Bhavnagar,Taleja,21.5656705,71.9077622,district_centroid,"Bhavnagar district, Gujarat, India","Bhavnagar, Gujarat, India",0,2026-10-02T12:55:37+00:00
+Gujarat,Gir Somnath,Talalagir,20.9298181,70.7627578,district_centroid,"Gir Somnath district, Gujarat, India","Gir Somnath, Gujarat, India",0,2026-10-02T12:55:38+00:00
+Gujarat,Junagarh,Visavadar,21.3417058,70.7534299,market,"Visavadar, Gujarat, India","Visavadar, Visavadar Taluka, Junagadh, Gujarat, 362130, India",44.7,2026-10-02T12:55:40+00:00
+Gujarat,Morbi,Vankaner,22.8003959,70.886232,district_centroid,"Morbi district, Gujarat, India","Morbi, Gujarat, India",0,2026-10-02T12:55:42+00:00
+Gujarat,Morbi,Vankaner (Sub yard),22.8003959,70.886232,district_centroid,"Morbi district, Gujarat, India","Morbi, Gujarat, India",0,2026-10-02T12:55:44+00:00
+Gujarat,Panchmahals,Godhra,22.7785001,73.6245157,market,"Godhra, Panchmahal, Gujarat, India","Godhra, Godhra Taluka, Panchmahal, Gujarat, 389001, India",9.4,2026-10-02T12:55:46+00:00
+Gujarat,Surat,Songadh,21.1702124,73.5622874,market,"Songadh, Gujarat, India","Songadh, Songadh Taluka, Tapi, Gujarat, 394670, India",63.0,2026-10-02T12:55:48+00:00
+Gujarat,Surat,Vyra,21.1923647,72.9551023,district_centroid,"Surat district, Gujarat, India","Surat, Gujarat, India",0,2026-10-02T12:55:50+00:00
+Gujarat,Surendranagar,Vadhvan,22.8251395,71.6209736,district_centroid,"Surendranagar district, Gujarat, India","Surendranagar, Gujarat, India",0,2026-10-02T12:55:52+00:00
+Madhya Pradesh,Agar Malwa,Soyatkalan (F&V),23.935092,76.1449595,district_centroid,"Agar Malwa district, Madhya Pradesh, India","Agar Malwa, Madhya Pradesh, India",0,2026-10-02T12:55:54+00:00
+Madhya Pradesh,Anupur,Anuppur,23.1182921,81.6999038,market,"Anuppur, Anuppur, Madhya Pradesh, India","Anuppur, Anuppur Tehsil, Anuppur, Madhya Pradesh, 484224, India",10.7,2026-10-02T12:55:56+00:00
+Madhya Pradesh,Anupur,Anuppur (F&V),23.1182921,81.6999038,market,"Anuppur, Anuppur, Madhya Pradesh, India","Anuppur, Anuppur Tehsil, Anuppur, Madhya Pradesh, 484224, India",10.7,2026-10-02T12:55:57+00:00
+Madhya Pradesh,Badwani,Anjad,22.049061,75.0565446,market,"Anjad, Barwani, Madhya Pradesh, India","Anjad, Anjad Tahsil, Barwani, Madhya Pradesh, India",37.2,2026-10-02T12:55:59+00:00
+Madhya Pradesh,Badwani,Badwani,21.7514248,74.8915957,district_centroid,"Barwani district, Madhya Pradesh, India","Barwani, Madhya Pradesh, India",0,2026-10-02T12:56:01+00:00
+Madhya Pradesh,Badwani,Badwani (F&V),21.7514248,74.8915957,district_centroid,"Barwani district, Madhya Pradesh, India","Barwani, Madhya Pradesh, India",0,2026-10-02T12:56:03+00:00
+Madhya Pradesh,Badwani,Sendhwa,21.6926813,75.0978792,market,"Sendhwa, Barwani, Madhya Pradesh, India","Sendhwa, Sendhwa Tahsil, Barwani, Madhya Pradesh, India",22.3,2026-10-02T12:56:04+00:00
+Madhya Pradesh,Badwani,Sendhwa (F&V),21.6926813,75.0978792,market,"Sendhwa, Barwani, Madhya Pradesh, India","Sendhwa, Sendhwa Tahsil, Barwani, Madhya Pradesh, India",22.3,2026-10-02T12:56:05+00:00
+Madhya Pradesh,Chhatarpur,Chattarpur (F&V),24.7606089,79.6781776,district_centroid,"Chhatarpur district, Madhya Pradesh, India","Chhatarpur, Madhya Pradesh, India",0,2026-10-02T12:56:07+00:00
+Madhya Pradesh,Dewas,Haatpipliya,22.8057498,76.2940408,district_centroid,"Dewas district, Madhya Pradesh, India","Dewas, Madhya Pradesh, India",0,2026-10-02T12:56:09+00:00
+Madhya Pradesh,Dewas,Sonkachh (F&V),22.8057498,76.2940408,district_centroid,"Dewas district, Madhya Pradesh, India","Dewas, Madhya Pradesh, India",0,2026-10-02T12:56:11+00:00
+Madhya Pradesh,Gwalior,Lashkar,26.0287495,78.1570654,district_centroid,"Gwalior district, Madhya Pradesh, India","Gwalior, Madhya Pradesh, India",0,2026-10-02T12:56:13+00:00
+Madhya Pradesh,Gwalior,Lashkar (F&V),26.0287495,78.1570654,district_centroid,"Gwalior district, Madhya Pradesh, India","Gwalior, Madhya Pradesh, India",0,2026-10-02T12:56:15+00:00
+Madhya Pradesh,Jabalpur,Sehora,23.2230231,79.9825642,district_centroid,"Jabalpur district, Madhya Pradesh, India","Jabalpur, Madhya Pradesh, India",0,2026-10-02T12:56:17+00:00
+Madhya Pradesh,Khandwa,Badwah (F&V),21.9769779,76.5675344,district_centroid,"Khandwa district, Madhya Pradesh, India","Khandwa, Madhya Pradesh, India",0,2026-10-02T12:56:19+00:00
+Madhya Pradesh,Khargone,Badwaha,21.9544729,75.7521248,district_centroid,"Khargone district, Madhya Pradesh, India","Khargone, Madhya Pradesh, India",0,2026-10-02T12:56:21+00:00
+Madhya Pradesh,Mandsaur,Sitmau,24.2628148,75.385692,district_centroid,"Mandsaur district, Madhya Pradesh, India","Mandsaur, Madhya Pradesh, India",0,2026-10-02T12:56:23+00:00
+Madhya Pradesh,Morena,Ambaha,26.3849794,77.8612721,district_centroid,"Morena district, Madhya Pradesh, India","Morena, Madhya Pradesh, India",0,2026-10-02T12:56:25+00:00
+Madhya Pradesh,Narsinghpur,Gadarwada,22.934556,79.0867849,district_centroid,"Narsinghpur district, Madhya Pradesh, India","Narsinghpur, Madhya Pradesh, India",0,2026-10-02T12:56:27+00:00
+Madhya Pradesh,Neemuch,Javad,24.6305517,75.1829,district_centroid,"Neemuch district, Madhya Pradesh, India","Neemuch, Madhya Pradesh, India",0,2026-10-02T12:56:29+00:00
+Madhya Pradesh,Rajgarh,Pachaur,23.8716707,76.7744703,district_centroid,"Rajgarh district, Madhya Pradesh, India","Rajgarh, Madhya Pradesh, India",0,2026-10-02T12:56:31+00:00
+Madhya Pradesh,Ratlam,A lot,23.50222,74.9551534,district_centroid,"Ratlam district, Madhya Pradesh, India","Ratlam, Madhya Pradesh, India",0,2026-10-02T12:56:34+00:00
+Madhya Pradesh,Ratlam,Jawra (F&V),23.50222,74.9551534,district_centroid,"Ratlam district, Madhya Pradesh, India","Ratlam, Madhya Pradesh, India",0,2026-10-02T12:56:36+00:00
+Madhya Pradesh,Ratlam,Taal,23.50222,74.9551534,district_centroid,"Ratlam district, Madhya Pradesh, India","Ratlam, Madhya Pradesh, India",0,2026-10-02T12:56:38+00:00
+Madhya Pradesh,Satna,Mehar,24.6954445,80.7770348,district_centroid,"Satna district, Madhya Pradesh, India","Satna, Madhya Pradesh, India",0,2026-10-02T12:56:40+00:00
+Madhya Pradesh,Sehore,Aashta (F&V),23.1150041,77.0665356,district_centroid,"Sehore district, Madhya Pradesh, India","Sehore, Madhya Pradesh, India",0,2026-10-02T12:56:42+00:00
+Madhya Pradesh,Shajapur,Agar,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:44+00:00
+Madhya Pradesh,Shajapur,Akodiya,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:46+00:00
+Madhya Pradesh,Shajapur,Akodiya (F&V),23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:47+00:00
+Madhya Pradesh,Shajapur,Berachha,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:50+00:00
+Madhya Pradesh,Shajapur,Nalkehda,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:52+00:00
+Madhya Pradesh,Shajapur,Sajapur,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:54+00:00
+Madhya Pradesh,Shajapur,Soyatkalan,23.4171002,76.6074794,district_centroid,"Shajapur district, Madhya Pradesh, India","Shajapur, Madhya Pradesh, India",0,2026-10-02T12:56:55+00:00
+Madhya Pradesh,Sheopur,Sheopurkalan (F&V),25.7499267,76.9212945,district_centroid,"Sheopur district, Madhya Pradesh, India","Sheopur, Madhya Pradesh, India",0,2026-10-02T12:56:58+00:00
+Madhya Pradesh,Sheopur,Syopurkalan (F&V),25.7499267,76.9212945,district_centroid,"Sheopur district, Madhya Pradesh, India","Sheopur, Madhya Pradesh, India",0,2026-10-02T12:57:00+00:00
+Madhya Pradesh,Shivpuri,Barad,25.3741215,77.8278866,district_centroid,"Shivpuri district, Madhya Pradesh, India","Shivpuri, Madhya Pradesh, India",0,2026-10-02T12:57:02+00:00
+Madhya Pradesh,Singroli,Singroli,24.2431343,82.3827672,district_centroid,"Singrauli district, Madhya Pradesh, India","Singrauli, Madhya Pradesh, India",0,2026-10-02T12:57:04+00:00
+Madhya Pradesh,Singroli,Singroli (F&V),24.2431343,82.3827672,district_centroid,"Singrauli district, Madhya Pradesh, India","Singrauli, Madhya Pradesh, India",0,2026-10-02T12:57:06+00:00
+Maharashtra,Ahmednagar,Om Chaitanya Multistate Agro Purpose CoOp Society,19.1627725,74.8580243,district_centroid,"Ahmednagar district, Maharashtra, India","Ahilyanagar District, Maharashtra, India",0,2026-10-02T12:57:09+00:00
+Maharashtra,Ahmednagar,Shree Sairaj Krushi Market,19.1627725,74.8580243,district_centroid,"Ahmednagar district, Maharashtra, India","Ahilyanagar District, Maharashtra, India",0,2026-10-02T12:57:11+00:00
+Maharashtra,Amarawati,Amarawati,21.1545412,77.6442962,district_centroid,"Amravati district, Maharashtra, India","Amravati, Maharashtra, India",0,2026-10-02T12:57:13+00:00
+Maharashtra,Amarawati,Amrawati (Frui & Veg. Market),21.1545412,77.6442962,district_centroid,"Amravati district, Maharashtra, India","Amravati, Maharashtra, India",0,2026-10-02T12:57:16+00:00
+Maharashtra,Amarawati,Morshi,21.2798686,77.9447506,market,"Morshi, Amravati, Maharashtra, India","Morshi, Amravati, Maharashtra, 444905, India",34.1,2026-10-02T12:57:17+00:00
+Maharashtra,Buldhana,Chikali,20.562845,76.4086986,district_centroid,"Buldhana district, Maharashtra, India","Buldhana, Maharashtra, India",0,2026-10-02T12:57:19+00:00
+Maharashtra,Chattrapati Sambhajinagar,Bhagyoday Cotton and Agri Market,20.0224932,75.1515442,district_centroid,"Chhatrapati Sambhajinagar district, Maharashtra, India","Chhatrapati Sambhajinagar, Maharashtra, India",0,2026-10-02T12:57:22+00:00
+Maharashtra,Chattrapati Sambhajinagar,Chattrapati Sambhajinagar,20.0224932,75.1515442,district_centroid,"Chhatrapati Sambhajinagar district, Maharashtra, India","Chhatrapati Sambhajinagar, Maharashtra, India",0,2026-10-02T12:57:23+00:00
+Maharashtra,Chattrapati Sambhajinagar,Fulmbri,20.0224932,75.1515442,district_centroid,"Chhatrapati Sambhajinagar district, Maharashtra, India","Chhatrapati Sambhajinagar, Maharashtra, India",0,2026-10-02T12:57:26+00:00
+Maharashtra,Chattrapati Sambhajinagar,Gangapur,19.7954058,75.0666582,market,"Gangapur, Chhatrapati Sambhajinagar, Maharashtra, India","Gangapur, Chhatrapati Sambhajinagar, Maharashtra, India",26.8,2026-10-02T12:57:27+00:00
+Maharashtra,Chattrapati Sambhajinagar,Lasur Station,19.9263446,75.0118617,market,"Lasur Station, Chhatrapati Sambhajinagar, Maharashtra, India","Lasur, SH48, Bhagthan, Gangapur, Chhatrapati Sambhajinagar, Maharashtra, India",18.1,2026-10-02T12:57:28+00:00
+Maharashtra,Chattrapati Sambhajinagar,Paithan,19.5835563,75.4302638,market,"Paithan, Chhatrapati Sambhajinagar, Maharashtra, India","Paithan, Chhatrapati Sambhajinagar, Maharashtra, India",56.9,2026-10-02T12:57:29+00:00
+Maharashtra,Chattrapati Sambhajinagar,Vaijpur,20.0224932,75.1515442,district_centroid,"Chhatrapati Sambhajinagar district, Maharashtra, India","Chhatrapati Sambhajinagar, Maharashtra, India",0,2026-10-02T12:57:31+00:00
+Maharashtra,Dhule,Janata Agri Market (DLS Agro Infrastructure Pvt Lt,21.1305215,74.4900614,district_centroid,"Dhule district, Maharashtra, India","Dhule, Maharashtra, India",0,2026-10-02T12:57:33+00:00
+Maharashtra,Dhule,Pratap Nana Mahale Khajgi Bajar Samiti,21.1305215,74.4900614,district_centroid,"Dhule district, Maharashtra, India","Dhule, Maharashtra, India",0,2026-10-02T12:57:35+00:00
+Maharashtra,Kolhapur,Vadgaonpeth,16.4626695,74.0894749,district_centroid,"Kolhapur district, Maharashtra, India","Kolhapur, Maharashtra, India",0,2026-10-02T12:57:37+00:00
+Maharashtra,Nagpur,Parshiwani,21.1529647,79.0145059,district_centroid,"Nagpur district, Maharashtra, India","Nagpur, Maharashtra, India",0,2026-10-02T12:57:39+00:00
+Maharashtra,Nashik,Devala,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:41+00:00
+Maharashtra,Nashik,Kalvan,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:43+00:00
+Maharashtra,Nashik,Malharshree Farmers Producer Co Ltd,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:45+00:00
+Maharashtra,Nashik,Mankamneshwar Farmar Producer CoLtd Sanchalit Mank,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:47+00:00
+Maharashtra,Nashik,Premium Krushi Utpanna Bazar,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:49+00:00
+Maharashtra,Nashik,Shivsiddha Govind Producer Company Limited Sanchal,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:51+00:00
+Maharashtra,Nashik,Shree Rameshwar Krushi Market,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:53+00:00
+Maharashtra,Nashik,Suragana,20.2254559,74.104233,district_centroid,"Nashik district, Maharashtra, India","Nashik, Maharashtra, India",0,2026-10-02T12:57:55+00:00
+Maharashtra,Pune,Dound,18.6448627,73.9224157,district_centroid,"Pune district, Maharashtra, India","Pune, Maharashtra, India",0,2026-10-02T12:57:57+00:00
+Maharashtra,Pune,Indapur,18.6448627,73.9224157,district_centroid,"Pune district, Maharashtra, India","Pune, Maharashtra, India",0,2026-10-02T12:57:59+00:00
+Maharashtra,Sholapur,Akluj,17.6140336,75.9382475,district_centroid,"Sholapur district, Maharashtra, India","Food Corporation of India, Ramlal Nagar, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",0,2026-10-02T12:58:01+00:00
+Maharashtra,Sholapur,Barshi,18.2341108,75.6875109,market,"Barshi, Maharashtra, India","Barshi, Solapur, Maharashtra, 413400, India",73.9,2026-10-02T12:58:03+00:00
+Maharashtra,Sholapur,Karmala,17.6140336,75.9382475,district_centroid,"Sholapur district, Maharashtra, India","Food Corporation of India, Ramlal Nagar, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",0,2026-10-02T12:58:05+00:00
+Maharashtra,Sholapur,Kurdwadi,17.6140336,75.9382475,district_centroid,"Sholapur district, Maharashtra, India","Food Corporation of India, Ramlal Nagar, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",0,2026-10-02T12:58:07+00:00
+Maharashtra,Sholapur,Kurdwadi (Modnimb),17.9124905,75.4004144,market,"Modnimb, Maharashtra, India","Modnimb, Madha, Solapur, Maharashtra, 413301, India",65.9,2026-10-02T12:58:10+00:00
+Maharashtra,Sholapur,Laxmi Sopan Agriculture Produce Marketing Co Ltd,17.6140336,75.9382475,district_centroid,"Sholapur district, Maharashtra, India","Food Corporation of India, Ramlal Nagar, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",0,2026-10-02T12:58:12+00:00
+Maharashtra,Sholapur,Mangal Wedha,17.6140336,75.9382475,district_centroid,"Sholapur district, Maharashtra, India","Food Corporation of India, Ramlal Nagar, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",0,2026-10-02T12:58:14+00:00
+Maharashtra,Sholapur,Pandharpur,17.7255921,75.3001936,market,"Pandharpur, Maharashtra, India","Pandharpur, Solapur, Maharashtra, India",68.7,2026-10-02T12:58:16+00:00
+Uttar Pradesh,Agra,Jagnair,27.0755504,77.8753832,district_centroid,"Agra district, Uttar Pradesh, India","Agra, Uttar Pradesh, India",0,2026-10-02T12:58:18+00:00
+Uttar Pradesh,Agra,Khairagarh,27.0755504,77.8753832,district_centroid,"Agra district, Uttar Pradesh, India","Agra, Uttar Pradesh, India",0,2026-10-02T12:58:20+00:00
+Uttar Pradesh,Agra,Samsabad,27.0755504,77.8753832,district_centroid,"Agra district, Uttar Pradesh, India","Agra, Uttar Pradesh, India",0,2026-10-02T12:58:22+00:00
+Uttar Pradesh,Ambedkarnagar,Akbarpur,26.4200687,82.5382541,market,"Akbarpur, Ambedkar Nagar, Uttar Pradesh, India","Akbarpur, Ambedkar Nagar, Uttar Pradesh, 224122, India",7.0,2026-10-02T12:58:24+00:00
+Uttar Pradesh,Auraiya,Achalda,26.6558215,79.5160757,district_centroid,"Auraiya district, Uttar Pradesh, India","Auraiya, Uttar Pradesh, India",0,2026-10-02T12:58:26+00:00
+Uttar Pradesh,Auraiya,Dibiapur,26.6558215,79.5160757,district_centroid,"Auraiya district, Uttar Pradesh, India","Auraiya, Uttar Pradesh, India",0,2026-10-02T12:58:28+00:00
+Uttar Pradesh,Badaun,Babrala,28.2651557,78.4054229,market,"Babrala, Uttar Pradesh, India","Babrala, Gunnaur, Sambhal, Uttar Pradesh, 243021, India",66.4,2026-10-02T12:58:30+00:00
+Uttar Pradesh,Badaun,Badayoun,28.0649367,79.043832,district_centroid,"Badaun district, Uttar Pradesh, India","Badaun, Uttar Pradesh, India",0,2026-10-02T12:58:32+00:00
+Uttar Pradesh,Badaun,Bisoli,28.0649367,79.043832,district_centroid,"Badaun district, Uttar Pradesh, India","Badaun, Uttar Pradesh, India",0,2026-10-02T12:58:34+00:00
+Uttar Pradesh,Badaun,Islam Nagar,28.0649367,79.043832,district_centroid,"Badaun district, Uttar Pradesh, India","Badaun, Uttar Pradesh, India",0,2026-10-02T12:58:36+00:00
+Uttar Pradesh,Badaun,Shahaswan,28.0649367,79.043832,district_centroid,"Badaun district, Uttar Pradesh, India","Badaun, Uttar Pradesh, India",0,2026-10-02T12:58:38+00:00
+Uttar Pradesh,Badaun,Visoli,28.0649367,79.043832,district_centroid,"Badaun district, Uttar Pradesh, India","Badaun, Uttar Pradesh, India",0,2026-10-02T12:58:40+00:00
+Uttar Pradesh,Baghpat,Bagpat,28.9672601,77.6647822,market,"Bagpat, Uttar Pradesh, India","806/7i , Dinesh Vihar Bagpat Road Meerut, gali 69, inside city, Meerut, Uttar Pradesh, 250002, India",35.7,2026-10-02T12:58:42+00:00
+Uttar Pradesh,Baghpat,Khekda,29.0374779,77.3062737,district_centroid,"Baghpat district, Uttar Pradesh, India","Baghpat, Uttar Pradesh, India",0,2026-10-02T12:58:44+00:00
+Uttar Pradesh,Bahraich,Mihipurwa,27.7343823,81.47654,district_centroid,"Bahraich district, Uttar Pradesh, India","Bahraich, Uttar Pradesh, India",0,2026-10-02T12:58:46+00:00
+Uttar Pradesh,Bahraich,Naanpara,27.7343823,81.47654,district_centroid,"Bahraich district, Uttar Pradesh, India","Bahraich, Uttar Pradesh, India",0,2026-10-02T12:58:48+00:00
+Uttar Pradesh,Ballia,Chitwadagaon,25.8749595,84.1210329,district_centroid,"Ballia district, Uttar Pradesh, India","Ballia, Uttar Pradesh, India",0,2026-10-02T12:58:50+00:00
+Uttar Pradesh,Ballia,Rasda,25.8749595,84.1210329,district_centroid,"Ballia district, Uttar Pradesh, India","Ballia, Uttar Pradesh, India",0,2026-10-02T12:58:52+00:00
+Uttar Pradesh,Ballia,Vilthararoad,25.8749595,84.1210329,district_centroid,"Ballia district, Uttar Pradesh, India","Ballia, Uttar Pradesh, India",0,2026-10-02T12:58:54+00:00
+Uttar Pradesh,Balrampur,Panchpedwa,27.4476988,82.3956245,district_centroid,"Balrampur district, Uttar Pradesh, India","Balrampur, Uttar Pradesh, India",0,2026-10-02T12:58:56+00:00
+Uttar Pradesh,Bareilly,Anwala,28.4582345,79.4047452,district_centroid,"Bareilly district, Uttar Pradesh, India","Bareilly, Uttar Pradesh, India",0,2026-10-02T12:58:58+00:00
+Uttar Pradesh,Bareilly,Bahedi,29.0350283,78.8849258,market,"Bahedi, Uttar Pradesh, India","Bahedi, Moradabad, Uttar Pradesh, 244402, India",81.7,2026-10-02T12:59:00+00:00
+Uttar Pradesh,Bijnor,Bijnaur,29.4074203,78.4821406,district_centroid,"Bijnor district, Uttar Pradesh, India","Bijnor, Uttar Pradesh, India",0,2026-10-02T12:59:02+00:00
+Uttar Pradesh,Bijnor,Chaandpur,29.4074203,78.4821406,district_centroid,"Bijnor district, Uttar Pradesh, India","Bijnor, Uttar Pradesh, India",0,2026-10-02T12:59:04+00:00
+Uttar Pradesh,Bulandshahar,Anoop Shahar,28.5242541,77.5995188,district_centroid,"Bulandshahar district, Uttar Pradesh, India","Exit 7 Bulandshahar, Delhi Eastern Peripheral Expressway, Beel Akbarpur, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201314, India",0,2026-10-02T12:59:06+00:00
+Uttar Pradesh,Bulandshahar,Buland Shahr,28.5242541,77.5995188,district_centroid,"Bulandshahar district, Uttar Pradesh, India","Exit 7 Bulandshahar, Delhi Eastern Peripheral Expressway, Beel Akbarpur, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201314, India",0,2026-10-02T12:59:08+00:00
+Uttar Pradesh,Bulandshahar,Divai,28.5242541,77.5995188,district_centroid,"Bulandshahar district, Uttar Pradesh, India","Exit 7 Bulandshahar, Delhi Eastern Peripheral Expressway, Beel Akbarpur, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201314, India",0,2026-10-02T12:59:10+00:00
+Uttar Pradesh,Bulandshahar,Gulavati,28.5242541,77.5995188,district_centroid,"Bulandshahar district, Uttar Pradesh, India","Exit 7 Bulandshahar, Delhi Eastern Peripheral Expressway, Beel Akbarpur, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201314, India",0,2026-10-02T12:59:12+00:00
+Uttar Pradesh,Bulandshahar,Sikanderabad,28.5242541,77.5995188,district_centroid,"Bulandshahar district, Uttar Pradesh, India","Exit 7 Bulandshahar, Delhi Eastern Peripheral Expressway, Beel Akbarpur, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201314, India",0,2026-10-02T12:59:14+00:00
+Uttar Pradesh,Bulandshahar,Siyana,28.6277173,78.0599187,market,"Siyana, Uttar Pradesh, India","Siyana, Syana, Bulandshahr, Uttar Pradesh, 245412, India",46.4,2026-10-02T12:59:16+00:00
+Uttar Pradesh,Chandauli,Chandoli,25.125695,83.2494601,district_centroid,"Chandauli district, Uttar Pradesh, India","Chandauli, Uttar Pradesh, India",0,2026-10-02T12:59:18+00:00
+Uttar Pradesh,Chitrakut,Karvi,25.2173874,80.9236326,district_centroid,"Chitrakut district, Uttar Pradesh, India","Chitrakut Dham Karwi, Station road, Chitrakoot Dham, Karwi, Chitrakoot, Uttar Pradesh, 210205, India",0,2026-10-02T12:59:20+00:00
+Uttar Pradesh,Deoria,Devariya,26.4239911,83.7638578,district_centroid,"Deoria district, Uttar Pradesh, India","Deoria, Uttar Pradesh, India",0,2026-10-02T12:59:22+00:00
+Uttar Pradesh,Etawah,Bharthna,26.7155629,79.0917098,district_centroid,"Etawah district, Uttar Pradesh, India","Etawah, Uttar Pradesh, India",0,2026-10-02T12:59:24+00:00
+Uttar Pradesh,Etawah,Jasvantnagar,26.7155629,79.0917098,district_centroid,"Etawah district, Uttar Pradesh, India","Etawah, Uttar Pradesh, India",0,2026-10-02T12:59:26+00:00
+Uttar Pradesh,Farukhabad,Farukhabad,27.4362003,79.4894778,district_centroid,"Farrukhabad district, Uttar Pradesh, India","Farrukhabad, Uttar Pradesh, India",0,2026-10-02T12:59:28+00:00
+Uttar Pradesh,Farukhabad,Kamlaganj,27.4362003,79.4894778,district_centroid,"Farrukhabad district, Uttar Pradesh, India","Farrukhabad, Uttar Pradesh, India",0,2026-10-02T12:59:31+00:00
+Uttar Pradesh,Farukhabad,Kayamganj,27.5525036,79.343542,market,"Kayamganj, Farrukhabad, Uttar Pradesh, India","CHC, Kayamganj, MDR110W, Kaimganj, Farrukhabad, Uttar Pradesh, 207502, India",19.4,2026-10-02T12:59:32+00:00
+Uttar Pradesh,Farukhabad,Mohamadabad,27.4362003,79.4894778,district_centroid,"Farrukhabad district, Uttar Pradesh, India","Farrukhabad, Uttar Pradesh, India",0,2026-10-02T12:59:34+00:00
+Uttar Pradesh,Fatehpur,Kishunpur,25.8348023,80.9154547,district_centroid,"Fatehpur district, Uttar Pradesh, India","Fatehpur, Uttar Pradesh, India",0,2026-10-02T12:59:36+00:00
+Uttar Pradesh,Gautam Budh Nagar,Dadri,28.5387298,77.5372191,market,"Dadri, Uttar Pradesh, India","Dadri, Dadri Road, Preet Vihar, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 203207, India",10.0,2026-10-02T12:59:38+00:00
+Uttar Pradesh,Gautam Budh Nagar,Dankaur,28.3495679,77.5540411,market,"Dankaur, Uttar Pradesh, India","Dankaur, Gautam Buddha Nagar, Uttar Pradesh, 203200, India",11.4,2026-10-02T12:59:40+00:00
+Uttar Pradesh,Gautam Budh Nagar,Jewar,28.2016525,77.6265415,market,"Jewar, Uttar Pradesh, India","Jewar, Gautam Buddha Nagar, Uttar Pradesh, India",29.2,2026-10-02T12:59:42+00:00
+Uttar Pradesh,Ghazipur,Jamanian,25.6034863,83.5075888,district_centroid,"Ghazipur district, Uttar Pradesh, India","Ghazipur, Uttar Pradesh, India",0,2026-10-02T12:59:44+00:00
+Uttar Pradesh,Ghazipur,Jangipura,25.6034863,83.5075888,district_centroid,"Ghazipur district, Uttar Pradesh, India","Ghazipur, Uttar Pradesh, India",0,2026-10-02T12:59:46+00:00
+Uttar Pradesh,Gonda,Karnailganj,27.1103723,81.9238906,district_centroid,"Gonda district, Uttar Pradesh, India","Gonda, Uttar Pradesh, India",0,2026-10-02T12:59:48+00:00
+Uttar Pradesh,Gorakhpur,Chorichora,26.6677977,83.3642334,district_centroid,"Gorakhpur district, Uttar Pradesh, India","Gorakhpur, Uttar Pradesh, India",0,2026-10-02T12:59:50+00:00
+Uttar Pradesh,Gorakhpur,Sehjanwa,26.6677977,83.3642334,district_centroid,"Gorakhpur district, Uttar Pradesh, India","Gorakhpur, Uttar Pradesh, India",0,2026-10-02T12:59:52+00:00
+Uttar Pradesh,Hamirpur,Bharuasumerpur,25.75,80.0,district_centroid,"Hamirpur district, Uttar Pradesh, India","Hamirpur, Uttar Pradesh, India",0,2026-10-02T12:59:54+00:00
+Uttar Pradesh,Hapur,Gazipur,28.7166767,77.890433,district_centroid,"Hapur district, Uttar Pradesh, India","Hapur, Uttar Pradesh, India",0,2026-10-02T12:59:56+00:00
+Uttar Pradesh,Hapur,Jamanian,28.7166767,77.890433,district_centroid,"Hapur district, Uttar Pradesh, India","Hapur, Uttar Pradesh, India",0,2026-10-02T12:59:57+00:00
+Uttar Pradesh,Hapur,Jangipura,28.7166767,77.890433,district_centroid,"Hapur district, Uttar Pradesh, India","Hapur, Uttar Pradesh, India",0,2026-10-02T12:59:59+00:00
+Uttar Pradesh,Hapur,Yusufpur,28.7166767,77.890433,district_centroid,"Hapur district, Uttar Pradesh, India","Hapur, Uttar Pradesh, India",0,2026-10-02T13:00:02+00:00
+Uttar Pradesh,Hathras,Haathras,27.5724324,78.1116209,district_centroid,"Hathras district, Uttar Pradesh, India","Hathras, Uttar Pradesh, India",0,2026-10-02T13:00:04+00:00
+Uttar Pradesh,Hathras,Shadabad,27.5724324,78.1116209,district_centroid,"Hathras district, Uttar Pradesh, India","Hathras, Uttar Pradesh, India",0,2026-10-02T13:00:06+00:00
+Uttar Pradesh,Hathras,Sikandraraau,27.5724324,78.1116209,district_centroid,"Hathras district, Uttar Pradesh, India","Hathras, Uttar Pradesh, India",0,2026-10-02T13:00:08+00:00
+Uttar Pradesh,Jaunpur,Mugrabaadshahpur,25.7967065,82.4888992,district_centroid,"Jaunpur district, Uttar Pradesh, India","Jaunpur, Uttar Pradesh, India",0,2026-10-02T13:00:10+00:00
+Uttar Pradesh,Jhansi,Gurusarai,25.529855,78.6527802,district_centroid,"Jhansi district, Uttar Pradesh, India","Jhansi, Uttar Pradesh, India",0,2026-10-02T13:00:12+00:00
+Uttar Pradesh,Kannuj,Chhibramau,27.0776135,79.5856961,market,"Chhibramau, Kannauj, Uttar Pradesh, India","Chhibramau, Kannauj, Uttar Pradesh, India",13.8,2026-10-02T13:00:14+00:00
+Uttar Pradesh,Kannuj,Kannauj,27.0281287,79.9249069,market,"Kannauj, Kannauj, Uttar Pradesh, India","Kannauj, Kannauj Bypass, Kannauj, Uttar Pradesh, 209127, India",23.2,2026-10-02T13:00:15+00:00
+Uttar Pradesh,Kanpur,Choubepur,26.5,80.0,district_centroid,"Kanpur district, Uttar Pradesh, India","Kānpur, Kanpur Dehat, Uttar Pradesh, India",0,2026-10-02T13:00:17+00:00
+Uttar Pradesh,Kanpur,Uttaripura,26.5,80.0,district_centroid,"Kanpur district, Uttar Pradesh, India","Kānpur, Kanpur Dehat, Uttar Pradesh, India",0,2026-10-02T13:00:19+00:00
+Uttar Pradesh,Kanpur,Varipaal,26.5,80.0,district_centroid,"Kanpur district, Uttar Pradesh, India","Kānpur, Kanpur Dehat, Uttar Pradesh, India",0,2026-10-02T13:00:21+00:00
+Uttar Pradesh,Kanpur Dehat,Jhijhank,26.4585639,79.8548052,district_centroid,"Kanpur Dehat district, Uttar Pradesh, India","Kanpur Dehat, Uttar Pradesh, India",0,2026-10-02T13:00:23+00:00
+Uttar Pradesh,Kanpur Dehat,Pukharayan,26.4585639,79.8548052,district_centroid,"Kanpur Dehat district, Uttar Pradesh, India","Kanpur Dehat, Uttar Pradesh, India",0,2026-10-02T13:00:25+00:00
+Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,27.7175858,80.3437067,market,"Maigalganj, Uttar Pradesh, India","Maigalganj, Mohammdi, Lakhimpur Kheri, Uttar Pradesh, 261505, India",63.2,2026-10-02T13:00:27+00:00
+Uttar Pradesh,Khiri (Lakhimpur),Mohammdi,27.9238756,80.1638994,market,"Mohammdi, Uttar Pradesh, India","Mohammdi, Lakhimpur Kheri, Uttar Pradesh, India",61.1,2026-10-02T13:00:29+00:00
+Uttar Pradesh,Khiri (Lakhimpur),Tikonia,28.1834229,80.7131272,district_centroid,"Lakhimpur district, Uttar Pradesh, India","Lakhimpur Kheri, Uttar Pradesh, India",0,2026-10-02T13:00:31+00:00
+Uttar Pradesh,Lakhimpur,Golagokarnath,28.1834229,80.7131272,district_centroid,"Lakhimpur district, Uttar Pradesh, India","Lakhimpur Kheri, Uttar Pradesh, India",0,2026-10-02T13:00:33+00:00
+Uttar Pradesh,Lakhimpur,Paliakala,28.1834229,80.7131272,district_centroid,"Lakhimpur district, Uttar Pradesh, India","Lakhimpur Kheri, Uttar Pradesh, India",0,2026-10-02T13:00:35+00:00
+Uttar Pradesh,Maharajganj,Anandnagar,27.1424107,83.5390118,district_centroid,"Maharajganj district, Uttar Pradesh, India","Combined District Hospital, Maharajganj, NH730, Maharajganj, Mahrajganj, Uttar Pradesh, 273303, India",0,2026-10-02T13:00:37+00:00
+Uttar Pradesh,Maharajganj,Gadaura,27.1424107,83.5390118,district_centroid,"Maharajganj district, Uttar Pradesh, India","Combined District Hospital, Maharajganj, NH730, Maharajganj, Mahrajganj, Uttar Pradesh, 273303, India",0,2026-10-02T13:00:39+00:00
+Uttar Pradesh,Maharajganj,Nautnava,27.1424107,83.5390118,district_centroid,"Maharajganj district, Uttar Pradesh, India","Combined District Hospital, Maharajganj, NH730, Maharajganj, Mahrajganj, Uttar Pradesh, 273303, India",0,2026-10-02T13:00:41+00:00
+Uttar Pradesh,Maharajganj,Partaval,27.1424107,83.5390118,district_centroid,"Maharajganj district, Uttar Pradesh, India","Combined District Hospital, Maharajganj, NH730, Maharajganj, Mahrajganj, Uttar Pradesh, 273303, India",0,2026-10-02T13:00:43+00:00
+Uttar Pradesh,Mainpuri,Ghiraur,27.2093072,79.0625369,district_centroid,"Mainpuri district, Uttar Pradesh, India","Mainpuri, Uttar Pradesh, India",0,2026-10-02T13:00:45+00:00
+Uttar Pradesh,Mau (Maunathbhanjan),Doharighat,26.0489049,83.1779652,market,"Doharighat, Uttar Pradesh, India","Azamgarh-Doharighat Marg, Azamgarh, Uttar Pradesh, 276001, India",32.0,2026-10-02T13:00:47+00:00
+Uttar Pradesh,Mirzapur,Ahirora,24.9316896,82.6280163,district_centroid,"Mirzapur district, Uttar Pradesh, India","Mirzapur, Uttar Pradesh, India",0,2026-10-02T13:00:49+00:00
+Uttar Pradesh,Pillibhit,Billsadda,28.4947158,80.1076122,district_centroid,"Pilibhit district, Uttar Pradesh, India","Pilibhit, Uttar Pradesh, India",0,2026-10-02T13:00:52+00:00
+Uttar Pradesh,Pillibhit,Bishalpur,28.4947158,80.1076122,district_centroid,"Pilibhit district, Uttar Pradesh, India","Pilibhit, Uttar Pradesh, India",0,2026-10-02T13:00:54+00:00
+Uttar Pradesh,Pillibhit,Pilibhit,28.6294996,79.8054072,market,"Pilibhit, Pilibhit, Uttar Pradesh, India","Pilibhit, Uttar Pradesh, 262001, India",33.1,2026-10-02T13:00:55+00:00
+Uttar Pradesh,Pillibhit,Puranpur,28.5143487,80.1512946,market,"Puranpur, Pilibhit, Uttar Pradesh, India","Puranpur, Old SBI Road, Ashok Colony, Puranpur, Pilibhit, Uttar Pradesh, 262122, India",4.8,2026-10-02T13:00:56+00:00
+Uttar Pradesh,Pillibhit,Vishalpur,28.4947158,80.1076122,district_centroid,"Pilibhit district, Uttar Pradesh, India","Pilibhit, Uttar Pradesh, India",0,2026-10-02T13:00:59+00:00
+Uttar Pradesh,Prayagraj,Ajuha,25.7026986,81.2491912,market,"Ajuha, Uttar Pradesh, India","SubCentre, Ajuha, NH19, Khaga, Sirathu, Kaushambi, Uttar Pradesh, 212217, India",80.8,2026-10-02T13:01:00+00:00
+Uttar Pradesh,Prayagraj,Lediyari,25.2793187,81.9034977,district_centroid,"Prayagraj district, Uttar Pradesh, India","Prayagraj, Uttar Pradesh, India",0,2026-10-02T13:01:02+00:00
+Uttar Pradesh,Prayagraj,Sirsa,25.2793187,81.9034977,district_centroid,"Prayagraj district, Uttar Pradesh, India","Prayagraj, Uttar Pradesh, India",0,2026-10-02T13:01:04+00:00
+Uttar Pradesh,Raebarelli,Bachranwa,26.772397,80.9443626,district_centroid,"Raebarelli district, Uttar Pradesh, India","Raebarelli Road, Lucknow, Uttar Pradesh, 226029, India",0,2026-10-02T13:01:06+00:00
+Uttar Pradesh,Raebarelli,Jayas,26.772397,80.9443626,district_centroid,"Raebarelli district, Uttar Pradesh, India","Raebarelli Road, Lucknow, Uttar Pradesh, 226029, India",0,2026-10-02T13:01:08+00:00
+Uttar Pradesh,Raebarelli,Lalganj,26.772397,80.9443626,district_centroid,"Raebarelli district, Uttar Pradesh, India","Raebarelli Road, Lucknow, Uttar Pradesh, 226029, India",0,2026-10-02T13:01:10+00:00
+Uttar Pradesh,Raebarelli,Raibareilly,26.772397,80.9443626,district_centroid,"Raebarelli district, Uttar Pradesh, India","Raebarelli Road, Lucknow, Uttar Pradesh, 226029, India",0,2026-10-02T13:01:12+00:00
+Uttar Pradesh,Raebarelli,Salon,26.088815,81.4533741,market,"Salon, Uttar Pradesh, India","Salon, Raebareli, Uttar Pradesh, India",91.4,2026-10-02T13:01:14+00:00
+Uttar Pradesh,Rampur,Vilaspur,28.7934728,79.1845806,district_centroid,"Rampur district, Uttar Pradesh, India","Rampur, Uttar Pradesh, India",0,2026-10-02T13:01:16+00:00
+Uttar Pradesh,Saharanpur,Chutmalpur,29.9856799,77.5040646,district_centroid,"Saharanpur district, Uttar Pradesh, India","Saharanpur, Uttar Pradesh, India",0,2026-10-02T13:01:19+00:00
+Uttar Pradesh,Saharanpur,Nanuta,29.9856799,77.5040646,district_centroid,"Saharanpur district, Uttar Pradesh, India","Saharanpur, Uttar Pradesh, India",0,2026-10-02T13:01:20+00:00
+Uttar Pradesh,Saharanpur,Rampurmaniharan,29.9856799,77.5040646,district_centroid,"Saharanpur district, Uttar Pradesh, India","Saharanpur, Uttar Pradesh, India",0,2026-10-02T13:01:22+00:00
+Uttar Pradesh,Saharanpur,Sultanpurchilkana,29.9856799,77.5040646,district_centroid,"Saharanpur district, Uttar Pradesh, India","Saharanpur, Uttar Pradesh, India",0,2026-10-02T13:01:24+00:00
+Uttar Pradesh,Sambhal,Bhehjoi,28.4271928,78.5564546,district_centroid,"Sambhal district, Uttar Pradesh, India","Sambhal, Uttar Pradesh, India",0,2026-10-02T13:01:26+00:00
+Uttar Pradesh,Sambhal,Muradabad,28.4271928,78.5564546,district_centroid,"Sambhal district, Uttar Pradesh, India","Sambhal, Uttar Pradesh, India",0,2026-10-02T13:01:28+00:00
+Uttar Pradesh,Shahjahanpur,Badda,27.9128583,79.7476254,district_centroid,"Shahjahanpur district, Uttar Pradesh, India","Shahjahanpur, Uttar Pradesh, India",0,2026-10-02T13:01:30+00:00
+Uttar Pradesh,Shahjahanpur,Puwaha,27.9128583,79.7476254,district_centroid,"Shahjahanpur district, Uttar Pradesh, India","Shahjahanpur, Uttar Pradesh, India",0,2026-10-02T13:01:32+00:00
+Uttar Pradesh,Shamli,Khandhla,29.4811508,77.2901344,district_centroid,"Shamli district, Uttar Pradesh, India","Shamli, Uttar Pradesh, India",0,2026-10-02T13:01:34+00:00
+Uttar Pradesh,Shamli,Thanabhavan,29.4811508,77.2901344,district_centroid,"Shamli district, Uttar Pradesh, India","Shamli, Uttar Pradesh, India",0,2026-10-02T13:01:36+00:00
+Uttar Pradesh,Shravasti,Payagpur,27.3990446,81.7925593,market,"Payagpur, Uttar Pradesh, India","Payagpur, Bahraich, Uttar Pradesh, 271871, India",26.1,2026-10-02T13:01:38+00:00
+Uttar Pradesh,Siddharth Nagar,Bansi,27.1430969,82.9502211,market,"Bansi, Uttar Pradesh, India","Bansi, Siddharthnagar, Uttar Pradesh, India",18.7,2026-10-02T13:01:40+00:00
+Uttar Pradesh,Siddharth Nagar,Naugarh,27.2748041,83.088518,market,"Naugarh, Uttar Pradesh, India","Naugarh, NH730, Naugarh, Siddharthnagar, Uttar Pradesh, 272203, India",2.1,2026-10-02T13:01:42+00:00
+Uttar Pradesh,Siddharth Nagar,Sahiyapur,27.2752892,83.0675485,district_centroid,"Siddharth Nagar district, Uttar Pradesh, India","Police Office Siddharth Nagar, siddharth nagar, NH28;NH730, Naugarh, Siddharthnagar, Uttar Pradesh, 272203, India",0,2026-10-02T13:01:44+00:00
+Uttar Pradesh,Siddharth Nagar,Wansi,27.2752892,83.0675485,district_centroid,"Siddharth Nagar district, Uttar Pradesh, India","Police Office Siddharth Nagar, siddharth nagar, NH28;NH730, Naugarh, Siddharthnagar, Uttar Pradesh, 272203, India",0,2026-10-02T13:01:47+00:00
+Uttar Pradesh,Sitapur,Mehmoodabad,27.5026748,80.8335139,district_centroid,"Sitapur district, Uttar Pradesh, India","Sitapur, Uttar Pradesh, India",0,2026-10-02T13:01:49+00:00
+Uttar Pradesh,Sitapur,Mishrit,27.5026748,80.8335139,district_centroid,"Sitapur district, Uttar Pradesh, India","Sitapur, Uttar Pradesh, India",0,2026-10-02T13:01:51+00:00
+Uttar Pradesh,Sitapur,Viswan,27.5026748,80.8335139,district_centroid,"Sitapur district, Uttar Pradesh, India","Sitapur, Uttar Pradesh, India",0,2026-10-02T13:01:53+00:00

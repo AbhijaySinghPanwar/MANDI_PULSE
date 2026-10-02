@@ -189,10 +189,10 @@ Mandi Pulse:
 
 ### 6.4 Mandi geolocation
 
-- Build a unique list of `(state, district, market)`.
-- Geocode with Nominatim: query `"{market}, {district}, {state}, India"`, falling back to `"{district}, {state}, India"` (district centroid) if not found.
-- **Rate limit: 1 request/second**, with a proper `User-Agent`. Cache results in `data/reference/market_geo.csv` so geocoding never repeats.
-- Store `geo_precision` = `market` | `district_centroid` | `manual`.
+- Build a unique list of canonical `(state, district, market)` from `data/reference/market_aliases.csv`. The aliases map every raw name to one canonical name per (state, district): ` APMC` suffix stripped and HTML entities unescaped. Doubtful matches are flagged for review, never merged automatically.
+- Geocode with Nominatim: query `"{market}, {district}, {state}, India"` (bracketed locality first, then the name before the brackets), then the same without the district, falling back to the district centroid if not found. A hit is accepted only if it is in the right state and within `geo.max_km_from_district` (100 km) of the district centroid. District spellings that differ from OSM are mapped in `data/reference/district_osm_names.csv`.
+- **Rate limit: 1 request/second**, with a plain application `User-Agent`. The contact email (`NOMINATIM_EMAIL` in `.env`) is sent as Nominatim's `email=` parameter, because a User-Agent containing the email was refused with HTTP 403. Cache results in `data/reference/market_geo.csv` (district centroids in `district_geo.csv`), so geocoding never repeats and an interrupted run resumes.
+- Store `geo_precision` = `market` | `district_centroid` | `manual` | `not_found`. "market" is effectively town/locality level.
 - Provide `data/reference/market_geo_overrides.csv` for manual fixes (empty at first). Overrides win.
 
 ### 6.5 Ingestion requirements

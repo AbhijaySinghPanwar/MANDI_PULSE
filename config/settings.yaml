@@ -40,7 +40,9 @@ api:
   max_retries: 5
 
 geo:
-  nominatim_user_agent: "mandi-pulse-portfolio (contact: <your-email>)"
+  nominatim_url: "https://nominatim.openstreetmap.org/search"
+  nominatim_user_agent: "MandiPulse/0.1"   # contact email (NOMINATIM_EMAIL in .env) goes in the email= parameter
+  max_km_from_district: 100    # a market hit farther than this from its district centroid is rejected
   min_delay_s: 1.0
   road_factor: 1.3
   max_pair_km: 150
