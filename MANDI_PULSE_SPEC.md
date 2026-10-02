@@ -62,10 +62,14 @@ Mandi Pulse:
 ## 3. Scope (keep it finishable)
 
 **In scope (v1):**
-- **Commodities:** Tomato, Onion, Potato (perishable vs storable contrast). Configurable in `config/settings.yaml` so more can be added later.
-- **States:** Start with 4 major producing states, e.g., **Maharashtra, Karnataka, Madhya Pradesh, Tamil Nadu**. Configurable.
-- **History:** As many years as can be reliably obtained, target **≥ 2 years** for the ML parts.
-- **Granularity:** Daily, per market × commodity (varieties aggregated, see Section 6.3).
+- **Commodities:** Tomato, Onion, Potato (perishable vs storable contrast). Matched by exact name; the look-alikes **`Onion Green` and `Sweet Potato` are explicitly excluded**. Configurable in `config/settings.yaml` so more can be added later.
+- **States:** **Maharashtra, Madhya Pradesh, Uttar Pradesh, Gujarat** (decided after Phase 0 profiling; configurable). They form one contiguous block, which helps the nearby-mandi analysis.
+  - *Tamil Nadu dropped:* since 2024 about 92% of its rows come from Uzhavar Sandhai farmer-to-consumer markets with retail-like prices (about 2× wholesale); its other markets often enter prices per kg instead of per quintal; and there is no history from 2013 to mid-2024.
+  - *Karnataka dropped:* thin data at market level. Only 2–24 market series per crop report on ≥ 180 days a year, falling to 2–6 in 2025.
+  - *Caveat:* Madhya Pradesh has a reporting gap in Jan–Sep 2024.
+  - Evidence: `docs/DATA_SOURCES.md` sections 1.5–1.8 and 4.
+- **History:** load from **2018-01-01**. Every row carries a `period` tag: `main` = 2018-01-01 → 2025-10-31 (the analysis window) and `post_format_change` = 2025-11-01 onward (kept, but after the Nov-2025 source change; see 6.1).
+- **Granularity:** Daily, per market × commodity (varieties aggregated, see Section 7.4).
 
 **Out of scope (v1):** real-time mobile app, road-network routing, farmer-level personal data, any paid APIs.
 
@@ -155,7 +159,7 @@ Mandi Pulse:
 ### 6.1 Primary (history): Kaggle archive
 
 - Dataset: *"Daily Market Prices of Commodity India (2001-2026)"* by khandelwalmanas on Kaggle, **GODL-India** licence (attribute in README).
-- Downloaded manually into the project root as `parquet/{YYYY}.parquet` and `csv/{YYYY}.csv` (same content). **Both are gitignored and must never be committed.** Use the Parquet files.
+- Downloaded manually. The Parquet files live in `data/raw/kaggle/{YYYY}.parquet` (path in `sources.kaggle.parquet_glob`). A CSV copy with the same content is redundant. **Both are gitignored and must never be committed.** Use the Parquet files.
 - About 76M rows, 2001-01-10 → 2026-04-21. Columns: `State, District, Market, Commodity, Variety, Grade, Arrival_Date, Min_Price, Max_Price, Modal_Price, Commodity_Code`. There is **no arrival-quantity column**.
 - **Never load the full archive into pandas.** Query it in place with DuckDB (or Polars lazy mode); only small filtered results come into memory. Read with `union_by_name=true` and cast prices to DOUBLE (types differ between yearly files).
 - Known caveats (details in `docs/DATA_SOURCES.md`):
@@ -180,7 +184,8 @@ Mandi Pulse:
 - Requires a free API key (`DATA_GOV_API_KEY` in `.env`).
 - Expected fields: `state, district, market, commodity, variety, grade, arrival_date, min_price, max_price, modal_price`.
 - This resource only exposes *recent* records, so it is the incremental feed, not a history source. Rows written with `source = 'datagov_daily'`.
-- **Rule:** TODO (the rule for data.gov.in was cut off in the Phase 0 instructions; to be filled in by the user).
+- **Pagination rule:** When paginating the data.gov.in API, keep requesting the next offset until a page comes back empty. Never assume the server honours the requested limit; it may return fewer rows per page (e.g., 10 instead of 1000). Log the actual rows received per page.
+  - Implementation consequence: the next offset advances by the number of rows **actually received**, not by the requested limit. Otherwise rows are skipped whenever the server returns short pages.
 
 ### 6.4 Mandi geolocation
 
@@ -329,7 +334,7 @@ The ML parts are deliberately **practical and explainable**. The goal is a model
   1. Naive: last observed price
   2. Seasonal naive: price 7 days ago
   3. 7-day moving average
-- **Validation:** walk-forward (expanding window). For each of the last 6 months: train on everything before the month, predict each day of that month. Never shuffle.
+- **Validation:** walk-forward (expanding window). Test months are **May–Oct 2025**, the last 6 months of the `main` period (`ml.walk_forward_test_months` in config). For each test month: train on everything before the month, predict each day of that month. Never shuffle. `post_format_change` rows are not used for evaluation.
 - **Metrics:** MAE (₹/qtl), MAPE, sMAPE, overall and per commodity; band coverage (% of actuals inside the p10–p90 band, target ≈ 80%).
 - **Success criterion:** ≥ 10% lower MAE than the best baseline on the walk-forward test. If not met, keep the model and write up why (this is still a valid, honest result).
 
@@ -596,8 +601,18 @@ CI runs ruff, pytest, and `dbt build` against a Postgres service container seede
 ```yaml
 scope:
   commodities: ["Tomato", "Onion", "Potato"]
-  states: ["Maharashtra", "Karnataka", "Madhya Pradesh", "Tamil Nadu"]
-  backfill_start: "2023-01-01"
+  exclude_commodities: ["Onion Green", "Sweet Potato"]
+  states: ["Maharashtra", "Madhya Pradesh", "Uttar Pradesh", "Gujarat"]
+  backfill_start: "2018-01-01"
+
+periods:
+  main:               { start: "2018-01-01", end: "2025-10-31" }
+  post_format_change: { start: "2025-11-01" }
+
+sources:   # precedence: kaggle (history) -> ceda (cross-check + arrivals) -> datagov (daily, later)
+  kaggle:  { parquet_glob: "data/raw/kaggle/*.parquet", source_tag: "kaggle_archive" }
+  ceda:    { enabled: false, source_tag: "ceda" }
+  datagov: { enabled: false, source_tag: "datagov_daily" }
 
 api:
   datagov_resource_id: "9ef84268-d588-465a-a308-a864a43d0070"   # verify in Phase 0
@@ -635,7 +650,7 @@ ml:
   ffill_limit_days: 3
   forecast_horizon_days: 7
   quantiles: [0.1, 0.5, 0.9]
-  walk_forward_months: 6
+  walk_forward_test_months: ["2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10"]
   crash:
     horizon_days: 14
     lookback_days: 30

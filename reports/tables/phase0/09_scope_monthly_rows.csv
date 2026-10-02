@@ -1,189 +1,293 @@
 month,state,n_rows,n_markets
+2022-01,Gujarat,1296,31
 2022-01,Karnataka,1495,44
 2022-01,Madhya Pradesh,3073,66
 2022-01,Maharashtra,2579,87
+2022-01,Uttar Pradesh,13618,202
+2022-02,Gujarat,1267,31
 2022-02,Karnataka,1453,43
 2022-02,Madhya Pradesh,2897,65
 2022-02,Maharashtra,2700,87
+2022-02,Uttar Pradesh,12226,203
+2022-03,Gujarat,1199,27
 2022-03,Karnataka,1614,44
 2022-03,Madhya Pradesh,2957,65
 2022-03,Maharashtra,3005,88
+2022-03,Uttar Pradesh,13024,206
+2022-04,Gujarat,1163,26
 2022-04,Karnataka,1446,40
 2022-04,Madhya Pradesh,2875,66
 2022-04,Maharashtra,2752,87
+2022-04,Uttar Pradesh,13510,207
+2022-05,Gujarat,1182,28
 2022-05,Karnataka,1448,40
 2022-05,Madhya Pradesh,3068,72
 2022-05,Maharashtra,2484,87
+2022-05,Uttar Pradesh,13634,210
+2022-06,Gujarat,1137,26
 2022-06,Karnataka,1424,40
 2022-06,Madhya Pradesh,2752,72
 2022-06,Maharashtra,2554,89
+2022-06,Uttar Pradesh,13585,210
+2022-07,Gujarat,1151,26
 2022-07,Karnataka,1427,42
 2022-07,Madhya Pradesh,2918,68
 2022-07,Maharashtra,2844,92
+2022-07,Uttar Pradesh,13226,207
+2022-08,Gujarat,958,26
 2022-08,Karnataka,1424,41
 2022-08,Madhya Pradesh,3053,68
 2022-08,Maharashtra,2665,91
+2022-08,Uttar Pradesh,13747,208
+2022-09,Gujarat,1110,27
 2022-09,Karnataka,1471,41
 2022-09,Madhya Pradesh,3230,68
 2022-09,Maharashtra,1925,87
+2022-09,Uttar Pradesh,14013,207
+2022-10,Gujarat,870,26
 2022-10,Karnataka,1290,39
 2022-10,Madhya Pradesh,2939,70
 2022-10,Maharashtra,2493,88
+2022-10,Uttar Pradesh,13132,204
+2022-11,Gujarat,1134,24
 2022-11,Karnataka,1344,42
 2022-11,Madhya Pradesh,3168,68
 2022-11,Maharashtra,2480,89
+2022-11,Uttar Pradesh,13180,204
+2022-12,Gujarat,1263,26
 2022-12,Karnataka,1508,43
 2022-12,Madhya Pradesh,3312,68
 2022-12,Maharashtra,2985,91
+2022-12,Uttar Pradesh,13507,200
+2023-01,Gujarat,1189,27
 2023-01,Karnataka,1463,42
 2023-01,Madhya Pradesh,3076,65
 2023-01,Maharashtra,2185,90
+2023-01,Uttar Pradesh,13421,201
+2023-02,Gujarat,1150,29
 2023-02,Karnataka,1288,40
 2023-02,Madhya Pradesh,2931,66
 2023-02,Maharashtra,2816,90
+2023-02,Uttar Pradesh,12305,201
+2023-03,Gujarat,1138,27
 2023-03,Karnataka,1415,40
 2023-03,Madhya Pradesh,2875,65
 2023-03,Maharashtra,3283,94
+2023-03,Uttar Pradesh,13380,201
+2023-04,Gujarat,1187,29
 2023-04,Karnataka,1401,41
 2023-04,Madhya Pradesh,2735,64
 2023-04,Maharashtra,2897,92
+2023-04,Uttar Pradesh,13645,203
+2023-05,Gujarat,1366,28
 2023-05,Karnataka,1429,42
 2023-05,Madhya Pradesh,2913,64
 2023-05,Maharashtra,2995,96
+2023-05,Uttar Pradesh,13870,205
+2023-06,Gujarat,1214,28
 2023-06,Karnataka,1496,43
 2023-06,Madhya Pradesh,2855,65
 2023-06,Maharashtra,3077,97
+2023-06,Uttar Pradesh,13605,201
+2023-07,Gujarat,1393,32
 2023-07,Karnataka,1498,48
 2023-07,Madhya Pradesh,2809,65
 2023-07,Maharashtra,3312,103
+2023-07,Uttar Pradesh,13094,204
+2023-08,Gujarat,1319,33
 2023-08,Karnataka,1299,44
 2023-08,Madhya Pradesh,2510,67
 2023-08,Maharashtra,3076,105
 2023-08,Tamil Nadu,4,1
+2023-08,Uttar Pradesh,11602,202
+2023-09,Gujarat,1386,35
 2023-09,Karnataka,1059,43
 2023-09,Madhya Pradesh,2399,65
 2023-09,Maharashtra,2524,99
 2023-09,Tamil Nadu,5,1
+2023-09,Uttar Pradesh,13199,201
+2023-10,Gujarat,1499,34
 2023-10,Karnataka,1217,50
 2023-10,Madhya Pradesh,2868,65
 2023-10,Maharashtra,2829,96
 2023-10,Tamil Nadu,7,2
+2023-10,Uttar Pradesh,13329,201
+2023-11,Gujarat,1178,33
 2023-11,Karnataka,1186,48
 2023-11,Madhya Pradesh,2297,61
 2023-11,Maharashtra,2471,95
 2023-11,Tamil Nadu,2,2
+2023-11,Uttar Pradesh,12483,198
+2023-12,Gujarat,1585,36
 2023-12,Karnataka,1221,43
 2023-12,Madhya Pradesh,2086,74
 2023-12,Maharashtra,2913,94
 2023-12,Tamil Nadu,2,1
+2023-12,Uttar Pradesh,13230,198
+2024-01,Gujarat,1565,35
 2024-01,Karnataka,1012,41
 2024-01,Madhya Pradesh,604,29
 2024-01,Maharashtra,2813,93
 2024-01,Tamil Nadu,3,1
+2024-01,Uttar Pradesh,12942,198
+2024-02,Gujarat,1633,39
 2024-02,Karnataka,1210,41
 2024-02,Madhya Pradesh,579,29
 2024-02,Maharashtra,2765,95
 2024-02,Tamil Nadu,8,2
+2024-02,Uttar Pradesh,12808,199
+2024-03,Gujarat,1432,37
 2024-03,Karnataka,1213,38
 2024-03,Madhya Pradesh,602,32
 2024-03,Maharashtra,3104,97
 2024-03,Tamil Nadu,3,2
+2024-03,Uttar Pradesh,13010,206
+2024-04,Gujarat,1457,35
 2024-04,Karnataka,975,39
 2024-04,Madhya Pradesh,712,37
 2024-04,Maharashtra,1924,97
+2024-04,Uttar Pradesh,12934,209
+2024-05,Gujarat,1797,35
 2024-05,Karnataka,1221,38
 2024-05,Madhya Pradesh,858,42
 2024-05,Maharashtra,2981,103
 2024-05,Tamil Nadu,2,1
+2024-05,Uttar Pradesh,14189,210
+2024-06,Gujarat,1689,35
 2024-06,Karnataka,1128,41
 2024-06,Madhya Pradesh,974,40
 2024-06,Maharashtra,2819,101
 2024-06,Tamil Nadu,3300,89
+2024-06,Uttar Pradesh,13458,206
+2024-07,Gujarat,1909,37
 2024-07,Karnataka,1197,39
 2024-07,Madhya Pradesh,998,39
 2024-07,Maharashtra,3098,103
 2024-07,Tamil Nadu,11642,247
+2024-07,Uttar Pradesh,14060,207
+2024-08,Gujarat,1703,37
 2024-08,Karnataka,1117,37
 2024-08,Madhya Pradesh,829,36
 2024-08,Maharashtra,3024,105
 2024-08,Tamil Nadu,14720,168
+2024-08,Uttar Pradesh,13637,204
+2024-09,Gujarat,1648,35
 2024-09,Karnataka,1043,39
 2024-09,Madhya Pradesh,963,56
 2024-09,Maharashtra,2990,102
 2024-09,Tamil Nadu,14213,169
+2024-09,Uttar Pradesh,13209,202
+2024-10,Gujarat,1764,36
 2024-10,Karnataka,1023,36
 2024-10,Madhya Pradesh,1694,66
 2024-10,Maharashtra,3069,101
 2024-10,Tamil Nadu,14580,168
+2024-10,Uttar Pradesh,12799,199
+2024-11,Gujarat,1595,37
 2024-11,Karnataka,766,36
 2024-11,Madhya Pradesh,1733,63
 2024-11,Maharashtra,2849,99
 2024-11,Tamil Nadu,13469,168
+2024-11,Uttar Pradesh,11992,197
+2024-12,Gujarat,1908,38
 2024-12,Karnataka,972,33
 2024-12,Madhya Pradesh,1849,64
 2024-12,Maharashtra,3294,98
 2024-12,Tamil Nadu,14103,169
+2024-12,Uttar Pradesh,13043,200
+2025-01,Gujarat,1952,37
 2025-01,Karnataka,1104,34
 2025-01,Madhya Pradesh,2086,67
 2025-01,Maharashtra,3283,101
 2025-01,Tamil Nadu,14404,167
+2025-01,Uttar Pradesh,13749,198
+2025-02,Gujarat,1919,37
 2025-02,Karnataka,924,33
 2025-02,Madhya Pradesh,1822,62
 2025-02,Maharashtra,2560,94
 2025-02,Tamil Nadu,13174,168
+2025-02,Uttar Pradesh,14870,203
+2025-03,Gujarat,2019,37
 2025-03,Karnataka,432,26
 2025-03,Madhya Pradesh,1743,62
 2025-03,Maharashtra,3230,96
 2025-03,Tamil Nadu,14145,168
+2025-03,Uttar Pradesh,15035,202
+2025-04,Gujarat,1999,36
 2025-04,Karnataka,552,22
 2025-04,Madhya Pradesh,2382,76
 2025-04,Maharashtra,3060,100
 2025-04,Tamil Nadu,14261,168
+2025-04,Uttar Pradesh,15092,203
+2025-05,Gujarat,2099,35
 2025-05,Karnataka,625,23
 2025-05,Madhya Pradesh,2647,81
 2025-05,Maharashtra,3132,100
 2025-05,Tamil Nadu,14260,170
+2025-05,Uttar Pradesh,16015,206
+2025-06,Gujarat,1915,34
 2025-06,Karnataka,673,23
 2025-06,Madhya Pradesh,2539,79
 2025-06,Maharashtra,3241,106
 2025-06,Tamil Nadu,13328,168
+2025-06,Uttar Pradesh,15100,210
+2025-07,Gujarat,2089,34
 2025-07,Karnataka,707,22
 2025-07,Madhya Pradesh,2765,78
 2025-07,Maharashtra,3248,102
 2025-07,Tamil Nadu,11532,170
+2025-07,Uttar Pradesh,15563,210
+2025-08,Gujarat,1841,34
 2025-08,Karnataka,548,22
 2025-08,Madhya Pradesh,2730,85
 2025-08,Maharashtra,2890,103
 2025-08,Tamil Nadu,8448,169
+2025-08,Uttar Pradesh,14765,208
+2025-09,Gujarat,1737,35
 2025-09,Karnataka,696,25
 2025-09,Madhya Pradesh,3234,91
 2025-09,Maharashtra,2628,98
 2025-09,Tamil Nadu,7912,168
+2025-09,Uttar Pradesh,13100,213
+2025-10,Gujarat,1269,35
 2025-10,Karnataka,408,25
 2025-10,Madhya Pradesh,2169,91
 2025-10,Maharashtra,1769,97
 2025-10,Tamil Nadu,5758,167
+2025-10,Uttar Pradesh,9533,209
+2025-11,Gujarat,151,32
 2025-11,Karnataka,23,15
 2025-11,Madhya Pradesh,174,69
 2025-11,Maharashtra,152,71
 2025-11,Tamil Nadu,488,152
+2025-11,Uttar Pradesh,878,192
+2025-12,Gujarat,599,37
 2025-12,Karnataka,288,33
 2025-12,Madhya Pradesh,536,39
 2025-12,Maharashtra,790,73
 2025-12,Tamil Nadu,3652,168
+2025-12,Uttar Pradesh,2530,167
+2026-01,Gujarat,683,37
 2026-01,Karnataka,336,35
 2026-01,Madhya Pradesh,448,49
 2026-01,Maharashtra,926,83
 2026-01,Tamil Nadu,4312,167
+2026-01,Uttar Pradesh,2104,168
+2026-02,Gujarat,501,38
 2026-02,Karnataka,278,39
 2026-02,Madhya Pradesh,664,79
 2026-02,Maharashtra,818,87
 2026-02,Tamil Nadu,3801,185
+2026-02,Uttar Pradesh,999,131
+2026-03,Gujarat,383,37
 2026-03,Karnataka,246,37
 2026-03,Madhya Pradesh,497,72
 2026-03,Maharashtra,685,87
 2026-03,Tamil Nadu,4222,185
+2026-03,Uttar Pradesh,658,93
+2026-04,Gujarat,348,36
 2026-04,Karnataka,241,36
 2026-04,Madhya Pradesh,412,66
 2026-04,Maharashtra,637,87
 2026-04,Tamil Nadu,3715,352
+2026-04,Uttar Pradesh,1569,180

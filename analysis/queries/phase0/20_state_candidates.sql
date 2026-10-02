@@ -22,4 +22,4 @@ select
 from series_year
 group by all
 having sum(case when report_days >= 180 then 1 else 0 end) > 0
-order by commodity, (y2022 + y2023 + y2024) desc;
+order by commodity, (y2022 + y2023 + y2024) desc, state;

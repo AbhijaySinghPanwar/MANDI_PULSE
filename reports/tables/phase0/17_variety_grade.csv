@@ -1,66 +1,70 @@
 commodity,variety,grade,n_rows
-Onion,Other,FAQ,194817
-Onion,Onion,FAQ,83180
+Onion,Red,FAQ,572902
+Onion,Other,FAQ,403421
+Onion,Onion,FAQ,126613
 Onion,Bellary,Local,81640
-Onion,Red,FAQ,56222
-Onion,Local,FAQ,44928
-Onion,1st Sort,FAQ,9158
+Onion,Local,FAQ,55234
+Onion,Nasik,FAQ,21154
+Onion,White,FAQ,15920
+Onion,1st Sort,FAQ,12078
+Onion,Pusa-Red,FAQ,8833
+Onion,Beelary-Red,FAQ,8661
 Onion,Puna,FAQ,8640
-Onion,White,FAQ,7948
-Onion,Other,Local,7908
-Onion,Beelary-Red,FAQ,6369
-Onion,Pusa-Red,FAQ,4935
-Onion,Bangalore-Samall,FAQ,4168
+Onion,Medium,FAQ,8034
+Onion,Other,Local,8021
+Onion,Red,Non-FAQ,6568
+Onion,Dry F.A.Q.,FAQ,5255
+Onion,Bangalore-Samall,FAQ,4170
 Onion,Telagi,FAQ,3870
 Onion,Local,Medium,3758
-Onion,Medium,FAQ,3517
-Onion,Onion,Medium,3313
-Onion,Onion,Non-FAQ,2991
+Onion,Onion,Medium,3348
+Onion,Onion,Non-FAQ,3237
 Onion,Local,Local,2987
-Onion,Red,Local,2880
+Onion,Red,Local,2891
 Onion,Pole,FAQ,2103
-Onion,2nd Sort,FAQ,1766
-Onion,Hybrid,FAQ,1484
-Onion,Nasik,FAQ,1249
-Onion,Other,Medium,927
-Onion,Onion,Local,775
+Onion,Hybrid,FAQ,1946
+Onion,2nd Sort,FAQ,1921
+Onion,Bombay (U.P.),FAQ,1403
+Onion,Other,Medium,984
+Onion,Small,FAQ,950
+Onion,Onion,Local,891
 Onion,Onion-Organic,FAQ,667
+Onion,Other,Non-FAQ,643
+Onion,Bellary,FAQ,593
 Onion,Local,Non-FAQ,547
-Onion,Telagi,Medium,532
 Onion,Beelary-Red,Medium,532
+Onion,Telagi,Medium,532
+Onion,Medium,Non-FAQ,506
 Onion,Puna,Medium,502
-Onion,Onion,Small,384
+Onion,Onion,Small,434
+Onion,Nasik,Non-FAQ,350
+Onion,1st Sort,Non-FAQ,340
 Onion,White,Local,309
+Onion,Big,FAQ,305
 Onion,Onion,Large,284
 Onion,1st Sort,Local,275
-Onion,Bombay (U.P.),FAQ,273
-Onion,Other,Non-FAQ,256
-Onion,Medium,Non-FAQ,253
 Onion,Beelary-Red,Large,253
 Onion,Local,Small,211
 Onion,Bangalore-Samall,Medium,210
 Onion,Pusa-Red,Medium,202
 Onion,2nd Sort,Local,200
-Onion,Red,Non-FAQ,187
 Onion,Local,Large,179
 Onion,White,Medium,172
 Onion,Bangalore-Samall,Small,169
-Onion,Small,FAQ,165
 Onion,Puna,Local,161
-Onion,Big,FAQ,159
 Onion,Pole,Local,157
-Onion,1st Sort,Non-FAQ,151
 Onion,Hybrid,Medium,146
-Onion,Small - I,FAQ,128
+Onion,Red,Medium,145
+Onion,Small - I,FAQ,136
+Onion,Onion,Grade A,108
 Onion,Onion-Organic,Non-FAQ,105
 Onion,Beelary-Red,Local,101
-Onion,Dry F.A.Q.,FAQ,94
-Onion,Bellary,FAQ,92
 Onion,Bombay (U.P.),Medium,66
+Onion,Red,Grade B,62
 Onion,Bangalore-Samall,Local,53
+Onion,Red,Grade C,49
 Onion,Puna,Large,45
 Onion,Onion,Ref grade-1,38
-Onion,Onion,Grade A,37
 Onion,Other,Ref grade-1,35
 Onion,Bangalore-Samall,Large,32
 Onion,Pusa-Red,Small,32
@@ -69,160 +73,194 @@ Onion,Pusa-Red,Local,29
 Onion,Beelary-Red,Small,29
 Onion,Telagi,Local,29
 Onion,White,Small,27
+Onion,Onion,Grade B,24
+Onion,White,Non-FAQ,20
 Onion,Hybrid,Local,19
-Onion,Red,Medium,16
-Onion,Other,Large,14
-Onion,White,Non-FAQ,13
-Onion,Other,Grade B,11
+Onion,Medium,Medium,17
+Onion,Onion,Grade C,17
+Onion,Other,Grade B,16
+Onion,Nasik,Local,15
+Onion,Other,Large,15
+Onion,Red,Grade Range-3,11
 Onion,1st Sort,Grade A,11
-Onion,Onion,Grade C,9
-Onion,Puna,Ref grade-1,8
 Onion,Local,Grade C,8
+Onion,Puna,Ref grade-1,8
 Onion,Hybrid,Grade A,7
-Onion,Local,Ref grade-1,6
 Onion,Beelary-Red,Ref grade-1,6
-Onion,Nasik,Non-FAQ,6
-Onion,Other,Grade Range-1,5
+Onion,Local,Ref grade-1,6
 Onion,Onion,Ref grade-2,5
-Onion,Medium,Medium,5
 Onion,Pusa-Red,Ref grade-1,5
+Onion,Red,Grade A,5
+Onion,Other,Grade Range-1,5
+Onion,Small No. II,FAQ,4
+Onion,Hybrid,Non-FAQ,4
+Onion,Nasik,Grade C,3
+Onion,Other,Grade A,3
+Onion,Local,Grade B,3
 Onion,1st Sort,Grade B,3
 Onion,Other,Grade C,3
-Onion,Local,Grade B,3
-Onion,Bangalore-Samall,Ref grade-1,2
-Onion,Bombay (U.P.),Ref grade-1,2
 Onion,Dry F.A.Q.,Non-FAQ,2
-Onion,Puna,Non-FAQ,2
-Onion,Small,Non-FAQ,2
-Onion,Other,Small,2
 Onion,Local,Ref grade-2,2
 Onion,Hybrid,Large,2
+Onion,Small,Non-FAQ,2
+Onion,Other,Small,2
+Onion,Bombay (U.P.),Ref grade-1,2
+Onion,Bangalore-Samall,Ref grade-1,2
+Onion,Puna,Non-FAQ,2
+Onion,New Pune,FAQ,1
+Onion,Hybrid,Small,1
 Onion,Telagi,Ref grade-1,1
-Onion,Other,Ref grade-2,1
 Onion,Pole,Non-FAQ,1
 Onion,Red,Large,1
-Onion,Red,Small,1
-Onion,Hybrid,Small,1
-Onion,Puna,Small,1
-Onion,Hybrid,Non-FAQ,1
-Onion,Bombay (U.P.),Local,1
-Onion,New Pune,FAQ,1
-Onion,Telagi,Large,1
+Onion,Pole,Large,1
 Onion,Telagi,Small,1
 Onion,Nasik,Grade A,1
-Onion,Hybrid,Grade B,1
 Onion,Bellary,Non-FAQ,1
-Potato,Other,FAQ,145418
+Onion,Other,Ref grade-2,1
+Onion,Puna,Small,1
+Onion,Red,Small,1
+Onion,Hybrid,Grade B,1
+Onion,Bombay (U.P.),Local,1
+Onion,2nd Sort,Medium,1
+Onion,Telagi,Large,1
+Potato,Other,FAQ,383405
+Potato,Desi,FAQ,360806
+Potato,Potato,FAQ,182709
+Potato,Local,FAQ,94342
 Potato,(Red Nanital),Local,59885
-Potato,Potato,FAQ,51168
-Potato,Local,FAQ,37678
-Potato,Desi,FAQ,17178
-Potato,Other,Local,4897
-Potato,Red Nanital,Local,4106
-Potato,(Red Nanital),FAQ,3875
-Potato,Local,Local,3202
-Potato,Potato,Medium,2656
-Potato,Chips,FAQ,1685
-Potato,Local,Medium,1593
-Potato,Jalander,FAQ,1205
-Potato,Potato,Non-FAQ,867
-Potato,Jyoti,FAQ,814
-Potato,Potato,Local,676
-Potato,Other,Medium,630
-Potato,Chandermukhi,FAQ,579
-Potato,Desi,Non-FAQ,487
-Potato,Badshah,FAQ,445
+Potato,F.A.Q.,FAQ,32833
+Potato,Red,FAQ,29958
+Potato,Badshah,FAQ,23561
+Potato,Chips,FAQ,8003
+Potato,(Red Nanital),FAQ,7879
+Potato,Kufri Megha,FAQ,6074
+Potato,Desi,Non-FAQ,5729
+Potato,Other,Local,4940
+Potato,Red Nanital,Local,4107
+Potato,Chandermukhi,FAQ,3517
+Potato,Local,Local,3296
+Potato,Jalander,FAQ,3244
+Potato,Kufri Giriraj,FAQ,2958
+Potato,Potato,Medium,2859
+Potato,Potato,Non-FAQ,2701
+Potato,Haldwani,FAQ,2148
+Potato,Local,Medium,1604
+Potato,Jyoti,FAQ,1098
+Potato,Potato,Local,863
+Potato,Other,Non-FAQ,844
+Potato,Badshah,Non-FAQ,734
+Potato,Other,Medium,671
+Potato,Shimla,FAQ,589
+Potato,Local,Non-FAQ,545
 Potato,Local,Large,419
-Potato,Potato,Small,348
-Potato,Local,Non-FAQ,294
-Potato,Other,Non-FAQ,280
-Potato,Military special,FAQ,276
+Potato,Potato,Small,395
+Potato,Military special,FAQ,277
 Potato,Chips,Medium,221
+Potato,Haldwani,Non-FAQ,211
 Potato,Local,Small,199
 Potato,Jalander,Medium,158
+Potato,Desi,Medium,149
+Potato,Potato,Grade A,112
+Potato,Red,Non-FAQ,112
 Potato,Potato,Large,97
 Potato,Chandermukhi,Medium,71
-Potato,Red,FAQ,50
+Potato,Big,FAQ,69
+Potato,(Red Nanital),Non-FAQ,64
+Potato,Desi,Local,61
+Potato,Potato,Grade B,56
 Potato,Potato,Ref grade-1,43
+Potato,Other,Grade B,41
 Potato,Chandermukhi,Small,38
-Potato,Other,Grade B,35
 Potato,Jalander,Large,34
 Potato,Chips,Local,34
-Potato,Chips,Large,33
 Potato,Local,Ref grade-1,33
-Potato,Kufri Giriraj,FAQ,26
-Potato,Potato,Grade A,23
-Potato,Big,FAQ,21
-Potato,Desi,Grade C,17
-Potato,Chandermukhi,Local,15
+Potato,Chips,Large,33
+Potato,Local,Grade C,30
+Potato,Local,Grade B,25
+Potato,Red Nanital,FAQ,24
+Potato,Desi,Grade C,23
+Potato,Kufri Khasi_garo,FAQ,19
+Potato,Red Nanital,Non-FAQ,16
+Potato,(Red Nanital),Medium,16
 Potato,Other,Small,15
+Potato,Chandermukhi,Local,15
 Potato,Jalander,Local,14
-Potato,F.A.Q.,FAQ,12
-Potato,Desi,Grade A,11
-Potato,Desi,Local,10
-Potato,Potato,Grade C,9
-Potato,Chips,Non-FAQ,9
+Potato,Desi,Grade A,13
+Potato,Chips,Non-FAQ,12
+Potato,Potato,Grade C,10
+Potato,Desi,Grade Range-3,10
 Potato,Other,Large,8
-Potato,Desi,Medium,8
 Potato,Other,Ref grade-1,7
-Potato,Local,Ref grade-2,4
+Potato,Desi,Grade B,7
+Potato,Kufri Megha,Non-FAQ,7
+Potato,Other,Grade A,7
 Potato,Potato,Grade Range-1,4
+Potato,Local,Ref grade-2,4
+Potato,Badshah,Local,3
 Potato,Kuber,FAQ,3
-Potato,Other,Grade A,2
-Potato,Local,Grade B,2
-Potato,Great Scott,FAQ,2
-Potato,Potato,Grade B,2
-Potato,Chandermukhi,Large,2
+Potato,F.A.Q.,Medium,3
 Potato,Jalander,Small,2
-Potato,Badshah,Medium,1
-Potato,Jyoti,Non-FAQ,1
-Potato,Potato,Ref grade-2,1
-Potato,Other,Ref grade-2,1
-Potato,Sinduri,FAQ,1
+Potato,Chandermukhi,Large,2
+Potato,Red,Medium,2
+Potato,Chips,Grade C,2
+Potato,Great Scott,FAQ,2
 Potato,Potato-Organic,FAQ,1
+Potato,Jyoti,Non-FAQ,1
+Potato,Sinduri,FAQ,1
+Potato,F.A.Q.,Grade Range-1,1
+Potato,Other,Ref grade-2,1
 Potato,Badshah,Large,1
+Potato,Potato,Ref grade-2,1
+Potato,Kufri Megha,Medium,1
+Potato,F.A.Q.,Local,1
 Potato,Other,Grade Range-1,1
-Potato,Kufri Khasi_garo,FAQ,1
-Tomato,Other,FAQ,162829
-Tomato,Tomato,FAQ,113663
-Tomato,Deshi,Local,75602
-Tomato,Local,FAQ,37340
-Tomato,Deshi,FAQ,23904
-Tomato,Hybrid,FAQ,12361
-Tomato,Tomato,Medium,9817
-Tomato,Other,Local,7016
-Tomato,Local,Local,3807
-Tomato,Sankar,FAQ,2248
-Tomato,Tomato,Local,2202
-Tomato,Tomato,Small,1758
+Potato,Badshah,Medium,1
+Potato,F.A.Q.,Large,1
+Potato,Chips,Grade B,1
+Tomato,Other,FAQ,322358
+Tomato,Deshi,FAQ,231443
+Tomato,Tomato,FAQ,225391
+Tomato,Hybrid,FAQ,179645
+Tomato,Local,FAQ,79647
+Tomato,Deshi,Local,75681
+Tomato,Tomato,Medium,9953
+Tomato,Other,Local,7089
+Tomato,Deshi,Non-FAQ,4040
+Tomato,Local,Local,3851
+Tomato,Sankar,FAQ,3293
+Tomato,Hybrid,Non-FAQ,2564
+Tomato,Tomato,Local,2424
+Tomato,Tomato,Non-FAQ,1965
+Tomato,Tomato,Small,1808
+Tomato,Local,Non-FAQ,1469
 Tomato,Tomato,Large,1239
-Tomato,Tomato,Non-FAQ,1082
-Tomato,Deshi,Non-FAQ,1036
-Tomato,Hybrid,Medium,541
-Tomato,Other,Non-FAQ,316
-Tomato,Hybrid,Non-FAQ,199
+Tomato,Other,Non-FAQ,801
+Tomato,Hybrid,Medium,644
+Tomato,Sankar,Non-FAQ,175
 Tomato,Tomato,Ref grade-1,158
-Tomato,Local,Non-FAQ,114
+Tomato,Tomato,Grade A,107
 Tomato,Hybrid,Small,64
-Tomato,Tomato,Grade A,39
-Tomato,Deshi,Grade A,31
-Tomato,Hybrid,Local,19
-Tomato,Tomato,Grade Range-1,18
+Tomato,Tomato,Grade B,62
+Tomato,Deshi,Medium,47
+Tomato,Hybrid,Local,40
+Tomato,Deshi,Grade A,32
+Tomato,Deshi,Grade C,25
+Tomato,Local,Grade C,19
+Tomato,Other,Grade B,18
 Tomato,Tomato,Ref grade-2,18
-Tomato,Deshi,Grade C,17
+Tomato,Tomato,Grade Range-1,18
+Tomato,Deshi,Grade B,15
+Tomato,Hybrid,Grade A,14
 Tomato,Deshi,Grade Range-1,14
-Tomato,Other,Grade B,13
-Tomato,Tomato,Grade B,13
-Tomato,Hybrid,Grade A,13
+Tomato,Tomato,Grade C,12
 Tomato,Hybrid,Large,11
-Tomato,Tomato,Grade C,11
-Tomato,Deshi,Medium,8
+Tomato,Deshi,Grade Range-3,9
 Tomato,Hybrid,Ref grade-1,7
+Tomato,Hybrid,Grade B,5
 Tomato,Local,Grade B,5
-Tomato,Other,Medium,4
-Tomato,Deshi,Grade B,4
-Tomato,Hybrid,Grade B,2
+Tomato,Other,Medium,5
+Tomato,Other,Grade A,3
 Tomato,Other,Grade Range-1,2
 Tomato,Other,Large,1
-Tomato,Other,Grade C,1
 Tomato,Local,Grade A,1
+Tomato,Other,Grade C,1

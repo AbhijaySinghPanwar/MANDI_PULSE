@@ -13,11 +13,11 @@
 - Spec Section 6 rewritten for the new source order: Kaggle (history) → CEDA (cross-check + arrivals) → data.gov.in (daily, later).
 - `pytest` (3 config smoke tests) and `ruff check` / `ruff format --check` pass.
 
-### Not done / deviations from the Phase 0 acceptance criteria
-- **`docker compose up` was not run.** Docker Desktop's engine wasn't running on this machine. `docker compose config` validates the file. To finish: start Docker Desktop, then `docker compose up -d`.
-- **No data.gov.in call** (user instruction: the site is unreachable). The resource ID stays unverified.
+### Phase 0 acceptance
+- **Postgres up:** `docker compose up -d` → container `mandipulse-postgres` healthy. Reached from Python via SQLAlchemy using `DATABASE_URL` from `.env`: `PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2)`, db `mandipulse`, user `mandipulse` (2026-10-02). (Docker Desktop wasn't running at first; it was launched from its per-user install.)
+- **No data.gov.in call** (site unreachable). This acceptance item is waived by the user; the resource ID stays unverified.
 - **No CEDA call** (token not yet provided).
-- **Spec §6.3 data.gov.in "rule"**: the instruction was cut off. A `TODO` placeholder is in the spec.
+- `docs/DATA_SOURCES.md` documents the chosen sources and caveats.
 
 ### Key findings (details and numbers in docs/DATA_SOURCES.md)
 1. 75984017 rows, 2001-01-10 → 2026-04-21. CSV and Parquet match exactly. The **archive ends 5½ months before today**.
@@ -27,20 +27,21 @@
 5. **Karnataka and Madhya Pradesh** look complete at state level but are thin at market level (median 34–52 report days per series over 2023-11 → 2025-10; Karnataka tomato 152). MP has a hole in Jan–Sep 2024.
 6. Quality: zero min/max placeholders are 2.4% overall but <0.5% a year from 2018. In scope: 136 exact duplicates (none conflicting), no null or zero modal prices.
 
-### Decisions needed
-Recommendation (reasons in docs/DATA_SOURCES.md §4). **Not applied to `config/settings.yaml` yet; waiting for the user's decision.**
-- **Crops:** keep Tomato, Onion, Potato.
-- **States:** Maharashtra, Madhya Pradesh, **Uttar Pradesh**, **Gujarat** (drop Tamil Nadu and Karnataka).
-- **Years:** core window 2018-01-01 → 2025-10-31. Keep 2025-11 → 2026-04 flagged as a separate regime. Walk-forward test months become May–Oct 2025.
-- **Raw data location:** the archive sits in `csv/` and `parquet/` at the repo root. The path is configurable (`sources.kaggle.parquet_glob`). It could be moved to `data/raw/kaggle/` if you prefer; it's gitignored either way.
+### Decisions (made by the user, 2026-10-02, applied)
+- **States:** Maharashtra, Madhya Pradesh, Uttar Pradesh, Gujarat. Tamil Nadu dropped (Uzhavar Sandhai retail-like prices, per-kg units, no 2013–mid-2024 history). Karnataka dropped (thin market-level data). Reasons recorded in `docs/DATA_SOURCES.md` §4 and spec §3.
+- **Years:** load from 2018-01-01. `period = 'main'` for 2018-01-01 → 2025-10-31, `'post_format_change'` from 2025-11-01. ML walk-forward test months May–Oct 2025 (spec §9.1, `ml.walk_forward_test_months`).
+- **Flagged:** Madhya Pradesh reporting gap Jan–Sep 2024 (`docs/DATA_SOURCES.md` §1.5).
+- **Crops:** Tomato, Onion, Potato. `Onion Green` and `Sweet Potato` are explicitly excluded (`scope.exclude_commodities`).
+- **Raw data:** Parquet moved to `data/raw/kaggle/`; config updated. **The CSV copy in `csv/` is not used anywhere and is safe for you to delete** (CSV/Parquet parity was verified: both have 75984017 rows and the same date range).
+- **data.gov.in pagination rule** added to spec §6.3, replacing the TODO.
+- Phase 0 profile re-run over the 6 states (original 4 + UP, GJ), so the docs cover both the dropped and the added states. New query `23_scope_quality_by_year` shows UP's zero-price placeholders are pre-2018 (34–55% of rows a year in 2008–2016, 1.83% in 2018, 0.01% in 2025).
 
 ### Spec sections that still reflect the old plan (to tidy when convenient)
 - §5 architecture box lists "data.gov.in / Agmarknet historical", not Kaggle/CEDA.
 - §12 Phase 0 acceptance ("one real API call succeeds") isn't achievable while data.gov.in is down.
-- §17 config starter has no `sources` block (the real `config/settings.yaml` does).
 - §3 references "Section 6.3" for variety aggregation; that rule is in §7.4.
 
-### Next (Phase 1, after the decisions above)
+### Next: Phase 1
 - Kaggle backfill → `data/raw/` partitions with `source='kaggle_archive'`; `load` into `raw.mandi_prices`; `ingest_log`.
 - CEDA client once the token is in `.env`; cross-check report.
 - Geocoding with cache and overrides.

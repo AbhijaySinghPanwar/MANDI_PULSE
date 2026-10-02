@@ -1,13 +1,19 @@
 commodity,state,n_rows,n_null_price,n_modal_nonpositive,n_min_or_max_nonpositive,n_min_gt_max,n_modal_outside_min_max,n_modal_below_50,n_modal_above_20000
+Onion,Gujarat,112739,0,0,21,6,13,1,0
 Onion,Karnataka,97654,0,0,31,6,16,20,0
 Onion,Madhya Pradesh,144100,0,0,32,15,692,14,4
 Onion,Maharashtra,225636,0,0,10,0,0,57,7
 Onion,Tamil Nadu,82875,0,0,6,5,5,1349,3
+Onion,Uttar Pradesh,724734,0,0,120742,1462,118630,11,0
+Potato,Gujarat,100689,0,0,16,8,16,7,0
 Potato,Karnataka,71902,0,0,37,6,21,18,1
 Potato,Madhya Pradesh,100252,0,0,19,12,152,3,0
 Potato,Maharashtra,103830,0,0,18,0,0,66,0
 Potato,Tamil Nadu,65960,0,0,47,1,1,917,2
+Potato,Uttar Pradesh,792514,0,0,125478,1439,123136,15,0
+Tomato,Gujarat,117986,0,0,35,5,10,209,0
 Tomato,Karnataka,115035,0,0,78,4,25,11,3
 Tomato,Madhya Pradesh,104141,0,0,14,9,9,1,1
 Tomato,Maharashtra,160117,0,0,4,0,0,241,2
 Tomato,Tamil Nadu,78255,0,0,2,3,3,663,4
+Tomato,Uttar Pradesh,580659,0,0,67473,1576,66360,3,0

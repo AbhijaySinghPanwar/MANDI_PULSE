@@ -1,4 +1,30 @@
 commodity,state,year,days_with_data,longest_gap_days,n_gaps_over_7d
+Onion,Gujarat,2001,63,36,4
+Onion,Gujarat,2002,297,4,0
+Onion,Gujarat,2003,330,2,0
+Onion,Gujarat,2004,357,2,0
+Onion,Gujarat,2005,354,1,0
+Onion,Gujarat,2006,351,1,0
+Onion,Gujarat,2007,365,0,0
+Onion,Gujarat,2008,366,0,0
+Onion,Gujarat,2009,365,0,0
+Onion,Gujarat,2010,365,0,0
+Onion,Gujarat,2011,365,0,0
+Onion,Gujarat,2012,366,0,0
+Onion,Gujarat,2013,365,0,0
+Onion,Gujarat,2014,364,1,0
+Onion,Gujarat,2015,364,1,0
+Onion,Gujarat,2016,365,1,0
+Onion,Gujarat,2017,365,0,0
+Onion,Gujarat,2018,365,0,0
+Onion,Gujarat,2019,353,4,0
+Onion,Gujarat,2020,360,2,0
+Onion,Gujarat,2021,362,1,0
+Onion,Gujarat,2022,360,4,0
+Onion,Gujarat,2023,359,3,0
+Onion,Gujarat,2024,361,2,0
+Onion,Gujarat,2025,335,22,1
+Onion,Gujarat,2026,98,5,0
 Onion,Karnataka,2001,7,308,2
 Onion,Karnataka,2002,346,3,0
 Onion,Karnataka,2003,358,7,0
@@ -94,6 +120,57 @@ Onion,Tamil Nadu,2023,18,1723,4
 Onion,Tamil Nadu,2024,207,88,5
 Onion,Tamil Nadu,2025,319,28,1
 Onion,Tamil Nadu,2026,101,4,0
+Onion,Uttar Pradesh,2002,152,13,2
+Onion,Uttar Pradesh,2003,365,0,0
+Onion,Uttar Pradesh,2004,365,1,0
+Onion,Uttar Pradesh,2005,365,0,0
+Onion,Uttar Pradesh,2006,364,1,0
+Onion,Uttar Pradesh,2007,364,1,0
+Onion,Uttar Pradesh,2008,365,1,0
+Onion,Uttar Pradesh,2009,365,0,0
+Onion,Uttar Pradesh,2010,365,0,0
+Onion,Uttar Pradesh,2011,365,0,0
+Onion,Uttar Pradesh,2012,366,0,0
+Onion,Uttar Pradesh,2013,365,0,0
+Onion,Uttar Pradesh,2014,365,0,0
+Onion,Uttar Pradesh,2015,365,0,0
+Onion,Uttar Pradesh,2016,366,0,0
+Onion,Uttar Pradesh,2017,365,0,0
+Onion,Uttar Pradesh,2018,365,0,0
+Onion,Uttar Pradesh,2019,365,0,0
+Onion,Uttar Pradesh,2020,366,0,0
+Onion,Uttar Pradesh,2021,365,0,0
+Onion,Uttar Pradesh,2022,365,0,0
+Onion,Uttar Pradesh,2023,365,0,0
+Onion,Uttar Pradesh,2024,366,0,0
+Onion,Uttar Pradesh,2025,339,26,1
+Onion,Uttar Pradesh,2026,102,4,0
+Potato,Gujarat,2001,61,36,4
+Potato,Gujarat,2002,284,5,0
+Potato,Gujarat,2003,331,2,0
+Potato,Gujarat,2004,357,2,0
+Potato,Gujarat,2005,352,2,0
+Potato,Gujarat,2006,363,1,0
+Potato,Gujarat,2007,364,1,0
+Potato,Gujarat,2008,366,0,0
+Potato,Gujarat,2009,364,1,0
+Potato,Gujarat,2010,365,0,0
+Potato,Gujarat,2011,365,0,0
+Potato,Gujarat,2012,366,0,0
+Potato,Gujarat,2013,365,0,0
+Potato,Gujarat,2014,365,0,0
+Potato,Gujarat,2015,364,1,0
+Potato,Gujarat,2016,366,0,0
+Potato,Gujarat,2017,365,0,0
+Potato,Gujarat,2018,365,0,0
+Potato,Gujarat,2019,365,0,0
+Potato,Gujarat,2020,364,1,0
+Potato,Gujarat,2021,362,1,0
+Potato,Gujarat,2022,360,4,0
+Potato,Gujarat,2023,359,3,0
+Potato,Gujarat,2024,362,2,0
+Potato,Gujarat,2025,339,24,1
+Potato,Gujarat,2026,100,3,0
 Potato,Karnataka,2001,4,308,2
 Potato,Karnataka,2002,342,10,1
 Potato,Karnataka,2003,358,7,0
@@ -181,6 +258,57 @@ Potato,Tamil Nadu,2014,1,701,1
 Potato,Tamil Nadu,2024,195,3638,1
 Potato,Tamil Nadu,2025,319,28,1
 Potato,Tamil Nadu,2026,101,3,0
+Potato,Uttar Pradesh,2002,152,13,2
+Potato,Uttar Pradesh,2003,365,0,0
+Potato,Uttar Pradesh,2004,365,1,0
+Potato,Uttar Pradesh,2005,365,0,0
+Potato,Uttar Pradesh,2006,364,1,0
+Potato,Uttar Pradesh,2007,365,0,0
+Potato,Uttar Pradesh,2008,366,0,0
+Potato,Uttar Pradesh,2009,365,0,0
+Potato,Uttar Pradesh,2010,365,0,0
+Potato,Uttar Pradesh,2011,365,0,0
+Potato,Uttar Pradesh,2012,366,0,0
+Potato,Uttar Pradesh,2013,365,0,0
+Potato,Uttar Pradesh,2014,365,0,0
+Potato,Uttar Pradesh,2015,365,0,0
+Potato,Uttar Pradesh,2016,366,0,0
+Potato,Uttar Pradesh,2017,365,0,0
+Potato,Uttar Pradesh,2018,365,0,0
+Potato,Uttar Pradesh,2019,365,0,0
+Potato,Uttar Pradesh,2020,366,0,0
+Potato,Uttar Pradesh,2021,365,0,0
+Potato,Uttar Pradesh,2022,365,0,0
+Potato,Uttar Pradesh,2023,365,0,0
+Potato,Uttar Pradesh,2024,366,0,0
+Potato,Uttar Pradesh,2025,342,22,1
+Potato,Uttar Pradesh,2026,101,3,0
+Tomato,Gujarat,2001,31,4,0
+Tomato,Gujarat,2002,291,6,0
+Tomato,Gujarat,2003,335,2,0
+Tomato,Gujarat,2004,361,1,0
+Tomato,Gujarat,2005,361,1,0
+Tomato,Gujarat,2006,355,1,0
+Tomato,Gujarat,2007,365,0,0
+Tomato,Gujarat,2008,366,0,0
+Tomato,Gujarat,2009,365,0,0
+Tomato,Gujarat,2010,365,0,0
+Tomato,Gujarat,2011,365,0,0
+Tomato,Gujarat,2012,366,0,0
+Tomato,Gujarat,2013,365,0,0
+Tomato,Gujarat,2014,365,0,0
+Tomato,Gujarat,2015,365,0,0
+Tomato,Gujarat,2016,366,0,0
+Tomato,Gujarat,2017,365,0,0
+Tomato,Gujarat,2018,365,0,0
+Tomato,Gujarat,2019,365,0,0
+Tomato,Gujarat,2020,366,0,0
+Tomato,Gujarat,2021,364,1,0
+Tomato,Gujarat,2022,362,3,0
+Tomato,Gujarat,2023,362,1,0
+Tomato,Gujarat,2024,366,0,0
+Tomato,Gujarat,2025,338,26,1
+Tomato,Gujarat,2026,102,3,0
 Tomato,Karnataka,2001,5,27,1
 Tomato,Karnataka,2002,342,3,0
 Tomato,Karnataka,2003,357,7,0
@@ -271,3 +399,28 @@ Tomato,Tamil Nadu,2023,2,3909,1
 Tomato,Tamil Nadu,2024,199,89,5
 Tomato,Tamil Nadu,2025,320,28,1
 Tomato,Tamil Nadu,2026,102,3,0
+Tomato,Uttar Pradesh,2002,133,13,3
+Tomato,Uttar Pradesh,2003,365,0,0
+Tomato,Uttar Pradesh,2004,365,1,0
+Tomato,Uttar Pradesh,2005,361,1,0
+Tomato,Uttar Pradesh,2006,364,1,0
+Tomato,Uttar Pradesh,2007,365,0,0
+Tomato,Uttar Pradesh,2008,365,1,0
+Tomato,Uttar Pradesh,2009,365,0,0
+Tomato,Uttar Pradesh,2010,365,0,0
+Tomato,Uttar Pradesh,2011,365,0,0
+Tomato,Uttar Pradesh,2012,366,0,0
+Tomato,Uttar Pradesh,2013,365,0,0
+Tomato,Uttar Pradesh,2014,364,1,0
+Tomato,Uttar Pradesh,2015,365,0,0
+Tomato,Uttar Pradesh,2016,366,0,0
+Tomato,Uttar Pradesh,2017,365,0,0
+Tomato,Uttar Pradesh,2018,365,0,0
+Tomato,Uttar Pradesh,2019,365,0,0
+Tomato,Uttar Pradesh,2020,366,0,0
+Tomato,Uttar Pradesh,2021,365,0,0
+Tomato,Uttar Pradesh,2022,365,0,0
+Tomato,Uttar Pradesh,2023,365,0,0
+Tomato,Uttar Pradesh,2024,366,0,0
+Tomato,Uttar Pradesh,2025,341,23,1
+Tomato,Uttar Pradesh,2026,102,3,0

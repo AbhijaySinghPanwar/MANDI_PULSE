@@ -1,4 +1,30 @@
 commodity,state,year,n_rows
+Onion,Gujarat,2001,124
+Onion,Gujarat,2002,847
+Onion,Gujarat,2003,1899
+Onion,Gujarat,2004,2421
+Onion,Gujarat,2005,2651
+Onion,Gujarat,2006,2538
+Onion,Gujarat,2007,4523
+Onion,Gujarat,2008,3880
+Onion,Gujarat,2009,5908
+Onion,Gujarat,2010,6337
+Onion,Gujarat,2011,5762
+Onion,Gujarat,2012,5312
+Onion,Gujarat,2013,5241
+Onion,Gujarat,2014,5830
+Onion,Gujarat,2015,6437
+Onion,Gujarat,2016,5624
+Onion,Gujarat,2017,4909
+Onion,Gujarat,2018,5587
+Onion,Gujarat,2019,4846
+Onion,Gujarat,2020,3986
+Onion,Gujarat,2021,3953
+Onion,Gujarat,2022,5132
+Onion,Gujarat,2023,5682
+Onion,Gujarat,2024,6646
+Onion,Gujarat,2025,6037
+Onion,Gujarat,2026,627
 Onion,Karnataka,2001,14
 Onion,Karnataka,2002,3551
 Onion,Karnataka,2003,4072
@@ -94,6 +120,57 @@ Onion,Tamil Nadu,2023,18
 Onion,Tamil Nadu,2024,29573
 Onion,Tamil Nadu,2025,45528
 Onion,Tamil Nadu,2026,6551
+Onion,Uttar Pradesh,2002,801
+Onion,Uttar Pradesh,2003,7454
+Onion,Uttar Pradesh,2004,6380
+Onion,Uttar Pradesh,2005,8160
+Onion,Uttar Pradesh,2006,12285
+Onion,Uttar Pradesh,2007,17071
+Onion,Uttar Pradesh,2008,21130
+Onion,Uttar Pradesh,2009,19128
+Onion,Uttar Pradesh,2010,30044
+Onion,Uttar Pradesh,2011,33508
+Onion,Uttar Pradesh,2012,24927
+Onion,Uttar Pradesh,2013,26227
+Onion,Uttar Pradesh,2014,26586
+Onion,Uttar Pradesh,2015,27541
+Onion,Uttar Pradesh,2016,23232
+Onion,Uttar Pradesh,2017,37172
+Onion,Uttar Pradesh,2018,49232
+Onion,Uttar Pradesh,2019,47269
+Onion,Uttar Pradesh,2020,50538
+Onion,Uttar Pradesh,2021,50981
+Onion,Uttar Pradesh,2022,52508
+Onion,Uttar Pradesh,2023,51633
+Onion,Uttar Pradesh,2024,51538
+Onion,Uttar Pradesh,2025,47941
+Onion,Uttar Pradesh,2026,1448
+Potato,Gujarat,2001,95
+Potato,Gujarat,2002,610
+Potato,Gujarat,2003,1496
+Potato,Gujarat,2004,2260
+Potato,Gujarat,2005,2588
+Potato,Gujarat,2006,3434
+Potato,Gujarat,2007,4136
+Potato,Gujarat,2008,4814
+Potato,Gujarat,2009,5236
+Potato,Gujarat,2010,5265
+Potato,Gujarat,2011,4565
+Potato,Gujarat,2012,4376
+Potato,Gujarat,2013,4266
+Potato,Gujarat,2014,4748
+Potato,Gujarat,2015,5046
+Potato,Gujarat,2016,4974
+Potato,Gujarat,2017,4387
+Potato,Gujarat,2018,4621
+Potato,Gujarat,2019,5038
+Potato,Gujarat,2020,3337
+Potato,Gujarat,2021,3376
+Potato,Gujarat,2022,3795
+Potato,Gujarat,2023,4602
+Potato,Gujarat,2024,6503
+Potato,Gujarat,2025,6520
+Potato,Gujarat,2026,601
 Potato,Karnataka,2001,4
 Potato,Karnataka,2002,2230
 Potato,Karnataka,2003,2718
@@ -181,6 +258,57 @@ Potato,Tamil Nadu,2014,2
 Potato,Tamil Nadu,2024,26304
 Potato,Tamil Nadu,2025,34417
 Potato,Tamil Nadu,2026,4327
+Potato,Uttar Pradesh,2002,901
+Potato,Uttar Pradesh,2003,8598
+Potato,Uttar Pradesh,2004,7093
+Potato,Uttar Pradesh,2005,9072
+Potato,Uttar Pradesh,2006,13574
+Potato,Uttar Pradesh,2007,18643
+Potato,Uttar Pradesh,2008,22732
+Potato,Uttar Pradesh,2009,20307
+Potato,Uttar Pradesh,2010,31466
+Potato,Uttar Pradesh,2011,36518
+Potato,Uttar Pradesh,2012,25171
+Potato,Uttar Pradesh,2013,28396
+Potato,Uttar Pradesh,2014,27097
+Potato,Uttar Pradesh,2015,28350
+Potato,Uttar Pradesh,2016,24217
+Potato,Uttar Pradesh,2017,44348
+Potato,Uttar Pradesh,2018,57623
+Potato,Uttar Pradesh,2019,58124
+Potato,Uttar Pradesh,2020,54228
+Potato,Uttar Pradesh,2021,54956
+Potato,Uttar Pradesh,2022,56978
+Potato,Uttar Pradesh,2023,56109
+Potato,Uttar Pradesh,2024,55332
+Potato,Uttar Pradesh,2025,50387
+Potato,Uttar Pradesh,2026,2294
+Tomato,Gujarat,2001,56
+Tomato,Gujarat,2002,491
+Tomato,Gujarat,2003,1297
+Tomato,Gujarat,2004,2117
+Tomato,Gujarat,2005,2661
+Tomato,Gujarat,2006,2955
+Tomato,Gujarat,2007,4489
+Tomato,Gujarat,2008,5573
+Tomato,Gujarat,2009,5690
+Tomato,Gujarat,2010,6020
+Tomato,Gujarat,2011,5679
+Tomato,Gujarat,2012,5279
+Tomato,Gujarat,2013,5046
+Tomato,Gujarat,2014,5553
+Tomato,Gujarat,2015,5945
+Tomato,Gujarat,2016,5737
+Tomato,Gujarat,2017,5064
+Tomato,Gujarat,2018,6606
+Tomato,Gujarat,2019,6724
+Tomato,Gujarat,2020,5436
+Tomato,Gujarat,2021,4775
+Tomato,Gujarat,2022,4803
+Tomato,Gujarat,2023,5320
+Tomato,Gujarat,2024,6951
+Tomato,Gujarat,2025,7032
+Tomato,Gujarat,2026,687
 Tomato,Karnataka,2001,5
 Tomato,Karnataka,2002,2572
 Tomato,Karnataka,2003,3135
@@ -271,3 +399,28 @@ Tomato,Tamil Nadu,2023,2
 Tomato,Tamil Nadu,2024,30166
 Tomato,Tamil Nadu,2025,41417
 Tomato,Tamil Nadu,2026,5172
+Tomato,Uttar Pradesh,2002,585
+Tomato,Uttar Pradesh,2003,5243
+Tomato,Uttar Pradesh,2004,3213
+Tomato,Uttar Pradesh,2005,3477
+Tomato,Uttar Pradesh,2006,4053
+Tomato,Uttar Pradesh,2007,6106
+Tomato,Uttar Pradesh,2008,7621
+Tomato,Uttar Pradesh,2009,6954
+Tomato,Uttar Pradesh,2010,14745
+Tomato,Uttar Pradesh,2011,15972
+Tomato,Uttar Pradesh,2012,12811
+Tomato,Uttar Pradesh,2013,17455
+Tomato,Uttar Pradesh,2014,16614
+Tomato,Uttar Pradesh,2015,19553
+Tomato,Uttar Pradesh,2016,18003
+Tomato,Uttar Pradesh,2017,30539
+Tomato,Uttar Pradesh,2018,45709
+Tomato,Uttar Pradesh,2019,50297
+Tomato,Uttar Pradesh,2020,49786
+Tomato,Uttar Pradesh,2021,50885
+Tomato,Uttar Pradesh,2022,50916
+Tomato,Uttar Pradesh,2023,49421
+Tomato,Uttar Pradesh,2024,51211
+Tomato,Uttar Pradesh,2025,47902
+Tomato,Uttar Pradesh,2026,1588

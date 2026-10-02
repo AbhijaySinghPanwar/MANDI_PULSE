@@ -1,9 +1,21 @@
 scope:
   # Exact spellings as they appear in the Kaggle archive (verified in Phase 0, see docs/DATA_SOURCES.md).
-  # Beware look-alikes that must NOT be matched: "Onion Green", "Sweet Potato".
+  # Always match with exact equality, never LIKE.
   commodities: ["Tomato", "Onion", "Potato"]
-  states: ["Maharashtra", "Karnataka", "Madhya Pradesh", "Tamil Nadu"]
-  backfill_start: "2023-01-01"   # Phase 0 recommendation pending user decision (see PROGRESS.md)
+  exclude_commodities: ["Onion Green", "Sweet Potato"]   # look-alikes; must never enter the pipeline
+  # Decided after Phase 0: Tamil Nadu dropped (Uzhavar Sandhai retail-like prices, Rs/kg entries,
+  # no history before mid-2024); Karnataka dropped (too few market series with >= 180 report days/yr).
+  states: ["Maharashtra", "Madhya Pradesh", "Uttar Pradesh", "Gujarat"]
+  backfill_start: "2018-01-01"
+
+# Every row gets a `period` tag from its arrival_date.
+periods:
+  main:               { start: "2018-01-01", end: "2025-10-31" }   # core analysis window
+  post_format_change: { start: "2025-11-01" }                      # after the Nov-2025 source change
+
+profiling:
+  # Phase 0 profiled the original spec states plus the replacements, so docs cover both.
+  states: ["Maharashtra", "Karnataka", "Madhya Pradesh", "Tamil Nadu", "Uttar Pradesh", "Gujarat"]
 
 sources:
   # Order of precedence: Kaggle archive (history) -> CEDA (cross-check + arrivals) -> data.gov.in (daily, later)
@@ -11,8 +23,8 @@ sources:
     name: "Daily Market Prices of Commodity India (2001-2026)"
     author: "khandelwalmanas"
     licence: "GODL-India"
-    parquet_glob: "parquet/*.parquet"   # one file per year; gitignored
-    csv_glob: "csv/*.csv"               # same content as parquet; gitignored
+    parquet_glob: "data/raw/kaggle/*.parquet"   # one file per year; gitignored
+    csv_glob: "csv/*.csv"                       # same content as parquet; gitignored, safe to delete
     source_tag: "kaggle_archive"
   ceda:
     enabled: false                      # token goes in .env as CEDA_API_TOKEN; not called yet
@@ -57,7 +69,8 @@ ml:
   ffill_limit_days: 3
   forecast_horizon_days: 7
   quantiles: [0.1, 0.5, 0.9]
-  walk_forward_months: 6
+  # Test months for the walk-forward evaluation (last 6 months of the main period).
+  walk_forward_test_months: ["2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10"]
   crash:
     horizon_days: 14
     lookback_days: 30

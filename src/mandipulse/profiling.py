@@ -6,7 +6,7 @@ Parquet files in place; only small aggregated results come back into memory.
 Each query lives in analysis/queries/phase0/*.sql and reads from three views
 defined here:
   prices        - every row of the archive, with consistent column types
-  scope_prices  - prices filtered to the commodities and states in settings.yaml
+  scope_prices  - prices filtered to scope.commodities and profiling.states in settings.yaml
   source_files  - the raw files on disk (name, format, size in bytes)
 Results are written to reports/tables/phase0/<query name>.csv.
 """
@@ -31,7 +31,7 @@ def connect() -> duckdb.DuckDBPyConnection:
     parquet_glob = (PROJECT_ROOT / kaggle["parquet_glob"]).as_posix()
     csv_glob = (PROJECT_ROOT / kaggle["csv_glob"]).as_posix()
     commodities = _sql_list(cfg["scope"]["commodities"])
-    states = _sql_list(cfg["scope"]["states"])
+    states = _sql_list(cfg["profiling"]["states"])
 
     con = duckdb.connect()
     # Older files store prices as INT64 and newer ones as DOUBLE, so cast explicitly.
