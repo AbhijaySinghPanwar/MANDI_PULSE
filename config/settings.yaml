@@ -55,6 +55,16 @@ quality:
   outlier_min_state_markets: 3     # fewer markets reporting that state-day -> own-history rule only
   outlier_rule: temporal_and_cross_section   # "temporal" = spec 7.3 as written (flags real spikes)
   unit_bounds_per_qtl: { min: 50, max: 20000 }
+  zero_min_max_as_missing: true    # min/max <= 0 are placeholders -> NULL; the row stays if modal is fine
+  # Suspect (NOT part of is_valid): a series persistently far below its state's same-day median.
+  persistent_low:
+    log_ratio: 1.0986              # row is "low" if modal < state same-day median / 3
+    min_rows_per_series: 30        # ...and its market x commodity series has >= 30 such low days
+    min_share_of_series: 0.10      # ...making up >= 10% of the series' days with a state reference
+  include_suspect_low: false       # headline analysis excludes suspect-low rows; sensitivity includes them
+
+analysis:
+  period: main                     # Phase 3 marts use 2018-01-01 .. 2025-10-31 only
 
 opportunity:
   min_gain_abs: 100

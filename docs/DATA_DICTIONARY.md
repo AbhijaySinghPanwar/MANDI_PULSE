@@ -67,23 +67,29 @@ Rows: 595
 | `first_report_date` | date | First date with a valid daily price for any commodity. |
 | `last_report_date` | date | Last date with a valid daily price for any commodity. |
 | `n_report_days` | bigint | Distinct dates with a valid daily price for any commodity. |
+| `has_valid_data` | boolean | True if the market has at least one valid daily price. Markets without valid data are excluded from all analysis. |
 | `n_markets_in_town` | bigint | Number of markets sharing this market's town_key. |
 
 ## `marts.fact_daily_price`
 
 One row per date x market x commodity, from valid rows only. Gaps are not filled.
 
-Rows: 1770723
+Rows: 1778272
 
 | Column | Type | Description |
 |---|---|---|
 | `date_key` | integer | FK to dim_date. |
 | `market_key` | text | FK to dim_market. |
 | `commodity_key` | integer | FK to dim_commodity. |
-| `modal_price` | numeric | Median of the valid modal prices across varieties/grades that day, Rs per quintal. |
-| `min_price` | numeric | Lowest valid min price across varieties/grades that day, Rs per quintal. |
-| `max_price` | numeric | Highest valid max price across varieties/grades that day, Rs per quintal. |
+| `modal_price` | numeric | Median of the valid modal prices across varieties/grades that day, EXCLUDING suspect-low rows, Rs per quintal. NULL when every valid row that day is suspect-low (is_suspect_low). |
+| `min_price` | numeric | Lowest valid min price that day (suspect-low rows excluded), Rs per quintal. NULL if no row had a min (placeholders of 0 are treated as missing). |
+| `max_price` | numeric | Highest valid max price that day (suspect-low rows excluded), Rs per quintal. NULL if no row had a max. |
+| `modal_price_incl_suspect` | numeric | Like modal_price but over ALL valid rows, including suspect-low rows (sensitivity analysis). |
+| `min_price_incl_suspect` | numeric | Like min_price but including suspect-low rows. |
+| `max_price_incl_suspect` | numeric | Like max_price but including suspect-low rows. |
 | `n_varieties` | bigint | Distinct varieties behind the day's price. |
 | `n_rows` | bigint | Valid staging rows aggregated into this row. |
+| `n_suspect_rows` | bigint | How many of those rows carry the suspect flag flag_persistent_low. |
+| `is_suspect_low` | boolean | True when every valid row that day is suspect-low (then modal_price is NULL). |
 | `source` | text | Source tag(s) of the underlying rows, comma-separated (today always 'kaggle_archive'). |
 | `period` | text | 'main' or 'post_format_change' (see dim_date.period). |

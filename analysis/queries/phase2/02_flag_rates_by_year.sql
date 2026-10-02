@@ -1,6 +1,7 @@
 -- Quality-flag rates by year (all in-scope rows in staging). A row can carry several flags,
 -- so the per-flag percentages can add up to more than pct_invalid.
 -- n_outlier_spec_rule = outliers under spec 7.3 as written (own-history only), for comparison.
+-- n_suspect_low = suspect flag (not part of is_valid).
 select
     extract(year from arrival_date)::int                                        as year,
     count(*)                                                                     as n_rows,
@@ -10,6 +11,7 @@ select
     count(*) filter (where flag_outlier_temporal)                                as n_outlier_spec_rule,
     count(*) filter (where flag_unit_suspect)                                    as n_unit_suspect,
     count(*) filter (where not is_valid)                                         as n_invalid,
+    count(*) filter (where flag_persistent_low)                                  as n_suspect_low,
     round(100.0 * count(*) filter (where flag_nonpositive) / count(*), 2)       as pct_nonpositive,
     round(100.0 * count(*) filter (where flag_order) / count(*), 2)             as pct_order,
     round(100.0 * count(*) filter (where flag_outlier) / count(*), 2)           as pct_outlier,
@@ -24,6 +26,7 @@ select
     count(*) filter (where flag_outlier), count(*) filter (where flag_outlier_temporal),
     count(*) filter (where flag_unit_suspect),
     count(*) filter (where not is_valid),
+    count(*) filter (where flag_persistent_low),
     round(100.0 * count(*) filter (where flag_nonpositive) / count(*), 2),
     round(100.0 * count(*) filter (where flag_order) / count(*), 2),
     round(100.0 * count(*) filter (where flag_outlier) / count(*), 2),

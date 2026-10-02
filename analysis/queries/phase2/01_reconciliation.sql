@@ -8,6 +8,9 @@
 --   staging_rows             staging.stg_mandi_prices
 --   flagged_invalid          rows with >= 1 quality flag (kept in int_price_flags, not in the fact)
 --   valid_rows               is_valid rows
+--   valid_with_minmax_placeholder  valid rows whose 0 min/max was treated as missing (kept)
+--   suspect_low_rows         valid rows with the suspect flag flag_persistent_low (in the fact's
+--                            *_incl_suspect prices, excluded from modal_price)
 --   collapsed_in_daily       valid rows merged into one daily row (several varieties/grades per day)
 --   daily_fact_rows          marts.fact_daily_price
 with keyed as (
@@ -48,7 +51,9 @@ flags as (
     select state, commodity,
            count(*)                         as staging_rows,
            count(*) filter (where not is_valid) as flagged_invalid,
-           count(*) filter (where is_valid)     as valid_rows
+           count(*) filter (where is_valid)     as valid_rows,
+           count(*) filter (where is_valid and is_min_max_placeholder) as valid_with_minmax_placeholder,
+           count(*) filter (where flag_persistent_low) as suspect_low_rows
     from intermediate.int_price_flags
     group by 1, 2
 ),
@@ -68,6 +73,8 @@ select
     f.staging_rows,
     f.flagged_invalid,
     f.valid_rows,
+    f.valid_with_minmax_placeholder,
+    f.suspect_low_rows,
     f.valid_rows - dl.daily_fact_rows               as collapsed_in_daily,
     dl.daily_fact_rows,
     r.raw_rows - coalesce(d.exact_dup, 0) - coalesce(d.alias_same_price, 0)

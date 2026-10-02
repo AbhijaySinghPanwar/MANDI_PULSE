@@ -238,7 +238,9 @@ Flag rows (don't delete them; filter them in marts):
   - *Tuned in Phase 2:* the rolling median uses the 30 days **before** the report (same day excluded, ≥ 5 prior report days required). A row is an outlier only if it is also > 3× off the **same-day median of its state's markets** (when ≥ 3 markets report that day). The own-history rule alone flagged 24% of tomato rows in July 2023 (the genuine nationwide spike), which would delete the very crashes and spikes the ML layer must learn. The spec-only result is kept as `flag_outlier_temporal`; `quality.outlier_rule: temporal` restores it.
 - `flag_unit_suspect`: price < ₹50/quintal or > ₹20,000/quintal for TOP crops (configurable bounds; likely a per-kg or per-tonne entry error)
 
-`is_valid = NOT any flag`. Report the % of rows flagged per flag in the README. This is a talking point ("I found and handled X% bad records").
+`is_valid = NOT any flag`.
+
+*Phase 2.1 decisions:* a min or max ≤ 0 is a placeholder and is treated as missing (`flag_nonpositive` checks the modal only; order is checked only against bounds that are present). A **suspect** flag `flag_persistent_low` (not part of `is_valid`) marks series persistently > 3× below the same-day state median; analysis excludes them by default (`quality.include_suspect_low: false`) and a sensitivity build includes them. Markets with no valid rows (`dim_market.has_valid_data = false`) are excluded from all analysis. Report the % of rows flagged per flag in the README. This is a talking point ("I found and handled X% bad records").
 
 ### 7.4 Daily series (`int_daily_prices`)
 

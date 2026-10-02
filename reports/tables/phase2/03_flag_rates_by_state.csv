@@ -1,13 +1,13 @@
 state,commodity,n_rows,pct_nonpositive,pct_order,pct_outlier,pct_unit_suspect,pct_invalid
-Gujarat,Onion,42496,0.01,0.01,0.07,0.0,0.08
-Gujarat,Potato,38393,0.01,0.01,0.05,0.01,0.07
+Gujarat,Onion,42496,0.0,0.0,0.07,0.0,0.07
+Gujarat,Potato,38393,0.0,0.0,0.05,0.01,0.06
 Gujarat,Tomato,48333,0.0,0.0,0.07,0.42,0.49
-Madhya Pradesh,Onion,80501,0.01,0.84,0.92,0.02,1.72
-Madhya Pradesh,Potato,59736,0.01,0.24,0.11,0.0,0.35
-Madhya Pradesh,Tomato,62603,0.02,0.01,0.15,0.0,0.17
+Madhya Pradesh,Onion,80501,0.0,0.84,0.92,0.02,1.71
+Madhya Pradesh,Potato,59736,0.0,0.23,0.11,0.0,0.33
+Madhya Pradesh,Tomato,62603,0.0,0.0,0.15,0.0,0.16
 Maharashtra,Onion,116201,0.0,0.0,0.16,0.02,0.18
 Maharashtra,Potato,48837,0.0,0.0,0.07,0.04,0.11
 Maharashtra,Tomato,83038,0.0,0.0,0.27,0.04,0.31
-Uttar Pradesh,Onion,403080,0.52,0.52,0.02,0.0,0.54
-Uttar Pradesh,Potato,446020,0.62,0.62,0.01,0.0,0.63
-Uttar Pradesh,Tomato,397704,0.67,0.67,0.02,0.0,0.69
+Uttar Pradesh,Onion,403080,0.0,0.0,0.02,0.0,0.02
+Uttar Pradesh,Potato,446020,0.0,0.0,0.01,0.0,0.01
+Uttar Pradesh,Tomato,397704,0.0,0.0,0.02,0.0,0.02

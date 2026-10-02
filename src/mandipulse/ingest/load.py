@@ -59,6 +59,14 @@ def init_raw_schema(engine: Engine, schema: str = "raw") -> None:
         conn.exec_driver_sql(ddl)
 
 
+def _reader(glob: str) -> str:
+    """DuckDB table function for the archive: Parquet (the Kaggle archive) or CSV in the same
+    column layout (the synthetic CI fixture in tests/fixtures/)."""
+    if glob.lower().endswith(".csv"):
+        return f"read_csv('{glob}', header = true, filename = true, union_by_name = true)"
+    return f"read_parquet('{glob}', filename = true, union_by_name = true)"
+
+
 def scope_select_sql(parquet_glob: str, cfg: dict) -> str:
     """DuckDB SELECT over the archive: in-scope rows with a `valid` flag and a `period` tag."""
     scope, periods = cfg["scope"], cfg["periods"]
@@ -83,7 +91,7 @@ def scope_select_sql(parquet_glob: str, cfg: dict) -> str:
                 cast(Modal_Price as double) as modal_price,
                 Commodity_Code as commodity_code,
                 regexp_extract(filename, '[^/\\\\]+$') as source_file
-            from read_parquet('{parquet_glob}', filename = true, union_by_name = true)
+            from {_reader(parquet_glob)}
             where Commodity in ({_sql_list(commodities)})
               and Commodity not in ({_sql_list(excluded)})
               and State in ({_sql_list(scope["states"])})

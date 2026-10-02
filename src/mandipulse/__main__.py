@@ -18,12 +18,17 @@ def profile_kaggle(
 
 
 @app.command("load")
-def load() -> None:
+def load(
+    source_glob: str = typer.Option(
+        None, help="Load these files instead of the archive (Parquet or CSV), e.g. the CI fixture."
+    ),
+) -> None:
     """Load the in-scope Kaggle slice into Postgres raw.mandi_prices (idempotent)."""
     from mandipulse.db import get_engine
     from mandipulse.ingest.load import load_kaggle
 
-    stats = load_kaggle(get_engine())
+    glob = (PROJECT_ROOT / source_glob).as_posix() if source_glob else None
+    stats = load_kaggle(get_engine(), parquet_glob=glob)
     for key, value in stats.items():
         typer.echo(f"{key:>14}: {value}")
 

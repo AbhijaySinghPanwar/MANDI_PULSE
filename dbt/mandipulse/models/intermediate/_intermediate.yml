@@ -16,7 +16,7 @@ models:
             columns: [series_id, arrival_date]
 
   - name: int_price_flags
-    description: Every staging row with the four spec 7.3 quality flags and is_valid. Rows are never deleted here.
+    description: Every staging row with the four spec 7.3 validity flags, is_valid, and the suspect flag flag_persistent_low. Rows are never deleted here.
     tests:
       - modal_between_min_max:
           arguments:
@@ -37,6 +37,9 @@ models:
       - name: flag_outlier
         tests: [not_null]
       - name: flag_unit_suspect
+        tests: [not_null]
+      - name: flag_persistent_low
+        description: Suspect flag (not part of is_valid), see model header.
         tests: [not_null]
 
   - name: int_daily_prices

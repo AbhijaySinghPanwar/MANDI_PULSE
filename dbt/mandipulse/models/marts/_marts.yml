@@ -91,6 +91,9 @@ models:
         description: Distinct dates with a valid daily price for any commodity.
       - name: n_markets_in_town
         description: Number of markets sharing this market's town_key.
+      - name: has_valid_data
+        description: True if the market has at least one valid daily price. Markets without valid data are excluded from all analysis.
+        tests: [not_null]
 
   - name: fact_daily_price
     description: One row per date x market x commodity, from valid rows only. Gaps are not filled.
@@ -103,6 +106,11 @@ models:
             modal: modal_price
             low: min_price
             high: max_price
+      - modal_between_min_max:
+          arguments:
+            modal: modal_price_incl_suspect
+            low: min_price_incl_suspect
+            high: max_price_incl_suspect
     columns:
       - name: date_key
         description: FK to dim_date.
@@ -129,16 +137,31 @@ models:
                 to: ref('dim_commodity')
                 field: commodity_key
       - name: modal_price
-        description: Median of the valid modal prices across varieties/grades that day, Rs per quintal.
-        tests: [not_null]
+        description: Median of the valid modal prices across varieties/grades that day, EXCLUDING suspect-low rows, Rs per quintal. NULL when every valid row that day is suspect-low (is_suspect_low).
+        tests:
+          - not_null:
+              config:
+                where: "not is_suspect_low"
       - name: min_price
-        description: Lowest valid min price across varieties/grades that day, Rs per quintal.
+        description: Lowest valid min price that day (suspect-low rows excluded), Rs per quintal. NULL if no row had a min (placeholders of 0 are treated as missing).
       - name: max_price
-        description: Highest valid max price across varieties/grades that day, Rs per quintal.
+        description: Highest valid max price that day (suspect-low rows excluded), Rs per quintal. NULL if no row had a max.
+      - name: modal_price_incl_suspect
+        description: Like modal_price but over ALL valid rows, including suspect-low rows (sensitivity analysis).
+        tests: [not_null]
+      - name: min_price_incl_suspect
+        description: Like min_price but including suspect-low rows.
+      - name: max_price_incl_suspect
+        description: Like max_price but including suspect-low rows.
       - name: n_varieties
         description: Distinct varieties behind the day's price.
       - name: n_rows
         description: Valid staging rows aggregated into this row.
+      - name: n_suspect_rows
+        description: How many of those rows carry the suspect flag flag_persistent_low.
+      - name: is_suspect_low
+        description: True when every valid row that day is suspect-low (then modal_price is NULL).
+        tests: [not_null]
       - name: source
         description: Source tag(s) of the underlying rows, comma-separated (today always 'kaggle_archive').
       - name: period

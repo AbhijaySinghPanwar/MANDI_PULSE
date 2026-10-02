@@ -2,6 +2,8 @@
 -- Coordinates: geocode cache (reference.market_geo); manual overrides win (geo_precision 'manual').
 -- town_key groups markets with identical coordinates (e.g. 'Betul' and 'Betul (F&V)' both resolve
 -- to Betul town), so later analyses don't treat same-town yards as "another mandi".
+-- has_valid_data = false: no valid daily price at all (e.g. every row flagged); such markets are
+-- excluded from all analysis.
 
 with markets as (
     select distinct state, district, market
@@ -41,7 +43,8 @@ joined as (
         end                                                              as town_key,
         a.first_report_date,
         a.last_report_date,
-        coalesce(a.n_report_days, 0)                                     as n_report_days
+        coalesce(a.n_report_days, 0)                                     as n_report_days,
+        coalesce(a.n_report_days, 0) > 0                                 as has_valid_data
     from markets m
     left join geo g on g.state = m.state and g.district = m.district and g.market = m.market
     left join activity a on a.state = m.state and a.district = m.district and a.market = m.market

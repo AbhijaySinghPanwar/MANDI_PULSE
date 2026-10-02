@@ -334,3 +334,61 @@ Rates in % of staging rows (a row can carry several flags). `n_outlier_spec_rule
 2. **Persistently off-scale series:** (a) add a fifth flag `flag_state_deviation` (more than 3× from the same-day state median on most days of a series → invalid); (b) keep them valid but exclude them only from the Q4 "price-trapped" analysis; or (c) keep them as-is and caveat them. Recommended: (a), with the per-series list in `08_…csv` reviewed first.
 3. **Zero min/max placeholders:** keep the spec rule (any price ≤ 0 → invalid; 4035 rows with a positive modal lost), or treat 0 min/max as missing and keep the modal? Recommended: treat as missing; the modal is what every downstream model uses.
 4. **CI:** `dbt build` doesn't run in CI yet (it needs a raw-data fixture). Should I add it now, with a small synthetic raw fixture, or in Phase 6?
+
+---
+
+## Phase 2.1: review decisions applied (2026-10-03)
+
+1. **Outlier rule:** kept the tuned rule (own 30-day history AND same-day state median), with `flag_outlier_temporal` kept for transparency. The July 2023 tomato example is documented in `docs/ASSUMPTIONS.md`: the spec rule flagged 24.0% of tomato rows in Jul 2023, the tuned rule 0.3%.
+2. **Suspect flag `flag_persistent_low`** (NOT part of `is_valid`). A row gets it if:
+   - it is valid and more than 3x below the same-day state median, and
+   - its market × crop series has ≥ 30 such days, making up ≥ 10% of the series' days with a state reference (`quality.persistent_low` in settings).
+
+   How it is used:
+   - Switch `quality.include_suspect_low` (default `false`).
+   - `fact_daily_price` carries both price sets: `modal_price` excludes suspect rows (NULL when a day is all-suspect, `is_suspect_low`); `modal_price_incl_suspect` includes them.
+   - Phase 3 headline marts use the first set; the sensitivity build (`marts_incl_suspect` schema) uses the second.
+   - **3718 rows in 22 market × crop series** (15 tomato, 6 onion, 1 potato; MP 9, UP 6, MH 5, GJ 2). List: `reports/tables/phase2/suspect_low_markets.csv` (query `analysis/queries/phase2/suspect_low_markets.sql`).
+3. **Zero min/max → NULL.** A min or max ≤ 0 becomes missing (raw values kept as `min_price_raw` / `max_price_raw`), and the row stays valid if its modal is fine.
+   - `flag_nonpositive` now checks the modal only.
+   - `flag_order` checks only the bounds that are present.
+   - `modal_between_min_max` runs only when both min and max are present.
+   - The daily min (max) is set only if every row that day has one, so the daily range always contains the daily median (2 days failed the test before this rule).
+   - **Correction to my Phase 2 summary:** the placeholder rows were 7572, not 4035 (my earlier query only counted zero *min*).
+4. **CI runs `dbt build`** on `tests/fixtures/synthetic_raw_sample.csv`: SYNTHETIC, test-only, made-up prices on real market names, generated deterministically by `tests/fixtures/make_synthetic_raw_sample.py` (README in that folder). It covers a duplicate, a 0 min/max, an outlier, a unit error, a persistent-low series, a tomato crash, an `X APMC` rename and a Hapur-filed Ghazipur town. Locally (in a throwaway DB `mandipulse_ci`): 4462 rows loaded, `dbt build` 80/80.
+5. **`dim_market.has_valid_data`**: only **Ahmedpur (Latur, MH)** is false (every row still invalid); it is excluded from all analysis.
+
+### New reconciliation (real data)
+- raw 1826981 → staging 1826942 (−39 exact duplicates) → **valid 1824245** (−2697 invalid, 0.15%; was 1816676 / −10266).
+- 7569 valid rows had a 0 min/max placeholder, now kept: UP 7535, MP 25, GJ 9.
+- 3718 of the valid rows are suspect-low.
+- Daily fact: **1778272 rows** (−45973 collapsed: several varieties per market-day); main period 1760841, post_format_change 17431.
+- Flags now: order 812, outlier 1628 (spec rule would be 7508), unit_suspect 314, nonpositive 0.
+- Every per-state × crop line is in `reports/tables/phase2/01_reconciliation.csv`; both check columns are 0.
+
+### Suspect-low series: to cross-check against CEDA
+
+| State | District | Market | Crop | Suspect days | Period | Median modal | Median state | Median ratio | Dominant variety / grade | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Madhya Pradesh | Rajgarh | Narsinghgarh | Tomato | 542 | 2018-06-26 → 2023-12-17 | 250 | 1000 | 0.25 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Gujarat | Rajkot | Gondal (Veg.market Gondal) | Potato | 451 | 2024-04-15 → 2025-11-05 | 300 | 1500 | 0.2 | Potato / FAQ (98%) | **to cross-check against CEDA** |
+| Maharashtra | Sangli | Islampur | Tomato | 388 | 2018-01-02 → 2020-03-20 | 100 | 900 | 0.12 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Amroha | Dhanaura | Tomato | 300 | 2018-07-23 → 2025-08-26 | 900 | 3000 | 0.3 | Deshi / FAQ (90%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Sambhal | Sambhal | Tomato | 260 | 2019-02-06 → 2025-08-21 | 700 | 2400 | 0.28 | Deshi / FAQ (100%) | **to cross-check against CEDA** |
+| Gujarat | Junagarh | Visavadar | Onion | 203 | 2018-01-20 → 2026-01-17 | 260 | 1000 | 0.27 | Onion / FAQ (100%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Bijnor | Najibabad | Tomato | 175 | 2018-06-07 → 2025-08-11 | 450 | 2050 | 0.27 | Tomato / FAQ (55%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Mirzapur | Ahirora | Tomato | 175 | 2018-01-30 → 2026-02-23 | 200 | 828 | 0.26 | Deshi / FAQ (63%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Rampur | Tanda (Rampur) | Tomato | 170 | 2018-06-25 → 2024-07-14 | 483 | 1800 | 0.27 | Other / FAQ (91%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Guna | Guna (F&V) | Tomato | 140 | 2019-02-12 → 2023-06-28 | 350 | 1550 | 0.23 | Other / FAQ (99%) | **to cross-check against CEDA** |
+| Maharashtra | Kolhapur | Kolhapur (Malkapur) | Tomato | 132 | 2018-01-05 → 2021-03-14 | 200 | 1150 | 0.18 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Indore | Gautampura | Onion | 121 | 2021-03-08 → 2025-12-12 | 310 | 1275 | 0.29 | Onion / FAQ (50%) | **to cross-check against CEDA** |
+| Uttar Pradesh | Saharanpur | Deoband | Tomato | 104 | 2018-07-05 → 2023-07-24 | 800 | 2625 | 0.28 | Deshi / FAQ (100%) | **to cross-check against CEDA** |
+| Maharashtra | Nashik | Devala | Tomato | 100 | 2018-01-01 → 2020-07-09 | 183 | 1000 | 0.18 | Other / FAQ (95%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Mandsaur | Sitmau | Onion | 82 | 2022-06-16 → 2026-01-13 | 400 | 1379 | 0.28 | 1st Sort / FAQ (93%) | **to cross-check against CEDA** |
+| Maharashtra | Nashik | Sinner | Tomato | 77 | 2019-12-11 → 2020-03-20 | 80 | 513 | 0.16 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Maharashtra | Nashik | Dindori | Tomato | 74 | 2022-10-10 → 2025-10-19 | 400 | 2000 | 0.2 | Other / FAQ (89%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Dewas | Sonkatch | Onion | 68 | 2022-06-18 → 2025-07-08 | 620 | 2500 | 0.26 | Onion / FAQ (70%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Ratlam | A lot | Onion | 54 | 2022-05-26 → 2025-12-19 | 200 | 763 | 0.27 | 1st Sort / FAQ (54%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Guna | Guna (F&V) | Onion | 36 | 2019-07-20 → 2023-11-03 | 300 | 1500 | 0.25 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Mandsaur | Shamgarh (F&V) | Tomato | 32 | 2022-05-10 → 2023-09-22 | 500 | 1900 | 0.26 | Other / FAQ (100%) | **to cross-check against CEDA** |
+| Madhya Pradesh | Shivpuri | Shivpuri | Tomato | 30 | 2023-12-23 → 2025-10-17 | 503 | 2000 | 0.22 | Tomato / FAQ (100%) | **to cross-check against CEDA** |

@@ -1,0 +1,23 @@
+state,district,market,crop,n_suspect_rows,n_suspect_days,first_date,last_date,median_modal,median_state_median,median_ratio_to_state,dominant_variety,dominant_grade,pct_dominant_variety_grade,status
+Madhya Pradesh,Rajgarh,Narsinghgarh,Tomato,542,542,2018-06-26,2023-12-17,250.0,1000.0,0.25,Other,FAQ,100.0,to cross-check against CEDA
+Gujarat,Rajkot,Gondal (Veg.market Gondal),Potato,451,451,2024-04-15,2025-11-05,300.0,1500.0,0.2,Potato,FAQ,98.0,to cross-check against CEDA
+Maharashtra,Sangli,Islampur,Tomato,388,388,2018-01-02,2020-03-20,100.0,900.0,0.12,Other,FAQ,100.0,to cross-check against CEDA
+Uttar Pradesh,Amroha,Dhanaura,Tomato,300,300,2018-07-23,2025-08-26,900.0,3000.0,0.3,Deshi,FAQ,90.0,to cross-check against CEDA
+Uttar Pradesh,Sambhal,Sambhal,Tomato,260,260,2019-02-06,2025-08-21,700.0,2400.0,0.28,Deshi,FAQ,100.0,to cross-check against CEDA
+Gujarat,Junagarh,Visavadar,Onion,203,203,2018-01-20,2026-01-17,260.0,1000.0,0.27,Onion,FAQ,100.0,to cross-check against CEDA
+Uttar Pradesh,Bijnor,Najibabad,Tomato,175,175,2018-06-07,2025-08-11,450.0,2050.0,0.27,Tomato,FAQ,55.0,to cross-check against CEDA
+Uttar Pradesh,Mirzapur,Ahirora,Tomato,175,175,2018-01-30,2026-02-23,200.0,828.0,0.26,Deshi,FAQ,63.0,to cross-check against CEDA
+Uttar Pradesh,Rampur,Tanda (Rampur),Tomato,170,170,2018-06-25,2024-07-14,483.0,1800.0,0.27,Other,FAQ,91.0,to cross-check against CEDA
+Madhya Pradesh,Guna,Guna (F&V),Tomato,140,140,2019-02-12,2023-06-28,350.0,1550.0,0.23,Other,FAQ,99.0,to cross-check against CEDA
+Maharashtra,Kolhapur,Kolhapur (Malkapur),Tomato,132,132,2018-01-05,2021-03-14,200.0,1150.0,0.18,Other,FAQ,100.0,to cross-check against CEDA
+Madhya Pradesh,Indore,Gautampura,Onion,123,121,2021-03-08,2025-12-12,310.0,1275.0,0.29,Onion,FAQ,50.0,to cross-check against CEDA
+Uttar Pradesh,Saharanpur,Deoband,Tomato,104,104,2018-07-05,2023-07-24,800.0,2625.0,0.28,Deshi,FAQ,100.0,to cross-check against CEDA
+Maharashtra,Nashik,Devala,Tomato,100,100,2018-01-01,2020-07-09,183.0,1000.0,0.18,Other,FAQ,95.0,to cross-check against CEDA
+Madhya Pradesh,Mandsaur,Sitmau,Onion,82,82,2022-06-16,2026-01-13,400.0,1379.0,0.28,1st Sort,FAQ,93.0,to cross-check against CEDA
+Maharashtra,Nashik,Sinner,Tomato,77,77,2019-12-11,2020-03-20,80.0,513.0,0.16,Other,FAQ,100.0,to cross-check against CEDA
+Maharashtra,Nashik,Dindori,Tomato,74,74,2022-10-10,2025-10-19,400.0,2000.0,0.2,Other,FAQ,89.0,to cross-check against CEDA
+Madhya Pradesh,Dewas,Sonkatch,Onion,70,68,2022-06-18,2025-07-08,620.0,2500.0,0.26,Onion,FAQ,70.0,to cross-check against CEDA
+Madhya Pradesh,Ratlam,A lot,Onion,54,54,2022-05-26,2025-12-19,200.0,763.0,0.27,1st Sort,FAQ,54.0,to cross-check against CEDA
+Madhya Pradesh,Guna,Guna (F&V),Onion,36,36,2019-07-20,2023-11-03,300.0,1500.0,0.25,Other,FAQ,100.0,to cross-check against CEDA
+Madhya Pradesh,Mandsaur,Shamgarh (F&V),Tomato,32,32,2022-05-10,2023-09-22,500.0,1900.0,0.26,Other,FAQ,100.0,to cross-check against CEDA
+Madhya Pradesh,Shivpuri,Shivpuri,Tomato,30,30,2023-12-23,2025-10-17,503.0,2000.0,0.22,Tomato,FAQ,100.0,to cross-check against CEDA
