@@ -1,0 +1,188 @@
+version: 2
+
+# Phase 3 analysis marts (spec 7.6). Main period only, valid rows, suspect-low excluded unless
+# include_suspect_low = true (sensitivity build into schema marts_incl_suspect).
+
+models:
+  - name: int_analysis_prices
+    description: One price per market x commodity x day for the analysis (main period, valid, has_valid_data markets; suspect-low excluded by default).
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [market_key, commodity_key, date]
+    columns:
+      - name: modal_price
+        description: Daily modal price, Rs per quintal.
+        tests: [not_null]
+
+  - name: int_market_pairs
+    description: Unordered market pairs within max_pair_km (straight line); same-town and same-district centroid-centroid pairs excluded.
+    columns:
+      - name: pair_key
+        description: md5 of 'market_key_a|market_key_b' (market_key_a < market_key_b).
+        tests: [unique, not_null]
+      - name: market_key_a
+        tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_market'), field: market_key}
+      - name: market_key_b
+        tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_market'), field: market_key}
+      - name: haversine_km
+        description: Straight-line distance, km.
+      - name: road_km_est
+        description: haversine_km x road_factor (1.3), a documented approximation of road distance.
+        tests:
+          - expression_is_true:
+              arguments: {expression: "road_km_est > 0"}
+      - name: pair_precision
+        description: "'both_market' | 'one_centroid' | 'both_centroid' (geocode precision of the two markets)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments: {values: ["both_market", "one_centroid", "both_centroid"]}
+
+  - name: mart_price_spread
+    description: Q1. Same-day price gap per pair x commodity x date, pairs with road_km_est <= spread_radius_km, only on dates when BOTH markets reported.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [pair_key, commodity_key, date]
+      - expression_is_true:
+          arguments: {expression: "abs_gap = abs(price_a - price_b)"}
+    columns:
+      - name: pair_key
+        tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('int_market_pairs'), field: pair_key}
+      - name: road_km_est
+        tests:
+          - expression_is_true:
+              arguments: {expression: "road_km_est > 0"}
+      - name: price_a
+        description: Daily modal price at market a, Rs per quintal.
+        tests: [not_null]
+      - name: price_b
+        description: Daily modal price at market b, Rs per quintal.
+        tests: [not_null]
+      - name: abs_gap
+        description: "|price_a - price_b|, Rs per quintal."
+      - name: pct_gap
+        description: abs_gap / the lower of the two prices.
+
+  - name: mart_price_spread_daily
+    description: Q1 rollup per commodity x state x date (cross-state pairs count in both states).
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [date, commodity, state]
+
+  - name: int_directed_comparisons
+    description: View. Every same-day comparison in both directions x cost scenario, with transport cost, net price, gain and is_opportunity.
+
+  - name: mart_net_price_opportunities
+    description: Q2 detail. Profitable moves only (is_opportunity), one row per scenario x date x home -> destination. Both markets reported that day.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [scenario, date, commodity_key, home_market_key, dest_market_key]
+      - expression_is_true:
+          arguments: {expression: "abs(gain - (net_price_dest - price_home)) < 0.01"}
+      - expression_is_true:
+          arguments: {expression: "abs(net_price_dest - (price_dest - transport_cost)) < 0.01"}
+    columns:
+      - name: scenario
+        description: Transport-cost scenario (low / mid / high) from settings.yaml.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments: {values: ["low", "mid", "high"]}
+      - name: home_market_key
+        tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_market'), field: market_key}
+      - name: dest_market_key
+        tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_market'), field: market_key}
+      - name: road_km_est
+        tests:
+          - expression_is_true:
+              arguments: {expression: "road_km_est > 0"}
+      - name: transport_cost
+        description: road_km_est x cost_per_qtl_km + fixed_cost_per_qtl, Rs per quintal.
+      - name: net_price_dest
+        description: price_dest - transport_cost, Rs per quintal.
+      - name: gain
+        description: net_price_dest - price_home, Rs per quintal.
+        tests: [not_null]
+      - name: is_opportunity
+        tests:
+          - expression_is_true:
+              arguments: {expression: "is_opportunity"}
+
+  - name: mart_opportunity_market_day
+    description: Q2 rate. One row per home market x commodity x date x scenario where the home market and >= 1 neighbour within 100 km reported.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [home_market_key, commodity_key, date, scenario]
+    columns:
+      - name: n_neighbors_reporting
+        tests:
+          - expression_is_true:
+              arguments: {expression: "n_neighbors_reporting > 0"}
+      - name: has_opportunity
+        tests: [not_null]
+
+  - name: int_crash_labels
+    description: Spec 9.2 crash label per market x commodity x day from observed days only; NULL where unknown.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [market_key, commodity_key, date]
+
+  - name: mart_seasonality
+    description: Q3. Per commodity x state x calendar month - median price, price index vs annual median, crash rate.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [commodity, state, month]
+    columns:
+      - name: month
+        tests:
+          - not_null
+          - expression_is_true:
+              arguments: {expression: "month between 1 and 12"}
+      - name: crash_rate
+        tests:
+          - expression_is_true:
+              arguments: {expression: "crash_rate is null or crash_rate between 0 and 1"}
+
+  - name: mart_volatility
+    description: Q5. Per commodity x market x year - CV, average absolute daily % change, max drawdown.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [market_key, commodity, year]
+    columns:
+      - name: max_drawdown
+        tests:
+          - expression_is_true:
+              arguments: {expression: "max_drawdown between 0 and 1"}
+
+  - name: mart_district_access
+    description: Q4. Per district x commodity - nearby town locations, price index vs state, opportunity rate, price-trapped flag.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [state, district, commodity]
+    columns:
+      - name: is_price_trapped
+        tests: [not_null]

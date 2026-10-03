@@ -1,0 +1,377 @@
+month,state,n_markets_reporting,n_market_crop_days
+2018-01-01,Gujarat,28,1224
+2018-01-01,Madhya Pradesh,33,1720
+2018-01-01,Maharashtra,81,2228
+2018-01-01,Uttar Pradesh,207,12805
+2018-02-01,Gujarat,28,1116
+2018-02-01,Madhya Pradesh,35,1618
+2018-02-01,Maharashtra,84,1988
+2018-02-01,Uttar Pradesh,207,11591
+2018-03-01,Gujarat,29,1153
+2018-03-01,Madhya Pradesh,37,1740
+2018-03-01,Maharashtra,82,2208
+2018-03-01,Uttar Pradesh,209,12328
+2018-04-01,Gujarat,27,1066
+2018-04-01,Madhya Pradesh,37,1467
+2018-04-01,Maharashtra,84,2049
+2018-04-01,Uttar Pradesh,207,12320
+2018-05-01,Gujarat,31,1366
+2018-05-01,Madhya Pradesh,42,1611
+2018-05-01,Maharashtra,84,2286
+2018-05-01,Uttar Pradesh,206,13448
+2018-06-01,Gujarat,31,1190
+2018-06-01,Madhya Pradesh,50,1851
+2018-06-01,Maharashtra,87,2420
+2018-06-01,Uttar Pradesh,208,11607
+2018-07-01,Gujarat,34,1423
+2018-07-01,Madhya Pradesh,46,1862
+2018-07-01,Maharashtra,85,2396
+2018-07-01,Uttar Pradesh,199,11890
+2018-08-01,Gujarat,36,1589
+2018-08-01,Madhya Pradesh,43,1842
+2018-08-01,Maharashtra,86,2291
+2018-08-01,Uttar Pradesh,209,12494
+2018-09-01,Gujarat,36,1393
+2018-09-01,Madhya Pradesh,43,1937
+2018-09-01,Maharashtra,84,2312
+2018-09-01,Uttar Pradesh,211,12995
+2018-10-01,Gujarat,39,1441
+2018-10-01,Madhya Pradesh,42,1942
+2018-10-01,Maharashtra,82,2445
+2018-10-01,Uttar Pradesh,210,13618
+2018-11-01,Gujarat,35,1157
+2018-11-01,Madhya Pradesh,47,1877
+2018-11-01,Maharashtra,83,2102
+2018-11-01,Uttar Pradesh,209,12618
+2018-12-01,Gujarat,35,1450
+2018-12-01,Madhya Pradesh,49,2351
+2018-12-01,Maharashtra,85,2424
+2018-12-01,Uttar Pradesh,215,14205
+2019-01-01,Gujarat,38,1492
+2019-01-01,Madhya Pradesh,48,2470
+2019-01-01,Maharashtra,84,2307
+2019-01-01,Uttar Pradesh,214,14687
+2019-02-01,Gujarat,38,1489
+2019-02-01,Madhya Pradesh,56,2389
+2019-02-01,Maharashtra,84,2053
+2019-02-01,Uttar Pradesh,212,13186
+2019-03-01,Gujarat,40,1451
+2019-03-01,Madhya Pradesh,57,2635
+2019-03-01,Maharashtra,85,2158
+2019-03-01,Uttar Pradesh,211,13824
+2019-04-01,Gujarat,39,1530
+2019-04-01,Madhya Pradesh,57,2667
+2019-04-01,Maharashtra,86,2000
+2019-04-01,Uttar Pradesh,211,13341
+2019-05-01,Gujarat,37,1552
+2019-05-01,Madhya Pradesh,56,2585
+2019-05-01,Maharashtra,82,1942
+2019-05-01,Uttar Pradesh,211,13813
+2019-06-01,Gujarat,34,1414
+2019-06-01,Madhya Pradesh,59,2563
+2019-06-01,Maharashtra,86,2220
+2019-06-01,Uttar Pradesh,206,12831
+2019-07-01,Gujarat,34,1344
+2019-07-01,Madhya Pradesh,58,2631
+2019-07-01,Maharashtra,87,2446
+2019-07-01,Uttar Pradesh,206,13337
+2019-08-01,Gujarat,30,1150
+2019-08-01,Madhya Pradesh,55,2463
+2019-08-01,Maharashtra,82,2238
+2019-08-01,Uttar Pradesh,204,12598
+2019-09-01,Gujarat,28,1048
+2019-09-01,Madhya Pradesh,56,2147
+2019-09-01,Maharashtra,82,2140
+2019-09-01,Uttar Pradesh,205,12802
+2019-10-01,Gujarat,31,998
+2019-10-01,Madhya Pradesh,53,2204
+2019-10-01,Maharashtra,86,2087
+2019-10-01,Uttar Pradesh,203,12026
+2019-11-01,Gujarat,34,1134
+2019-11-01,Madhya Pradesh,52,2092
+2019-11-01,Maharashtra,88,2319
+2019-11-01,Uttar Pradesh,208,12303
+2019-12-01,Gujarat,33,1117
+2019-12-01,Madhya Pradesh,47,1756
+2019-12-01,Maharashtra,83,2245
+2019-12-01,Uttar Pradesh,205,9986
+2020-01-01,Gujarat,38,1573
+2020-01-01,Madhya Pradesh,46,1618
+2020-01-01,Maharashtra,84,2236
+2020-01-01,Uttar Pradesh,209,13924
+2020-02-01,Gujarat,35,1378
+2020-02-01,Madhya Pradesh,51,1417
+2020-02-01,Maharashtra,83,2177
+2020-02-01,Uttar Pradesh,210,12889
+2020-03-01,Gujarat,35,1276
+2020-03-01,Madhya Pradesh,47,1472
+2020-03-01,Maharashtra,86,1944
+2020-03-01,Uttar Pradesh,208,10818
+2020-04-01,Gujarat,25,897
+2020-04-01,Madhya Pradesh,27,682
+2020-04-01,Maharashtra,65,570
+2020-04-01,Uttar Pradesh,202,13737
+2020-05-01,Gujarat,25,924
+2020-05-01,Madhya Pradesh,38,1037
+2020-05-01,Maharashtra,80,1510
+2020-05-01,Uttar Pradesh,202,13984
+2020-06-01,Gujarat,28,937
+2020-06-01,Madhya Pradesh,40,1524
+2020-06-01,Maharashtra,89,2433
+2020-06-01,Uttar Pradesh,204,12913
+2020-07-01,Gujarat,28,1088
+2020-07-01,Madhya Pradesh,50,1731
+2020-07-01,Maharashtra,87,2105
+2020-07-01,Uttar Pradesh,189,12075
+2020-08-01,Gujarat,27,778
+2020-08-01,Madhya Pradesh,52,1637
+2020-08-01,Maharashtra,88,2271
+2020-08-01,Uttar Pradesh,187,11492
+2020-09-01,Gujarat,26,659
+2020-09-01,Madhya Pradesh,51,1090
+2020-09-01,Maharashtra,90,2453
+2020-09-01,Uttar Pradesh,188,12662
+2020-10-01,Gujarat,25,1032
+2020-10-01,Madhya Pradesh,44,1254
+2020-10-01,Maharashtra,83,1506
+2020-10-01,Uttar Pradesh,192,12884
+2020-11-01,Gujarat,25,745
+2020-11-01,Madhya Pradesh,45,1708
+2020-11-01,Maharashtra,82,2296
+2020-11-01,Uttar Pradesh,203,12025
+2020-12-01,Gujarat,33,1221
+2020-12-01,Madhya Pradesh,46,2010
+2020-12-01,Maharashtra,87,2537
+2020-12-01,Uttar Pradesh,208,14479
+2021-01-01,Gujarat,35,1254
+2021-01-01,Madhya Pradesh,54,2187
+2021-01-01,Maharashtra,88,2033
+2021-01-01,Uttar Pradesh,207,13864
+2021-02-01,Gujarat,34,1285
+2021-02-01,Madhya Pradesh,59,2233
+2021-02-01,Maharashtra,88,2412
+2021-02-01,Uttar Pradesh,209,12488
+2021-03-01,Gujarat,33,1283
+2021-03-01,Madhya Pradesh,60,2726
+2021-03-01,Maharashtra,86,2219
+2021-03-01,Uttar Pradesh,204,13281
+2021-04-01,Gujarat,31,861
+2021-04-01,Madhya Pradesh,58,1691
+2021-04-01,Maharashtra,89,2297
+2021-04-01,Uttar Pradesh,203,12023
+2021-05-01,Gujarat,25,807
+2021-05-01,Madhya Pradesh,37,1159
+2021-05-01,Maharashtra,85,2074
+2021-05-01,Uttar Pradesh,195,12613
+2021-06-01,Gujarat,26,863
+2021-06-01,Madhya Pradesh,54,2055
+2021-06-01,Maharashtra,87,2752
+2021-06-01,Uttar Pradesh,197,13104
+2021-07-01,Gujarat,25,957
+2021-07-01,Madhya Pradesh,59,2407
+2021-07-01,Maharashtra,85,2678
+2021-07-01,Uttar Pradesh,199,13226
+2021-08-01,Gujarat,23,779
+2021-08-01,Madhya Pradesh,61,2421
+2021-08-01,Maharashtra,82,2643
+2021-08-01,Uttar Pradesh,196,12920
+2021-09-01,Gujarat,26,795
+2021-09-01,Madhya Pradesh,61,2550
+2021-09-01,Maharashtra,86,2636
+2021-09-01,Uttar Pradesh,199,13437
+2021-10-01,Gujarat,31,957
+2021-10-01,Madhya Pradesh,60,2333
+2021-10-01,Maharashtra,85,2637
+2021-10-01,Uttar Pradesh,202,13053
+2021-11-01,Gujarat,26,890
+2021-11-01,Madhya Pradesh,60,2311
+2021-11-01,Maharashtra,87,2540
+2021-11-01,Uttar Pradesh,200,12148
+2021-12-01,Gujarat,29,1146
+2021-12-01,Madhya Pradesh,63,2636
+2021-12-01,Maharashtra,88,2892
+2021-12-01,Uttar Pradesh,200,13510
+2022-01-01,Gujarat,31,1185
+2022-01-01,Madhya Pradesh,66,3040
+2022-01-01,Maharashtra,87,2513
+2022-01-01,Uttar Pradesh,202,13533
+2022-02-01,Gujarat,31,1191
+2022-02-01,Madhya Pradesh,65,2889
+2022-02-01,Maharashtra,87,2644
+2022-02-01,Uttar Pradesh,203,12152
+2022-03-01,Gujarat,27,1127
+2022-03-01,Madhya Pradesh,65,2942
+2022-03-01,Maharashtra,88,2816
+2022-03-01,Uttar Pradesh,206,12931
+2022-04-01,Gujarat,26,1066
+2022-04-01,Madhya Pradesh,66,2846
+2022-04-01,Maharashtra,87,2532
+2022-04-01,Uttar Pradesh,207,13385
+2022-05-01,Gujarat,28,1044
+2022-05-01,Madhya Pradesh,72,3019
+2022-05-01,Maharashtra,87,2413
+2022-05-01,Uttar Pradesh,210,13496
+2022-06-01,Gujarat,26,1017
+2022-06-01,Madhya Pradesh,72,2713
+2022-06-01,Maharashtra,89,2439
+2022-06-01,Uttar Pradesh,210,13429
+2022-07-01,Gujarat,26,1052
+2022-07-01,Madhya Pradesh,67,2897
+2022-07-01,Maharashtra,92,2723
+2022-07-01,Uttar Pradesh,207,13117
+2022-08-01,Gujarat,26,898
+2022-08-01,Madhya Pradesh,68,3027
+2022-08-01,Maharashtra,91,2567
+2022-08-01,Uttar Pradesh,208,13650
+2022-09-01,Gujarat,27,1056
+2022-09-01,Madhya Pradesh,68,3191
+2022-09-01,Maharashtra,87,1859
+2022-09-01,Uttar Pradesh,207,13898
+2022-10-01,Gujarat,26,814
+2022-10-01,Madhya Pradesh,70,2890
+2022-10-01,Maharashtra,87,2380
+2022-10-01,Uttar Pradesh,204,12998
+2022-11-01,Gujarat,24,1038
+2022-11-01,Madhya Pradesh,67,3126
+2022-11-01,Maharashtra,89,2335
+2022-11-01,Uttar Pradesh,204,13040
+2022-12-01,Gujarat,26,1129
+2022-12-01,Madhya Pradesh,67,3283
+2022-12-01,Maharashtra,91,2601
+2022-12-01,Uttar Pradesh,200,13385
+2023-01-01,Gujarat,27,1044
+2023-01-01,Madhya Pradesh,65,3063
+2023-01-01,Maharashtra,90,2060
+2023-01-01,Uttar Pradesh,201,13314
+2023-02-01,Gujarat,29,1043
+2023-02-01,Madhya Pradesh,65,2913
+2023-02-01,Maharashtra,90,2763
+2023-02-01,Uttar Pradesh,201,12171
+2023-03-01,Gujarat,27,1058
+2023-03-01,Madhya Pradesh,65,2850
+2023-03-01,Maharashtra,94,3044
+2023-03-01,Uttar Pradesh,201,13266
+2023-04-01,Gujarat,29,1082
+2023-04-01,Madhya Pradesh,63,2702
+2023-04-01,Maharashtra,92,2726
+2023-04-01,Uttar Pradesh,203,13544
+2023-05-01,Gujarat,28,1237
+2023-05-01,Madhya Pradesh,64,2876
+2023-05-01,Maharashtra,96,2924
+2023-05-01,Uttar Pradesh,205,13794
+2023-06-01,Gujarat,28,1136
+2023-06-01,Madhya Pradesh,65,2820
+2023-06-01,Maharashtra,97,3025
+2023-06-01,Uttar Pradesh,201,13530
+2023-07-01,Gujarat,32,1336
+2023-07-01,Madhya Pradesh,65,2795
+2023-07-01,Maharashtra,103,3229
+2023-07-01,Uttar Pradesh,204,12946
+2023-08-01,Gujarat,33,1272
+2023-08-01,Madhya Pradesh,67,2477
+2023-08-01,Maharashtra,105,3020
+2023-08-01,Uttar Pradesh,202,11506
+2023-09-01,Gujarat,35,1329
+2023-09-01,Madhya Pradesh,65,2358
+2023-09-01,Maharashtra,99,2444
+2023-09-01,Uttar Pradesh,201,13138
+2023-10-01,Gujarat,34,1414
+2023-10-01,Madhya Pradesh,65,2783
+2023-10-01,Maharashtra,96,2736
+2023-10-01,Uttar Pradesh,201,13259
+2023-11-01,Gujarat,33,1081
+2023-11-01,Madhya Pradesh,61,2212
+2023-11-01,Maharashtra,95,2261
+2023-11-01,Uttar Pradesh,198,12422
+2023-12-01,Gujarat,36,1457
+2023-12-01,Madhya Pradesh,73,1984
+2023-12-01,Maharashtra,94,2618
+2023-12-01,Uttar Pradesh,198,13176
+2024-01-01,Gujarat,35,1420
+2024-01-01,Madhya Pradesh,29,426
+2024-01-01,Maharashtra,93,2733
+2024-01-01,Uttar Pradesh,198,12932
+2024-02-01,Gujarat,39,1493
+2024-02-01,Madhya Pradesh,28,447
+2024-02-01,Maharashtra,95,2705
+2024-02-01,Uttar Pradesh,199,12795
+2024-03-01,Gujarat,37,1329
+2024-03-01,Madhya Pradesh,32,478
+2024-03-01,Maharashtra,97,2848
+2024-03-01,Uttar Pradesh,206,12992
+2024-04-01,Gujarat,35,1342
+2024-04-01,Madhya Pradesh,37,537
+2024-04-01,Maharashtra,97,1877
+2024-04-01,Uttar Pradesh,209,12928
+2024-05-01,Gujarat,35,1667
+2024-05-01,Madhya Pradesh,42,623
+2024-05-01,Maharashtra,103,2919
+2024-05-01,Uttar Pradesh,210,14174
+2024-06-01,Gujarat,35,1572
+2024-06-01,Madhya Pradesh,40,691
+2024-06-01,Maharashtra,101,2770
+2024-06-01,Uttar Pradesh,206,13453
+2024-07-01,Gujarat,37,1806
+2024-07-01,Madhya Pradesh,39,685
+2024-07-01,Maharashtra,103,3030
+2024-07-01,Uttar Pradesh,207,13982
+2024-08-01,Gujarat,37,1623
+2024-08-01,Madhya Pradesh,36,630
+2024-08-01,Maharashtra,105,2962
+2024-08-01,Uttar Pradesh,204,13601
+2024-09-01,Gujarat,35,1557
+2024-09-01,Madhya Pradesh,56,738
+2024-09-01,Maharashtra,102,2899
+2024-09-01,Uttar Pradesh,202,13195
+2024-10-01,Gujarat,36,1647
+2024-10-01,Madhya Pradesh,66,1494
+2024-10-01,Maharashtra,100,2881
+2024-10-01,Uttar Pradesh,199,12773
+2024-11-01,Gujarat,37,1467
+2024-11-01,Madhya Pradesh,62,1508
+2024-11-01,Maharashtra,98,2544
+2024-11-01,Uttar Pradesh,197,11966
+2024-12-01,Gujarat,38,1728
+2024-12-01,Madhya Pradesh,64,1613
+2024-12-01,Maharashtra,97,3117
+2024-12-01,Uttar Pradesh,200,13036
+2025-01-01,Gujarat,37,1701
+2025-01-01,Madhya Pradesh,66,1759
+2025-01-01,Maharashtra,100,3134
+2025-01-01,Uttar Pradesh,198,13595
+2025-02-01,Gujarat,37,1612
+2025-02-01,Madhya Pradesh,62,1483
+2025-02-01,Maharashtra,94,2455
+2025-02-01,Uttar Pradesh,203,12626
+2025-03-01,Gujarat,37,1707
+2025-03-01,Madhya Pradesh,62,1471
+2025-03-01,Maharashtra,96,2969
+2025-03-01,Uttar Pradesh,202,13077
+2025-04-01,Gujarat,36,1686
+2025-04-01,Madhya Pradesh,76,1949
+2025-04-01,Maharashtra,100,2933
+2025-04-01,Uttar Pradesh,203,13145
+2025-05-01,Gujarat,35,1769
+2025-05-01,Madhya Pradesh,81,2178
+2025-05-01,Maharashtra,100,3035
+2025-05-01,Uttar Pradesh,206,13863
+2025-06-01,Gujarat,34,1634
+2025-06-01,Madhya Pradesh,79,2146
+2025-06-01,Maharashtra,106,3139
+2025-06-01,Uttar Pradesh,210,13230
+2025-07-01,Gujarat,34,1803
+2025-07-01,Madhya Pradesh,78,2270
+2025-07-01,Maharashtra,102,3154
+2025-07-01,Uttar Pradesh,210,13856
+2025-08-01,Gujarat,34,1592
+2025-08-01,Madhya Pradesh,85,2310
+2025-08-01,Maharashtra,103,2809
+2025-08-01,Uttar Pradesh,208,13230
+2025-09-01,Gujarat,35,1521
+2025-09-01,Madhya Pradesh,91,2785
+2025-09-01,Maharashtra,98,2543
+2025-09-01,Uttar Pradesh,213,11937
+2025-10-01,Gujarat,35,1112
+2025-10-01,Madhya Pradesh,91,1967
+2025-10-01,Maharashtra,97,1714
+2025-10-01,Uttar Pradesh,209,8725

@@ -1,0 +1,4 @@
+commodity,category,n_market_years,median_cv,median_avg_abs_daily_change_pct,median_max_drawdown_pct
+Onion,storable,2640,0.394,4.7,66.9
+Potato,storable,2253,0.249,2.7,52.5
+Tomato,perishable,2322,0.491,5.6,74.1

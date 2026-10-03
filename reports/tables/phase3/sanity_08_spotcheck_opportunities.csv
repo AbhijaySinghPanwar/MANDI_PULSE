@@ -1,0 +1,12 @@
+pick_no,side,state,district,market,commodity,date,daily_price,road_km_est,transport_cost,gain,raw_id,raw_market_name,variety,grade,raw_min,raw_max,raw_modal,is_valid,flag_persistent_low
+1,home,Maharashtra,Nashik,Nandgaon,Onion,2019-11-27,2051.0,82.0,173.0,3776.0,4086039,Nandgaon,Red,FAQ,1555.0,2850.0,2101.0,True,False
+1,home,Maharashtra,Nashik,Nandgaon,Onion,2019-11-27,2051.0,82.0,173.0,3776.0,4086040,Nandgaon,Other,FAQ,2001.0,2001.0,2001.0,True,False
+1,dest,Maharashtra,Nashik,Lasalgaon (Niphad),Onion,2019-11-27,6000.0,82.0,173.0,3776.0,4086036,Lasalgaon (Niphad),Other,FAQ,1500.0,6300.0,6000.0,True,False
+2,home,Uttar Pradesh,Meerut,Meerut,Tomato,2019-09-23,1240.0,69.57,154.36,195.64,4048276,Meerut,Local,FAQ,1210.0,1280.0,1240.0,True,False
+2,dest,Uttar Pradesh,Bulandshahar,Divai,Tomato,2019-09-23,1590.0,69.57,154.36,195.64,4048073,Divai,Deshi,FAQ,1580.0,1600.0,1590.0,True,False
+3,home,Uttar Pradesh,Auraiya,Dibiapur,Tomato,2020-11-25,1800.0,75.35,163.03,636.97,4289639,Dibiapur,Hybrid,FAQ,1700.0,1900.0,1800.0,True,False
+3,dest,Uttar Pradesh,Kannuj,Kannauj,Tomato,2020-11-25,2600.0,75.35,163.03,636.97,4289875,Kannauj,Hybrid,FAQ,2550.0,2650.0,2600.0,True,False
+4,home,Uttar Pradesh,Kanpur,Kanpur (Grain),Onion,2021-04-22,1060.0,65.5,148.25,101.75,4384853,Kanpur (Grain),Red,FAQ,1000.0,1100.0,1060.0,True,False
+4,dest,Uttar Pradesh,Fatehpur,Bindki,Onion,2021-04-22,1310.0,65.5,148.25,101.75,4384749,Bindki,Red,FAQ,1250.0,1380.0,1310.0,True,False
+5,home,Uttar Pradesh,Baghpat,Baraut,Onion,2022-01-22,1850.0,42.25,113.38,321.62,4555731,Baraut,Onion,FAQ,1800.0,1900.0,1850.0,True,False
+5,dest,Uttar Pradesh,Shamli,Shamli,Onion,2022-01-22,2285.0,42.25,113.38,321.62,4556146,Shamli,Red,FAQ,2240.0,2350.0,2285.0,True,False

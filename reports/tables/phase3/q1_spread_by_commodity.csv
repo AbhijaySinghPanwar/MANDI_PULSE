@@ -1,0 +1,4 @@
+commodity,n_pair_days,n_pairs,median_abs_gap_rs_qtl,p90_abs_gap_rs_qtl,median_pct_gap,p90_pct_gap,pct_pair_days_gap_ge_20pct
+Onion,2331040,3220,150.0,675.0,10.5,55.0,33.1
+Potato,2419690,2288,100.0,450.0,11.1,56.3,35.5
+Tomato,2026802,2262,200.0,830.0,15.3,77.4,43.2

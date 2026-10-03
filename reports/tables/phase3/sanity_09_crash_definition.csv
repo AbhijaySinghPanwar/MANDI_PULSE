@@ -1,0 +1,4 @@
+commodity,n_labelled_days,crash_rate_spec_pct,crash_rate_sustained_2days_pct,crash_rate_majority_pct,dec_spec_pct,dec_sustained_pct,dec_majority_pct
+Onion,595495,15.42,11.74,6.21,42.05,35.61,20.03
+Potato,565650,8.01,6.0,3.2,38.55,33.97,21.97
+Tomato,563226,25.97,21.44,12.69,64.09,58.13,39.52

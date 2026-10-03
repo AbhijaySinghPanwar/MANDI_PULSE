@@ -15,6 +15,9 @@ dim_commodity (commodity_key) ──┘
 Upstream layers: `raw.mandi_prices` → `staging.stg_mandi_prices` (clean, dedupe, aliases)
 → `intermediate.int_price_flags` (quality flags) → `intermediate.int_daily_prices` → marts.
 
+Phase 3 analysis marts (`marts.mart_*`, main period only, suspect-low excluded; the same tables
+including suspect-low rows are in schema `marts_incl_suspect`) follow the star schema below.
+
 
 ## `marts.dim_date`
 
@@ -93,3 +96,155 @@ Rows: 1778272
 | `is_suspect_low` | boolean | True when every valid row that day is suspect-low (then modal_price is NULL). |
 | `source` | text | Source tag(s) of the underlying rows, comma-separated (today always 'kaggle_archive'). |
 | `period` | text | 'main' or 'post_format_change' (see dim_date.period). |
+
+## `marts.mart_price_spread`
+
+Q1. Same-day price gap per pair x commodity x date, pairs with road_km_est <= spread_radius_km, only on dates when BOTH markets reported.
+
+Rows: 6777532
+
+| Column | Type | Description |
+|---|---|---|
+| `pair_key` | text |  |
+| `date_key` | integer |  |
+| `date` | date |  |
+| `commodity_key` | integer |  |
+| `commodity` | text |  |
+| `market_key_a` | text |  |
+| `market_key_b` | text |  |
+| `state_a` | text |  |
+| `state_b` | text |  |
+| `is_same_state` | boolean |  |
+| `road_km_est` | numeric |  |
+| `pair_precision` | text |  |
+| `price_a` | numeric | Daily modal price at market a, Rs per quintal. |
+| `price_b` | numeric | Daily modal price at market b, Rs per quintal. |
+| `abs_gap` | numeric | \|price_a - price_b\|, Rs per quintal. |
+| `pct_gap` | numeric | abs_gap / the lower of the two prices. |
+
+## `marts.mart_price_spread_daily`
+
+Q1 rollup per commodity x state x date (cross-state pairs count in both states).
+
+Rows: 33473
+
+| Column | Type | Description |
+|---|---|---|
+| `date` | date |  |
+| `commodity` | text |  |
+| `state` | text |  |
+| `n_pairs` | bigint |  |
+| `median_abs_gap` | numeric |  |
+| `p90_abs_gap` | numeric |  |
+| `median_pct_gap` | numeric |  |
+| `p90_pct_gap` | numeric |  |
+
+## `marts.mart_net_price_opportunities`
+
+Q2 detail. Profitable moves only (is_opportunity), one row per scenario x date x home -> destination. Both markets reported that day.
+
+Rows: 6569690
+
+| Column | Type | Description |
+|---|---|---|
+| `date_key` | integer |  |
+| `date` | date |  |
+| `commodity_key` | integer |  |
+| `commodity` | text |  |
+| `scenario` | text | Transport-cost scenario (low / mid / high) from settings.yaml. |
+| `home_market_key` | text |  |
+| `dest_market_key` | text |  |
+| `pair_key` | text |  |
+| `road_km_est` | numeric |  |
+| `pair_precision` | text |  |
+| `price_home` | numeric |  |
+| `price_dest` | numeric |  |
+| `transport_cost` | numeric | road_km_est x cost_per_qtl_km + fixed_cost_per_qtl, Rs per quintal. |
+| `net_price_dest` | numeric | price_dest - transport_cost, Rs per quintal. |
+| `gain` | numeric | net_price_dest - price_home, Rs per quintal. |
+| `gain_pct` | numeric |  |
+| `is_opportunity` | boolean |  |
+
+## `marts.mart_opportunity_market_day`
+
+Q2 rate. One row per home market x commodity x date x scenario where the home market and >= 1 neighbour within 100 km reported.
+
+Rows: 4980030
+
+| Column | Type | Description |
+|---|---|---|
+| `home_market_key` | text |  |
+| `date_key` | integer |  |
+| `date` | date |  |
+| `commodity_key` | integer |  |
+| `commodity` | text |  |
+| `scenario` | text |  |
+| `n_neighbors_reporting` | bigint |  |
+| `n_opportunities` | bigint |  |
+| `best_gain` | numeric |  |
+| `has_opportunity` | boolean |  |
+| `best_opportunity_gain` | numeric |  |
+| `n_neighbors_market_precision` | bigint |  |
+| `has_opportunity_market_precision` | boolean |  |
+
+## `marts.mart_seasonality`
+
+Q3. Per commodity x state x calendar month - median price, price index vs annual median, crash rate.
+
+Rows: 144
+
+| Column | Type | Description |
+|---|---|---|
+| `commodity` | text |  |
+| `category` | text |  |
+| `state` | text |  |
+| `month` | integer |  |
+| `month_name` | text |  |
+| `n_market_days` | bigint |  |
+| `median_price` | numeric |  |
+| `price_index` | numeric |  |
+| `n_years` | bigint |  |
+| `n_labelled_days` | bigint |  |
+| `n_crash_days` | bigint |  |
+| `crash_rate` | numeric |  |
+
+## `marts.mart_volatility`
+
+Q5. Per commodity x market x year - CV, average absolute daily % change, max drawdown.
+
+Rows: 7215
+
+| Column | Type | Description |
+|---|---|---|
+| `market_key` | text |  |
+| `state` | text |  |
+| `commodity` | text |  |
+| `category` | text |  |
+| `year` | integer |  |
+| `n_report_days` | bigint |  |
+| `mean_price` | numeric |  |
+| `cv` | numeric |  |
+| `avg_abs_daily_pct_change` | numeric |  |
+| `n_daily_changes` | bigint |  |
+| `max_drawdown` | numeric |  |
+
+## `marts.mart_district_access`
+
+Q4. Per district x commodity - nearby town locations, price index vs state, opportunity rate, price-trapped flag.
+
+Rows: 463
+
+| Column | Type | Description |
+|---|---|---|
+| `state` | text |  |
+| `district` | text |  |
+| `commodity` | text |  |
+| `n_markets_within_50km` | bigint |  |
+| `n_markets_within_50km_market_precision` | bigint |  |
+| `avg_price_index` | numeric |  |
+| `n_price_days` | bigint |  |
+| `n_opportunity_market_days` | bigint |  |
+| `opportunity_rate` | numeric |  |
+| `opportunity_rate_market_precision` | numeric |  |
+| `is_price_trapped` | boolean |  |
+| `is_price_trapped_market_precision` | boolean |  |

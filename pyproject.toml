@@ -54,3 +54,5 @@ select = ["E", "F", "I", "B", "UP", "SIM"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/test_load.py" = ["E501"]   # one fixture row per line reads better than wrapped tuples
+"notebooks/*.ipynb" = ["F401", "I001", "E501"]   # notebooks share one setup cell; long table lines
+"notebooks/build_notebooks.py" = ["E501"]   # cell sources are long strings

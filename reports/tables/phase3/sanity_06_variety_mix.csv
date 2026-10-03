@@ -1,0 +1,7 @@
+pair_type,commodity,n_comparisons,pct_opportunity,median_pct_gap
+different dominant variety,Onion,903458,24.7,0.194
+same dominant variety,Onion,3758622,15.3,0.085
+different dominant variety,Potato,2549820,14.3,0.128
+same dominant variety,Potato,2289560,10.8,0.086
+different dominant variety,Tomato,2189384,20.7,0.143
+same dominant variety,Tomato,1864220,20.3,0.139

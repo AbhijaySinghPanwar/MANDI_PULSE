@@ -99,11 +99,14 @@ def dbt(ctx: typer.Context) -> None:
 
 
 @app.command("queries")
-def queries(folder: str) -> None:
+def queries(
+    folder: str,
+    only: str = typer.Option(None, help="Glob of query names to run, e.g. 'sanity_*'."),
+) -> None:
     """Run analysis/queries/<folder>/*.sql against Postgres -> reports/tables/<folder>/."""
     from mandipulse.queries import run_folder
 
-    for path in run_folder(folder):
+    for path in run_folder(folder, only):
         typer.echo(f"wrote {path.relative_to(PROJECT_ROOT).as_posix()}")
 
 

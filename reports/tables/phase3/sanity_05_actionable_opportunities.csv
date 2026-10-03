@@ -1,0 +1,4 @@
+commodity,n_signals,pct_signal_still_opportunity,pct_signal_gain_positive,median_realised_gain_after_signal,median_gain_ex_post
+Onion,693967,80.3,90.0,286.0,322.0
+Potato,558411,85.3,94.2,238.0,253.0
+Tomato,754756,80.5,89.3,321.0,362.0

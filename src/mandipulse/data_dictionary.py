@@ -12,6 +12,7 @@ from mandipulse.config import PROJECT_ROOT
 from mandipulse.db import get_engine
 
 MARTS_YML = PROJECT_ROOT / "dbt" / "mandipulse" / "models" / "marts" / "_marts.yml"
+ANALYSIS_YML = PROJECT_ROOT / "dbt" / "mandipulse" / "models" / "analysis" / "_analysis.yml"
 OUT = PROJECT_ROOT / "docs" / "DATA_DICTIONARY.md"
 
 HEADER = """# Data Dictionary
@@ -30,11 +31,20 @@ dim_commodity (commodity_key) ──┘
 
 Upstream layers: `raw.mandi_prices` → `staging.stg_mandi_prices` (clean, dedupe, aliases)
 → `intermediate.int_price_flags` (quality flags) → `intermediate.int_daily_prices` → marts.
+
+Phase 3 analysis marts (`marts.mart_*`, main period only, suspect-low excluded; the same tables
+including suspect-low rows are in schema `marts_incl_suspect`) follow the star schema below.
 """
 
 
 def build() -> str:
     spec = yaml.safe_load(MARTS_YML.read_text(encoding="utf-8"))
+    analysis = yaml.safe_load(ANALYSIS_YML.read_text(encoding="utf-8"))
+    # Phase 3 analysis marts (mart_*): documented where the yml has descriptions; columns
+    # without one are listed with their type only (strict=False).
+    for m in analysis["models"]:
+        if m["name"].startswith("mart_"):
+            spec["models"].append({**m, "strict": False})
     with get_engine().connect() as conn:
         types = pd.read_sql(
             text(
@@ -60,7 +70,7 @@ def build() -> str:
             desc = docs.get(c.column_name, "").strip().replace("|", "\|")
             parts.append(f"| `{c.column_name}` | {c.data_type} | {desc} |")
         missing = set(cols.column_name) - set(docs)
-        if missing:
+        if missing and model.get("strict", True):
             raise ValueError(f"{name}: undocumented columns {sorted(missing)}")
     return "\n".join(parts) + "\n"
 

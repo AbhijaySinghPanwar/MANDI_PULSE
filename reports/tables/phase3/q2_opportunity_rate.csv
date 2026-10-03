@@ -1,0 +1,10 @@
+scenario,commodity,n_market_days,pct_market_days_with_opportunity,median_best_gain_rs_qtl,avg_neighbors_reporting,pct_single_comparisons_opportunity
+low,Onion,580351,51.0,380.0,8.0,20.5
+mid,Onion,580351,44.8,381.0,8.0,17.1
+high,Onion,580351,35.5,392.0,8.0,12.5
+low,Potato,537622,40.1,291.0,9.0,16.0
+mid,Potato,537622,33.5,290.0,9.0,12.6
+high,Potato,537622,24.8,289.0,9.0,8.4
+low,Tomato,542037,58.5,475.0,7.5,24.0
+mid,Tomato,542037,53.2,473.0,7.5,20.5
+high,Tomato,542037,44.6,478.0,7.5,15.7

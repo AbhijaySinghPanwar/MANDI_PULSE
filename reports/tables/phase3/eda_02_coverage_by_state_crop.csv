@@ -1,0 +1,13 @@
+state,commodity,n_markets,n_market_days,median_report_days_per_market_year
+Gujarat,Onion,45,37051.0,186.0
+Gujarat,Potato,39,34058.0,205.0
+Gujarat,Tomato,51,46457.0,214.0
+Madhya Pradesh,Onion,135,73040.0,113.0
+Madhya Pradesh,Potato,107,58296.0,120.0
+Madhya Pradesh,Tomato,95,60857.0,149.0
+Maharashtra,Onion,128,104030.0,131.0
+Maharashtra,Potato,56,47865.0,153.0
+Maharashtra,Tomato,70,79102.0,214.0
+Uttar Pradesh,Onion,230,395417.0,273.0
+Uttar Pradesh,Potato,231,434342.0,282.0
+Uttar Pradesh,Tomato,227,386634.0,277.0

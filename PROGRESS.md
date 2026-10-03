@@ -392,3 +392,102 @@ Rates in % of staging rows (a row can carry several flags). `n_outlier_spec_rule
 | Madhya Pradesh | Guna | Guna (F&V) | Onion | 36 | 2019-07-20 → 2023-11-03 | 300 | 1500 | 0.25 | Other / FAQ (100%) | **to cross-check against CEDA** |
 | Madhya Pradesh | Mandsaur | Shamgarh (F&V) | Tomato | 32 | 2022-05-10 → 2023-09-22 | 500 | 1900 | 0.26 | Other / FAQ (100%) | **to cross-check against CEDA** |
 | Madhya Pradesh | Shivpuri | Shivpuri | Tomato | 30 | 2023-12-23 → 2025-10-17 | 503 | 2000 | 0.22 | Tomato / FAQ (100%) | **to cross-check against CEDA** |
+
+---
+
+## Phase 3: analysis marts, EDA, findings (2026-10-03/04)
+
+Scope: main period 2018-01-01 → 2025-10-31, valid rows, suspect-low excluded unless stated. Findings in plain English, with every number linked to its query: **[reports/PHASE3_FINDINGS.md](reports/PHASE3_FINDINGS.md)**.
+
+### How to run
+```bash
+python -m mandipulse dbt build                                   # whole project incl. Phase 3 (~12 min)
+python -m mandipulse dbt build --select tag:analysis --vars '{include_suspect_low: true, analysis_schema_suffix: _incl_suspect}'
+                                                                 # sensitivity build -> schema marts_incl_suspect
+python -m mandipulse queries phase3                              # analysis/queries/phase3/*.sql -> reports/tables/phase3/
+python notebooks/build_notebooks.py                              # (re)generate notebooks 01-04
+python -m ipykernel install --sys-prefix --name mandipulse       # once, inside the venv
+python -m nbconvert --to notebook --execute --inplace notebooks/0*.ipynb   # figures -> reports/figures/
+```
+(Use `python -m nbconvert`, not `jupyter nbconvert`: on this machine `jupyter` resolves to the system Python 3.14.)
+
+### Models (dbt folder `models/analysis/`, schema `marts`, tag `analysis`)
+| Model | Rows | Notes |
+|---|---|---|
+| `int_analysis_prices` | 1,757,149 | Base: one price per market × crop × day; price set chosen by `include_suspect_low`. |
+| `int_market_pairs` | 13,506 | Pairs within 150 km straight line; same `town_key` and same-district centroid–centroid pairs excluded; `road_km_est` = km × 1.3; `pair_precision`. 4,242 pairs ≤ 100 km road. |
+| `mart_price_spread` | 6,777,532 | Q1: pair × crop × day, **only days both markets reported**, road ≤ 100 km. |
+| `mart_price_spread_daily` | 33,473 | Q1 rollup per crop × state × day (median / P90 gap). |
+| `int_directed_comparisons` | view | Both directions × 3 cost scenarios, spec formula. |
+| `mart_net_price_opportunities` | 6,569,690 | Q2: profitable moves only, long by scenario. |
+| `mart_opportunity_market_day` | 4,980,030 | Q2 rate denominator: home market × crop × day × scenario (1.66 M market-days × 3). |
+| `int_crash_labels` | 1,757,149 | Spec 9.2 crash label from observed days only (NULL when unknown). Also the Phase 4 target. |
+| `mart_seasonality` | 144 | Q3: crop × state × month: median price, price index, crash rate. |
+| `mart_volatility` | 7,215 | Q5: market × crop × year (≥ 60 report days): CV, average absolute daily change, max drawdown. |
+| `mart_district_access` | 463 | Q4: district × crop: **distinct town locations** within 50 km, price index vs state, opportunity rate, `is_price_trapped` (+ market-precision variants). |
+
+**Size check:** the largest pair-level marts are 6.8 M (`mart_price_spread`) and 6.6 M rows (`mart_net_price_opportunities`), well under the ~20 M threshold. Pair-level detail stays in Postgres and no monthly aggregates were needed. The sensitivity copy is in schema `marts_incl_suspect` (e.g. spread 6.80 M rows).
+
+**Tests:** the full `dbt build` on real data is **PASS 134 / 134 (8 seeds, 20 table models + 1 view, 105 tests; 9.4 min)**. New tests:
+- keys and grain (`unique_combination`) on every analysis model, plus not_null and relationships to `dim_market` / `int_market_pairs`;
+- `road_km_est > 0`;
+- `abs(gain − (net_price_dest − price_home)) < 0.01` and `abs(net_price_dest − (price_dest − transport_cost)) < 0.01`;
+- `abs_gap = |price_a − price_b|`, accepted values for scenario / pair_precision, month in 1–12, crash_rate and max_drawdown in [0, 1].
+
+New generic test: `expression_is_true`. The synthetic CI fixture also runs the whole project: **134/134** locally.
+
+### Headline numbers and robustness (`reports/tables/phase3/robustness.csv`)
+Versions: (a) default · (b) no district-centroid geocodes · (c) including suspect-low.
+
+| Q | Headline (a) | Range a–c |
+|---|---|---|
+| Q1 | Median same-day gap ≤ 100 km: onion 10.5% (₹150), potato 11.1% (₹100), tomato 15.3% (₹200) | onion 10.5–10.6, potato 10.1–11.1, tomato 15.2–15.4 % |
+| Q2 | Market-days with a profitable move (mid cost): **43.9%** (tomato 53.2, onion 44.8, potato 33.5); median best gain ₹383/qtl; cost scenarios 35.0–49.9% | 37.9–44.0 % |
+| Q3 | December is the crash month for all crops (tomato 64%, onion 42%, potato 39%); overall crash rate tomato 26.0, onion 15.4, potato 8.0 % | tomato 25.97–26.52, onion 15.42–16.08, potato 8.01–8.35 % |
+| Q4 | 29 district × crop combinations in **22 districts** price-trapped (MP 15, MH 9, GJ 5, UP 0) | 22–26 districts |
+| Q5 | Median CV: tomato 0.49 > onion 0.39 > potato 0.25 (tomato highest in 6 of 8 years; onion in 2019–2020) | tomato 0.491–0.494, onion 0.394–0.401, potato 0.248–0.249 |
+
+### Sanity checks (done before writing the findings)
+1. **The mid-scenario opportunity rate exceeds 50% for tomato (53.2%), so it was investigated.** Saved queries: `sanity_01`–`07`.
+   - It is "best of about 8 neighbours": any *single* neighbour is profitable on only **12.6–20.5%** of comparisons.
+   - It is **persistent, not noise**: after a profitable comparison day, the next one (≤ 3 days later) is profitable again **80–85%** of the time (realised median gain ₹238–321).
+   - **Concentrated:** the top 20% of destinations take 66% of opportunities. The top 15 destinations are all western UP / Delhi-NCR-edge markets (Ghaziabad, Meerut, Muzaffarnagar…).
+   - **Variety mix inflates onion and potato** (different-variety pairs 24.7% vs 15.3% for same-variety, onion). It does not affect tomato.
+   - **Not one state:** 31–55% in every state × crop.
+   - **Costs exclude commission and market fees**, so the true rate is lower (decision below).
+2. **The crash rate looked implausibly high** (tomato 26%, December 64%), so it was checked against stricter definitions (`sanity_09`).
+   - Requiring ≥ 2 days below the threshold gives tomato 21.4%; requiring most days in the window gives 12.7%.
+   - **December stays the peak under every definition.** These are mostly genuine seasonal falls (harvest arrivals), not single-quote noise.
+3. **Spot-check: 5 pseudo-random mid-scenario opportunities** (`sanity_08`, fixed hash order) were recomputed by hand from the raw rows: daily price = median of valid raw modals; transport = road_km × 1.5 + 50; gain = dest − transport − home.
+
+| # | Crop, date | Home → destination (road km) | Raw home rows (variety: modal) | Raw dest rows | Gain by hand | Gain in mart |
+|---|---|---|---|---|---|---|
+| 1 | Onion, 2019-11-27 | Nandgaon → Lasalgaon (Niphad) (82.0) | Red: 2101, Other: 2001 | Other: 6000 | 3776.00 | 3776.00 |
+| 2 | Tomato, 2019-09-23 | Meerut → Divai (69.57) | Local: 1240 | Deshi: 1590 | 195.64 | 195.64 |
+| 3 | Tomato, 2020-11-25 | Dibiapur → Kannauj (75.35) | Hybrid: 1800 | Hybrid: 2600 | 636.97 | 636.97 |
+| 4 | Onion, 2021-04-22 | Kanpur (Grain) → Bindki (65.5) | Red: 1060 | Red: 1310 | 101.75 | 101.75 |
+| 5 | Onion, 2022-01-22 | Baraut → Shamli (42.25) | Onion: 1850 | Red: 2285 | 321.62 | 321.62 |
+
+All 5 match to the paisa. #1 is the Nov-2019 onion spike: Lasalgaon (Niphad) quoted min ₹1500 / max ₹6300 that day, so quality varied widely behind its single modal price.
+
+### Notebooks and figures
+- `notebooks/01_eda.ipynb`, `02_spreads_and_opportunities.ipynb`, `03_seasonality_volatility.ipynb`, `04_price_trapped_districts.ipynb`. They are generated by `notebooks/build_notebooks.py` and **executed top to bottom with nbconvert** (no errors).
+- 12 PNGs in `reports/figures/`, each with a title, units (₹/quintal or %) and a source note.
+- Colours come from the validated palette, fixed per crop (Tomato blue, Onion orange, Potato aqua); every series is direct-labelled because aqua is below 3:1 contrast.
+- Notebooks load data only through saved queries (`mandipulse.viz.load`), which also write the table view of each figure to `reports/tables/`.
+
+### Other changes
+- `python -m mandipulse queries <folder> [--only glob]`. The query runner now uses a plain cursor, so `%` in labels is safe, and converts Decimal columns to floats.
+- `python -m mandipulse dbt ... --vars '{...}'` merges the extra vars over the `settings.yaml` vars.
+- `docs/DATA_DICTIONARY.md` now also lists the Phase 3 `mart_*` columns.
+
+### Decisions needed before Phase 4 (ML)
+1. **Crash label definition.** As specified (any single low quote within 14 days), the base rate is tomato 26%, onion 15%, potato 8%, and December alone is 39–64%. Three choices:
+   - (a) keep the spec definition;
+   - (b) the **sustained** definition, ≥ 2 report days below 70% (recommended: removes single-quote noise and keeps real events); tomato 21.4%;
+   - (c) the majority definition; tomato 12.7%.
+
+   Either way, the seasonal baseline (crash rate by crop × month) will be strong, because so much is December.
+2. **Transport-cost model.** Add a percentage cost for commission + market fees (typically about 5–8% of the sale value) to the scenarios? It would cut the opportunity rate a lot and make Q2 (and the Streamlit "best mandi" tool) more realistic. Recommended: yes, as a `pct_cost` per scenario (e.g. 4% / 6% / 8%).
+3. **Forecast target granularity.** Train on all market × crop series with ≥ 180 valid days (spec), or restrict to series with dense reporting in the walk-forward test months (May–Oct 2025, when reporting was already thinning)? Recommended: spec rule for training, with metrics reported separately for dense vs sparse series.
+4. **Features from same-day neighbours.** The spread work shows prices are strongly regional (western UP vs the rest). Use same-day state/regional median lags as features (spec §9.1 already lists "state-level median price lags")? Recommended: yes, lagged by at least 1 day.

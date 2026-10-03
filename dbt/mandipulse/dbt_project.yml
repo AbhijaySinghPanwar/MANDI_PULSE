@@ -59,6 +59,9 @@ models:
       +schema: intermediate
     marts:
       +schema: marts
+    analysis:                      # Phase 3 analysis marts; rebuilt into marts<suffix> for sensitivity
+      +schema: marts
+      +tags: ["analysis"]
 
 seeds:
   mandipulse:
