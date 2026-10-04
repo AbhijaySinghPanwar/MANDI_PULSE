@@ -516,3 +516,86 @@ All 5 match to the paisa. #1 is the Nov-2019 onion spike: Lasalgaon (Niphad) quo
 
    Before fees the mid rate was 43.9%. Cost scenarios now give 24.4–42.2%. The median best gain is ₹370/qtl.
 5. **Re-run:** analysis marts (59/59 tests), the sensitivity build (56/56), all 26 Phase 3 queries, all 4 notebooks and figures.
+
+---
+
+## Phase 4: ML: forecast, crash warning, clustering (2026-10-05)
+
+**Report:** [reports/ML_REPORT.md](reports/ML_REPORT.md), generated from the saved metrics files by `python -m mandipulse ml report`.
+
+### How to run
+```bash
+python -m mandipulse ml train-all       # A + B + C + SHAP (or: train-forecast / train-crash / cluster / explain)
+python -m mandipulse ml score           # latest dates -> ml.price_forecast, ml.crash_risk, ml.market_cluster
+python -m mandipulse ml report          # reports/ML_REPORT.md from reports/ml/*.json
+python -m mandipulse ml init-schema     # empty ml.* tables (used in CI)
+```
+- Artifacts are in `models/<model>/<YYYYMMDD>/` (model.joblib, metrics.json, feature_list.json, config_snapshot.yaml; gitignored). The metrics are copied to `reports/ml/` (committed).
+- Fixed seed 42, deterministic LightGBM.
+
+### Data and leakage
+- **Input:** `marts.int_analysis_prices` (main period, valid, suspect-low excluded) on a daily grid per series.
+- **Leakage rules:** features use data ≤ t, and state features use t − 1. Forward-fill (≤ 3 days) is used only for features. Targets are real reports: no report on t+7 → no target.
+- `tests/test_features_no_leakage.py` (8 tests) checks four things:
+  - shocking future prices changes no feature at or before t;
+  - shocking *other* markets' prices on day t changes no feature at t;
+  - every target equals a real report;
+  - no target exists where the target day has no report.
+
+### Model A: 7-day forecast
+| Walk-forward May–Oct 2025 (108,004 rows) | MAE ₹/qtl | MAPE |
+|---|---|---|
+| **LightGBM p50** | **147.6** | 9.77% |
+| Last value (best baseline) | 158.6 | 10.31% |
+| 7-day moving average | 172.4 | 10.85% |
+| Value 7 days ago | 220.7 | 13.67% |
+
+- **The model beats the best baseline by 6.9%, short of the spec's 10% target. Reported honestly.**
+  - Run 1 used a squared-error (L2) objective and was only 1.2% better. The p50 was then switched to a median (quantile 0.5) objective, since MAE is minimised by the median. Run 1's metrics are kept in `reports/ml/attempts/`.
+  - No other tuning was done on the test months.
+- **By crop** (model vs last value, MAE ₹/qtl): onion 92.7 vs 95.7, potato 56.7 vs 60.4, tomato 292.5 vs 318.9 (tomato gains most).
+- **By segment:** frequent 145.5 vs 156.5, sparse 175.6 vs 186.9.
+- **p10–p90 band coverage:** 75.6% (target about 80%).
+- **Stress test** (train < 2023-07-01, test Jul–Aug 2023): the model beats "last value" by 3.6% overall; tomato MAE ₹1,316 vs ₹1,354. Band coverage is 66.5%.
+  - Every method lags the spike's onset, and the model under-shoots the plateau by about 10%.
+  - It turns down several days before "last value" in the August collapse (`reports/figures/ml_stress_test_tomato_jul2023.png`).
+
+### Model B: crash early warning
+- **Validation:** yearly expanding folds, test years 2022–2025. This deviates from the May–Oct 2025 window so that December can be tested.
+- **Thresholds:** chosen on the year before each test year (precision ≥ 0.6 target).
+
+| PR-AUC (prevalence) | LightGBM | Logistic | Seasonal rule | Beats seasonal? |
+|---|---|---|---|---|
+| All months (12.4%) | **0.748** | 0.730 | 0.341 | yes |
+| December (43.5%) | **0.824** | 0.821 | 0.562 | yes |
+| Other months (10.2%) | **0.722** | 0.697 | 0.231 | yes |
+| **Not yet falling** (price ≥ 90% of median at t; 4.1%) | **0.293** | 0.283 | 0.147 | yes |
+| Not yet falling, other months (3.3%) | **0.254** | 0.240 | 0.074 | yes |
+
+- **74% of crash labels occur when the price is already below 90% of its median at t.**
+- All months: precision 57.5%, recall 73.0%, average lead 3.8 days.
+- Genuinely early warnings (not yet falling): precision **30%**, recall 38%, lead **6.6 days**. The precision target is not met there.
+- Logistic regression is close behind LightGBM everywhere, so the signal is mostly momentum.
+
+### Model C: clusters
+- **k = 5:** silhouette k=3 0.228, k=4 0.213, k=5 0.213, k=6 0.192. Rule: the most detailed k within 0.02 of the best.
+- **Segments:** Stable, regular market (425 series); Volatile & crash-prone (309); Under-priced, sparse reporting (164); Isolated premium market (134); **Erratic & under-priced, thin reporting (96)**.
+- **Suspect-low series:** 18 of the 22 have ≥ 180 days. **11 of the 18 land in the small "Erratic & under-priced, thin reporting" cluster** (4 in under-priced sparse, 2 stable, 1 volatile).
+
+### Explainability
+SHAP (exact TreeSHAP, 50k rows): `reports/figures/shap_price_forecast.png`, `shap_crash_risk.png`.
+- **Model A drivers:** regional 7-day momentum (t−1), distance from the state price, price level (mean reversion), market, week of year.
+- **Model B drivers:** seasonal crash history, market, price below its 30-day average, negative momentum, share of state markets already falling.
+
+### Scoring and tests
+- `ml.price_forecast` 920 rows and `ml.crash_risk` 920 rows (latest anchors 2025-10-17 → 2025-10-31; 34 alerts); `ml.market_cluster` 1,128 rows.
+- dbt sources and tests for `ml.*`: **21/21 pass** (keys, not_null, relationships, p10 ≤ p50 ≤ p90, horizon = date + 7, 0 ≤ prob ≤ 1, alert_flag consistent with the threshold).
+- **CI:** installs the `ml` extra and runs `ml init-schema` before `dbt build`, so the ml tests run on empty tables.
+- `pytest` passes 46, including the 8 leakage tests.
+- **Full `dbt build` on real data: PASS 160 / 160** (8 seeds, 22 table models + 1 view, 129 tests). The synthetic CI flow (fixture load → `ml init-schema` → `dbt build`) is also 160/160 locally.
+
+### Decisions needed before Phase 5
+1. **Which crash model to serve?** LightGBM is only slightly better than logistic regression (PR-AUC 0.254 vs 0.240 on the hardest segment). Recommended: keep LightGBM for scores, but show the logistic model's coefficients in the Methodology page for transparency.
+2. **Alert threshold for the app.** The validated threshold gives about 57% precision overall but about 30% on not-yet-falling days. Should the "Crash Alerts" page show (a) only alerts at the validated threshold, or (b) a ranked risk list with probability bands (high / medium)? Recommended: (b), with honest copy ("about 3 in 10 early warnings come true; about 6 days' lead").
+3. **Forecast display.** Since the model is only 6.9% better than "last value", should the "Price Outlook" page show the baseline alongside the forecast? Recommended: yes, both lines plus the p10–p90 band, and state the 76% band coverage.
+4. **Data freshness.** Scores are for 2025-10-31 (end of the main period). The app will show stale dates until CEDA or data.gov.in data arrive. OK to label the app "as of 31 Oct 2025"?

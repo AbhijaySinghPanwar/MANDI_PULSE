@@ -1,0 +1,671 @@
+{
+  "model": "crash_risk",
+  "version": "crash_risk_20261005",
+  "label": "crash = >= 2 report days in next 14 below 0.7 x trailing 30-day median",
+  "test_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "target_precision": 0.6,
+  "thresholds": {
+    "2022": {
+      "prevalence": {
+        "threshold": null,
+        "reached_target_precision": false
+      },
+      "seasonal_rule": {
+        "threshold": 0.4097,
+        "reached_target_precision": true
+      },
+      "logistic": {
+        "threshold": 0.7036,
+        "reached_target_precision": true
+      },
+      "lightgbm": {
+        "threshold": 0.6308,
+        "reached_target_precision": true
+      }
+    },
+    "2023": {
+      "prevalence": {
+        "threshold": null,
+        "reached_target_precision": false
+      },
+      "seasonal_rule": {
+        "threshold": 0.2252,
+        "reached_target_precision": false
+      },
+      "logistic": {
+        "threshold": 0.7331,
+        "reached_target_precision": true
+      },
+      "lightgbm": {
+        "threshold": 0.6532,
+        "reached_target_precision": true
+      }
+    },
+    "2024": {
+      "prevalence": {
+        "threshold": null,
+        "reached_target_precision": false
+      },
+      "seasonal_rule": {
+        "threshold": 0.529,
+        "reached_target_precision": true
+      },
+      "logistic": {
+        "threshold": 0.6221,
+        "reached_target_precision": true
+      },
+      "lightgbm": {
+        "threshold": 0.4985,
+        "reached_target_precision": true
+      }
+    },
+    "2025": {
+      "prevalence": {
+        "threshold": null,
+        "reached_target_precision": false
+      },
+      "seasonal_rule": {
+        "threshold": 0.5619,
+        "reached_target_precision": true
+      },
+      "logistic": {
+        "threshold": 0.8331,
+        "reached_target_precision": true
+      },
+      "lightgbm": {
+        "threshold": 0.8043,
+        "reached_target_precision": true
+      }
+    }
+  },
+  "segments": {
+    "all": {
+      "prevalence": {
+        "n": 868648,
+        "n_crash": 107897,
+        "prevalence_pct": 12.42,
+        "pr_auc": 0.1259,
+        "lift_over_prevalence": 1.01,
+        "n_alerts": 0,
+        "precision_pct": null,
+        "recall_pct": 0.0,
+        "avg_lead_days_true_alerts": null
+      },
+      "seasonal_rule": {
+        "n": 868648,
+        "n_crash": 107897,
+        "prevalence_pct": 12.42,
+        "pr_auc": 0.341,
+        "lift_over_prevalence": 2.75,
+        "n_alerts": 61769,
+        "precision_pct": 39.8,
+        "recall_pct": 22.8,
+        "avg_lead_days_true_alerts": 4.4
+      },
+      "logistic": {
+        "n": 868648,
+        "n_crash": 107897,
+        "prevalence_pct": 12.42,
+        "pr_auc": 0.7295,
+        "lift_over_prevalence": 5.87,
+        "n_alerts": 137354,
+        "precision_pct": 57.7,
+        "recall_pct": 73.5,
+        "avg_lead_days_true_alerts": 3.8
+      },
+      "lightgbm": {
+        "n": 868648,
+        "n_crash": 107897,
+        "prevalence_pct": 12.42,
+        "pr_auc": 0.7483,
+        "lift_over_prevalence": 6.02,
+        "n_alerts": 136948,
+        "precision_pct": 57.5,
+        "recall_pct": 73.0,
+        "avg_lead_days_true_alerts": 3.8
+      },
+      "by_commodity": {
+        "Onion": {
+          "prevalence": {
+            "n": 309217,
+            "n_crash": 31532,
+            "prevalence_pct": 10.2,
+            "pr_auc": 0.0968,
+            "lift_over_prevalence": 0.95,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 309217,
+            "n_crash": 31532,
+            "prevalence_pct": 10.2,
+            "pr_auc": 0.2223,
+            "lift_over_prevalence": 2.18,
+            "n_alerts": 13552,
+            "precision_pct": 36.5,
+            "recall_pct": 15.7,
+            "avg_lead_days_true_alerts": 4.6
+          },
+          "logistic": {
+            "n": 309217,
+            "n_crash": 31532,
+            "prevalence_pct": 10.2,
+            "pr_auc": 0.6349,
+            "lift_over_prevalence": 6.23,
+            "n_alerts": 40194,
+            "precision_pct": 52.9,
+            "recall_pct": 67.4,
+            "avg_lead_days_true_alerts": 4.2
+          },
+          "lightgbm": {
+            "n": 309217,
+            "n_crash": 31532,
+            "prevalence_pct": 10.2,
+            "pr_auc": 0.6839,
+            "lift_over_prevalence": 6.71,
+            "n_alerts": 38052,
+            "precision_pct": 54.9,
+            "recall_pct": 66.3,
+            "avg_lead_days_true_alerts": 4.3
+          }
+        },
+        "Potato": {
+          "prevalence": {
+            "n": 279981,
+            "n_crash": 11762,
+            "prevalence_pct": 4.2,
+            "pr_auc": 0.0417,
+            "lift_over_prevalence": 0.99,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 279981,
+            "n_crash": 11762,
+            "prevalence_pct": 4.2,
+            "pr_auc": 0.1513,
+            "lift_over_prevalence": 3.6,
+            "n_alerts": 12737,
+            "precision_pct": 16.1,
+            "recall_pct": 17.5,
+            "avg_lead_days_true_alerts": 7.1
+          },
+          "logistic": {
+            "n": 279981,
+            "n_crash": 11762,
+            "prevalence_pct": 4.2,
+            "pr_auc": 0.4574,
+            "lift_over_prevalence": 10.89,
+            "n_alerts": 15751,
+            "precision_pct": 40.7,
+            "recall_pct": 54.5,
+            "avg_lead_days_true_alerts": 5.2
+          },
+          "lightgbm": {
+            "n": 279981,
+            "n_crash": 11762,
+            "prevalence_pct": 4.2,
+            "pr_auc": 0.4628,
+            "lift_over_prevalence": 11.02,
+            "n_alerts": 18098,
+            "precision_pct": 36.3,
+            "recall_pct": 55.9,
+            "avg_lead_days_true_alerts": 5.2
+          }
+        },
+        "Tomato": {
+          "prevalence": {
+            "n": 279450,
+            "n_crash": 64603,
+            "prevalence_pct": 23.12,
+            "pr_auc": 0.2442,
+            "lift_over_prevalence": 1.06,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 279450,
+            "n_crash": 64603,
+            "prevalence_pct": 23.12,
+            "pr_auc": 0.4349,
+            "lift_over_prevalence": 1.88,
+            "n_alerts": 35480,
+            "precision_pct": 49.5,
+            "recall_pct": 27.2,
+            "avg_lead_days_true_alerts": 4.1
+          },
+          "logistic": {
+            "n": 279450,
+            "n_crash": 64603,
+            "prevalence_pct": 23.12,
+            "pr_auc": 0.8073,
+            "lift_over_prevalence": 3.49,
+            "n_alerts": 81409,
+            "precision_pct": 63.4,
+            "recall_pct": 79.9,
+            "avg_lead_days_true_alerts": 3.5
+          },
+          "lightgbm": {
+            "n": 279450,
+            "n_crash": 64603,
+            "prevalence_pct": 23.12,
+            "pr_auc": 0.8206,
+            "lift_over_prevalence": 3.55,
+            "n_alerts": 80798,
+            "precision_pct": 63.5,
+            "recall_pct": 79.4,
+            "avg_lead_days_true_alerts": 3.4
+          }
+        }
+      }
+    },
+    "december": {
+      "prevalence": {
+        "n": 58124,
+        "n_crash": 25292,
+        "prevalence_pct": 43.51,
+        "pr_auc": 0.3895,
+        "lift_over_prevalence": 0.9,
+        "n_alerts": 0,
+        "precision_pct": null,
+        "recall_pct": 0.0,
+        "avg_lead_days_true_alerts": null
+      },
+      "seasonal_rule": {
+        "n": 58124,
+        "n_crash": 25292,
+        "prevalence_pct": 43.51,
+        "pr_auc": 0.5617,
+        "lift_over_prevalence": 1.29,
+        "n_alerts": 38243,
+        "precision_pct": 50.2,
+        "recall_pct": 75.9,
+        "avg_lead_days_true_alerts": 4.6
+      },
+      "logistic": {
+        "n": 58124,
+        "n_crash": 25292,
+        "prevalence_pct": 43.51,
+        "pr_auc": 0.821,
+        "lift_over_prevalence": 1.89,
+        "n_alerts": 37829,
+        "precision_pct": 60.1,
+        "recall_pct": 89.9,
+        "avg_lead_days_true_alerts": 4.5
+      },
+      "lightgbm": {
+        "n": 58124,
+        "n_crash": 25292,
+        "prevalence_pct": 43.51,
+        "pr_auc": 0.8237,
+        "lift_over_prevalence": 1.89,
+        "n_alerts": 34975,
+        "precision_pct": 62.2,
+        "recall_pct": 86.0,
+        "avg_lead_days_true_alerts": 4.5
+      },
+      "by_commodity": {
+        "Onion": {
+          "prevalence": {
+            "n": 20328,
+            "n_crash": 9089,
+            "prevalence_pct": 44.71,
+            "pr_auc": 0.3924,
+            "lift_over_prevalence": 0.88,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 20328,
+            "n_crash": 9089,
+            "prevalence_pct": 44.71,
+            "pr_auc": 0.3695,
+            "lift_over_prevalence": 0.83,
+            "n_alerts": 6538,
+            "precision_pct": 69.7,
+            "recall_pct": 50.1,
+            "avg_lead_days_true_alerts": 4.6
+          },
+          "logistic": {
+            "n": 20328,
+            "n_crash": 9089,
+            "prevalence_pct": 44.71,
+            "pr_auc": 0.8108,
+            "lift_over_prevalence": 1.81,
+            "n_alerts": 11640,
+            "precision_pct": 65.4,
+            "recall_pct": 83.7,
+            "avg_lead_days_true_alerts": 4.4
+          },
+          "lightgbm": {
+            "n": 20328,
+            "n_crash": 9089,
+            "prevalence_pct": 44.71,
+            "pr_auc": 0.8405,
+            "lift_over_prevalence": 1.88,
+            "n_alerts": 10409,
+            "precision_pct": 70.9,
+            "recall_pct": 81.2,
+            "avg_lead_days_true_alerts": 4.3
+          }
+        },
+        "Potato": {
+          "prevalence": {
+            "n": 18828,
+            "n_crash": 3602,
+            "prevalence_pct": 19.13,
+            "pr_auc": 0.1878,
+            "lift_over_prevalence": 0.98,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 18828,
+            "n_crash": 3602,
+            "prevalence_pct": 19.13,
+            "pr_auc": 0.1878,
+            "lift_over_prevalence": 0.98,
+            "n_alerts": 12737,
+            "precision_pct": 16.1,
+            "recall_pct": 57.0,
+            "avg_lead_days_true_alerts": 7.1
+          },
+          "logistic": {
+            "n": 18828,
+            "n_crash": 3602,
+            "prevalence_pct": 19.13,
+            "pr_auc": 0.5558,
+            "lift_over_prevalence": 2.91,
+            "n_alerts": 9513,
+            "precision_pct": 33.3,
+            "recall_pct": 87.9,
+            "avg_lead_days_true_alerts": 7.0
+          },
+          "lightgbm": {
+            "n": 18828,
+            "n_crash": 3602,
+            "prevalence_pct": 19.13,
+            "pr_auc": 0.4626,
+            "lift_over_prevalence": 2.42,
+            "n_alerts": 9449,
+            "precision_pct": 30.2,
+            "recall_pct": 79.2,
+            "avg_lead_days_true_alerts": 7.0
+          }
+        },
+        "Tomato": {
+          "prevalence": {
+            "n": 18968,
+            "n_crash": 12601,
+            "prevalence_pct": 66.43,
+            "pr_auc": 0.634,
+            "lift_over_prevalence": 0.95,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 18968,
+            "n_crash": 12601,
+            "prevalence_pct": 66.43,
+            "pr_auc": 0.6903,
+            "lift_over_prevalence": 1.04,
+            "n_alerts": 18968,
+            "precision_pct": 66.4,
+            "recall_pct": 100.0,
+            "avg_lead_days_true_alerts": 4.2
+          },
+          "logistic": {
+            "n": 18968,
+            "n_crash": 12601,
+            "prevalence_pct": 66.43,
+            "pr_auc": 0.887,
+            "lift_over_prevalence": 1.34,
+            "n_alerts": 16676,
+            "precision_pct": 71.8,
+            "recall_pct": 95.0,
+            "avg_lead_days_true_alerts": 4.0
+          },
+          "lightgbm": {
+            "n": 18968,
+            "n_crash": 12601,
+            "prevalence_pct": 66.43,
+            "pr_auc": 0.9133,
+            "lift_over_prevalence": 1.37,
+            "n_alerts": 15117,
+            "precision_pct": 76.2,
+            "recall_pct": 91.4,
+            "avg_lead_days_true_alerts": 3.9
+          }
+        }
+      }
+    },
+    "other_months": {
+      "prevalence": {
+        "n": 810524,
+        "n_crash": 82605,
+        "prevalence_pct": 10.19,
+        "pr_auc": 0.1036,
+        "lift_over_prevalence": 1.02,
+        "n_alerts": 0,
+        "precision_pct": null,
+        "recall_pct": 0.0,
+        "avg_lead_days_true_alerts": null
+      },
+      "seasonal_rule": {
+        "n": 810524,
+        "n_crash": 82605,
+        "prevalence_pct": 10.19,
+        "pr_auc": 0.2308,
+        "lift_over_prevalence": 2.26,
+        "n_alerts": 23526,
+        "precision_pct": 22.8,
+        "recall_pct": 6.5,
+        "avg_lead_days_true_alerts": 3.9
+      },
+      "logistic": {
+        "n": 810524,
+        "n_crash": 82605,
+        "prevalence_pct": 10.19,
+        "pr_auc": 0.697,
+        "lift_over_prevalence": 6.84,
+        "n_alerts": 99525,
+        "precision_pct": 56.8,
+        "recall_pct": 68.4,
+        "avg_lead_days_true_alerts": 3.5
+      },
+      "lightgbm": {
+        "n": 810524,
+        "n_crash": 82605,
+        "prevalence_pct": 10.19,
+        "pr_auc": 0.7224,
+        "lift_over_prevalence": 7.09,
+        "n_alerts": 101973,
+        "precision_pct": 55.9,
+        "recall_pct": 69.0,
+        "avg_lead_days_true_alerts": 3.6
+      },
+      "by_commodity": {
+        "Onion": {
+          "prevalence": {
+            "n": 288889,
+            "n_crash": 22443,
+            "prevalence_pct": 7.77,
+            "pr_auc": 0.0789,
+            "lift_over_prevalence": 1.02,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 288889,
+            "n_crash": 22443,
+            "prevalence_pct": 7.77,
+            "pr_auc": 0.1682,
+            "lift_over_prevalence": 2.17,
+            "n_alerts": 7014,
+            "precision_pct": 5.7,
+            "recall_pct": 1.8,
+            "avg_lead_days_true_alerts": 5.3
+          },
+          "logistic": {
+            "n": 288889,
+            "n_crash": 22443,
+            "prevalence_pct": 7.77,
+            "pr_auc": 0.5536,
+            "lift_over_prevalence": 7.13,
+            "n_alerts": 28554,
+            "precision_pct": 47.8,
+            "recall_pct": 60.8,
+            "avg_lead_days_true_alerts": 4.1
+          },
+          "lightgbm": {
+            "n": 288889,
+            "n_crash": 22443,
+            "prevalence_pct": 7.77,
+            "pr_auc": 0.6198,
+            "lift_over_prevalence": 7.98,
+            "n_alerts": 27643,
+            "precision_pct": 48.9,
+            "recall_pct": 60.3,
+            "avg_lead_days_true_alerts": 4.2
+          }
+        },
+        "Potato": {
+          "prevalence": {
+            "n": 261153,
+            "n_crash": 8160,
+            "prevalence_pct": 3.12,
+            "pr_auc": 0.0306,
+            "lift_over_prevalence": 0.98,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 261153,
+            "n_crash": 8160,
+            "prevalence_pct": 3.12,
+            "pr_auc": 0.1089,
+            "lift_over_prevalence": 3.49,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "logistic": {
+            "n": 261153,
+            "n_crash": 8160,
+            "prevalence_pct": 3.12,
+            "pr_auc": 0.4356,
+            "lift_over_prevalence": 13.94,
+            "n_alerts": 6238,
+            "precision_pct": 52.1,
+            "recall_pct": 39.8,
+            "avg_lead_days_true_alerts": 3.4
+          },
+          "lightgbm": {
+            "n": 261153,
+            "n_crash": 8160,
+            "prevalence_pct": 3.12,
+            "pr_auc": 0.4736,
+            "lift_over_prevalence": 15.16,
+            "n_alerts": 8649,
+            "precision_pct": 43.0,
+            "recall_pct": 45.6,
+            "avg_lead_days_true_alerts": 3.9
+          }
+        },
+        "Tomato": {
+          "prevalence": {
+            "n": 260482,
+            "n_crash": 52002,
+            "prevalence_pct": 19.96,
+            "pr_auc": 0.2087,
+            "lift_over_prevalence": 1.05,
+            "n_alerts": 0,
+            "precision_pct": null,
+            "recall_pct": 0.0,
+            "avg_lead_days_true_alerts": null
+          },
+          "seasonal_rule": {
+            "n": 260482,
+            "n_crash": 52002,
+            "prevalence_pct": 19.96,
+            "pr_auc": 0.2873,
+            "lift_over_prevalence": 1.44,
+            "n_alerts": 16512,
+            "precision_pct": 30.1,
+            "recall_pct": 9.6,
+            "avg_lead_days_true_alerts": 3.7
+          },
+          "logistic": {
+            "n": 260482,
+            "n_crash": 52002,
+            "prevalence_pct": 19.96,
+            "pr_auc": 0.7827,
+            "lift_over_prevalence": 3.92,
+            "n_alerts": 64733,
+            "precision_pct": 61.2,
+            "recall_pct": 76.2,
+            "avg_lead_days_true_alerts": 3.3
+          },
+          "lightgbm": {
+            "n": 260482,
+            "n_crash": 52002,
+            "prevalence_pct": 19.96,
+            "pr_auc": 0.7936,
+            "lift_over_prevalence": 3.97,
+            "n_alerts": 65681,
+            "precision_pct": 60.6,
+            "recall_pct": 76.5,
+            "avg_lead_days_true_alerts": 3.3
+          }
+        }
+      }
+    }
+  },
+  "verdict": {
+    "all": {
+      "lightgbm_pr_auc": 0.7483,
+      "seasonal_rule_pr_auc": 0.341,
+      "logistic_pr_auc": 0.7295,
+      "beats_seasonal_rule": true,
+      "pr_auc_gain_vs_seasonal_pct": 119.4
+    },
+    "december": {
+      "lightgbm_pr_auc": 0.8237,
+      "seasonal_rule_pr_auc": 0.5617,
+      "logistic_pr_auc": 0.821,
+      "beats_seasonal_rule": true,
+      "pr_auc_gain_vs_seasonal_pct": 46.6
+    },
+    "other_months": {
+      "lightgbm_pr_auc": 0.7224,
+      "seasonal_rule_pr_auc": 0.2308,
+      "logistic_pr_auc": 0.697,
+      "beats_seasonal_rule": true,
+      "pr_auc_gain_vs_seasonal_pct": 213.0
+    }
+  },
+  "final_threshold": 0.8043,
+  "n_train_rows_final": 1724371
+}

@@ -1,0 +1,1129 @@
+market_key,commodity_key,commodity,state,district,market,n_report_days,cv,price_index,report_freq,seasonal_amplitude,crash_rate,n_markets_within_50km,is_suspect_series
+387fa70ac35cb4488aebdd018297aa7a,2,Onion,Gujarat,Ahmedabad,Ahmedabad (Chimanbhai Patal Market Vasana),1648,0.5874,1.0791,0.5766,1.8393,0.1323,2,False
+9a94bba85605d3861aa6693c5675b176,2,Onion,Gujarat,Ahmedabad,Dholka (Koth),223,0.2268,1.3626,0.5631,0.75,0.1606,1,False
+e1c12a96ee4fe2cef4bba5d9587b7c9b,2,Onion,Gujarat,Anand,"Anand (Veg,Yard,Anand)",2100,0.5155,1.1318,0.7343,1.1176,0.1821,7,False
+324552af2698abb371331319190c6d80,2,Onion,Gujarat,Anand,Khambhat (Veg Yard Khambhat),1190,0.5767,1.1938,0.4164,1.4219,0.1605,6,False
+ab03d9d3df96e7d7a86b6fd8ab319cfb,2,Onion,Gujarat,Anand,"Petlad (Veg Yard, Petlad)",361,0.6371,0.9092,0.3206,2.1316,0.0828,7,False
+a065227414dbfb9987212cba97220708,2,Onion,Gujarat,Banaskanth,Deesa (Deesa Veg Yard),1633,0.5747,1.1191,0.5716,1.425,0.1335,2,False
+89655cfa3f3e914d24fe61d421f954f5,2,Onion,Gujarat,Bharuch,Ankleshwar,311,0.5167,0.9509,0.2535,2.0,0.1,2,False
+7dd7c046f86e1b3fae5e374e44bbad43,2,Onion,Gujarat,Bharuch,Bharuch,1408,0.541,1.0557,0.4947,1.3333,0.1298,1,False
+c92ddf44314127ccc8ac34fede20bb3e,2,Onion,Gujarat,Bhavnagar,Bhavnagar,913,0.5746,0.8129,0.3375,1.7167,0.2274,2,False
+06f5189ab571e250bf2a057a240d835a,2,Onion,Gujarat,Bhavnagar,Mahuva (Station Road),1604,0.5017,0.8602,0.5606,1.0307,0.126,1,False
+b0bc4fe6fe306dd88a18e9a9b50e6a19,2,Onion,Gujarat,Bhavnagar,Palitana,229,0.3078,0.9076,0.1478,1.0,0.2775,3,False
+372807d9b91c385adff0a5c315e86c25,2,Onion,Gujarat,Dahod,Dahod (Veg. Market),2522,0.5613,1.0809,0.8821,1.4,0.2205,3,False
+d0ccb60a72965936639c48388344afac,2,Onion,Gujarat,Jamnagar,Jamnagar,792,0.6348,0.7535,0.2769,1.6041,0.1358,0,False
+69a5a7709e9ebaac3ed9226a449ef237,2,Onion,Gujarat,Junagarh,Visavadar,1156,0.7019,0.4865,0.4065,1.176,0.3599,3,True
+6f47e20623cd3c480d5f7a31b3b91d66,2,Onion,Gujarat,Kachchh,Bhuj,649,0.5035,1.1899,0.6556,1.7,0.1056,1,False
+7e2d06097885f467fa7c78c65468881f,2,Onion,Gujarat,Kheda,Kapadvanj,1566,0.5321,1.0333,0.5491,1.4138,0.1574,2,False
+c8a09f2bd522008ae68666c315748e28,2,Onion,Gujarat,Kheda,Nadiyad (Piplag),879,0.5244,1.1013,0.3072,1.1855,0.1179,6,False
+e576c12dcd8f4f3cfa9d85356c3f953f,2,Onion,Gujarat,Mehsana,Mehsana (Mehsana Veg),1780,0.5357,1.0038,0.6228,1.3393,0.1216,4,False
+6b8f6bdf99cd3057d8b96728e8a9e6d4,2,Onion,Gujarat,Morbi,Morbi,1834,0.508,0.8497,0.641,1.12,0.1469,0,False
+b960c7a19a6256a87f53ebe0d16ef0b4,2,Onion,Gujarat,Navsari,Bilimora,1247,0.5566,1.0984,0.4588,2.2667,0.1162,1,False
+3a85c937d5c6b89a16c704db7851ec4e,2,Onion,Gujarat,Porbandar,Porbandar,1273,0.5227,1.0638,0.5979,0.8333,0.1889,0,False
+64e0180f6ae61d629afcc7cd98e968e2,2,Onion,Gujarat,Rajkot,Dhoraji,353,0.4588,0.8564,0.2976,1.7768,0.3343,2,False
+4b0beb6091bae828d68e240f76558c42,2,Onion,Gujarat,Rajkot,Gondal,1410,0.7499,0.7956,0.4934,2.1343,0.1865,3,False
+61817e4408aff75d78b80cbea23a3b7f,2,Onion,Gujarat,Rajkot,Jetpur (Dist.Rajkot),835,0.6044,0.707,0.3068,1.0222,0.165,3,False
+5d13e011f7200b2c985afac45db92493,2,Onion,Gujarat,Rajkot,Rajkot (Veg.Sub Yard),2002,0.621,0.7776,0.7032,1.4286,0.2214,1,False
+9b756f0190f659a8e526d51503461510,2,Onion,Gujarat,Surat,Surat,2166,0.5572,1.0478,0.7573,1.6667,0.1559,2,False
+df71e38a25d2f0c563ef2d029966b109,2,Onion,Gujarat,Surendranagar,Vadhvan,793,0.5705,1.0974,0.2796,1.2782,0.1531,0,False
+809bac43fbe9b277c9dfa4372689d5c0,2,Onion,Gujarat,Vadodara (Baroda),Padra,1980,0.517,1.2261,0.6928,1.1471,0.1421,5,False
+292641802deecfec387106da0d98878e,2,Onion,Gujarat,Vadodara (Baroda),Vadodara (Sayajipura),1805,0.5438,1.0717,0.6309,1.5893,0.1602,4,False
+a436b9c592db55932f6d798546445b06,2,Onion,Madhya Pradesh,Alirajpur,Alirajpur (F&V),736,0.5351,1.851,0.3936,0.3667,0.1302,1,False
+34c437b2f4879232feda698a179940f1,2,Onion,Madhya Pradesh,Anupur,Anuppur,226,0.6049,1.361,0.1787,2.3333,0.0479,0,False
+0a4f59c90297253c92d675fba7217a12,2,Onion,Madhya Pradesh,Badwani,Sendhwa,480,0.5307,0.9137,0.1763,0.8056,0.1411,3,False
+6b70eb8655e34e15142ea6244ad8029a,2,Onion,Madhya Pradesh,Betul,Multai,237,0.4783,1.3981,0.0978,1.9091,0.1143,1,False
+3a55489f030d221d13e65fb83e831f48,2,Onion,Madhya Pradesh,Bhopal,Bhopal,401,0.5521,1.1807,0.5941,1.2519,0.2348,4,False
+a831583e7053f17e7cc009b639fda880,2,Onion,Madhya Pradesh,Bhopal,Bhopal (F&V),1885,0.6262,0.9765,0.6589,0.875,0.1827,4,False
+ac773c914a122dfa5c2636800cb0b55a,2,Onion,Madhya Pradesh,Burhanpur,Burhanpur (F&V),714,0.6662,1.0686,0.2518,2.5625,0.1304,2,False
+f58390a6516e1db0e074fab283060975,2,Onion,Madhya Pradesh,Chhindwara,Chhindwara (F&V),1598,0.5948,1.2122,0.5591,1.3,0.0729,0,False
+86151230e95902a7c1967332b97b7464,2,Onion,Madhya Pradesh,Damoh,Damoh (F&V),1070,0.5199,1.0527,0.4911,0.8,0.1328,2,False
+d216376ed47fcc5058ba910d3a6d0ef2,2,Onion,Madhya Pradesh,Dewas,Dewas (F&V),1923,0.6826,0.8604,0.6743,1.875,0.1859,5,False
+db87ccbeeea60cbefc57cdf62ea9ab43,2,Onion,Madhya Pradesh,Dewas,Haatpipliya,1266,0.4813,1.1548,0.5894,0.5,0.1637,5,False
+24d14f689dc41c3ec3ad8d748a339f1e,2,Onion,Madhya Pradesh,Dhar,Badnawar,375,0.7002,0.7453,0.5564,3.1388,0.1994,6,False
+ec5b8d0d82ab8d207f416380682c851a,2,Onion,Madhya Pradesh,Dhar,Badnawar (F&V),1452,0.6631,0.7765,0.5084,1.0,0.1326,6,False
+b848d589d6617cf5b572fc938bfa61c8,2,Onion,Madhya Pradesh,Dhar,Dhamnod,1753,0.4805,1.035,0.6162,0.9,0.1418,6,False
+433a3aea6fc800de6e6d4434bb986287,2,Onion,Madhya Pradesh,Dhar,Dhar (F&V),661,0.6246,1.4043,0.355,1.1852,0.1323,5,False
+6d5f5571bb633790d673fcdeae039844,2,Onion,Madhya Pradesh,Dhar,Kukshi,1225,0.4567,0.9412,0.4529,1.125,0.0405,3,False
+272e84cac94c70a3659367a878297c71,2,Onion,Madhya Pradesh,Dhar,Manawar,1181,0.5249,1.2117,0.4361,1.5612,0.1796,4,False
+9297027f6e52d7bd10a96df213979b98,2,Onion,Madhya Pradesh,Dhar,Rajgarh,690,0.8006,0.7469,0.2413,1.925,0.2571,4,False
+b324e8bb12a14eac8ab91fd38f2d385a,2,Onion,Madhya Pradesh,Guna,Guna (F&V),354,0.9441,0.8317,0.158,5.5,0.09,1,True
+3ebf21253441667e97715db9ce831c09,2,Onion,Madhya Pradesh,Gwalior,Lashkar (F&V),1883,0.5758,1.2132,0.6586,1.2,0.1317,0,False
+be3a742d0bf3e6504726ee2e153176e6,2,Onion,Madhya Pradesh,Harda,Harda (F&V),1603,0.6719,1.0869,0.5605,1.0556,0.2288,2,False
+3418c96302582f3f345fcf6df9877048,2,Onion,Madhya Pradesh,Harda,Timarni,1226,0.5689,1.2206,0.4429,1.3182,0.1951,2,False
+65fb4aa920a5d3a6b638cd68f6431aa5,2,Onion,Madhya Pradesh,Hoshangabad,Hoshangabad,1081,0.4293,1.5672,0.5765,0.5677,0.0695,2,False
+86b1ef88e262e3bfc204f335427231f9,2,Onion,Madhya Pradesh,Hoshangabad,Itarsi,568,0.4014,1.2606,0.3276,0.9231,0.1444,2,False
+3f6f35fe19afc862fe09683c4cffb5d3,2,Onion,Madhya Pradesh,Hoshangabad,Pipariya,1607,0.568,1.1581,0.6359,0.8615,0.1188,2,False
+73ea526459dfb42b55387a57b2212e40,2,Onion,Madhya Pradesh,Indore,Gautampura,690,0.9315,0.6362,0.2545,1.0833,0.3526,5,True
+7d16b46ad6505ed68cee30dab4e51858,2,Onion,Madhya Pradesh,Indore,Indore,537,0.5799,1.2878,0.7885,2.1241,0.3156,5,False
+abb3372e8425862fa90109c169f5592b,2,Onion,Madhya Pradesh,Indore,Indore (F&V),1381,0.6668,1.1182,0.4827,2.6667,0.1749,5,False
+1fbaa34bccd8ade4b22e003416540ae6,2,Onion,Madhya Pradesh,Indore,Mhow,1007,0.3961,1.1428,0.3745,0.351,0.0757,4,False
+14886b92373e4ceb3c0dd4f76bbbdebb,2,Onion,Madhya Pradesh,Indore,Sanwer,1879,0.5592,0.9652,0.657,0.5556,0.1123,7,False
+6753df9c10278ee59b8ffedecf514065,2,Onion,Madhya Pradesh,Jabalpur,Jabalpur (F&V),1389,0.3754,1.3679,0.4858,0.3846,0.0587,0,False
+91caf4ab91a47c72a8e36ceab3cc99e0,2,Onion,Madhya Pradesh,Jhabua,Jhabua,398,0.5199,1.1752,0.402,0.6,0.1558,4,False
+2b6fe38c3c2df36a1f927096b734de6c,2,Onion,Madhya Pradesh,Jhabua,Petlawad,1148,0.4833,1.1712,0.4266,0.9091,0.1299,6,False
+e55fe02d0b6984c72d3c01f3e36321e9,2,Onion,Madhya Pradesh,Jhabua,Petlawad (F&V),242,0.2009,1.1542,0.6189,0.4066,0.1082,6,False
+e61a7b52d75e9a82dfc2e9783de67830,2,Onion,Madhya Pradesh,Jhabua,Thandla,1449,0.5048,1.294,0.5415,0.5417,0.0587,4,False
+c2208d384e7d93d25d7a6bea130102d6,2,Onion,Madhya Pradesh,Khandwa,Khandwa,594,0.4997,0.762,0.8722,0.5,0.3756,3,False
+1c7c3df2bf85e99c61571a27a1a6fe21,2,Onion,Madhya Pradesh,Khandwa,Khandwa (F&V),1691,0.5268,0.733,0.6185,1.0769,0.0983,3,False
+3d46a0a5c3b0ab214150ab7451bcd6e7,2,Onion,Madhya Pradesh,Khandwa,Sanawad (F&V),267,0.5025,1.3818,0.6759,1.3889,0.3086,2,False
+7de35205ef178be22fa003b401f91318,2,Onion,Madhya Pradesh,Khargone,Badwaha,902,0.5407,1.2297,0.8648,0.7917,0.204,3,False
+aaab17503affe4a9035fc2f1c0e47268,2,Onion,Madhya Pradesh,Khargone,Khargone,664,0.5847,0.8493,0.9121,0.3125,0.0212,2,False
+794b181ab4a92556e1c3b37ca916b475,2,Onion,Madhya Pradesh,Khargone,Sanawad,452,0.3787,1.4459,0.7302,0.6923,0.085,2,False
+105be9dd78b51aeb01d3f6cc8d2bd7ab,2,Onion,Madhya Pradesh,Mandsaur,Garoth,388,0.7012,0.7777,0.1502,0.6929,0.1618,6,False
+9ced157d63e9df0303d623b6dc5e95a7,2,Onion,Madhya Pradesh,Mandsaur,Mandsaur,1518,0.71,0.8949,0.5308,1.6667,0.2338,7,False
+1347f0031ad261eaa5d87b7a583e0c03,2,Onion,Madhya Pradesh,Mandsaur,Shamgarh (F&V),1035,0.6815,0.8576,0.4019,0.6067,0.2281,6,False
+eb1ef3d5201ffa8921b64873576b8411,2,Onion,Madhya Pradesh,Mandsaur,Sitmau,737,0.8076,0.6712,0.2946,1.6807,0.1957,9,True
+d6a0c7ce4b44ba592845aec049e4a22a,2,Onion,Madhya Pradesh,Morena,Sabalgarh,180,0.4739,0.9272,0.132,1.2105,0.3241,0,False
+082c3a861b79d3ffcba51e64e5e081d5,2,Onion,Madhya Pradesh,Narsinghpur,Gadarwada,362,0.6955,1.3654,0.4346,2.5,0.0436,0,False
+89de4542802b32c1021db67451b81de2,2,Onion,Madhya Pradesh,Neemuch,Manasa,477,0.8182,0.7649,0.1668,2.8313,0.4208,6,False
+5a397cd4f80c862c5f351f0f496a9359,2,Onion,Madhya Pradesh,Neemuch,Neemuch,1407,0.7142,1.0152,0.492,2.1103,0.2937,4,False
+e41baa434c19bda180d53b4703128d5b,2,Onion,Madhya Pradesh,Rajgarh,Biaora,816,0.4588,0.7589,0.3328,0.8125,0.2448,3,False
+40dabd1d80eed5212b5f8099935250bc,2,Onion,Madhya Pradesh,Rajgarh,Narsinghgarh,1295,0.7383,0.9537,0.4563,2.1978,0.2984,4,False
+26e73d3954fab253e6453d6d4d4d708d,2,Onion,Madhya Pradesh,Rajgarh,Sarangpur,501,0.6401,0.6428,0.1844,2.1917,0.3282,6,False
+2ff67d7338b47a3c46ab06da66134fd3,2,Onion,Madhya Pradesh,Ratlam,A lot,262,0.8979,0.5935,0.2091,1.4808,0.3211,3,True
+c8abf249cc5a7bb7c80e80cdb874e0fd,2,Onion,Madhya Pradesh,Ratlam,Jaora,1112,0.7348,0.9528,0.3957,1.2624,0.2631,7,False
+0dd4b5af4cc52e76c9ce36686444afc0,2,Onion,Madhya Pradesh,Ratlam,Ratlam,458,0.656,1.104,0.1628,2.1254,0.3924,5,False
+0051c0c6220245e253c0a302337cb048,2,Onion,Madhya Pradesh,Ratlam,Ratlam (F&V),1490,0.5591,1.0208,0.6976,1.1266,0.1791,5,False
+41d2fc208c82180a6c8c52bad8de2e7c,2,Onion,Madhya Pradesh,Ratlam,Sailana,1541,0.7182,0.9329,0.5413,1.5506,0.3118,4,False
+066c263997b27c1c8c7ee75eda37aad5,2,Onion,Madhya Pradesh,Ratlam,Sailana (F&V),248,0.7972,0.8583,0.6185,3.34,0.425,4,False
+f4b1aeae1e3bb2d893574d452daa5aad,2,Onion,Madhya Pradesh,Sagar,Deori,1320,0.5331,0.9456,0.4927,1.0,0.1751,2,False
+7a4dd650e79698a2e4d3feae2c4438b5,2,Onion,Madhya Pradesh,Sagar,Garhakota,212,0.3437,0.8781,0.1842,1.3681,0.0978,4,False
+d1f334fbf5f787065a32620450e990a1,2,Onion,Madhya Pradesh,Sagar,Sagar (F&V),1349,0.5688,1.0958,0.4727,1.1818,0.1491,4,False
+dc48af5e6a88be8fc446025fe8c122f4,2,Onion,Madhya Pradesh,Sehore,Ashta,997,0.7537,0.8637,0.3547,2.625,0.2132,9,False
+2996f41df7fe66902fe74f4604409d5a,2,Onion,Madhya Pradesh,Sehore,Ichhawar,436,0.6485,0.8249,0.2827,1.488,0.3325,6,False
+403c946554c8efd31e62005f07afd27e,2,Onion,Madhya Pradesh,Sehore,Sehore,1203,0.6372,1.2041,0.4376,1.4498,0.2674,7,False
+f995f90faa68eb78344cf70c876d3de5,2,Onion,Madhya Pradesh,Shajapur,Agar,218,0.714,0.9904,0.3907,2.4461,0.4726,8,False
+085001b0e18762dbebcf0e921a67368e,2,Onion,Madhya Pradesh,Shajapur,Kalapipal,1907,0.761,0.8466,0.6682,1.8908,0.3319,10,False
+7051738fce3844411c7eceb5aa636ce2,2,Onion,Madhya Pradesh,Shajapur,Kalapipal (F&V),377,0.5978,1.0372,0.9401,2.2348,0.3649,10,False
+04522e3724df2acf2195bd5b566ac22e,2,Onion,Madhya Pradesh,Shajapur,Shajapur,358,0.5718,1.1532,0.7351,1.9987,0.3419,6,False
+4a5fda178b8540f4d82466eb6f4e41c2,2,Onion,Madhya Pradesh,Shajapur,Shajapur (F&V),1601,0.6015,0.9089,0.7351,1.25,0.215,6,False
+62b4c492f5bdc24e4dbe1b88177cdb54,2,Onion,Madhya Pradesh,Shajapur,Shujalpur,1531,0.6115,1.0075,0.5855,1.3,0.3029,11,False
+c155d4e1faf2b75403ea549977267f66,2,Onion,Madhya Pradesh,Shajapur,Shujalpur (F&V),192,0.5629,1.1357,0.4776,2.0833,0.1989,11,False
+6ae24c9ccf939eed1c08debee2fcd1de,2,Onion,Madhya Pradesh,Shajapur,Soyatkalan,761,0.8626,0.7585,0.302,3.14,0.2757,8,False
+27787967d0026e58c5ea2d1dbbf850b9,2,Onion,Madhya Pradesh,Sheopur,Syopurkalan (F&V),328,0.6159,1.2471,0.2652,0.8095,0.226,0,False
+2e9ebec325fb779e2343e3cc683eaf67,2,Onion,Madhya Pradesh,Shivpuri,Shivpuri (F&V),312,0.4786,1.0377,0.2303,2.64,0.1148,3,False
+115316a428dcaa14840038f4b4f62f2a,2,Onion,Madhya Pradesh,Ujjain,Badnagar,296,0.6692,0.6864,0.2079,1.2656,0.3091,4,False
+41fe13d238fcdf208e1a04eadbcba9c2,2,Onion,Madhya Pradesh,Ujjain,Ujjain,495,0.7166,1.0235,0.729,2.8169,0.3939,5,False
+276b472d7a042b81ac941167c2678234,2,Onion,Madhya Pradesh,Ujjain,Ujjain (F&V),1183,0.6732,0.9724,0.5429,1.7,0.2513,5,False
+75294370eec87b1a7572f93f55034d65,2,Onion,Maharashtra,Ahmednagar,Ahmednagar,761,0.6709,1.0153,0.2664,1.8929,0.1299,8,False
+3d0ca35eaabeaea78a685802ed391805,2,Onion,Maharashtra,Ahmednagar,Akole,696,0.601,1.0883,0.2448,1.906,0.0641,7,False
+62718816989fc20bd7949692e691f27f,2,Onion,Maharashtra,Ahmednagar,Jamkhed,696,0.6232,0.7553,0.2434,1.4359,0.1113,3,False
+a6110bb17e06e1b1f125f2944c6625ba,2,Onion,Maharashtra,Ahmednagar,Karjat,334,0.4587,0.7336,0.4582,1.1538,0.1728,3,False
+14821ebc3718e2b325e908bc8852c77c,2,Onion,Maharashtra,Ahmednagar,Kopargaon,1644,0.7024,1.0227,0.5799,1.9607,0.1429,9,False
+2cb6b20e3313703b8d2b2776d458f03d,2,Onion,Maharashtra,Ahmednagar,Newasa (Ghodegaon),974,0.6477,1.0431,0.3424,2.1429,0.1635,7,False
+9d512a35f251847b10dc2a7d59b1c08b,2,Onion,Maharashtra,Ahmednagar,Om Chaitanya Multistate Agro Purpose CoOp Society,232,0.5036,0.9494,0.2746,1.4531,0.088,7,False
+057ccae97ecfb33477999b551e8cbc27,2,Onion,Maharashtra,Ahmednagar,Parner,981,0.6204,1.0132,0.3431,1.3333,0.1119,10,False
+428efa1fc0f19587ef561a0c740c2faa,2,Onion,Maharashtra,Ahmednagar,Pathardi,846,0.6518,0.9511,0.2958,1.4167,0.1199,6,False
+c943a3d7c192c1de38aa0149db1dd456,2,Onion,Maharashtra,Ahmednagar,Rahata,1214,0.6542,1.0187,0.4251,1.7586,0.1423,6,False
+8cd32d1980262c2dc5f5d0d9edeed403,2,Onion,Maharashtra,Ahmednagar,Rahuri,964,0.7907,0.859,0.3391,1.5952,0.1295,8,False
+c3b29cd7b40a6633cc259c6bd181190f,2,Onion,Maharashtra,Ahmednagar,Rahuri (Vambori),987,0.7249,0.9067,0.3451,1.75,0.167,7,False
+38235d6a147e19a448a0281180474550,2,Onion,Maharashtra,Ahmednagar,Sangamner,1524,0.6072,0.8728,0.5336,1.3854,0.1204,8,False
+ceb676b2d9c55c87130726eee2f7c086,2,Onion,Maharashtra,Ahmednagar,Shevgaon,727,0.6225,0.8592,0.2542,1.4348,0.113,3,False
+c5b3c2150958fb1f7aca05167cf61e0e,2,Onion,Maharashtra,Ahmednagar,Shrigonda,414,0.6554,0.9313,0.1525,1.6111,0.209,4,False
+8b13372e86fde7e91df25d84ec9ad8fe,2,Onion,Maharashtra,Ahmednagar,Shrirampur,950,0.7065,0.9131,0.3331,1.625,0.1157,8,False
+37e8d8b6b962ff27dc583869fd1b2bd4,2,Onion,Maharashtra,Akola,Akola,724,0.5183,1.0042,0.267,1.6667,0.1273,0,False
+cdd425d9ba65a50e9013fa8f5b86b8a5,2,Onion,Maharashtra,Amarawati,Amrawati (Frui & Veg. Market),1792,0.6094,1.0411,0.6275,1.2593,0.1611,1,False
+07f23e4121c823d87def79d77dcc6a57,2,Onion,Maharashtra,Amarawati,Morshi,539,0.5431,1.1053,0.5802,1.7471,0.1642,1,False
+8680efb0fa486cf14b547f051ad5da5a,2,Onion,Maharashtra,Beed,Kada,231,0.6919,0.8069,0.083,2.6,0.0161,6,False
+6ee874ab3aaa5e85545a40fa24cf4b4d,2,Onion,Maharashtra,Buldhana,Malkapur,538,0.6675,0.7896,0.1883,1.0372,0.1114,4,False
+b8d650f27ec97d5318a7e8a0d0e388ba,2,Onion,Maharashtra,Chandrapur,Chandrapur (Ganjwad),1452,0.5519,1.37,0.5075,1.6765,0.0727,0,False
+0a8257becc855e9d0e558bee0baf7c64,2,Onion,Maharashtra,Chattrapati Sambhajinagar,Chattrapati Sambhajinagar,2178,0.6651,0.7183,0.7615,1.4737,0.232,2,False
+b4b0b6923c56f983428425f95f6ec7bf,2,Onion,Maharashtra,Chattrapati Sambhajinagar,Gangapur,655,0.7063,0.8735,0.2368,1.9957,0.0505,4,False
+16fcc50b792440642e58f0db52fdcb6c,2,Onion,Maharashtra,Chattrapati Sambhajinagar,Lasur Station,1079,0.6545,0.8735,0.3789,1.913,0.1312,3,False
+4f1bc718413829011eb06e1c486b30d2,2,Onion,Maharashtra,Chattrapati Sambhajinagar,Paithan,441,0.5003,0.9217,0.1632,0.865,0.0458,3,False
+42496063aa49734e2dbf552405eebab2,2,Onion,Maharashtra,Chattrapati Sambhajinagar,Vaijpur,1796,0.596,0.9718,0.6286,1.3846,0.1909,2,False
+a37257924690da436aa83f93fc5edccf,2,Onion,Maharashtra,Dharashiv (Usmanabad),Dharashiv,802,0.4948,0.9968,0.2816,1.0,0.193,2,False
+7d368a2d0c51c914ece7fac3866ddcd1,2,Onion,Maharashtra,Dhule,Dhule,1584,0.719,0.9335,0.5538,1.9,0.2046,5,False
+bbae385a51fc27e5da59e42b30eceeac,2,Onion,Maharashtra,Dhule,Sakri,820,0.7811,0.9177,0.2876,2.4773,0.1387,5,False
+0bac19facc770e80ef66372917045328,2,Onion,Maharashtra,Dhule,Shirpur,335,0.7449,0.9092,0.1177,2.2584,0.1497,4,False
+11c679803b4c7fcb64f2015fa49ba323,2,Onion,Maharashtra,Jalgaon,Bhusaval,1274,0.5314,0.9324,0.7218,1.5,0.181,3,False
+741579e142349dfd48b73eafae3a6cf8,2,Onion,Maharashtra,Jalgaon,Chalisgaon,533,0.754,0.8538,0.2765,1.5429,0.1641,3,False
+26b213fcfa5b6cf06c1feb5268d4711f,2,Onion,Maharashtra,Jalgaon,Jalgaon,1805,0.634,0.7538,0.6311,1.9933,0.1806,2,False
+77c7d087844583892a75375495a731bb,2,Onion,Maharashtra,Jalgaon,Yawal,716,0.6714,0.9074,0.2645,1.401,0.2065,2,False
+014eee1b3d1e01d37b8c120eeb1dc241,2,Onion,Maharashtra,Kolhapur,Kolhapur,2120,0.5595,0.9885,0.7444,1.3077,0.1236,4,False
+e65b2e0ebdf8d6828b72daaa60e44e15,2,Onion,Maharashtra,Kolhapur,Vadgaonpeth,406,0.4728,1.1926,0.2538,0.6667,0.0655,1,False
+20baddd731a09d12fc917a25f1f668e4,2,Onion,Maharashtra,Mumbai,Vashi New Mumbai,2112,0.6462,1.1891,0.7387,1.6667,0.1471,5,False
+af74e10ead25845b75f8b4649171492a,2,Onion,Maharashtra,Nagpur,Hingna,527,0.3722,1.3225,0.5518,1.1135,0.0827,3,False
+5a2111947c02fd0ad6eecf591a15bab8,2,Onion,Maharashtra,Nagpur,Kamthi,1207,0.5364,1.4059,0.422,1.1667,0.0646,3,False
+e906e6012fa1ab93a9a9f85791666c7c,2,Onion,Maharashtra,Nagpur,Nagpur,1637,0.5892,1.2403,0.5724,1.791,0.1196,3,False
+66de8b9bc72476437df65853480fd1c6,2,Onion,Maharashtra,Nagpur,Ramtek,894,0.5703,1.3023,0.3129,2.0,0.0579,1,False
+091d068455035c4cef2a64afbf1ad0a7,2,Onion,Maharashtra,Nandurbar,Navapur,255,0.5908,0.8682,0.0937,2.54,0.121,1,False
+fffb01ec65cecb8dce808afcac9e9aa2,2,Onion,Maharashtra,Nashik,Chandvad,1797,0.6606,1.0252,0.6288,1.7571,0.1647,15,False
+0894e80f31de4e65df04e905a0da7707,2,Onion,Maharashtra,Nashik,Devala,1574,0.6549,1.0692,0.5502,1.5439,0.1728,13,False
+9edf392c82cff65890ed05b85616e481,2,Onion,Maharashtra,Nashik,Dindori,675,0.515,1.0683,0.2443,4.0159,0.0,9,False
+54eb45a5b6fc2662519b910be927d8d0,2,Onion,Maharashtra,Nashik,Dindori (Vani),1510,0.674,1.1096,0.5285,1.4802,0.1739,10,False
+616d9d896b8a00c2f84fe455a18656b0,2,Onion,Maharashtra,Nashik,Kalvan,1463,0.7674,1.0498,0.5139,2.0591,0.1379,13,False
+0a85cc298be3bbf1b2856f94ac60f204,2,Onion,Maharashtra,Nashik,Lasalgaon,1946,0.6225,1.0932,0.6804,1.7565,0.1719,14,False
+0721245a76dd76f5655c5d51d972cbfc,2,Onion,Maharashtra,Nashik,Lasalgaon (Niphad),1974,0.6588,1.0505,0.69,1.9093,0.1696,13,False
+12ef79e8ccd2d01a767ccd97056deb45,2,Onion,Maharashtra,Nashik,Lasalgaon (Vinchur),1420,0.5271,1.0873,0.7179,1.5135,0.1498,13,False
+13698e358f5ab77eaf8f180a56a47734,2,Onion,Maharashtra,Nashik,Manmad,1949,0.6307,0.9845,0.6812,1.6731,0.1825,13,False
+2f3b56619ceece636d1f421e45cc7748,2,Onion,Maharashtra,Nashik,Nampur,891,0.5541,1.0254,0.4464,1.5893,0.1198,6,False
+e77062bf97237519360349af62edb0e0,2,Onion,Maharashtra,Nashik,Nandgaon,1264,0.6308,0.9327,0.4421,1.7913,0.1586,7,False
+801cd237e72f730b1a70ecb4a8be388c,2,Onion,Maharashtra,Nashik,Nasik,1992,0.6606,0.9888,0.6967,1.9623,0.1963,10,False
+92fd13c2de95e8859d524b3214e752c9,2,Onion,Maharashtra,Nashik,Pimpalgaon,2104,0.6677,1.0983,0.7357,1.8439,0.1632,2,False
+9ee293a3de7b0c49953cb5eb78d61916,2,Onion,Maharashtra,Nashik,Pimpalgaon Baswant (Saykheda),1780,0.6485,0.9556,0.6222,1.7485,0.1749,11,False
+6290c6a0f57f55bb246a8526caca5dec,2,Onion,Maharashtra,Nashik,Satana,1226,0.7202,1.0474,0.4287,1.8795,0.1543,8,False
+c1b88488c137138aabeaea1eec5c003f,2,Onion,Maharashtra,Nashik,Shivsiddha Govind Producer Company Limited Sanchal,295,0.521,1.1786,0.3479,2.3702,0.0074,13,False
+061bcf868c7e560b38820c20b42e588e,2,Onion,Maharashtra,Nashik,Sinner,1514,0.6738,1.0189,0.5294,1.7778,0.1693,14,False
+b3fba13432e0fa71a6f410b15aaf545a,2,Onion,Maharashtra,Nashik,Umrane,763,0.5685,1.0454,0.3823,1.68,0.1353,13,False
+9f8faca0a017d055a263d773be1ce8c6,2,Onion,Maharashtra,Nashik,Yeola,1646,0.7285,0.9763,0.5755,1.8462,0.1867,12,False
+7d8f6e196c7b956e600b58ce2efa1dd1,2,Onion,Maharashtra,Pune,Baramati,252,0.4981,0.9866,0.3772,1.2875,0.1093,3,False
+592dc5048dda39de9fc6f40484902c0e,2,Onion,Maharashtra,Pune,Indapur,307,0.6562,0.755,0.1079,2.0417,0.1492,7,False
+fa6931e78114829700d51dc55695ae3c,2,Onion,Maharashtra,Pune,Junnar,613,0.699,1.1405,0.2172,1.7333,0.1281,6,False
+1f78f962041ba72cde828fac7aedad12,2,Onion,Maharashtra,Pune,Junnar (Alephata),958,0.6287,1.0695,0.3366,1.5172,0.1319,6,False
+d535957e589a5225aaf3c13b1c3bb1a0,2,Onion,Maharashtra,Pune,Junnar (Narayangaon),753,0.5705,0.9323,0.6213,1.1538,0.1992,7,False
+2487e6bb4f4428af69593c396d4c5710,2,Onion,Maharashtra,Pune,Junnar (Otur),524,0.666,1.1695,0.1834,1.3333,0.0602,6,False
+345f0e4f6f622681c4b172c11b374694,2,Onion,Maharashtra,Pune,Khed (Chakan),1320,0.5353,1.0591,0.4619,1.2333,0.1196,8,False
+ca973ff14884f1799f43e5409853391e,2,Onion,Maharashtra,Pune,Manchar,1056,0.6354,1.0824,0.3694,1.5933,0.1484,9,False
+a26275e5ea64d0fb30d8faa6e4b638a2,2,Onion,Maharashtra,Pune,Pune,2207,0.6192,0.9338,0.7725,1.4375,0.1598,6,False
+28166181bc890ebe40e697433cb4a34d,2,Onion,Maharashtra,Pune,Pune (Khadiki),2098,0.5096,0.9587,0.7998,0.8846,0.1314,6,False
+658ff75282599848f549ccdf56be21fd,2,Onion,Maharashtra,Pune,Pune (Manjri),1548,0.5433,1.0087,0.7767,1.7037,0.1732,6,False
+4c8930000242a469fbe4497b972faf94,2,Onion,Maharashtra,Pune,Pune (Moshi),1549,0.5757,0.741,0.7772,1.65,0.1526,7,False
+718ba6098fb42a221fde8a32fa965d40,2,Onion,Maharashtra,Pune,Pune (Pimpri),2303,0.604,1.107,0.8055,1.5536,0.2004,7,False
+e784e438c5ef84e4287ddee0f2f79443,2,Onion,Maharashtra,Raigad,Karjat (Raigad),694,0.5924,0.6946,0.3862,1.2895,0.1134,0,False
+f1f0126047ff98ed037079d368e12f7e,2,Onion,Maharashtra,Raigad,Pen,231,0.361,1.9599,0.1928,0.6667,0.0674,3,False
+eec192d2fd061fcaacc26e51a8c8b737,2,Onion,Maharashtra,Sangli,"Sangli (Phale, Bhajipura Market)",1641,0.6017,0.9322,0.5742,1.38,0.1752,4,False
+dbadc43b03b8c3383ec3239f1d840aa3,2,Onion,Maharashtra,Sangli,Vita,272,0.5997,1.1497,0.0961,2.0164,0.0424,5,False
+fbaa80ebf1e5dceff4dcc1cb3a357dfc,2,Onion,Maharashtra,Satara,Karad,1950,0.6331,1.3943,0.6821,1.4,0.1309,5,False
+4d8dfcf850f06061c3a6132ed55c63e5,2,Onion,Maharashtra,Satara,Lonand,619,0.6063,0.9557,0.2175,1.8333,0.1307,5,False
+7becc4c297d380f2a42e3a17eef5b18a,2,Onion,Maharashtra,Satara,Phaltan,236,0.7519,0.8903,0.0836,1.5625,0.0806,4,False
+7e6633b694f1220d1ab7634441da3f94,2,Onion,Maharashtra,Satara,Satara,1671,0.5489,1.049,0.5851,1.3333,0.1219,4,False
+fb41626d4d0b5be58c2840b49b4ab86d,2,Onion,Maharashtra,Satara,Vai,1546,0.6915,1.0713,0.5432,1.5769,0.1185,3,False
+063c96a7a7e6ff66cfe0c4f2f1bf68af,2,Onion,Maharashtra,Sholapur,Akluj,709,0.6359,0.9571,0.2485,1.6923,0.1041,1,False
+353d31f8dea929acdc54127c0977a1b7,2,Onion,Maharashtra,Sholapur,Kurdwadi,232,0.8739,0.7088,0.1997,2.9903,0.2311,1,False
+2675c91a5caf50cc5af487e8b0da765f,2,Onion,Maharashtra,Sholapur,Kurdwadi (Modnimb),465,0.6771,0.7208,0.1647,1.3,0.1355,3,False
+f7199344d5ee82ded139697c2a0fcd4a,2,Onion,Maharashtra,Sholapur,Laxmi Sopan Agriculture Produce Marketing Co Ltd,303,0.4734,0.7755,0.3548,1.1667,0.2683,1,False
+293d7e2f1d794e2ded0dbc0bc38dd1c4,2,Onion,Maharashtra,Sholapur,Mangal Wedha,1381,0.619,0.9948,0.4827,1.3107,0.207,1,False
+6af88e5c6746017dc2907bc2ee361912,2,Onion,Maharashtra,Sholapur,Pandharpur,813,0.6514,0.9421,0.2844,1.125,0.1548,1,False
+4e29b1771a40ed9804771228c4d5494f,2,Onion,Maharashtra,Sholapur,Solapur,1963,0.5967,0.8185,0.6866,1.4545,0.1671,1,False
+e4c9c33e75d792efb58197fb900f8c3b,2,Onion,Maharashtra,Thane,Kalyan,1789,0.6729,1.1606,0.6257,1.45,0.2205,4,False
+67db83168ab0860913a1cfadc8ef72dc,2,Onion,Uttar Pradesh,Agra,Achnera,2142,0.4833,0.9907,0.7487,1.3277,0.1108,6,False
+0089fb2c8dc6333a8ac1917bc4467d66,2,Onion,Uttar Pradesh,Agra,Agra,2312,0.4817,1.0042,0.8095,1.4968,0.097,8,False
+9e46a25dd7530e0d4228c13fbf18bfce,2,Onion,Uttar Pradesh,Agra,Fatehabad,1476,0.424,0.8648,0.5183,0.6,0.1003,8,False
+98d9523fe42b067eb02e26003154cadc,2,Onion,Uttar Pradesh,Agra,Fatehpur Sikri,1788,0.4835,1.0032,0.6291,1.0795,0.0938,4,False
+d84c6531895af4088201db8c363174b7,2,Onion,Uttar Pradesh,Agra,Jagnair,1409,0.4126,0.9376,0.4927,0.4483,0.0841,5,False
+c8af28d6cf49dee2d31c173e2bc9640f,2,Onion,Uttar Pradesh,Agra,Khairagarh,1405,0.4486,0.9975,0.4916,0.8,0.1256,5,False
+aef6a342f926243fe0eb1c5257f03e27,2,Onion,Uttar Pradesh,Agra,Samsabad,1753,0.5189,0.8671,0.6134,0.8333,0.0773,5,False
+daeef53bb2c64b79cdd1c702ade9dd5f,2,Onion,Uttar Pradesh,Aligarh,Aligarh,2402,0.4527,1.0225,0.8402,1.2805,0.0809,6,False
+8d27ae066b6c811d0a4e488d2c8106fd,2,Onion,Uttar Pradesh,Aligarh,Atrauli,609,0.5464,0.9804,0.2277,1.871,0.1524,3,False
+e6cf790f787822a4835db73af76339b0,2,Onion,Uttar Pradesh,Aligarh,Charra,2252,0.4431,1.0461,0.7871,1.1333,0.0775,5,False
+25007767fa25891975f3f7d62fd380dc,2,Onion,Uttar Pradesh,Aligarh,Khair,2064,0.5043,1.0058,0.7214,1.5333,0.1168,6,False
+fa06dd4a3b7267f796cfa557eac6d9cb,2,Onion,Uttar Pradesh,Ambedkarnagar,Akbarpur,2233,0.4727,1.0534,0.7816,1.5723,0.0892,2,False
+488153307d0f83915e1db41b2e4a0cd8,2,Onion,Uttar Pradesh,Amethi,Jafarganj,2278,0.4822,1.0506,0.8007,1.4545,0.1046,2,False
+279ac905900bd96f13b67ecb80d42a69,2,Onion,Uttar Pradesh,Amethi,Sultanpur,2643,0.4729,1.054,0.9241,1.3705,0.0941,6,False
+7a30cc99d976d8fb916dc0fe14c35c20,2,Onion,Uttar Pradesh,Amroha,Amroha,2271,0.5222,0.9579,0.7954,1.4416,0.0583,5,False
+05ac0d5f3d4d6f0172571fdb3cc72e9f,2,Onion,Uttar Pradesh,Amroha,Dhanaura,1957,0.4014,0.6827,0.6959,0.3333,0.0474,7,False
+fda7fd70ff37133bbbedf47a8a82f16f,2,Onion,Uttar Pradesh,Amroha,Hasanpur,2154,0.3875,0.9197,0.7529,0.5828,0.0402,10,False
+b151459bef865aec7fc5bd4c566766ab,2,Onion,Uttar Pradesh,Auraiya,Achalda,1975,0.5146,1.0113,0.6947,1.4529,0.1064,6,False
+c5e78f03e056f7d529686e643e418092,2,Onion,Uttar Pradesh,Auraiya,Auraiya,2395,0.5105,0.9625,0.8374,1.5099,0.1116,4,False
+8a89a5483d4f068ac8e28077bcbe5419,2,Onion,Uttar Pradesh,Auraiya,Dibiapur,425,0.3609,0.8829,0.1487,1.0,0.024,6,False
+4a664387ac6ef341eb1d3531501421fc,2,Onion,Uttar Pradesh,Ayodhya,Faizabad,2386,0.5155,1.0601,0.8354,1.4788,0.1085,4,False
+05b06be99f3b09880877d430ff91fb03,2,Onion,Uttar Pradesh,Ayodhya,Rudauli,1691,0.4372,1.0407,0.6076,1.4118,0.1117,5,False
+3d2d08b4f28598652c243039b99924c8,2,Onion,Uttar Pradesh,Azamgarh,Azamgarh,2300,0.4803,1.0669,0.8042,1.5879,0.0813,2,False
+fc16e7654f0874d51b77c15401d00a02,2,Onion,Uttar Pradesh,Badaun,Badayoun,2516,0.4709,0.9783,0.8806,1.491,0.0657,4,False
+301abf962fb72a16600f82b3de0c6f43,2,Onion,Uttar Pradesh,Badaun,Bilsi,2202,0.4331,1.0105,0.7697,0.7935,0.0555,5,False
+ea522f397a91d21af42df0f72c2fd1cd,2,Onion,Uttar Pradesh,Badaun,Shahaswan,957,0.5467,0.9149,0.3352,0.96,0.0363,4,False
+b876373d94e687159bff71f500ec69a8,2,Onion,Uttar Pradesh,Badaun,Ujhani,2017,0.4373,1.0012,0.7052,0.9561,0.0767,4,False
+6721cea4daec57be9c6e6bb81a2595da,2,Onion,Uttar Pradesh,Badaun,Wazirganj,1867,0.436,0.9945,0.8568,1.3518,0.0492,5,False
+7e2258c26c98f30e358ca34df527b56a,2,Onion,Uttar Pradesh,Baghpat,Bagpat,746,0.5092,1.0712,0.2617,1.1429,0.0244,14,False
+543bcfd9c38bcc5d04b980dede328c53,2,Onion,Uttar Pradesh,Baghpat,Baraut,2171,0.5511,0.9149,0.7588,0.7407,0.0914,10,False
+b9858e4f04d6af4576e60fc2d6fa32b1,2,Onion,Uttar Pradesh,Baghpat,Khekda,1065,0.4664,1.0797,0.3753,1.25,0.0618,11,False
+b5ccb0beeeed7b70fe5ce63b695dfbab,2,Onion,Uttar Pradesh,Bahraich,Bahraich,2453,0.4836,1.106,0.858,1.4943,0.1024,3,False
+2c6f0158c7f4a3739d7cda9b755edf4f,2,Onion,Uttar Pradesh,Bahraich,Naanpara,2098,0.4491,1.0881,0.7333,1.3152,0.0963,4,False
+2a336ee6ef0a3fc2ceb6253001240f14,2,Onion,Uttar Pradesh,Ballia,Ballia,2207,0.4739,1.0472,0.7714,1.5675,0.1138,2,False
+ba2b315370a3a7e8099bfbe2a698bbc2,2,Onion,Uttar Pradesh,Ballia,Chitwadagaon,1570,0.5065,1.0364,0.5491,1.7379,0.0996,2,False
+7558d5813b691cd53cd7498c240b9383,2,Onion,Uttar Pradesh,Ballia,Rasda,1930,0.4742,1.0322,0.6767,1.5583,0.1147,2,False
+9cf21939164d7d3bb94ea07e368a5ca5,2,Onion,Uttar Pradesh,Ballia,Vilthararoad,1269,0.4558,1.1706,0.4456,0.6857,0.0376,2,False
+897a7a817b6c538aca399990d744d708,2,Onion,Uttar Pradesh,Balrampur,Balrampur,1931,0.4757,1.1273,0.6778,1.5439,0.0911,6,False
+a255fe1ba302a00db95ab59fc57365b8,2,Onion,Uttar Pradesh,Balrampur,Panchpedwa,613,0.473,1.3407,0.2371,1.22,0.1356,2,False
+a1ad004dae2defe2ca4d41d716bc5b16,2,Onion,Uttar Pradesh,Balrampur,Tulsipur,2033,0.4379,1.0855,0.809,1.3846,0.1042,2,False
+6c979c6355bc5b9a66cd9fb09e449b07,2,Onion,Uttar Pradesh,Banda,Atarra,2250,0.506,0.9477,0.7965,1.4678,0.1025,3,False
+7789cdbdc6ebada57025f56159c4ed57,2,Onion,Uttar Pradesh,Banda,Baberu,1374,0.5029,0.9183,0.6361,1.374,0.1093,6,False
+aa3e8a5e1fc6b2ee25590d95428234e4,2,Onion,Uttar Pradesh,Banda,Banda,2372,0.5081,0.9516,0.8291,1.5847,0.0971,4,False
+fc0f5c421df9b3cf0debf62276883868,2,Onion,Uttar Pradesh,Barabanki,Barabanki,2403,0.5014,1.072,0.8405,1.497,0.1048,5,False
+7e35ebf36526ff2c02777323eb5ca3cc,2,Onion,Uttar Pradesh,Barabanki,Safdarganj,2275,0.474,1.0565,0.7955,1.5394,0.1048,5,False
+380d44792490d4598a49ff66deb8a975,2,Onion,Uttar Pradesh,Bareilly,Anwala,2478,0.5023,0.8801,0.8692,1.4286,0.1186,4,False
+5853d04dc6f8be85e86848f9429a59bb,2,Onion,Uttar Pradesh,Bareilly,Bahedi,2349,0.4573,0.8665,0.8262,0.4729,0.068,4,False
+5e14b10af52778cbd5ee266b3fca5a2f,2,Onion,Uttar Pradesh,Bareilly,Bareilly,2555,0.4585,0.9681,0.8934,1.3112,0.0678,4,False
+a13afee8e04dd40d98574482b9886183,2,Onion,Uttar Pradesh,Basti,Basti,2569,0.4868,1.0636,0.8983,1.5464,0.0904,2,False
+4cf3dda00ac5d88ac52c4f362761e903,2,Onion,Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Gopiganj,1579,0.4635,1.0254,0.5527,0.9094,0.1069,2,False
+7a3252525b3e6c8457ca2a32e67ef523,2,Onion,Uttar Pradesh,Bijnor,Bijnaur,2290,0.459,1.0012,0.801,1.3289,0.0497,3,False
+4996c6e702c0b1f91697dc9e0b9f4a8f,2,Onion,Uttar Pradesh,Bijnor,Chaandpur,2151,0.4474,0.8333,0.7532,0.8276,0.0563,3,False
+f54dd67ada9b991e2b6220b47143903c,2,Onion,Uttar Pradesh,Bijnor,Kiratpur,1070,0.4114,0.8412,0.5676,0.9045,0.111,4,False
+0e75f5703177c1f998dfa4cee7b773d6,2,Onion,Uttar Pradesh,Bijnor,Nagina,919,0.6462,0.7543,0.324,0.76,0.0794,3,False
+b97ada99a0cc753b069cbba8a7070548,2,Onion,Uttar Pradesh,Bijnor,Najibabad,1554,0.6077,0.8446,0.5432,1.0391,0.1421,3,False
+f635f2a893dd5e7b6194694f5682252d,2,Onion,Uttar Pradesh,Bulandshahar,Anoop Shahar,2171,0.4134,1.0983,0.7591,1.1111,0.0876,10,False
+8e0288f11cc66fcba7cef8bf2888be47,2,Onion,Uttar Pradesh,Bulandshahar,Buland Shahr,2195,0.4443,1.0493,0.768,1.2246,0.0811,10,False
+ca60b7d17e34b9804141d43b06249182,2,Onion,Uttar Pradesh,Bulandshahar,Divai,1454,0.5224,0.8933,0.5089,0.2605,0.1218,10,False
+911343c12a0845e7cd38c4e1f0ea71c4,2,Onion,Uttar Pradesh,Bulandshahar,Gulavati,2185,0.4185,1.0326,0.764,0.4706,0.0514,10,False
+39c71561c8c937eee4342fa72b2a9b79,2,Onion,Uttar Pradesh,Bulandshahar,Jahangirabad,2258,0.458,1.053,0.7898,1.4523,0.0701,7,False
+955a14924134686ce25b2184225b0b0b,2,Onion,Uttar Pradesh,Bulandshahar,Khurja,2160,0.4459,1.0479,0.7552,1.3063,0.0952,8,False
+e5180fd202419905eec1bcec3ac05e77,2,Onion,Uttar Pradesh,Bulandshahar,Sikanderabad,1504,0.4577,0.8996,0.5337,1.0667,0.0905,10,False
+fe5bb518b28e5a0a4f5e1e0019fc5304,2,Onion,Uttar Pradesh,Bulandshahar,Sikarpur,1897,0.5548,0.7298,0.6644,1.0,0.1366,8,False
+ba1fde5e94bc6725f5373d72063eac98,2,Onion,Uttar Pradesh,Bulandshahar,Siyana,2370,0.458,0.7799,0.8293,0.92,0.0974,10,False
+899464e6dd8af25441037437b779c5e7,2,Onion,Uttar Pradesh,Chandauli,Chandoli,2520,0.4708,1.0813,0.8814,1.5749,0.1113,1,False
+6042e876f8aca64ab5c89ec18b523cb8,2,Onion,Uttar Pradesh,Chitrakut,Karvi,2441,0.4932,0.9439,0.8532,1.4343,0.0755,3,False
+d2e794b21b0396dd8c6b88feb1bdad8e,2,Onion,Uttar Pradesh,Deoria,Barhaj,1564,0.5082,1.0987,0.7135,1.1968,0.0934,2,False
+3966e99b3f63c8dd0cfb978f2b5ee481,2,Onion,Uttar Pradesh,Deoria,Devariya,2138,0.4849,1.0635,0.7478,1.4801,0.0913,3,False
+b1fd10da5cf27633d5bee7dabcaaeafd,2,Onion,Uttar Pradesh,Etah,Aliganj,424,0.6491,0.8356,0.6503,2.8889,0.1071,7,False
+c5c4c0e483c8b07fd9205f4eb3d67395,2,Onion,Uttar Pradesh,Etah,Awagarh,1771,0.4871,0.9393,0.6194,1.3214,0.1035,6,False
+d09eef896f01465b083797238b9929b5,2,Onion,Uttar Pradesh,Etah,Etah,2375,0.4735,0.999,0.831,1.2994,0.0901,3,False
+0258c1779a57be523627d9960e2accd4,2,Onion,Uttar Pradesh,Etawah,Bharthna,2336,0.4972,0.9815,0.8165,1.4581,0.1059,3,False
+fe9de5a597fd46c464937836aa0efd15,2,Onion,Uttar Pradesh,Etawah,Etawah,2377,0.506,0.9545,0.832,1.5067,0.1113,5,False
+64b8c61fc2efefb7427681c7ca33dd16,2,Onion,Uttar Pradesh,Etawah,Jasvantnagar,1995,0.5079,0.9829,0.7207,1.4738,0.1261,3,False
+12d0a6f1c6fe67e26740537325f8fd3c,2,Onion,Uttar Pradesh,Farukhabad,Farukhabad,2423,0.4845,1.0048,0.8472,1.3906,0.0901,7,False
+8d01e17ae56f09bbbec6df1c11a8fc66,2,Onion,Uttar Pradesh,Farukhabad,Kamlaganj,1654,0.4255,0.9395,0.8152,1.4471,0.0905,7,False
+0914109a6d1509bdd841f98279ed67d7,2,Onion,Uttar Pradesh,Farukhabad,Kayamganj,2328,0.4838,1.0098,0.8143,1.4608,0.095,6,False
+0ed9beeee4335f836e892eefc07dac97,2,Onion,Uttar Pradesh,Farukhabad,Mohamadabad,835,0.4331,1.0051,0.423,1.356,0.0746,7,False
+da7d9a7fcc6078e64661da9c051e90d2,2,Onion,Uttar Pradesh,Fatehpur,Bindki,2305,0.4955,0.9857,0.8057,1.776,0.0912,4,False
+624c056a91e58da295bbb2506d10d5e5,2,Onion,Uttar Pradesh,Fatehpur,Fatehpur,2421,0.4926,0.982,0.8471,1.722,0.1005,5,False
+2229d39586cfe8e890315a0a3e271fa9,2,Onion,Uttar Pradesh,Fatehpur,Jahanabad,248,0.3105,0.721,0.1274,0.7143,0.0,5,False
+c3d6590907a4bd1a68180cdb82a7fae9,2,Onion,Uttar Pradesh,Fatehpur,Khaga,1628,0.4954,0.9313,0.572,0.8556,0.1265,6,False
+24a71fde4c56a64ebf04069e34353a68,2,Onion,Uttar Pradesh,Firozabad,Firozabad,2249,0.5264,0.9222,0.7875,1.4638,0.1136,6,False
+b59bc0ad6c5178ef049836faf0c30ec8,2,Onion,Uttar Pradesh,Firozabad,Shikohabad,1472,0.5504,0.9294,0.5192,1.3462,0.1191,7,False
+eded882d3c66a1cbc4ce65a6419132ed,2,Onion,Uttar Pradesh,Firozabad,Sirsaganj,1871,0.4983,0.9816,0.657,1.1286,0.0935,8,False
+dab494f629a6238cd3a97c2cc69f1e02,2,Onion,Uttar Pradesh,Firozabad,Tundla,2079,0.496,0.9936,0.7267,1.5,0.0983,9,False
+d5c6bc450ec73098a7ca2344d1cbd8a5,2,Onion,Uttar Pradesh,Gautam Budh Nagar,Dadri,2123,0.4364,1.1042,0.7423,1.3353,0.0607,8,False
+a6603aab6fbc9233e81b98bcb3cc9e5d,2,Onion,Uttar Pradesh,Gautam Budh Nagar,Dankaur,1263,0.4423,1.0779,0.5425,1.0014,0.0995,8,False
+fca5fdf192b65acd000d74fae314fabd,2,Onion,Uttar Pradesh,Ghaziabad,Ghaziabad,2470,0.4253,1.1485,0.8636,1.3056,0.0766,9,False
+9da6a5b82735f4205fb5c415978376d8,2,Onion,Uttar Pradesh,Ghaziabad,Hapur,2229,0.4554,1.0681,0.7794,1.4727,0.0821,15,False
+2f970c0742cc96932fb5c4a839c6e0ff,2,Onion,Uttar Pradesh,Ghaziabad,Muradnagar,872,0.454,0.9561,0.3049,1.2214,0.072,12,False
+310be608269af08b76d21cfeb4ea0e94,2,Onion,Uttar Pradesh,Ghaziabad,Noida,1972,0.4489,1.0542,0.6898,1.321,0.0924,7,False
+19c4b3d86967b64d603b23c9d4b1e436,2,Onion,Uttar Pradesh,Ghazipur,Gazipur,400,0.4569,0.9954,0.7299,1.4226,0.0881,3,False
+a17ea33ddf0cdf3e2030e8da6622ae54,2,Onion,Uttar Pradesh,Ghazipur,Gazipur (ex-Hapur),1853,0.5567,1.0483,0.7966,1.3375,0.145,3,False
+6ff2d23d78b2fe453874591655cf2abd,2,Onion,Uttar Pradesh,Ghazipur,Jangipura,1496,0.5197,1.0412,0.5269,1.1733,0.1494,3,False
+3f608ce49af1e6a5204cbbc244406771,2,Onion,Uttar Pradesh,Ghazipur,Yusufpur (ex-Hapur),193,0.382,1.0179,0.0899,0.8416,0.0387,5,False
+062c16b6abf5cd3218a1a1e6fde6df47,2,Onion,Uttar Pradesh,Gonda,Gonda,2525,0.4884,1.0912,0.8829,1.362,0.0979,5,False
+345cfab99d07bb3a4d7f1b9fe12ad7b5,2,Onion,Uttar Pradesh,Gonda,Karnailganj,516,0.3946,1.0364,0.1804,1.3333,0.0958,6,False
+10eb860c917b757685237f9eaddeb246,2,Onion,Uttar Pradesh,Gonda,Nawabganj,2210,0.4487,1.0833,0.7733,1.4266,0.1127,4,False
+a8bdb236a7b7cf2538395843eca27fd0,2,Onion,Uttar Pradesh,Gorakhpur,Chorichora,1853,0.4774,1.084,0.6477,1.0281,0.0957,3,False
+3760488c12affec4608019b3bf2bab98,2,Onion,Uttar Pradesh,Gorakhpur,Gorakhpur,2264,0.4891,1.0622,0.7924,1.5231,0.1154,4,False
+69eff59e3bfd37e8ae9c76778f53f614,2,Onion,Uttar Pradesh,Gorakhpur,Sehjanwa,1897,0.4742,1.1817,0.6633,0.9688,0.1099,3,False
+08993aeed13ff15dd0de09c9683d9643,2,Onion,Uttar Pradesh,Hamirpur,Bharuasumerpur,2267,0.5117,0.9376,0.7929,1.2857,0.0652,7,False
+05bbe7b5859a24834180bd7aed7ac0a7,2,Onion,Uttar Pradesh,Hamirpur,Maudaha,2001,0.4915,0.9316,0.8101,1.1838,0.0934,8,False
+b3caf1a26859325f971c84e102dacb1b,2,Onion,Uttar Pradesh,Hamirpur,Muskara,2384,0.4966,0.9488,0.8356,1.4138,0.0779,9,False
+00d114d474d47a245221c61c9dd432ae,2,Onion,Uttar Pradesh,Hamirpur,Raath,1610,0.4123,0.938,0.7594,1.0944,0.0713,8,False
+09ff93e2a1a50b82cef47e0a114e074a,2,Onion,Uttar Pradesh,Hardoi,Hardoi,2367,0.4633,1.0177,0.8279,1.4345,0.0826,5,False
+a0727dda837e21d7e5f4d52f3c2d7f64,2,Onion,Uttar Pradesh,Hardoi,Madhoganj,2448,0.4477,1.0303,0.858,1.4256,0.0702,6,False
+4e507c54561c032546ec6f3a750e998f,2,Onion,Uttar Pradesh,Hardoi,Sandi,1116,0.5604,1.0483,0.3969,1.1821,0.1036,6,False
+6df1a366e3257046b1c3379c99f65f01,2,Onion,Uttar Pradesh,Hardoi,Sandila,1957,0.4518,0.9974,0.743,1.3267,0.0705,2,False
+13b1a3eced8778cea80623ef3d42b8f9,2,Onion,Uttar Pradesh,Hardoi,Shahabad (New Mandi),1338,0.4699,1.0263,0.469,1.6,0.0563,8,False
+97863210fcc6faab9cbc4f0d1d1783fa,2,Onion,Uttar Pradesh,Hathras,Haathras,2156,0.4667,1.024,0.7546,1.3063,0.1041,7,False
+e748618c4e3f1dd8af20f8e22fef2438,2,Onion,Uttar Pradesh,Hathras,Shadabad,2378,0.5268,0.9625,0.8312,1.3966,0.1576,7,False
+c97e34d617936149c4095ec541972980,2,Onion,Uttar Pradesh,Jalaun (Orai),Jalaun,2028,0.558,0.8342,0.7106,1.152,0.1577,6,False
+3bc13d729e6498520cd478ec8a0d6aa6,2,Onion,Uttar Pradesh,Jalaun (Orai),Konch,2021,0.5356,0.8445,0.7101,1.3269,0.0959,4,False
+6c05f2f53d3584a9490310883e120253,2,Onion,Uttar Pradesh,Jalaun (Orai),Orai,2221,0.5176,0.9015,0.7782,1.4071,0.0838,5,False
+a7f2044746a0e8c76bdd2202b8bc20ee,2,Onion,Uttar Pradesh,Jaunpur,Jaunpur,2030,0.4875,1.0435,0.71,1.3438,0.1295,2,False
+18bc9bf23ec9bbec3516a20bde0a6e67,2,Onion,Uttar Pradesh,Jaunpur,Mugrabaadshahpur,2166,0.4666,1.0424,0.7694,1.15,0.1039,2,False
+773ad8ae80b1dc05593ebdec7d315a89,2,Onion,Uttar Pradesh,Jaunpur,Shahganj,2210,0.4713,1.0549,0.7763,1.3865,0.1155,3,False
+9007419d65f1816892c47acb3110e59c,2,Onion,Uttar Pradesh,Jhansi,Chirgaon,1946,0.5114,0.8798,0.6842,1.4737,0.1304,4,False
+ff6ec6b7c230ed4c515117ab4bebacdc,2,Onion,Uttar Pradesh,Jhansi,Gurusarai,2434,0.495,0.9014,0.8508,1.2868,0.0851,3,False
+14aa0bdc2b48f548817af1b3cb03134c,2,Onion,Uttar Pradesh,Jhansi,Jhansi,2287,0.5188,0.8264,0.8005,0.9746,0.1255,3,False
+56f83c2983f41e39d09324b4c16fb1a7,2,Onion,Uttar Pradesh,Jhansi,Mauranipur,2428,0.4969,0.8957,0.851,1.2761,0.0919,1,False
+1ca2175b7aaa6950ec0de9523dba4849,2,Onion,Uttar Pradesh,Jhansi,Moth,2339,0.5087,0.8684,0.821,1.2803,0.0922,4,False
+a97fabbd0277a3333e7fe740f6324762,2,Onion,Uttar Pradesh,Kannuj,Chhibramau,1681,0.5192,0.9986,0.5882,1.7667,0.1114,6,False
+42a4a10bd54e2b8e3baadccd222ef7e0,2,Onion,Uttar Pradesh,Kannuj,Kannauj,2303,0.4816,0.9867,0.8052,1.4123,0.0874,5,False
+d1abd50913f1ced3d2f03ddfd56da304,2,Onion,Uttar Pradesh,Kanpur,Choubepur,2275,0.4975,0.9861,0.7955,1.4286,0.0968,5,False
+d252c829c04f433ce19e32cee02b5bfe,2,Onion,Uttar Pradesh,Kanpur,Kanpur (Grain),2287,0.4724,0.9937,0.7999,1.3072,0.0883,6,False
+15215b57a3b9feee6d2658c9fbbdf17c,2,Onion,Uttar Pradesh,Kanpur,Uttaripura,880,0.5224,0.938,0.3211,1.3397,0.1004,5,False
+b1c5cf496a6395c38dfbb96624109815,2,Onion,Uttar Pradesh,Kanpur,Varipaal,962,0.5005,0.8052,0.3377,0.88,0.1158,5,False
+b80ace3735b5627e16be843f47a8f5bb,2,Onion,Uttar Pradesh,Kanpur Dehat,Jhijhank,1787,0.5011,1.0034,0.6489,1.0131,0.111,5,False
+a45ceeaa2f8fd1b4cdd95f8c992bcc4b,2,Onion,Uttar Pradesh,Kanpur Dehat,Pukharayan,2351,0.4985,0.9889,0.822,1.5433,0.106,5,False
+af74a13ac61ff8730861531b6ea139c8,2,Onion,Uttar Pradesh,Kanpur Dehat,Rura,1391,0.4928,1.0298,0.4933,1.0688,0.0797,5,False
+8d4dfe95e915d52c8f08275ec8af8560,2,Onion,Uttar Pradesh,Kasganj,Kasganj,2221,0.4818,1.0069,0.7768,1.3,0.0784,5,False
+f24d688af055db8cedca5f1cee490f08,2,Onion,Uttar Pradesh,Kaushambi,Bharwari,750,0.4989,0.9997,0.3595,1.5464,0.0818,5,False
+766b3eb33b753a914917a2ee39b0714f,2,Onion,Uttar Pradesh,Kaushambi,Manjhanpur,419,0.4594,0.9934,0.8747,1.4636,0.1029,5,False
+2b88248f188cae366fb0a8d4d1931a53,2,Onion,Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,1725,0.4942,1.0133,0.6036,0.8223,0.0912,5,False
+2af3747987374b5e19bbf93a8c151ad4,2,Onion,Uttar Pradesh,Khiri (Lakhimpur),Mohammdi,1377,0.4435,0.9968,0.5532,1.2625,0.0646,5,False
+7763aab5e4513d822fb13952eb3428f1,2,Onion,Uttar Pradesh,Khiri (Lakhimpur),Tikonia,970,0.4323,0.9343,0.3426,1.2907,0.0766,1,False
+bbde7724b6d4551bfff263efc4a84dc5,2,Onion,Uttar Pradesh,Kushinagar,Tamkuhi road,1416,0.5177,1.1107,0.4953,1.5397,0.1199,0,False
+0d6d9c3414ddc91624ad2a911c9c1e26,2,Onion,Uttar Pradesh,Lakhimpur,Golagokarnath,2205,0.4609,1.0057,0.7712,1.3734,0.0803,1,False
+e4b656fb0f530c21e07dd3bc66993af6,2,Onion,Uttar Pradesh,Lakhimpur,Lakhimpur,2664,0.4497,1.0235,0.9311,1.3641,0.0815,4,False
+3595860b044ff18c2866a1a7d16d744d,2,Onion,Uttar Pradesh,Lakhimpur,Paliakala,1546,0.4715,1.0248,0.5446,1.4165,0.0941,1,False
+2b40c99eb722fcb77aae247a742544df,2,Onion,Uttar Pradesh,Lalitpur,Lalitpur,2234,0.505,0.8924,0.7811,1.3529,0.12,2,False
+d1b56265441f64623ec3cbb989eeac5e,2,Onion,Uttar Pradesh,Lucknow,Lucknow,2572,0.4671,1.0499,0.9006,1.5,0.098,6,False
+3a36bc8fc73276a755bcde61988b0918,2,Onion,Uttar Pradesh,Maharajganj,Anandnagar,2286,0.4893,1.0845,0.7993,1.4643,0.0917,4,False
+f77dbc5f4abf3aee6346721c7f229ccf,2,Onion,Uttar Pradesh,Maharajganj,Gadaura,2477,0.4608,0.9694,0.8658,0.8667,0.053,4,False
+d4040120bb237e8a2438fa2e1befa67a,2,Onion,Uttar Pradesh,Maharajganj,Maharajganj,531,0.4418,1.1842,0.4352,1.8361,0.1408,3,False
+756b3dd528c2c90387ee352881a0204c,2,Onion,Uttar Pradesh,Maharajganj,Nautnava,2201,0.4907,0.9995,0.7698,1.52,0.1177,4,False
+44303cc2f170bf68ac78684a1249ae9f,2,Onion,Uttar Pradesh,Maharajganj,Partaval,2117,0.4889,1.0619,0.742,1.5278,0.0846,4,False
+8dff0797637af060917b4f3f8fed98c0,2,Onion,Uttar Pradesh,Mahoba,Mahoba,2336,0.5206,0.9423,0.8182,1.551,0.1029,4,False
+55ea2cd37d0a9b2d6f3ed1f264af99f3,2,Onion,Uttar Pradesh,Mainpuri,Bewar,438,0.5386,1.0173,0.1764,0.8696,0.1195,6,False
+093c1320b8702a47c1b5d1b036a06271,2,Onion,Uttar Pradesh,Mainpuri,Ghiraur,2274,0.4973,0.9924,0.7965,1.6027,0.0708,8,False
+3ececbc8b73254454e28fdaa34b0f838,2,Onion,Uttar Pradesh,Mainpuri,Mainpuri,2326,0.4913,0.9791,0.8136,1.5433,0.0878,7,False
+6882ffbfcab1b4e30233660346a159c1,2,Onion,Uttar Pradesh,Mathura,Kosikalan,2062,0.4851,0.995,0.7222,1.3107,0.1117,2,False
+b383adf766a09108ebd09fe593002277,2,Onion,Uttar Pradesh,Mathura,Mathura,2291,0.4631,1.0082,0.8027,1.375,0.1039,5,False
+791b21b4345aafcc49585283260c0156,2,Onion,Uttar Pradesh,Mau (Maunathbhanjan),Doharighat,990,0.538,1.2565,0.5503,1.874,0.1042,2,False
+4e23efe5c975db085652a08aab4cfd2b,2,Onion,Uttar Pradesh,Mau (Maunathbhanjan),Kopaganj,2037,0.5177,1.0088,0.712,1.7,0.0956,7,False
+421f4853932669eaaa916b704df58b88,2,Onion,Uttar Pradesh,Meerut,Mawana,1113,0.5333,1.0364,0.3896,0.9344,0.1011,9,False
+6d6756285ca027b13a135809bb0714c9,2,Onion,Uttar Pradesh,Meerut,Meerut,2209,0.4548,1.0786,0.774,1.4277,0.0878,12,False
+0edcfa038e936456395a876416a40fb0,2,Onion,Uttar Pradesh,Meerut,Parikshitgarh,260,0.2561,0.9136,0.0957,0.5217,0.0,10,False
+eeab9f78534e97a1a25551520b8e7f84,2,Onion,Uttar Pradesh,Meerut,Sardhana,1285,0.4266,0.8926,0.4512,0.4615,0.1111,14,False
+57da0ca657044e3f0fbbc9efe5e19d42,2,Onion,Uttar Pradesh,Mirzapur,Ahirora,1494,0.4593,0.9319,0.5461,1.1589,0.0844,2,False
+5836a40011451d4506e11c68d62b7cdd,2,Onion,Uttar Pradesh,Mirzapur,Mirzapur,2243,0.4817,1.043,0.784,1.5975,0.1165,3,False
+2cc555d1e7c4421001c12b887f4e79b0,2,Onion,Uttar Pradesh,Muzaffarnagar,Khatauli,770,0.336,0.8048,0.2693,0.5786,0.0668,11,False
+b33de194b9b366cda35bd501ec52be6c,2,Onion,Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,2586,0.4414,1.0923,0.9106,1.4412,0.0598,8,False
+1b6f6c583f631790a9ebd421accbec85,2,Onion,Uttar Pradesh,Muzaffarnagar,Shahpur,737,0.3748,0.8722,0.259,0.347,0.0332,11,False
+c3a8e3b5982866db1865bcde292d4e4b,2,Onion,Uttar Pradesh,Pillibhit,Billsadda,712,0.8004,0.828,0.7982,1.765,0.0886,2,False
+bef5e72132300e0e0cecf58a16cb159f,2,Onion,Uttar Pradesh,Pillibhit,Pilibhit,2652,0.4861,0.9925,0.9269,1.4494,0.0636,3,False
+a576a0aff0c01adc7b3d91da38e3cfd1,2,Onion,Uttar Pradesh,Pillibhit,Puranpur,2560,0.4537,0.9889,0.8948,1.5099,0.0657,2,False
+fb13c9270e196e916c866e3c88398cd2,2,Onion,Uttar Pradesh,Pillibhit,Vishalpur,2284,0.4488,0.9813,0.7989,1.0378,0.0473,2,False
+bc2e057ab91a73e1453c98fc42bee02f,2,Onion,Uttar Pradesh,Pratapgarh,Pratapgarh,2686,0.4877,1.0577,0.9411,1.6076,0.0991,0,False
+743ecb2d89741e8ba4e9918a4b50fc20,2,Onion,Uttar Pradesh,Prayagraj,Ajuha,2446,0.4866,1.0045,0.8564,1.5419,0.1012,5,False
+9624e769e185da05f4aebf72024b0c53,2,Onion,Uttar Pradesh,Prayagraj,Allahabad,2107,0.4892,1.0273,0.7385,1.6548,0.0964,3,False
+808c2fc76fe1f1794155bf4a78a24b09,2,Onion,Uttar Pradesh,Prayagraj,Jasra,1882,0.5103,0.98,0.659,0.9983,0.0987,4,False
+8feb1db4cb77da5e6fc76e6f21f7117e,2,Onion,Uttar Pradesh,Prayagraj,Sirsa,1602,0.5205,0.9891,0.5771,1.0345,0.0935,2,False
+426148d836bb79a43c64d8c11771cc78,2,Onion,Uttar Pradesh,Raebarelli,Bachranwa,409,0.4786,1.0117,0.1442,1.4756,0.0787,6,False
+a0642abba31b903b8a1b539c82b8dc5f,2,Onion,Uttar Pradesh,Raebarelli,Jayas,2270,0.5037,1.0076,0.7934,1.4063,0.0999,6,False
+de1fb0dda6d05566995f9801c5f775d8,2,Onion,Uttar Pradesh,Raebarelli,Lalganj,1868,0.4695,0.9533,0.7119,1.3265,0.1166,6,False
+37b8f379628c22a3c3cc2887f86ab99d,2,Onion,Uttar Pradesh,Raebarelli,Raibareilly,2414,0.4596,1.0096,0.8441,1.475,0.0996,6,False
+ab14f1e37fd75594775bdd2342403275,2,Onion,Uttar Pradesh,Raebarelli,Salon,385,0.4269,0.9986,0.6514,1.5446,0.0451,2,False
+9d3c8e75adfff47a2c9bbc9e90204ea8,2,Onion,Uttar Pradesh,Rampur,Milak,1701,0.4439,0.9812,0.702,1.2882,0.0579,4,False
+6594c0f76749d1aa97ef79ab437f6e91,2,Onion,Uttar Pradesh,Rampur,Rampur,2548,0.4847,0.9942,0.8906,1.4083,0.0607,3,False
+a5a8213785c607b8c45ba4be683727ad,2,Onion,Uttar Pradesh,Rampur,Vilaspur,543,0.6224,0.955,0.3792,1.7098,0.0527,4,False
+3401ec92384b27c39635f33113f8a503,2,Onion,Uttar Pradesh,Saharanpur,Chutmalpur,1115,0.3023,0.9759,0.3915,0.4688,0.0766,3,False
+b3c4f1c0a343dd9548953fe40c520e56,2,Onion,Uttar Pradesh,Saharanpur,Deoband,1091,0.5327,0.7599,0.3823,0.7364,0.07,7,False
+540e2e98f388b5bf1e5f725262db769b,2,Onion,Uttar Pradesh,Saharanpur,Gangoh,2273,0.5028,1.0144,0.7981,1.0667,0.116,6,False
+92fa48085af324235202bff3b0d21eb6,2,Onion,Uttar Pradesh,Saharanpur,Rampurmaniharan,1250,0.3493,1.1765,0.4369,0.6954,0.0305,3,False
+0f2aa8e9ad60d1af369a28cff817121e,2,Onion,Uttar Pradesh,Saharanpur,Saharanpur,2556,0.4556,1.0796,0.8943,1.4806,0.0658,3,False
+fa29b4c9828bdd07538faead4da8d161,2,Onion,Uttar Pradesh,Saharanpur,Sultanpurchilkana,280,0.5951,0.7239,0.3329,0.3929,0.0,3,False
+f36886adc86dace1133ab47b68522f60,2,Onion,Uttar Pradesh,Sambhal,Chandausi,1873,0.4794,0.9906,0.6554,1.4395,0.0563,5,False
+54e19975302001a9eba702b02d71f3db,2,Onion,Uttar Pradesh,Sambhal,Muradabad,2592,0.4565,1.0021,0.9069,1.4338,0.0628,4,False
+dd30f733a4d28925473111c7e7118e7b,2,Onion,Uttar Pradesh,Sambhal,Sambhal,2430,0.3838,0.8038,0.9858,0.6897,0.0876,5,False
+ff84ada06da989df003dca2e45f8e1ff,2,Onion,Uttar Pradesh,Sant Kabir Nagar,Khalilabad,1542,0.5147,0.9952,0.5392,1.4667,0.1086,3,False
+5a983b5f6faf5b1aec3cb4600da981c4,2,Onion,Uttar Pradesh,Shahjahanpur,Badda,523,0.5306,1.153,0.5747,1.0667,0.144,5,False
+9376a13982f9b3a2e6d774202d026751,2,Onion,Uttar Pradesh,Shahjahanpur,Puwaha,2532,0.4196,1.028,0.885,1.3727,0.0735,5,False
+355c668c69f5094f95891646a98479ae,2,Onion,Uttar Pradesh,Shahjahanpur,Shahjahanpur,1622,0.4444,1.0165,0.5685,1.0587,0.0596,6,False
+b45811dfc4863d4e4095f0f98c425beb,2,Onion,Uttar Pradesh,Shahjahanpur,Tilhar,1257,0.5506,0.9087,0.4394,1.4207,0.125,5,False
+79ddfc3e3241bfd1c995586a289dcd97,2,Onion,Uttar Pradesh,Shamli,Kairana,1593,0.3906,0.7851,0.5576,0.7203,0.0884,8,False
+1007b0ed1cdd29927d04f8546c5546a3,2,Onion,Uttar Pradesh,Shamli,Khandhla,1780,0.3738,1.2087,0.6222,0.449,0.1269,10,False
+fde8183e4b4546d9f6a2d6e6e082c8c7,2,Onion,Uttar Pradesh,Shamli,Shamli,2325,0.4954,1.0839,0.8135,1.5147,0.0752,10,False
+b5e449ad6a41302f89ffc302d6029c92,2,Onion,Uttar Pradesh,Shamli,Thanabhavan,1786,0.5126,0.8441,0.6289,1.12,0.1168,10,False
+255d34c3ccfdccb2ae2a5cd0548567cb,2,Onion,Uttar Pradesh,Shravasti,Bhinga,417,0.4546,1.0378,0.8019,1.4451,0.061,4,False
+114d92a1065c391abe0bf2bfb8ba3f94,2,Onion,Uttar Pradesh,Shravasti,Payagpur,650,0.4155,1.0755,0.2509,0.5538,0.0504,6,False
+de53469bc6dd7bf4aa092145c5eb7fb1,2,Onion,Uttar Pradesh,Siddharth Nagar,Naugarh,1196,0.5017,1.068,0.4554,1.0131,0.0673,3,False
+8a087ff67316336ae81f8aa8c191ac24,2,Onion,Uttar Pradesh,Siddharth Nagar,Sahiyapur,1797,0.5013,1.0457,0.6285,1.5301,0.0968,2,False
+850d6d153d5bfdc94e6354f8e4503fc8,2,Onion,Uttar Pradesh,Sitapur,Hargaon (Laharpur),1942,0.4522,0.8988,0.6797,1.2593,0.0743,4,False
+0526caa69431e91f894341e2c881d6f0,2,Onion,Uttar Pradesh,Sitapur,Mehmoodabad,1670,0.4531,1.0159,0.5847,1.3938,0.0861,3,False
+2785c50f020405133774077370463585,2,Onion,Uttar Pradesh,Sitapur,Sitapur,2313,0.4573,1.0016,0.8085,1.4452,0.0858,4,False
+32780de6be1b1306378dcc5c9a030cf7,2,Onion,Uttar Pradesh,Sitapur,Viswan,1851,0.5163,0.9709,0.6472,1.348,0.0736,3,False
+420009c0ccc100e93f467be15939c847,2,Onion,Uttar Pradesh,Sonbhadra,Dudhi,1534,0.5324,0.8902,0.5422,1.1538,0.0858,0,False
+781334fbec2dd8b22a41fe060b21fe30,2,Onion,Uttar Pradesh,Sonbhadra,Robertsganj,2226,0.4863,1.0253,0.7794,1.4508,0.1196,0,False
+15c4dc0231d25a8a82996c85a80c78ad,2,Onion,Uttar Pradesh,Unnao,Bangarmau,2283,0.47,1.0007,0.7983,1.5353,0.0834,6,False
+3f379a6fd173e1d25a01ff4dd61fd457,2,Onion,Uttar Pradesh,Unnao,Purwa,1978,0.4801,1.0027,0.8231,1.3193,0.1081,5,False
+37585142079ab77bb0b564e67f7e15b8,2,Onion,Uttar Pradesh,Unnao,Unnao,2396,0.4609,0.9981,0.8383,1.4688,0.0972,5,False
+3cb50565f19b36c0629c9c1b3dbf635e,2,Onion,Uttar Pradesh,Varanasi,Varanasi,195,0.2849,1.0062,0.6588,0.8621,0.0632,2,False
+892ab277792b8ddcd430471c73411c07,2,Onion,Uttar Pradesh,Varanasi,Varanasi (F&V),1876,0.4812,1.063,0.6557,1.0949,0.1229,2,False
+387fa70ac35cb4488aebdd018297aa7a,3,Potato,Gujarat,Ahmedabad,Ahmedabad (Chimanbhai Patal Market Vasana),2008,0.3717,1.0174,0.7023,0.5433,0.1191,3,False
+9a94bba85605d3861aa6693c5675b176,3,Potato,Gujarat,Ahmedabad,Dholka (Koth),220,0.1589,1.1896,0.5556,0.4167,0.0977,1,False
+339786126267abb5b7d85f2afd15126b,3,Potato,Gujarat,Amreli,Dhari,436,0.4445,0.8953,0.2283,0.7273,0.1969,1,False
+e1c12a96ee4fe2cef4bba5d9587b7c9b,3,Potato,Gujarat,Anand,"Anand (Veg,Yard,Anand)",2156,0.4527,0.9088,0.7546,0.4167,0.1106,8,False
+324552af2698abb371331319190c6d80,3,Potato,Gujarat,Anand,Khambhat (Veg Yard Khambhat),1242,0.4908,1.0051,0.4358,0.74,0.0891,7,False
+ab03d9d3df96e7d7a86b6fd8ab319cfb,3,Potato,Gujarat,Anand,"Petlad (Veg Yard, Petlad)",372,0.4312,0.7889,0.3318,1.5278,0.0621,8,False
+a065227414dbfb9987212cba97220708,3,Potato,Gujarat,Banaskanth,Deesa (Deesa Veg Yard),1654,0.4926,0.8644,0.5783,0.6591,0.1169,1,False
+89655cfa3f3e914d24fe61d421f954f5,3,Potato,Gujarat,Bharuch,Ankleshwar,640,0.3673,0.9706,0.7583,0.9667,0.1009,2,False
+7dd7c046f86e1b3fae5e374e44bbad43,3,Potato,Gujarat,Bharuch,Bharuch,1439,0.3769,1.168,0.503,0.4667,0.0545,1,False
+b0bc4fe6fe306dd88a18e9a9b50e6a19,3,Potato,Gujarat,Bhavnagar,Palitana,577,0.3157,1.3396,0.3262,0.4881,0.0848,0,False
+372807d9b91c385adff0a5c315e86c25,3,Potato,Gujarat,Dahod,Dahod (Veg. Market),2610,0.3936,1.0194,0.9123,0.3846,0.0527,3,False
+2e19cb9a58173231abad6e8912361e30,3,Potato,Gujarat,Gandhinagar,Mansa (Manas Veg Yard),229,0.329,0.8577,0.0823,0.5625,0.1359,4,False
+6f47e20623cd3c480d5f7a31b3b91d66,3,Potato,Gujarat,Kachchh,Bhuj,664,0.3741,1.1279,0.6707,0.5484,0.0729,1,False
+7e2d06097885f467fa7c78c65468881f,3,Potato,Gujarat,Kheda,Kapadvanj,1703,0.4331,0.8602,0.5969,0.6087,0.0711,3,False
+9bd0c5c4dc5c5db37ec04c7d55b67fa0,3,Potato,Gujarat,Kheda,Nadiad,586,0.3777,1.0487,0.7542,0.8594,0.0524,8,False
+b637e07409398451be0b2f406b5dfdce,3,Potato,Gujarat,Kheda,Nadiyad (Chaklasi),778,0.4012,0.8554,0.2847,1.1739,0.0456,9,False
+c8a09f2bd522008ae68666c315748e28,3,Potato,Gujarat,Kheda,Nadiyad (Piplag),878,0.4066,0.8801,0.307,1.2022,0.0453,7,False
+e576c12dcd8f4f3cfa9d85356c3f953f,3,Potato,Gujarat,Mehsana,Mehsana (Mehsana Veg),1793,0.4326,0.845,0.6271,0.5,0.0535,4,False
+b960c7a19a6256a87f53ebe0d16ef0b4,3,Potato,Gujarat,Navsari,Bilimora,1401,0.3685,1.1866,0.5151,0.3125,0.0388,1,False
+639105cd4ebcaa15ecac886a2759949c,3,Potato,Gujarat,Navsari,Navsari,607,0.3036,1.0958,0.7252,0.8438,0.0235,2,False
+3a85c937d5c6b89a16c704db7851ec4e,3,Potato,Gujarat,Porbandar,Porbandar,1046,0.3339,1.1359,0.6053,0.5,0.0687,1,False
+64e0180f6ae61d629afcc7cd98e968e2,3,Potato,Gujarat,Rajkot,Dhoraji,337,0.2564,1.2327,0.5693,0.5,0.0363,1,False
+b9d917a56d52e3a38fa81c2ba2d16c13,3,Potato,Gujarat,Rajkot,Gondal (Veg.market Gondal),470,0.4125,0.2313,0.166,0.7703,0.0638,2,True
+5d13e011f7200b2c985afac45db92493,3,Potato,Gujarat,Rajkot,Rajkot (Veg.Sub Yard),2201,0.3854,1.0024,0.7701,0.5096,0.0943,1,False
+9b756f0190f659a8e526d51503461510,3,Potato,Gujarat,Surat,Surat,2208,0.3528,0.9927,0.7728,0.48,0.0556,2,False
+df71e38a25d2f0c563ef2d029966b109,3,Potato,Gujarat,Surendranagar,Vadhvan,2124,0.4,1.1085,0.7427,0.3846,0.0633,0,False
+809bac43fbe9b277c9dfa4372689d5c0,3,Potato,Gujarat,Vadodara (Baroda),Padra,2010,0.3742,1.1709,0.7026,0.5,0.0779,6,False
+292641802deecfec387106da0d98878e,3,Potato,Gujarat,Vadodara (Baroda),Vadodara (Sayajipura),1844,0.3898,1.0669,0.6445,0.3704,0.0793,5,False
+a436b9c592db55932f6d798546445b06,3,Potato,Madhya Pradesh,Alirajpur,Alirajpur (F&V),470,0.3374,1.5432,0.2513,0.7333,0.0602,1,False
+34c437b2f4879232feda698a179940f1,3,Potato,Madhya Pradesh,Anupur,Anuppur,348,0.498,1.0176,0.1976,1.1,0.1024,0,False
+04243980176dda3597b2545c5b2e91ed,3,Potato,Madhya Pradesh,Betul,Betul,264,0.4923,1.3223,0.0923,2.0208,0.2183,1,False
+6b70eb8655e34e15142ea6244ad8029a,3,Potato,Madhya Pradesh,Betul,Multai,204,0.2857,1.1593,0.0844,0.6818,0.1056,1,False
+a831583e7053f17e7cc009b639fda880,3,Potato,Madhya Pradesh,Bhopal,Bhopal (F&V),1863,0.4922,0.8476,0.6516,0.625,0.0534,1,False
+ac773c914a122dfa5c2636800cb0b55a,3,Potato,Madhya Pradesh,Burhanpur,Burhanpur (F&V),770,0.2712,1.1468,0.2691,0.4,0.0067,1,False
+f58390a6516e1db0e074fab283060975,3,Potato,Madhya Pradesh,Chhindwara,Chhindwara (F&V),1592,0.3534,1.0096,0.5574,0.65,0.0313,0,False
+86151230e95902a7c1967332b97b7464,3,Potato,Madhya Pradesh,Damoh,Damoh (F&V),780,0.3634,1.0473,0.3583,0.2,0.1048,2,False
+d216376ed47fcc5058ba910d3a6d0ef2,3,Potato,Madhya Pradesh,Dewas,Dewas (F&V),1951,0.4398,0.832,0.6829,0.5,0.0962,5,False
+db87ccbeeea60cbefc57cdf62ea9ab43,3,Potato,Madhya Pradesh,Dewas,Haatpipliya,1719,0.2847,1.2226,0.7889,0.3333,0.0943,5,False
+b848d589d6617cf5b572fc938bfa61c8,3,Potato,Madhya Pradesh,Dhar,Dhamnod,1833,0.3898,0.9953,0.6416,0.35,0.087,5,False
+433a3aea6fc800de6e6d4434bb986287,3,Potato,Madhya Pradesh,Dhar,Dhar (F&V),535,0.3234,1.3261,0.2875,0.7083,0.0819,5,False
+6d5f5571bb633790d673fcdeae039844,3,Potato,Madhya Pradesh,Dhar,Kukshi,1375,0.27,1.053,0.5081,0.3,0.0501,2,False
+272e84cac94c70a3659367a878297c71,3,Potato,Madhya Pradesh,Dhar,Manawar,1188,0.3809,1.1874,0.4387,0.6923,0.1116,3,False
+9297027f6e52d7bd10a96df213979b98,3,Potato,Madhya Pradesh,Dhar,Rajgarh,1295,0.4022,0.9024,0.5943,0.5,0.1355,4,False
+b324e8bb12a14eac8ab91fd38f2d385a,3,Potato,Madhya Pradesh,Guna,Guna (F&V),1412,0.427,0.5831,0.6477,0.8,0.1047,0,False
+3ebf21253441667e97715db9ce831c09,3,Potato,Madhya Pradesh,Gwalior,Lashkar (F&V),2045,0.5057,1.1092,0.7155,1.0227,0.126,2,False
+be3a742d0bf3e6504726ee2e153176e6,3,Potato,Madhya Pradesh,Harda,Harda (F&V),1901,0.4161,1.0542,0.6654,0.2727,0.0365,2,False
+3418c96302582f3f345fcf6df9877048,3,Potato,Madhya Pradesh,Harda,Timarni,905,0.4193,1.192,0.3633,0.6,0.1037,2,False
+65fb4aa920a5d3a6b638cd68f6431aa5,3,Potato,Madhya Pradesh,Hoshangabad,Hoshangabad,1077,0.3354,1.2963,0.5778,0.5611,0.0283,2,False
+86b1ef88e262e3bfc204f335427231f9,3,Potato,Madhya Pradesh,Hoshangabad,Itarsi,567,0.2807,1.204,0.3279,0.6667,0.0853,2,False
+3f6f35fe19afc862fe09683c4cffb5d3,3,Potato,Madhya Pradesh,Hoshangabad,Pipariya,1244,0.3154,1.014,0.4915,0.5854,0.0099,2,False
+7d16b46ad6505ed68cee30dab4e51858,3,Potato,Madhya Pradesh,Indore,Indore,434,0.3869,1.2488,0.6392,0.9851,0.2113,5,False
+abb3372e8425862fa90109c169f5592b,3,Potato,Madhya Pradesh,Indore,Indore (F&V),1493,0.356,0.9723,0.525,0.2222,0.0451,5,False
+1fbaa34bccd8ade4b22e003416540ae6,3,Potato,Madhya Pradesh,Indore,Mhow,1080,0.5307,0.9641,0.445,1.2116,0.1532,4,False
+14886b92373e4ceb3c0dd4f76bbbdebb,3,Potato,Madhya Pradesh,Indore,Sanwer,1925,0.3539,1.108,0.6728,0.55,0.0557,6,False
+6753df9c10278ee59b8ffedecf514065,3,Potato,Madhya Pradesh,Jabalpur,Jabalpur (F&V),1735,0.4079,1.1077,0.6071,0.3846,0.0053,0,False
+91caf4ab91a47c72a8e36ceab3cc99e0,3,Potato,Madhya Pradesh,Jhabua,Jhabua,337,0.3697,1.0941,0.3471,0.8529,0.0489,4,False
+2b6fe38c3c2df36a1f927096b734de6c,3,Potato,Madhya Pradesh,Jhabua,Petlawad,1449,0.2802,1.276,0.7311,0.2308,0.0377,5,False
+e55fe02d0b6984c72d3c01f3e36321e9,3,Potato,Madhya Pradesh,Jhabua,Petlawad (F&V),324,0.1346,1.0925,0.8223,0.4423,0.0696,5,False
+e61a7b52d75e9a82dfc2e9783de67830,3,Potato,Madhya Pradesh,Jhabua,Thandla,1091,0.3267,1.3248,0.4077,0.3077,0.0319,4,False
+1c7c3df2bf85e99c61571a27a1a6fe21,3,Potato,Madhya Pradesh,Khandwa,Khandwa (F&V),1293,0.3437,0.8052,0.455,0.4625,0.0851,3,False
+7de35205ef178be22fa003b401f91318,3,Potato,Madhya Pradesh,Khargone,Badwaha,896,0.2131,1.192,0.8591,0.4167,0.1055,4,False
+aaab17503affe4a9035fc2f1c0e47268,3,Potato,Madhya Pradesh,Khargone,Khargone,655,0.1998,0.8894,0.9097,0.2222,0.0,2,False
+794b181ab4a92556e1c3b37ca916b475,3,Potato,Madhya Pradesh,Khargone,Sanawad,450,0.2149,1.3639,0.727,0.6,0.1258,3,False
+e7f14938a71135a96f9fa60cf665a743,3,Potato,Madhya Pradesh,Mandsaur,Mandsaur (F&V),1517,0.4121,1.1639,0.6959,0.5,0.1043,2,False
+0e0e6450bc5622a00d3936f6e8c4a842,3,Potato,Madhya Pradesh,Morena,Morena,475,0.3803,0.655,0.7006,0.3125,0.307,3,False
+cd14392840378b3bbb7e297b53dd4b56,3,Potato,Madhya Pradesh,Morena,Morena (F&V),1438,0.467,0.7076,0.6867,0.6456,0.1771,3,False
+b32e7b5af4d34e721b5cee6e78e468b8,3,Potato,Madhya Pradesh,Morena,Porsa,366,0.2577,0.755,0.1983,0.4444,0.0057,3,False
+add720987f1ca72661f254e7540833e0,3,Potato,Madhya Pradesh,Morena,Porsa (F&V),947,0.3075,0.6566,0.4492,0.4833,0.0905,3,False
+d6a0c7ce4b44ba592845aec049e4a22a,3,Potato,Madhya Pradesh,Morena,Sabalgarh,415,0.3898,0.6242,0.3005,0.6,0.2612,2,False
+082c3a861b79d3ffcba51e64e5e081d5,3,Potato,Madhya Pradesh,Narsinghpur,Gadarwada,324,0.4603,1.1684,0.389,0.75,0.0,0,False
+e41baa434c19bda180d53b4703128d5b,3,Potato,Madhya Pradesh,Rajgarh,Biaora,767,0.2409,1.1025,0.4328,0.3,0.0,1,False
+40dabd1d80eed5212b5f8099935250bc,3,Potato,Madhya Pradesh,Rajgarh,Narsinghgarh,1520,0.3898,0.8914,0.6979,0.3889,0.1076,2,False
+f4b1aeae1e3bb2d893574d452daa5aad,3,Potato,Madhya Pradesh,Sagar,Deori,1493,0.6012,0.9963,0.6725,1.1111,0.1074,2,False
+3d54bd92ca41a4bff7b609da47652857,3,Potato,Madhya Pradesh,Sagar,Khurai (F&V),293,0.3095,1.1048,0.761,0.9286,0.1285,3,False
+d1f334fbf5f787065a32620450e990a1,3,Potato,Madhya Pradesh,Sagar,Sagar (F&V),1884,0.3623,1.0058,0.6613,0.6667,0.0659,4,False
+bcb75a5a8becfb3a846091ca1fd54673,3,Potato,Madhya Pradesh,Satna,Satna (F&V),291,0.4484,0.8186,0.1182,0.9143,0.0195,3,False
+403c946554c8efd31e62005f07afd27e,3,Potato,Madhya Pradesh,Sehore,Sehore,361,0.4251,0.9995,0.1932,0.9675,0.135,4,False
+085001b0e18762dbebcf0e921a67368e,3,Potato,Madhya Pradesh,Shajapur,Kalapipal,496,0.5273,0.611,0.1936,1.3571,0.1009,7,False
+4a5fda178b8540f4d82466eb6f4e41c2,3,Potato,Madhya Pradesh,Shajapur,Shajapur (F&V),401,0.3572,0.728,0.1839,2.0747,0.2761,5,False
+62b4c492f5bdc24e4dbe1b88177cdb54,3,Potato,Madhya Pradesh,Shajapur,Shujalpur,244,0.4817,0.8284,0.1082,4.373,0.1554,8,False
+27787967d0026e58c5ea2d1dbbf850b9,3,Potato,Madhya Pradesh,Sheopur,Syopurkalan (F&V),1052,0.432,1.1056,0.3681,0.5476,0.0971,0,False
+2e9ebec325fb779e2343e3cc683eaf67,3,Potato,Madhya Pradesh,Shivpuri,Shivpuri (F&V),1252,0.2911,0.8809,0.4387,0.5,0.0207,3,False
+a3fa89020ffd68971008ee90ddff3cb6,3,Potato,Madhya Pradesh,Singroli,Singroli,343,0.1141,1.0549,0.5081,0.25,0.0,0,False
+41fe13d238fcdf208e1a04eadbcba9c2,3,Potato,Madhya Pradesh,Ujjain,Ujjain,516,0.4422,1.1734,0.7599,1.1159,0.2314,3,False
+276b472d7a042b81ac941167c2678234,3,Potato,Madhya Pradesh,Ujjain,Ujjain (F&V),1157,0.4226,0.7636,0.531,0.5943,0.2107,3,False
+75294370eec87b1a7572f93f55034d65,3,Potato,Maharashtra,Ahmednagar,Ahmednagar,680,0.3729,0.9601,0.239,0.4821,0.039,1,False
+c943a3d7c192c1de38aa0149db1dd456,3,Potato,Maharashtra,Ahmednagar,Rahata,1579,0.3418,1.0125,0.5527,0.3667,0.0826,3,False
+8cd32d1980262c2dc5f5d0d9edeed403,3,Potato,Maharashtra,Ahmednagar,Rahuri,1421,0.3634,1.0463,0.4972,0.629,0.0939,4,False
+8b13372e86fde7e91df25d84ec9ad8fe,3,Potato,Maharashtra,Ahmednagar,Shrirampur,2159,0.356,0.955,0.7552,0.32,0.0703,4,False
+37e8d8b6b962ff27dc583869fd1b2bd4,3,Potato,Maharashtra,Akola,Akola,642,0.287,0.9608,0.7024,0.3333,0.0111,0,False
+cdd425d9ba65a50e9013fa8f5b86b8a5,3,Potato,Maharashtra,Amarawati,Amrawati (Frui & Veg. Market),1899,0.389,0.8536,0.6645,0.3333,0.0798,1,False
+07f23e4121c823d87def79d77dcc6a57,3,Potato,Maharashtra,Amarawati,Morshi,610,0.4401,1.0386,0.6566,0.5393,0.0648,1,False
+b8d650f27ec97d5318a7e8a0d0e388ba,3,Potato,Maharashtra,Chandrapur,Chandrapur (Ganjwad),1662,0.3537,1.0547,0.5811,0.4667,0.0481,0,False
+0a8257becc855e9d0e558bee0baf7c64,3,Potato,Maharashtra,Chattrapati Sambhajinagar,Chattrapati Sambhajinagar,2139,0.4031,0.8579,0.7479,0.36,0.0872,1,False
+a37257924690da436aa83f93fc5edccf,3,Potato,Maharashtra,Dharashiv (Usmanabad),Dharashiv,500,0.3332,0.9307,0.1779,1.125,0.0805,1,False
+11c679803b4c7fcb64f2015fa49ba323,3,Potato,Maharashtra,Jalgaon,Bhusaval,1180,0.2033,1.1878,0.6689,0.2778,0.0384,1,False
+26b213fcfa5b6cf06c1feb5268d4711f,3,Potato,Maharashtra,Jalgaon,Jalgaon,1895,0.37,0.8487,0.6663,0.2292,0.0472,1,False
+20baddd731a09d12fc917a25f1f668e4,3,Potato,Maharashtra,Mumbai,Vashi New Mumbai,2153,0.3093,1.0047,0.7528,0.3571,0.0369,5,False
+af74e10ead25845b75f8b4649171492a,3,Potato,Maharashtra,Nagpur,Hingna,532,0.2412,1.1219,0.5957,0.446,0.0702,2,False
+5a2111947c02fd0ad6eecf591a15bab8,3,Potato,Maharashtra,Nagpur,Kamthi,1276,0.3322,1.2288,0.4462,0.3825,0.0423,2,False
+e906e6012fa1ab93a9a9f85791666c7c,3,Potato,Maharashtra,Nagpur,Nagpur,1609,0.3531,1.0011,0.5632,0.3839,0.0451,3,False
+66de8b9bc72476437df65853480fd1c6,3,Potato,Maharashtra,Nagpur,Ramtek,1007,0.3247,1.0312,0.3526,0.625,0.0463,1,False
+801cd237e72f730b1a70ecb4a8be388c,3,Potato,Maharashtra,Nashik,Nasik,2039,0.3785,0.9387,0.7127,0.2857,0.0448,0,False
+fa6931e78114829700d51dc55695ae3c,3,Potato,Maharashtra,Pune,Junnar,375,0.357,0.9708,0.1334,0.4286,0.0758,3,False
+d535957e589a5225aaf3c13b1c3bb1a0,3,Potato,Maharashtra,Pune,Junnar (Narayangaon),571,0.35,0.9117,0.4654,0.6667,0.0993,4,False
+2487e6bb4f4428af69593c396d4c5710,3,Potato,Maharashtra,Pune,Junnar (Otur),520,0.3538,0.8235,0.1837,0.4167,0.1159,3,False
+345f0e4f6f622681c4b172c11b374694,3,Potato,Maharashtra,Pune,Khed (Chakan),1381,0.3258,1.0265,0.4835,0.5,0.0323,6,False
+ca973ff14884f1799f43e5409853391e,3,Potato,Maharashtra,Pune,Manchar,812,0.336,0.8347,0.2871,0.3966,0.09,6,False
+a26275e5ea64d0fb30d8faa6e4b638a2,3,Potato,Maharashtra,Pune,Pune,2205,0.3287,1.0572,0.771,0.3667,0.0411,4,False
+28166181bc890ebe40e697433cb4a34d,3,Potato,Maharashtra,Pune,Pune (Khadiki),2067,0.2456,0.9474,0.7883,0.3077,0.0279,4,False
+658ff75282599848f549ccdf56be21fd,3,Potato,Maharashtra,Pune,Pune (Manjri),1403,0.2328,1.1456,0.7503,0.1111,0.0288,4,False
+4c8930000242a469fbe4497b972faf94,3,Potato,Maharashtra,Pune,Pune (Moshi),1578,0.3716,0.7926,0.7922,0.48,0.093,5,False
+718ba6098fb42a221fde8a32fa965d40,3,Potato,Maharashtra,Pune,Pune (Pimpri),217,0.3604,1.0024,0.0793,0.5208,0.1241,5,False
+f1f0126047ff98ed037079d368e12f7e,3,Potato,Maharashtra,Raigad,Pen,313,0.2394,1.5733,0.26,0.7727,0.0,2,False
+4a19786e59a25ca86ea73b73ccf804ac,3,Potato,Maharashtra,Sangli,Islampur,461,0.3329,1.2625,0.2291,0.7895,0.0237,4,False
+eec192d2fd061fcaacc26e51a8c8b737,3,Potato,Maharashtra,Sangli,"Sangli (Phale, Bhajipura Market)",1844,0.304,1.0299,0.6448,0.4355,0.0315,3,False
+dbadc43b03b8c3383ec3239f1d840aa3,3,Potato,Maharashtra,Sangli,Vita,184,0.2472,1.1981,0.0682,0.6047,0.0,4,False
+fbaa80ebf1e5dceff4dcc1cb3a357dfc,3,Potato,Maharashtra,Satara,Karad,435,0.2235,1.4111,0.3148,0.5882,0.0315,4,False
+7becc4c297d380f2a42e3a17eef5b18a,3,Potato,Maharashtra,Satara,Phaltan,316,0.2479,0.9301,0.8144,0.6154,0.074,1,False
+7e6633b694f1220d1ab7634441da3f94,3,Potato,Maharashtra,Satara,Satara,1559,0.3025,1.0715,0.548,0.4375,0.0381,3,False
+fb41626d4d0b5be58c2840b49b4ab86d,3,Potato,Maharashtra,Satara,Vai,862,0.2789,1.2472,0.4459,0.3951,0.0059,1,False
+063c96a7a7e6ff66cfe0c4f2f1bf68af,3,Potato,Maharashtra,Sholapur,Akluj,1838,0.3222,1.1535,0.6424,0.4706,0.0368,1,False
+4e29b1771a40ed9804771228c4d5494f,3,Potato,Maharashtra,Sholapur,Solapur,2007,0.3213,0.9396,0.702,0.3393,0.0707,1,False
+e4c9c33e75d792efb58197fb900f8c3b,3,Potato,Maharashtra,Thane,Kalyan,1387,0.3655,1.0009,0.5068,0.3,0.0434,4,False
+67db83168ab0860913a1cfadc8ef72dc,3,Potato,Uttar Pradesh,Agra,Achnera,2182,0.4355,0.953,0.7643,0.5202,0.0415,6,False
+0089fb2c8dc6333a8ac1917bc4467d66,3,Potato,Uttar Pradesh,Agra,Agra,2345,0.4238,0.9571,0.8199,0.65,0.0437,8,False
+9e46a25dd7530e0d4228c13fbf18bfce,3,Potato,Uttar Pradesh,Agra,Fatehabad,1530,0.4407,0.8308,0.5352,0.6842,0.0616,8,False
+98d9523fe42b067eb02e26003154cadc,3,Potato,Uttar Pradesh,Agra,Fatehpur Sikri,1893,0.4429,0.9577,0.6628,0.6784,0.0454,4,False
+d84c6531895af4088201db8c363174b7,3,Potato,Uttar Pradesh,Agra,Jagnair,1768,0.3143,0.9408,0.621,0.4605,0.0399,5,False
+c8af28d6cf49dee2d31c173e2bc9640f,3,Potato,Uttar Pradesh,Agra,Khairagarh,1695,0.3133,0.9172,0.5925,0.2105,0.0556,5,False
+aef6a342f926243fe0eb1c5257f03e27,3,Potato,Uttar Pradesh,Agra,Samsabad,1896,0.3462,0.8133,0.6639,0.3333,0.0267,5,False
+daeef53bb2c64b79cdd1c702ade9dd5f,3,Potato,Uttar Pradesh,Aligarh,Aligarh,2432,0.4297,0.9906,0.8506,0.6381,0.0615,6,False
+8d27ae066b6c811d0a4e488d2c8106fd,3,Potato,Uttar Pradesh,Aligarh,Atrauli,2309,0.4524,0.856,0.8071,0.5,0.0282,4,False
+e6cf790f787822a4835db73af76339b0,3,Potato,Uttar Pradesh,Aligarh,Charra,2287,0.4482,0.9882,0.7994,0.6,0.0686,5,False
+25007767fa25891975f3f7d62fd380dc,3,Potato,Uttar Pradesh,Aligarh,Khair,2173,0.4304,0.9239,0.7595,0.7143,0.0641,6,False
+fa06dd4a3b7267f796cfa557eac6d9cb,3,Potato,Uttar Pradesh,Ambedkarnagar,Akbarpur,2263,0.4162,1.0678,0.791,0.5,0.0568,2,False
+488153307d0f83915e1db41b2e4a0cd8,3,Potato,Uttar Pradesh,Amethi,Jafarganj,2341,0.4514,1.0564,0.8281,0.681,0.0925,2,False
+279ac905900bd96f13b67ecb80d42a69,3,Potato,Uttar Pradesh,Amethi,Sultanpur,2684,0.4162,1.055,0.9381,0.6578,0.0678,6,False
+7a30cc99d976d8fb916dc0fe14c35c20,3,Potato,Uttar Pradesh,Amroha,Amroha,2347,0.4263,0.9715,0.8215,0.5952,0.0604,5,False
+05ac0d5f3d4d6f0172571fdb3cc72e9f,3,Potato,Uttar Pradesh,Amroha,Dhanaura,2141,0.4583,0.6851,0.7499,0.5714,0.0763,7,False
+fda7fd70ff37133bbbedf47a8a82f16f,3,Potato,Uttar Pradesh,Amroha,Hasanpur,2219,0.4387,0.9206,0.7756,0.4974,0.0492,10,False
+b151459bef865aec7fc5bd4c566766ab,3,Potato,Uttar Pradesh,Auraiya,Achalda,1985,0.4377,0.9735,0.6982,0.6,0.0588,6,False
+c5e78f03e056f7d529686e643e418092,3,Potato,Uttar Pradesh,Auraiya,Auraiya,2452,0.4346,0.9758,0.8582,0.581,0.0536,4,False
+8a89a5483d4f068ac8e28077bcbe5419,3,Potato,Uttar Pradesh,Auraiya,Dibiapur,1777,0.4446,0.7988,0.6239,0.6667,0.0642,6,False
+4a664387ac6ef341eb1d3531501421fc,3,Potato,Uttar Pradesh,Ayodhya,Faizabad,2673,0.4245,1.096,0.9349,0.5462,0.0646,4,False
+05b06be99f3b09880877d430ff91fb03,3,Potato,Uttar Pradesh,Ayodhya,Rudauli,1997,0.4255,1.0411,0.6997,0.4978,0.0408,5,False
+3d2d08b4f28598652c243039b99924c8,3,Potato,Uttar Pradesh,Azamgarh,Azamgarh,2323,0.4101,1.0767,0.8122,0.55,0.0424,2,False
+fc16e7654f0874d51b77c15401d00a02,3,Potato,Uttar Pradesh,Badaun,Badayoun,2586,0.4214,0.9797,0.9048,0.6402,0.0567,4,False
+301abf962fb72a16600f82b3de0c6f43,3,Potato,Uttar Pradesh,Badaun,Bilsi,2229,0.4107,0.9744,0.7802,0.719,0.0632,5,False
+ea522f397a91d21af42df0f72c2fd1cd,3,Potato,Uttar Pradesh,Badaun,Shahaswan,2099,0.4705,0.835,0.7342,0.65,0.0576,4,False
+b876373d94e687159bff71f500ec69a8,3,Potato,Uttar Pradesh,Badaun,Ujhani,2056,0.4243,0.9716,0.7196,0.6244,0.0688,4,False
+21be08fab76c68cfd3a1a2f4f92018d2,3,Potato,Uttar Pradesh,Badaun,Visoli,1256,0.5118,0.7024,0.439,0.5357,0.0049,4,False
+6721cea4daec57be9c6e6bb81a2595da,3,Potato,Uttar Pradesh,Badaun,Wazirganj,2184,0.4067,0.9413,0.7639,0.6857,0.0604,5,False
+7e2258c26c98f30e358ca34df527b56a,3,Potato,Uttar Pradesh,Baghpat,Bagpat,1252,0.4725,0.9315,0.4378,0.625,0.0606,14,False
+543bcfd9c38bcc5d04b980dede328c53,3,Potato,Uttar Pradesh,Baghpat,Baraut,2475,0.4463,0.8925,0.8654,0.7222,0.0717,10,False
+b9858e4f04d6af4576e60fc2d6fa32b1,3,Potato,Uttar Pradesh,Baghpat,Khekda,2031,0.4008,0.9886,0.7099,0.8,0.0877,11,False
+b5ccb0beeeed7b70fe5ce63b695dfbab,3,Potato,Uttar Pradesh,Bahraich,Bahraich,2450,0.4117,1.0831,0.8563,0.5388,0.0479,3,False
+2c6f0158c7f4a3739d7cda9b755edf4f,3,Potato,Uttar Pradesh,Bahraich,Naanpara,2197,0.4044,1.1159,0.7682,0.5171,0.0371,4,False
+2a336ee6ef0a3fc2ceb6253001240f14,3,Potato,Uttar Pradesh,Ballia,Ballia,2234,0.411,1.0702,0.7808,0.7022,0.0504,2,False
+ba2b315370a3a7e8099bfbe2a698bbc2,3,Potato,Uttar Pradesh,Ballia,Chitwadagaon,1677,0.4125,1.0802,0.587,0.3591,0.0315,2,False
+7558d5813b691cd53cd7498c240b9383,3,Potato,Uttar Pradesh,Ballia,Rasda,1956,0.4323,1.0361,0.6839,0.7955,0.045,2,False
+9cf21939164d7d3bb94ea07e368a5ca5,3,Potato,Uttar Pradesh,Ballia,Vilthararoad,1500,0.4522,1.1502,0.5267,0.2174,0.0292,2,False
+897a7a817b6c538aca399990d744d708,3,Potato,Uttar Pradesh,Balrampur,Balrampur,2037,0.4342,1.0525,0.7132,0.6696,0.0539,6,False
+a255fe1ba302a00db95ab59fc57365b8,3,Potato,Uttar Pradesh,Balrampur,Panchpedwa,599,0.398,1.2546,0.2317,1.0188,0.099,2,False
+a1ad004dae2defe2ca4d41d716bc5b16,3,Potato,Uttar Pradesh,Balrampur,Tulsipur,2051,0.3949,1.0588,0.9421,0.6462,0.0451,2,False
+6c979c6355bc5b9a66cd9fb09e449b07,3,Potato,Uttar Pradesh,Banda,Atarra,2291,0.4222,1.0502,0.807,0.5973,0.0382,3,False
+7789cdbdc6ebada57025f56159c4ed57,3,Potato,Uttar Pradesh,Banda,Baberu,1429,0.472,1.0488,0.651,0.58,0.0574,6,False
+aa3e8a5e1fc6b2ee25590d95428234e4,3,Potato,Uttar Pradesh,Banda,Banda,2409,0.4127,1.0559,0.8429,0.5658,0.0437,4,False
+fc0f5c421df9b3cf0debf62276883868,3,Potato,Uttar Pradesh,Barabanki,Barabanki,2397,0.4261,1.0594,0.8387,0.6413,0.0503,5,False
+7e35ebf36526ff2c02777323eb5ca3cc,3,Potato,Uttar Pradesh,Barabanki,Safdarganj,2299,0.4263,1.0542,0.8038,0.5507,0.0489,5,False
+380d44792490d4598a49ff66deb8a975,3,Potato,Uttar Pradesh,Bareilly,Anwala,2619,0.443,0.8381,0.9154,0.8333,0.0559,4,False
+5853d04dc6f8be85e86848f9429a59bb,3,Potato,Uttar Pradesh,Bareilly,Bahedi,2384,0.3881,0.8823,0.8386,0.5674,0.0316,4,False
+5e14b10af52778cbd5ee266b3fca5a2f,3,Potato,Uttar Pradesh,Bareilly,Bareilly,2616,0.429,0.9716,0.9156,0.7024,0.069,4,False
+a13afee8e04dd40d98574482b9886183,3,Potato,Uttar Pradesh,Basti,Basti,2601,0.4114,1.075,0.9107,0.5395,0.0486,2,False
+4cf3dda00ac5d88ac52c4f362761e903,3,Potato,Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Gopiganj,1961,0.4705,0.9786,0.6854,0.7905,0.0628,2,False
+7a3252525b3e6c8457ca2a32e67ef523,3,Potato,Uttar Pradesh,Bijnor,Bijnaur,2336,0.4229,0.9862,0.8168,0.6818,0.0495,3,False
+4996c6e702c0b1f91697dc9e0b9f4a8f,3,Potato,Uttar Pradesh,Bijnor,Chaandpur,2204,0.4118,0.8413,0.7731,0.5,0.0584,3,False
+f54dd67ada9b991e2b6220b47143903c,3,Potato,Uttar Pradesh,Bijnor,Kiratpur,1732,0.3804,0.8668,0.6058,0.4118,0.0656,4,False
+0e75f5703177c1f998dfa4cee7b773d6,3,Potato,Uttar Pradesh,Bijnor,Nagina,1111,0.5852,0.8596,0.3909,0.9863,0.0669,3,False
+b97ada99a0cc753b069cbba8a7070548,3,Potato,Uttar Pradesh,Bijnor,Najibabad,1659,0.4459,0.8948,0.5803,0.64,0.0995,3,False
+f635f2a893dd5e7b6194694f5682252d,3,Potato,Uttar Pradesh,Bulandshahar,Anoop Shahar,2064,0.4097,0.8403,0.7227,0.66,0.0889,10,False
+8e0288f11cc66fcba7cef8bf2888be47,3,Potato,Uttar Pradesh,Bulandshahar,Buland Shahr,2223,0.4092,1.0551,0.7773,0.7544,0.0673,10,False
+ca60b7d17e34b9804141d43b06249182,3,Potato,Uttar Pradesh,Bulandshahar,Divai,1474,0.3384,0.6942,0.5176,0.5,0.0181,10,False
+911343c12a0845e7cd38c4e1f0ea71c4,3,Potato,Uttar Pradesh,Bulandshahar,Gulavati,2484,0.5124,0.854,0.8694,0.5,0.0613,10,False
+39c71561c8c937eee4342fa72b2a9b79,3,Potato,Uttar Pradesh,Bulandshahar,Jahangirabad,2223,0.4195,1.0501,0.7778,0.8106,0.0557,8,False
+955a14924134686ce25b2184225b0b0b,3,Potato,Uttar Pradesh,Bulandshahar,Khurja,2177,0.416,1.0438,0.7617,0.7699,0.0652,8,False
+e5180fd202419905eec1bcec3ac05e77,3,Potato,Uttar Pradesh,Bulandshahar,Sikanderabad,1766,0.4636,0.8651,0.6274,0.6789,0.0806,10,False
+fe5bb518b28e5a0a4f5e1e0019fc5304,3,Potato,Uttar Pradesh,Bulandshahar,Sikarpur,1946,0.4856,0.7127,0.6809,0.4688,0.0773,9,False
+ba1fde5e94bc6725f5373d72063eac98,3,Potato,Uttar Pradesh,Bulandshahar,Siyana,2441,0.4893,0.8103,0.8556,0.7059,0.079,10,False
+899464e6dd8af25441037437b779c5e7,3,Potato,Uttar Pradesh,Chandauli,Chandoli,2541,0.4271,1.06,0.8894,0.6757,0.0454,1,False
+6042e876f8aca64ab5c89ec18b523cb8,3,Potato,Uttar Pradesh,Chitrakut,Karvi,2475,0.4145,1.0401,0.8663,0.5,0.0446,3,False
+d2e794b21b0396dd8c6b88feb1bdad8e,3,Potato,Uttar Pradesh,Deoria,Barhaj,1585,0.4258,1.105,0.7231,0.5505,0.0555,2,False
+3966e99b3f63c8dd0cfb978f2b5ee481,3,Potato,Uttar Pradesh,Deoria,Devariya,2138,0.4101,1.0753,0.7478,0.5609,0.0418,3,False
+b1fd10da5cf27633d5bee7dabcaaeafd,3,Potato,Uttar Pradesh,Etah,Aliganj,700,0.362,0.8304,0.7659,1.1429,0.0377,7,False
+c5c4c0e483c8b07fd9205f4eb3d67395,3,Potato,Uttar Pradesh,Etah,Awagarh,1890,0.4344,0.8785,0.6606,0.4444,0.068,6,False
+d09eef896f01465b083797238b9929b5,3,Potato,Uttar Pradesh,Etah,Etah,2415,0.4372,0.9656,0.8456,0.64,0.0635,3,False
+0258c1779a57be523627d9960e2accd4,3,Potato,Uttar Pradesh,Etawah,Bharthna,2389,0.4217,0.9975,0.835,0.6214,0.0585,4,False
+fe9de5a597fd46c464937836aa0efd15,3,Potato,Uttar Pradesh,Etawah,Etawah,2432,0.4224,0.9945,0.8503,0.5577,0.0582,6,False
+64b8c61fc2efefb7427681c7ca33dd16,3,Potato,Uttar Pradesh,Etawah,Jasvantnagar,2393,0.4862,0.9024,0.8376,0.5526,0.0466,4,False
+12d0a6f1c6fe67e26740537325f8fd3c,3,Potato,Uttar Pradesh,Farukhabad,Farukhabad,2453,0.4697,0.9095,0.8577,0.7011,0.0748,7,False
+8d01e17ae56f09bbbec6df1c11a8fc66,3,Potato,Uttar Pradesh,Farukhabad,Kamlaganj,2077,0.5008,0.7933,0.7738,0.8118,0.0813,7,False
+0914109a6d1509bdd841f98279ed67d7,3,Potato,Uttar Pradesh,Farukhabad,Kayamganj,2370,0.4691,0.928,0.8284,0.6737,0.0615,6,False
+0ed9beeee4335f836e892eefc07dac97,3,Potato,Uttar Pradesh,Farukhabad,Mohamadabad,2325,0.5431,0.8323,0.8324,0.3889,0.0706,7,False
+da7d9a7fcc6078e64661da9c051e90d2,3,Potato,Uttar Pradesh,Fatehpur,Bindki,2334,0.4524,0.9988,0.8164,0.6942,0.0666,4,False
+624c056a91e58da295bbb2506d10d5e5,3,Potato,Uttar Pradesh,Fatehpur,Fatehpur,2463,0.4483,1.0028,0.8612,0.6812,0.06,5,False
+2229d39586cfe8e890315a0a3e271fa9,3,Potato,Uttar Pradesh,Fatehpur,Jahanabad,989,0.4729,0.6604,0.3501,1.1091,0.018,5,False
+c3d6590907a4bd1a68180cdb82a7fae9,3,Potato,Uttar Pradesh,Fatehpur,Khaga,1768,0.4241,0.9479,0.6212,0.6231,0.0539,6,False
+24a71fde4c56a64ebf04069e34353a68,3,Potato,Uttar Pradesh,Firozabad,Firozabad,2438,0.4479,0.928,0.853,0.59,0.0304,6,False
+b59bc0ad6c5178ef049836faf0c30ec8,3,Potato,Uttar Pradesh,Firozabad,Shikohabad,1771,0.4405,0.9036,0.6269,0.6471,0.0633,7,False
+eded882d3c66a1cbc4ce65a6419132ed,3,Potato,Uttar Pradesh,Firozabad,Sirsaganj,2097,0.4367,0.8809,0.7366,0.6593,0.0686,8,False
+dab494f629a6238cd3a97c2cc69f1e02,3,Potato,Uttar Pradesh,Firozabad,Tundla,2113,0.4201,0.9634,0.7404,0.6029,0.0517,9,False
+d5c6bc450ec73098a7ca2344d1cbd8a5,3,Potato,Uttar Pradesh,Gautam Budh Nagar,Dadri,2171,0.4015,1.0941,0.7604,0.5778,0.0513,8,False
+a6603aab6fbc9233e81b98bcb3cc9e5d,3,Potato,Uttar Pradesh,Gautam Budh Nagar,Dankaur,1343,0.4031,1.0412,0.5774,0.6009,0.0525,8,False
+fca5fdf192b65acd000d74fae314fabd,3,Potato,Uttar Pradesh,Ghaziabad,Ghaziabad,2484,0.406,1.0944,0.8685,0.6913,0.0643,9,False
+9da6a5b82735f4205fb5c415978376d8,3,Potato,Uttar Pradesh,Ghaziabad,Hapur,2247,0.4111,1.0629,0.7857,0.8125,0.062,15,False
+2f970c0742cc96932fb5c4a839c6e0ff,3,Potato,Uttar Pradesh,Ghaziabad,Muradnagar,1207,0.4285,0.9024,0.4223,0.7684,0.0696,12,False
+310be608269af08b76d21cfeb4ea0e94,3,Potato,Uttar Pradesh,Ghaziabad,Noida,2123,0.432,1.0555,0.742,0.739,0.0867,7,False
+19c4b3d86967b64d603b23c9d4b1e436,3,Potato,Uttar Pradesh,Ghazipur,Gazipur,391,0.335,1.0188,0.7122,0.9435,0.0264,3,False
+a17ea33ddf0cdf3e2030e8da6622ae54,3,Potato,Uttar Pradesh,Ghazipur,Gazipur (ex-Hapur),1862,0.4203,1.0507,0.8005,0.5849,0.0458,3,False
+6ff2d23d78b2fe453874591655cf2abd,3,Potato,Uttar Pradesh,Ghazipur,Jangipura,1496,0.4434,1.0517,0.5255,0.7042,0.0798,3,False
+3f608ce49af1e6a5204cbbc244406771,3,Potato,Uttar Pradesh,Ghazipur,Yusufpur (ex-Hapur),379,0.3053,0.8256,0.1687,0.811,0.0693,5,False
+062c16b6abf5cd3218a1a1e6fde6df47,3,Potato,Uttar Pradesh,Gonda,Gonda,2530,0.4163,1.0687,0.8846,0.5913,0.0456,5,False
+345cfab99d07bb3a4d7f1b9fe12ad7b5,3,Potato,Uttar Pradesh,Gonda,Karnailganj,624,0.3934,1.0189,0.2181,0.7434,0.1,6,False
+10eb860c917b757685237f9eaddeb246,3,Potato,Uttar Pradesh,Gonda,Nawabganj,2232,0.4191,1.048,0.7801,0.6435,0.0527,4,False
+a8bdb236a7b7cf2538395843eca27fd0,3,Potato,Uttar Pradesh,Gorakhpur,Chorichora,1861,0.4362,1.1358,0.6505,0.5617,0.061,3,False
+3760488c12affec4608019b3bf2bab98,3,Potato,Uttar Pradesh,Gorakhpur,Gorakhpur,2041,0.3986,1.123,0.7136,0.5285,0.0529,4,False
+69eff59e3bfd37e8ae9c76778f53f614,3,Potato,Uttar Pradesh,Gorakhpur,Sehjanwa,1942,0.4433,1.2333,0.6788,0.6365,0.0378,3,False
+08993aeed13ff15dd0de09c9683d9643,3,Potato,Uttar Pradesh,Hamirpur,Bharuasumerpur,2351,0.4235,1.0254,0.822,0.5136,0.0457,6,False
+05bbe7b5859a24834180bd7aed7ac0a7,3,Potato,Uttar Pradesh,Hamirpur,Maudaha,2026,0.4419,1.0852,0.8209,0.5913,0.0633,7,False
+b3caf1a26859325f971c84e102dacb1b,3,Potato,Uttar Pradesh,Hamirpur,Muskara,2404,0.4011,1.0564,0.8429,0.5263,0.0492,8,False
+00d114d474d47a245221c61c9dd432ae,3,Potato,Uttar Pradesh,Hamirpur,Raath,1636,0.3673,1.1094,0.7717,0.7045,0.0515,6,False
+09ff93e2a1a50b82cef47e0a114e074a,3,Potato,Uttar Pradesh,Hardoi,Hardoi,2385,0.4206,1.0406,0.8342,0.6422,0.0619,5,False
+a0727dda837e21d7e5f4d52f3c2d7f64,3,Potato,Uttar Pradesh,Hardoi,Madhoganj,2463,0.4272,1.02,0.863,0.5856,0.0448,6,False
+4e507c54561c032546ec6f3a750e998f,3,Potato,Uttar Pradesh,Hardoi,Sandi,1384,0.5215,0.9065,0.4841,0.4711,0.0205,6,False
+6df1a366e3257046b1c3379c99f65f01,3,Potato,Uttar Pradesh,Hardoi,Sandila,2111,0.4231,1.02,0.7433,0.5804,0.0426,2,False
+13b1a3eced8778cea80623ef3d42b8f9,3,Potato,Uttar Pradesh,Hardoi,Shahabad (New Mandi),1348,0.4308,1.0407,0.4712,0.5307,0.0498,8,False
+97863210fcc6faab9cbc4f0d1d1783fa,3,Potato,Uttar Pradesh,Hathras,Haathras,2238,0.463,0.9908,0.7825,0.6311,0.0777,7,False
+e748618c4e3f1dd8af20f8e22fef2438,3,Potato,Uttar Pradesh,Hathras,Shadabad,2397,0.4851,0.7666,0.8378,0.3765,0.0554,7,False
+f623c7e9fc02f94dafd9f34f52d217c1,3,Potato,Uttar Pradesh,Hathras,Sikandraraau,1220,0.4363,0.7129,0.4299,0.465,0.0462,7,False
+c97e34d617936149c4095ec541972980,3,Potato,Uttar Pradesh,Jalaun (Orai),Jalaun,2164,0.4507,1.0022,0.7566,0.64,0.0955,5,False
+3bc13d729e6498520cd478ec8a0d6aa6,3,Potato,Uttar Pradesh,Jalaun (Orai),Konch,1995,0.4434,1.0173,0.7158,0.5786,0.0623,3,False
+6c05f2f53d3584a9490310883e120253,3,Potato,Uttar Pradesh,Jalaun (Orai),Orai,2254,0.4203,1.0145,0.7881,0.4364,0.0401,4,False
+a7f2044746a0e8c76bdd2202b8bc20ee,3,Potato,Uttar Pradesh,Jaunpur,Jaunpur,2178,0.4112,1.0612,0.7621,0.5752,0.0429,2,False
+18bc9bf23ec9bbec3516a20bde0a6e67,3,Potato,Uttar Pradesh,Jaunpur,Mugrabaadshahpur,2197,0.4216,1.0402,0.7813,0.6608,0.0354,2,False
+773ad8ae80b1dc05593ebdec7d315a89,3,Potato,Uttar Pradesh,Jaunpur,Shahganj,2261,0.4158,1.0639,0.7908,0.6043,0.0453,3,False
+9007419d65f1816892c47acb3110e59c,3,Potato,Uttar Pradesh,Jhansi,Chirgaon,1936,0.4185,1.0245,0.6788,0.8783,0.0733,4,False
+ff6ec6b7c230ed4c515117ab4bebacdc,3,Potato,Uttar Pradesh,Jhansi,Gurusarai,2483,0.4085,1.0681,0.8679,0.5625,0.0533,3,False
+14aa0bdc2b48f548817af1b3cb03134c,3,Potato,Uttar Pradesh,Jhansi,Jhansi,2324,0.4433,1.0088,0.8129,0.586,0.06,3,False
+56f83c2983f41e39d09324b4c16fb1a7,3,Potato,Uttar Pradesh,Jhansi,Mauranipur,2448,0.4151,1.0544,0.8565,0.5721,0.0426,1,False
+1ca2175b7aaa6950ec0de9523dba4849,3,Potato,Uttar Pradesh,Jhansi,Moth,2407,0.4257,1.0325,0.8457,0.657,0.0646,3,False
+a97fabbd0277a3333e7fe740f6324762,3,Potato,Uttar Pradesh,Kannuj,Chhibramau,2206,0.4724,0.9207,0.7719,0.5435,0.0516,6,False
+42a4a10bd54e2b8e3baadccd222ef7e0,3,Potato,Uttar Pradesh,Kannuj,Kannauj,2329,0.4476,0.9443,0.8146,0.6526,0.0612,5,False
+d1abd50913f1ced3d2f03ddfd56da304,3,Potato,Uttar Pradesh,Kanpur,Choubepur,2322,0.4594,1.0027,0.8116,0.719,0.0545,5,False
+d252c829c04f433ce19e32cee02b5bfe,3,Potato,Uttar Pradesh,Kanpur,Kanpur (Grain),2334,0.4577,1.0087,0.8161,0.6667,0.0602,6,False
+15215b57a3b9feee6d2658c9fbbdf17c,3,Potato,Uttar Pradesh,Kanpur,Uttaripura,1754,0.5197,0.7817,0.6135,0.6584,0.0331,5,False
+b1c5cf496a6395c38dfbb96624109815,3,Potato,Uttar Pradesh,Kanpur,Varipaal,1596,0.453,0.8727,0.5616,0.4333,0.0417,5,False
+b80ace3735b5627e16be843f47a8f5bb,3,Potato,Uttar Pradesh,Kanpur Dehat,Jhijhank,1832,0.4619,0.9962,0.652,0.6904,0.0492,5,False
+a45ceeaa2f8fd1b4cdd95f8c992bcc4b,3,Potato,Uttar Pradesh,Kanpur Dehat,Pukharayan,2360,0.4424,0.9951,0.8252,0.6565,0.0387,5,False
+af74a13ac61ff8730861531b6ea139c8,3,Potato,Uttar Pradesh,Kanpur Dehat,Rura,1644,0.5359,1.0073,0.575,0.4372,0.0443,5,False
+8d4dfe95e915d52c8f08275ec8af8560,3,Potato,Uttar Pradesh,Kasganj,Kasganj,2258,0.439,0.9694,0.7901,0.6263,0.0592,6,False
+f24d688af055db8cedca5f1cee490f08,3,Potato,Uttar Pradesh,Kaushambi,Bharwari,945,0.4119,0.9596,0.3831,0.6189,0.0372,5,False
+766b3eb33b753a914917a2ee39b0714f,3,Potato,Uttar Pradesh,Kaushambi,Manjhanpur,457,0.3388,0.9985,0.8721,0.9769,0.0497,5,False
+2b88248f188cae366fb0a8d4d1931a53,3,Potato,Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,1757,0.4842,1.0344,0.6148,0.9491,0.0473,5,False
+2af3747987374b5e19bbf93a8c151ad4,3,Potato,Uttar Pradesh,Khiri (Lakhimpur),Mohammdi,1479,0.4283,0.9912,0.5795,0.6009,0.0684,5,False
+7763aab5e4513d822fb13952eb3428f1,3,Potato,Uttar Pradesh,Khiri (Lakhimpur),Tikonia,1100,0.4841,0.9503,0.3856,0.6927,0.0916,1,False
+bbde7724b6d4551bfff263efc4a84dc5,3,Potato,Uttar Pradesh,Kushinagar,Tamkuhi road,1429,0.4782,1.2034,0.4997,0.4894,0.0548,0,False
+0d6d9c3414ddc91624ad2a911c9c1e26,3,Potato,Uttar Pradesh,Lakhimpur,Golagokarnath,2264,0.4458,1.0137,0.7922,0.6727,0.0705,1,False
+e4b656fb0f530c21e07dd3bc66993af6,3,Potato,Uttar Pradesh,Lakhimpur,Lakhimpur,2674,0.4233,1.0486,0.9386,0.6754,0.0614,4,False
+3595860b044ff18c2866a1a7d16d744d,3,Potato,Uttar Pradesh,Lakhimpur,Paliakala,1659,0.4503,1.0483,0.5875,0.6273,0.0555,1,False
+2b40c99eb722fcb77aae247a742544df,3,Potato,Uttar Pradesh,Lalitpur,Lalitpur,2232,0.4088,1.0581,0.7807,0.4292,0.0617,1,False
+d1b56265441f64623ec3cbb989eeac5e,3,Potato,Uttar Pradesh,Lucknow,Lucknow,2601,0.419,1.0779,0.9107,0.625,0.0493,6,False
+3a36bc8fc73276a755bcde61988b0918,3,Potato,Uttar Pradesh,Maharajganj,Anandnagar,2298,0.4245,1.1689,0.8035,0.436,0.0319,4,False
+f77dbc5f4abf3aee6346721c7f229ccf,3,Potato,Uttar Pradesh,Maharajganj,Gadaura,2486,0.3685,1.0525,0.8698,0.3591,0.0539,4,False
+d4040120bb237e8a2438fa2e1befa67a,3,Potato,Uttar Pradesh,Maharajganj,Maharajganj,518,0.4526,1.2255,0.4246,1.0833,0.1304,3,False
+756b3dd528c2c90387ee352881a0204c,3,Potato,Uttar Pradesh,Maharajganj,Nautnava,2235,0.4918,1.0519,0.7815,0.5714,0.0535,4,False
+44303cc2f170bf68ac78684a1249ae9f,3,Potato,Uttar Pradesh,Maharajganj,Partaval,2094,0.4156,1.0877,0.7324,0.5086,0.0398,4,False
+8dff0797637af060917b4f3f8fed98c0,3,Potato,Uttar Pradesh,Mahoba,Mahoba,2364,0.4105,1.0625,0.8263,0.525,0.045,3,False
+55ea2cd37d0a9b2d6f3ed1f264af99f3,3,Potato,Uttar Pradesh,Mainpuri,Bewar,1838,0.4111,0.7934,0.644,0.697,0.0685,6,False
+093c1320b8702a47c1b5d1b036a06271,3,Potato,Uttar Pradesh,Mainpuri,Ghiraur,2351,0.419,0.955,0.8217,0.5735,0.0423,8,False
+3ececbc8b73254454e28fdaa34b0f838,3,Potato,Uttar Pradesh,Mainpuri,Mainpuri,2402,0.4285,0.9572,0.8402,0.598,0.0506,7,False
+6882ffbfcab1b4e30233660346a159c1,3,Potato,Uttar Pradesh,Mathura,Kosikalan,2081,0.4334,0.9523,0.7276,0.8381,0.0463,2,False
+b383adf766a09108ebd09fe593002277,3,Potato,Uttar Pradesh,Mathura,Mathura,2319,0.4201,0.9576,0.8106,0.5743,0.0398,5,False
+791b21b4345aafcc49585283260c0156,3,Potato,Uttar Pradesh,Mau (Maunathbhanjan),Doharighat,978,0.3927,1.3368,0.5356,0.6413,0.1374,2,False
+4e23efe5c975db085652a08aab4cfd2b,3,Potato,Uttar Pradesh,Mau (Maunathbhanjan),Kopaganj,2045,0.4477,1.0323,0.7153,0.5682,0.0662,7,False
+421f4853932669eaaa916b704df58b88,3,Potato,Uttar Pradesh,Meerut,Mawana,1285,0.4644,1.0102,0.4493,0.5117,0.0353,9,False
+6d6756285ca027b13a135809bb0714c9,3,Potato,Uttar Pradesh,Meerut,Meerut,2227,0.418,1.079,0.7792,0.8062,0.0563,12,False
+0edcfa038e936456395a876416a40fb0,3,Potato,Uttar Pradesh,Meerut,Parikshitgarh,614,0.353,0.8988,0.2147,0.6316,0.0108,10,False
+eeab9f78534e97a1a25551520b8e7f84,3,Potato,Uttar Pradesh,Meerut,Sardhana,982,0.4159,0.8121,0.3454,0.82,0.136,14,False
+57da0ca657044e3f0fbbc9efe5e19d42,3,Potato,Uttar Pradesh,Mirzapur,Ahirora,1623,0.3265,1.004,0.5725,0.6127,0.0337,2,False
+5836a40011451d4506e11c68d62b7cdd,3,Potato,Uttar Pradesh,Mirzapur,Mirzapur,2280,0.4226,1.045,0.7969,0.6844,0.0529,3,False
+2cc555d1e7c4421001c12b887f4e79b0,3,Potato,Uttar Pradesh,Muzaffarnagar,Khatauli,1518,0.5231,0.8101,0.5315,0.6863,0.0468,11,False
+b33de194b9b366cda35bd501ec52be6c,3,Potato,Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,2606,0.4188,1.0765,0.9131,0.8,0.0635,8,False
+1b6f6c583f631790a9ebd421accbec85,3,Potato,Uttar Pradesh,Muzaffarnagar,Shahpur,1176,0.5108,0.796,0.4126,0.3867,0.0282,11,False
+c3a8e3b5982866db1865bcde292d4e4b,3,Potato,Uttar Pradesh,Pillibhit,Billsadda,785,0.3234,0.7513,0.88,0.5699,0.0,2,False
+bef5e72132300e0e0cecf58a16cb159f,3,Potato,Uttar Pradesh,Pillibhit,Pilibhit,2707,0.4239,0.9922,0.9465,0.6919,0.0601,3,False
+a576a0aff0c01adc7b3d91da38e3cfd1,3,Potato,Uttar Pradesh,Pillibhit,Puranpur,2619,0.4312,0.9855,0.9157,0.6981,0.0621,2,False
+fb13c9270e196e916c866e3c88398cd2,3,Potato,Uttar Pradesh,Pillibhit,Vishalpur,2492,0.4185,0.9873,0.8716,0.6462,0.0574,2,False
+bc2e057ab91a73e1453c98fc42bee02f,3,Potato,Uttar Pradesh,Pratapgarh,Pratapgarh,2711,0.4337,1.0378,0.9486,0.6651,0.0489,0,False
+743ecb2d89741e8ba4e9918a4b50fc20,3,Potato,Uttar Pradesh,Prayagraj,Ajuha,2469,0.4563,1.0113,0.8639,0.7264,0.0574,5,False
+9624e769e185da05f4aebf72024b0c53,3,Potato,Uttar Pradesh,Prayagraj,Allahabad,2171,0.4505,1.0214,0.7591,0.7143,0.0504,3,False
+808c2fc76fe1f1794155bf4a78a24b09,3,Potato,Uttar Pradesh,Prayagraj,Jasra,1954,0.4723,1.0125,0.6832,0.675,0.0609,4,False
+8feb1db4cb77da5e6fc76e6f21f7117e,3,Potato,Uttar Pradesh,Prayagraj,Sirsa,1678,0.4181,1.0817,0.6104,0.7348,0.0479,2,False
+426148d836bb79a43c64d8c11771cc78,3,Potato,Uttar Pradesh,Raebarelli,Bachranwa,408,0.3219,1.0515,0.1438,0.9008,0.0,6,False
+a0642abba31b903b8a1b539c82b8dc5f,3,Potato,Uttar Pradesh,Raebarelli,Jayas,2303,0.407,1.0344,0.8055,0.5217,0.059,6,False
+de1fb0dda6d05566995f9801c5f775d8,3,Potato,Uttar Pradesh,Raebarelli,Lalganj,2321,0.5083,0.9457,0.8132,0.619,0.0484,6,False
+37b8f379628c22a3c3cc2887f86ab99d,3,Potato,Uttar Pradesh,Raebarelli,Raibareilly,2452,0.4063,1.0566,0.8573,0.6267,0.0618,6,False
+ab14f1e37fd75594775bdd2342403275,3,Potato,Uttar Pradesh,Raebarelli,Salon,2096,0.4497,1.0399,0.7326,0.5833,0.0726,2,False
+9d3c8e75adfff47a2c9bbc9e90204ea8,3,Potato,Uttar Pradesh,Rampur,Milak,2052,0.4578,0.9513,0.7177,0.586,0.0514,4,False
+6594c0f76749d1aa97ef79ab437f6e91,3,Potato,Uttar Pradesh,Rampur,Rampur,2551,0.4171,1.0018,0.892,0.6528,0.0606,3,False
+a5a8213785c607b8c45ba4be683727ad,3,Potato,Uttar Pradesh,Rampur,Vilaspur,467,0.496,0.9792,0.3179,1.9231,0.0909,4,False
+3401ec92384b27c39635f33113f8a503,3,Potato,Uttar Pradesh,Saharanpur,Chutmalpur,1553,0.448,0.9586,0.5434,1.0,0.0911,3,False
+b3c4f1c0a343dd9548953fe40c520e56,3,Potato,Uttar Pradesh,Saharanpur,Deoband,1116,0.5053,0.783,0.3921,0.2857,0.0507,7,False
+540e2e98f388b5bf1e5f725262db769b,3,Potato,Uttar Pradesh,Saharanpur,Gangoh,2300,0.4657,0.9627,0.8042,0.6436,0.0674,6,False
+92fa48085af324235202bff3b0d21eb6,3,Potato,Uttar Pradesh,Saharanpur,Rampurmaniharan,1371,0.4537,0.9537,0.4792,0.7337,0.096,3,False
+0f2aa8e9ad60d1af369a28cff817121e,3,Potato,Uttar Pradesh,Saharanpur,Saharanpur,2573,0.4212,1.054,0.9,0.8273,0.0749,3,False
+fa29b4c9828bdd07538faead4da8d161,3,Potato,Uttar Pradesh,Saharanpur,Sultanpurchilkana,504,0.2407,0.5696,0.5767,0.6222,0.0,3,False
+0ea20d50f697bc020f25723fadd5c9ca,3,Potato,Uttar Pradesh,Sambhal,Bhehjoi,1619,0.5075,0.6847,0.5681,0.4789,0.0248,5,False
+f36886adc86dace1133ab47b68522f60,3,Potato,Uttar Pradesh,Sambhal,Chandausi,2331,0.4322,0.9871,0.8156,0.75,0.0453,6,False
+54e19975302001a9eba702b02d71f3db,3,Potato,Uttar Pradesh,Sambhal,Muradabad,2626,0.4178,0.9954,0.9185,0.6449,0.057,5,False
+dd30f733a4d28925473111c7e7118e7b,3,Potato,Uttar Pradesh,Sambhal,Sambhal,2789,0.4785,0.7493,0.9752,0.4268,0.067,6,False
+ff84ada06da989df003dca2e45f8e1ff,3,Potato,Uttar Pradesh,Sant Kabir Nagar,Khalilabad,2061,0.4933,1.0518,0.7206,0.7317,0.0979,3,False
+5a983b5f6faf5b1aec3cb4600da981c4,3,Potato,Uttar Pradesh,Shahjahanpur,Badda,581,0.327,1.0691,0.6378,0.9789,0.0472,5,False
+7c745b086a382339552ca1c227bf9d00,3,Potato,Uttar Pradesh,Shahjahanpur,Jalalabad,938,0.5718,0.7793,0.3282,1.8074,0.0898,7,False
+9376a13982f9b3a2e6d774202d026751,3,Potato,Uttar Pradesh,Shahjahanpur,Puwaha,2568,0.4105,1.0042,0.8976,0.814,0.0591,5,False
+355c668c69f5094f95891646a98479ae,3,Potato,Uttar Pradesh,Shahjahanpur,Shahjahanpur,1907,0.4124,1.0154,0.6698,0.6636,0.0479,6,False
+b45811dfc4863d4e4095f0f98c425beb,3,Potato,Uttar Pradesh,Shahjahanpur,Tilhar,2332,0.5447,0.7797,0.8154,0.8903,0.088,5,False
+79ddfc3e3241bfd1c995586a289dcd97,3,Potato,Uttar Pradesh,Shamli,Kairana,1711,0.3912,0.8501,0.5983,0.7229,0.073,8,False
+1007b0ed1cdd29927d04f8546c5546a3,3,Potato,Uttar Pradesh,Shamli,Khandhla,1778,0.4919,0.8667,0.6217,0.471,0.099,10,False
+fde8183e4b4546d9f6a2d6e6e082c8c7,3,Potato,Uttar Pradesh,Shamli,Shamli,2372,0.4183,1.0843,0.8294,0.7677,0.069,10,False
+b5e449ad6a41302f89ffc302d6029c92,3,Potato,Uttar Pradesh,Shamli,Thanabhavan,2174,0.4091,0.8584,0.7601,0.6512,0.0794,10,False
+255d34c3ccfdccb2ae2a5cd0548567cb,3,Potato,Uttar Pradesh,Shravasti,Bhinga,406,0.3727,1.0245,0.7763,1.0394,0.053,4,False
+114d92a1065c391abe0bf2bfb8ba3f94,3,Potato,Uttar Pradesh,Shravasti,Payagpur,628,0.3284,1.0108,0.2424,0.5833,0.1127,6,False
+de53469bc6dd7bf4aa092145c5eb7fb1,3,Potato,Uttar Pradesh,Siddharth Nagar,Naugarh,1612,0.454,1.0567,0.5634,0.5251,0.0428,3,False
+8a087ff67316336ae81f8aa8c191ac24,3,Potato,Uttar Pradesh,Siddharth Nagar,Sahiyapur,1795,0.4376,1.0481,0.6274,0.5174,0.0534,2,False
+b861da0b5b2acb54336d261087b3fefd,3,Potato,Uttar Pradesh,Siddharth Nagar,Wansi,609,0.4299,0.7841,0.2155,0.2119,0.0,2,False
+850d6d153d5bfdc94e6354f8e4503fc8,3,Potato,Uttar Pradesh,Sitapur,Hargaon (Laharpur),2073,0.4051,0.8418,0.7253,0.5765,0.0401,4,False
+0526caa69431e91f894341e2c881d6f0,3,Potato,Uttar Pradesh,Sitapur,Mehmoodabad,1731,0.4071,1.0358,0.6057,0.6078,0.045,3,False
+2785c50f020405133774077370463585,3,Potato,Uttar Pradesh,Sitapur,Sitapur,2322,0.4219,1.0407,0.8119,0.7043,0.0446,4,False
+32780de6be1b1306378dcc5c9a030cf7,3,Potato,Uttar Pradesh,Sitapur,Viswan,1938,0.4362,0.9678,0.6776,0.514,0.0199,3,False
+420009c0ccc100e93f467be15939c847,3,Potato,Uttar Pradesh,Sonbhadra,Dudhi,1302,0.4375,1.2518,0.4624,0.3636,0.0986,0,False
+781334fbec2dd8b22a41fe060b21fe30,3,Potato,Uttar Pradesh,Sonbhadra,Robertsganj,2232,0.4156,1.0558,0.7801,0.7,0.0427,0,False
+15c4dc0231d25a8a82996c85a80c78ad,3,Potato,Uttar Pradesh,Unnao,Bangarmau,2278,0.438,1.0155,0.7976,0.6,0.0494,6,False
+3f379a6fd173e1d25a01ff4dd61fd457,3,Potato,Uttar Pradesh,Unnao,Purwa,2214,0.4329,1.0136,0.808,0.8575,0.0478,5,False
+37585142079ab77bb0b564e67f7e15b8,3,Potato,Uttar Pradesh,Unnao,Unnao,2488,0.4484,1.011,0.8699,0.6182,0.0565,5,False
+3cb50565f19b36c0629c9c1b3dbf635e,3,Potato,Uttar Pradesh,Varanasi,Varanasi,198,0.2399,1.015,0.6689,0.63,0.0518,2,False
+892ab277792b8ddcd430471c73411c07,3,Potato,Uttar Pradesh,Varanasi,Varanasi (F&V),1896,0.4107,1.0679,0.6639,0.6343,0.043,2,False
+9aa068180d0b11b80c01a249b15db965,1,Tomato,Gujarat,Ahmedabad,Ahmedabad,1855,0.8293,1.032,0.6486,1.3906,0.3135,4,False
+9a94bba85605d3861aa6693c5675b176,1,Tomato,Gujarat,Ahmedabad,Dholka (Koth),224,0.2982,0.6985,0.5657,0.9375,0.0959,1,False
+f111932a0e321e69a59041eecefb59bb,1,Tomato,Gujarat,Amreli,Damnagar,1404,0.7206,1.5145,0.5402,1.617,0.3945,3,False
+339786126267abb5b7d85f2afd15126b,1,Tomato,Gujarat,Amreli,Dhari,616,0.8185,1.077,0.3195,1.4,0.4056,1,False
+e1c12a96ee4fe2cef4bba5d9587b7c9b,1,Tomato,Gujarat,Anand,"Anand (Veg,Yard,Anand)",2064,0.8388,0.9105,0.7217,1.96,0.3312,8,False
+324552af2698abb371331319190c6d80,1,Tomato,Gujarat,Anand,Khambhat (Veg Yard Khambhat),1127,0.7026,1.0291,0.3945,2.0,0.3275,7,False
+ab03d9d3df96e7d7a86b6fd8ab319cfb,1,Tomato,Gujarat,Anand,"Petlad (Veg Yard, Petlad)",356,0.5491,0.916,0.3162,1.44,0.2315,8,False
+a065227414dbfb9987212cba97220708,1,Tomato,Gujarat,Banaskanth,Deesa (Deesa Veg Yard),1277,0.7617,1.0909,0.4467,1.9,0.2729,2,False
+89655cfa3f3e914d24fe61d421f954f5,1,Tomato,Gujarat,Bharuch,Ankleshwar,2089,0.6816,0.9213,0.7335,1.44,0.2756,3,False
+7dd7c046f86e1b3fae5e374e44bbad43,1,Tomato,Gujarat,Bharuch,Bharuch,1424,0.531,0.8642,0.4977,1.1667,0.194,1,False
+c92ddf44314127ccc8ac34fede20bb3e,1,Tomato,Gujarat,Bhavnagar,Bhavnagar,1039,0.6335,1.2483,0.4835,0.8,0.1157,1,False
+b0bc4fe6fe306dd88a18e9a9b50e6a19,1,Tomato,Gujarat,Bhavnagar,Palitana,469,0.8439,1.1302,0.5664,1.7674,0.2435,2,False
+372807d9b91c385adff0a5c315e86c25,1,Tomato,Gujarat,Dahod,Dahod (Veg. Market),2590,0.7078,0.9538,0.9053,1.2667,0.3235,3,False
+49ed02314c2ae66001d1671ade80a020,1,Tomato,Gujarat,Gandhinagar,"Kalol (Veg,Market,Kalol)",882,0.6964,0.8125,0.4916,1.2,0.2282,5,False
+2e19cb9a58173231abad6e8912361e30,1,Tomato,Gujarat,Gandhinagar,Mansa (Manas Veg Yard),1817,0.7054,1.1159,0.6355,1.6,0.2753,5,False
+71e9c75f13d17905978997451b7c81f1,1,Tomato,Gujarat,Gir Somnath,Talalagir,1144,0.6917,1.6158,0.4001,0.9479,0.2878,0,False
+7e2d06097885f467fa7c78c65468881f,1,Tomato,Gujarat,Kheda,Kapadvanj,1658,0.8341,0.8391,0.5795,2.2963,0.3333,3,False
+9bd0c5c4dc5c5db37ec04c7d55b67fa0,1,Tomato,Gujarat,Kheda,Nadiad,564,0.6568,1.2452,0.7259,1.8503,0.2459,8,False
+b637e07409398451be0b2f406b5dfdce,1,Tomato,Gujarat,Kheda,Nadiyad (Chaklasi),405,0.5731,0.9818,0.1448,1.791,0.2314,9,False
+c8a09f2bd522008ae68666c315748e28,1,Tomato,Gujarat,Kheda,Nadiyad (Piplag),857,0.6492,0.9394,0.2997,1.5984,0.2164,7,False
+e576c12dcd8f4f3cfa9d85356c3f953f,1,Tomato,Gujarat,Mehsana,Mehsana (Mehsana Veg),1788,0.8002,0.9369,0.6256,1.6429,0.2919,6,False
+5de6449e40e9d3e053c0f69105728bd2,1,Tomato,Gujarat,Mehsana,Vijapur (veg),337,0.8664,0.7898,0.1205,4.825,0.2675,6,False
+6b8f6bdf99cd3057d8b96728e8a9e6d4,1,Tomato,Gujarat,Morbi,Morbi,1846,0.6695,1.0547,0.6452,1.1765,0.2381,1,False
+3b6c6ab5efa0fe2547d488877fe6a3d2,1,Tomato,Gujarat,Morbi,Vankaner (Sub yard),1986,0.7225,1.3095,0.8882,1.2857,0.2473,1,False
+b960c7a19a6256a87f53ebe0d16ef0b4,1,Tomato,Gujarat,Navsari,Bilimora,1453,0.6715,0.9441,0.5344,1.0667,0.3625,3,False
+639105cd4ebcaa15ecac886a2759949c,1,Tomato,Gujarat,Navsari,Navsari,648,0.7094,0.9248,0.7733,1.6286,0.3229,4,False
+3a85c937d5c6b89a16c704db7851ec4e,1,Tomato,Gujarat,Porbandar,Porbandar,1043,0.7044,1.2254,0.5963,1.8438,0.3037,1,False
+64e0180f6ae61d629afcc7cd98e968e2,1,Tomato,Gujarat,Rajkot,Dhoraji,370,0.5401,1.1025,0.625,1.5536,0.3444,1,False
+b9d917a56d52e3a38fa81c2ba2d16c13,1,Tomato,Gujarat,Rajkot,Gondal (Veg.market Gondal),600,0.796,1.0859,0.2246,1.6889,0.2682,2,False
+5d13e011f7200b2c985afac45db92493,1,Tomato,Gujarat,Rajkot,Rajkot (Veg.Sub Yard),2094,0.6855,1.0747,0.7319,1.1953,0.2995,1,False
+7fc2250e9f49d64bfcaa60258343dbcc,1,Tomato,Gujarat,Surat,Bardoli (Katod),329,0.3427,1.309,0.5447,0.504,0.4227,6,False
+fdf30e6c3ec9410403119af39d2ab51f,1,Tomato,Gujarat,Surat,Mandvi,477,0.5374,1.6267,0.3128,1.26,0.5101,5,False
+cce9daec29201ff5911982de86f76d6c,1,Tomato,Gujarat,Surat,S.Mandvi,375,0.5021,1.6771,0.3089,1.2254,0.4688,5,False
+9b756f0190f659a8e526d51503461510,1,Tomato,Gujarat,Surat,Surat,2225,0.7385,0.8796,0.7782,1.1458,0.2908,5,False
+c313cdfc514e1fb448c7fd345ec1c738,1,Tomato,Gujarat,Surat,Vyra,673,0.6217,0.9786,0.5022,1.36,0.343,6,False
+df71e38a25d2f0c563ef2d029966b109,1,Tomato,Gujarat,Surendranagar,Vadhvan,2109,0.7746,1.0795,0.7374,1.6364,0.258,0,False
+809bac43fbe9b277c9dfa4372689d5c0,1,Tomato,Gujarat,Vadodara (Baroda),Padra,2017,0.7218,0.9949,0.705,1.4286,0.3219,6,False
+292641802deecfec387106da0d98878e,1,Tomato,Gujarat,Vadodara (Baroda),Vadodara (Sayajipura),1783,0.8323,0.9448,0.6236,1.68,0.3238,5,False
+a436b9c592db55932f6d798546445b06,1,Tomato,Madhya Pradesh,Alirajpur,Alirajpur (F&V),901,0.4847,1.4478,0.4816,1.1429,0.1488,1,False
+34c437b2f4879232feda698a179940f1,1,Tomato,Madhya Pradesh,Anupur,Anuppur,281,0.4158,0.9248,0.1826,1.0455,0.2049,0,False
+b47f6a2f520d26eb6f7d232e7605510f,1,Tomato,Madhya Pradesh,Badwani,Badwani,991,0.4374,0.8863,0.6872,0.8,0.243,1,False
+0a4f59c90297253c92d675fba7217a12,1,Tomato,Madhya Pradesh,Badwani,Sendhwa,1543,0.6869,0.8401,0.5702,0.5313,0.1539,1,False
+04243980176dda3597b2545c5b2e91ed,1,Tomato,Madhya Pradesh,Betul,Betul,307,0.5602,1.038,0.1075,1.8333,0.4894,1,False
+6b70eb8655e34e15142ea6244ad8029a,1,Tomato,Madhya Pradesh,Betul,Multai,574,0.7961,0.9926,0.2375,1.85,0.3448,1,False
+a831583e7053f17e7cc009b639fda880,1,Tomato,Madhya Pradesh,Bhopal,Bhopal (F&V),1809,0.6109,0.9798,0.6338,1.0,0.2396,1,False
+ac773c914a122dfa5c2636800cb0b55a,1,Tomato,Madhya Pradesh,Burhanpur,Burhanpur (F&V),766,0.4314,1.2872,0.2681,1.0833,0.1906,1,False
+fdde0514b63ea3387431391dc6421df0,1,Tomato,Madhya Pradesh,Chhatarpur,Chhatarpur,227,0.63,1.0667,0.1197,2.5,0.402,0,False
+f58390a6516e1db0e074fab283060975,1,Tomato,Madhya Pradesh,Chhindwara,Chhindwara (F&V),1841,0.5797,0.7817,0.6442,1.0714,0.2426,0,False
+86151230e95902a7c1967332b97b7464,1,Tomato,Madhya Pradesh,Damoh,Damoh (F&V),897,0.4301,1.1124,0.4325,0.8,0.2124,2,False
+d216376ed47fcc5058ba910d3a6d0ef2,1,Tomato,Madhya Pradesh,Dewas,Dewas (F&V),1912,0.6237,0.895,0.6685,1.125,0.3342,4,False
+db87ccbeeea60cbefc57cdf62ea9ab43,1,Tomato,Madhya Pradesh,Dewas,Haatpipliya,1763,0.6011,1.3404,0.8091,1.0,0.2357,3,False
+b848d589d6617cf5b572fc938bfa61c8,1,Tomato,Madhya Pradesh,Dhar,Dhamnod,1829,0.6327,0.9171,0.64,0.8889,0.2082,5,False
+433a3aea6fc800de6e6d4434bb986287,1,Tomato,Madhya Pradesh,Dhar,Dhar (F&V),637,0.4668,1.5779,0.3423,0.4,0.0784,5,False
+6d5f5571bb633790d673fcdeae039844,1,Tomato,Madhya Pradesh,Dhar,Kukshi,1416,0.7169,0.8903,0.5246,1.1111,0.2523,2,False
+272e84cac94c70a3659367a878297c71,1,Tomato,Madhya Pradesh,Dhar,Manawar,1146,0.5358,1.071,0.4233,0.8156,0.268,3,False
+9297027f6e52d7bd10a96df213979b98,1,Tomato,Madhya Pradesh,Dhar,Rajgarh,1266,0.8459,0.8731,0.5823,1.7222,0.3773,4,False
+b324e8bb12a14eac8ab91fd38f2d385a,1,Tomato,Madhya Pradesh,Guna,Guna (F&V),752,0.4994,0.5363,0.3943,0.8889,0.1489,0,True
+3ebf21253441667e97715db9ce831c09,1,Tomato,Madhya Pradesh,Gwalior,Lashkar (F&V),1829,0.7492,1.2116,0.642,1.6667,0.3034,1,False
+be3a742d0bf3e6504726ee2e153176e6,1,Tomato,Madhya Pradesh,Harda,Harda (F&V),1924,0.7637,1.0435,0.6727,1.3409,0.3531,2,False
+ebf9ce41e2cc3e7109e46b622a565472,1,Tomato,Madhya Pradesh,Harda,Sirali,346,0.8847,1.5348,0.211,4.3,0.2871,2,False
+3418c96302582f3f345fcf6df9877048,1,Tomato,Madhya Pradesh,Harda,Timarni,1782,0.6726,1.2001,0.6367,1.6,0.2534,2,False
+65fb4aa920a5d3a6b638cd68f6431aa5,1,Tomato,Madhya Pradesh,Hoshangabad,Hoshangabad,1063,0.5691,1.1324,0.5669,1.1563,0.1103,2,False
+86b1ef88e262e3bfc204f335427231f9,1,Tomato,Madhya Pradesh,Hoshangabad,Itarsi,665,0.6658,1.1026,0.3833,1.6364,0.381,2,False
+3f6f35fe19afc862fe09683c4cffb5d3,1,Tomato,Madhya Pradesh,Hoshangabad,Pipariya,1575,0.6386,0.9199,0.6223,1.3636,0.2576,2,False
+abb3372e8425862fa90109c169f5592b,1,Tomato,Madhya Pradesh,Indore,Indore (F&V),1605,0.6604,1.0673,0.562,1.4,0.3053,4,False
+1fbaa34bccd8ade4b22e003416540ae6,1,Tomato,Madhya Pradesh,Indore,Mhow,1008,0.5748,1.7376,0.6047,1.075,0.2303,4,False
+14886b92373e4ceb3c0dd4f76bbbdebb,1,Tomato,Madhya Pradesh,Indore,Sanwer,1869,0.537,1.3345,0.6542,0.7143,0.1209,5,False
+6753df9c10278ee59b8ffedecf514065,1,Tomato,Madhya Pradesh,Jabalpur,Jabalpur (F&V),1594,0.6025,1.0658,0.5573,0.6364,0.0894,3,False
+91caf4ab91a47c72a8e36ceab3cc99e0,1,Tomato,Madhya Pradesh,Jhabua,Jhabua,295,0.6142,0.9633,0.298,1.4,0.2014,4,False
+2b6fe38c3c2df36a1f927096b734de6c,1,Tomato,Madhya Pradesh,Jhabua,Petlawad,1156,0.8431,1.0221,0.5706,0.933,0.2982,5,False
+e55fe02d0b6984c72d3c01f3e36321e9,1,Tomato,Madhya Pradesh,Jhabua,Petlawad (F&V),357,0.3907,1.0669,0.9084,1.5322,0.2235,5,False
+e61a7b52d75e9a82dfc2e9783de67830,1,Tomato,Madhya Pradesh,Jhabua,Thandla,1508,0.8162,1.2813,0.5635,0.6923,0.1204,4,False
+4039b6b928c4b9b2d8896d1b9b770935,1,Tomato,Madhya Pradesh,Khandwa,Badwah (F&V),223,0.437,1.384,0.5561,1.6,0.3667,2,False
+1c7c3df2bf85e99c61571a27a1a6fe21,1,Tomato,Madhya Pradesh,Khandwa,Khandwa (F&V),1710,0.5553,0.8778,0.5989,1.1131,0.219,4,False
+a90ccd278de19db6e945c45443212c1d,1,Tomato,Madhya Pradesh,Khandwa,Pandhana (F&V),1329,0.4196,0.9095,0.7207,0.8235,0.0398,3,False
+3d46a0a5c3b0ab214150ab7451bcd6e7,1,Tomato,Madhya Pradesh,Khandwa,Sanawad (F&V),263,0.4761,1.2196,0.6641,1.4737,0.3794,3,False
+7de35205ef178be22fa003b401f91318,1,Tomato,Madhya Pradesh,Khargone,Badwaha,807,0.7244,1.3611,0.7737,0.9846,0.2773,4,False
+aaab17503affe4a9035fc2f1c0e47268,1,Tomato,Madhya Pradesh,Khargone,Khargone,665,0.5284,0.7958,0.8603,0.5,0.1684,2,False
+794b181ab4a92556e1c3b37ca916b475,1,Tomato,Madhya Pradesh,Khargone,Sanawad,453,0.5811,1.3887,0.7318,1.4444,0.2879,3,False
+105be9dd78b51aeb01d3f6cc8d2bd7ab,1,Tomato,Madhya Pradesh,Mandsaur,Garoth,283,0.561,0.7807,0.1492,2.0,0.3507,2,False
+e7f14938a71135a96f9fa60cf665a743,1,Tomato,Madhya Pradesh,Mandsaur,Mandsaur (F&V),1331,0.8022,1.4151,0.6106,1.0569,0.1963,2,False
+0e0e6450bc5622a00d3936f6e8c4a842,1,Tomato,Madhya Pradesh,Morena,Morena,192,0.6388,1.1195,0.2836,2.1333,0.2316,1,False
+cd14392840378b3bbb7e297b53dd4b56,1,Tomato,Madhya Pradesh,Morena,Morena (F&V),872,0.7172,1.1579,0.4162,1.2104,0.3088,1,False
+add720987f1ca72661f254e7540833e0,1,Tomato,Madhya Pradesh,Morena,Porsa (F&V),189,0.4947,1.0205,0.145,1.25,0.2086,2,False
+d6a0c7ce4b44ba592845aec049e4a22a,1,Tomato,Madhya Pradesh,Morena,Sabalgarh,331,0.6809,0.7484,0.2402,1.6875,0.463,0,False
+082c3a861b79d3ffcba51e64e5e081d5,1,Tomato,Madhya Pradesh,Narsinghpur,Gadarwada,349,0.3853,1.3862,0.419,0.875,0.2659,0,False
+e41baa434c19bda180d53b4703128d5b,1,Tomato,Madhya Pradesh,Rajgarh,Biaora,1037,0.6709,0.9581,0.5855,0.8182,0.1698,1,False
+40dabd1d80eed5212b5f8099935250bc,1,Tomato,Madhya Pradesh,Rajgarh,Narsinghgarh,1246,0.9384,0.4365,0.5716,1.0857,0.2595,1,True
+26e73d3954fab253e6453d6d4d4d708d,1,Tomato,Madhya Pradesh,Rajgarh,Sarangpur,317,0.2128,1.1491,0.3316,0.56,0.1051,1,False
+ac073894d39ef0ded710abfadce40a8a,1,Tomato,Madhya Pradesh,Rajgarh,Sarangpur (F&V),346,0.6612,0.9307,0.8607,2.85,0.2671,1,False
+8dc9107ac316450825e64f96fed54b53,1,Tomato,Madhya Pradesh,Ratlam,Jawra (F&V),334,0.8353,1.7784,0.8371,2.6389,0.3662,2,False
+f4b1aeae1e3bb2d893574d452daa5aad,1,Tomato,Madhya Pradesh,Sagar,Deori,1286,0.8288,0.9729,0.5904,2.3214,0.2174,2,False
+3d54bd92ca41a4bff7b609da47652857,1,Tomato,Madhya Pradesh,Sagar,Khurai (F&V),292,0.7135,1.1172,0.7318,2.1944,0.3252,2,False
+d1f334fbf5f787065a32620450e990a1,1,Tomato,Madhya Pradesh,Sagar,Sagar (F&V),1776,0.6936,1.0257,0.6212,1.0,0.2344,4,False
+403c946554c8efd31e62005f07afd27e,1,Tomato,Madhya Pradesh,Sehore,Sehore,363,0.8451,1.1276,0.2549,2.25,0.2147,1,False
+52c8e7a168b3a506672f9702225e00e3,1,Tomato,Madhya Pradesh,Sehore,Sehore (F&V),315,0.6384,1.1091,0.8161,2.4167,0.3657,1,False
+27787967d0026e58c5ea2d1dbbf850b9,1,Tomato,Madhya Pradesh,Sheopur,Syopurkalan (F&V),1259,0.8091,0.9455,0.4402,2.0,0.3135,0,False
+2e9ebec325fb779e2343e3cc683eaf67,1,Tomato,Madhya Pradesh,Shivpuri,Shivpuri (F&V),1206,0.4425,0.8272,0.4263,0.6667,0.1092,5,False
+a3fa89020ffd68971008ee90ddff3cb6,1,Tomato,Madhya Pradesh,Singroli,Singroli,395,0.4684,1.7189,0.2919,1.1,0.1559,0,False
+276b472d7a042b81ac941167c2678234,1,Tomato,Madhya Pradesh,Ujjain,Ujjain (F&V),1366,0.4654,1.4543,0.4776,0.5163,0.1113,2,False
+75294370eec87b1a7572f93f55034d65,1,Tomato,Maharashtra,Ahmednagar,Ahmednagar,704,0.752,0.8912,0.2485,1.0,0.161,1,False
+c943a3d7c192c1de38aa0149db1dd456,1,Tomato,Maharashtra,Ahmednagar,Rahata,1591,0.7172,0.9203,0.5569,1.225,0.3553,6,False
+8cd32d1980262c2dc5f5d0d9edeed403,1,Tomato,Maharashtra,Ahmednagar,Rahuri,1339,0.7061,0.9688,0.4683,1.2189,0.2837,5,False
+38235d6a147e19a448a0281180474550,1,Tomato,Maharashtra,Ahmednagar,Sangamner,1964,0.8658,0.7824,0.6896,1.0,0.3146,8,False
+8b13372e86fde7e91df25d84ec9ad8fe,1,Tomato,Maharashtra,Ahmednagar,Shrirampur,2153,0.7081,1.2516,0.7536,0.7667,0.2815,4,False
+cdd425d9ba65a50e9013fa8f5b86b8a5,1,Tomato,Maharashtra,Amarawati,Amrawati (Frui & Veg. Market),1888,0.7541,1.1555,0.6629,1.36,0.281,0,False
+b8d650f27ec97d5318a7e8a0d0e388ba,1,Tomato,Maharashtra,Chandrapur,Chandrapur (Ganjwad),1501,0.7774,0.9104,0.5259,1.2,0.2583,0,False
+0a8257becc855e9d0e558bee0baf7c64,1,Tomato,Maharashtra,Chattrapati Sambhajinagar,Chattrapati Sambhajinagar,2216,1.0079,0.8917,0.7751,1.2,0.4221,0,False
+11c679803b4c7fcb64f2015fa49ba323,1,Tomato,Maharashtra,Jalgaon,Bhusaval,1303,0.8709,1.1161,0.7391,1.1538,0.3158,1,False
+26b213fcfa5b6cf06c1feb5268d4711f,1,Tomato,Maharashtra,Jalgaon,Jalgaon,1871,0.8151,0.9169,0.6551,1.4,0.3063,1,False
+014eee1b3d1e01d37b8c120eeb1dc241,1,Tomato,Maharashtra,Kolhapur,Kolhapur,2240,0.6847,0.9319,0.7835,0.975,0.3091,5,False
+95a0f04aace7fabc0904b25fa2042600,1,Tomato,Maharashtra,Kolhapur,Kolhapur (Malkapur),270,0.9581,0.4797,0.1054,2.8889,0.084,4,True
+e65b2e0ebdf8d6828b72daaa60e44e15,1,Tomato,Maharashtra,Kolhapur,Vadgaonpeth,1564,0.8,0.9284,0.547,0.9474,0.2822,1,False
+88e01fc898f8614b685a6339725ca92b,1,Tomato,Maharashtra,Mumbai,Mumbai,1551,0.6267,1.5312,0.5496,1.1111,0.2134,3,False
+af74e10ead25845b75f8b4649171492a,1,Tomato,Maharashtra,Nagpur,Hingna,604,0.7443,1.2393,0.5693,1.8897,0.3125,4,False
+0a2a5ee3529f85f7b80f054ab409ad32,1,Tomato,Maharashtra,Nagpur,Kalmeshwar,2273,0.803,1.2429,0.795,1.6729,0.3173,5,False
+5a2111947c02fd0ad6eecf591a15bab8,1,Tomato,Maharashtra,Nagpur,Kamthi,2486,0.837,1.2543,0.8695,1.7857,0.3638,4,False
+e906e6012fa1ab93a9a9f85791666c7c,1,Tomato,Maharashtra,Nagpur,Nagpur,1800,0.7889,1.3371,0.63,1.275,0.2746,5,False
+08acb1fb7e7fbce7e533e9f585f15e76,1,Tomato,Maharashtra,Nagpur,Parshiwani,198,0.5834,1.4404,0.1194,0.9722,0.1241,5,False
+66de8b9bc72476437df65853480fd1c6,1,Tomato,Maharashtra,Nagpur,Ramtek,1709,1.0546,1.0055,0.5978,1.5909,0.2866,3,False
+091d068455035c4cef2a64afbf1ad0a7,1,Tomato,Maharashtra,Nandurbar,Navapur,1507,0.8298,0.9554,0.5394,0.858,0.2624,2,False
+fffb01ec65cecb8dce808afcac9e9aa2,1,Tomato,Maharashtra,Nashik,Chandvad,1366,0.7333,0.9014,0.5114,0.8889,0.369,7,False
+9edf392c82cff65890ed05b85616e481,1,Tomato,Maharashtra,Nashik,Dindori,186,0.8458,0.6102,0.0844,2.2545,0.4241,6,True
+90bf78de0c825cd880331bb958032fba,1,Tomato,Maharashtra,Nashik,Ghoti,582,0.3993,1.5244,0.2056,0.7667,0.2195,3,False
+801cd237e72f730b1a70ecb4a8be388c,1,Tomato,Maharashtra,Nashik,Nasik,1720,0.8313,0.8968,0.6016,1.25,0.2509,8,False
+92fd13c2de95e8859d524b3214e752c9,1,Tomato,Maharashtra,Nashik,Pimpalgaon,2076,0.9125,0.9394,0.7256,1.4076,0.43,3,False
+061bcf868c7e560b38820c20b42e588e,1,Tomato,Maharashtra,Nashik,Sinner,286,0.8522,0.7632,0.2496,3.2583,0.3684,10,True
+d535957e589a5225aaf3c13b1c3bb1a0,1,Tomato,Maharashtra,Pune,Junnar (Narayangaon),2210,0.7927,1.0279,0.7765,0.8333,0.3542,5,False
+345f0e4f6f622681c4b172c11b374694,1,Tomato,Maharashtra,Pune,Khed (Chakan),1929,0.7705,1.0865,0.6773,0.8,0.3517,6,False
+ca973ff14884f1799f43e5409853391e,1,Tomato,Maharashtra,Pune,Manchar,573,0.7433,1.5019,0.2521,0.9306,0.3517,6,False
+a26275e5ea64d0fb30d8faa6e4b638a2,1,Tomato,Maharashtra,Pune,Pune,2223,0.7107,0.9384,0.7781,0.65,0.2661,4,False
+28166181bc890ebe40e697433cb4a34d,1,Tomato,Maharashtra,Pune,Pune (Khadiki),2190,0.5243,0.9228,0.8349,0.4348,0.1821,4,False
+658ff75282599848f549ccdf56be21fd,1,Tomato,Maharashtra,Pune,Pune (Manjri),1633,0.7549,1.157,0.8194,0.8,0.4806,4,False
+4c8930000242a469fbe4497b972faf94,1,Tomato,Maharashtra,Pune,Pune (Moshi),1585,0.7864,0.9126,0.7965,0.7917,0.32,5,False
+718ba6098fb42a221fde8a32fa965d40,1,Tomato,Maharashtra,Pune,Pune (Pimpri),2515,0.606,1.2239,0.8797,1.1111,0.248,5,False
+6827299f2f9d1a698c9f70198375142a,1,Tomato,Maharashtra,Raigad,Panvel,1366,0.6713,1.6409,0.4778,0.9524,0.2665,4,False
+f1f0126047ff98ed037079d368e12f7e,1,Tomato,Maharashtra,Raigad,Pen,571,0.5651,2.1486,0.4597,0.8462,0.1413,2,False
+9d5116901f75289dd88d7c998a35d9a1,1,Tomato,Maharashtra,Ratnagiri,Ratnagiri (Nachane),1536,0.7219,1.2002,0.5373,0.8571,0.2928,0,False
+4a19786e59a25ca86ea73b73ccf804ac,1,Tomato,Maharashtra,Sangli,Islampur,1211,1.0527,0.7651,0.4255,1.8889,0.2521,6,True
+92440b23f22b2eee740d5ab5bd6a2449,1,Tomato,Maharashtra,Sangli,Palus,669,0.6865,1.06,0.2375,0.9167,0.2222,5,False
+dbadc43b03b8c3383ec3239f1d840aa3,1,Tomato,Maharashtra,Sangli,Vita,1457,0.7921,0.9855,0.5098,0.913,0.3613,3,False
+fbaa80ebf1e5dceff4dcc1cb3a357dfc,1,Tomato,Maharashtra,Satara,Karad,2058,0.7487,1.1471,0.7196,0.8333,0.3234,6,False
+dce39757495c5e2cc65212dc3cf6123c,1,Tomato,Maharashtra,Satara,Patan,1459,0.5536,1.2239,0.5105,0.7407,0.258,3,False
+7becc4c297d380f2a42e3a17eef5b18a,1,Tomato,Maharashtra,Satara,Phaltan,1477,0.6965,0.9103,0.5188,1.1205,0.2093,0,False
+7e6633b694f1220d1ab7634441da3f94,1,Tomato,Maharashtra,Satara,Satara,2182,0.7203,1.0316,0.7629,0.88,0.309,3,False
+fb41626d4d0b5be58c2840b49b4ab86d,1,Tomato,Maharashtra,Satara,Vai,2302,0.7243,1.1362,0.8049,1.32,0.37,1,False
+063c96a7a7e6ff66cfe0c4f2f1bf68af,1,Tomato,Maharashtra,Sholapur,Akluj,1289,0.45,1.3736,0.4505,0.6667,0.215,1,False
+293d7e2f1d794e2ded0dbc0bc38dd1c4,1,Tomato,Maharashtra,Sholapur,Mangal Wedha,2262,0.8616,0.9013,0.7909,1.0909,0.3409,1,False
+6af88e5c6746017dc2907bc2ee361912,1,Tomato,Maharashtra,Sholapur,Pandharpur,1516,0.7219,0.8224,0.5304,0.9,0.3953,0,False
+4e29b1771a40ed9804771228c4d5494f,1,Tomato,Maharashtra,Sholapur,Solapur,2032,0.8276,0.6428,0.7105,1.2857,0.3003,1,False
+e4c9c33e75d792efb58197fb900f8c3b,1,Tomato,Maharashtra,Thane,Kalyan,1754,0.8331,1.4222,0.6133,0.875,0.346,3,False
+67db83168ab0860913a1cfadc8ef72dc,1,Tomato,Uttar Pradesh,Agra,Achnera,2155,0.649,0.9464,0.7532,1.2857,0.1985,6,False
+0089fb2c8dc6333a8ac1917bc4467d66,1,Tomato,Uttar Pradesh,Agra,Agra,2295,0.6366,0.9633,0.8024,1.3241,0.2213,8,False
+9e46a25dd7530e0d4228c13fbf18bfce,1,Tomato,Uttar Pradesh,Agra,Fatehabad,1422,0.5337,0.705,0.5011,1.2824,0.2351,8,False
+98d9523fe42b067eb02e26003154cadc,1,Tomato,Uttar Pradesh,Agra,Fatehpur Sikri,1597,0.6672,0.9423,0.5611,1.4219,0.1726,4,False
+d84c6531895af4088201db8c363174b7,1,Tomato,Uttar Pradesh,Agra,Jagnair,1386,0.6399,0.9291,0.5959,1.2037,0.2491,5,False
+c8af28d6cf49dee2d31c173e2bc9640f,1,Tomato,Uttar Pradesh,Agra,Khairagarh,1426,0.6484,0.9843,0.4991,1.5238,0.1885,5,False
+aef6a342f926243fe0eb1c5257f03e27,1,Tomato,Uttar Pradesh,Agra,Samsabad,1825,0.6579,0.7508,0.6404,0.9091,0.1595,5,False
+daeef53bb2c64b79cdd1c702ade9dd5f,1,Tomato,Uttar Pradesh,Aligarh,Aligarh,2411,0.6573,0.9611,0.8427,1.4189,0.2297,6,False
+8d27ae066b6c811d0a4e488d2c8106fd,1,Tomato,Uttar Pradesh,Aligarh,Atrauli,1026,0.5783,0.9056,0.4017,1.3429,0.1582,3,False
+e6cf790f787822a4835db73af76339b0,1,Tomato,Uttar Pradesh,Aligarh,Charra,2139,0.6749,0.9838,0.7479,1.1957,0.204,5,False
+25007767fa25891975f3f7d62fd380dc,1,Tomato,Uttar Pradesh,Aligarh,Khair,2076,0.6578,0.9739,0.7264,1.3115,0.2129,6,False
+fa06dd4a3b7267f796cfa557eac6d9cb,1,Tomato,Uttar Pradesh,Ambedkarnagar,Akbarpur,2235,0.6682,1.0821,0.7817,1.3997,0.2457,2,False
+488153307d0f83915e1db41b2e4a0cd8,1,Tomato,Uttar Pradesh,Amethi,Jafarganj,2100,0.6209,1.0712,0.7976,1.6364,0.2867,2,False
+279ac905900bd96f13b67ecb80d42a69,1,Tomato,Uttar Pradesh,Amethi,Sultanpur,2615,0.5872,1.1053,0.914,1.3491,0.2471,5,False
+7a30cc99d976d8fb916dc0fe14c35c20,1,Tomato,Uttar Pradesh,Amroha,Amroha,2363,0.6595,1.0085,0.8274,1.3615,0.1925,5,False
+05ac0d5f3d4d6f0172571fdb3cc72e9f,1,Tomato,Uttar Pradesh,Amroha,Dhanaura,2002,0.3492,0.6921,0.7532,0.3611,0.1124,7,True
+fda7fd70ff37133bbbedf47a8a82f16f,1,Tomato,Uttar Pradesh,Amroha,Hasanpur,2042,0.5206,1.0854,0.714,0.5405,0.1471,10,False
+b151459bef865aec7fc5bd4c566766ab,1,Tomato,Uttar Pradesh,Auraiya,Achalda,1889,0.6164,0.9926,0.6658,1.3782,0.2338,6,False
+c5e78f03e056f7d529686e643e418092,1,Tomato,Uttar Pradesh,Auraiya,Auraiya,2447,0.6398,1.0,0.8574,1.3576,0.2241,4,False
+8a89a5483d4f068ac8e28077bcbe5419,1,Tomato,Uttar Pradesh,Auraiya,Dibiapur,1492,0.5712,0.7952,0.5239,1.3333,0.1879,6,False
+4a664387ac6ef341eb1d3531501421fc,1,Tomato,Uttar Pradesh,Ayodhya,Faizabad,2601,0.6538,1.0924,0.9107,1.3467,0.2894,4,False
+05b06be99f3b09880877d430ff91fb03,1,Tomato,Uttar Pradesh,Ayodhya,Rudauli,2072,0.6662,1.0779,0.7245,1.5548,0.2249,5,False
+3d2d08b4f28598652c243039b99924c8,1,Tomato,Uttar Pradesh,Azamgarh,Azamgarh,2294,0.6266,1.0376,0.8027,1.2258,0.1942,2,False
+fc16e7654f0874d51b77c15401d00a02,1,Tomato,Uttar Pradesh,Badaun,Badayoun,2591,0.6437,1.0459,0.9082,1.23,0.2016,4,False
+301abf962fb72a16600f82b3de0c6f43,1,Tomato,Uttar Pradesh,Badaun,Bilsi,2199,0.6424,1.0337,0.7713,1.29,0.1847,5,False
+ea522f397a91d21af42df0f72c2fd1cd,1,Tomato,Uttar Pradesh,Badaun,Shahaswan,309,0.623,1.09,0.1268,2.08,0.0761,4,False
+b876373d94e687159bff71f500ec69a8,1,Tomato,Uttar Pradesh,Badaun,Ujhani,2003,0.6089,0.9897,0.7038,1.1429,0.1771,4,False
+6721cea4daec57be9c6e6bb81a2595da,1,Tomato,Uttar Pradesh,Badaun,Wazirganj,1877,0.657,1.058,0.8626,1.6342,0.1824,5,False
+7e2258c26c98f30e358ca34df527b56a,1,Tomato,Uttar Pradesh,Baghpat,Bagpat,753,0.4595,1.0892,0.2646,1.0,0.1188,14,False
+543bcfd9c38bcc5d04b980dede328c53,1,Tomato,Uttar Pradesh,Baghpat,Baraut,2398,0.5941,0.9177,0.8399,0.9565,0.1615,10,False
+b9858e4f04d6af4576e60fc2d6fa32b1,1,Tomato,Uttar Pradesh,Baghpat,Khekda,1349,0.5856,1.0836,0.4717,1.4667,0.226,11,False
+b5ccb0beeeed7b70fe5ce63b695dfbab,1,Tomato,Uttar Pradesh,Bahraich,Bahraich,2410,0.5809,1.1645,0.8438,1.1849,0.2132,3,False
+2c6f0158c7f4a3739d7cda9b755edf4f,1,Tomato,Uttar Pradesh,Bahraich,Naanpara,2112,0.6096,1.1249,0.74,1.3452,0.2071,3,False
+2a336ee6ef0a3fc2ceb6253001240f14,1,Tomato,Uttar Pradesh,Ballia,Ballia,2217,0.6929,1.0152,0.7749,1.4318,0.2132,2,False
+ba2b315370a3a7e8099bfbe2a698bbc2,1,Tomato,Uttar Pradesh,Ballia,Chitwadagaon,1161,0.6825,0.9773,0.5776,1.7927,0.2115,2,False
+7558d5813b691cd53cd7498c240b9383,1,Tomato,Uttar Pradesh,Ballia,Rasda,1613,0.6672,0.9789,0.6187,1.7152,0.1898,2,False
+897a7a817b6c538aca399990d744d708,1,Tomato,Uttar Pradesh,Balrampur,Balrampur,1773,0.5918,1.1524,0.6947,1.3706,0.2087,6,False
+a255fe1ba302a00db95ab59fc57365b8,1,Tomato,Uttar Pradesh,Balrampur,Panchpedwa,556,0.4719,1.3848,0.2155,1.1792,0.1153,2,False
+a1ad004dae2defe2ca4d41d716bc5b16,1,Tomato,Uttar Pradesh,Balrampur,Tulsipur,2022,0.5882,1.118,0.9361,1.1311,0.2234,2,False
+6c979c6355bc5b9a66cd9fb09e449b07,1,Tomato,Uttar Pradesh,Banda,Atarra,2022,0.6662,0.9631,0.7798,1.2358,0.1574,3,False
+7789cdbdc6ebada57025f56159c4ed57,1,Tomato,Uttar Pradesh,Banda,Baberu,1342,0.5466,0.9589,0.6176,1.487,0.1345,6,False
+aa3e8a5e1fc6b2ee25590d95428234e4,1,Tomato,Uttar Pradesh,Banda,Banda,2387,0.6524,0.9744,0.8352,1.1679,0.1615,4,False
+fc0f5c421df9b3cf0debf62276883868,1,Tomato,Uttar Pradesh,Barabanki,Barabanki,2392,0.5905,1.1376,0.8364,1.2627,0.2016,4,False
+7e35ebf36526ff2c02777323eb5ca3cc,1,Tomato,Uttar Pradesh,Barabanki,Safdarganj,2269,0.6077,1.1204,0.7939,1.2706,0.2049,5,False
+380d44792490d4598a49ff66deb8a975,1,Tomato,Uttar Pradesh,Bareilly,Anwala,2618,0.7001,0.9433,0.9151,1.5714,0.2188,4,False
+5e14b10af52778cbd5ee266b3fca5a2f,1,Tomato,Uttar Pradesh,Bareilly,Bareilly,2551,0.6541,1.0155,0.8926,1.3518,0.1723,4,False
+a13afee8e04dd40d98574482b9886183,1,Tomato,Uttar Pradesh,Basti,Basti,2586,0.6181,1.0178,0.9051,1.2033,0.1857,2,False
+4cf3dda00ac5d88ac52c4f362761e903,1,Tomato,Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Gopiganj,1198,0.6617,0.9233,0.4189,1.8885,0.2614,2,False
+7a3252525b3e6c8457ca2a32e67ef523,1,Tomato,Uttar Pradesh,Bijnor,Bijnaur,2233,0.6651,1.0249,0.7821,1.4611,0.1655,3,False
+4996c6e702c0b1f91697dc9e0b9f4a8f,1,Tomato,Uttar Pradesh,Bijnor,Chaandpur,2146,0.6522,0.9181,0.7517,0.8636,0.1379,3,False
+f54dd67ada9b991e2b6220b47143903c,1,Tomato,Uttar Pradesh,Bijnor,Kiratpur,1677,0.5768,0.9689,0.5866,0.9729,0.1256,4,False
+0e75f5703177c1f998dfa4cee7b773d6,1,Tomato,Uttar Pradesh,Bijnor,Nagina,1531,0.6469,0.9575,0.5387,0.875,0.1168,3,False
+b97ada99a0cc753b069cbba8a7070548,1,Tomato,Uttar Pradesh,Bijnor,Najibabad,1545,0.6053,0.8088,0.5423,1.1364,0.2595,3,True
+f635f2a893dd5e7b6194694f5682252d,1,Tomato,Uttar Pradesh,Bulandshahar,Anoop Shahar,2094,0.5608,1.1009,0.7319,1.3333,0.2279,10,False
+8e0288f11cc66fcba7cef8bf2888be47,1,Tomato,Uttar Pradesh,Bulandshahar,Buland Shahr,2208,0.575,1.0021,0.7737,1.2299,0.1572,10,False
+ca60b7d17e34b9804141d43b06249182,1,Tomato,Uttar Pradesh,Bulandshahar,Divai,1451,0.5821,0.8438,0.5124,1.41,0.1849,10,False
+911343c12a0845e7cd38c4e1f0ea71c4,1,Tomato,Uttar Pradesh,Bulandshahar,Gulavati,1337,0.4374,0.8655,0.5217,0.8591,0.1337,10,False
+39c71561c8c937eee4342fa72b2a9b79,1,Tomato,Uttar Pradesh,Bulandshahar,Jahangirabad,2083,0.6465,0.9784,0.7288,1.3769,0.1449,7,False
+955a14924134686ce25b2184225b0b0b,1,Tomato,Uttar Pradesh,Bulandshahar,Khurja,2155,0.5775,0.9856,0.7538,1.2029,0.1383,8,False
+e5180fd202419905eec1bcec3ac05e77,1,Tomato,Uttar Pradesh,Bulandshahar,Sikanderabad,1668,0.608,0.7681,0.615,1.2727,0.2669,10,False
+fe5bb518b28e5a0a4f5e1e0019fc5304,1,Tomato,Uttar Pradesh,Bulandshahar,Sikarpur,1959,0.8383,0.7626,0.6854,1.5556,0.2409,8,False
+ba1fde5e94bc6725f5373d72063eac98,1,Tomato,Uttar Pradesh,Bulandshahar,Siyana,2279,0.4627,0.9548,0.798,0.7438,0.1265,10,False
+899464e6dd8af25441037437b779c5e7,1,Tomato,Uttar Pradesh,Chandauli,Chandoli,2539,0.6367,1.0232,0.8878,1.3906,0.2419,1,False
+6042e876f8aca64ab5c89ec18b523cb8,1,Tomato,Uttar Pradesh,Chitrakut,Karvi,2325,0.6135,0.9832,0.8653,1.0567,0.1726,3,False
+d2e794b21b0396dd8c6b88feb1bdad8e,1,Tomato,Uttar Pradesh,Deoria,Barhaj,1576,0.5267,1.003,0.719,1.1341,0.172,2,False
+3966e99b3f63c8dd0cfb978f2b5ee481,1,Tomato,Uttar Pradesh,Deoria,Devariya,2095,0.6273,1.0061,0.7325,1.195,0.2106,3,False
+b1fd10da5cf27633d5bee7dabcaaeafd,1,Tomato,Uttar Pradesh,Etah,Aliganj,495,0.4017,0.9133,0.5783,1.1538,0.1132,7,False
+c5c4c0e483c8b07fd9205f4eb3d67395,1,Tomato,Uttar Pradesh,Etah,Awagarh,1583,0.5548,0.8928,0.5533,1.375,0.202,6,False
+d09eef896f01465b083797238b9929b5,1,Tomato,Uttar Pradesh,Etah,Etah,2364,0.5978,0.9514,0.8286,1.3661,0.2099,3,False
+0258c1779a57be523627d9960e2accd4,1,Tomato,Uttar Pradesh,Etawah,Bharthna,2361,0.6097,1.0048,0.8273,1.2754,0.2162,3,False
+fe9de5a597fd46c464937836aa0efd15,1,Tomato,Uttar Pradesh,Etawah,Etawah,2423,0.6302,0.9774,0.8478,1.2931,0.2148,5,False
+64b8c61fc2efefb7427681c7ca33dd16,1,Tomato,Uttar Pradesh,Etawah,Jasvantnagar,2229,0.6109,0.9586,0.7802,1.5156,0.1923,3,False
+12d0a6f1c6fe67e26740537325f8fd3c,1,Tomato,Uttar Pradesh,Farukhabad,Farukhabad,2452,0.6152,1.0455,0.8573,1.405,0.202,7,False
+8d01e17ae56f09bbbec6df1c11a8fc66,1,Tomato,Uttar Pradesh,Farukhabad,Kamlaganj,1115,0.5167,1.0049,0.5471,1.269,0.2187,7,False
+0914109a6d1509bdd841f98279ed67d7,1,Tomato,Uttar Pradesh,Farukhabad,Kayamganj,2353,0.5849,1.0735,0.823,1.3226,0.1933,6,False
+0ed9beeee4335f836e892eefc07dac97,1,Tomato,Uttar Pradesh,Farukhabad,Mohamadabad,753,0.6427,1.0215,0.8932,1.7688,0.2376,7,False
+da7d9a7fcc6078e64661da9c051e90d2,1,Tomato,Uttar Pradesh,Fatehpur,Bindki,2306,0.609,1.0571,0.8063,1.3635,0.1956,4,False
+624c056a91e58da295bbb2506d10d5e5,1,Tomato,Uttar Pradesh,Fatehpur,Fatehpur,2443,0.6082,1.0888,0.8542,1.3875,0.2166,5,False
+2229d39586cfe8e890315a0a3e271fa9,1,Tomato,Uttar Pradesh,Fatehpur,Jahanabad,393,0.2819,0.6783,0.1646,0.7944,0.1074,5,False
+c3d6590907a4bd1a68180cdb82a7fae9,1,Tomato,Uttar Pradesh,Fatehpur,Khaga,1528,0.6328,1.002,0.5442,1.4465,0.1786,6,False
+24a71fde4c56a64ebf04069e34353a68,1,Tomato,Uttar Pradesh,Firozabad,Firozabad,2387,0.6856,0.8672,0.8352,1.5294,0.1771,6,False
+b59bc0ad6c5178ef049836faf0c30ec8,1,Tomato,Uttar Pradesh,Firozabad,Shikohabad,1274,0.5675,0.9909,0.4495,1.3846,0.2086,7,False
+eded882d3c66a1cbc4ce65a6419132ed,1,Tomato,Uttar Pradesh,Firozabad,Sirsaganj,1980,0.5592,0.927,0.6955,1.2654,0.1653,8,False
+dab494f629a6238cd3a97c2cc69f1e02,1,Tomato,Uttar Pradesh,Firozabad,Tundla,2113,0.6433,0.9666,0.7396,1.3179,0.2013,9,False
+d5c6bc450ec73098a7ca2344d1cbd8a5,1,Tomato,Uttar Pradesh,Gautam Budh Nagar,Dadri,2142,0.5603,1.0323,0.75,1.0,0.1159,8,False
+a6603aab6fbc9233e81b98bcb3cc9e5d,1,Tomato,Uttar Pradesh,Gautam Budh Nagar,Dankaur,1266,0.4595,1.0051,0.5438,1.1438,0.1062,8,False
+fca5fdf192b65acd000d74fae314fabd,1,Tomato,Uttar Pradesh,Ghaziabad,Ghaziabad,2458,0.5311,1.0916,0.8603,1.0065,0.1363,9,False
+9da6a5b82735f4205fb5c415978376d8,1,Tomato,Uttar Pradesh,Ghaziabad,Hapur,2191,0.5888,0.9863,0.7669,1.037,0.1359,15,False
+2f970c0742cc96932fb5c4a839c6e0ff,1,Tomato,Uttar Pradesh,Ghaziabad,Muradnagar,1268,0.5154,0.9866,0.4452,1.3519,0.1474,12,False
+310be608269af08b76d21cfeb4ea0e94,1,Tomato,Uttar Pradesh,Ghaziabad,Noida,1949,0.5397,1.0541,0.6846,1.1637,0.1373,7,False
+19c4b3d86967b64d603b23c9d4b1e436,1,Tomato,Uttar Pradesh,Ghazipur,Gazipur,394,0.5666,0.968,0.7177,1.394,0.2079,3,False
+a17ea33ddf0cdf3e2030e8da6622ae54,1,Tomato,Uttar Pradesh,Ghazipur,Gazipur (ex-Hapur),1838,0.6647,1.0296,0.7902,1.2857,0.2019,3,False
+6ff2d23d78b2fe453874591655cf2abd,1,Tomato,Uttar Pradesh,Ghazipur,Jangipura,1356,0.5709,1.0218,0.5512,1.3071,0.2063,3,False
+3f608ce49af1e6a5204cbbc244406771,1,Tomato,Uttar Pradesh,Ghazipur,Yusufpur (ex-Hapur),201,0.5535,0.9224,0.098,3.2606,0.3554,5,False
+062c16b6abf5cd3218a1a1e6fde6df47,1,Tomato,Uttar Pradesh,Gonda,Gonda,2497,0.6241,1.123,0.8743,1.4656,0.2269,5,False
+345cfab99d07bb3a4d7f1b9fe12ad7b5,1,Tomato,Uttar Pradesh,Gonda,Karnailganj,510,0.4704,1.1023,0.1805,1.4127,0.1926,6,False
+10eb860c917b757685237f9eaddeb246,1,Tomato,Uttar Pradesh,Gonda,Nawabganj,2077,0.5414,1.0865,0.7262,1.1714,0.2344,4,False
+a8bdb236a7b7cf2538395843eca27fd0,1,Tomato,Uttar Pradesh,Gorakhpur,Chorichora,1779,0.632,1.0517,0.622,1.0333,0.203,3,False
+3760488c12affec4608019b3bf2bab98,1,Tomato,Uttar Pradesh,Gorakhpur,Gorakhpur,2479,0.6343,1.0016,0.8677,1.2241,0.2051,4,False
+69eff59e3bfd37e8ae9c76778f53f614,1,Tomato,Uttar Pradesh,Gorakhpur,Sehjanwa,1627,0.583,1.1722,0.6035,0.8912,0.1251,3,False
+08993aeed13ff15dd0de09c9683d9643,1,Tomato,Uttar Pradesh,Hamirpur,Bharuasumerpur,1940,0.6564,0.9437,0.8017,1.4138,0.1591,7,False
+05bbe7b5859a24834180bd7aed7ac0a7,1,Tomato,Uttar Pradesh,Hamirpur,Maudaha,1819,0.6735,0.9971,0.7996,1.1905,0.177,8,False
+b3caf1a26859325f971c84e102dacb1b,1,Tomato,Uttar Pradesh,Hamirpur,Muskara,2226,0.6525,0.9955,0.8435,1.2333,0.1532,9,False
+00d114d474d47a245221c61c9dd432ae,1,Tomato,Uttar Pradesh,Hamirpur,Raath,1604,0.6803,1.0065,0.7566,1.2766,0.1977,7,False
+09ff93e2a1a50b82cef47e0a114e074a,1,Tomato,Uttar Pradesh,Hardoi,Hardoi,2363,0.575,1.1058,0.8277,1.1121,0.1642,5,False
+a0727dda837e21d7e5f4d52f3c2d7f64,1,Tomato,Uttar Pradesh,Hardoi,Madhoganj,2453,0.5754,1.0984,0.8574,1.12,0.147,6,False
+4e507c54561c032546ec6f3a750e998f,1,Tomato,Uttar Pradesh,Hardoi,Sandi,699,0.5122,1.0275,0.3464,1.4348,0.1868,6,False
+6df1a366e3257046b1c3379c99f65f01,1,Tomato,Uttar Pradesh,Hardoi,Sandila,1930,0.5928,1.05,0.8639,1.2457,0.1797,2,False
+13b1a3eced8778cea80623ef3d42b8f9,1,Tomato,Uttar Pradesh,Hardoi,Shahabad (New Mandi),1336,0.5778,1.1254,0.4675,1.3871,0.0757,8,False
+97863210fcc6faab9cbc4f0d1d1783fa,1,Tomato,Uttar Pradesh,Hathras,Haathras,2194,0.6575,0.9648,0.7685,1.4189,0.2365,7,False
+e748618c4e3f1dd8af20f8e22fef2438,1,Tomato,Uttar Pradesh,Hathras,Shadabad,2355,0.6533,0.803,0.8246,1.3565,0.1824,7,False
+c97e34d617936149c4095ec541972980,1,Tomato,Uttar Pradesh,Jalaun (Orai),Jalaun,2374,0.6901,0.9152,0.8307,1.5083,0.2591,5,False
+3bc13d729e6498520cd478ec8a0d6aa6,1,Tomato,Uttar Pradesh,Jalaun (Orai),Konch,1996,0.6918,0.911,0.7058,1.14,0.1651,3,False
+6c05f2f53d3584a9490310883e120253,1,Tomato,Uttar Pradesh,Jalaun (Orai),Orai,2263,0.6784,0.9583,0.7915,1.3214,0.1707,4,False
+a7f2044746a0e8c76bdd2202b8bc20ee,1,Tomato,Uttar Pradesh,Jaunpur,Jaunpur,2190,0.6761,1.0201,0.7671,1.3564,0.2038,2,False
+18bc9bf23ec9bbec3516a20bde0a6e67,1,Tomato,Uttar Pradesh,Jaunpur,Mugrabaadshahpur,2175,0.6466,1.0161,0.7737,1.5068,0.1872,2,False
+773ad8ae80b1dc05593ebdec7d315a89,1,Tomato,Uttar Pradesh,Jaunpur,Shahganj,2228,0.6517,1.0118,0.7787,1.3467,0.199,3,False
+9007419d65f1816892c47acb3110e59c,1,Tomato,Uttar Pradesh,Jhansi,Chirgaon,1893,0.7242,0.9246,0.6658,1.7082,0.2155,4,False
+ff6ec6b7c230ed4c515117ab4bebacdc,1,Tomato,Uttar Pradesh,Jhansi,Gurusarai,808,0.7577,1.0002,0.8707,2.2107,0.1973,3,False
+14aa0bdc2b48f548817af1b3cb03134c,1,Tomato,Uttar Pradesh,Jhansi,Jhansi,2127,0.7039,0.9081,0.7447,1.4615,0.1845,3,False
+56f83c2983f41e39d09324b4c16fb1a7,1,Tomato,Uttar Pradesh,Jhansi,Mauranipur,2093,0.6703,0.9608,0.8335,1.338,0.185,1,False
+1ca2175b7aaa6950ec0de9523dba4849,1,Tomato,Uttar Pradesh,Jhansi,Moth,2338,0.7189,0.917,0.8227,1.5538,0.2022,3,False
+a97fabbd0277a3333e7fe740f6324762,1,Tomato,Uttar Pradesh,Kannuj,Chhibramau,1799,0.5452,1.0942,0.6317,1.3581,0.132,6,False
+42a4a10bd54e2b8e3baadccd222ef7e0,1,Tomato,Uttar Pradesh,Kannuj,Kannauj,2330,0.5966,1.0418,0.8153,1.2667,0.1954,5,False
+d1abd50913f1ced3d2f03ddfd56da304,1,Tomato,Uttar Pradesh,Kanpur,Choubepur,2309,0.6572,1.0173,0.8088,1.227,0.2036,5,False
+d252c829c04f433ce19e32cee02b5bfe,1,Tomato,Uttar Pradesh,Kanpur,Kanpur (Grain),2303,0.6085,1.0395,0.8061,1.2452,0.2009,6,False
+15215b57a3b9feee6d2658c9fbbdf17c,1,Tomato,Uttar Pradesh,Kanpur,Uttaripura,1024,0.9163,0.8165,0.3597,2.9893,0.2528,5,False
+b1c5cf496a6395c38dfbb96624109815,1,Tomato,Uttar Pradesh,Kanpur,Varipaal,1297,0.5999,0.8426,0.4549,1.3636,0.2306,5,False
+b80ace3735b5627e16be843f47a8f5bb,1,Tomato,Uttar Pradesh,Kanpur Dehat,Jhijhank,1713,0.653,1.0679,0.6516,1.3595,0.2338,5,False
+a45ceeaa2f8fd1b4cdd95f8c992bcc4b,1,Tomato,Uttar Pradesh,Kanpur Dehat,Pukharayan,2340,0.6203,1.012,0.8185,1.3265,0.2114,5,False
+af74a13ac61ff8730861531b6ea139c8,1,Tomato,Uttar Pradesh,Kanpur Dehat,Rura,1431,0.5734,1.2854,0.5021,1.25,0.0608,5,False
+8d4dfe95e915d52c8f08275ec8af8560,1,Tomato,Uttar Pradesh,Kasganj,Kasganj,2058,0.5764,0.9664,0.7208,1.266,0.1815,5,False
+f24d688af055db8cedca5f1cee490f08,1,Tomato,Uttar Pradesh,Kaushambi,Bharwari,824,0.7283,1.034,0.4114,2.3215,0.1866,5,False
+766b3eb33b753a914917a2ee39b0714f,1,Tomato,Uttar Pradesh,Kaushambi,Manjhanpur,461,0.5415,1.0542,0.8831,1.5456,0.1622,5,False
+2b88248f188cae366fb0a8d4d1931a53,1,Tomato,Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,1405,0.6195,1.11,0.4984,1.2438,0.1025,5,False
+2af3747987374b5e19bbf93a8c151ad4,1,Tomato,Uttar Pradesh,Khiri (Lakhimpur),Mohammdi,1374,0.63,1.0244,0.5514,1.2429,0.185,5,False
+7763aab5e4513d822fb13952eb3428f1,1,Tomato,Uttar Pradesh,Khiri (Lakhimpur),Tikonia,647,0.5773,1.0264,0.2278,1.1786,0.1156,1,False
+bbde7724b6d4551bfff263efc4a84dc5,1,Tomato,Uttar Pradesh,Kushinagar,Tamkuhi road,1424,0.5553,1.0411,0.4981,0.9492,0.1592,0,False
+0d6d9c3414ddc91624ad2a911c9c1e26,1,Tomato,Uttar Pradesh,Lakhimpur,Golagokarnath,2125,0.5721,1.0751,0.7867,1.0857,0.1573,1,False
+e4b656fb0f530c21e07dd3bc66993af6,1,Tomato,Uttar Pradesh,Lakhimpur,Lakhimpur,2537,0.5786,1.0983,0.8908,1.1758,0.1561,3,False
+3595860b044ff18c2866a1a7d16d744d,1,Tomato,Uttar Pradesh,Lakhimpur,Paliakala,1581,0.5442,1.1165,0.5598,1.2418,0.1126,1,False
+2b40c99eb722fcb77aae247a742544df,1,Tomato,Uttar Pradesh,Lalitpur,Lalitpur,2170,0.6376,0.9484,0.7638,1.3406,0.1677,0,False
+d1b56265441f64623ec3cbb989eeac5e,1,Tomato,Uttar Pradesh,Lucknow,Lucknow,2595,0.5835,1.1244,0.9083,1.2647,0.1941,5,False
+3a36bc8fc73276a755bcde61988b0918,1,Tomato,Uttar Pradesh,Maharajganj,Anandnagar,2161,0.6165,1.005,0.7556,1.1268,0.2287,4,False
+f77dbc5f4abf3aee6346721c7f229ccf,1,Tomato,Uttar Pradesh,Maharajganj,Gadaura,2279,0.4625,1.2457,0.7966,0.8529,0.138,4,False
+d4040120bb237e8a2438fa2e1befa67a,1,Tomato,Uttar Pradesh,Maharajganj,Maharajganj,500,0.4846,1.3364,0.4098,1.561,0.0911,3,False
+756b3dd528c2c90387ee352881a0204c,1,Tomato,Uttar Pradesh,Maharajganj,Nautnava,2065,0.5413,0.9474,0.7218,0.8962,0.1588,4,False
+44303cc2f170bf68ac78684a1249ae9f,1,Tomato,Uttar Pradesh,Maharajganj,Partaval,2009,0.6136,1.0505,0.7022,1.3017,0.1838,4,False
+8dff0797637af060917b4f3f8fed98c0,1,Tomato,Uttar Pradesh,Mahoba,Mahoba,2276,0.6668,0.9833,0.7961,1.5088,0.1732,4,False
+55ea2cd37d0a9b2d6f3ed1f264af99f3,1,Tomato,Uttar Pradesh,Mainpuri,Bewar,401,0.517,0.9612,0.1406,1.52,0.209,6,False
+093c1320b8702a47c1b5d1b036a06271,1,Tomato,Uttar Pradesh,Mainpuri,Ghiraur,2331,0.647,0.9417,0.815,1.3852,0.1966,8,False
+3ececbc8b73254454e28fdaa34b0f838,1,Tomato,Uttar Pradesh,Mainpuri,Mainpuri,2344,0.6506,0.9309,0.8196,1.4346,0.2136,7,False
+6882ffbfcab1b4e30233660346a159c1,1,Tomato,Uttar Pradesh,Mathura,Kosikalan,2063,0.6104,0.9657,0.7226,1.1507,0.1819,2,False
+b383adf766a09108ebd09fe593002277,1,Tomato,Uttar Pradesh,Mathura,Mathura,2333,0.6072,0.9775,0.8169,1.1,0.1882,5,False
+791b21b4345aafcc49585283260c0156,1,Tomato,Uttar Pradesh,Mau (Maunathbhanjan),Doharighat,943,0.616,1.1882,0.5167,1.8334,0.2282,2,False
+4e23efe5c975db085652a08aab4cfd2b,1,Tomato,Uttar Pradesh,Mau (Maunathbhanjan),Kopaganj,2023,0.6689,0.9517,0.7081,1.1641,0.1912,7,False
+421f4853932669eaaa916b704df58b88,1,Tomato,Uttar Pradesh,Meerut,Mawana,1071,0.4678,0.9441,0.375,0.7862,0.1426,9,False
+6d6756285ca027b13a135809bb0714c9,1,Tomato,Uttar Pradesh,Meerut,Meerut,2172,0.6092,0.9616,0.7618,1.1815,0.1611,12,False
+0edcfa038e936456395a876416a40fb0,1,Tomato,Uttar Pradesh,Meerut,Parikshitgarh,236,0.3747,0.9032,0.0865,0.7742,0.076,10,False
+eeab9f78534e97a1a25551520b8e7f84,1,Tomato,Uttar Pradesh,Meerut,Sardhana,863,0.5903,0.9296,0.3041,1.0,0.1879,14,False
+57da0ca657044e3f0fbbc9efe5e19d42,1,Tomato,Uttar Pradesh,Mirzapur,Ahirora,1517,0.9044,0.7712,0.5592,2.6293,0.3244,2,True
+5836a40011451d4506e11c68d62b7cdd,1,Tomato,Uttar Pradesh,Mirzapur,Mirzapur,2199,0.6744,0.9769,0.7694,1.5594,0.2088,3,False
+2cc555d1e7c4421001c12b887f4e79b0,1,Tomato,Uttar Pradesh,Muzaffarnagar,Khatauli,1441,0.4444,0.8373,0.5044,0.648,0.1057,11,False
+b33de194b9b366cda35bd501ec52be6c,1,Tomato,Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,2595,0.5802,1.022,0.9137,1.0739,0.1235,8,False
+1b6f6c583f631790a9ebd421accbec85,1,Tomato,Uttar Pradesh,Muzaffarnagar,Shahpur,639,0.4963,0.9201,0.2241,0.3418,0.0159,11,False
+c3a8e3b5982866db1865bcde292d4e4b,1,Tomato,Uttar Pradesh,Pillibhit,Billsadda,692,0.2967,0.7052,0.846,0.4433,0.0641,2,False
+bef5e72132300e0e0cecf58a16cb159f,1,Tomato,Uttar Pradesh,Pillibhit,Pilibhit,2710,0.6406,1.0564,0.9482,1.3333,0.1833,3,False
+a576a0aff0c01adc7b3d91da38e3cfd1,1,Tomato,Uttar Pradesh,Pillibhit,Puranpur,2606,0.643,1.0579,0.9109,1.348,0.1754,2,False
+fb13c9270e196e916c866e3c88398cd2,1,Tomato,Uttar Pradesh,Pillibhit,Vishalpur,2362,0.645,1.0565,0.8506,1.2667,0.1655,2,False
+bc2e057ab91a73e1453c98fc42bee02f,1,Tomato,Uttar Pradesh,Pratapgarh,Pratapgarh,2712,0.6226,1.1374,0.9483,1.2424,0.1979,0,False
+743ecb2d89741e8ba4e9918a4b50fc20,1,Tomato,Uttar Pradesh,Prayagraj,Ajuha,2436,0.6173,1.0359,0.8515,1.4315,0.157,5,False
+9624e769e185da05f4aebf72024b0c53,1,Tomato,Uttar Pradesh,Prayagraj,Allahabad,1784,0.5782,1.0695,0.6249,1.4643,0.1553,3,False
+808c2fc76fe1f1794155bf4a78a24b09,1,Tomato,Uttar Pradesh,Prayagraj,Jasra,1821,0.6749,0.9849,0.6392,1.5307,0.1641,4,False
+8feb1db4cb77da5e6fc76e6f21f7117e,1,Tomato,Uttar Pradesh,Prayagraj,Sirsa,1036,0.45,1.0292,0.6697,1.2946,0.1571,2,False
+426148d836bb79a43c64d8c11771cc78,1,Tomato,Uttar Pradesh,Raebarelli,Bachranwa,392,0.5544,1.0028,0.5355,1.4221,0.1538,5,False
+a0642abba31b903b8a1b539c82b8dc5f,1,Tomato,Uttar Pradesh,Raebarelli,Jayas,1910,0.7039,1.0524,0.6676,1.5683,0.2017,5,False
+de1fb0dda6d05566995f9801c5f775d8,1,Tomato,Uttar Pradesh,Raebarelli,Lalganj,1837,0.6116,1.0069,0.8477,1.5938,0.1877,5,False
+37b8f379628c22a3c3cc2887f86ab99d,1,Tomato,Uttar Pradesh,Raebarelli,Raibareilly,2412,0.5921,1.0592,0.8445,1.3782,0.1992,5,False
+ab14f1e37fd75594775bdd2342403275,1,Tomato,Uttar Pradesh,Raebarelli,Salon,324,0.5163,1.0021,0.5586,1.7235,0.0975,2,False
+9d3c8e75adfff47a2c9bbc9e90204ea8,1,Tomato,Uttar Pradesh,Rampur,Milak,1497,0.6463,1.013,0.671,1.3738,0.1922,4,False
+6594c0f76749d1aa97ef79ab437f6e91,1,Tomato,Uttar Pradesh,Rampur,Rampur,1909,0.6821,1.017,0.6679,1.4185,0.155,3,False
+4b286fe0792334f10b04f38887125e1e,1,Tomato,Uttar Pradesh,Rampur,Tanda (Rampur),824,0.4757,0.5504,0.292,0.71,0.0179,3,True
+a5a8213785c607b8c45ba4be683727ad,1,Tomato,Uttar Pradesh,Rampur,Vilaspur,216,0.3072,1.0638,0.1479,0.7913,0.0097,4,False
+3401ec92384b27c39635f33113f8a503,1,Tomato,Uttar Pradesh,Saharanpur,Chutmalpur,2294,0.4462,0.9874,0.8021,0.9,0.1689,3,False
+b3c4f1c0a343dd9548953fe40c520e56,1,Tomato,Uttar Pradesh,Saharanpur,Deoband,984,0.5484,0.731,0.3448,0.3333,0.0466,7,True
+540e2e98f388b5bf1e5f725262db769b,1,Tomato,Uttar Pradesh,Saharanpur,Gangoh,2053,0.6049,1.1327,0.7178,1.3257,0.2184,6,False
+92fa48085af324235202bff3b0d21eb6,1,Tomato,Uttar Pradesh,Saharanpur,Rampurmaniharan,1510,0.5335,1.2775,0.5278,0.9697,0.0866,3,False
+0f2aa8e9ad60d1af369a28cff817121e,1,Tomato,Uttar Pradesh,Saharanpur,Saharanpur,2551,0.5874,1.0185,0.8938,1.0,0.1541,3,False
+fa29b4c9828bdd07538faead4da8d161,1,Tomato,Uttar Pradesh,Saharanpur,Sultanpurchilkana,292,0.1767,0.872,0.3489,0.6111,0.0226,3,False
+f36886adc86dace1133ab47b68522f60,1,Tomato,Uttar Pradesh,Sambhal,Chandausi,2197,0.6117,1.0205,0.8376,1.3716,0.1894,5,False
+54e19975302001a9eba702b02d71f3db,1,Tomato,Uttar Pradesh,Sambhal,Muradabad,2622,0.6338,1.0191,0.9174,1.3576,0.1891,4,False
+dd30f733a4d28925473111c7e7118e7b,1,Tomato,Uttar Pradesh,Sambhal,Sambhal,2408,0.5314,0.8118,0.9773,0.92,0.1143,5,True
+ff84ada06da989df003dca2e45f8e1ff,1,Tomato,Uttar Pradesh,Sant Kabir Nagar,Khalilabad,1749,0.4783,0.9135,0.6126,1.1364,0.1317,3,False
+5a983b5f6faf5b1aec3cb4600da981c4,1,Tomato,Uttar Pradesh,Shahjahanpur,Badda,395,0.3488,1.2612,0.401,0.97,0.2047,5,False
+7c745b086a382339552ca1c227bf9d00,1,Tomato,Uttar Pradesh,Shahjahanpur,Jalalabad,1092,0.4797,0.812,0.3832,0.8914,0.096,7,False
+9376a13982f9b3a2e6d774202d026751,1,Tomato,Uttar Pradesh,Shahjahanpur,Puwaha,2487,0.6076,1.1218,0.8696,1.2739,0.2048,5,False
+355c668c69f5094f95891646a98479ae,1,Tomato,Uttar Pradesh,Shahjahanpur,Shahjahanpur,1640,0.5924,1.0783,0.5764,1.0844,0.1184,6,False
+b45811dfc4863d4e4095f0f98c425beb,1,Tomato,Uttar Pradesh,Shahjahanpur,Tilhar,2289,0.7147,0.8202,0.8015,1.3,0.2254,5,False
+79ddfc3e3241bfd1c995586a289dcd97,1,Tomato,Uttar Pradesh,Shamli,Kairana,1608,0.4918,0.9641,0.563,1.0722,0.1329,8,False
+1007b0ed1cdd29927d04f8546c5546a3,1,Tomato,Uttar Pradesh,Shamli,Khandhla,1656,0.4381,1.0754,0.5788,0.2672,0.1554,10,False
+fde8183e4b4546d9f6a2d6e6e082c8c7,1,Tomato,Uttar Pradesh,Shamli,Shamli,2312,0.5799,1.046,0.8087,1.0959,0.1403,10,False
+b5e449ad6a41302f89ffc302d6029c92,1,Tomato,Uttar Pradesh,Shamli,Thanabhavan,2458,0.5747,1.0612,0.8631,1.1241,0.1015,10,False
+255d34c3ccfdccb2ae2a5cd0548567cb,1,Tomato,Uttar Pradesh,Shravasti,Bhinga,387,0.5351,1.069,0.7442,1.4177,0.2553,4,False
+114d92a1065c391abe0bf2bfb8ba3f94,1,Tomato,Uttar Pradesh,Shravasti,Payagpur,438,0.6286,1.0679,0.169,1.3684,0.3156,6,False
+de53469bc6dd7bf4aa092145c5eb7fb1,1,Tomato,Uttar Pradesh,Siddharth Nagar,Naugarh,1340,0.6175,1.0149,0.5144,1.2137,0.1615,3,False
+8a087ff67316336ae81f8aa8c191ac24,1,Tomato,Uttar Pradesh,Siddharth Nagar,Sahiyapur,1737,0.5823,0.9785,0.6099,1.0248,0.1939,2,False
+0526caa69431e91f894341e2c881d6f0,1,Tomato,Uttar Pradesh,Sitapur,Mehmoodabad,1371,0.4954,1.0834,0.4797,1.1371,0.1399,2,False
+2785c50f020405133774077370463585,1,Tomato,Uttar Pradesh,Sitapur,Sitapur,2322,0.581,1.0869,0.8119,1.2328,0.1476,3,False
+32780de6be1b1306378dcc5c9a030cf7,1,Tomato,Uttar Pradesh,Sitapur,Viswan,946,0.6273,1.0587,0.787,1.6533,0.1789,2,False
+420009c0ccc100e93f467be15939c847,1,Tomato,Uttar Pradesh,Sonbhadra,Dudhi,2249,0.6845,0.8517,0.7944,2.1818,0.1908,0,False
+781334fbec2dd8b22a41fe060b21fe30,1,Tomato,Uttar Pradesh,Sonbhadra,Robertsganj,2118,0.6873,0.9728,0.7406,1.6875,0.23,0,False
+15c4dc0231d25a8a82996c85a80c78ad,1,Tomato,Uttar Pradesh,Unnao,Bangarmau,2263,0.624,1.0554,0.7926,1.2581,0.1554,6,False
+3f379a6fd173e1d25a01ff4dd61fd457,1,Tomato,Uttar Pradesh,Unnao,Purwa,1927,0.6588,1.0455,0.8012,1.3477,0.1818,4,False
+37585142079ab77bb0b564e67f7e15b8,1,Tomato,Uttar Pradesh,Unnao,Unnao,2356,0.6076,1.045,0.8258,1.3869,0.1924,4,False
+3cb50565f19b36c0629c9c1b3dbf635e,1,Tomato,Uttar Pradesh,Varanasi,Varanasi,192,0.5211,0.964,0.6486,1.5082,0.2781,2,False
+892ab277792b8ddcd430471c73411c07,1,Tomato,Uttar Pradesh,Varanasi,Varanasi (F&V),1846,0.67,1.0313,0.6452,1.3931,0.227,2,False

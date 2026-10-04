@@ -2,13 +2,13 @@
 
 "Google Flights for farmers' vegetable prices": which mandi gives the best *net* price for a crop this week, early warning before prices crash, and which districts are structurally stuck with bad prices.
 
-Status: **Phase 3 done (analysis marts, EDA, findings)**. Findings: [reports/PHASE3_FINDINGS.md](reports/PHASE3_FINDINGS.md). Progress log: [PROGRESS.md](PROGRESS.md). Data: [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md). Plan: [MANDI_PULSE_SPEC.md](MANDI_PULSE_SPEC.md).
+Status: **Phase 4 done (forecast, crash warning, market segments)**. Findings: [reports/PHASE3_FINDINGS.md](reports/PHASE3_FINDINGS.md); ML results: [reports/ML_REPORT.md](reports/ML_REPORT.md). Progress log: [PROGRESS.md](PROGRESS.md). Data: [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md). Plan: [MANDI_PULSE_SPEC.md](MANDI_PULSE_SPEC.md).
 
 ## Quick start (so far)
 
 ```bash
 uv venv --python 3.11 .venv
-uv pip install --python .venv -e ".[dev,dbt,notebooks]"
+uv pip install --python .venv -e ".[dev,dbt,notebooks,ml]"
 cp .env.example .env
 docker compose up -d                       # Postgres 16
 python -m mandipulse profile-kaggle        # Phase 0 data profile (DuckDB on the Parquet archive)
@@ -16,6 +16,9 @@ python -m mandipulse load                  # Kaggle slice -> Postgres raw.mandi_
 python -m mandipulse dbt build             # staging, quality flags, star schema, analysis marts + tests
 python -m mandipulse queries phase3        # every reported number -> reports/tables/phase3/
 python -m nbconvert --to notebook --execute --inplace notebooks/0*.ipynb   # figures -> reports/figures/
+python -m mandipulse ml train-all          # forecast, crash warning, clusters, SHAP (~1 h)
+python -m mandipulse ml score              # latest dates -> ml.price_forecast / crash_risk / market_cluster
+python -m mandipulse ml report             # reports/ML_REPORT.md from the saved metrics
 ```
 
 The raw Kaggle archive is not in git: download "Daily Market Prices of Commodity India (2001-2026)" (GODL-India licence) from Kaggle and put the yearly Parquet files in `data/raw/kaggle/`.

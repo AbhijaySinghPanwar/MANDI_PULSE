@@ -119,6 +119,104 @@ def data_dictionary() -> None:
     typer.echo(f"wrote {OUT.relative_to(PROJECT_ROOT).as_posix()}")
 
 
+ml_app = typer.Typer(help="Machine learning: train, explain, score (spec 9).", no_args_is_help=True)
+app.add_typer(ml_app, name="ml")
+
+
+@ml_app.command("train-all")
+def ml_train_all() -> None:
+    """Train + evaluate Model A (forecast), B (crash), C (clusters); SHAP plots; save artifacts."""
+    from mandipulse.ml.cluster import run_clustering
+    from mandipulse.ml.explain import explain_all
+    from mandipulse.ml.train_crash import train_crash
+    from mandipulse.ml.train_forecast import train_forecast
+
+    typer.echo("Model A: price forecast")
+    a = train_forecast()["walk_forward"]
+    typer.echo(
+        f"  best baseline {a['best_baseline']}; "
+        f"MAE improvement {a['mae_improvement_vs_best_baseline_pct']}%"
+    )
+    typer.echo("Model B: crash warning")
+    b = train_crash()["verdict"]
+    typer.echo(
+        f"  beats seasonal rule: all={b['all']['beats_seasonal_rule']}, "
+        f"December={b['december']['beats_seasonal_rule']}, "
+        f"other={b['other_months']['beats_seasonal_rule']}"
+    )
+    typer.echo("Model C: clustering")
+    c = run_clustering()
+    typer.echo(
+        f"  k={c['chosen_k']}; suspect series by cluster: {c['suspect_series']['by_cluster']}"
+    )
+    typer.echo("SHAP")
+    explain_all()
+
+
+@ml_app.command("train-forecast")
+def ml_train_forecast() -> None:
+    """Model A only."""
+    from mandipulse.ml.train_forecast import train_forecast
+
+    a = train_forecast()["walk_forward"]
+    typer.echo(
+        f"  MAE improvement vs {a['best_baseline']}: {a['mae_improvement_vs_best_baseline_pct']}%"
+    )
+
+
+@ml_app.command("train-crash")
+def ml_train_crash() -> None:
+    """Model B only."""
+    from mandipulse.ml.train_crash import train_crash
+
+    typer.echo(str(train_crash()["verdict"]))
+
+
+@ml_app.command("cluster")
+def ml_cluster() -> None:
+    """Model C only."""
+    from mandipulse.ml.cluster import run_clustering
+
+    c = run_clustering()
+    typer.echo(
+        f"  k={c['chosen_k']}; suspect series by cluster: {c['suspect_series']['by_cluster']}"
+    )
+
+
+@ml_app.command("explain")
+def ml_explain() -> None:
+    """SHAP plots + rankings for Models A and B."""
+    from mandipulse.ml.explain import explain_all
+
+    explain_all()
+
+
+@ml_app.command("report")
+def ml_report() -> None:
+    """Render reports/ML_REPORT.md from the saved metrics files."""
+    from mandipulse.ml.report import render
+
+    typer.echo(f"wrote {render()}")
+
+
+@ml_app.command("score")
+def ml_score() -> None:
+    """Score the latest available dates into ml.price_forecast, ml.crash_risk, ml.market_cluster."""
+    from mandipulse.ml.score import score_all
+
+    for table, n in score_all().items():
+        typer.echo(f"  ml.{table}: {n} rows")
+
+
+@ml_app.command("init-schema")
+def ml_init_schema() -> None:
+    """Create the (empty) ml.* tables."""
+    from mandipulse.ml.score import init_schema
+
+    init_schema()
+    typer.echo("ml schema ready")
+
+
 @app.command("version")
 def version() -> None:
     """Print the package version."""

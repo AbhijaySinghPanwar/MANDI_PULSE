@@ -1,0 +1,70 @@
+version: 2
+
+# Tables written by `python -m mandipulse ml score` (schema ml, DDL in src/mandipulse/ml/schema.sql).
+# CI creates them empty with `python -m mandipulse ml init-schema` so these tests always run.
+sources:
+  - name: ml
+    schema: ml
+    tables:
+      - name: price_forecast
+        description: Model A 7-day forecasts (p10 / p50 / p90, Rs per quintal) for the latest available dates.
+        tests:
+          - unique_combination:
+              arguments:
+                columns: [date, market_key, commodity_key, horizon_date, model_version]
+          - expression_is_true:
+              arguments: {expression: "p10 <= p50 and p50 <= p90"}
+          - expression_is_true:
+              arguments: {expression: "p10 > 0 and horizon_date = date + 7"}
+        columns:
+          - name: date
+            tests: [not_null]
+          - name: market_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_market'), field: market_key}
+          - name: commodity_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_commodity'), field: commodity_key}
+          - name: model_version
+            tests: [not_null]
+      - name: crash_risk
+        description: Model B probability of a crash in the next 14 days, with the alert flag at the validated threshold.
+        tests:
+          - unique_combination:
+              arguments:
+                columns: [date, market_key, commodity_key, model_version]
+          - expression_is_true:
+              arguments: {expression: "prob >= 0 and prob <= 1"}
+          - expression_is_true:
+              arguments: {expression: "alert_flag = (prob >= threshold)"}
+        columns:
+          - name: market_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_market'), field: market_key}
+          - name: commodity_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_commodity'), field: commodity_key}
+          - name: prob
+            tests: [not_null]
+      - name: market_cluster
+        description: Model C cluster per market x commodity with a plain-English name.
+        tests:
+          - unique_combination:
+              arguments:
+                columns: [market_key, commodity_key, model_version]
+        columns:
+          - name: market_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_market'), field: market_key}
+          - name: cluster_name
+            tests: [not_null]
