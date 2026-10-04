@@ -70,9 +70,11 @@ opportunity:
   min_gain_abs: 100
   min_gain_pct: 0.05
   scenarios:
-    low:  { cost_per_qtl_km: 1.0, fixed_cost_per_qtl: 30 }
-    mid:  { cost_per_qtl_km: 1.5, fixed_cost_per_qtl: 50 }
-    high: { cost_per_qtl_km: 2.5, fixed_cost_per_qtl: 80 }
+    # fee_pct: commission + market fees as a share of the DESTINATION price (decision 2026-10-04;
+    # fees vary by state, see docs/ASSUMPTIONS.md)
+    low:  { cost_per_qtl_km: 1.0, fixed_cost_per_qtl: 30, fee_pct: 0.04 }
+    mid:  { cost_per_qtl_km: 1.5, fixed_cost_per_qtl: 50, fee_pct: 0.06 }
+    high: { cost_per_qtl_km: 2.5, fixed_cost_per_qtl: 80, fee_pct: 0.08 }
 
 district_access:
   near_radius_km: 50
@@ -91,5 +93,6 @@ ml:
     horizon_days: 14
     lookback_days: 30
     drop_ratio: 0.7
+    min_days_below: 2              # crash = >= 2 report days in the next 14 below drop_ratio x trailing median (decision 2026-10-04)
     target_precision: 0.6
   cluster_k_range: [3, 4, 5, 6]

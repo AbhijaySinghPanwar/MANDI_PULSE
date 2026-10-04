@@ -1,16 +1,16 @@
 state,district,market,geo_precision,n_opportunities,avg_gain,avg_road_km
-Uttar Pradesh,Ghaziabad,Ghaziabad,market,38092,464.0,59.0
-Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,market,36864,504.0,67.0
-Uttar Pradesh,Meerut,Meerut,market,35720,494.0,66.0
-Uttar Pradesh,Ghaziabad,Hapur,market,31933,467.0,56.0
-Uttar Pradesh,Bulandshahar,Jahangirabad,market,30369,475.0,60.0
-Uttar Pradesh,Gautam Budh Nagar,Dadri,market,29031,449.0,50.0
-Uttar Pradesh,Amroha,Hasanpur,market,26433,515.0,65.0
-Uttar Pradesh,Bulandshahar,Anoop Shahar,district_centroid,25692,567.0,64.0
-Uttar Pradesh,Sambhal,Muradabad,district_centroid,25329,496.0,67.0
-Uttar Pradesh,Shamli,Shamli,market,24180,500.0,42.0
-Uttar Pradesh,Bulandshahar,Khurja,market,23647,426.0,57.0
-Uttar Pradesh,Sambhal,Chandausi,market,22697,479.0,69.0
-Uttar Pradesh,Ghaziabad,Noida,market,21635,428.0,53.0
-Uttar Pradesh,Bulandshahar,Buland Shahr,district_centroid,19826,450.0,74.0
-Uttar Pradesh,Amroha,Amroha,market,19695,565.0,59.0
+Uttar Pradesh,Ghaziabad,Ghaziabad,market,29913,434.0,60.0
+Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,market,29371,479.0,66.0
+Uttar Pradesh,Meerut,Meerut,market,28131,470.0,66.0
+Uttar Pradesh,Ghaziabad,Hapur,market,25007,444.0,56.0
+Uttar Pradesh,Bulandshahar,Jahangirabad,market,23578,455.0,58.0
+Uttar Pradesh,Gautam Budh Nagar,Dadri,market,22679,423.0,49.0
+Uttar Pradesh,Amroha,Hasanpur,market,21574,486.0,64.0
+Uttar Pradesh,Sambhal,Muradabad,district_centroid,19836,474.0,66.0
+Uttar Pradesh,Bulandshahar,Anoop Shahar,district_centroid,19752,541.0,65.0
+Uttar Pradesh,Shamli,Shamli,market,19312,472.0,41.0
+Uttar Pradesh,Bulandshahar,Khurja,market,17676,409.0,56.0
+Uttar Pradesh,Sambhal,Chandausi,market,17573,461.0,68.0
+Uttar Pradesh,Amroha,Amroha,market,16165,532.0,58.0
+Uttar Pradesh,Ghaziabad,Noida,market,16162,406.0,53.0
+Uttar Pradesh,Kanpur Dehat,Rura,market,16071,610.0,49.0

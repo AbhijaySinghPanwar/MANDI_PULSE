@@ -1,10 +1,11 @@
--- Sanity: how sensitive is the spec 9.2 crash label to a single low quote?
+-- Sanity: how sensitive is the ORIGINAL spec 9.2 crash label (is_crash_any) to a single low quote?
+-- (The project now uses 'sustained', decision 2026-10-04.)
 --   spec       = min(price over next 14 days) < 0.7 x trailing 30-day median (one low report is enough)
 --   sustained  = at least 2 report days in the next 14 below 0.7 x trailing median
 --   majority   = more than half of the report days in the next 14 below 0.7 x trailing median
 -- Same eligibility as int_crash_labels (>= 5 lookback days, >= 1 horizon day, horizon inside period).
 with l as (
-    select market_key, commodity_key, commodity, date, lookback_median, is_crash
+    select market_key, commodity_key, commodity, date, lookback_median, is_crash_any as is_crash
     from marts.int_crash_labels
     where is_crash is not null
 ),

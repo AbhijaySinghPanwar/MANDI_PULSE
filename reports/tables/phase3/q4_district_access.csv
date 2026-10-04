@@ -1,464 +1,464 @@
 state,district,commodity,n_markets_within_50km,avg_price_index,opportunity_rate_pct,is_price_trapped,n_markets_within_50km_market_precision,is_price_trapped_market_precision,n_price_days
-Gujarat,Junagarh,Onion,1,0.533,68.1,True,1,True,956
+Gujarat,Junagarh,Onion,1,0.533,59.7,True,1,True,956
 Madhya Pradesh,Guna,Potato,1,0.583,,True,1,True,1412
 Madhya Pradesh,Guna,Tomato,1,0.6,,True,1,True,612
 Maharashtra,Jalana,Potato,1,0.634,,True,1,True,52
 Madhya Pradesh,Tikamgarh,Onion,2,0.642,100.0,True,2,True,1
 Maharashtra,Jalana,Onion,1,0.646,61.3,True,1,True,52
-Maharashtra,Latur,Onion,1,0.666,80.0,True,1,True,5
+Maharashtra,Latur,Onion,1,0.666,60.0,True,1,True,5
 Madhya Pradesh,Katni,Tomato,2,0.711,,True,2,True,156
 Gujarat,Jamnagar,Onion,1,0.753,100.0,True,1,True,792
-Gujarat,Panchmahals,Tomato,1,0.756,80.0,True,1,True,5
-Madhya Pradesh,Bhind,Potato,2,0.765,100.0,True,2,True,42
-Madhya Pradesh,Chhindwara,Tomato,1,0.777,42.1,True,1,True,1841
+Gujarat,Panchmahals,Tomato,1,0.756,40.0,True,1,True,5
+Madhya Pradesh,Bhind,Potato,2,0.765,95.2,True,2,True,42
+Madhya Pradesh,Chhindwara,Tomato,1,0.777,37.9,True,1,True,1841
 Madhya Pradesh,Katni,Potato,1,0.805,,True,1,True,230
-Maharashtra,Beed,Onion,0,0.807,55.7,True,0,True,231
+Maharashtra,Beed,Onion,0,0.807,47.1,True,0,True,231
 Madhya Pradesh,Rewa,Tomato,1,0.82,35.7,True,1,True,113
-Madhya Pradesh,Khandwa,Potato,2,0.821,76.6,True,2,True,1355
-Madhya Pradesh,Rewa,Potato,1,0.831,42.9,True,1,True,125
-Madhya Pradesh,Badwani,Tomato,2,0.835,58.1,True,1,True,1945
-Maharashtra,Sholapur,Tomato,2,0.847,43.3,True,1,True,2676
-Gujarat,Morbi,Onion,1,0.848,14.9,True,1,True,1834
-Madhya Pradesh,Seoni,Tomato,1,0.849,3.4,True,1,True,143
-Madhya Pradesh,Chhatarpur,Potato,1,0.852,20.5,True,1,True,88
-Maharashtra,Chattrapati Sambhajinagar,Potato,2,0.858,32.5,True,1,True,2139
-Gujarat,Banaskanth,Potato,2,0.862,7.9,True,2,True,1654
-Maharashtra,Sholapur,Onion,2,0.879,38.4,True,1,True,2592
-Maharashtra,Chattrapati Sambhajinagar,Tomato,1,0.888,54.8,True,0,True,2216
+Madhya Pradesh,Khandwa,Potato,2,0.821,67.9,True,2,True,1355
+Madhya Pradesh,Rewa,Potato,1,0.831,35.7,True,1,True,125
+Madhya Pradesh,Badwani,Tomato,2,0.835,50.1,True,1,True,1945
+Maharashtra,Sholapur,Tomato,2,0.847,38.1,True,1,True,2676
+Gujarat,Morbi,Onion,1,0.848,10.2,True,1,True,1834
+Madhya Pradesh,Seoni,Tomato,1,0.849,2.3,True,1,True,143
+Madhya Pradesh,Chhatarpur,Potato,1,0.852,17.1,True,1,True,88
+Maharashtra,Chattrapati Sambhajinagar,Potato,2,0.858,22.1,True,1,True,2139
+Gujarat,Banaskanth,Potato,2,0.862,2.9,True,2,True,1654
+Maharashtra,Sholapur,Onion,2,0.879,30.6,True,1,True,2592
+Maharashtra,Chattrapati Sambhajinagar,Tomato,1,0.888,50.9,True,0,True,2216
 Madhya Pradesh,Agar Malwa,Onion,2,0.889,86.7,True,1,True,16
-Maharashtra,Amarawati,Potato,2,0.891,40.5,True,1,True,2243
+Maharashtra,Amarawati,Potato,2,0.891,32.1,True,1,True,2243
 Madhya Pradesh,Guna,Onion,2,0.898,,True,2,True,318
-Madhya Pradesh,Morena,Potato,5,0.685,73.4,False,3,False,2317
-Gujarat,Amreli,Onion,3,0.738,32.6,False,3,False,135
-Gujarat,Rajkot,Onion,3,0.77,31.4,False,3,False,2169
-Maharashtra,Buldhana,Onion,3,0.779,36.5,False,2,True,653
-Madhya Pradesh,Khandwa,Onion,3,0.793,66.1,False,2,True,2336
-Madhya Pradesh,Satna,Potato,3,0.805,56.9,False,2,True,460
-Madhya Pradesh,Shajapur,Potato,8,0.812,60.9,False,7,False,1183
-Madhya Pradesh,Shivpuri,Tomato,5,0.825,55.1,False,4,False,1269
-Uttar Pradesh,Hathras,Potato,8,0.83,50.2,False,7,False,2629
-Madhya Pradesh,Rajgarh,Onion,5,0.833,60.4,False,4,False,1814
-Gujarat,Bhavnagar,Onion,3,0.834,31.3,False,2,True,1833
-Madhya Pradesh,Mandsaur,Onion,10,0.836,42.6,False,8,False,2053
-Maharashtra,Jalgaon,Onion,3,0.837,35.8,False,3,False,2437
-Gujarat,Mehsana,Potato,5,0.84,46.5,False,5,False,1812
-Maharashtra,Chattrapati Sambhajinagar,Onion,3,0.846,45.1,False,2,True,2652
-Madhya Pradesh,Bhopal,Potato,3,0.848,59.8,False,3,False,1870
-Gujarat,Gandhinagar,Potato,5,0.857,37.7,False,5,False,229
-Madhya Pradesh,Satna,Tomato,3,0.859,82.1,False,2,True,278
-Uttar Pradesh,Amroha,Onion,9,0.86,74.2,False,8,False,2792
-Uttar Pradesh,Jalaun (Orai),Onion,5,0.864,55.8,False,5,False,2754
-Madhya Pradesh,Rajgarh,Tomato,3,0.868,50.8,False,3,False,1750
-Uttar Pradesh,Amroha,Potato,9,0.87,60.2,False,8,False,2795
-Gujarat,Kheda,Potato,7,0.873,69.7,False,7,False,1962
-Uttar Pradesh,Jhansi,Onion,4,0.874,26.5,False,3,False,2802
-Uttar Pradesh,Hathras,Tomato,8,0.879,63.3,False,7,False,2577
-Uttar Pradesh,Bijnor,Onion,4,0.883,59.0,False,3,False,2800
-Madhya Pradesh,Shivpuri,Potato,4,0.885,20.8,False,3,False,1291
-Gujarat,Bharuch,Tomato,3,0.886,59.6,False,3,False,2335
-Gujarat,Kheda,Tomato,7,0.887,71.3,False,7,False,1906
-Uttar Pradesh,Farukhabad,Potato,8,0.888,40.1,False,6,False,2811
-Maharashtra,Nandurbar,Onion,4,0.889,35.1,False,2,True,308
-Madhya Pradesh,Ujjain,Potato,3,0.89,76.8,False,3,False,1673
-Gujarat,Amreli,Potato,3,0.891,59.1,False,3,False,445
-Uttar Pradesh,Lalitpur,Onion,3,0.892,8.8,False,3,False,2234
-Uttar Pradesh,Sambhal,Potato,6,0.893,49.9,False,5,False,2857
-Uttar Pradesh,Bulandshahar,Potato,11,0.899,60.1,False,10,False,2851
-Uttar Pradesh,Bareilly,Potato,5,0.901,34.2,False,4,False,2839
-Madhya Pradesh,Badwani,Onion,4,0.904,63.1,False,3,False,542
-Uttar Pradesh,Bijnor,Potato,4,0.904,45.8,False,3,False,2819
+Madhya Pradesh,Morena,Potato,5,0.685,66.7,False,3,False,2317
+Gujarat,Amreli,Onion,3,0.738,29.2,False,3,False,135
+Gujarat,Rajkot,Onion,3,0.77,22.4,False,3,False,2169
+Maharashtra,Buldhana,Onion,3,0.779,28.2,False,2,True,653
+Madhya Pradesh,Khandwa,Onion,3,0.793,60.4,False,2,True,2336
+Madhya Pradesh,Satna,Potato,3,0.805,44.3,False,2,True,460
+Madhya Pradesh,Shajapur,Potato,8,0.812,54.2,False,7,False,1183
+Madhya Pradesh,Shivpuri,Tomato,5,0.825,49.0,False,4,False,1269
+Uttar Pradesh,Hathras,Potato,8,0.83,40.2,False,7,False,2629
+Madhya Pradesh,Rajgarh,Onion,5,0.833,51.7,False,4,False,1814
+Gujarat,Bhavnagar,Onion,3,0.834,20.8,False,2,True,1833
+Madhya Pradesh,Mandsaur,Onion,10,0.836,35.0,False,8,False,2053
+Maharashtra,Jalgaon,Onion,3,0.837,28.6,False,3,False,2437
+Gujarat,Mehsana,Potato,5,0.84,31.7,False,5,False,1812
+Maharashtra,Chattrapati Sambhajinagar,Onion,3,0.846,34.3,False,2,True,2652
+Madhya Pradesh,Bhopal,Potato,3,0.848,52.9,False,3,False,1870
+Gujarat,Gandhinagar,Potato,5,0.857,30.9,False,5,False,229
+Madhya Pradesh,Satna,Tomato,3,0.859,75.5,False,2,True,278
+Uttar Pradesh,Amroha,Onion,9,0.86,64.2,False,8,False,2792
+Uttar Pradesh,Jalaun (Orai),Onion,5,0.864,40.8,False,5,False,2754
+Madhya Pradesh,Rajgarh,Tomato,3,0.868,47.2,False,3,False,1750
+Uttar Pradesh,Amroha,Potato,9,0.87,51.8,False,8,False,2795
+Gujarat,Kheda,Potato,7,0.873,56.7,False,7,False,1962
+Uttar Pradesh,Jhansi,Onion,4,0.874,16.3,False,3,False,2802
+Uttar Pradesh,Hathras,Tomato,8,0.879,53.7,False,7,False,2577
+Uttar Pradesh,Bijnor,Onion,4,0.883,47.5,False,3,False,2800
+Madhya Pradesh,Shivpuri,Potato,4,0.885,13.5,False,3,False,1291
+Gujarat,Bharuch,Tomato,3,0.886,51.0,False,3,False,2335
+Gujarat,Kheda,Tomato,7,0.887,63.1,False,7,False,1906
+Uttar Pradesh,Farukhabad,Potato,8,0.888,26.5,False,6,False,2811
+Maharashtra,Nandurbar,Onion,4,0.889,28.3,False,2,True,308
+Madhya Pradesh,Ujjain,Potato,3,0.89,71.6,False,3,False,1673
+Gujarat,Amreli,Potato,3,0.891,42.4,False,3,False,445
+Uttar Pradesh,Lalitpur,Onion,3,0.892,3.5,False,3,False,2234
+Uttar Pradesh,Sambhal,Potato,6,0.893,41.7,False,5,False,2857
+Uttar Pradesh,Bulandshahar,Potato,11,0.899,50.6,False,10,False,2851
+Uttar Pradesh,Bareilly,Potato,5,0.901,22.7,False,4,False,2839
+Madhya Pradesh,Badwani,Onion,4,0.904,53.6,False,3,False,542
+Uttar Pradesh,Bijnor,Potato,4,0.904,35.7,False,3,False,2819
 Maharashtra,Chandrapur,Tomato,1,0.905,,False,1,False,1504
-Uttar Pradesh,Agra,Tomato,6,0.907,57.7,False,5,False,2825
+Uttar Pradesh,Agra,Tomato,6,0.907,47.0,False,5,False,2825
 Maharashtra,Buldhana,Tomato,1,0.908,,False,0,False,4
-Uttar Pradesh,Shamli,Potato,11,0.912,55.9,False,9,False,2791
-Uttar Pradesh,Bareilly,Onion,5,0.913,50.3,False,4,False,2835
-Uttar Pradesh,Sant Kabir Nagar,Tomato,4,0.913,85.0,False,3,False,1749
-Uttar Pradesh,Sonbhadra,Tomato,2,0.916,32.4,False,2,False,2672
-Uttar Pradesh,Jhansi,Tomato,4,0.92,29.3,False,3,False,2772
-Maharashtra,Kolhapur,Tomato,2,0.921,46.9,False,1,False,2592
-Uttar Pradesh,Etah,Potato,6,0.921,32.1,False,5,False,2701
-Gujarat,Mehsana,Tomato,7,0.922,64.8,False,7,False,1846
+Uttar Pradesh,Shamli,Potato,11,0.912,45.6,False,9,False,2791
+Uttar Pradesh,Bareilly,Onion,5,0.913,37.2,False,4,False,2835
+Uttar Pradesh,Sant Kabir Nagar,Tomato,4,0.913,80.2,False,3,False,1749
+Uttar Pradesh,Sonbhadra,Tomato,2,0.916,24.4,False,2,False,2672
+Uttar Pradesh,Jhansi,Tomato,4,0.92,18.3,False,3,False,2772
+Maharashtra,Kolhapur,Tomato,2,0.921,38.8,False,1,False,2592
+Uttar Pradesh,Etah,Potato,6,0.921,20.8,False,5,False,2701
+Gujarat,Mehsana,Tomato,7,0.922,53.7,False,7,False,1846
 Madhya Pradesh,Anupur,Tomato,1,0.923,,False,1,False,281
-Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Tomato,5,0.923,44.6,False,4,False,1198
-Madhya Pradesh,Shajapur,Onion,9,0.924,59.9,False,8,False,2641
-Uttar Pradesh,Agra,Potato,6,0.924,33.1,False,5,False,2848
-Maharashtra,Dhule,Onion,6,0.926,33.8,False,5,False,1883
-Uttar Pradesh,Jalaun (Orai),Tomato,4,0.926,56.4,False,4,False,2776
-Uttar Pradesh,Bulandshahar,Tomato,11,0.929,81.8,False,10,False,2852
-Gujarat,Navsari,Tomato,5,0.93,37.8,False,4,False,1571
-Madhya Pradesh,Dhar,Tomato,5,0.931,69.7,False,5,False,2323
-Maharashtra,Dharashiv (Usmanabad),Potato,2,0.931,47.2,False,2,False,501
-Uttar Pradesh,Etah,Tomato,6,0.931,66.7,False,5,False,2633
-Uttar Pradesh,Firozabad,Tomato,8,0.932,57.5,False,8,False,2817
-Uttar Pradesh,Kannuj,Potato,6,0.932,44.7,False,5,False,2722
-Uttar Pradesh,Mirzapur,Tomato,3,0.932,29.6,False,2,False,2451
-Uttar Pradesh,Baghpat,Potato,12,0.933,57.6,False,10,False,2723
-Gujarat,Anand,Potato,9,0.935,67.5,False,9,False,2397
-Uttar Pradesh,Mainpuri,Potato,9,0.935,28.4,False,7,False,2816
-Uttar Pradesh,Amroha,Tomato,9,0.936,69.0,False,8,False,2741
-Uttar Pradesh,Mainpuri,Tomato,9,0.936,63.1,False,7,False,2774
-Maharashtra,Nashik,Tomato,8,0.937,46.4,False,7,False,2656
-Uttar Pradesh,Firozabad,Potato,8,0.937,30.1,False,8,False,2833
-Maharashtra,Nashik,Potato,1,0.939,25.5,False,1,False,2039
-Madhya Pradesh,Sheopur,Tomato,1,0.94,10.5,False,0,False,1259
-Madhya Pradesh,Ujjain,Onion,5,0.94,66.3,False,5,False,1744
-Uttar Pradesh,Mahoba,Onion,4,0.942,18.1,False,4,False,2338
-Gujarat,Anand,Tomato,9,0.944,52.5,False,9,False,2296
-Madhya Pradesh,Khandwa,Tomato,3,0.944,61.0,False,2,False,2170
-Uttar Pradesh,Chitrakut,Onion,4,0.944,19.6,False,3,False,2441
-Uttar Pradesh,Banda,Onion,4,0.946,25.0,False,3,False,2724
-Madhya Pradesh,Dewas,Onion,6,0.947,58.3,False,5,False,2130
-Uttar Pradesh,Auraiya,Potato,7,0.947,43.8,False,4,False,2691
-Uttar Pradesh,Badaun,Potato,5,0.947,28.5,False,4,False,2842
-Uttar Pradesh,Lalitpur,Tomato,1,0.948,11.9,False,1,False,2170
-Uttar Pradesh,Muzaffarnagar,Potato,9,0.948,48.3,False,8,False,2749
+Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Tomato,5,0.923,34.4,False,4,False,1198
+Madhya Pradesh,Shajapur,Onion,9,0.924,50.6,False,8,False,2641
+Uttar Pradesh,Agra,Potato,6,0.924,23.3,False,5,False,2848
+Maharashtra,Dhule,Onion,6,0.926,23.9,False,5,False,1883
+Uttar Pradesh,Jalaun (Orai),Tomato,4,0.926,44.0,False,4,False,2776
+Uttar Pradesh,Bulandshahar,Tomato,11,0.929,74.3,False,10,False,2852
+Gujarat,Navsari,Tomato,5,0.93,28.1,False,4,False,1571
+Madhya Pradesh,Dhar,Tomato,5,0.931,64.3,False,5,False,2323
+Maharashtra,Dharashiv (Usmanabad),Potato,2,0.931,35.3,False,2,False,501
+Uttar Pradesh,Etah,Tomato,6,0.931,53.0,False,5,False,2633
+Uttar Pradesh,Firozabad,Tomato,8,0.932,43.8,False,8,False,2817
+Uttar Pradesh,Kannuj,Potato,6,0.932,23.2,False,5,False,2722
+Uttar Pradesh,Mirzapur,Tomato,3,0.932,20.7,False,2,False,2451
+Uttar Pradesh,Baghpat,Potato,12,0.933,44.7,False,10,False,2723
+Gujarat,Anand,Potato,9,0.935,53.6,False,9,False,2397
+Uttar Pradesh,Mainpuri,Potato,9,0.935,17.3,False,7,False,2816
+Uttar Pradesh,Amroha,Tomato,9,0.936,61.6,False,8,False,2741
+Uttar Pradesh,Mainpuri,Tomato,9,0.936,46.6,False,7,False,2774
+Maharashtra,Nashik,Tomato,8,0.937,38.9,False,7,False,2656
+Uttar Pradesh,Firozabad,Potato,8,0.937,20.8,False,8,False,2833
+Maharashtra,Nashik,Potato,1,0.939,10.4,False,1,False,2039
+Madhya Pradesh,Sheopur,Tomato,1,0.94,6.8,False,0,False,1259
+Madhya Pradesh,Ujjain,Onion,5,0.94,57.7,False,5,False,1744
+Uttar Pradesh,Mahoba,Onion,4,0.942,9.6,False,4,False,2338
+Gujarat,Anand,Tomato,9,0.944,43.0,False,9,False,2296
+Madhya Pradesh,Khandwa,Tomato,3,0.944,54.9,False,2,False,2170
+Uttar Pradesh,Chitrakut,Onion,4,0.944,10.2,False,3,False,2441
+Uttar Pradesh,Banda,Onion,4,0.946,14.2,False,3,False,2724
+Madhya Pradesh,Dewas,Onion,6,0.947,51.2,False,5,False,2130
+Uttar Pradesh,Auraiya,Potato,7,0.947,31.3,False,4,False,2691
+Uttar Pradesh,Badaun,Potato,5,0.947,20.2,False,4,False,2842
+Uttar Pradesh,Lalitpur,Tomato,1,0.948,7.5,False,1,False,2170
+Uttar Pradesh,Muzaffarnagar,Potato,9,0.948,40.4,False,8,False,2749
 Madhya Pradesh,Katni,Onion,1,0.949,,False,1,False,167
-Uttar Pradesh,Aligarh,Potato,8,0.949,35.8,False,7,False,2816
-Uttar Pradesh,Hamirpur,Onion,8,0.949,27.4,False,7,False,2757
-Maharashtra,Nandurbar,Tomato,1,0.95,76.6,False,0,False,1507
-Uttar Pradesh,Shahjahanpur,Potato,6,0.95,39.8,False,5,False,2843
-Madhya Pradesh,Rajgarh,Potato,3,0.951,30.0,False,3,False,1668
-Maharashtra,Ahmednagar,Onion,8,0.951,46.4,False,7,False,2728
-Uttar Pradesh,Bijnor,Tomato,4,0.951,59.1,False,3,False,2815
+Uttar Pradesh,Aligarh,Potato,8,0.949,22.7,False,7,False,2816
+Uttar Pradesh,Hamirpur,Onion,8,0.949,15.4,False,7,False,2757
+Maharashtra,Nandurbar,Tomato,1,0.95,72.1,False,0,False,1507
+Uttar Pradesh,Shahjahanpur,Potato,6,0.95,32.2,False,5,False,2843
+Madhya Pradesh,Rajgarh,Potato,3,0.951,24.5,False,3,False,1668
+Maharashtra,Ahmednagar,Onion,8,0.951,33.7,False,7,False,2728
+Uttar Pradesh,Bijnor,Tomato,4,0.951,51.8,False,3,False,2815
 Gujarat,Gir Somnath,Onion,2,0.952,0.0,False,2,False,10
-Gujarat,Dahod,Tomato,3,0.953,36.7,False,3,False,2592
-Uttar Pradesh,Kanpur,Potato,6,0.953,42.3,False,4,False,2584
-Uttar Pradesh,Shamli,Onion,11,0.953,70.1,False,9,False,2777
-Uttar Pradesh,Saharanpur,Potato,4,0.954,45.5,False,3,False,2828
-Uttar Pradesh,Mathura,Potato,3,0.955,19.7,False,3,False,2421
-Uttar Pradesh,Meerut,Tomato,12,0.957,90.4,False,11,False,2469
+Gujarat,Dahod,Tomato,3,0.953,32.6,False,3,False,2592
+Uttar Pradesh,Kanpur,Potato,6,0.953,33.6,False,4,False,2584
+Uttar Pradesh,Shamli,Onion,11,0.953,63.7,False,9,False,2777
+Uttar Pradesh,Saharanpur,Potato,4,0.954,35.5,False,3,False,2828
+Uttar Pradesh,Mathura,Potato,3,0.955,9.8,False,3,False,2421
+Uttar Pradesh,Meerut,Tomato,12,0.957,82.9,False,11,False,2469
 Maharashtra,Wardha,Onion,3,0.958,95.8,False,3,False,25
-Maharashtra,Jalgaon,Potato,2,0.959,33.5,False,2,False,2238
-Maharashtra,Sangli,Onion,6,0.96,69.0,False,6,False,1736
-Madhya Pradesh,Neemuch,Onion,5,0.961,25.1,False,3,False,1516
+Maharashtra,Jalgaon,Potato,2,0.959,27.6,False,2,False,2238
+Maharashtra,Sangli,Onion,6,0.96,61.1,False,6,False,1736
+Madhya Pradesh,Neemuch,Onion,5,0.961,20.8,False,3,False,1516
 Maharashtra,Akola,Potato,1,0.961,,False,1,False,642
-Maharashtra,Dharashiv (Usmanabad),Onion,3,0.961,26.0,False,3,False,889
-Maharashtra,Ahmednagar,Tomato,2,0.962,58.7,False,2,False,2759
-Uttar Pradesh,Muzaffarnagar,Tomato,9,0.963,81.0,False,8,False,2702
-Madhya Pradesh,Dhar,Onion,5,0.964,67.5,False,5,False,2566
-Uttar Pradesh,Banda,Tomato,4,0.964,44.5,False,3,False,2719
-Madhya Pradesh,Ratlam,Onion,4,0.965,57.5,False,3,False,2269
-Uttar Pradesh,Auraiya,Tomato,7,0.965,71.3,False,4,False,2643
-Uttar Pradesh,Kasganj,Tomato,7,0.965,58.8,False,6,False,2058
-Uttar Pradesh,Agra,Onion,6,0.966,52.8,False,5,False,2819
-Uttar Pradesh,Sambhal,Onion,5,0.966,60.8,False,4,False,2851
-Madhya Pradesh,Sehore,Potato,5,0.969,19.8,False,5,False,397
-Uttar Pradesh,Aligarh,Tomato,8,0.969,60.9,False,7,False,2771
-Uttar Pradesh,Etawah,Onion,4,0.969,31.8,False,2,False,2530
-Uttar Pradesh,Kanpur,Onion,6,0.969,50.9,False,4,False,2447
-Uttar Pradesh,Kasganj,Potato,7,0.969,15.2,False,6,False,2258
-Uttar Pradesh,Khiri (Lakhimpur),Onion,2,0.969,35.3,False,1,False,2202
-Uttar Pradesh,Etah,Onion,6,0.97,55.0,False,5,False,2649
-Gujarat,Vadodara (Baroda),Tomato,4,0.971,49.7,False,4,False,2472
-Uttar Pradesh,Fatehpur,Potato,6,0.971,23.9,False,5,False,2832
-Uttar Pradesh,Kaushambi,Potato,6,0.971,15.9,False,6,False,1106
-Uttar Pradesh,Mathura,Tomato,3,0.973,46.0,False,3,False,2411
-Madhya Pradesh,Bhopal,Tomato,3,0.974,30.3,False,3,False,1809
-Uttar Pradesh,Fatehpur,Onion,6,0.974,27.3,False,5,False,2783
-Maharashtra,Dharashiv (Usmanabad),Tomato,2,0.975,48.9,False,2,False,136
-Uttar Pradesh,Bareilly,Tomato,5,0.976,53.2,False,4,False,2806
-Uttar Pradesh,Sonbhadra,Onion,2,0.976,28.7,False,2,False,2536
-Maharashtra,Raigad,Onion,2,0.977,69.2,False,2,False,862
-Uttar Pradesh,Auraiya,Onion,7,0.978,42.3,False,4,False,2521
-Uttar Pradesh,Baghpat,Onion,12,0.978,77.5,False,10,False,2525
-Uttar Pradesh,Firozabad,Onion,8,0.978,50.7,False,8,False,2796
-Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Potato,5,0.979,25.0,False,4,False,1961
-Uttar Pradesh,Bulandshahar,Onion,11,0.98,70.6,False,10,False,2847
-Madhya Pradesh,Morena,Onion,3,0.981,84.6,False,2,False,580
-Uttar Pradesh,Pillibhit,Potato,3,0.981,10.1,False,2,False,2821
-Uttar Pradesh,Baghpat,Tomato,12,0.982,78.3,False,10,False,2626
-Uttar Pradesh,Chitrakut,Tomato,4,0.982,30.5,False,3,False,2325
-Uttar Pradesh,Mahoba,Tomato,4,0.982,21.4,False,4,False,2276
-Uttar Pradesh,Rampur,Potato,5,0.982,14.5,False,4,False,2742
-Uttar Pradesh,Rampur,Tomato,5,0.982,58.3,False,4,False,2426
-Uttar Pradesh,Kanpur,Tomato,6,0.985,69.9,False,4,False,2543
-Uttar Pradesh,Pillibhit,Onion,3,0.985,24.2,False,2,False,2819
-Uttar Pradesh,Rampur,Onion,5,0.985,29.0,False,4,False,2733
-Uttar Pradesh,Khiri (Lakhimpur),Potato,2,0.986,22.2,False,1,False,2358
-Uttar Pradesh,Sitapur,Onion,4,0.986,47.7,False,3,False,2778
-Maharashtra,Pune,Potato,6,0.987,60.2,False,6,False,2732
-Madhya Pradesh,Hoshangabad,Tomato,3,0.988,57.2,False,3,False,1832
-Uttar Pradesh,Etawah,Potato,5,0.988,13.6,False,3,False,2534
-Uttar Pradesh,Etawah,Tomato,4,0.988,40.6,False,2,False,2523
-Uttar Pradesh,Hathras,Onion,8,0.988,49.4,False,7,False,2574
-Uttar Pradesh,Mainpuri,Onion,9,0.989,37.0,False,7,False,2739
-Gujarat,Surat,Potato,4,0.991,57.5,False,4,False,2208
-Uttar Pradesh,Badaun,Onion,5,0.991,36.2,False,4,False,2812
-Uttar Pradesh,Hamirpur,Tomato,8,0.991,39.4,False,7,False,2685
-Uttar Pradesh,Kannuj,Onion,6,0.991,49.3,False,5,False,2590
-Uttar Pradesh,Sitapur,Potato,4,0.992,33.9,False,3,False,2778
-Maharashtra,Ahmednagar,Potato,2,0.993,31.7,False,2,False,2687
-Maharashtra,Jalgaon,Tomato,2,0.994,41.5,False,2,False,2262
-Maharashtra,Pune,Onion,8,0.995,61.0,False,7,False,2768
-Uttar Pradesh,Sant Kabir Nagar,Onion,4,0.995,65.8,False,3,False,1542
-Uttar Pradesh,Siddharth Nagar,Tomato,3,0.996,78.2,False,1,False,2121
-Uttar Pradesh,Kanpur Dehat,Potato,6,0.997,36.6,False,3,False,2677
-Uttar Pradesh,Kanpur Dehat,Onion,6,0.999,45.7,False,3,False,2623
-Uttar Pradesh,Raebarelli,Onion,7,0.999,45.1,False,6,False,2778
-Uttar Pradesh,Kaushambi,Onion,6,1.0,16.3,False,6,False,1010
-Uttar Pradesh,Sambhal,Tomato,5,1.0,70.8,False,4,False,2828
-Uttar Pradesh,Shamli,Tomato,11,1.0,75.0,False,9,False,2794
-Uttar Pradesh,Mathura,Onion,3,1.001,47.7,False,3,False,2392
-Uttar Pradesh,Shahjahanpur,Tomato,6,1.001,61.5,False,5,False,2841
-Gujarat,Mehsana,Onion,5,1.002,34.0,False,5,False,1782
-Uttar Pradesh,Farukhabad,Onion,8,1.002,35.6,False,6,False,2664
-Uttar Pradesh,Unnao,Onion,6,1.002,44.3,False,5,False,2797
-Gujarat,Surat,Tomato,7,1.003,46.2,False,6,False,2363
-Madhya Pradesh,Shivpuri,Onion,4,1.003,41.6,False,3,False,536
-Maharashtra,Akola,Onion,1,1.004,10.7,False,1,False,724
-Maharashtra,Sangli,Tomato,5,1.004,57.8,False,5,False,1928
-Uttar Pradesh,Deoria,Tomato,4,1.004,55.2,False,2,False,2249
-Maharashtra,Mumbai,Potato,5,1.005,38.4,False,5,False,2153
-Madhya Pradesh,Bhopal,Onion,4,1.006,57.5,False,4,False,2168
+Maharashtra,Dharashiv (Usmanabad),Onion,3,0.961,18.5,False,3,False,889
+Maharashtra,Ahmednagar,Tomato,2,0.962,52.1,False,2,False,2759
+Uttar Pradesh,Muzaffarnagar,Tomato,9,0.963,74.1,False,8,False,2702
+Madhya Pradesh,Dhar,Onion,5,0.964,61.7,False,5,False,2566
+Uttar Pradesh,Banda,Tomato,4,0.964,30.8,False,3,False,2719
+Madhya Pradesh,Ratlam,Onion,4,0.965,49.2,False,3,False,2269
+Uttar Pradesh,Auraiya,Tomato,7,0.965,60.1,False,4,False,2643
+Uttar Pradesh,Kasganj,Tomato,7,0.965,44.2,False,6,False,2058
+Uttar Pradesh,Agra,Onion,6,0.966,40.7,False,5,False,2819
+Uttar Pradesh,Sambhal,Onion,5,0.966,44.1,False,4,False,2851
+Madhya Pradesh,Sehore,Potato,5,0.969,18.2,False,5,False,397
+Uttar Pradesh,Aligarh,Tomato,8,0.969,47.7,False,7,False,2771
+Uttar Pradesh,Etawah,Onion,4,0.969,20.2,False,2,False,2530
+Uttar Pradesh,Kanpur,Onion,6,0.969,37.8,False,4,False,2447
+Uttar Pradesh,Kasganj,Potato,7,0.969,6.6,False,6,False,2258
+Uttar Pradesh,Khiri (Lakhimpur),Onion,2,0.969,26.0,False,1,False,2202
+Uttar Pradesh,Etah,Onion,6,0.97,35.9,False,5,False,2649
+Gujarat,Vadodara (Baroda),Tomato,4,0.971,39.3,False,4,False,2472
+Uttar Pradesh,Fatehpur,Potato,6,0.971,16.2,False,5,False,2832
+Uttar Pradesh,Kaushambi,Potato,6,0.971,9.6,False,6,False,1106
+Uttar Pradesh,Mathura,Tomato,3,0.973,33.7,False,3,False,2411
+Madhya Pradesh,Bhopal,Tomato,3,0.974,25.6,False,3,False,1809
+Uttar Pradesh,Fatehpur,Onion,6,0.974,16.6,False,5,False,2783
+Maharashtra,Dharashiv (Usmanabad),Tomato,2,0.975,43.6,False,2,False,136
+Uttar Pradesh,Bareilly,Tomato,5,0.976,41.7,False,4,False,2806
+Uttar Pradesh,Sonbhadra,Onion,2,0.976,19.2,False,2,False,2536
+Maharashtra,Raigad,Onion,2,0.977,64.4,False,2,False,862
+Uttar Pradesh,Auraiya,Onion,7,0.978,32.0,False,4,False,2521
+Uttar Pradesh,Baghpat,Onion,12,0.978,67.6,False,10,False,2525
+Uttar Pradesh,Firozabad,Onion,8,0.978,36.2,False,8,False,2796
+Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Potato,5,0.979,18.8,False,4,False,1961
+Uttar Pradesh,Bulandshahar,Onion,11,0.98,60.6,False,10,False,2847
+Madhya Pradesh,Morena,Onion,3,0.981,78.9,False,2,False,580
+Uttar Pradesh,Pillibhit,Potato,3,0.981,7.1,False,2,False,2821
+Uttar Pradesh,Baghpat,Tomato,12,0.982,69.3,False,10,False,2626
+Uttar Pradesh,Chitrakut,Tomato,4,0.982,16.1,False,3,False,2325
+Uttar Pradesh,Mahoba,Tomato,4,0.982,12.2,False,4,False,2276
+Uttar Pradesh,Rampur,Potato,5,0.982,9.2,False,4,False,2742
+Uttar Pradesh,Rampur,Tomato,5,0.982,44.9,False,4,False,2426
+Uttar Pradesh,Kanpur,Tomato,6,0.985,57.7,False,4,False,2543
+Uttar Pradesh,Pillibhit,Onion,3,0.985,16.5,False,2,False,2819
+Uttar Pradesh,Rampur,Onion,5,0.985,18.2,False,4,False,2733
+Uttar Pradesh,Khiri (Lakhimpur),Potato,2,0.986,15.8,False,1,False,2358
+Uttar Pradesh,Sitapur,Onion,4,0.986,36.7,False,3,False,2778
+Maharashtra,Pune,Potato,6,0.987,48.2,False,6,False,2732
+Madhya Pradesh,Hoshangabad,Tomato,3,0.988,50.8,False,3,False,1832
+Uttar Pradesh,Etawah,Potato,5,0.988,10.1,False,3,False,2534
+Uttar Pradesh,Etawah,Tomato,4,0.988,27.6,False,2,False,2523
+Uttar Pradesh,Hathras,Onion,8,0.988,35.4,False,7,False,2574
+Uttar Pradesh,Mainpuri,Onion,9,0.989,21.5,False,7,False,2739
+Gujarat,Surat,Potato,4,0.991,42.1,False,4,False,2208
+Uttar Pradesh,Badaun,Onion,5,0.991,21.2,False,4,False,2812
+Uttar Pradesh,Hamirpur,Tomato,8,0.991,26.6,False,7,False,2685
+Uttar Pradesh,Kannuj,Onion,6,0.991,36.3,False,5,False,2590
+Uttar Pradesh,Sitapur,Potato,4,0.992,27.3,False,3,False,2778
+Maharashtra,Ahmednagar,Potato,2,0.993,20.6,False,2,False,2687
+Maharashtra,Jalgaon,Tomato,2,0.994,34.3,False,2,False,2262
+Maharashtra,Pune,Onion,8,0.995,49.8,False,7,False,2768
+Uttar Pradesh,Sant Kabir Nagar,Onion,4,0.995,49.1,False,3,False,1542
+Uttar Pradesh,Siddharth Nagar,Tomato,3,0.996,68.9,False,1,False,2121
+Uttar Pradesh,Kanpur Dehat,Potato,6,0.997,25.1,False,3,False,2677
+Uttar Pradesh,Kanpur Dehat,Onion,6,0.999,30.7,False,3,False,2623
+Uttar Pradesh,Raebarelli,Onion,7,0.999,26.4,False,6,False,2778
+Uttar Pradesh,Kaushambi,Onion,6,1.0,7.1,False,6,False,1010
+Uttar Pradesh,Sambhal,Tomato,5,1.0,59.0,False,4,False,2828
+Uttar Pradesh,Shamli,Tomato,11,1.0,68.2,False,9,False,2794
+Uttar Pradesh,Mathura,Onion,3,1.001,31.6,False,3,False,2392
+Uttar Pradesh,Shahjahanpur,Tomato,6,1.001,51.9,False,5,False,2841
+Gujarat,Mehsana,Onion,5,1.002,22.0,False,5,False,1782
+Uttar Pradesh,Farukhabad,Onion,8,1.002,22.0,False,6,False,2664
+Uttar Pradesh,Unnao,Onion,6,1.002,29.5,False,5,False,2797
+Gujarat,Surat,Tomato,7,1.003,37.3,False,6,False,2363
+Madhya Pradesh,Shivpuri,Onion,4,1.003,38.9,False,3,False,536
+Maharashtra,Akola,Onion,1,1.004,7.1,False,1,False,724
+Maharashtra,Sangli,Tomato,5,1.004,47.7,False,5,False,1928
+Uttar Pradesh,Deoria,Tomato,4,1.004,41.6,False,2,False,2249
+Maharashtra,Mumbai,Potato,5,1.005,31.6,False,5,False,2153
+Madhya Pradesh,Bhopal,Onion,4,1.006,51.8,False,4,False,2168
 Maharashtra,Nandurbar,Potato,1,1.006,,False,0,False,11
-Uttar Pradesh,Ballia,Tomato,3,1.006,17.2,False,2,False,2315
-Uttar Pradesh,Mirzapur,Onion,3,1.006,23.9,False,2,False,2496
-Uttar Pradesh,Prayagraj,Onion,3,1.006,30.6,False,2,False,2722
-Uttar Pradesh,Kasganj,Onion,7,1.007,39.4,False,6,False,2221
-Uttar Pradesh,Meerut,Potato,12,1.007,41.5,False,11,False,2541
-Maharashtra,Thane,Potato,3,1.008,32.4,False,3,False,1436
-Uttar Pradesh,Shahjahanpur,Onion,6,1.008,50.1,False,5,False,2797
-Madhya Pradesh,Sagar,Tomato,4,1.009,39.4,False,4,False,2150
-Uttar Pradesh,Saharanpur,Onion,4,1.011,64.5,False,3,False,2786
-Gujarat,Ahmedabad,Tomato,2,1.012,48.2,False,2,False,1863
-Madhya Pradesh,Dewas,Potato,6,1.012,56.2,False,5,False,2171
-Uttar Pradesh,Ghazipur,Tomato,4,1.012,40.5,False,3,False,2484
-Madhya Pradesh,Chhindwara,Potato,1,1.013,37.6,False,1,False,1598
-Madhya Pradesh,Sagar,Potato,4,1.014,33.5,False,4,False,2261
-Uttar Pradesh,Jalaun (Orai),Potato,4,1.015,29.2,False,4,False,2767
-Uttar Pradesh,Unnao,Potato,6,1.015,23.0,False,5,False,2806
-Maharashtra,Kolhapur,Onion,2,1.016,57.8,False,1,False,2172
-Uttar Pradesh,Basti,Tomato,4,1.017,57.4,False,4,False,2586
-Uttar Pradesh,Jaunpur,Tomato,3,1.017,54.8,False,2,False,2512
-Gujarat,Rajkot,Potato,3,1.018,23.7,False,3,False,2230
+Uttar Pradesh,Ballia,Tomato,3,1.006,10.9,False,2,False,2315
+Uttar Pradesh,Mirzapur,Onion,3,1.006,17.5,False,2,False,2496
+Uttar Pradesh,Prayagraj,Onion,3,1.006,17.3,False,2,False,2722
+Uttar Pradesh,Kasganj,Onion,7,1.007,21.3,False,6,False,2221
+Uttar Pradesh,Meerut,Potato,12,1.007,34.0,False,11,False,2541
+Maharashtra,Thane,Potato,3,1.008,24.5,False,3,False,1436
+Uttar Pradesh,Shahjahanpur,Onion,6,1.008,39.0,False,5,False,2797
+Madhya Pradesh,Sagar,Tomato,4,1.009,32.5,False,4,False,2150
+Uttar Pradesh,Saharanpur,Onion,4,1.011,56.3,False,3,False,2786
+Gujarat,Ahmedabad,Tomato,2,1.012,37.0,False,2,False,1863
+Madhya Pradesh,Dewas,Potato,6,1.012,50.7,False,5,False,2171
+Uttar Pradesh,Ghazipur,Tomato,4,1.012,27.9,False,3,False,2484
+Madhya Pradesh,Chhindwara,Potato,1,1.013,24.4,False,1,False,1598
+Madhya Pradesh,Sagar,Potato,4,1.014,26.5,False,4,False,2261
+Uttar Pradesh,Jalaun (Orai),Potato,4,1.015,17.5,False,4,False,2767
+Uttar Pradesh,Unnao,Potato,6,1.015,13.0,False,5,False,2806
+Maharashtra,Kolhapur,Onion,2,1.016,49.1,False,1,False,2172
+Uttar Pradesh,Basti,Tomato,4,1.017,43.6,False,4,False,2586
+Uttar Pradesh,Jaunpur,Tomato,3,1.017,43.1,False,2,False,2512
+Gujarat,Rajkot,Potato,3,1.018,16.2,False,3,False,2230
 Madhya Pradesh,Anupur,Potato,1,1.018,,False,1,False,348
-Uttar Pradesh,Lakhimpur,Onion,2,1.018,25.6,False,1,False,2727
-Uttar Pradesh,Muzaffarnagar,Onion,9,1.018,64.0,False,8,False,2685
-Gujarat,Dahod,Potato,3,1.019,38.9,False,3,False,2612
-Uttar Pradesh,Saharanpur,Tomato,4,1.019,65.7,False,3,False,2819
+Uttar Pradesh,Lakhimpur,Onion,2,1.018,17.6,False,1,False,2727
+Uttar Pradesh,Muzaffarnagar,Onion,9,1.018,56.2,False,8,False,2685
+Gujarat,Dahod,Potato,3,1.019,29.3,False,3,False,2612
+Uttar Pradesh,Saharanpur,Tomato,4,1.019,57.4,False,3,False,2819
 Gujarat,Patan,Tomato,1,1.02,25.0,False,1,False,15
-Gujarat,Ahmedabad,Potato,2,1.021,23.4,False,2,False,2014
-Madhya Pradesh,Sagar,Onion,4,1.022,24.9,False,4,False,2071
-Uttar Pradesh,Chandauli,Tomato,2,1.022,14.8,False,1,False,2539
-Uttar Pradesh,Hardoi,Onion,7,1.022,44.6,False,7,False,2816
-Uttar Pradesh,Hardoi,Potato,7,1.022,24.7,False,7,False,2819
-Uttar Pradesh,Prayagraj,Potato,3,1.022,12.6,False,2,False,2773
-Uttar Pradesh,Shravasti,Potato,8,1.024,52.1,False,6,False,858
-Uttar Pradesh,Varanasi,Tomato,4,1.024,22.8,False,3,False,2038
-Maharashtra,Pune,Tomato,6,1.025,71.8,False,6,False,2798
-Uttar Pradesh,Badaun,Tomato,5,1.025,56.9,False,4,False,2803
-Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Onion,5,1.025,24.0,False,4,False,1579
+Gujarat,Ahmedabad,Potato,2,1.021,15.5,False,2,False,2014
+Madhya Pradesh,Sagar,Onion,4,1.022,18.0,False,4,False,2071
+Uttar Pradesh,Chandauli,Tomato,2,1.022,9.0,False,1,False,2539
+Uttar Pradesh,Hardoi,Onion,7,1.022,31.7,False,7,False,2816
+Uttar Pradesh,Hardoi,Potato,7,1.022,19.5,False,7,False,2819
+Uttar Pradesh,Prayagraj,Potato,3,1.022,6.8,False,2,False,2773
+Uttar Pradesh,Shravasti,Potato,8,1.024,39.5,False,6,False,858
+Uttar Pradesh,Varanasi,Tomato,4,1.024,13.4,False,3,False,2038
+Maharashtra,Pune,Tomato,6,1.025,64.4,False,6,False,2798
+Uttar Pradesh,Badaun,Tomato,5,1.025,41.7,False,4,False,2803
+Uttar Pradesh,Bhadohi (Sant Ravi Nagar),Onion,5,1.025,18.0,False,4,False,1579
 Gujarat,Panchmahals,Potato,1,1.026,0.0,False,1,False,6
-Uttar Pradesh,Meerut,Onion,12,1.026,72.7,False,11,False,2553
-Uttar Pradesh,Aligarh,Onion,8,1.027,50.8,False,7,False,2721
-Uttar Pradesh,Mau (Maunathbhanjan),Tomato,5,1.028,58.2,False,4,False,2135
-Uttar Pradesh,Siddharth Nagar,Potato,3,1.028,53.7,False,1,False,2261
+Uttar Pradesh,Meerut,Onion,12,1.026,62.5,False,11,False,2553
+Uttar Pradesh,Aligarh,Onion,8,1.027,32.7,False,7,False,2721
+Uttar Pradesh,Mau (Maunathbhanjan),Tomato,5,1.028,49.1,False,4,False,2135
+Uttar Pradesh,Siddharth Nagar,Potato,3,1.028,42.4,False,1,False,2261
 Gujarat,Patan,Potato,0,1.029,0.0,False,0,False,10
-Uttar Pradesh,Gautam Budh Nagar,Tomato,8,1.03,79.4,False,7,False,2427
-Uttar Pradesh,Prayagraj,Tomato,3,1.03,41.2,False,2,False,2694
-Madhya Pradesh,Betul,Tomato,2,1.031,24.7,False,2,False,771
-Uttar Pradesh,Raebarelli,Potato,7,1.031,21.6,False,6,False,2828
-Uttar Pradesh,Maharajganj,Onion,5,1.032,44.8,False,3,False,2759
-Uttar Pradesh,Mirzapur,Potato,3,1.032,10.8,False,2,False,2556
-Gujarat,Gandhinagar,Tomato,6,1.033,38.2,False,6,False,1996
-Madhya Pradesh,Seoni,Potato,1,1.035,25.0,False,1,False,142
-Madhya Pradesh,Sehore,Onion,8,1.036,56.0,False,7,False,1568
-Maharashtra,Sholapur,Potato,2,1.036,34.3,False,1,False,2500
-Uttar Pradesh,Ghaziabad,Tomato,12,1.036,71.9,False,10,False,2772
-Uttar Pradesh,Kaushambi,Tomato,6,1.036,30.0,False,6,False,1062
-Gujarat,Bharuch,Onion,3,1.037,42.3,False,3,False,1645
-Uttar Pradesh,Azamgarh,Tomato,4,1.037,55.5,False,4,False,2294
-Uttar Pradesh,Ghazipur,Potato,4,1.037,35.8,False,3,False,2536
-Uttar Pradesh,Jhansi,Potato,4,1.037,13.9,False,3,False,2813
-Madhya Pradesh,Indore,Onion,5,1.038,60.6,False,5,False,2577
-Maharashtra,Nashik,Onion,14,1.038,38.1,False,13,False,2411
-Uttar Pradesh,Lakhimpur,Potato,2,1.038,11.4,False,1,False,2751
-Uttar Pradesh,Pratapgarh,Potato,4,1.038,14.4,False,4,False,2711
-Uttar Pradesh,Ghazipur,Onion,4,1.039,43.5,False,3,False,2524
-Uttar Pradesh,Chitrakut,Potato,4,1.04,5.1,False,3,False,2475
-Uttar Pradesh,Kushinagar,Tomato,4,1.04,21.8,False,3,False,1424
-Uttar Pradesh,Ballia,Onion,3,1.041,24.9,False,2,False,2396
-Madhya Pradesh,Morena,Tomato,3,1.044,61.4,False,2,False,1444
-Uttar Pradesh,Maharajganj,Tomato,5,1.044,45.5,False,3,False,2764
-Uttar Pradesh,Siddharth Nagar,Onion,3,1.044,52.7,False,1,False,2160
-Gujarat,Surat,Onion,4,1.046,26.6,False,4,False,2166
-Madhya Pradesh,Chhatarpur,Onion,1,1.047,47.4,False,1,False,38
-Madhya Pradesh,Damoh,Potato,2,1.047,30.6,False,2,False,780
-Uttar Pradesh,Kanpur Dehat,Tomato,6,1.047,56.5,False,3,False,2640
-Uttar Pradesh,Pillibhit,Tomato,3,1.047,37.8,False,2,False,2822
-Madhya Pradesh,Dhar,Potato,5,1.048,54.1,False,5,False,2338
-Uttar Pradesh,Jaunpur,Onion,3,1.049,42.5,False,2,False,2497
-Uttar Pradesh,Lucknow,Onion,8,1.05,30.5,False,7,False,2573
-Gujarat,Kheda,Onion,6,1.051,55.7,False,6,False,1845
-Uttar Pradesh,Amethi,Onion,3,1.051,27.3,False,3,False,2772
-Uttar Pradesh,Banda,Potato,4,1.051,9.2,False,3,False,2761
-Uttar Pradesh,Khiri (Lakhimpur),Tomato,2,1.051,40.8,False,1,False,1991
-Madhya Pradesh,Damoh,Onion,2,1.052,21.9,False,2,False,1070
-Uttar Pradesh,Amethi,Potato,3,1.052,15.7,False,3,False,2807
-Uttar Pradesh,Sant Kabir Nagar,Potato,4,1.052,53.8,False,3,False,2061
-Uttar Pradesh,Unnao,Tomato,5,1.052,59.5,False,4,False,2782
-Uttar Pradesh,Ambedkarnagar,Onion,3,1.053,42.5,False,3,False,2233
-Uttar Pradesh,Farukhabad,Tomato,8,1.054,45.8,False,6,False,2686
-Uttar Pradesh,Fatehpur,Tomato,6,1.054,27.4,False,5,False,2797
-Madhya Pradesh,Singroli,Potato,1,1.055,3.7,False,0,False,343
+Uttar Pradesh,Gautam Budh Nagar,Tomato,8,1.03,66.2,False,7,False,2427
+Uttar Pradesh,Prayagraj,Tomato,3,1.03,28.9,False,2,False,2694
+Madhya Pradesh,Betul,Tomato,2,1.031,19.0,False,2,False,771
+Uttar Pradesh,Raebarelli,Potato,7,1.031,11.2,False,6,False,2828
+Uttar Pradesh,Maharajganj,Onion,5,1.032,34.4,False,3,False,2759
+Uttar Pradesh,Mirzapur,Potato,3,1.032,7.0,False,2,False,2556
+Gujarat,Gandhinagar,Tomato,6,1.033,31.1,False,6,False,1996
+Madhya Pradesh,Seoni,Potato,1,1.035,12.1,False,1,False,142
+Madhya Pradesh,Sehore,Onion,8,1.036,48.0,False,7,False,1568
+Maharashtra,Sholapur,Potato,2,1.036,26.3,False,1,False,2500
+Uttar Pradesh,Ghaziabad,Tomato,12,1.036,61.2,False,10,False,2772
+Uttar Pradesh,Kaushambi,Tomato,6,1.036,18.8,False,6,False,1062
+Gujarat,Bharuch,Onion,3,1.037,31.3,False,3,False,1645
+Uttar Pradesh,Azamgarh,Tomato,4,1.037,43.5,False,4,False,2294
+Uttar Pradesh,Ghazipur,Potato,4,1.037,27.4,False,3,False,2536
+Uttar Pradesh,Jhansi,Potato,4,1.037,8.2,False,3,False,2813
+Madhya Pradesh,Indore,Onion,5,1.038,53.0,False,5,False,2577
+Maharashtra,Nashik,Onion,14,1.038,21.2,False,13,False,2411
+Uttar Pradesh,Lakhimpur,Potato,2,1.038,8.9,False,1,False,2751
+Uttar Pradesh,Pratapgarh,Potato,4,1.038,7.2,False,4,False,2711
+Uttar Pradesh,Ghazipur,Onion,4,1.039,30.5,False,3,False,2524
+Uttar Pradesh,Chitrakut,Potato,4,1.04,1.4,False,3,False,2475
+Uttar Pradesh,Kushinagar,Tomato,4,1.04,18.0,False,3,False,1424
+Uttar Pradesh,Ballia,Onion,3,1.041,16.2,False,2,False,2396
+Madhya Pradesh,Morena,Tomato,3,1.044,54.9,False,2,False,1444
+Uttar Pradesh,Maharajganj,Tomato,5,1.044,38.9,False,3,False,2764
+Uttar Pradesh,Siddharth Nagar,Onion,3,1.044,38.6,False,1,False,2160
+Gujarat,Surat,Onion,4,1.046,16.3,False,4,False,2166
+Madhya Pradesh,Chhatarpur,Onion,1,1.047,39.5,False,1,False,38
+Madhya Pradesh,Damoh,Potato,2,1.047,22.3,False,2,False,780
+Uttar Pradesh,Kanpur Dehat,Tomato,6,1.047,45.8,False,3,False,2640
+Uttar Pradesh,Pillibhit,Tomato,3,1.047,27.6,False,2,False,2822
+Madhya Pradesh,Dhar,Potato,5,1.048,45.5,False,5,False,2338
+Uttar Pradesh,Jaunpur,Onion,3,1.049,31.7,False,2,False,2497
+Uttar Pradesh,Lucknow,Onion,8,1.05,16.0,False,7,False,2573
+Gujarat,Kheda,Onion,6,1.051,42.5,False,6,False,1845
+Uttar Pradesh,Amethi,Onion,3,1.051,15.2,False,3,False,2772
+Uttar Pradesh,Banda,Potato,4,1.051,4.2,False,3,False,2761
+Uttar Pradesh,Khiri (Lakhimpur),Tomato,2,1.051,27.5,False,1,False,1991
+Madhya Pradesh,Damoh,Onion,2,1.052,16.6,False,2,False,1070
+Uttar Pradesh,Amethi,Potato,3,1.052,7.7,False,3,False,2807
+Uttar Pradesh,Sant Kabir Nagar,Potato,4,1.052,41.0,False,3,False,2061
+Uttar Pradesh,Unnao,Tomato,5,1.052,41.4,False,4,False,2782
+Uttar Pradesh,Ambedkarnagar,Onion,3,1.053,27.9,False,3,False,2233
+Uttar Pradesh,Farukhabad,Tomato,8,1.054,29.7,False,6,False,2686
+Uttar Pradesh,Fatehpur,Tomato,6,1.054,17.1,False,5,False,2797
+Madhya Pradesh,Singroli,Potato,1,1.055,2.5,False,0,False,343
 Maharashtra,Chandrapur,Potato,1,1.055,,False,1,False,1668
-Uttar Pradesh,Gorakhpur,Tomato,4,1.055,60.2,False,2,False,2671
-Uttar Pradesh,Raebarelli,Tomato,6,1.055,53.9,False,5,False,2678
-Uttar Pradesh,Ayodhya,Onion,3,1.056,34.9,False,3,False,2655
-Uttar Pradesh,Jaunpur,Potato,3,1.056,28.5,False,2,False,2525
+Uttar Pradesh,Gorakhpur,Tomato,4,1.055,52.0,False,2,False,2671
+Uttar Pradesh,Raebarelli,Tomato,6,1.055,35.1,False,5,False,2678
+Uttar Pradesh,Ayodhya,Onion,3,1.056,20.0,False,3,False,2655
+Uttar Pradesh,Jaunpur,Potato,3,1.056,22.4,False,2,False,2525
 Gujarat,Kachchh,Tomato,3,1.057,,False,3,False,139
-Uttar Pradesh,Barabanki,Potato,6,1.057,13.7,False,5,False,2522
-Uttar Pradesh,Gonda,Potato,7,1.057,31.2,False,6,False,2786
-Uttar Pradesh,Kannuj,Tomato,6,1.057,63.9,False,5,False,2653
-Uttar Pradesh,Hamirpur,Potato,7,1.058,15.3,False,6,False,2783
-Uttar Pradesh,Lalitpur,Potato,2,1.058,16.2,False,2,False,2232
-Uttar Pradesh,Pratapgarh,Onion,4,1.058,23.2,False,4,False,2686
-Uttar Pradesh,Varanasi,Onion,4,1.058,18.6,False,3,False,2071
-Maharashtra,Amarawati,Onion,2,1.06,48.2,False,1,False,2135
-Uttar Pradesh,Chandauli,Potato,2,1.06,1.8,False,1,False,2541
-Uttar Pradesh,Ballia,Potato,3,1.061,17.7,False,2,False,2431
-Uttar Pradesh,Ghaziabad,Potato,12,1.061,26.9,False,10,False,2790
-Madhya Pradesh,Chhatarpur,Tomato,1,1.062,49.8,False,1,False,227
-Uttar Pradesh,Balrampur,Potato,3,1.062,24.7,False,2,False,2616
+Uttar Pradesh,Barabanki,Potato,6,1.057,6.3,False,5,False,2522
+Uttar Pradesh,Gonda,Potato,7,1.057,16.9,False,6,False,2786
+Uttar Pradesh,Kannuj,Tomato,6,1.057,48.6,False,5,False,2653
+Uttar Pradesh,Hamirpur,Potato,7,1.058,9.2,False,6,False,2783
+Uttar Pradesh,Lalitpur,Potato,2,1.058,12.7,False,2,False,2232
+Uttar Pradesh,Pratapgarh,Onion,4,1.058,9.4,False,4,False,2686
+Uttar Pradesh,Varanasi,Onion,4,1.058,8.9,False,3,False,2071
+Maharashtra,Amarawati,Onion,2,1.06,37.0,False,1,False,2135
+Uttar Pradesh,Chandauli,Potato,2,1.06,0.7,False,1,False,2541
+Uttar Pradesh,Ballia,Potato,3,1.061,12.4,False,2,False,2431
+Uttar Pradesh,Ghaziabad,Potato,12,1.061,19.7,False,10,False,2790
+Madhya Pradesh,Chhatarpur,Tomato,1,1.062,41.6,False,1,False,227
+Uttar Pradesh,Balrampur,Potato,3,1.062,18.3,False,2,False,2616
 Gujarat,Porbandar,Onion,1,1.063,,False,1,False,1273
-Uttar Pradesh,Mahoba,Potato,3,1.063,11.3,False,3,False,2364
-Uttar Pradesh,Varanasi,Potato,4,1.063,4.2,False,3,False,2094
-Uttar Pradesh,Barabanki,Onion,6,1.064,28.1,False,5,False,2516
-Uttar Pradesh,Basti,Onion,4,1.064,32.7,False,4,False,2569
-Uttar Pradesh,Shravasti,Onion,8,1.064,54.9,False,6,False,870
-Madhya Pradesh,Indore,Potato,5,1.066,56.7,False,5,False,2534
+Uttar Pradesh,Mahoba,Potato,3,1.063,6.2,False,3,False,2364
+Uttar Pradesh,Varanasi,Potato,4,1.063,2.9,False,3,False,2094
+Uttar Pradesh,Barabanki,Onion,6,1.064,14.0,False,5,False,2516
+Uttar Pradesh,Basti,Onion,4,1.064,20.0,False,4,False,2569
+Uttar Pradesh,Shravasti,Onion,8,1.064,40.2,False,6,False,870
+Madhya Pradesh,Indore,Potato,5,1.066,48.9,False,5,False,2534
 Madhya Pradesh,Rewa,Onion,1,1.066,0.0,False,1,False,23
-Maharashtra,Satara,Tomato,4,1.067,49.1,False,4,False,2767
-Uttar Pradesh,Azamgarh,Onion,4,1.067,44.7,False,4,False,2300
-Madhya Pradesh,Burhanpur,Onion,2,1.068,14.7,False,2,False,714
-Uttar Pradesh,Ambedkarnagar,Potato,3,1.068,28.3,False,3,False,2263
-Uttar Pradesh,Shravasti,Tomato,8,1.07,65.0,False,6,False,671
+Maharashtra,Satara,Tomato,4,1.067,40.3,False,4,False,2767
+Uttar Pradesh,Azamgarh,Onion,4,1.067,30.9,False,4,False,2300
+Madhya Pradesh,Burhanpur,Onion,2,1.068,9.0,False,2,False,714
+Uttar Pradesh,Ambedkarnagar,Potato,3,1.068,20.9,False,3,False,2263
+Uttar Pradesh,Shravasti,Tomato,8,1.07,52.1,False,6,False,671
 Madhya Pradesh,Ashoknagar,Onion,1,1.071,100.0,False,1,False,1
-Maharashtra,Sangli,Potato,5,1.071,48.2,False,5,False,2039
-Uttar Pradesh,Ayodhya,Potato,3,1.074,14.4,False,3,False,2774
-Uttar Pradesh,Deoria,Onion,4,1.074,46.9,False,2,False,2274
-Uttar Pradesh,Basti,Potato,4,1.075,28.1,False,4,False,2601
-Uttar Pradesh,Azamgarh,Potato,4,1.077,34.7,False,4,False,2323
-Uttar Pradesh,Lucknow,Potato,8,1.078,9.2,False,7,False,2601
-Gujarat,Surendranagar,Tomato,1,1.08,51.3,False,0,False,2109
-Uttar Pradesh,Gautam Budh Nagar,Potato,8,1.08,22.1,False,7,False,2468
-Uttar Pradesh,Ambedkarnagar,Tomato,3,1.081,42.8,False,3,False,2235
-Uttar Pradesh,Chandauli,Onion,2,1.081,6.0,False,1,False,2520
-Gujarat,Dahod,Onion,3,1.082,29.1,False,3,False,2524
-Maharashtra,Nagpur,Potato,4,1.082,35.0,False,4,False,2448
-Uttar Pradesh,Gonda,Onion,7,1.082,42.7,False,6,False,2758
-Uttar Pradesh,Deoria,Potato,4,1.083,37.2,False,2,False,2283
-Gujarat,Rajkot,Tomato,3,1.088,41.5,False,3,False,2266
-Madhya Pradesh,Jabalpur,Tomato,4,1.088,37.5,False,3,False,1649
-Uttar Pradesh,Amethi,Tomato,3,1.088,45.5,False,3,False,2685
-Uttar Pradesh,Mau (Maunathbhanjan),Onion,5,1.089,50.0,False,4,False,2145
-Uttar Pradesh,Sitapur,Tomato,3,1.089,29.6,False,2,False,2524
-Uttar Pradesh,Ghaziabad,Onion,12,1.09,62.6,False,10,False,2751
-Gujarat,Banaskanth,Tomato,2,1.091,14.1,False,2,False,1277
-Uttar Pradesh,Lakhimpur,Tomato,2,1.091,23.0,False,1,False,2722
-Uttar Pradesh,Ayodhya,Tomato,3,1.092,46.3,False,3,False,2750
-Gujarat,Navsari,Onion,3,1.093,11.0,False,3,False,1295
-Uttar Pradesh,Maharajganj,Potato,5,1.094,35.6,False,3,False,2778
-Madhya Pradesh,Seoni,Onion,1,1.095,24.6,False,1,False,141
-Gujarat,Surendranagar,Onion,1,1.096,74.0,False,0,False,793
-Uttar Pradesh,Bahraich,Onion,5,1.097,24.3,False,4,False,2543
-Uttar Pradesh,Bahraich,Potato,5,1.097,8.3,False,4,False,2543
-Madhya Pradesh,Dewas,Tomato,4,1.098,71.6,False,3,False,2141
-Madhya Pradesh,Harda,Potato,3,1.1,39.6,False,3,False,2071
-Uttar Pradesh,Gautam Budh Nagar,Onion,8,1.1,63.4,False,7,False,2440
-Uttar Pradesh,Hardoi,Tomato,7,1.1,43.3,False,7,False,2797
-Uttar Pradesh,Gorakhpur,Onion,4,1.101,39.8,False,2,False,2690
-Gujarat,Ahmedabad,Onion,2,1.104,36.7,False,2,False,1665
-Gujarat,Surendranagar,Potato,1,1.106,39.1,False,0,False,2124
-Madhya Pradesh,Damoh,Tomato,2,1.106,35.0,False,2,False,897
-Madhya Pradesh,Ratlam,Potato,2,1.106,13.1,False,2,False,149
-Madhya Pradesh,Sheopur,Potato,1,1.106,2.1,False,0,False,1052
+Maharashtra,Sangli,Potato,5,1.071,37.0,False,5,False,2039
+Uttar Pradesh,Ayodhya,Potato,3,1.074,7.1,False,3,False,2774
+Uttar Pradesh,Deoria,Onion,4,1.074,35.0,False,2,False,2274
+Uttar Pradesh,Basti,Potato,4,1.075,20.4,False,4,False,2601
+Uttar Pradesh,Azamgarh,Potato,4,1.077,28.7,False,4,False,2323
+Uttar Pradesh,Lucknow,Potato,8,1.078,4.3,False,7,False,2601
+Gujarat,Surendranagar,Tomato,1,1.08,45.5,False,0,False,2109
+Uttar Pradesh,Gautam Budh Nagar,Potato,8,1.08,15.6,False,7,False,2468
+Uttar Pradesh,Ambedkarnagar,Tomato,3,1.081,32.0,False,3,False,2235
+Uttar Pradesh,Chandauli,Onion,2,1.081,3.1,False,1,False,2520
+Gujarat,Dahod,Onion,3,1.082,23.5,False,3,False,2524
+Maharashtra,Nagpur,Potato,4,1.082,25.6,False,4,False,2448
+Uttar Pradesh,Gonda,Onion,7,1.082,29.7,False,6,False,2758
+Uttar Pradesh,Deoria,Potato,4,1.083,25.4,False,2,False,2283
+Gujarat,Rajkot,Tomato,3,1.088,33.3,False,3,False,2266
+Madhya Pradesh,Jabalpur,Tomato,4,1.088,25.0,False,3,False,1649
+Uttar Pradesh,Amethi,Tomato,3,1.088,30.6,False,3,False,2685
+Uttar Pradesh,Mau (Maunathbhanjan),Onion,5,1.089,39.5,False,4,False,2145
+Uttar Pradesh,Sitapur,Tomato,3,1.089,18.6,False,2,False,2524
+Uttar Pradesh,Ghaziabad,Onion,12,1.09,47.9,False,10,False,2751
+Gujarat,Banaskanth,Tomato,2,1.091,9.6,False,2,False,1277
+Uttar Pradesh,Lakhimpur,Tomato,2,1.091,13.0,False,1,False,2722
+Uttar Pradesh,Ayodhya,Tomato,3,1.092,33.1,False,3,False,2750
+Gujarat,Navsari,Onion,3,1.093,5.3,False,3,False,1295
+Uttar Pradesh,Maharajganj,Potato,5,1.094,27.4,False,3,False,2778
+Madhya Pradesh,Seoni,Onion,1,1.095,18.4,False,1,False,141
+Gujarat,Surendranagar,Onion,1,1.096,62.5,False,0,False,793
+Uttar Pradesh,Bahraich,Onion,5,1.097,13.7,False,4,False,2543
+Uttar Pradesh,Bahraich,Potato,5,1.097,5.0,False,4,False,2543
+Madhya Pradesh,Dewas,Tomato,4,1.098,67.4,False,3,False,2141
+Madhya Pradesh,Harda,Potato,3,1.1,32.0,False,3,False,2071
+Uttar Pradesh,Gautam Budh Nagar,Onion,8,1.1,46.4,False,7,False,2440
+Uttar Pradesh,Hardoi,Tomato,7,1.1,28.5,False,7,False,2797
+Uttar Pradesh,Gorakhpur,Onion,4,1.101,27.5,False,2,False,2690
+Gujarat,Ahmedabad,Onion,2,1.104,26.8,False,2,False,1665
+Gujarat,Surendranagar,Potato,1,1.106,38.5,False,0,False,2124
+Madhya Pradesh,Damoh,Tomato,2,1.106,31.2,False,2,False,897
+Madhya Pradesh,Ratlam,Potato,2,1.106,8.8,False,2,False,149
+Madhya Pradesh,Sheopur,Potato,1,1.106,0.7,False,0,False,1052
 Madhya Pradesh,Jabalpur,Potato,1,1.108,,False,1,False,1735
-Madhya Pradesh,Gwalior,Potato,3,1.109,11.5,False,1,False,2050
-Uttar Pradesh,Kushinagar,Onion,4,1.111,11.4,False,3,False,1416
-Uttar Pradesh,Gonda,Tomato,7,1.114,51.4,False,6,False,2760
-Madhya Pradesh,Sehore,Tomato,2,1.115,25.5,False,2,False,678
-Gujarat,Vadodara (Baroda),Potato,4,1.117,30.3,False,4,False,2476
-Gujarat,Banaskanth,Onion,2,1.118,6.0,False,2,False,1633
-Uttar Pradesh,Sonbhadra,Potato,2,1.118,13.0,False,2,False,2496
-Madhya Pradesh,Badwani,Potato,2,1.119,26.5,False,1,False,184
-Gujarat,Bharuch,Potato,3,1.12,31.5,False,3,False,1764
-Gujarat,Kachchh,Potato,3,1.12,10.7,False,3,False,667
-Uttar Pradesh,Lucknow,Tomato,7,1.123,37.2,False,6,False,2595
-Uttar Pradesh,Barabanki,Tomato,6,1.127,37.9,False,5,False,2509
-Uttar Pradesh,Mau (Maunathbhanjan),Potato,5,1.128,42.3,False,4,False,2157
-Madhya Pradesh,Harda,Tomato,3,1.129,43.5,False,3,False,2433
-Uttar Pradesh,Balrampur,Onion,3,1.13,28.7,False,2,False,2499
+Madhya Pradesh,Gwalior,Potato,3,1.109,6.4,False,1,False,2050
+Uttar Pradesh,Kushinagar,Onion,4,1.111,7.0,False,3,False,1416
+Uttar Pradesh,Gonda,Tomato,7,1.114,38.3,False,6,False,2760
+Madhya Pradesh,Sehore,Tomato,2,1.115,21.0,False,2,False,678
+Gujarat,Vadodara (Baroda),Potato,4,1.117,18.4,False,4,False,2476
+Gujarat,Banaskanth,Onion,2,1.118,4.1,False,2,False,1633
+Uttar Pradesh,Sonbhadra,Potato,2,1.118,9.4,False,2,False,2496
+Madhya Pradesh,Badwani,Potato,2,1.119,25.2,False,1,False,184
+Gujarat,Bharuch,Potato,3,1.12,22.0,False,3,False,1764
+Gujarat,Kachchh,Potato,3,1.12,0.0,False,3,False,667
+Uttar Pradesh,Lucknow,Tomato,7,1.123,21.3,False,6,False,2595
+Uttar Pradesh,Barabanki,Tomato,6,1.127,22.6,False,5,False,2509
+Uttar Pradesh,Mau (Maunathbhanjan),Potato,5,1.128,32.9,False,4,False,2157
+Madhya Pradesh,Harda,Tomato,3,1.129,36.2,False,3,False,2433
+Uttar Pradesh,Balrampur,Onion,3,1.13,21.6,False,2,False,2499
 Gujarat,Porbandar,Potato,2,1.131,,False,2,False,1046
-Uttar Pradesh,Pratapgarh,Tomato,4,1.136,19.4,False,4,False,2712
-Maharashtra,Satara,Onion,6,1.139,35.9,False,6,False,2537
-Madhya Pradesh,Hoshangabad,Potato,3,1.141,33.7,False,3,False,1665
-Madhya Pradesh,Jhabua,Tomato,5,1.142,62.8,False,5,False,2059
-Gujarat,Devbhumi Dwarka,Potato,0,1.143,100.0,False,0,False,2
+Uttar Pradesh,Pratapgarh,Tomato,4,1.136,12.0,False,4,False,2712
+Maharashtra,Satara,Onion,6,1.139,25.9,False,6,False,2537
+Madhya Pradesh,Hoshangabad,Potato,3,1.141,24.0,False,3,False,1665
+Madhya Pradesh,Jhabua,Tomato,5,1.142,57.8,False,5,False,2059
+Gujarat,Devbhumi Dwarka,Potato,0,1.143,0.0,False,0,False,2
 Gujarat,Patan,Onion,1,1.144,0.0,False,1,False,11
-Uttar Pradesh,Bahraich,Tomato,4,1.144,26.8,False,3,False,2524
-Madhya Pradesh,Burhanpur,Potato,2,1.147,13.5,False,2,False,770
-Maharashtra,Satara,Potato,5,1.147,29.0,False,5,False,2165
-Gujarat,Anand,Onion,8,1.148,46.2,False,8,False,2355
-Madhya Pradesh,Khargone,Onion,4,1.148,50.5,False,3,False,953
-Madhya Pradesh,Harda,Onion,3,1.149,52.3,False,3,False,2049
+Uttar Pradesh,Bahraich,Tomato,4,1.144,16.9,False,3,False,2524
+Madhya Pradesh,Burhanpur,Potato,2,1.147,6.0,False,2,False,770
+Maharashtra,Satara,Potato,5,1.147,18.2,False,5,False,2165
+Gujarat,Anand,Onion,8,1.148,36.0,False,8,False,2355
+Madhya Pradesh,Khargone,Onion,4,1.148,42.5,False,3,False,953
+Madhya Pradesh,Harda,Onion,3,1.149,44.1,False,3,False,2049
 Maharashtra,Amarawati,Tomato,1,1.15,,False,0,False,1890
-Uttar Pradesh,Balrampur,Tomato,3,1.151,37.0,False,2,False,2372
-Gujarat,Navsari,Potato,3,1.152,20.7,False,3,False,1508
-Gujarat,Vadodara (Baroda),Onion,4,1.152,42.0,False,4,False,2442
-Madhya Pradesh,Khargone,Potato,5,1.154,51.0,False,4,False,950
+Uttar Pradesh,Balrampur,Tomato,3,1.151,27.3,False,2,False,2372
+Gujarat,Navsari,Potato,3,1.152,11.2,False,3,False,1508
+Gujarat,Vadodara (Baroda),Onion,4,1.152,29.6,False,4,False,2442
+Madhya Pradesh,Khargone,Potato,5,1.154,39.4,False,4,False,950
 Gujarat,Panchmahals,Onion,1,1.158,0.0,False,1,False,4
-Madhya Pradesh,Khargone,Tomato,5,1.161,68.3,False,4,False,894
-Madhya Pradesh,Mandsaur,Potato,3,1.162,39.7,False,2,False,1573
-Maharashtra,Thane,Onion,3,1.167,36.6,False,3,False,1808
-Uttar Pradesh,Gorakhpur,Potato,4,1.167,28.8,False,2,False,2711
-Madhya Pradesh,Narsinghpur,Potato,1,1.168,10.0,False,0,False,324
-Gujarat,Morbi,Tomato,2,1.186,40.3,False,1,False,2568
-Maharashtra,Mumbai,Onion,5,1.189,32.1,False,5,False,2112
-Gujarat,Kachchh,Onion,2,1.192,50.0,False,2,False,649
-Maharashtra,Ratnagiri,Tomato,2,1.195,25.3,False,2,False,1536
-Madhya Pradesh,Gwalior,Onion,1,1.196,33.1,False,0,False,1986
+Madhya Pradesh,Khargone,Tomato,5,1.161,64.0,False,4,False,894
+Madhya Pradesh,Mandsaur,Potato,3,1.162,37.2,False,2,False,1573
+Maharashtra,Thane,Onion,3,1.167,29.5,False,3,False,1808
+Uttar Pradesh,Gorakhpur,Potato,4,1.167,17.8,False,2,False,2711
+Madhya Pradesh,Narsinghpur,Potato,1,1.168,4.7,False,0,False,324
+Gujarat,Morbi,Tomato,2,1.186,34.1,False,1,False,2568
+Maharashtra,Mumbai,Onion,5,1.189,25.4,False,5,False,2112
+Gujarat,Kachchh,Onion,2,1.192,42.3,False,2,False,649
+Maharashtra,Ratnagiri,Tomato,2,1.195,19.6,False,2,False,1536
+Madhya Pradesh,Gwalior,Onion,1,1.196,23.9,False,0,False,1986
 Madhya Pradesh,Raisen,Potato,1,1.196,,False,1,False,30
-Uttar Pradesh,Kushinagar,Potato,4,1.203,5.4,False,3,False,1429
-Madhya Pradesh,Gwalior,Tomato,2,1.204,26.7,False,1,False,1831
-Maharashtra,Nagpur,Tomato,6,1.207,51.4,False,5,False,2746
-Madhya Pradesh,Chhindwara,Onion,1,1.211,32.8,False,1,False,1598
-Gujarat,Bhavnagar,Tomato,3,1.213,52.5,False,3,False,1485
-Madhya Pradesh,Jhabua,Onion,5,1.213,62.4,False,5,False,2043
+Uttar Pradesh,Kushinagar,Potato,4,1.203,2.2,False,3,False,1429
+Madhya Pradesh,Gwalior,Tomato,2,1.204,20.7,False,1,False,1831
+Maharashtra,Nagpur,Tomato,6,1.207,43.0,False,5,False,2746
+Madhya Pradesh,Chhindwara,Onion,1,1.211,23.6,False,1,False,1598
+Gujarat,Bhavnagar,Tomato,3,1.213,47.1,False,3,False,1485
+Madhya Pradesh,Jhabua,Onion,5,1.213,54.7,False,5,False,2043
 Gujarat,Porbandar,Tomato,2,1.225,,False,2,False,1043
-Maharashtra,Kolhapur,Potato,2,1.228,33.5,False,1,False,251
-Madhya Pradesh,Jhabua,Potato,5,1.238,38.5,False,5,False,2053
+Maharashtra,Kolhapur,Potato,2,1.228,8.6,False,1,False,251
+Madhya Pradesh,Jhabua,Potato,5,1.238,29.6,False,5,False,2053
 Madhya Pradesh,Sheopur,Onion,1,1.247,,False,0,False,328
-Madhya Pradesh,Betul,Potato,2,1.252,25.2,False,2,False,443
-Madhya Pradesh,Satna,Onion,3,1.252,41.4,False,2,False,204
-Madhya Pradesh,Hoshangabad,Onion,3,1.259,41.8,False,3,False,1833
+Madhya Pradesh,Betul,Potato,2,1.252,15.0,False,2,False,443
+Madhya Pradesh,Satna,Onion,3,1.252,35.9,False,2,False,204
+Madhya Pradesh,Hoshangabad,Onion,3,1.259,33.7,False,3,False,1833
 Gujarat,Devbhumi Dwarka,Tomato,0,1.269,25.0,False,0,False,10
-Madhya Pradesh,Burhanpur,Tomato,2,1.279,26.7,False,2,False,766
-Madhya Pradesh,Indore,Tomato,4,1.29,62.8,False,4,False,2361
-Madhya Pradesh,Raisen,Onion,2,1.303,60.0,False,2,False,68
-Madhya Pradesh,Mandsaur,Tomato,4,1.305,30.8,False,4,False,1478
-Maharashtra,Nagpur,Onion,4,1.316,35.7,False,4,False,2422
+Madhya Pradesh,Burhanpur,Tomato,2,1.279,18.0,False,2,False,766
+Madhya Pradesh,Indore,Tomato,4,1.29,57.0,False,4,False,2361
+Madhya Pradesh,Raisen,Onion,2,1.303,55.0,False,2,False,68
+Madhya Pradesh,Mandsaur,Tomato,4,1.305,26.5,False,4,False,1478
+Maharashtra,Nagpur,Onion,4,1.316,28.4,False,4,False,2422
 Gujarat,Bhavnagar,Potato,1,1.329,,False,1,False,577
 Madhya Pradesh,Anupur,Onion,1,1.361,,False,1,False,226
-Madhya Pradesh,Betul,Onion,2,1.361,35.2,False,2,False,304
-Madhya Pradesh,Narsinghpur,Onion,1,1.364,1.2,False,0,False,362
+Madhya Pradesh,Betul,Onion,2,1.361,28.8,False,2,False,304
+Madhya Pradesh,Narsinghpur,Onion,1,1.364,0.6,False,0,False,362
 Madhya Pradesh,Jabalpur,Onion,1,1.366,,False,1,False,1389
 Maharashtra,Chandrapur,Onion,1,1.369,,False,1,False,1457
-Gujarat,Amreli,Tomato,4,1.377,42.9,False,4,False,1843
-Madhya Pradesh,Narsinghpur,Tomato,1,1.38,3.0,False,0,False,349
+Gujarat,Amreli,Tomato,4,1.377,38.3,False,4,False,1843
+Madhya Pradesh,Narsinghpur,Tomato,1,1.38,2.3,False,0,False,349
 Madhya Pradesh,Raisen,Tomato,1,1.391,,False,1,False,48
 Maharashtra,Ratnagiri,Potato,1,1.412,,False,1,False,3
-Maharashtra,Thane,Tomato,4,1.427,60.1,False,4,False,1772
-Madhya Pradesh,Alirajpur,Tomato,2,1.436,33.5,False,2,False,901
-Madhya Pradesh,Ujjain,Tomato,2,1.447,54.0,False,2,False,1366
-Madhya Pradesh,Singroli,Onion,1,1.475,8.4,False,0,False,105
-Madhya Pradesh,Ratlam,Tomato,3,1.503,14.4,False,2,False,502
-Maharashtra,Mumbai,Tomato,4,1.529,57.2,False,4,False,1551
-Madhya Pradesh,Alirajpur,Potato,2,1.543,3.0,False,2,False,470
-Maharashtra,Raigad,Potato,1,1.573,0.8,False,1,False,313
-Gujarat,Gir Somnath,Tomato,1,1.616,13.5,False,0,False,1144
-Madhya Pradesh,Shajapur,Tomato,2,1.674,8.2,False,1,False,61
-Madhya Pradesh,Singroli,Tomato,1,1.705,24.1,False,0,False,395
-Maharashtra,Raigad,Tomato,1,1.787,34.6,False,1,False,1659
-Madhya Pradesh,Alirajpur,Onion,2,1.848,16.0,False,2,False,736
+Maharashtra,Thane,Tomato,4,1.427,54.5,False,4,False,1772
+Madhya Pradesh,Alirajpur,Tomato,2,1.436,28.5,False,2,False,901
+Madhya Pradesh,Ujjain,Tomato,2,1.447,45.3,False,2,False,1366
+Madhya Pradesh,Singroli,Onion,1,1.475,6.0,False,0,False,105
+Madhya Pradesh,Ratlam,Tomato,3,1.503,12.0,False,2,False,502
+Maharashtra,Mumbai,Tomato,4,1.529,51.6,False,4,False,1551
+Madhya Pradesh,Alirajpur,Potato,2,1.543,2.4,False,2,False,470
+Maharashtra,Raigad,Potato,1,1.573,0.4,False,1,False,313
+Gujarat,Gir Somnath,Tomato,1,1.616,10.1,False,0,False,1144
+Madhya Pradesh,Shajapur,Tomato,2,1.674,4.9,False,1,False,61
+Madhya Pradesh,Singroli,Tomato,1,1.705,9.0,False,0,False,395
+Maharashtra,Raigad,Tomato,1,1.787,29.7,False,1,False,1659
+Madhya Pradesh,Alirajpur,Onion,2,1.848,13.9,False,2,False,736
 Maharashtra,Ratnagiri,Onion,1,2.194,,False,1,False,8

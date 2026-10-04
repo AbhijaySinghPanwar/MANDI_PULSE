@@ -19,3 +19,16 @@ Filled in from Phase 3 onward. Starting points are in MANDI_PULSE_SPEC.md Sectio
 - Daily price = median of the valid modal prices across varieties and grades. Days without a valid report have no row (no gap filling).
 - Duplicate rows (same date, market, commodity, variety, grade) keep the latest ingested copy.
 - Market identity: names are merged only within a district, and only if they never report on the same date.
+
+## Net-price opportunities (Phase 3.1)
+
+- **Transport cost** = road distance (straight line x 1.3) x Rs per quintal per km + a fixed handling cost per quintal (low / mid / high scenarios: Rs 1.0 + 30, Rs 1.5 + 50, Rs 2.5 + 80).
+- **Commission and market fees** = 4% / 6% / 8% of the **destination** price (low / mid / high). These fees **vary by state and by market** (APMC market fee, commission agent's *aadhat*, loading and weighing charges), so a single percentage is a simplification; the three scenarios bracket the typical range.
+  - Fees are charged only at the destination, which is conservative: selling at home also incurs fees, so the true advantage of moving is somewhat larger than computed. Spoilage in transit (relevant for tomato) is not modelled.
+- An opportunity needs a gain of at least Rs 100 per quintal **and** at least 5% of the home price, after both costs.
+- **Same-variety check:** a robustness version compares only the same named variety at both markets on the same day (the catch-all variety "Other" is excluded).
+
+## Crash label (Phase 3.1)
+
+- A **crash** at a market on day t means: on **at least 2 report days** within the next 14 days, the price is below 70% of the median of its last 30 days. Only real reports count.
+- The original rule (a single low report within 14 days) was dropped because one mis-keyed or low-quality quote was enough to trigger it.

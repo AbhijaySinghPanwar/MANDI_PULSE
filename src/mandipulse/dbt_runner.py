@@ -52,6 +52,7 @@ def dbt_vars() -> dict:
         "crash_horizon_days": crash["horizon_days"],
         "crash_lookback_days": crash["lookback_days"],
         "crash_drop_ratio": crash["drop_ratio"],
+        "crash_min_days_below": crash["min_days_below"],
     }
 
 

@@ -4,6 +4,10 @@
 --   b_no_centroid             pairs only where BOTH markets were geocoded at market level
 --                             (Q3/Q5 have no pairs: markets located only by district centroid are dropped)
 --   c_incl_suspect_low        suspect-low rows included (schema marts_incl_suspect)
+--   d_same_variety            Q2 only: home and destination compared on the SAME named variety
+--                             the same day (mart_opportunity_same_variety_market_day)
+-- Q2 reports two rates: at least one nearby market paid more after costs (market-day rate) and
+-- any single neighbour paid more (per-comparison rate).
 -- Output: question, metric, commodity, version, value.
 
 with
@@ -44,6 +48,30 @@ q2 as (
     union all
     select commodity, scenario, 'c_incl_suspect_low', has_opportunity, best_opportunity_gain
     from marts_incl_suspect.mart_opportunity_market_day
+    union all
+    select commodity, scenario, 'd_same_variety', has_opportunity, null::numeric
+    from marts.mart_opportunity_same_variety_market_day
+),
+q2_single as (
+    select commodity, scenario, 'a_default' as version, is_opportunity
+    from marts.int_directed_comparisons
+    union all
+    select commodity, scenario, 'b_no_centroid', is_opportunity
+    from marts.int_directed_comparisons where pair_precision = 'both_market'
+    union all
+    select commodity, scenario, 'c_incl_suspect_low', is_opportunity
+    from marts_incl_suspect.int_directed_comparisons
+),
+q2_single_all as (
+    select commodity, scenario, version, is_opportunity::int as opp, 1 as n from q2_single
+    union all
+    select 'All', scenario, version, is_opportunity::int, 1 from q2_single
+    union all
+    select commodity, scenario, 'd_same_variety', n_opportunities, n_comparisons
+    from marts.mart_opportunity_same_variety_market_day
+    union all
+    select 'All', scenario, 'd_same_variety', n_opportunities, n_comparisons
+    from marts.mart_opportunity_same_variety_market_day
 ),
 q2_all as (
     select commodity, scenario, version, opp, gain from q2
@@ -57,8 +85,12 @@ q2_out as (
     union all
     select 'Q2', 'median_best_gain_rs_qtl_mid', commodity, version,
            round(percentile_cont(0.5) within group (order by gain)::numeric, 0)
-    from q2_all where scenario = 'mid' and opp and version <> 'b_no_centroid'
+    from q2_all where scenario = 'mid' and opp and version not in ('b_no_centroid', 'd_same_variety')
     group by commodity, version
+    union all
+    select 'Q2', 'single_neighbour_rate_pct_' || scenario, commodity, version,
+           round(100.0 * sum(opp) / sum(n), 1)
+    from q2_single_all group by scenario, commodity, version
 ),
 
 -- ---------------- Q3: crashes and seasonality ----------------

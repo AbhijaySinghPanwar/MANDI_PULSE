@@ -491,3 +491,28 @@ All 5 match to the paisa. #1 is the Nov-2019 onion spike: Lasalgaon (Niphad) quo
 2. **Transport-cost model.** Add a percentage cost for commission + market fees (typically about 5–8% of the sale value) to the scenarios? It would cut the opportunity rate a lot and make Q2 (and the Streamlit "best mandi" tool) more realistic. Recommended: yes, as a `pct_cost` per scenario (e.g. 4% / 6% / 8%).
 3. **Forecast target granularity.** Train on all market × crop series with ≥ 180 valid days (spec), or restrict to series with dense reporting in the walk-forward test months (May–Oct 2025, when reporting was already thinning)? Recommended: spec rule for training, with metrics reported separately for dense vs sparse series.
 4. **Features from same-day neighbours.** The spread work shows prices are strongly regional (western UP vs the rest). Use same-day state/regional median lags as features (spec §9.1 already lists "state-level median price lags")? Recommended: yes, lagged by at least 1 day.
+
+---
+
+## Phase 3.1: fees, crash definition, same-variety robustness (2026-10-04/05)
+
+1. **Crash definition (b):** crash = **≥ 2 report days** in the next 14 with price < 0.7 × the trailing 30-day median (`ml.crash.min_days_below: 2`).
+   - Applied in `int_crash_labels`; the old single-quote rule is kept as `is_crash_any`. `mart_seasonality` uses the new label, and spec §9.2 is updated.
+   - New crash rates: tomato **21.4%** (was 26.0), onion **11.7%** (15.4), potato **6.0%** (8.0).
+   - December is still the peak: tomato 58.1%, onion 35.6%, potato 34.0%.
+2. **Fees:** `fee_pct` added to the cost scenarios (low 4%, mid 6%, high 8% of the destination price). `fee_cost` = fee_pct × price_dest, subtracted in `int_directed_comparisons` and therefore in `mart_net_price_opportunities` (4,842,785 rows, was 6,569,690).
+   - New dbt test: `net_price_dest = price_dest − transport_cost − fee_cost`.
+   - Documented as an assumption in `docs/ASSUMPTIONS.md` (fees vary by state).
+   - Spec §7.6 formula updated.
+3. **Robustness version (d), same variety only:** new models `int_variety_prices` (1,479,833 rows, named varieties; "Other" excluded) and `mart_opportunity_same_variety_market_day` (3,630,849 rows). Reported next to (a)–(c) in `robustness.csv`.
+4. **Q2 wording:** `PHASE3_FINDINGS.md` now always gives both rates, plus one sentence on why they differ.
+
+| Q2, mid scenario | At least one nearby mandi paid more | Any single neighbour paid more |
+|---|---|---|
+| (a) default | **33.8%** (tomato 43.2, onion 33.4, potato 24.9) | **11.9%** (15.4 / 12.0 / 9.0) |
+| (b) no centroid pairs | 28.7% | 11.8% |
+| (c) incl. suspect-low | 33.9% | 12.0% |
+| (d) same variety only | **24.4%** | **10.3%** |
+
+   Before fees the mid rate was 43.9%. Cost scenarios now give 24.4–42.2%. The median best gain is ₹370/qtl.
+5. **Re-run:** analysis marts (59/59 tests), the sensitivity build (56/56), all 26 Phase 3 queries, all 4 notebooks and figures.

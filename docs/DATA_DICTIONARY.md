@@ -143,7 +143,7 @@ Rows: 33473
 
 Q2 detail. Profitable moves only (is_opportunity), one row per scenario x date x home -> destination. Both markets reported that day.
 
-Rows: 6569690
+Rows: 4842785
 
 | Column | Type | Description |
 |---|---|---|
@@ -160,7 +160,8 @@ Rows: 6569690
 | `price_home` | numeric |  |
 | `price_dest` | numeric |  |
 | `transport_cost` | numeric | road_km_est x cost_per_qtl_km + fixed_cost_per_qtl, Rs per quintal. |
-| `net_price_dest` | numeric | price_dest - transport_cost, Rs per quintal. |
+| `fee_cost` | numeric | fee_pct x price_dest (commission + market fees at the destination; 4% / 6% / 8% for low / mid / high), Rs per quintal. |
+| `net_price_dest` | numeric | price_dest - transport_cost - fee_cost, Rs per quintal. |
 | `gain` | numeric | net_price_dest - price_home, Rs per quintal. |
 | `gain_pct` | numeric |  |
 | `is_opportunity` | boolean |  |
@@ -248,3 +249,20 @@ Rows: 463
 | `opportunity_rate_market_precision` | numeric |  |
 | `is_price_trapped` | boolean |  |
 | `is_price_trapped_market_precision` | boolean |  |
+
+## `marts.mart_opportunity_same_variety_market_day`
+
+Q2 robustness version (d) - home market x commodity x date x scenario, comparing only the same named variety on the same day.
+
+Rows: 3630849
+
+| Column | Type | Description |
+|---|---|---|
+| `home_market_key` | text |  |
+| `commodity_key` | integer |  |
+| `commodity` | text |  |
+| `date` | date |  |
+| `scenario` | text |  |
+| `n_comparisons` | bigint |  |
+| `n_opportunities` | bigint |  |
+| `has_opportunity` | boolean |  |

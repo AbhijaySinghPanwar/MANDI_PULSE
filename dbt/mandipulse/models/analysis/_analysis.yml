@@ -93,7 +93,7 @@ models:
       - expression_is_true:
           arguments: {expression: "abs(gain - (net_price_dest - price_home)) < 0.01"}
       - expression_is_true:
-          arguments: {expression: "abs(net_price_dest - (price_dest - transport_cost)) < 0.01"}
+          arguments: {expression: "abs(net_price_dest - (price_dest - transport_cost - fee_cost)) < 0.01"}
     columns:
       - name: scenario
         description: Transport-cost scenario (low / mid / high) from settings.yaml.
@@ -117,8 +117,10 @@ models:
               arguments: {expression: "road_km_est > 0"}
       - name: transport_cost
         description: road_km_est x cost_per_qtl_km + fixed_cost_per_qtl, Rs per quintal.
+      - name: fee_cost
+        description: fee_pct x price_dest (commission + market fees at the destination; 4% / 6% / 8% for low / mid / high), Rs per quintal.
       - name: net_price_dest
-        description: price_dest - transport_cost, Rs per quintal.
+        description: price_dest - transport_cost - fee_cost, Rs per quintal.
       - name: gain
         description: net_price_dest - price_home, Rs per quintal.
         tests: [not_null]
@@ -142,7 +144,7 @@ models:
         tests: [not_null]
 
   - name: int_crash_labels
-    description: Spec 9.2 crash label per market x commodity x day from observed days only; NULL where unknown.
+    description: Crash label (decision b - at least 2 report days in the next 14 below 70% of the trailing 30-day median) per market x commodity x day from observed days only; NULL where unknown. is_crash_any = original single-quote rule.
     tests:
       - unique_combination:
           arguments:
@@ -186,3 +188,22 @@ models:
     columns:
       - name: is_price_trapped
         tests: [not_null]
+
+  - name: int_variety_prices
+    description: Variety-level daily prices (named varieties only; 'Other' dropped) for the same-variety Q2 robustness check.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [market_key, commodity_key, variety, date]
+
+  - name: mart_opportunity_same_variety_market_day
+    description: Q2 robustness version (d) - home market x commodity x date x scenario, comparing only the same named variety on the same day.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: [home_market_key, commodity_key, date, scenario]
+    columns:
+      - name: n_comparisons
+        tests:
+          - expression_is_true:
+              arguments: {expression: "n_comparisons > 0 and n_opportunities <= n_comparisons"}

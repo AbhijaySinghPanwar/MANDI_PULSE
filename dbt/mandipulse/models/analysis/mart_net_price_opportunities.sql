@@ -17,6 +17,7 @@ select
     price_home,
     price_dest,
     transport_cost,
+    fee_cost,
     net_price_dest,
     gain,
     gain_pct,

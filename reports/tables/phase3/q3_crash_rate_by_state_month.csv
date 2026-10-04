@@ -1,145 +1,145 @@
 commodity,state,month,month_name,crash_rate_pct,n_labelled_days,price_index
-Onion,Gujarat,1,Jan,26.44,3446,1.275
-Onion,Gujarat,2,Feb,33.23,3536,1.271
-Onion,Gujarat,3,Mar,50.05,3259,0.861
-Onion,Gujarat,4,Apr,29.9,2973,0.701
-Onion,Gujarat,5,May,8.84,3248,0.724
-Onion,Gujarat,6,Jun,2.89,3077,0.871
-Onion,Gujarat,7,Jul,4.68,3332,1.02
-Onion,Gujarat,8,Aug,4.02,2887,1.044
-Onion,Gujarat,9,Sep,9.14,2615,0.94
-Onion,Gujarat,10,Oct,4.53,2718,1.579
-Onion,Gujarat,11,Nov,35.25,2213,1.54
-Onion,Gujarat,12,Dec,53.33,2730,1.08
-Onion,Madhya Pradesh,1,Jan,31.32,5326,1.353
-Onion,Madhya Pradesh,2,Feb,36.07,5431,1.495
-Onion,Madhya Pradesh,3,Mar,47.49,5753,0.998
-Onion,Madhya Pradesh,4,Apr,36.5,5376,0.76
-Onion,Madhya Pradesh,5,May,30.29,5995,0.697
-Onion,Madhya Pradesh,6,Jun,11.42,6665,0.82
-Onion,Madhya Pradesh,7,Jul,14.83,6886,0.975
-Onion,Madhya Pradesh,8,Aug,17.87,6474,1.048
-Onion,Madhya Pradesh,9,Sep,21.39,6074,0.984
-Onion,Madhya Pradesh,10,Oct,13.53,5719,1.321
-Onion,Madhya Pradesh,11,Nov,35.69,4940,1.531
-Onion,Madhya Pradesh,12,Dec,47.26,4917,1.021
-Onion,Maharashtra,1,Jan,38.9,8105,1.479
-Onion,Maharashtra,2,Feb,37.72,8314,1.339
-Onion,Maharashtra,3,Mar,47.85,8563,0.838
-Onion,Maharashtra,4,Apr,17.61,6996,0.646
-Onion,Maharashtra,5,May,5.29,8298,0.667
-Onion,Maharashtra,6,Jun,1.92,9600,0.955
-Onion,Maharashtra,7,Jul,3.78,10093,0.992
-Onion,Maharashtra,8,Aug,3.2,9334,1.022
-Onion,Maharashtra,9,Sep,5.03,8422,1.115
-Onion,Maharashtra,10,Oct,6.92,7672,1.556
-Onion,Maharashtra,11,Nov,35.97,6820,1.778
-Onion,Maharashtra,12,Dec,53.81,8036,1.2
-Onion,Uttar Pradesh,1,Jan,13.87,33325,1.26
-Onion,Uttar Pradesh,2,Feb,15.22,31991,1.36
-Onion,Uttar Pradesh,3,Mar,29.51,32960,1.074
-Onion,Uttar Pradesh,4,Apr,24.43,33793,0.834
-Onion,Uttar Pradesh,5,May,6.16,35800,0.754
-Onion,Uttar Pradesh,6,Jun,1.03,34356,0.809
-Onion,Uttar Pradesh,7,Jul,0.57,34509,1.012
-Onion,Uttar Pradesh,8,Aug,1.24,33719,1.059
-Onion,Uttar Pradesh,9,Sep,2.38,33804,1.01
-Onion,Uttar Pradesh,10,Oct,1.31,31294,1.327
-Onion,Uttar Pradesh,11,Nov,8.86,27164,1.798
-Onion,Uttar Pradesh,12,Dec,36.45,26937,1.389
-Potato,Gujarat,1,Jan,39.72,2883,0.897
-Potato,Gujarat,2,Feb,19.13,2928,0.71
-Potato,Gujarat,3,Mar,8.67,2963,0.709
-Potato,Gujarat,4,Apr,3.06,2676,0.91
-Potato,Gujarat,5,May,4.08,2989,1.0
-Potato,Gujarat,6,Jun,1.79,2847,1.008
-Potato,Gujarat,7,Jul,1.09,3124,1.088
-Potato,Gujarat,8,Aug,2.6,2918,1.067
-Potato,Gujarat,9,Sep,2.53,2686,1.069
-Potato,Gujarat,10,Oct,2.18,2609,1.167
-Potato,Gujarat,11,Nov,12.16,2155,1.193
-Potato,Gujarat,12,Dec,31.46,2597,1.2
-Potato,Madhya Pradesh,1,Jan,23.62,4929,0.813
-Potato,Madhya Pradesh,2,Feb,18.73,4651,0.801
-Potato,Madhya Pradesh,3,Mar,11.68,5119,0.839
-Potato,Madhya Pradesh,4,Apr,9.8,4203,0.954
-Potato,Madhya Pradesh,5,May,10.45,4260,1.0
-Potato,Madhya Pradesh,6,Jun,6.73,4430,1.073
-Potato,Madhya Pradesh,7,Jul,10.98,5011,1.034
-Potato,Madhya Pradesh,8,Aug,12.37,4979,1.05
-Potato,Madhya Pradesh,9,Sep,8.54,4646,1.171
-Potato,Madhya Pradesh,10,Oct,9.7,4763,1.162
-Potato,Madhya Pradesh,11,Nov,20.82,4466,1.2
-Potato,Madhya Pradesh,12,Dec,31.35,4712,1.084
-Potato,Maharashtra,1,Jan,22.65,3881,0.848
-Potato,Maharashtra,2,Feb,16.75,4066,0.828
-Potato,Maharashtra,3,Mar,8.09,4302,0.784
-Potato,Maharashtra,4,Apr,3.5,3630,0.927
-Potato,Maharashtra,5,May,4.46,3815,1.0
-Potato,Maharashtra,6,Jun,3.74,4146,1.067
-Potato,Maharashtra,7,Jul,3.57,4145,1.047
-Potato,Maharashtra,8,Aug,1.76,4027,1.102
-Potato,Maharashtra,9,Sep,1.59,3773,1.083
-Potato,Maharashtra,10,Oct,2.9,3582,1.07
-Potato,Maharashtra,11,Nov,8.68,3294,1.193
-Potato,Maharashtra,12,Dec,32.11,3703,1.019
-Potato,Uttar Pradesh,1,Jan,20.6,38097,0.753
-Potato,Uttar Pradesh,2,Feb,5.1,35533,0.679
-Potato,Uttar Pradesh,3,Mar,1.15,36395,0.726
-Potato,Uttar Pradesh,4,Apr,0.78,36740,0.859
-Potato,Uttar Pradesh,5,May,0.83,38290,0.974
-Potato,Uttar Pradesh,6,Jun,0.76,36541,1.083
-Potato,Uttar Pradesh,7,Jul,0.65,36863,1.207
-Potato,Uttar Pradesh,8,Aug,1.07,36214,1.298
-Potato,Uttar Pradesh,9,Sep,1.07,36251,1.222
-Potato,Uttar Pradesh,10,Oct,0.82,34342,1.177
-Potato,Uttar Pradesh,11,Nov,10.87,30784,1.25
-Potato,Uttar Pradesh,12,Dec,40.81,33692,1.031
-Tomato,Gujarat,1,Jan,57.24,4090,0.71
-Tomato,Gujarat,2,Feb,37.72,4016,0.588
-Tomato,Gujarat,3,Mar,32.21,4014,0.586
-Tomato,Gujarat,4,Apr,17.25,3717,0.602
-Tomato,Gujarat,5,May,9.2,3936,0.849
-Tomato,Gujarat,6,Jun,13.82,3683,1.419
-Tomato,Gujarat,7,Jul,23.51,4122,1.957
-Tomato,Gujarat,8,Aug,65.79,3730,1.599
-Tomato,Gujarat,9,Sep,46.31,3887,1.085
-Tomato,Gujarat,10,Oct,21.01,3631,1.666
-Tomato,Gujarat,11,Nov,45.5,2965,1.324
-Tomato,Gujarat,12,Dec,67.68,3704,1.167
-Tomato,Madhya Pradesh,1,Jan,44.35,5123,0.669
-Tomato,Madhya Pradesh,2,Feb,30.69,4822,0.659
-Tomato,Madhya Pradesh,3,Mar,19.24,4895,0.693
-Tomato,Madhya Pradesh,4,Apr,18.47,4370,0.695
-Tomato,Madhya Pradesh,5,May,7.96,4248,0.798
-Tomato,Madhya Pradesh,6,Jun,11.97,4577,1.245
-Tomato,Madhya Pradesh,7,Jul,20.95,4835,1.613
-Tomato,Madhya Pradesh,8,Aug,43.4,4834,1.489
-Tomato,Madhya Pradesh,9,Sep,41.75,5396,1.196
-Tomato,Madhya Pradesh,10,Oct,16.58,5379,1.297
-Tomato,Madhya Pradesh,11,Nov,38.0,4963,1.225
-Tomato,Madhya Pradesh,12,Dec,58.37,5349,0.875
-Tomato,Maharashtra,1,Jan,52.05,6355,0.792
-Tomato,Maharashtra,2,Feb,41.97,6422,0.75
-Tomato,Maharashtra,3,Mar,34.37,6805,0.704
-Tomato,Maharashtra,4,Apr,26.35,5758,0.714
-Tomato,Maharashtra,5,May,12.25,6222,0.829
-Tomato,Maharashtra,6,Jun,26.07,6839,1.478
-Tomato,Maharashtra,7,Jul,37.36,7075,1.464
-Tomato,Maharashtra,8,Aug,67.3,7000,1.107
-Tomato,Maharashtra,9,Sep,39.88,6617,0.97
-Tomato,Maharashtra,10,Oct,24.63,6232,1.429
-Tomato,Maharashtra,11,Nov,53.54,5855,1.194
-Tomato,Maharashtra,12,Dec,59.71,6255,1.071
-Tomato,Uttar Pradesh,1,Jan,37.17,33842,0.813
-Tomato,Uttar Pradesh,2,Feb,13.92,31668,0.672
-Tomato,Uttar Pradesh,3,Mar,7.48,32398,0.677
-Tomato,Uttar Pradesh,4,Apr,10.4,32987,0.8
-Tomato,Uttar Pradesh,5,May,18.45,34274,0.678
-Tomato,Uttar Pradesh,6,Jun,4.72,32371,0.881
-Tomato,Uttar Pradesh,7,Jul,9.01,31939,2.007
-Tomato,Uttar Pradesh,8,Aug,29.98,30390,1.739
-Tomato,Uttar Pradesh,9,Sep,29.73,33027,1.347
-Tomato,Uttar Pradesh,10,Oct,4.95,30780,1.594
-Tomato,Uttar Pradesh,11,Nov,27.01,27570,1.58
-Tomato,Uttar Pradesh,12,Dec,65.57,30259,1.161
+Onion,Gujarat,1,Jan,18.46,3446,1.275
+Onion,Gujarat,2,Feb,25.65,3536,1.271
+Onion,Gujarat,3,Mar,42.01,3259,0.861
+Onion,Gujarat,4,Apr,23.18,2973,0.701
+Onion,Gujarat,5,May,3.91,3248,0.724
+Onion,Gujarat,6,Jun,1.3,3077,0.871
+Onion,Gujarat,7,Jul,2.58,3332,1.02
+Onion,Gujarat,8,Aug,1.59,2887,1.044
+Onion,Gujarat,9,Sep,3.9,2615,0.94
+Onion,Gujarat,10,Oct,1.95,2718,1.579
+Onion,Gujarat,11,Nov,26.43,2213,1.54
+Onion,Gujarat,12,Dec,46.48,2730,1.08
+Onion,Madhya Pradesh,1,Jan,19.96,5326,1.353
+Onion,Madhya Pradesh,2,Feb,25.89,5431,1.495
+Onion,Madhya Pradesh,3,Mar,38.57,5753,0.998
+Onion,Madhya Pradesh,4,Apr,26.45,5376,0.76
+Onion,Madhya Pradesh,5,May,20.92,5995,0.697
+Onion,Madhya Pradesh,6,Jun,6.0,6665,0.82
+Onion,Madhya Pradesh,7,Jul,6.62,6886,0.975
+Onion,Madhya Pradesh,8,Aug,10.09,6474,1.048
+Onion,Madhya Pradesh,9,Sep,11.72,6074,0.984
+Onion,Madhya Pradesh,10,Oct,7.06,5719,1.321
+Onion,Madhya Pradesh,11,Nov,24.68,4940,1.531
+Onion,Madhya Pradesh,12,Dec,38.23,4917,1.021
+Onion,Maharashtra,1,Jan,29.93,8105,1.479
+Onion,Maharashtra,2,Feb,29.16,8314,1.339
+Onion,Maharashtra,3,Mar,39.04,8563,0.838
+Onion,Maharashtra,4,Apr,10.51,6996,0.646
+Onion,Maharashtra,5,May,2.21,8298,0.667
+Onion,Maharashtra,6,Jun,0.69,9600,0.955
+Onion,Maharashtra,7,Jul,0.92,10093,0.992
+Onion,Maharashtra,8,Aug,1.16,9334,1.022
+Onion,Maharashtra,9,Sep,2.1,8422,1.115
+Onion,Maharashtra,10,Oct,3.35,7672,1.556
+Onion,Maharashtra,11,Nov,25.1,6820,1.778
+Onion,Maharashtra,12,Dec,44.18,8036,1.2
+Onion,Uttar Pradesh,1,Jan,10.82,33325,1.26
+Onion,Uttar Pradesh,2,Feb,12.04,31991,1.36
+Onion,Uttar Pradesh,3,Mar,26.32,32960,1.074
+Onion,Uttar Pradesh,4,Apr,20.81,33793,0.834
+Onion,Uttar Pradesh,5,May,4.25,35800,0.754
+Onion,Uttar Pradesh,6,Jun,0.55,34356,0.809
+Onion,Uttar Pradesh,7,Jul,0.26,34509,1.012
+Onion,Uttar Pradesh,8,Aug,0.49,33719,1.059
+Onion,Uttar Pradesh,9,Sep,1.17,33804,1.01
+Onion,Uttar Pradesh,10,Oct,0.37,31294,1.327
+Onion,Uttar Pradesh,11,Nov,6.23,27164,1.798
+Onion,Uttar Pradesh,12,Dec,31.48,26937,1.389
+Potato,Gujarat,1,Jan,31.95,2883,0.897
+Potato,Gujarat,2,Feb,14.31,2928,0.71
+Potato,Gujarat,3,Mar,5.5,2963,0.709
+Potato,Gujarat,4,Apr,0.56,2676,0.91
+Potato,Gujarat,5,May,1.44,2989,1.0
+Potato,Gujarat,6,Jun,0.7,2847,1.008
+Potato,Gujarat,7,Jul,0.29,3124,1.088
+Potato,Gujarat,8,Aug,0.79,2918,1.067
+Potato,Gujarat,9,Sep,1.34,2686,1.069
+Potato,Gujarat,10,Oct,1.07,2609,1.167
+Potato,Gujarat,11,Nov,9.47,2155,1.193
+Potato,Gujarat,12,Dec,24.53,2597,1.2
+Potato,Madhya Pradesh,1,Jan,16.05,4929,0.813
+Potato,Madhya Pradesh,2,Feb,12.62,4651,0.801
+Potato,Madhya Pradesh,3,Mar,5.88,5119,0.839
+Potato,Madhya Pradesh,4,Apr,4.12,4203,0.954
+Potato,Madhya Pradesh,5,May,4.69,4260,1.0
+Potato,Madhya Pradesh,6,Jun,2.55,4430,1.073
+Potato,Madhya Pradesh,7,Jul,5.63,5011,1.034
+Potato,Madhya Pradesh,8,Aug,5.04,4979,1.05
+Potato,Madhya Pradesh,9,Sep,4.09,4646,1.171
+Potato,Madhya Pradesh,10,Oct,3.53,4763,1.162
+Potato,Madhya Pradesh,11,Nov,13.08,4466,1.2
+Potato,Madhya Pradesh,12,Dec,23.98,4712,1.084
+Potato,Maharashtra,1,Jan,15.46,3881,0.848
+Potato,Maharashtra,2,Feb,10.72,4066,0.828
+Potato,Maharashtra,3,Mar,3.3,4302,0.784
+Potato,Maharashtra,4,Apr,0.77,3630,0.927
+Potato,Maharashtra,5,May,1.05,3815,1.0
+Potato,Maharashtra,6,Jun,0.7,4146,1.067
+Potato,Maharashtra,7,Jul,1.47,4145,1.047
+Potato,Maharashtra,8,Aug,0.45,4027,1.102
+Potato,Maharashtra,9,Sep,0.19,3773,1.083
+Potato,Maharashtra,10,Oct,0.08,3582,1.07
+Potato,Maharashtra,11,Nov,5.8,3294,1.193
+Potato,Maharashtra,12,Dec,24.47,3703,1.019
+Potato,Uttar Pradesh,1,Jan,17.02,38097,0.753
+Potato,Uttar Pradesh,2,Feb,3.77,35533,0.679
+Potato,Uttar Pradesh,3,Mar,0.66,36395,0.726
+Potato,Uttar Pradesh,4,Apr,0.32,36740,0.859
+Potato,Uttar Pradesh,5,May,0.17,38290,0.974
+Potato,Uttar Pradesh,6,Jun,0.19,36541,1.083
+Potato,Uttar Pradesh,7,Jul,0.41,36863,1.207
+Potato,Uttar Pradesh,8,Aug,0.48,36214,1.298
+Potato,Uttar Pradesh,9,Sep,0.61,36251,1.222
+Potato,Uttar Pradesh,10,Oct,0.36,34342,1.177
+Potato,Uttar Pradesh,11,Nov,8.78,30784,1.25
+Potato,Uttar Pradesh,12,Dec,37.14,33692,1.031
+Tomato,Gujarat,1,Jan,49.78,4090,0.71
+Tomato,Gujarat,2,Feb,30.85,4016,0.588
+Tomato,Gujarat,3,Mar,24.04,4014,0.586
+Tomato,Gujarat,4,Apr,11.41,3717,0.602
+Tomato,Gujarat,5,May,4.29,3936,0.849
+Tomato,Gujarat,6,Jun,10.13,3683,1.419
+Tomato,Gujarat,7,Jul,18.1,4122,1.957
+Tomato,Gujarat,8,Aug,57.8,3730,1.599
+Tomato,Gujarat,9,Sep,39.34,3887,1.085
+Tomato,Gujarat,10,Oct,13.83,3631,1.666
+Tomato,Gujarat,11,Nov,35.55,2965,1.324
+Tomato,Gujarat,12,Dec,60.66,3704,1.167
+Tomato,Madhya Pradesh,1,Jan,36.33,5123,0.669
+Tomato,Madhya Pradesh,2,Feb,23.56,4822,0.659
+Tomato,Madhya Pradesh,3,Mar,13.69,4895,0.693
+Tomato,Madhya Pradesh,4,Apr,12.2,4370,0.695
+Tomato,Madhya Pradesh,5,May,4.5,4248,0.798
+Tomato,Madhya Pradesh,6,Jun,7.19,4577,1.245
+Tomato,Madhya Pradesh,7,Jul,13.88,4835,1.613
+Tomato,Madhya Pradesh,8,Aug,35.35,4834,1.489
+Tomato,Madhya Pradesh,9,Sep,34.71,5396,1.196
+Tomato,Madhya Pradesh,10,Oct,10.41,5379,1.297
+Tomato,Madhya Pradesh,11,Nov,28.29,4963,1.225
+Tomato,Madhya Pradesh,12,Dec,50.14,5349,0.875
+Tomato,Maharashtra,1,Jan,42.39,6355,0.792
+Tomato,Maharashtra,2,Feb,32.0,6422,0.75
+Tomato,Maharashtra,3,Mar,22.32,6805,0.704
+Tomato,Maharashtra,4,Apr,17.25,5758,0.714
+Tomato,Maharashtra,5,May,6.88,6222,0.829
+Tomato,Maharashtra,6,Jun,18.38,6839,1.478
+Tomato,Maharashtra,7,Jul,27.41,7075,1.464
+Tomato,Maharashtra,8,Aug,59.01,7000,1.107
+Tomato,Maharashtra,9,Sep,32.37,6617,0.97
+Tomato,Maharashtra,10,Oct,16.06,6232,1.429
+Tomato,Maharashtra,11,Nov,42.78,5855,1.194
+Tomato,Maharashtra,12,Dec,50.6,6255,1.071
+Tomato,Uttar Pradesh,1,Jan,33.22,33842,0.813
+Tomato,Uttar Pradesh,2,Feb,10.75,31668,0.672
+Tomato,Uttar Pradesh,3,Mar,5.32,32398,0.677
+Tomato,Uttar Pradesh,4,Apr,7.8,32987,0.8
+Tomato,Uttar Pradesh,5,May,15.24,34274,0.678
+Tomato,Uttar Pradesh,6,Jun,3.5,32371,0.881
+Tomato,Uttar Pradesh,7,Jul,7.14,31939,2.007
+Tomato,Uttar Pradesh,8,Aug,25.63,30390,1.739
+Tomato,Uttar Pradesh,9,Sep,27.06,33027,1.347
+Tomato,Uttar Pradesh,10,Oct,3.04,30780,1.594
+Tomato,Uttar Pradesh,11,Nov,22.68,27570,1.58
+Tomato,Uttar Pradesh,12,Dec,60.79,30259,1.161

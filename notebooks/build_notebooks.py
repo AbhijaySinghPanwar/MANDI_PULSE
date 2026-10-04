@@ -155,8 +155,8 @@ mon.groupby("commodity")["median_pct_gap"].describe()""",
             """\
 q2 = load("phase3", "q2_opportunity_rate")
 scen = ["low", "mid", "high"]
-fig, ax = viz.figure("Q2. Market-days with a profitable nearby market, after transport cost",
-                     "% of market-days where >= 1 market within 100 km pays >= Rs 100/qtl and >= 5% more, net of transport")
+fig, ax = viz.figure("Q2. Market-days with a profitable nearby market, after transport and fees",
+                     "% of market-days where >= 1 market within 100 km pays >= Rs 100/qtl and >= 5% more, net of transport and fees")
 x = np.arange(len(scen))
 w = 0.26
 for i, c in enumerate(COMMODITIES):
@@ -166,13 +166,13 @@ for i, c in enumerate(COMMODITIES):
     for b, v in zip(bars, g["pct_market_days_with_opportunity"], strict=True):
         ax.annotate(f"{v:.0f}%", (b.get_x() + b.get_width() / 2, v), xytext=(0, 3),
                     textcoords="offset points", ha="center", fontsize=8.5, color=INK_2)
-ax.set_xticks(x, ["low cost\\n(Rs 1.0/qtl/km + 30)", "mid cost\\n(Rs 1.5/qtl/km + 50)", "high cost\\n(Rs 2.5/qtl/km + 80)"])
+ax.set_xticks(x, ["low cost\\n(Rs 1.0/qtl/km + 30, 4% fees)", "mid cost\\n(Rs 1.5/qtl/km + 50, 6% fees)", "high cost\\n(Rs 2.5/qtl/km + 80, 8% fees)"])
 ax.set_ylabel("% of market-days")
 ax.set_ylim(0, 70)
 viz.legend(ax)
 viz.save(fig, "q2_opportunity_rate_by_scenario",
-         note="With ~8 neighbours reporting per day, any single neighbour is profitable on only 11-25% of comparisons (see table). "
-              "Costs exclude commission and market fees.")
+         note="~8 neighbours report per day; any single one is profitable on only 5-20% of comparisons (see table). "
+              "Fees 4/6/8%; spoilage not modelled.")
 q2""",
         ),
         (
@@ -241,7 +241,7 @@ s.pivot(index="month", columns="commodity", values="median_price_index")""",
             """\
 grid = s.pivot(index="commodity", columns="month", values="crash_rate_pct").loc[COMMODITIES]
 fig, ax = viz.figure("Q3. How often prices crash, by month",
-                     "% of market-days followed within 14 days by a fall below 70% of the 30-day median", height=3.8)
+                     "% of market-days followed within 14 days by >= 2 days below 70% of the 30-day median", height=3.8)
 cmap = LinearSegmentedColormap.from_list("seq", viz.SEQUENTIAL)
 im = ax.imshow(grid.values, cmap=cmap, aspect="auto", vmin=0)
 ax.grid(False)

@@ -268,7 +268,8 @@ fact_daily_price(date_key, market_key, commodity_key, modal_price, min_price, ma
 **`mart_net_price_opportunities`** (Q2):
 ```
 transport_cost = road_km_est × cost_per_qtl_km + fixed_cost_per_qtl
-net_price_dest = price_dest − transport_cost
+fee_cost       = fee_pct × price_dest            (commission + market fees, added 2026-10-04)
+net_price_dest = price_dest − transport_cost − fee_cost
 gain           = net_price_dest − price_home
 is_opportunity = gain ≥ min_gain_abs AND gain / price_home ≥ min_gain_pct
 ```
@@ -278,6 +279,7 @@ Compute for **three cost scenarios** (low, mid, high) from config, so results ar
 |---|---|---|---|
 | `cost_per_qtl_km` (₹) | 1.0 | 1.5 | 2.5 |
 | `fixed_cost_per_qtl` (₹, handling + fees) | 30 | 50 | 80 |
+| `fee_pct` (commission + market fees, share of destination price) | 4% | 6% | 8% |
 | `min_gain_abs` (₹/qtl) | 100 | 100 | 100 |
 | `min_gain_pct` | 5% | 5% | 5% |
 
@@ -343,9 +345,11 @@ The ML parts are deliberately **practical and explainable**. The goal is a model
 
 ### 9.2 Model B — Price crash early warning (classification)
 
-- **Label definition:** for market × commodity on day *t*,
-  `crash = 1` if `min(price[t+1 … t+14]) < 0.7 × median(price[t−29 … t])`.
-  (I.e., the price drops more than 30% below its recent normal within two weeks. Thresholds in config.)
+- **Label definition (revised 2026-10-04, "sustained"):** for market × commodity on day *t*,
+  `crash = 1` if **at least 2 report days** in `t+1 … t+14` have `price < 0.7 × median(price[t−29 … t])`.
+  (I.e., the price stays more than 30% below its recent normal on at least two days within two weeks. Thresholds in config: `ml.crash.drop_ratio`, `min_days_below`.)
+  Only real reports count (no filled values); the label is unknown when the lookback has < 5 report days or the horizon has none.
+  The original single-quote rule (`min(price[t+1 … t+14]) < 0.7 × median`) was too sensitive to one low quote; it is kept as `is_crash_any` for comparison.
 - **Features:** the same as Model A, plus 7-day and 14-day price slopes, the state-level share of markets already falling, and seasonality (historical crash rate for that commodity × month, computed on training data only).
 - **Model:** LightGBM classifier with `class_weight` / `scale_pos_weight` for imbalance. Logistic regression as a baseline.
 - **Validation:** time-based split (same walk-forward as 9.1).
