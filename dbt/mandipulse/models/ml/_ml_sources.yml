@@ -68,3 +68,19 @@ sources:
                   arguments: {to: ref('dim_market'), field: market_key}
           - name: cluster_name
             tests: [not_null]
+      - name: price_forecast_backtest
+        description: Model A walk-forward test predictions (May-Oct 2025) with calibrated band, last-value baseline and the real price.
+        tests:
+          - unique_combination:
+              arguments:
+                columns: [target_date, market_key, commodity_key, model_version]
+          - expression_is_true:
+              arguments: {expression: "p10 <= p50 and p50 <= p90 and target_date = date + 7"}
+        columns:
+          - name: market_key
+            tests:
+              - not_null
+              - relationships:
+                  arguments: {to: ref('dim_market'), field: market_key}
+          - name: actual_price
+            tests: [not_null]

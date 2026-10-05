@@ -599,3 +599,36 @@ SHAP (exact TreeSHAP, 50k rows): `reports/figures/shap_price_forecast.png`, `sha
 2. **Alert threshold for the app.** The validated threshold gives about 57% precision overall but about 30% on not-yet-falling days. Should the "Crash Alerts" page show (a) only alerts at the validated threshold, or (b) a ranked risk list with probability bands (high / medium)? Recommended: (b), with honest copy ("about 3 in 10 early warnings come true; about 6 days' lead").
 3. **Forecast display.** Since the model is only 6.9% better than "last value", should the "Price Outlook" page show the baseline alongside the forecast? Recommended: yes, both lines plus the p10–p90 band, and state the 76% band coverage.
 4. **Data freshness.** Scores are for 2025-10-31 (end of the main period). The app will show stale dates until CEDA or data.gov.in data arrive. OK to label the app "as of 31 Oct 2025"?
+
+## Phase 4.1: validation-window check, band calibration, honest framing (2026-10-05)
+
+**Fix 1: was the median (L1) objective chosen fairly?** The L1 switch was decided after seeing the test months. To check it independently, both objectives were re-run as a walk-forward on Nov 2024–Apr 2025, using only targets before 2025-05-01 (`python -m mandipulse ml validate-forecast`):
+
+| Objective | Validation MAE (₹/qtl) | vs last value |
+|---|---|---|
+| **L1 (median)** | **167.6** | −14.8% |
+| L2 (mean) | 175.5 | −10.7% |
+| Last value | 196.6 | – |
+
+- L1 wins overall (−4.5% MAE vs L2) and in every one of the 6 validation months. **The choice is justified on a pre-test window.**
+
+**Band calibration (CQR):**
+- Per-crop log widening fitted on the validation folds only: Onion +0.011, Potato −0.004, Tomato +0.007.
+- Edges clipped to keep p10 ≤ p50 ≤ p90; the quantile models crossed on a few rows, which made a dbt test fail.
+
+| Window | Coverage before | Coverage after |
+|---|---|---|
+| Validation | 78.6% | 80.0% |
+| Test, May–Oct 2025 | 75.6% | **77.3%** |
+| Stress test, Jul–Aug 2023 | 66.5% | 67.6% |
+
+- Per crop on the test months: onion 76.9 → 82.4%, tomato 72.7 → 74.9%, potato 77.3 → 73.8%.
+- Potato was already about 80% on validation, so its band was narrowed. This was reported as is and not re-tuned on the test months.
+- Scoring (`ml.price_forecast`) and the new `ml.price_forecast_backtest` table (108,004 test-month rows for the app chart) use the calibrated band.
+
+**Fix 2: Model B framing.**
+- `reports/ML_REPORT.md` now leads with the not-yet-falling subset: PR-AUC 0.29 vs 0.15 for the seasonal rule (0.25 vs 0.07 outside December), precision 30.1%, about 6.6 days lead.
+- The all-days numbers come after, explained as flattering: 73.8% of labelled crashes are already under way.
+- New section "How to quote these results".
+
+**Also:** `ml logistic-weights` saves the standardised logistic-regression weights (`reports/ml/crash_logistic_weights.csv`) for the Methodology page. `roll_mean_30_rel` and `momentum_30` carry equal and opposite weights because they encode the same signal.

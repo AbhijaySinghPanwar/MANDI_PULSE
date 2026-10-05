@@ -15,6 +15,8 @@ from sqlalchemy import text
 from mandipulse.db import get_engine
 from mandipulse.ml.evaluate import REPORT_ML_DIR, latest_run
 from mandipulse.ml.features import as_model_frame
+from mandipulse.ml.validate_forecast import calibrated_band, load_calibration
+from mandipulse.queries import run_sql
 
 SCHEMA_SQL = Path(__file__).with_name("schema.sql")
 RECENT_DAYS = 14
@@ -66,6 +68,9 @@ def score_all() -> dict:
         ),
         axis=1,
     )
+    # calibrated band (CQR widening from the pre-test validation window, per commodity)
+    widen = a["commodity"].map(load_calibration()).fillna(0.0).to_numpy()
+    q[:, 0], q[:, 2] = calibrated_band(q[:, 0], q[:, 1], q[:, 2], widen)
     out = pd.DataFrame(
         {
             "date": a["date"].dt.date,
@@ -79,6 +84,32 @@ def score_all() -> dict:
         }
     )
     counts["price_forecast"] = _replace("price_forecast", out, version)
+
+    # backtest (test months) for the app's forecast chart
+    wf = pd.read_parquet(run / "walk_forward_predictions.parquet")
+    keys = run_sql("select commodity, commodity_key from marts.dim_commodity")
+    wf = wf.merge(keys, on="commodity")
+    lo, hi = calibrated_band(
+        wf["model_p10"],
+        wf["model_p50"],
+        wf["model_p90"],
+        wf["commodity"].map(load_calibration()).fillna(0.0),
+    )
+    bt = pd.DataFrame(
+        {
+            "date": pd.to_datetime(wf["date"]).dt.date,
+            "target_date": pd.to_datetime(wf["target_date"]).dt.date,
+            "market_key": wf["market_key"],
+            "commodity_key": wf["commodity_key"].astype(int),
+            "actual_price": wf["target_price"].astype(float).round(2),
+            "p10": lo.round(2),
+            "p50": wf["model_p50"].round(2),
+            "p90": hi.round(2),
+            "baseline_last_value": wf["baseline_last_value"].astype(float).round(2),
+            "model_version": version,
+        }
+    )
+    counts["price_forecast_backtest"] = _replace("price_forecast_backtest", bt, version)
 
     run = latest_run("crash_risk")
     bundle = joblib.load(run / "model.joblib")

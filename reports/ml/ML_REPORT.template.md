@@ -42,7 +42,37 @@ Sparse reporters are harder for every method (MAE ₹{{a_sparse_model}} vs ₹{{
 
 {{a_by_fold}}
 
-**Prediction band:** p10–p90 coverage is {{a_coverage}}, against a target of about 80%. The band is somewhat too narrow, especially in volatile months.
+**Prediction band (raw, before calibration):** p10–p90 coverage is {{a_coverage}}, against a target of about 80%. The calibration below fixes most of the gap.
+
+### Was the median objective chosen fairly? Check on a pre-test validation window
+
+The switch from the L2 (mean) to the L1 (median) objective was made *after* seeing the test-month results. To validate it independently, both objectives were re-run as a walk-forward on **Nov 2024 – Apr 2025**, using only targets dated **before 2025-05-01**, i.e. no test-month data at all (`python -m mandipulse ml validate-forecast`, [`forecast_validation_metrics.json`](ml/forecast_validation_metrics.json)):
+
+{{v_table}}
+
+By validation month (MAE, ₹/qtl):
+
+{{v_by_fold}}
+
+- **Winner on validation: {{v_winner}}.** L1 vs L2: {{v_l1_vs_l2}} lower MAE.
+- Against the best baseline on validation: L1 is {{v_l1_vs_base}} better and L2 is {{v_l2_vs_base}} better.
+
+{{v_verdict}}
+
+### Prediction band calibration (p10–p90)
+
+The raw quantile band was too narrow. It was widened with a simple conformal (CQR-style) correction fitted **only on the validation window above**:
+- score per row = how far the actual price fell outside the band, in log terms;
+- the three quantile models are fitted separately, so on a few rows the band edges cross the median; they are clipped to it (p10 ≤ p50 ≤ p90, the median itself unchanged);
+- per crop, the band is widened by the score quantile that gives 80% coverage on validation (log widening: {{cal_qhat}}).
+
+Validation coverage went from {{cal_val_before}}% to {{cal_val_after}}%. On the untouched test months it went from **{{cal_test_before}}% to {{cal_test_after}}%**; the median band width went from {{cal_width_before}}% to {{cal_width_after}}% of the forecast.
+
+{{cal_table}}
+
+Caveats: the gain is small, and calibration is not uniform. Potato already had about 80% coverage on validation, so its band was slightly *narrowed*, and its test coverage fell. I did not change the method after seeing this, because that would be tuning on the test months again. Shocks (the 2023 tomato spike) stay far below 80% whatever the calibration.
+
+The served forecasts (`ml.price_forecast`, `ml.price_forecast_backtest`, the app) use the calibrated band.
 
 ### Stress test: July–August 2023 tomato spike
 
@@ -66,17 +96,30 @@ Tomato only (the spike):
 
 ## Model B: crash early warning
 
+### Headline: on days when the price has *not yet* started falling, the model ranks crash risk about twice as well as the seasonal rule, and more than three times as well outside December. About 3 in 10 of its early warnings come true, around a week ahead.
+
+**Why this is the headline.** {{b_share_falling}}% of labelled crashes occur when the price is *already* below 90% of its trailing 30-day median on the day of the label. The fall has already begun, so flagging those days is easy and inflates any "all days" metric. The useful question for a farmer is whether the model can warn **before** the fall. So the headline is measured only on days when the price was still ≥ 90% of its median:
+
+{{b_not_falling}}
+
+**Same, excluding December** (where crashes are seasonal and easy to anticipate):
+
+{{b_not_falling_other}}
+
+- PR-AUC **{{b_nf_lightgbm_pr_auc}}** vs **{{b_nf_seasonal_rule_pr_auc}}** for the seasonal rule. Outside December: **{{b_nfo_lightgbm_pr_auc}}** vs **{{b_nfo_seasonal_rule_pr_auc}}**, which is {{b_nfo_lightgbm_lift_over_prevalence}}× the base rate of {{b_nfo_prev}}%.
+- At the validated alert threshold: precision **{{b_nf_lightgbm_precision_pct}}%**, recall {{b_nf_lightgbm_recall_pct}}%. The precision ≥ 0.6 target is **not** met for genuine early warnings.
+- Correct early warnings arrive on average **{{b_nf_lightgbm_avg_lead_days_true_alerts}} days** before the first low report.
+
+**Setup**
 - **Label (decision 2026-10-04):** a crash at day *t* means that on ≥ 2 report days in the next 14, the price is below 70% of its trailing 30-day median. Labels exist only for real report days.
-- **Features:** Model A's features plus 7/14-day slopes, the previous day's state share of falling markets, and the historical crash rate for the crop × month (computed from training data only).
-- **Validation (deviation from the May–Oct 2025 window, which contains no December):** yearly expanding folds, with test years 2022, 2023, 2024 and Jan–Oct 2025. For each test year the alert threshold is chosen on the *previous* year, by a model that never saw that year, targeting precision ≥ 0.6.
+- **Features:** Model A's features plus 7/14-day slopes, the previous day's state share of falling markets, and the historical crash rate for the crop × month (training data only).
+- **Validation (deviation from the May–Oct 2025 window, which has no December):** yearly expanding folds, with test years 2022, 2023, 2024 and Jan–Oct 2025. For each test year the alert threshold is chosen on the *previous* year, by a model that never saw that year, targeting precision ≥ 0.6.
 
 {{b_thresholds}}
 
-### All months
+### All days (flattering: most of these "crashes" are already under way)
 
 {{b_all}}
-
-### December vs other months
 
 **December:**
 
@@ -86,29 +129,15 @@ Tomato only (the spike):
 
 {{b_other}}
 
-### The honest early-warning test: days when the price had *not yet* started falling
-
-**{{b_already_falling_share}} of crash labels occur when the price is already below 90% of its trailing median at *t*.** The fall has already begun, so those "warnings" are easy. The real test is the days when the price was still ≥ 90% of its median:
-
-{{b_not_falling}}
-
-**Same, excluding December:**
-
-{{b_not_falling_other}}
+The all-days precision of {{b_all_lightgbm_precision_pct}}% and recall of {{b_all_lightgbm_recall_pct}}% look strong. Most of that comes from recognising falls that have already started (those days have a crash rate above 40%), not from foresight.
 
 ### Verdict
 
 {{b_verdict}}
 
-- **The model beats the seasonal rule in every segment, including outside December.**
-  - On not-yet-falling days outside December: PR-AUC {{b_nfo_lightgbm_pr_auc}} vs {{b_nfo_seasonal_rule_pr_auc}} for the seasonal rule, and {{b_nfo_lightgbm_lift_over_prevalence}}× the base rate ({{b_nfo_prev}}%).
-  - In December the seasonal rule is already strong (PR-AUC {{b_dec_seasonal_rule_pr_auc}}). The model adds information on *which* markets will crash (PR-AUC {{b_dec_lightgbm_pr_auc}}).
-- **However, the headline numbers flatter it.** Over all days the model reaches precision {{b_all_lightgbm_precision_pct}}% and recall {{b_all_lightgbm_recall_pct}}%, mostly by recognising falls already under way.
-  - For genuinely early warnings (price still ≥ 90% of its median) precision is **{{b_nf_lightgbm_precision_pct}}%**, at recall {{b_nf_lightgbm_recall_pct}}%. The precision ≥ 0.6 target is **not** met there.
-  - Correct early warnings come on average **{{b_nf_lightgbm_avg_lead_days_true_alerts}} days** before the first low report.
-- **Logistic regression is almost as good as LightGBM** (PR-AUC {{b_nfo_logistic_pr_auc}} vs {{b_nfo_lightgbm_pr_auc}} on the hardest segment). The signal is mostly simple momentum, so a transparent linear model would be a defensible production choice.
-
----
+- The model beats the seasonal rule in every segment, including on not-yet-falling days outside December.
+- In December the seasonal rule alone is strong (PR-AUC {{b_dec_seasonal_rule_pr_auc}}). The model adds which markets will crash (PR-AUC {{b_dec_lightgbm_pr_auc}}).
+- **Logistic regression is almost as good as LightGBM** (PR-AUC {{b_nfo_logistic_pr_auc}} vs {{b_nfo_lightgbm_pr_auc}} on the hardest segment). The signal is mostly simple momentum. LightGBM is served; the logistic weights are shown in the app for transparency.
 
 ## Model C: market segments
 
@@ -155,10 +184,19 @@ Tomato only (the spike):
 
 ---
 
+## How to quote these results
+
+Honest one-sentence claims (each backed by a table above):
+
+1. "I built a 7-day mandi price forecast (LightGBM, walk-forward validated) that cut average error by **{{a_improvement}}** versus the best simple baseline, 'next week = today', and I checked the model choice on a separate pre-test window."
+2. "For crash early warning, on days *before* prices start falling, my model ranked risk about **2× better than a seasonal rule** (PR-AUC {{b_nf_lightgbm_pr_auc}} vs {{b_nf_seasonal_rule_pr_auc}}; {{b_nfo_lightgbm_pr_auc}} vs {{b_nfo_seasonal_rule_pr_auc}} outside December). About **3 in 10 warnings came true**, around **{{b_nf_lightgbm_avg_lead_days_true_alerts}} days ahead**."
+3. "I found that {{b_share_falling}}% of labelled 'crashes' were already under way when labelled, so I report the early-warning subset as the headline instead of the flattering all-days score."
+4. "I calibrated the forecast's p10–p90 range with a conformal correction fitted on a validation window, raising test coverage from {{cal_test_before}}% to {{cal_test_after}}% (target 80%)."
+
 ## Limitations
 
 - **The forecast gain is modest.** {{a_improvement}} lower MAE than "last value" is below the 10% target. Day-to-day mandi prices are close to a random walk at a 7-day horizon, and a large share of error comes from sudden shocks (the 2023 tomato spike) that no price-history model can foresee. Weather, arrivals (from CEDA) and policy events would be the next features to try.
-- **The prediction band is too narrow** (coverage below 80%), especially in shocks.
+- **The raw prediction band was too narrow.** It is now calibrated on a validation window (test coverage {{cal_test_before}}% → {{cal_test_after}}%), but in shocks such as the 2023 tomato spike coverage still drops well below 80%.
 - **Crash labels are common and seasonal.** Most labelled crashes are already under way at *t*. Genuine early warnings are possible, with about 6 days' lead, but at roughly 30% precision.
 - **Test period:** the walk-forward window (May–Oct 2025) falls in a year when reporting was already thinning. Results for 2025-11 onward, after the source change, are not evaluated.
 - **Regional mix:** most rows come from Uttar Pradesh, so metrics are dominated by UP markets.

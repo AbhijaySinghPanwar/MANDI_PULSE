@@ -210,6 +210,83 @@ def blocks() -> dict[str, str]:
             ):
                 out[f"b_{key}_{m}_{f}"] = str(seg[name][m][f])
         out[f"b_{key}_prev"] = str(seg[name]["lightgbm"]["prevalence_pct"])
+    # ---- Phase 4.1: pre-test validation window + band calibration ----------------------
+    vpath = REPORT_ML_DIR / "forecast_validation_metrics.json"
+    if vpath.exists():
+        v = json.loads(vpath.read_text(encoding="utf-8"))
+        labels = {
+            "model_l1": "**LightGBM, median (L1) objective**",
+            "model_l2": "LightGBM, mean (L2) objective",
+            **{
+                k: MODEL_LABELS[k]
+                for k in ("baseline_last_value", "baseline_value_7d_ago", "baseline_ma7")
+            },
+        }
+        out["v_table"] = _md(
+            pd.DataFrame(
+                [
+                    {
+                        "Model": labels[k],
+                        "Rows": r["n"],
+                        "MAE (Rs/qtl)": r["mae_rs_qtl"],
+                        "MAPE %": r["mape_pct"],
+                        "sMAPE %": r["smape_pct"],
+                    }
+                    for k, r in v["overall"].items()
+                ]
+            )
+        )
+        out["v_by_fold"] = _md(
+            pd.DataFrame(
+                [
+                    {
+                        "Validation month": m,
+                        "L1 MAE": r["model_l1"],
+                        "L2 MAE": r["model_l2"],
+                        "Last value MAE": r["baseline_last_value"],
+                    }
+                    for m, r in v["mae_by_fold"].items()
+                ]
+            )
+        )
+        out["v_winner"] = v["winner_objective"]
+        out["v_l1_vs_l2"] = f"{v['l1_vs_l2_mae_pct']}%"
+        out["v_l1_vs_base"] = f"{v['l1_vs_best_baseline_pct']}%"
+        out["v_l2_vs_base"] = f"{v['l2_vs_best_baseline_pct']}%"
+        l1_wins = v["winner_objective"].startswith("L1")
+        out["v_verdict"] = (
+            "**The median (L1) objective also wins on the pre-test validation window, so the choice is "
+            "justified without using the test months.**"
+            if l1_wins
+            else "**On the pre-test validation window the mean (L2) objective wins.** Following the rule agreed "
+            "for this check, the served model should use the L2 objective; see 'Decisions'."
+        )
+        cal = v["calibration"]
+        out["cal_qhat"] = ", ".join(
+            f"{k} {val:.3f}" for k, val in cal["qhat_log_by_commodity"].items()
+        )
+        rows = []
+        for window, label in (
+            ("test_may_oct_2025", "Test months May-Oct 2025"),
+            ("stress_test_jul_aug_2023", "Stress test Jul-Aug 2023"),
+        ):
+            for key in cal[window]["before"]:
+                rows.append(
+                    {
+                        "Window": label,
+                        "Slice": key.replace("segment_", "segment: "),
+                        "Coverage before %": cal[window]["before"][key],
+                        "Coverage after %": cal[window]["after"][key],
+                    }
+                )
+        out["cal_table"] = _md(pd.DataFrame(rows))
+        out["cal_val_before"] = str(cal["validation_coverage_before"])
+        out["cal_val_after"] = str(cal["validation_coverage_after"])
+        out["cal_width_before"] = str(cal["test_may_oct_2025"]["median_band_width_pct_before"])
+        out["cal_width_after"] = str(cal["test_may_oct_2025"]["median_band_width_pct_after"])
+        out["cal_test_before"] = str(cal["test_may_oct_2025"]["before"]["all"])
+        out["cal_test_after"] = str(cal["test_may_oct_2025"]["after"]["all"])
+    out["b_share_falling"] = str(b["share_of_crash_labels_already_below_0_9_at_t_pct"])
     for name in ("price_forecast", "crash_risk"):
         path = REPORT_ML_DIR / f"shap_{name}.json"
         if path.exists():

@@ -56,3 +56,7 @@ select = ["E", "F", "I", "B", "UP", "SIM"]
 "tests/test_load.py" = ["E501"]   # one fixture row per line reads better than wrapped tuples
 "notebooks/*.ipynb" = ["F401", "I001", "E501"]   # notebooks share one setup cell; long table lines
 "notebooks/build_notebooks.py" = ["E501"]   # cell sources are long strings
+"src/mandipulse/export.py" = ["E501"]   # SQL text
+"src/mandipulse/serving.py" = ["E501"]   # SQL text
+"src/mandipulse/ml/report.py" = ["E501"]   # report sentences
+"app/**/*.py" = ["E501", "E402"]   # UI copy strings; pages fix sys.path before imports

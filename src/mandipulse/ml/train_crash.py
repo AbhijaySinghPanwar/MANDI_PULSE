@@ -262,3 +262,19 @@ def train_crash() -> dict:
 
 if __name__ == "__main__":
     print(json.dumps(train_crash()["verdict"], indent=2))
+
+
+def logistic_weights() -> pd.DataFrame:
+    """Fit the logistic baseline on ALL labelled days and save its standardised coefficients
+    (for the app's Methodology page): reports/ml/crash_logistic_weights.csv."""
+    from mandipulse.ml.evaluate import REPORT_ML_DIR
+
+    f = build_crash_frame()
+    fit = _fit_score(f, f.head(1), get_settings()["ml"]["random_seed"])
+    lr = fit["logistic"].named_steps["logisticregression"]
+    w = pd.DataFrame({"feature": NUMERIC_FEATURES, "weight": lr.coef_[0]})
+    w["abs_weight"] = w["weight"].abs()
+    w = w.sort_values("abs_weight", ascending=False).drop(columns="abs_weight").round(4)
+    REPORT_ML_DIR.mkdir(parents=True, exist_ok=True)
+    w.to_csv(REPORT_ML_DIR / "crash_logistic_weights.csv", index=False)
+    return w

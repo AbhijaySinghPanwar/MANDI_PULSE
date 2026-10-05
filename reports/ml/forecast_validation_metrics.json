@@ -1,0 +1,241 @@
+{
+  "validation_months": [
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04"
+  ],
+  "note": "all validation targets dated before 2025-05-01 (the test window)",
+  "n_rows": 104950,
+  "overall": {
+    "model_l1": {
+      "n": 104950,
+      "mae_rs_qtl": 167.6,
+      "mape_pct": 10.37,
+      "smape_pct": 9.81
+    },
+    "model_l2": {
+      "n": 104950,
+      "mae_rs_qtl": 175.5,
+      "mape_pct": 10.58,
+      "smape_pct": 10.22
+    },
+    "baseline_last_value": {
+      "n": 104950,
+      "mae_rs_qtl": 196.6,
+      "mape_pct": 12.27,
+      "smape_pct": 11.18
+    },
+    "baseline_value_7d_ago": {
+      "n": 104950,
+      "mae_rs_qtl": 293.4,
+      "mape_pct": 18.44,
+      "smape_pct": 15.97
+    },
+    "baseline_ma7": {
+      "n": 104950,
+      "mae_rs_qtl": 223.3,
+      "mape_pct": 13.98,
+      "smape_pct": 12.48
+    }
+  },
+  "by_commodity": {
+    "Onion": {
+      "model_l1": {
+        "n": 36793,
+        "mae_rs_qtl": 226.8,
+        "mape_pct": 10.68,
+        "smape_pct": 10.13
+      },
+      "model_l2": {
+        "n": 36793,
+        "mae_rs_qtl": 231.1,
+        "mape_pct": 10.62,
+        "smape_pct": 10.3
+      },
+      "baseline_last_value": {
+        "n": 36793,
+        "mae_rs_qtl": 264.9,
+        "mape_pct": 12.87,
+        "smape_pct": 11.73
+      },
+      "baseline_value_7d_ago": {
+        "n": 36793,
+        "mae_rs_qtl": 387.9,
+        "mape_pct": 19.04,
+        "smape_pct": 16.67
+      },
+      "baseline_ma7": {
+        "n": 36793,
+        "mae_rs_qtl": 299.6,
+        "mape_pct": 14.63,
+        "smape_pct": 13.08
+      }
+    },
+    "Potato": {
+      "model_l1": {
+        "n": 33983,
+        "mae_rs_qtl": 96.5,
+        "mape_pct": 6.73,
+        "smape_pct": 6.56
+      },
+      "model_l2": {
+        "n": 33983,
+        "mae_rs_qtl": 109.2,
+        "mape_pct": 7.37,
+        "smape_pct": 7.31
+      },
+      "baseline_last_value": {
+        "n": 33983,
+        "mae_rs_qtl": 108.3,
+        "mape_pct": 7.79,
+        "smape_pct": 7.37
+      },
+      "baseline_value_7d_ago": {
+        "n": 33983,
+        "mae_rs_qtl": 155.9,
+        "mape_pct": 11.52,
+        "smape_pct": 10.58
+      },
+      "baseline_ma7": {
+        "n": 33983,
+        "mae_rs_qtl": 119.9,
+        "mape_pct": 8.76,
+        "smape_pct": 8.22
+      }
+    },
+    "Tomato": {
+      "model_l1": {
+        "n": 34174,
+        "mae_rs_qtl": 174.4,
+        "mape_pct": 13.67,
+        "smape_pct": 12.7
+      },
+      "model_l2": {
+        "n": 34174,
+        "mae_rs_qtl": 181.5,
+        "mape_pct": 13.73,
+        "smape_pct": 13.03
+      },
+      "baseline_last_value": {
+        "n": 34174,
+        "mae_rs_qtl": 210.8,
+        "mape_pct": 16.08,
+        "smape_pct": 14.38
+      },
+      "baseline_value_7d_ago": {
+        "n": 34174,
+        "mae_rs_qtl": 328.3,
+        "mape_pct": 24.67,
+        "smape_pct": 20.58
+      },
+      "baseline_ma7": {
+        "n": 34174,
+        "mae_rs_qtl": 243.8,
+        "mape_pct": 18.48,
+        "smape_pct": 16.07
+      }
+    }
+  },
+  "mae_by_fold": {
+    "2024-11": {
+      "model_l1": 232.4,
+      "model_l2": 249.5,
+      "baseline_last_value": 258.8,
+      "baseline_value_7d_ago": 364.2,
+      "baseline_ma7": 279.2
+    },
+    "2024-12": {
+      "model_l1": 287.1,
+      "model_l2": 310.2,
+      "baseline_last_value": 337.0,
+      "baseline_value_7d_ago": 481.9,
+      "baseline_ma7": 384.7
+    },
+    "2025-01": {
+      "model_l1": 162.5,
+      "model_l2": 162.9,
+      "baseline_last_value": 205.9,
+      "baseline_value_7d_ago": 359.4,
+      "baseline_ma7": 253.1
+    },
+    "2025-02": {
+      "model_l1": 131.6,
+      "model_l2": 136.1,
+      "baseline_last_value": 144.6,
+      "baseline_value_7d_ago": 198.4,
+      "baseline_ma7": 158.2
+    },
+    "2025-03": {
+      "model_l1": 113.2,
+      "model_l2": 116.6,
+      "baseline_last_value": 132.3,
+      "baseline_value_7d_ago": 194.2,
+      "baseline_ma7": 146.3
+    },
+    "2025-04": {
+      "model_l1": 91.7,
+      "model_l2": 92.5,
+      "baseline_last_value": 113.1,
+      "baseline_value_7d_ago": 174.0,
+      "baseline_ma7": 128.9
+    }
+  },
+  "best_baseline": "baseline_last_value",
+  "winner_objective": "L1 (median)",
+  "l1_vs_l2_mae_pct": 4.5,
+  "l1_vs_best_baseline_pct": 14.8,
+  "l2_vs_best_baseline_pct": 10.7,
+  "calibration": {
+    "method": "CQR per commodity, log space, target 80%, fitted on validation folds",
+    "qhat_log_by_commodity": {
+      "Onion": 0.01119,
+      "Potato": -0.00385,
+      "Tomato": 0.00728
+    },
+    "validation_coverage_before": 78.6,
+    "validation_coverage_after": 80.0,
+    "test_may_oct_2025": {
+      "before": {
+        "all": 75.6,
+        "segment_frequent": 75.5,
+        "segment_sparse": 77.6,
+        "Onion": 76.9,
+        "Potato": 77.3,
+        "Tomato": 72.7
+      },
+      "after": {
+        "all": 77.3,
+        "segment_frequent": 77.1,
+        "segment_sparse": 78.8,
+        "Onion": 82.4,
+        "Potato": 73.8,
+        "Tomato": 74.9
+      },
+      "median_band_width_pct_before": 20.6,
+      "median_band_width_pct_after": 21.7
+    },
+    "stress_test_jul_aug_2023": {
+      "before": {
+        "all": 66.5,
+        "segment_frequent": 67.4,
+        "segment_sparse": 57.1,
+        "Onion": 69.9,
+        "Potato": 79.0,
+        "Tomato": 43.4
+      },
+      "after": {
+        "all": 67.6,
+        "segment_frequent": 68.5,
+        "segment_sparse": 57.8,
+        "Onion": 74.6,
+        "Potato": 75.5,
+        "Tomato": 45.6
+      },
+      "median_band_width_pct_before": 19.8,
+      "median_band_width_pct_after": 20.9
+    }
+  }
+}

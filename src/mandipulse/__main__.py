@@ -119,6 +119,15 @@ def data_dictionary() -> None:
     typer.echo(f"wrote {OUT.relative_to(PROJECT_ROOT).as_posix()}")
 
 
+@app.command("export")
+def export() -> None:
+    """Write Power BI exports and the app's parquet datasets to exports/ (+ manifest)."""
+    from mandipulse.export import export_all
+
+    m = export_all(progress=typer.echo)
+    typer.echo(f"wrote {len(m)} files, {m['parquet_mb'].sum():.1f} MB parquet")
+
+
 ml_app = typer.Typer(help="Machine learning: train, explain, score (spec 9).", no_args_is_help=True)
 app.add_typer(ml_app, name="ml")
 
@@ -197,6 +206,29 @@ def ml_report() -> None:
     from mandipulse.ml.report import render
 
     typer.echo(f"wrote {render()}")
+
+
+@ml_app.command("validate-forecast")
+def ml_validate_forecast(
+    coverage_only: bool = typer.Option(
+        False, help="Only recompute test coverage with the saved calibration (no retraining)."
+    ),
+) -> None:
+    """Model A objective check + band calibration on Nov 2024 - Apr 2025 (pre-test window)."""
+    from mandipulse.ml.validate_forecast import recalibrate_test_coverage, run_validation
+
+    m = recalibrate_test_coverage() if coverage_only else run_validation()
+    typer.echo(f"  winner: {m['winner_objective']}; L1 vs L2 MAE {m['l1_vs_l2_mae_pct']}%")
+    c = m["calibration"]["test_may_oct_2025"]
+    typer.echo(f"  test band coverage before {c['before']['all']}% -> after {c['after']['all']}%")
+
+
+@ml_app.command("logistic-weights")
+def ml_logistic_weights() -> None:
+    """Standardised logistic-regression weights for the crash model (Methodology page)."""
+    from mandipulse.ml.train_crash import logistic_weights
+
+    typer.echo(logistic_weights().head(10).to_string(index=False))
 
 
 @ml_app.command("score")

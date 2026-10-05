@@ -1,0 +1,8 @@
+{
+  "method": "CQR per commodity, log space, target 80%, fitted on validation folds",
+  "qhat_log_by_commodity": {
+    "Onion": 0.01119,
+    "Potato": -0.00385,
+    "Tomato": 0.00728
+  }
+}
