@@ -35,15 +35,12 @@ jobs:
       - name: Install
         run: |
           python -m pip install --upgrade pip
-          pip install -e ".[dev,dbt,ml]"
+          pip install -e ".[dev,dbt,ml,app]"
 
       - name: Ruff
         run: |
-          ruff check src tests
-          ruff format --check src tests
-
-      - name: Pytest
-        run: pytest -q
+          ruff check src tests app
+          ruff format --check src tests app
 
       # dbt on a SYNTHETIC, test-only raw sample (tests/fixtures/README.md); the real archive
       # is gitignored. Reference seeds (aliases, geocodes) are the real committed CSVs.
@@ -55,3 +52,11 @@ jobs:
 
       - name: dbt build
         run: python -m mandipulse dbt build
+
+      # app data layer: export the fixture marts so the parquet backend can be compared with
+      # Postgres (tests/test_serving.py) and every Streamlit page smoke-tested on both (tests/test_app.py)
+      - name: Export (fixture data)
+        run: python -m mandipulse export
+
+      - name: Pytest
+        run: pytest -q

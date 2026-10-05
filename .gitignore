@@ -12,7 +12,9 @@ data/processed/
 *.csv.gz
 *.zip
 /models/
-/exports/
+/exports/*
+!/exports/README.md
+!/exports/manifest.csv
 
 # Committed reference data lives in data/reference/ (small, hand-curated CSVs)
 !data/reference/

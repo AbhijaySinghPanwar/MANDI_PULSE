@@ -404,23 +404,28 @@ Tables to connect: `dim_date`, `dim_commodity`, `dim_market`, `fact_daily_price`
 4. **Price-Trapped Districts** — district map coloured by `avg_price_index`; table of trapped districts; cluster breakdown.
 5. **Forecast & Alerts** — actual vs forecast lines with band; current crash alerts.
 
-**Starter DAX measures:**
+**Starter DAX measures** (updated in Phase 5 for fees and the crash definition; full set in `powerbi/DASHBOARD_SPEC.md`):
+
+- `gain` in the opportunity marts is already **after transport and commission/market fees** (fee_pct 4/6/8% of the destination price, low/mid/high).
+- `mart_net_price_opportunities` holds only profitable rows. So the opportunity *rate* comes from `mart_opportunity_market_day` (exported as `_monthly` aggregates).
+- Crash = on ≥ 2 report days in the next 14, the price is below 70% of its trailing 30-day median.
+
 ```DAX
-Median Modal Price = MEDIAN(fact_daily_price[modal_price])
+Median Modal Price = CALCULATE(MEDIAN(fact_daily_price[modal_price]), fact_daily_price[is_suspect_low] = FALSE())
 
 Opportunity Rate (Mid) =
 DIVIDE(
-    CALCULATE(COUNTROWS(mart_net_price_opportunities),
-              mart_net_price_opportunities[scenario] = "mid",
-              mart_net_price_opportunities[is_opportunity] = TRUE()),
-    CALCULATE(COUNTROWS(mart_net_price_opportunities),
-              mart_net_price_opportunities[scenario] = "mid")
-)
+    CALCULATE(SUM(mart_opportunity_market_day_monthly[n_opportunity_days]),
+              mart_opportunity_market_day_monthly[scenario] = "mid"),
+    CALCULATE(SUM(mart_opportunity_market_day_monthly[n_market_days]),
+              mart_opportunity_market_day_monthly[scenario] = "mid")
+)   // 33.8%
 
 Avg Gain When Opportunity (Mid) =
-CALCULATE(AVERAGE(mart_net_price_opportunities[gain]),
-          mart_net_price_opportunities[scenario] = "mid",
-          mart_net_price_opportunities[is_opportunity] = TRUE())
+VAR t = FILTER(mart_net_price_opportunities_monthly, mart_net_price_opportunities_monthly[scenario] = "mid")
+RETURN DIVIDE(SUMX(t, [avg_gain] * [n_opportunity_days]), SUMX(t, [n_opportunity_days]))   // ~Rs 446/qtl
+
+Crash Rate = DIVIDE(SUM(mart_seasonality[n_crash_days]), SUM(mart_seasonality[n_labelled_days]))
 
 Price YoY % =
 VAR curr = [Median Modal Price]
@@ -532,7 +537,7 @@ mandi-pulse/
 - **Accept when:** walk-forward metrics are saved in `metrics.json` for models and baselines; `reports/ML_REPORT.md` summarises results honestly (including if a model didn't beat baselines); `ml.*` tables are populated.
 
 ### Phase 5 — Serving: Streamlit + Power BI prep (≈ 3–4 days)
-- Streamlit app (4 pages); `export` command; `powerbi/DASHBOARD_SPEC.md`.
+- Streamlit app (5 pages); `export` command; `powerbi/DASHBOARD_SPEC.md`.
 - **Accept when:** `streamlit run app/Home.py` works end to end on real data; exports exist; the dashboard spec is followable step by step.
 
 ### Phase 6 — Automation, docs, polish (≈ 2–3 days)

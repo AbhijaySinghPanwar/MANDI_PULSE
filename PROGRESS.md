@@ -632,3 +632,61 @@ SHAP (exact TreeSHAP, 50k rows): `reports/figures/shap_price_forecast.png`, `sha
 - New section "How to quote these results".
 
 **Also:** `ml logistic-weights` saves the standardised logistic-regression weights (`reports/ml/crash_logistic_weights.csv`) for the Methodology page. `roll_mean_30_rel` and `momentum_30` carry equal and opposite weights because they encode the same signal.
+
+## Phase 5: Streamlit app, exports, Power BI spec (2026-10-05)
+
+### How to run
+```bash
+python -m mandipulse export                       # exports/powerbi + exports/app (+ manifest.csv)
+streamlit run app/Home.py                         # Postgres backend (default)
+DATA_BACKEND=parquet streamlit run app/Home.py    # Parquet backend, no database needed
+```
+
+### A. Data access layer
+- `src/mandipulse/serving.py` holds one SQL per dataset (10 datasets). The backend comes from `DATA_BACKEND=postgres|parquet`, and the Parquet files are written from the same SQL.
+- `app/data.py` wraps it with `st.cache_data`.
+- `tests/test_serving.py` compares all 10 datasets across the two backends; they are identical.
+
+### B. Exports
+- 29 files, 45.2 MB Parquet; the Power BI CSV copies are 477 MB.
+- Row counts and sizes are in `exports/manifest.csv`; file descriptions are in `exports/README.md`.
+- The pair-level marts are exported as monthly aggregates + the latest 90 days:
+  - spread: 424k + 177k rows;
+  - net-price opportunities: 753k + 112k;
+  - opportunity market-day: 248k + 143k.
+- `fact_daily_price` is exported in full: 1.78 M rows, 18 MB Parquet.
+- Additions for Power BI:
+  - district centre lat/long on `mart_district_access`;
+  - `ml_crash_status_latest`, with a suspect-series flag.
+
+### C. Streamlit app (5 pages + home)
+
+Every page shows the banner "Data as of 31 Oct 2025…". The date is read from the data (`max(date)` of the analysis prices).
+
+| Page | What it shows |
+|---|---|
+| Best Mandi | Crop, home market, max km, cost scenario (low/mid/high/custom). Lists markets ranked by net price after transport + fees, with the gain vs home and the persistence note (79–84%). Shows a map. Excludes the same town and suspect series |
+| Price Outlook | Chart of actuals, model p50, calibrated p10–p90 band and the "last value" baseline over the test months, plus the latest forecast. Accuracy for the crop (MAE vs baseline, calibrated coverage) |
+| Crash Risk | "Falling now" (rule: < 90% of the 30-day median) and "Early warning" (LightGBM; markets not yet falling, ranked High/Medium/Low), with the note "About 3 in 10 early warnings come true, typically ~6.6 days ahead" |
+| Market Explorer | Price-trapped districts (filter by crop/state); 5 market segments with plain-English descriptions |
+| Methodology | Sources and licences, cleaning steps, cost assumptions, model results (incl. the validation-window check and coverage before/after), logistic-regression weights, limitations |
+
+- Tests: AppTest smoke tests (`tests/test_app.py`) cover 6 scripts × 2 backends.
+- Changes found while reviewing the pages:
+  - Best Mandi failed on a merge column clash; fixed.
+  - Suspect series are now excluded from Crash Risk (9 series).
+  - Negative gains display as `−₹8`.
+
+### D. Power BI
+`powerbi/DASHBOARD_SPEC.md` is a step-by-step guide covering:
+- import (Parquet), the relationships, the date table and a `period = main` report filter;
+- DAX measures updated for fees and the crash definition, each with a "Check" value computed from the exports (33.8% mid opportunity rate, ₹446 average gain, crash rates 21.4/11.7/6.0%, MAE 147.6 vs 158.6, coverage 77.3%);
+- 5 pages with exact visuals, fields and formatting;
+- a colour theme JSON and a screenshot checklist.
+
+Spec 10.2's DAX was updated as well.
+
+### CI
+- The `app` extra is installed and ruff covers `app/`.
+- New step order: fixture load → ml init-schema → dbt build → **export** → pytest. The serving and AppTest tests therefore run on the synthetic fixture with both backends.
+- Verified locally in the throwaway DB `mandipulse_ci`: dbt 165/165, pytest 69 passed.
