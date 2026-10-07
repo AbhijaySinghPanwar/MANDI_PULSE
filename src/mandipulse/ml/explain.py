@@ -22,12 +22,14 @@ TOP = 12
 
 
 def shap_values(model, df: pd.DataFrame, features: list[str]) -> pd.DataFrame:
+    """TreeSHAP contributions per row and feature (LightGBM pred_contrib)."""
     booster = model.booster_ if hasattr(model, "booster_") else model
     contrib = booster.predict(as_model_frame(df, features), pred_contrib=True)
     return pd.DataFrame(np.asarray(contrib)[:, : len(features)], columns=features, index=df.index)
 
 
 def summarise(sv: pd.DataFrame, x: pd.DataFrame) -> list[dict]:
+    """Features ranked by mean |SHAP|, with the direction of their effect."""
     rows = []
     for f in sv.columns:
         direction = None
@@ -53,6 +55,7 @@ def beeswarm(
     xlabel: str,
     name: str,
 ) -> None:
+    """Save a SHAP beeswarm plot of the top features."""
     top = [r["feature"] for r in ranking[:TOP]]
     cmap = LinearSegmentedColormap.from_list("seq", viz.SEQUENTIAL)
     rng = np.random.default_rng(0)
@@ -94,6 +97,7 @@ def beeswarm(
 def explain_model(
     name: str, frame: pd.DataFrame, title: str, subtitle: str, xlabel: str
 ) -> list[dict]:
+    """SHAP ranking and plot for one saved model."""
     run = latest_run(name)
     obj = joblib.load(run / "model.joblib")
     features = json.loads((run / "feature_list.json").read_text(encoding="utf-8"))
@@ -120,6 +124,7 @@ def explain_model(
 
 
 def explain_all() -> dict:
+    """SHAP for Models A and B on recent data; writes plots and rankings."""
     from mandipulse.ml.train_crash import build_crash_frame
     from mandipulse.ml.train_forecast import build_frame
 

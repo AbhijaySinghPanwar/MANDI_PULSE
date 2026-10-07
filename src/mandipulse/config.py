@@ -14,5 +14,6 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 @lru_cache
 def get_settings() -> dict:
+    """config/settings.yaml as a dict (cached)."""
     with open(SETTINGS_PATH, encoding="utf-8") as f:
         return yaml.safe_load(f)

@@ -121,7 +121,15 @@ with right:
     )
 
     show = cand.head(25).assign(
-        Market=lambda d: d["market"] + " (" + d["district"] + ", " + d["state"] + ")",
+        Market=lambda d: (
+            d["needs_verify"].map({True: "⚠️ ", False: ""})
+            + d["market"]
+            + " ("
+            + d["district"]
+            + ", "
+            + d["state"]
+            + ")"
+        ),
         **{
             "Road km": lambda d: d["road_km"].round(0).astype(int),
             "Latest price": lambda d: d["last_price"].map(rupees),

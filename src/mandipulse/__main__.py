@@ -120,12 +120,32 @@ def data_dictionary() -> None:
 
 
 @app.command("export")
-def export() -> None:
+def export(
+    snapshot: bool = typer.Option(
+        False, help="Also refresh the committed app snapshot in data/app_snapshot/."
+    ),
+) -> None:
     """Write Power BI exports and the app's parquet datasets to exports/ (+ manifest)."""
-    from mandipulse.export import export_all
+    from mandipulse.export import export_all, write_app_snapshot
 
     m = export_all(progress=typer.echo)
     typer.echo(f"wrote {len(m)} files, {m['parquet_mb'].sum():.1f} MB parquet")
+    if snapshot:
+        typer.echo(f"app snapshot -> {write_app_snapshot()}")
+
+
+@app.command("pipeline")
+def pipeline(
+    source_glob: str = typer.Option(
+        None, help="Load these files instead of the archive, e.g. the synthetic sample."
+    ),
+    skip_ml: bool = typer.Option(False, help="Skip ml score (no trained models in models/)."),
+    snapshot: bool = typer.Option(False, help="Also refresh data/app_snapshot/ after export."),
+) -> None:
+    """Run load -> dbt build -> ml score -> export end to end; non-zero exit on any failure."""
+    from mandipulse.pipeline import run_pipeline
+
+    raise typer.Exit(run_pipeline(source_glob=source_glob, skip_ml=skip_ml, snapshot=snapshot))
 
 
 ml_app = typer.Typer(help="Machine learning: train, explain, score (spec 9).", no_args_is_help=True)

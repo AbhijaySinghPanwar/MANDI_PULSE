@@ -20,7 +20,7 @@ markets = load("markets")
 c1, c2, c3 = st.columns(3)
 c1.metric("Markets tracked", f"{len(markets):,}")
 c2.metric("Market-days of prices", f"{int(meta['n_market_days'].iloc[0]):,}")
-c3.metric("Crops", " · ".join(COMMODITIES))
+c3.metric("Crops", len(COMMODITIES), help=", ".join(COMMODITIES))
 
 st.subheader("What you can do here")
 st.markdown(

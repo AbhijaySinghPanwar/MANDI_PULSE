@@ -10,6 +10,7 @@ import mandipulse.config  # noqa: F401  (loads .env)
 
 
 def database_url() -> str:
+    """DATABASE_URL from the environment (.env); clear error if missing."""
     url = os.environ.get("DATABASE_URL")
     if not url:
         raise RuntimeError("DATABASE_URL is not set. Copy .env.example to .env and fill it in.")
@@ -18,4 +19,5 @@ def database_url() -> str:
 
 @lru_cache
 def get_engine() -> Engine:
+    """SQLAlchemy engine for the project database."""
     return create_engine(database_url(), pool_pre_ping=True)

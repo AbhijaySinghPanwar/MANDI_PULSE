@@ -38,6 +38,7 @@ including suspect-low rows are in schema `marts_incl_suspect`) follow the star s
 
 
 def build() -> str:
+    """Markdown data dictionary from the dbt yml docs and live Postgres column types."""
     spec = yaml.safe_load(MARTS_YML.read_text(encoding="utf-8"))
     analysis = yaml.safe_load(ANALYSIS_YML.read_text(encoding="utf-8"))
     # Phase 3 analysis marts (mart_*): documented where the yml has descriptions; columns
@@ -76,4 +77,5 @@ def build() -> str:
 
 
 def write() -> None:
+    """Write docs/DATA_DICTIONARY.md."""
     OUT.write_text(build(), encoding="utf-8", newline="\n")

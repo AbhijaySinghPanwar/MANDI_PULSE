@@ -23,6 +23,7 @@ RECENT_DAYS = 14
 
 
 def init_schema() -> None:
+    """Create the ml.* tables if missing."""
     with get_engine().begin() as conn:
         conn.exec_driver_sql(SCHEMA_SQL.read_text(encoding="utf-8"))
 
@@ -50,6 +51,7 @@ def _latest_anchors(f: pd.DataFrame, reported_only: bool) -> pd.DataFrame:
 
 
 def score_all() -> dict:
+    """Score the latest dates with the saved models into the ml.* tables; return row counts."""
     from mandipulse.ml.train_forecast import build_frame
 
     init_schema()

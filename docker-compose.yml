@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:16
-    container_name: mandipulse-postgres
+    container_name: ${POSTGRES_CONTAINER:-mandipulse-postgres}
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-mandipulse}

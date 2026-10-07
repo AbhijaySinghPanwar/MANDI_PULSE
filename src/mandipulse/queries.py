@@ -35,6 +35,7 @@ def run_sql(sql: str) -> pd.DataFrame:
 
 
 def run_folder(folder: str, only: str | None = None) -> list[Path]:
+    """Run analysis/queries/<folder>/*.sql and save each result as CSV."""
     out_dir = TABLE_ROOT / folder
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []

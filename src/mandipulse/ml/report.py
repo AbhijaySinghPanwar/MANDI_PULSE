@@ -86,6 +86,7 @@ def _crash_table(seg: dict) -> str:
 
 
 def blocks() -> dict[str, str]:
+    """Every template placeholder -> its rendered text or table."""
     a, b, c = _load("price_forecast"), _load("crash_risk"), _load("market_cluster")
     wf, st = a["walk_forward"], a["stress_test_jul_aug_2023"]
     out = {
@@ -308,6 +309,7 @@ def blocks() -> dict[str, str]:
 
 
 def render() -> str:
+    """Render reports/ML_REPORT.md from the template and saved metrics."""
     t = TEMPLATE.read_text(encoding="utf-8")
     b = blocks()
     missing = sorted(set(re.findall(r"\{\{(\w+)\}\}", t)) - set(b))

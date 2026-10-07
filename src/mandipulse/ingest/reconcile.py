@@ -16,6 +16,7 @@ OUT = PROJECT_ROOT / "reports" / "tables" / "phase1" / "load_reconciliation.csv"
 
 
 def reconcile() -> pd.DataFrame:
+    """Row counts per state x crop x year: Phase 0 profile vs raw.mandi_prices."""
     cfg = get_settings()
     raw = pd.read_sql(QUERY.read_text(encoding="utf-8"), get_engine())  # small: ~100 rows
     duck = duckdb.connect()

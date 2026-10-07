@@ -54,6 +54,7 @@ def _check_identifier(name: str) -> str:
 
 
 def init_raw_schema(engine: Engine, schema: str = "raw") -> None:
+    """Create the raw schema and tables if missing."""
     ddl = SCHEMA_SQL.read_text(encoding="utf-8").format(schema=_check_identifier(schema))
     with engine.begin() as conn:
         conn.exec_driver_sql(ddl)

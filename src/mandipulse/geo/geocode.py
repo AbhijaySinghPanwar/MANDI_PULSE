@@ -68,6 +68,8 @@ _DESCRIPTOR = re.compile(
 
 @dataclass
 class Hit:
+    """One Nominatim result."""
+
     latitude: float
     longitude: float
     state: str  # state according to Nominatim's address details
@@ -194,6 +196,7 @@ def _append(path: Path, fields: list[str], row: dict) -> None:
 
 
 def ensure_overrides_file(path: Path = OVERRIDES) -> None:
+    """Create the manual geocode overrides CSV (header only) if it does not exist."""
     if not path.exists():
         with open(path, "w", newline="", encoding="utf-8") as f:
             csv.writer(f).writerow(OVERRIDE_FIELDS)
@@ -202,6 +205,7 @@ def ensure_overrides_file(path: Path = OVERRIDES) -> None:
 def geocode_district(
     state: str, district: str, geocode: Geocoder, cache: Path, retry_failed: bool = False
 ) -> dict:
+    """Cached district-centre geocode (the fallback location for its markets)."""
     cached = _read_cache(cache, ["state", "district"]).get((state, district))
     if cached and (cached["latitude"] != "" or not retry_failed):
         return cached
@@ -235,6 +239,7 @@ def geocode_district(
 def geocode_market(
     state: str, district: str, market: str, geocode: Geocoder, district_row: dict, max_km: float
 ) -> dict:
+    """Geocode one market; fall back to the district centre if not found or too far from it."""
     row = {
         "state": state,
         "district": district,
@@ -287,6 +292,7 @@ def geocode_market(
 
 
 def canonical_markets(aliases_csv: Path = ALIASES) -> list[tuple[str, str, str]]:
+    """(state, district, market) for every canonical market in the alias file."""
     df = pd.read_csv(aliases_csv)
     keys = df[["state", "district", "market_canonical"]].drop_duplicates()
     return sorted(map(tuple, keys.itertuples(index=False)))
@@ -354,6 +360,7 @@ def load_market_geo(market_cache: Path = MARKET_CACHE, overrides: Path = OVERRID
 
 
 def coverage_report(geo: pd.DataFrame) -> pd.DataFrame:
+    """Number and share of markets by geo_precision."""
     counts = (
         geo["geo_precision"]
         .value_counts()

@@ -8,7 +8,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import yaml
-from sklearn.metrics import average_precision_score, precision_recall_curve
+from sklearn.metrics import precision_recall_curve
 
 from mandipulse.config import PROJECT_ROOT, get_settings
 
@@ -18,6 +18,7 @@ REPORT_ML_DIR = PROJECT_ROOT / "reports" / "ml"  # committed copies of metrics /
 
 # ----------------------------------------------------------------------------- regression
 def regression_metrics(actual: np.ndarray, pred: np.ndarray) -> dict:
+    """MAE, MAPE and sMAPE (Rs/qtl and %)."""
     actual, pred = np.asarray(actual, float), np.asarray(pred, float)
     err = pred - actual
     return {
@@ -31,6 +32,7 @@ def regression_metrics(actual: np.ndarray, pred: np.ndarray) -> dict:
 
 
 def coverage(actual, p10, p90) -> float:
+    """Share (%) of actual values inside [p10, p90]."""
     actual = np.asarray(actual, float)
     return round(float(100 * np.mean((actual >= p10) & (actual <= p90))), 1)
 
@@ -65,31 +67,6 @@ def pick_threshold(y: np.ndarray, score: np.ndarray, target_precision: float) ->
     return float(thr[int(np.argmax(f1))]), False
 
 
-def classification_metrics(y, score, threshold: float, lead_days=None) -> dict:
-    y, score = np.asarray(y, int), np.asarray(score, float)
-    prevalence = float(y.mean()) if len(y) else float("nan")
-    alert = score >= threshold
-    tp = int(np.sum(alert & (y == 1)))
-    n_alert = int(alert.sum())
-    res = {
-        "n": int(len(y)),
-        "n_crash": int(y.sum()),
-        "prevalence_pct": round(100 * prevalence, 2),
-        "pr_auc": round(float(average_precision_score(y, score)), 4) if y.sum() else None,
-        "threshold": round(float(threshold), 4),
-        "n_alerts": n_alert,
-        "precision_pct": round(100 * tp / n_alert, 1) if n_alert else None,
-        "recall_pct": round(100 * tp / int(y.sum()), 1) if y.sum() else None,
-    }
-    if res["pr_auc"] is not None and prevalence > 0:
-        res["lift_over_prevalence"] = round(res["pr_auc"] / prevalence, 2)
-    if lead_days is not None:
-        lead = np.asarray(lead_days, float)[alert & (y == 1)]
-        lead = lead[~np.isnan(lead)]
-        res["avg_lead_days_true_alerts"] = round(float(lead.mean()), 1) if len(lead) else None
-    return res
-
-
 # ------------------------------------------------------------------------------ artifacts
 def save_artifacts(
     name: str, model, metrics: dict, features: list[str], extra: dict | None = None
@@ -118,6 +95,7 @@ def save_artifacts(
 
 
 def latest_run(name: str) -> Path:
+    """Folder of the newest trained run of a model (models/<name>/<timestamp>/)."""
     runs = sorted((MODELS_DIR / name).glob("*/model.joblib"))
     if not runs:
         raise FileNotFoundError(

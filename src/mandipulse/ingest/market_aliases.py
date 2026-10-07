@@ -46,6 +46,7 @@ def clean(name: str) -> str:
 
 
 def strip_apmc(name: str) -> str:
+    """Market name with the Nov-2025 ' APMC' suffix removed."""
     return _APMC_SUFFIX.sub("", clean(name))
 
 
@@ -61,6 +62,8 @@ def core_key(name: str) -> str:
 
 @dataclass
 class MarketName:
+    """One raw market name with its reporting span."""
+
     state: str
     district: str
     market: str
@@ -106,6 +109,7 @@ def _similar(a: str, b: str) -> bool:
 
 
 def build_aliases(names: list[MarketName]) -> pd.DataFrame:
+    """Raw market name -> canonical market, with the rule used and review flags."""
     groups: dict[tuple[str, str, str], _Group] = {}
     for n in names:
         key = (n.state, n.district, match_key(n.market))
@@ -350,6 +354,7 @@ def apply_review(
 
 
 def build_aliases_from_db(out: Path = ALIASES_CSV, review_out: Path = REVIEW_CSV) -> pd.DataFrame:
+    """Build the alias and review CSVs from the raw names in Postgres."""
     from mandipulse.db import get_engine
 
     engine = get_engine()

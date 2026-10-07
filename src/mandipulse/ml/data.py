@@ -22,6 +22,7 @@ where is_crash is not null
 
 
 def load_prices() -> pd.DataFrame:
+    """Daily analysis prices for the ML models."""
     df = run_sql(PRICES_SQL)
     df["date"] = pd.to_datetime(df["date"])
     df["commodity_key"] = df["commodity_key"].astype(int)
@@ -29,6 +30,7 @@ def load_prices() -> pd.DataFrame:
 
 
 def load_crash_labels() -> pd.DataFrame:
+    """Crash labels (int_crash_labels) for the ML models."""
     df = run_sql(CRASH_SQL)
     df["date"] = pd.to_datetime(df["date"])
     df["commodity_key"] = df["commodity_key"].astype(int)

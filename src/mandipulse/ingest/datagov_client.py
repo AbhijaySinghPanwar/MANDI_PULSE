@@ -35,6 +35,8 @@ class TransientAPIError(RuntimeError):
 
 @dataclass
 class PageLog:
+    """What one API page returned (for the ingest log)."""
+
     page: int
     offset: int
     requested: int
@@ -43,6 +45,8 @@ class PageLog:
 
 @dataclass
 class DataGovClient:
+    """Paginated data.gov.in client with retries (not used until the feed is enabled)."""
+
     api_key: str
     resource_id: str
     page_size: int = 1000
@@ -107,6 +111,7 @@ class DataGovClient:
 
 
 def client_from_settings(api_key: str) -> DataGovClient:
+    """Client configured from settings.yaml; refuses while sources.datagov.enabled is false."""
     cfg = get_settings()
     if not cfg["sources"]["datagov"]["enabled"]:
         raise RuntimeError("data.gov.in is disabled (sources.datagov.enabled = false).")

@@ -52,3 +52,7 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Committed app snapshot for the deployed Streamlit app (small, see its README)
+!data/app_snapshot/
+!data/app_snapshot/*.parquet

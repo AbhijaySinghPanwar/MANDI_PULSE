@@ -48,6 +48,7 @@ def load(folder: str, query: str) -> pd.DataFrame:
 
 
 def style() -> None:
+    """Apply the project's matplotlib style."""
     mpl.rcParams.update(
         {
             "figure.facecolor": SURFACE,
@@ -92,6 +93,7 @@ def header(fig, title: str, subtitle: str) -> None:
 
 
 def figure(title: str, subtitle: str, width: float = 9, height: float = 5):
+    """A styled figure with title and subtitle."""
     style()
     fig, ax = plt.subplots(figsize=(width, height))
     header(fig, title, subtitle)

@@ -9,12 +9,14 @@ exports/app/<dataset>.parquet             the app datasets (same SQL as mandipul
 exports/manifest.csv                      every file with row count and size
 """
 
+import shutil
 from pathlib import Path
 
 import pandas as pd
 
+from mandipulse.config import PROJECT_ROOT
 from mandipulse.queries import run_sql
-from mandipulse.serving import APP_EXPORT_DIR, DATASETS, EXPORT_DIR
+from mandipulse.serving import APP_EXPORT_DIR, DATASETS, EXPORT_DIR, SNAPSHOT_DIR
 
 PBI_DIR = EXPORT_DIR / "powerbi"
 LATEST = "(select max(date) from marts.int_analysis_prices)"
@@ -91,11 +93,21 @@ POWERBI: dict[str, str] = {
 }
 
 
+def write_app_snapshot() -> str:
+    """Copy exports/app/*.parquet to the committed snapshot data/app_snapshot/ (deployed app)."""
+    SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    for name in DATASETS:
+        shutil.copy2(APP_EXPORT_DIR / f"{name}.parquet", SNAPSHOT_DIR / f"{name}.parquet")
+    size = sum((SNAPSHOT_DIR / f"{n}.parquet").stat().st_size for n in DATASETS) / 1e6
+    return f"{SNAPSHOT_DIR.relative_to(PROJECT_ROOT).as_posix()} ({len(DATASETS)} files, {size:.1f} MB)"
+
+
 def _size_mb(path: Path) -> float:
     return round(path.stat().st_size / 1e6, 2)
 
 
 def export_all(progress=print) -> pd.DataFrame:
+    """Write every Power BI table and app dataset; return the manifest (rows and sizes)."""
     PBI_DIR.mkdir(parents=True, exist_ok=True)
     APP_EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     rows = []

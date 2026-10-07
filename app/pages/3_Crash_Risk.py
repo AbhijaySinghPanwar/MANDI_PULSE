@@ -41,7 +41,15 @@ if crop != "All crops":
     s = s[s["commodity"] == crop]
 if state != "All states":
     s = s[s["state"] == state]
-s["Market"] = s["market"] + " (" + s["district"] + ", " + s["state"] + ")"
+s["Market"] = (
+    s["needs_verify"].map({True: "⚠️ ", False: ""})
+    + s["market"]
+    + " ("
+    + s["district"]
+    + ", "
+    + s["state"]
+    + ")"
+)
 s["Latest price"] = s["modal_price"].map(rupees)
 s["Usual price (30-day median)"] = s["median_30d"].map(rupees)
 s["Last report"] = s["date"].dt.strftime("%d %b %Y")

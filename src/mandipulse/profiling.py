@@ -67,6 +67,7 @@ def connect() -> duckdb.DuckDBPyConnection:
 
 
 def run_profile(check_csv: bool = False) -> None:
+    """Run every Phase 0 profiling query with DuckDB; save the results."""
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     con = connect()
     for path in sorted(QUERY_DIR.glob("*.sql")):

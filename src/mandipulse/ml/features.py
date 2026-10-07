@@ -98,6 +98,7 @@ def _regional(grid: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_features(grid: pd.DataFrame, ffill_limit: int = 3, horizon: int = 7) -> pd.DataFrame:
+    """Leakage-safe features at each anchor day t (only data up to t) plus the t+horizon target."""
     g = grid.sort_values(["series_id", "date"]).reset_index(drop=True).copy()
     by = g.groupby("series_id", sort=False)
     g["lp_obs"] = np.log(g["price_obs"])

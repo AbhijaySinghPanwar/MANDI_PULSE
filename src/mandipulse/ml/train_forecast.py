@@ -40,6 +40,7 @@ FREQUENT_MIN_DAYS = 15
 
 
 def lgb_params(seed: int, objective: str = "regression", alpha: float | None = None) -> dict:
+    """LightGBM settings shared by every Model A fit."""
     params = dict(
         objective=objective,
         n_estimators=400,
@@ -61,6 +62,7 @@ def lgb_params(seed: int, objective: str = "regression", alpha: float | None = N
 
 
 def build_frame() -> pd.DataFrame:
+    """Model A frame: daily grid with features and the 7-day-ahead target."""
     cfg = get_settings()["ml"]
     f = add_features(
         daily_grid(load_prices()), cfg["ffill_limit_days"], cfg["forecast_horizon_days"]
@@ -83,6 +85,7 @@ def eligible(f: pd.DataFrame, before: pd.Timestamp, min_days: int) -> pd.Series:
 
 
 def fit_models(train: pd.DataFrame, seed: int, quantiles=(0.1, 0.9)) -> dict:
+    """Fit the p10 / p50 / p90 quantile models on log-price changes."""
     x = as_model_frame(train, FORECAST_FEATURES)
     y = train["target_lp"] - train["lp_t"]
     # p50 = median (quantile 0.5): MAE is minimised by the median, not the mean (run 1 used L2
@@ -101,6 +104,7 @@ def fit_models(train: pd.DataFrame, seed: int, quantiles=(0.1, 0.9)) -> dict:
 
 
 def predict(models: dict, df: pd.DataFrame) -> pd.DataFrame:
+    """Price forecasts (Rs/qtl) from fitted models, quantiles kept in order."""
     x = as_model_frame(df, FORECAST_FEATURES)
     out = pd.DataFrame(index=df.index)
     for name, m in models.items():
@@ -111,6 +115,7 @@ def predict(models: dict, df: pd.DataFrame) -> pd.DataFrame:
 
 
 def run_fold(f, train_mask, test_mask, seed) -> pd.DataFrame:
+    """Train on one fold's training rows and predict its test rows."""
     train, test = f[train_mask], f[test_mask]
     models = fit_models(train, seed)
     preds = predict(models, test)
@@ -129,6 +134,7 @@ def run_fold(f, train_mask, test_mask, seed) -> pd.DataFrame:
 
 
 def summarise(p: pd.DataFrame) -> dict:
+    """Model vs baseline metrics overall, by crop and by segment."""
     cols = ["model_p50", *BASELINES]
     res = {
         "overall": grouped_regression(p, cols, []),
@@ -153,6 +159,7 @@ def summarise(p: pd.DataFrame) -> dict:
 
 
 def train_forecast() -> dict:
+    """Model A: walk-forward test months, stress test, saved model and metrics."""
     cfg = get_settings()["ml"]
     seed = cfg["random_seed"]
     f = build_frame()

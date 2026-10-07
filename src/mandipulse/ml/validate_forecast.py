@@ -38,6 +38,7 @@ def _cqr_qhat(scores: np.ndarray, target: float) -> float:
 
 
 def run_validation() -> dict:
+    """L1 vs L2 walk-forward on Nov 2024 - Apr 2025 plus the band calibration; saves metrics."""
     cfg = get_settings()["ml"]
     seed = cfg["random_seed"]
     f = build_frame()
@@ -210,6 +211,7 @@ def recalibrate_test_coverage() -> dict:
 
 
 def load_calibration() -> dict:
+    """Per-crop band widening (log space); empty if never calibrated."""
     if CALIBRATION_FILE.exists():
         return json.loads(CALIBRATION_FILE.read_text(encoding="utf-8"))["qhat_log_by_commodity"]
     return {}

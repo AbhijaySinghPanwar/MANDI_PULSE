@@ -42,6 +42,7 @@ NOT_YET_FALLING = 0.9  # price at t >= 90% of its trailing 30-day median
 
 
 def build_crash_frame() -> pd.DataFrame:
+    """Model B training frame: features on real report days with crash labels."""
     cfg = get_settings()["ml"]["crash"]
     f = build_frame()
     labels = load_crash_labels()
@@ -138,6 +139,7 @@ def _segment_metrics(df: pd.DataFrame, model: str) -> dict:
 
 
 def train_crash() -> dict:
+    """Model B: yearly walk-forward vs baselines, thresholds, metrics and saved model."""
     cfg = get_settings()["ml"]
     seed, target_precision = cfg["random_seed"], cfg["crash"]["target_precision"]
     horizon = pd.Timedelta(days=cfg["crash"]["horizon_days"])

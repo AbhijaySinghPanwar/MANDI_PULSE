@@ -30,6 +30,7 @@ FEATURES = [
 
 
 def load_features() -> pd.DataFrame:
+    """Per market x crop clustering features (also saved as CSV)."""
     df = run_sql((QUERY_ROOT / "ml" / "cluster_features.sql").read_text(encoding="utf-8"))
     (TABLE_ROOT / "ml").mkdir(parents=True, exist_ok=True)
     df.to_csv(TABLE_ROOT / "ml" / "cluster_features.csv", index=False)
@@ -60,6 +61,7 @@ def name_cluster(z: pd.Series) -> str:
 
 
 def run_clustering() -> dict:
+    """Model C: choose k, fit KMeans, name the segments, save artifacts and metrics."""
     cfg = get_settings()["ml"]
     seed = cfg["random_seed"]
     df = load_features()

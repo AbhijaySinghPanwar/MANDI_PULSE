@@ -42,21 +42,13 @@ jobs:
           ruff check src tests app
           ruff format --check src tests app
 
-      # dbt on a SYNTHETIC, test-only raw sample (tests/fixtures/README.md); the real archive
-      # is gitignored. Reference seeds (aliases, geocodes) are the real committed CSVs.
-      - name: Load synthetic raw fixture
-        run: python -m mandipulse load --source-glob tests/fixtures/synthetic_raw_sample.csv
-
-      - name: Create (empty) ml.* tables
-        run: python -m mandipulse ml init-schema
-
-      - name: dbt build
-        run: python -m mandipulse dbt build
-
-      # app data layer: export the fixture marts so the parquet backend can be compared with
-      # Postgres (tests/test_serving.py) and every Streamlit page smoke-tested on both (tests/test_app.py)
-      - name: Export (fixture data)
-        run: python -m mandipulse export
+      # Reference seeds (aliases, geocodes) are the real committed CSVs.
+      # The whole pipeline (load -> ml tables -> dbt build -> export) on a SYNTHETIC, test-only raw
+      # sample (tests/fixtures/README.md); the real archive is gitignored. --skip-ml because trained
+      # models are not in git. The export lets tests compare the Postgres and Parquet backends and
+      # smoke-test every Streamlit page on both.
+      - name: Pipeline on the synthetic sample
+        run: python -m mandipulse pipeline --source-glob tests/fixtures/synthetic_raw_sample.csv --skip-ml
 
       - name: Pytest
         run: pytest -q

@@ -2,9 +2,12 @@
 
 Each dataset is ONE saved SQL query over the marts / ml schemas. Two backends, chosen with the
 environment variable DATA_BACKEND:
-  postgres (default)  run the SQL against DATABASE_URL
-  parquet             read exports/app/<dataset>.parquet, written by `python -m mandipulse export`
-                      from the very same SQL, so both backends return identical tables
+  postgres  run the SQL against DATABASE_URL
+  parquet   read <dataset>.parquet, written by `python -m mandipulse export` from the very same
+            SQL, so both backends return identical tables. Folder: MANDIPULSE_APP_DATA if set,
+            else exports/app if it exists, else the committed snapshot data/app_snapshot/.
+Without DATA_BACKEND: postgres when a database is configured (DATABASE_URL, e.g. from .env),
+otherwise parquet, so a fresh clone or Streamlit Community Cloud runs from the snapshot.
 Pages filter these small tables in pandas; they never touch raw or staging tables.
 Saved result files (reports/ml/*.json, reports/tables/...) are read directly from the repo.
 """
@@ -20,6 +23,7 @@ from mandipulse.config import PROJECT_ROOT
 # MANDIPULSE_EXPORT_DIR overrides exports/ (e.g. a throwaway folder for a CI-style run)
 EXPORT_DIR = Path(os.environ.get("MANDIPULSE_EXPORT_DIR") or PROJECT_ROOT / "exports")
 APP_EXPORT_DIR = EXPORT_DIR / "app"
+SNAPSHOT_DIR = PROJECT_ROOT / "data" / "app_snapshot"
 LATEST = "(select max(date) from marts.int_analysis_prices)"
 
 # "Verify before acting" (Phase 5.1): the latest report of a series is unverified when
@@ -179,7 +183,9 @@ DATASETS: dict[str, str] = {
 
 
 def backend() -> str:
-    b = os.environ.get("DATA_BACKEND", "postgres").strip().lower()
+    """The active backend: DATA_BACKEND if set, else postgres when DATABASE_URL is configured."""
+    default = "postgres" if os.environ.get("DATABASE_URL") else "parquet"
+    b = (os.environ.get("DATA_BACKEND") or default).strip().lower()
     if b not in {"postgres", "parquet"}:
         raise ValueError(f"DATA_BACKEND must be 'postgres' or 'parquet', got {b!r}")
     return b
@@ -196,12 +202,22 @@ def _normalise(df: pd.DataFrame) -> pd.DataFrame:
     return df.reset_index(drop=True)
 
 
+def parquet_dir() -> Path:
+    """Folder the parquet backend reads (see the module docstring for the order)."""
+    if os.environ.get("MANDIPULSE_APP_DATA"):
+        return Path(os.environ["MANDIPULSE_APP_DATA"])
+    if (APP_EXPORT_DIR / "meta.parquet").exists():
+        return APP_EXPORT_DIR
+    return SNAPSHOT_DIR
+
+
 def load(name: str, which: str | None = None) -> pd.DataFrame:
+    """One app dataset as a DataFrame, from the given or the active backend."""
     which = which or backend()
     if name not in DATASETS:
         raise KeyError(name)
     if which == "parquet":
-        path = APP_EXPORT_DIR / f"{name}.parquet"
+        path = parquet_dir() / f"{name}.parquet"
         if not path.exists():
             raise FileNotFoundError(f"{path} missing - run `python -m mandipulse export` first")
         return _normalise(pd.read_parquet(path))
@@ -211,12 +227,15 @@ def load(name: str, which: str | None = None) -> pd.DataFrame:
 
 
 def read_json(relative: str) -> dict:
+    """A committed result file (e.g. reports/ml/*.json), relative to the repo root."""
     return json.loads((PROJECT_ROOT / relative).read_text(encoding="utf-8"))
 
 
 def read_csv(relative: str) -> pd.DataFrame:
+    """A committed result table, relative to the repo root."""
     return pd.read_csv(PROJECT_ROOT / relative)
 
 
 def repo_path(relative: str) -> Path:
+    """Absolute path of a repo file."""
     return PROJECT_ROOT / relative

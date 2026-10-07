@@ -18,6 +18,7 @@ DBT_DIR = PROJECT_ROOT / "dbt" / "mandipulse"
 
 
 def dbt_vars() -> dict:
+    """settings.yaml values passed to dbt as --vars (one source of truth for thresholds)."""
     cfg = get_settings()
     bounds = cfg["quality"]["unit_bounds_per_qtl"]
     low = cfg["quality"]["persistent_low"]

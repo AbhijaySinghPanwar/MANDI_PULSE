@@ -1,0 +1,11 @@
+# Runtime requirements for the Streamlit app ONLY (parquet backend, e.g. Streamlit Community Cloud).
+# The app reads data/app_snapshot/*.parquet and committed result files; it needs no database,
+# no dbt and no model-training libraries. Versions pinned to the ones the app was tested with.
+streamlit==1.65.0
+pandas==3.0.6
+numpy==2.4.6
+pyarrow==25.0.1
+altair==6.3.0
+pydeck==0.9.3
+pyyaml==6.0.3
+python-dotenv==1.2.4

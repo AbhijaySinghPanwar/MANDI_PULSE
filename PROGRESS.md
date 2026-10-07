@@ -742,3 +742,69 @@ Where it applies:
 **App review notes:** the review placeholder was left empty ("<paste your notes here, or write "none">"), so there were no further notes to address.
 
 **Open:** a neighbour-disagreement check (e.g. the latest price < 60% of the median of markets within 50 km on the same day) would also catch Khairagarh. It is not added, because it wasn't part of the agreed rule; decide in review.
+
+## Phase 6: pipeline, docs, deployment-ready app (2026-10-07)
+
+### A. Pipeline
+- `python -m mandipulse pipeline` runs: load → create ml tables → dbt build → ml score → dbt test ml outputs → export. Options: `--snapshot`, `--source-glob`, `--skip-ml`.
+- Each step is logged with its duration to the console and to `logs/pipeline_<timestamp>.log`. The run stops at the first failure with exit code 1.
+- **Real run (2026-10-07):** finished OK in 1,788 s.
+
+  | Step | Time | Result |
+  |---|---|---|
+  | load | 47 s | 1,826,981 rows |
+  | dbt build | 1,451 s | 165/165 |
+  | ml score | 89 s | 920 forecasts, 108,004 backtest rows, 920 crash scores, 1,128 clusters |
+  | ml tests | 13 s | 26/26 |
+  | export | 182 s | 29 files, 45.3 MB, plus the snapshot |
+
+- **Failure check:** a missing input file stops the run at step 1 with exit code 1 and the traceback in the log.
+- `tests/test_pipeline.py` covers both the stop-on-failure and the success paths.
+- CI now runs the pipeline itself on the synthetic sample (`--skip-ml`).
+- The README documents daily scheduling (Windows Task Scheduler and cron) for when a live feed exists.
+
+### B. Deployment-ready app
+- **Snapshot:** `data/app_snapshot/` holds 10 Parquet files (2.7 MB), committed, with a README covering attribution, GODL-India and how to refresh it. Write it with `export --snapshot`.
+- **Backend choice:** `DATA_BACKEND` if set; otherwise Postgres when `DATABASE_URL` is configured, else Parquet. The Parquet folder is `MANDIPULSE_APP_DATA`, else `exports/app`, else the snapshot. A fresh clone and Streamlit Cloud therefore need no configuration.
+- **Footer:** every page's sidebar carries the data attribution (Agmarknet/DMI via Kaggle, GODL-India; OpenStreetMap; CARTO).
+- **Requirements:** `app/requirements.txt` pins only the 8 runtime packages (streamlit, pandas, numpy, pyarrow, altair, pydeck, pyyaml, python-dotenv). No dbt, LightGBM, SQLAlchemy or psycopg.
+- **Clean-environment test:** a copy of exactly the committed files, with no `.env`, no `exports/` and a new Python 3.11 venv with only the app requirements (plus pytest).
+  - AppTest smoke tests and snapshot tests: 18 passed.
+  - `streamlit run app/Home.py` served the pages. Screenshots confirmed the banner, footer and data from the snapshot.
+- `docs/DEPLOY.md` gives click-by-click Streamlit Community Cloud steps (Python 3.11, main file `app/Home.py`, secret `DATA_BACKEND = "parquet"`) plus troubleshooting.
+- **Small UI fixes:**
+  - verify rows also get a ⚠️ before the market name, because the "Check" column can sit off-screen;
+  - the Home "Crops" metric no longer truncates.
+
+### C. Documentation
+- **README:** rewritten to the spec 15 outline. It includes:
+  - a Mermaid architecture diagram;
+  - findings with robustness ranges and query links;
+  - the honest ML table;
+  - the data-quality story;
+  - how to run it (app only, full pipeline with the Kaggle download, synthetic check) and daily scheduling;
+  - limitations, what's next, and the attribution.
+- **Screenshot placeholders:** in `docs/images/`; the list of shots to take is in `docs/images/README.md`.
+- **New and updated documents:**
+  - `reports/INSIGHTS_BRIEF.md` (new): one page, every number linked to its saved result;
+  - `docs/ASSUMPTIONS.md`: completed for every stage, from scope to app;
+  - `reports/RESUME_BULLETS.md`: 5 bullets, a 30-second pitch and 5 interview Q&As;
+  - `LICENSE`: MIT for code, with a note that the data keeps GODL-India / ODbL.
+
+### D. Code quality
+- No stale TODOs were found; the real next steps are listed in the README under "What's next".
+- **Docstrings:** added to all ~60 public functions and classes that lacked one (and to 3 package `__init__` files).
+- **Dead code:** removed `ml.evaluate.classification_metrics`, which was unused (Model B uses `_segment_metrics`).
+- No behaviour changes; all tests pass.
+- **`docker-compose.yml`:** the container name is configurable (`POSTGRES_CONTAINER`, default unchanged), so a second checkout can run its own Postgres.
+
+### E. Reproducibility check (fresh clone)
+- **Setup:** a `git clone` of the Phase 6 commit into a new folder, following README "How to run" step 2 (without the Kaggle download) and step 3. The only change was to `.env`: port 5433 and container `mandipulse-postgres-clonecheck`, so the check used its own empty Postgres and volume and could not touch the real database. Everything was torn down afterwards.
+- **Results:**
+  - `uv venv` + `uv pip install -e ".[dev,dbt,ml,app,notebooks]"`: OK (58 s).
+  - `docker compose up -d`: healthy.
+  - `python -m mandipulse pipeline --source-glob tests/fixtures/synthetic_raw_sample.csv --skip-ml`: **finished OK in 56 s** (dbt 165/165, export 29 files).
+  - `pytest`: **84 passed**, including the AppTest smoke tests of all 6 app scripts on both backends.
+  - `streamlit run app/Home.py` started with no errors in its log.
+- **Found and fixed:** the first attempt, cloned under a very long folder path, failed at step 2 with `ModuleNotFoundError: sklearn.metrics._pairwise_distances_reduction._datasets_pair`. A scikit-learn file path was 263 characters, over Windows' 260 limit (long paths are disabled on this machine). From a short path, everything passed. The README now says to clone to a short path on Windows or enable long paths. It also says the synthetic run replaces the raw table, so use a fresh database for it.
+- The app-only route (README step 1) was checked separately in a clean venv with only `app/requirements.txt` and no database or `.env`: 18 tests passed and the pages rendered.
