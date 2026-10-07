@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+import pandas as pd  # noqa: E402
 import streamlit as st  # noqa: E402
 from data import (  # noqa: E402
     COMMODITIES,
@@ -18,6 +19,8 @@ from data import (  # noqa: E402
 )
 
 FALLING = 0.90  # price below 90% of its 30-day median = falling now
+# Diwali 2025: reporting fell from ~650 to ~80-270 markets a day (19-25 Oct, int_analysis_prices)
+DIWALI_GAP = (pd.Timestamp("2025-10-19"), pd.Timestamp("2025-10-25"))
 
 page_setup("Crash Risk", icon="⚠️")
 st.markdown(
@@ -59,33 +62,51 @@ st.header("1. Falling now")
 st.caption(
     f"Simple rule, no model: the latest price is below {FALLING:.0%} of the usual price. {UNIT}."
 )
-# confirmed drops first, then the ones to verify (each group: steepest first)
-falling = s[s["ratio_to_median"] < FALLING].sort_values(["needs_verify", "ratio_to_median"])
+falling = s[s["ratio_to_median"] < FALLING].sort_values("ratio_to_median")
 falling = falling.assign(
     **{"Below usual by": (1 - falling["ratio_to_median"]).map(lambda v: f"{v:.0%}")}
 )
+COLUMNS = [
+    "Market",
+    "commodity",
+    "Latest price",
+    "Usual price (30-day median)",
+    "Below usual by",
+    "Last report",
+]
+to_verify = falling[falling["needs_verify"].astype(bool)]
+confirmed = falling[~falling["needs_verify"].astype(bool)]
 if falling.empty:
     st.write("No market is falling right now for this selection.")
 else:
+    st.markdown(f"**Confirmed ({len(confirmed)})**")
+    if confirmed.empty:
+        st.write("None for this selection.")
+    else:
+        st.dataframe(
+            confirmed[COLUMNS].rename(columns={"commodity": "Crop"}),
+            hide_index=True,
+            width="stretch",
+        )
+if not to_verify.empty:
+    single = int(to_verify["verify_reason"].str.startswith("single").sum())
+    late_oct = int(
+        to_verify["date"].between(DIWALI_GAP[0], DIWALI_GAP[1] + pd.Timedelta(days=14)).sum()
+    )
+    st.markdown(f"**⚠️ To verify ({len(to_verify)})**")
+    note = f"Most of these ({single} of {len(to_verify)}) are a single low report still awaiting a second one"
+    if late_oct:
+        note += (
+            f"; {late_oct} were reported during or just after the late-October (Diwali) reporting "
+            "gap, when far fewer markets reported"
+        )
+    st.caption(note + ".")
     st.dataframe(
-        falling[
-            [
-                "Market",
-                "commodity",
-                "Latest price",
-                "Usual price (30-day median)",
-                "Below usual by",
-                "Last report",
-                "Check",
-            ]
-        ].rename(columns={"commodity": "Crop"}),
+        to_verify[[*COLUMNS, "Check"]].rename(columns={"commodity": "Crop"}),
         hide_index=True,
         width="stretch",
     )
-    n_verify = int(falling["needs_verify"].sum())
-    st.caption(
-        f"{len(falling) - n_verify} confirmed, {n_verify} to verify (listed last). " + VERIFY_NOTE
-    )
+    st.caption(VERIFY_NOTE)
 
 st.header("2. Early warning (model)")
 st.warning(

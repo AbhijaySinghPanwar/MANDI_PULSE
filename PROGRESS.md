@@ -808,3 +808,50 @@ Where it applies:
   - `streamlit run app/Home.py` started with no errors in its log.
 - **Found and fixed:** the first attempt, cloned under a very long folder path, failed at step 2 with `ModuleNotFoundError: sklearn.metrics._pairwise_distances_reduction._datasets_pair`. A scikit-learn file path was 263 characters, over Windows' 260 limit (long paths are disabled on this machine). From a short path, everything passed. The README now says to clone to a short path on Windows or enable long paths. It also says the synthetic run replaces the raw table, so use a fresh database for it.
 - The app-only route (README step 1) was checked separately in a clean venv with only `app/requirements.txt` and no database or `.env`: 18 tests passed and the pages rendered.
+
+## v1.0 polish, part 1: neighbour check and Crash Risk note (2026-10-07)
+
+### Neighbour check added to "Verify before acting"
+- **New rule:** a latest report is also badged when it is **below 60% of the median of markets within 50 km** (straight line, other towns, via `marts.int_market_pairs.haversine_km`) on the same day. If none reported that day, the median within ±1 day is used.
+- **Threshold choice:** the requested "more than 3× below the neighbour median" would **not** have caught Khairagarh tomato, whose ₹1,050 is 0.56× its neighbours' ₹1,875. Measured on the latest prices:
+
+  | Threshold | Latest prices badged | Falling-now badged | Badges Khairagarh? |
+  |---|---|---|---|
+  | 3× below | 5 (4 new) | 2 (1 new) | no |
+  | 2× below | 10 (7 new) | 4 (2 new) | no |
+  | **< 60%** | **27 (18 new)** | **10 (5 new)** | **yes** |
+
+  "< 60%" was chosen in review.
+- **Config:** all thresholds now live in `config/settings.yaml` → `app.verify`, and the badge text is built from them.
+- **New columns** in `latest_prices` and `crash_status` (and the Power BI export): `neighbour_median_50km`, `ratio_to_neighbours`, `prev_report_date`. The rule order is: state 3× → neighbours 60% → single low report.
+- **Top-10 re-run:**
+
+  | # | Market, crop | Phase 5.1 badge | Now |
+  |---|---|---|---|
+  | 1 | Manasa, onion | 3× below state | 3× below state |
+  | 2 | Syopurkalan (F&V), tomato | single report | single report |
+  | 3 | Khargone (F&V), tomato | – | – (no market within 50 km) |
+  | 4 | Rampurmaniharan, onion | single report | single report |
+  | 5 | Chhatrapati Sambhajinagar, tomato | – | – (no market within 50 km) |
+  | 6 | Padra, tomato | – | **below 60% of neighbours** (0.45×) |
+  | 7 | Jalgaon, tomato | single report | below 60% of neighbours (0.39×) |
+  | 8 | **Khairagarh, tomato** | – | **below 60% of neighbours (0.56×), badged** |
+  | 9 | Nasik, tomato | single report | single report (0.61× neighbours) |
+  | 10 | Kapadvanj, tomato | – | **below 60% of neighbours** (0.52×) |
+
+  Padra and Kapadvanj were sustained falls (their next November report was still low), but their neighbours were much higher, so "verify" is a fair label for them too.
+- **Totals now:** "Falling now" is **46 confirmed, 65 to verify** (was 51 / 60). Best Mandi badges 88 of 999 latest prices (was 70). The Ahmedabad tomato example is unchanged (₹1,800 · 2 of 8 · ₹122).
+
+### Crash Risk note
+- "Falling now" is now two tables: **Confirmed (46)** and **⚠️ To verify (65)**, with a data-driven one-line note above the second.
+- **Wording correction:** the requested wording ("most are first reports after the Diwali gap") is not accurate. Only 26 of 65 are literally the first report after the 19–25 Oct gap. The note therefore says what is true, and is computed from the data: "Most of these (55 of 65) are a single low report still awaiting a second one; 60 were reported during or just after the late-October (Diwali) reporting gap, when far fewer markets reported." In that week daily reports fell from about 650 to 80–270 markets.
+
+### Checks
+- pytest 84 passed (real data and the synthetic CI-style run); ruff clean.
+- Export and app snapshot refreshed.
+
+### Waiting for the release
+- Live demo URL (badge in README + RESUME_BULLETS).
+- App review notes.
+- Real screenshots: all 11 files in `docs/images/` are still the placeholders.
+- Then: the screenshot check, the `v1.0` commit and the tag.

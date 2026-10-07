@@ -18,7 +18,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from mandipulse.config import PROJECT_ROOT
+from mandipulse.config import PROJECT_ROOT, get_settings
 
 # MANDIPULSE_EXPORT_DIR overrides exports/ (e.g. a throwaway folder for a CI-style run)
 EXPORT_DIR = Path(os.environ.get("MANDIPULSE_EXPORT_DIR") or PROJECT_ROOT / "exports")
@@ -26,10 +26,15 @@ APP_EXPORT_DIR = EXPORT_DIR / "app"
 SNAPSHOT_DIR = PROJECT_ROOT / "data" / "app_snapshot"
 LATEST = "(select max(date) from marts.int_analysis_prices)"
 
-# "Verify before acting" (Phase 5.1): the latest report of a series is unverified when
+# "Verify before acting" (Phase 5.1, neighbour check v1.0): the latest report of a series is
+# unverified when
 #   (a) it is more than 3x below (or above) the same-day median of the state's markets, or
-#   (b) it is a single low report (< 90% of the 30-day median) not yet confirmed by a second one,
+#   (b) it is below 60% of the median of markets within 50 km (other towns) on the same day, or
+#       within +/- 1 day if none reported that day, or
+#   (c) it is a single low report (< 90% of the 30-day median) not yet confirmed by a second one,
 #       i.e. the previous report was not low. Such entries get a badge and are listed after the rest.
+# Thresholds: config/settings.yaml -> app.verify.
+_V = get_settings()["app"]["verify"]
 VERIFY_CTES = f"""
     recent as (
         select a.market_key, a.commodity_key, a.state, a.date, a.modal_price, l.lookback_median,
@@ -46,19 +51,47 @@ VERIFY_CTES = f"""
         where date > {LATEST} - 60
         group by state, commodity_key, date
     ),
+    nbr_pairs as (
+        select market_key_a as market_key, market_key_b as nbr_key
+        from marts.int_market_pairs where haversine_km <= {_V["neighbour_radius_km"]}
+        union all
+        select market_key_b, market_key_a
+        from marts.int_market_pairs where haversine_km <= {_V["neighbour_radius_km"]}
+    ),
+    nbr as (
+        select a.market_key, a.commodity_key,
+               coalesce(
+                   percentile_cont(0.5) within group (order by p.modal_price)
+                       filter (where p.date = a.date),
+                   percentile_cont(0.5) within group (order by p.modal_price)
+               )                                                         as nbr_median,
+               count(*) filter (where p.date = a.date)                   as n_nbr_same_day
+        from recent a
+        join nbr_pairs n on n.market_key = a.market_key
+        join marts.int_analysis_prices p
+          on p.market_key = n.nbr_key and p.commodity_key = a.commodity_key
+         and p.date between a.date - 1 and a.date + 1
+        where a.rn = 1
+        group by a.market_key, a.commodity_key
+    ),
     verify as (
         select a.market_key, a.commodity_key, a.date,
                round(s.state_median::numeric, 2)                         as state_median_same_day,
                round((a.modal_price / s.state_median)::numeric, 4)       as ratio_to_state,
+               round(nb.nbr_median::numeric, 2)                          as neighbour_median_50km,
+               round((a.modal_price / nb.nbr_median)::numeric, 4)        as ratio_to_neighbours,
                round((b.modal_price / b.lookback_median)::numeric, 4)    as prev_ratio_to_median,
+               b.date                                                    as prev_report_date,
                case
-                   when a.modal_price * 3 < s.state_median
-                       then 'more than 3x below the same-day state median'
-                   when a.modal_price > 3 * s.state_median
-                       then 'more than 3x above the same-day state median'
-                   when a.modal_price < 0.9 * a.lookback_median
+                   when a.modal_price * {_V["state_ratio"]} < s.state_median
+                       then 'more than {_V["state_ratio"]:g}x below the same-day state median'
+                   when a.modal_price > {_V["state_ratio"]} * s.state_median
+                       then 'more than {_V["state_ratio"]:g}x above the same-day state median'
+                   when a.modal_price < {_V["neighbour_min_ratio"]} * nb.nbr_median
+                       then 'below {_V["neighbour_min_ratio"]:.0%} of the markets within {_V["neighbour_radius_km"]} km'
+                   when a.modal_price < {_V["falling_ratio"]} * a.lookback_median
                     and (b.modal_price is null or b.lookback_median is null
-                         or b.modal_price >= 0.9 * b.lookback_median)
+                         or b.modal_price >= {_V["falling_ratio"]} * b.lookback_median)
                        then 'single low report, not yet confirmed by a second report'
                end                                                       as verify_reason
         from recent a
@@ -66,6 +99,8 @@ VERIFY_CTES = f"""
           on b.market_key = a.market_key and b.commodity_key = a.commodity_key and b.rn = 2
         left join state_day s
           on s.state = a.state and s.commodity_key = a.commodity_key and s.date = a.date
+        left join nbr nb
+          on nb.market_key = a.market_key and nb.commodity_key = a.commodity_key
         where a.rn = 1
     )"""
 
@@ -96,6 +131,7 @@ DATASETS: dict[str, str] = {
         )
         select lp.market_key, lp.commodity, lp.last_report_date, lp.last_price,
                lp.report_days_last_30, v.state_median_same_day, v.ratio_to_state,
+               v.neighbour_median_50km, v.ratio_to_neighbours,
                v.verify_reason is not null as needs_verify, v.verify_reason
         from lp
         left join verify v
@@ -152,7 +188,8 @@ DATASETS: dict[str, str] = {
                    where f.flag_persistent_low and m.market_key = l.market_key
                      and f.commodity = l.commodity
                )                                                      as is_suspect_series,
-               v.state_median_same_day, v.ratio_to_state, v.prev_ratio_to_median,
+               v.state_median_same_day, v.ratio_to_state, v.neighbour_median_50km,
+               v.ratio_to_neighbours, v.prev_ratio_to_median, v.prev_report_date,
                v.verify_reason is not null                            as needs_verify,
                v.verify_reason
         from last l

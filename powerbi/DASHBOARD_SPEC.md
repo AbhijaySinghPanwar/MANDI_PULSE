@@ -367,10 +367,11 @@ Do the same for `mart_net_price_opportunities_monthly[dest_market_key]` (column 
 | **Table: "Early warning"** | Same table: market, `commodity`, `prob`, `[Risk Level]`, `modal_price`, `median_30d`, `date` | Filters `ratio_to_median` ≥ 0.9 and `is_suspect_series` = False; sort `prob` descending; Top N 20. Conditional formatting on `prob`: background gradient white → `#D64545` |
 | **Text box** under the early-warning table | – | "**About 3 in 10 early warnings come true, typically ~6.6 days ahead.** Ranking quality on not-yet-falling days: PR-AUC 0.29 vs 0.15 for a seasonal rule (0.25 vs 0.07 outside December). Use it as a prompt to watch prices, not as a certainty." |
 
-**Check:** model ₹147.6, same-as-today ₹158.6, improvement 6.9%, coverage 77.3%, High early warnings 4. "Falling now": 111 rows, of which 60 have a "Check" reason (51 confirmed).
+**Check:** model ₹147.6, same-as-today ₹158.6, improvement 6.9%, coverage 77.3%, High early warnings 4. "Falling now": 111 rows, of which 65 have a "Check" reason (46 confirmed).
 
 **"Verify before acting" rule** (computed in the export, same as the app):
 - the latest report is more than 3× below or above the same-day median of the state's markets (`ratio_to_state`); or
+- it is below 60% of the median of markets within 50 km on the same day, or within ±1 day if none reported that day (`ratio_to_neighbours`); or
 - it is a single low report (< 90% of the 30-day median) whose previous report was not low (`prev_ratio_to_median` ≥ 0.9).
 
 ---

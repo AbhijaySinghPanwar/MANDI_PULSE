@@ -96,3 +96,11 @@ ml:
     min_days_below: 2              # crash = >= 2 report days in the next 14 below drop_ratio x trailing median (decision 2026-10-04)
     target_precision: 0.6
   cluster_k_range: [3, 4, 5, 6]
+
+app:
+  # "Verify before acting" badge on a series' latest report (Phases 5.1 / v1.0)
+  verify:
+    state_ratio: 3.0               # > 3x below or above the same-day median of the state's markets
+    neighbour_radius_km: 50        # straight line, other towns (as in district access)
+    neighbour_min_ratio: 0.6       # < 60% of the neighbours' median (same day, else +/- 1 day)
+    falling_ratio: 0.9             # a "low" report: < 90% of its 30-day median (single low report = unconfirmed)

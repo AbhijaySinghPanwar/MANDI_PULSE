@@ -45,7 +45,7 @@ The deployed app reads the committed snapshot in `data/app_snapshot/` (Parquet, 
 - [ ] Every page shows the banner **"Data as of 31 Oct 2025"**.
 - [ ] The sidebar shows the data attribution (Agmarknet / DMI via Kaggle, **GODL-India**, OpenStreetMap).
 - [ ] **Best Mandi:** choose Tomato and *Gujarat › Ahmedabad › Ahmedabad*. You should see ₹1,800, "2 of 8", ₹122 and a map.
-- [ ] **Price Outlook** shows the chart with the shaded band. **Crash Risk** shows "51 confirmed, 60 to verify".
+- [ ] **Price Outlook** shows the chart with the shaded band. **Crash Risk** shows "Confirmed (46)" and "⚠️ To verify (65)".
 - [ ] **Methodology** loads all tables.
 
 ## Updating the deployed data later

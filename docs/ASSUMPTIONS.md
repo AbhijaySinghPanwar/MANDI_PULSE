@@ -107,7 +107,9 @@ Every assumption the numbers depend on, grouped by pipeline stage. Thresholds li
 - **Early-warning levels:** High = score ≥ the validated alert threshold; Medium = ≥ half of it; Low otherwise. Shown only for series that are not already falling.
 - **"Verify before acting"** badge: the latest report is either
   - (a) more than 3× below or above the same-day median of the state's markets, or
-  - (b) a single low report (< 90% of the 30-day median) whose previous report was not low.
+  - (b) below 60% of the median of markets within 50 km (straight line, other towns) on the same day, or within ±1 day if none reported that day, or
+  - (c) a single low report (< 90% of the 30-day median) whose previous report was not low.
+  - Thresholds are in `config/settings.yaml` → `app.verify`.
   - Badged entries are listed after the confirmed ones and are not counted as gains in Best Mandi.
 - **Best Mandi** uses each market's latest price, so the two dates may differ by a few days; the table shows both report dates. Destinations in the same town as the home market are not shown.
 - **Power BI exports:** the three pair-level marts are exported as monthly aggregates plus the latest 90 days of detail. The full tables stay in Postgres.

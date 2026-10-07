@@ -97,7 +97,8 @@ def haversine_km(lat1, lon1, lat2, lon2) -> float:
 VERIFY_BADGE = "⚠️ Verify before acting"
 VERIFY_NOTE = (
     "⚠️ **Verify before acting** = the latest report is more than 3× away from the same-day median "
-    "of the state's markets, or it is a single low report not yet confirmed by a second one. "
+    "of the state's markets, below 60% of the markets within 50 km, or a single low report not "
+    "yet confirmed by a second one. "
     "Call the mandi or check the next report before you act on it."
 )
 

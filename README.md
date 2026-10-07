@@ -122,7 +122,7 @@ In plain words: **about 3 in 10 early warnings come true, typically ~6.6 days ah
   - 43 doubtful cases were reviewed: 38 merged, 5 kept separate. Canonical markets went from 633 to 595.
   - 0 rows were lost to merges.
 - **Flags, never deletes:** of 1,826,981 in-scope rows, 2,697 (0.15%) are flagged invalid. 3,718 rows in 22 "suspect-low" series sit persistently far below the state price; they are kept but excluded from headline numbers, and a sensitivity version includes them.
-- **"Verify before acting":** the app badges any latest price that is more than 3× away from the same-day state median, or that is a single low report not yet confirmed. The top "falling now" entry, onion at ₹100, turned out to be a data-entry artefact ([PROGRESS.md, Phase 5.1](PROGRESS.md)).
+- **"Verify before acting":** the app badges any latest price that is more than 3× away from the same-day state median, below 60% of the markets within 50 km, or a single low report not yet confirmed. The top "falling now" entry, onion at ₹100, turned out to be a data-entry artefact ([PROGRESS.md, Phase 5.1](PROGRESS.md)).
 
 ## Screenshots
 
@@ -238,7 +238,6 @@ Full list: [docs/ASSUMPTIONS.md](docs/ASSUMPTIONS.md).
 
 - **Cross-check prices with CEDA** (Ashoka University) and add arrival quantities. The 22 suspect-low series and the Nov-2025 source change are the first things to check.
 - **Add a live daily feed:** a data.gov.in Agmarknet client exists (`src/mandipulse/ingest/datagov_client.py`) but is disabled until the API is reachable. Then schedule the pipeline as above.
-- **Strengthen the verify rule:** flag a latest price that is far below the median of markets within 50 km on the same day. This would have caught Khairagarh tomato, which the current rule misses.
 - **Use the post-Nov-2025 data** once its gaps are understood, and retrain on a rolling window.
 - Rainfall and arrivals features; more crops and states; model tracking (MLflow).
 
