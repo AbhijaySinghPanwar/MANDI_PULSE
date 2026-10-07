@@ -130,17 +130,15 @@ In plain words: **about 3 in 10 early warnings come true, typically ~6.6 days ah
 
 ## Screenshots
 
+From the live app at [mandi-pulse.streamlit.app](https://mandi-pulse.streamlit.app/). The Best Mandi page is at the top of this README.
+
 | Streamlit app | |
 |---|---|
-| ![Home](docs/images/app_home.png) | ![Price Outlook](docs/images/app_price_outlook.png) |
-| ![Crash Risk](docs/images/app_crash_risk.png) | ![Market Explorer](docs/images/app_market_explorer.png) |
+| **Home**<br>![Home](docs/images/app_home.png) | **Price Outlook:** forecast vs actual, with the calibrated range and the "same as today" rule<br>![Price Outlook](docs/images/app_price_outlook.png) |
+| **Crash Risk:** "falling now" (confirmed / to verify) and model early warnings<br>![Crash Risk](docs/images/app_crash_risk.png) | **Market Explorer:** price-trapped districts and market segments<br>![Market Explorer](docs/images/app_market_explorer.png) |
+| **Methodology:** data and cleaning<br>![Methodology: data](docs/images/app_methodology_data.png) | **Methodology:** model results vs baselines<br>![Methodology: models](docs/images/app_methodology.png) |
 
-| Power BI | |
-|---|---|
-| ![Overview](docs/images/powerbi_01_overview.png) | ![Price spread](docs/images/powerbi_02_price_spread.png) |
-| ![Seasonality](docs/images/powerbi_03_seasonality.png) | ![Forecast and alerts](docs/images/powerbi_05_forecast_alerts.png) |
-
-(The list of screenshots to take is in [docs/images/README.md](docs/images/README.md).)
+**Power BI:** dashboard screenshots will be added here. The build guide is [powerbi/DASHBOARD_SPEC.md](powerbi/DASHBOARD_SPEC.md), and the list of shots is in [docs/images/README.md](docs/images/README.md).
 
 ## How to run it
 

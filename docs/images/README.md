@@ -1,6 +1,6 @@
 # Screenshots for the README
 
-Each file in this folder is currently a grey **"Screenshot pending"** placeholder. To replace one, save your screenshot under the **same file name** and the README picks it up automatically. PNG works best: about 1600 px wide, light theme, browser zoom 100%, and no personal bookmarks or tabs visible.
+**Status (2026-10-07):** the app screenshots are done, taken from the live app at https://mandi-pulse.streamlit.app/. The Power BI screenshots are still to come; when they are added, put them back into the README's "Screenshots" section. Save each screenshot under the **file name** listed below. PNG works best: about 1600 px wide, light theme, browser zoom 100%, and no personal bookmarks or tabs visible.
 
 ## Streamlit app
 
@@ -14,6 +14,7 @@ Run the app with `streamlit run app/Home.py`. In the app's ⋮ menu → **Settin
 | `app_crash_risk.png` | Crash Risk | All crops, all states | "Falling now" table (confirmed first) and the "Early warning" box with "About 3 in 10…" plus High/Medium/Low counts. Scroll so both sections are in view, or take two shots and keep the first |
 | `app_market_explorer.png` | Market Explorer | Tab "Price-trapped districts", crop **Tomato** | The trapped-district count and table |
 | `app_methodology.png` | Methodology | Scroll to "How good are the models?" | The forecast table and the crash early-warning headline |
+| `app_methodology_data.png` | Methodology | Top of the page | Data sources and the cleaning summary |
 
 ## Power BI
 
