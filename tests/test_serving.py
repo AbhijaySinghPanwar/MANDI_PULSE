@@ -35,3 +35,15 @@ def test_unknown_backend_is_rejected(monkeypatch):
     monkeypatch.setenv("DATA_BACKEND", "excel")
     with pytest.raises(ValueError):
         backend()
+
+
+def test_verify_rule_is_applied_consistently():
+    """Latest reports > 3x from the state-day median, or single unconfirmed lows, are badged."""
+    for name in ("crash_status", "latest_prices"):
+        df = load(name, "parquet")
+        far = (df["ratio_to_state"] < 1 / 3) | (df["ratio_to_state"] > 3)
+        assert df.loc[far, "needs_verify"].all(), name
+        assert (df["needs_verify"] == df["verify_reason"].notna()).all(), name
+    cs = load("crash_status", "parquet")
+    single_low = (cs["ratio_to_median"] < 0.9) & ~(cs["prev_ratio_to_median"] < 0.9)
+    assert cs.loc[single_low, "needs_verify"].all()

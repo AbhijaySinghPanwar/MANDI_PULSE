@@ -363,11 +363,15 @@ Do the same for `mart_net_price_opportunities_monthly[dest_market_key]` (column 
 | 4 × **Card** | `[Forecast MAE (Model)]`, `[Forecast MAE (Same as Today)]`, `[Forecast Improvement %]`, `[Band Coverage]` | Titles: "Model error ₹/qtl", "'Next week = today' error", "Improvement", "Range contains the actual (target 80%)" |
 | **Line chart** (large) | X: `ml_price_forecast_backtest[target_date]`; Y: Sum of `actual_price`, Sum of `p50`, Sum of `baseline_last_value`, Sum of `p10`, Sum of `p90` | **Select one market** with the slicer below, otherwise the sums are meaningless. Colours: actual `#0B0B0B`; p50 `#2A78D6`; baseline `#EB6834` dashed; p10/p90 `#CDE2FB` thin dotted. (Power BI's line chart has no shaded band; the dotted p10/p90 lines show the range.) Title "Actual vs 7-day forecast, test months May–Oct 2025" |
 | **Slicer** (single select) | `dim_market[market]` + `dim_commodity[commodity]` | Single select on; search on |
-| **Table: "Falling now"** | `ml_crash_status_latest`: market (via `dim_market[market]`), `commodity`, `modal_price`, `median_30d`, `ratio_to_median`, `date` | Visual-level filters `ratio_to_median` < 0.9 and `is_suspect_series` = False; sort `ratio_to_median` ascending. Header "Below 90% of the 30-day median (rule, no model)" |
+| **Table: "Falling now"** | `ml_crash_status_latest`: market (via `dim_market[market]`), `commodity`, `modal_price`, `median_30d`, `ratio_to_median`, `date`, `verify_reason` (rename "Check") | Visual-level filters `ratio_to_median` < 0.9 and `is_suspect_series` = False. Sort by `needs_verify` ascending, then `ratio_to_median` ascending: Power BI sorts by one column, so add the calculated column `Sort Key = IF(ml_crash_status_latest[needs_verify], 1, 0) + ml_crash_status_latest[ratio_to_median]` and sort ascending by it. Conditional formatting: font colour `#D64545` on `verify_reason`. Header "Below 90% of the 30-day median (rule, no model). Entries marked 'Check' need verifying before you act" |
 | **Table: "Early warning"** | Same table: market, `commodity`, `prob`, `[Risk Level]`, `modal_price`, `median_30d`, `date` | Filters `ratio_to_median` ≥ 0.9 and `is_suspect_series` = False; sort `prob` descending; Top N 20. Conditional formatting on `prob`: background gradient white → `#D64545` |
 | **Text box** under the early-warning table | – | "**About 3 in 10 early warnings come true, typically ~6.6 days ahead.** Ranking quality on not-yet-falling days: PR-AUC 0.29 vs 0.15 for a seasonal rule (0.25 vs 0.07 outside December). Use it as a prompt to watch prices, not as a certainty." |
 
-**Check:** model ₹147.6, same-as-today ₹158.6, improvement 6.9%, coverage 77.3%, High early warnings 4.
+**Check:** model ₹147.6, same-as-today ₹158.6, improvement 6.9%, coverage 77.3%, High early warnings 4. "Falling now": 111 rows, of which 60 have a "Check" reason (51 confirmed).
+
+**"Verify before acting" rule** (computed in the export, same as the app):
+- the latest report is more than 3× below or above the same-day median of the state's markets (`ratio_to_state`); or
+- it is a single low report (< 90% of the 30-day median) whose previous report was not low (`prev_ratio_to_median` ≥ 0.9).
 
 ---
 

@@ -11,6 +11,7 @@ import streamlit as st  # noqa: E402
 from data import (  # noqa: E402
     COMMODITIES,
     UNIT,
+    VERIFY_NOTE,
     haversine_km,
     load,
     market_options,
@@ -18,6 +19,7 @@ from data import (  # noqa: E402
     read_csv,
     rupees,
     settings,
+    verify_label,
 )
 
 page_setup("Best Mandi this week", icon="📍")
@@ -78,7 +80,8 @@ cand["transport"] = cand["road_km"] * per_km + fixed
 cand["fees"] = cand["last_price"] * fee_pct
 cand["net_price"] = cand["last_price"] - cand["transport"] - cand["fees"]
 cand["gain_vs_home"] = cand["net_price"] - home_price["last_price"]
-cand = cand.sort_values("net_price", ascending=False)
+# destinations whose latest price needs verifying are listed after the others
+cand = cand.sort_values(["needs_verify", "net_price"], ascending=[True, False])
 
 with right:
     a, b, c = st.columns(3)
@@ -87,8 +90,19 @@ with right:
         rupees(home_price["last_price"]),
         help=f"Reported on {home_price['last_report_date']:%d %b %Y}. {UNIT}.",
     )
-    better = cand[cand["gain_vs_home"] > 0]
-    b.metric("Markets paying more (net)", f"{len(better)} of {len(cand)}")
+    if home_price["needs_verify"]:
+        st.warning(
+            f"**Verify before acting:** your market's latest price "
+            f"({rupees(home_price['last_price'])}) looks unusual: {home_price['verify_reason']}. "
+            "Gains below are measured against it.",
+            icon="⚠️",
+        )
+    better = cand[(cand["gain_vs_home"] > 0) & ~cand["needs_verify"].astype(bool)]
+    b.metric(
+        "Markets paying more (net)",
+        f"{len(better)} of {len(cand)}",
+        help="Counts only destinations whose latest price does not need verifying.",
+    )
     c.metric(
         "Best net gain",
         rupees(better["gain_vs_home"].max()) if len(better) else "none",
@@ -119,6 +133,7 @@ with right:
             ),
             "Last report": lambda d: d["last_report_date"].dt.strftime("%d %b %Y"),
             "Report days (last 30)": lambda d: d["report_days_last_30"].astype(int),
+            "Check": lambda d: d["verify_reason"].map(verify_label),
         },
     )
     st.dataframe(
@@ -133,12 +148,18 @@ with right:
                 "Gain vs home",
                 "Last report",
                 "Report days (last 30)",
+                "Check",
             ]
         ],
         hide_index=True,
         width="stretch",
     )
     notes = []
+    n_verify = int(cand["needs_verify"].sum())
+    if n_verify:
+        notes.append(
+            f"{n_verify} destination(s) marked to verify are listed last and not counted above."
+        )
     if same_town.any():
         notes.append(
             f"{int(same_town.sum())} yard(s) in the same town as your market are not shown (same place)."
@@ -152,6 +173,8 @@ with right:
         f"Prices in {UNIT}. Road distance = straight-line distance × {road_factor} (estimate)."
     )
     st.caption(" ".join(notes))
+    if n_verify or home_price["needs_verify"]:
+        st.caption(VERIFY_NOTE)
 
 map_df = pd.concat(
     [
@@ -166,7 +189,10 @@ map_df = pd.concat(
         ),
         pd.DataFrame(
             {
-                "name": cand["market"] + ": net " + cand["net_price"].map(rupees),
+                "name": cand["market"]
+                + ": net "
+                + cand["net_price"].map(rupees)
+                + cand["needs_verify"].map({True: " (verify before acting)", False: ""}),
                 "lat": cand["latitude"],
                 "lon": cand["longitude"],
                 "color": [

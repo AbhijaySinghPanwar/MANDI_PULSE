@@ -690,3 +690,55 @@ Spec 10.2's DAX was updated as well.
 - The `app` extra is installed and ruff covers `app/`.
 - New step order: fixture load → ml init-schema → dbt build → **export** → pytest. The serving and AppTest tests therefore run on the synthetic fixture with both backends.
 - Verified locally in the throwaway DB `mandipulse_ci`: dbt 165/165, pytest 69 passed.
+
+## Phase 5.1: verify badges, review fixes (2026-10-07)
+
+### Top 10 "Falling now" checked against the raw rows
+
+Method:
+- Each entry was checked against `intermediate.int_price_flags`: every raw row with the variety, grade, min/max, and the same-day state median.
+- Markets within 50 km on the same day were compared.
+- The archive's Nov–Dec 2025 rows (loaded but excluded from the analysis as `post_format_change`) were used to see whether the next report confirmed the drop.
+
+Two facts apply to all ten:
+- Every one of them reports **one variety per day**, so "other varieties agree" cannot be tested.
+- All ten latest reports fall right after the late-October reporting gap (around Diwali, 20 Oct 2025). Across Maharashtra, Madhya Pradesh and Gujarat, tomato state medians also fell in that week.
+
+| # | Market, crop | Latest (₹/qtl) vs 30-day median | Pattern in the raw rows | Same-day check | Next report (Nov 2025 archive) | Verdict / badge |
+|---|---|---|---|---|---|---|
+| 1 | Manasa (Neemuch, MP), onion | 100 vs 541 | **Single report.** Grade switched FAQ → Non-FAQ; modal = the minimum of a ₹100–691 range. Only 3 reports in 30 days | 0.14 × state median (₹700). Neemuch (28 km) ₹890, Mandsaur (46 km) ₹700 | 3 Nov: ₹801 (back to normal) | **Not real: data-entry or grade artefact.** Badge: 3× below state |
+| 2 | Syopurkalan (F&V) (Sheopur, MP), tomato | 700 vs 1,800 | Single report; grade switched Non-FAQ → FAQ | 0.47 × state; no market within 50 km | 4 Nov: ₹700 | Later confirmed. Badge: single report |
+| 3 | Khargone (F&V) (Khandwa, MP), tomato | 700 vs 1,800 | 3 consecutive reports at ₹700 (27–29 Oct) | 0.64 × state; no market within 50 km | 4 Nov: ₹700 | **Sustained** |
+| 4 | Rampurmaniharan (Saharanpur, UP), onion | 950 vs 2,375 | Single report after a 17-day gap. Earlier prices were about 1.8× the state level | 0.73 × state; no market within 50 km | next report Feb 2026: ₹2,300 | Unclear; looks like reversion to the state level. Badge: single report |
+| 5 | Chhatrapati Sambhajinagar (MH), tomato | 700 vs 1,700 | 3 consecutive low reports (₹800, 700, 700) | 0.58 × state | next report Dec 2025: ₹2,000 | **Sustained** in late Oct |
+| 6 | Padra (Vadodara, GJ), tomato | 750 vs 1,700 | 2 low reports (₹1,250 on 28 Oct, ₹750 on 31 Oct) | 0.48 × state | 4 Nov: ₹1,250 (still low) | **Sustained** |
+| 7 | Jalgaon (MH), tomato | 700 vs 1,500 | Single report after an 11-day gap | 0.56 × state | 3 Nov: ₹800 | Later confirmed. Badge: single report |
+| 8 | Khairagarh (Agra, UP), tomato | 1,050 vs 2,050 | 2 low reports (₹1,550, ₹1,050) | 0.54 × state. **Neighbours disagree:** Achnera (16 km) ₹1,800, Tundla (39 km) ₹1,950 | 2 Nov: ₹3,050 (reversed) | Doubtful, but the rule does **not** catch it (see "Open") |
+| 9 | Nasik (MH), tomato | 525 vs 1,000 | Single report after a 13-day gap; wide min–max (₹150–1,000) is normal here | 0.44 × state. Pimpalgaon (31 km) also low at ₹855 | 2 Nov: ₹675 | Later confirmed. Badge: single report |
+| 10 | Kapadvanj (Kheda, GJ), tomato | 1,100 vs 2,000 | 3 consecutive identical reports (₹1,100), as before (₹1,625 × 4, ₹2,125 × 2): possible copy-forward reporting | 0.71 × state. Nadiad (43 km) ₹2,125 | 3 Nov: ₹1,150 | Sustained, but repeated values are suspicious |
+
+**Summary**
+- **Genuine falls:** 6 of 10 were followed within a week by a report that was still low (Syopurkalan, Khargone, Padra, Jalgaon, Nasik, Kapadvanj).
+- **Wrong:**
+  - Manasa: clearly a bad record.
+  - Khairagarh: reversed within a week, and its neighbours disagreed on the day.
+- **Unknown:** 2 had no report for over a month (Rampurmaniharan, Sambhajinagar).
+
+### Rule added: "⚠️ Verify before acting"
+
+Computed in the shared serving SQL (`VERIFY_CTES` in `src/mandipulse/serving.py`), so the app, the Parquet backend and the Power BI export all agree. A series' latest report is badged when:
+- (a) it is more than 3× below the same-day median of the state's markets. The mirror case, 3× above, is also badged; it matters on Best Mandi, where an inflated destination price would fake a gain. It currently affects 0 rows. Or:
+- (b) it is below 90% of its 30-day median while its previous report was not, i.e. a single low report not yet confirmed by a second one.
+
+Where it applies:
+- **Crash Risk, "Falling now":** confirmed entries come first; badged entries are listed after them with the reason. Currently **51 confirmed, 60 to verify**. Many are the first report after the Diwali gap. On the top 10, the rule badges Manasa (a) and Syopurkalan, Rampurmaniharan, Jalgaon and Nasik (b).
+- **Best Mandi:**
+  - If the home market's price is badged, a warning is shown. For example, Manasa onion at ₹100 would otherwise show "+₹631" gains.
+  - Badged destinations are listed last, marked in the table and the map tooltip, and not counted in "Markets paying more" or "Best net gain".
+  - 70 of 999 latest prices are badged.
+- `tests/test_serving.py::test_verify_rule_is_applied_consistently` checks the rule on the exported data.
+- Power BI: `ml_crash_status_latest` gains `state_median_same_day`, `ratio_to_state`, `prev_ratio_to_median`, `needs_verify` and `verify_reason`; `DASHBOARD_SPEC.md` is updated.
+
+**App review notes:** the review placeholder was left empty ("<paste your notes here, or write "none">"), so there were no further notes to address.
+
+**Open:** a neighbour-disagreement check (e.g. the latest price < 60% of the median of markets within 50 km on the same day) would also catch Khairagarh. It is not added, because it wasn't part of the agreed rule; decide in review.

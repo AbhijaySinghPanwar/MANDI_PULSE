@@ -22,6 +22,49 @@ EXPORT_DIR = Path(os.environ.get("MANDIPULSE_EXPORT_DIR") or PROJECT_ROOT / "exp
 APP_EXPORT_DIR = EXPORT_DIR / "app"
 LATEST = "(select max(date) from marts.int_analysis_prices)"
 
+# "Verify before acting" (Phase 5.1): the latest report of a series is unverified when
+#   (a) it is more than 3x below (or above) the same-day median of the state's markets, or
+#   (b) it is a single low report (< 90% of the 30-day median) not yet confirmed by a second one,
+#       i.e. the previous report was not low. Such entries get a badge and are listed after the rest.
+VERIFY_CTES = f"""
+    recent as (
+        select a.market_key, a.commodity_key, a.state, a.date, a.modal_price, l.lookback_median,
+               row_number() over (partition by a.market_key, a.commodity_key order by a.date desc) as rn
+        from marts.int_analysis_prices a
+        left join marts.int_crash_labels l
+          on l.market_key = a.market_key and l.commodity_key = a.commodity_key and l.date = a.date
+        where a.date > {LATEST} - 60
+    ),
+    state_day as (
+        select state, commodity_key, date,
+               percentile_cont(0.5) within group (order by modal_price) as state_median
+        from marts.int_analysis_prices
+        where date > {LATEST} - 60
+        group by state, commodity_key, date
+    ),
+    verify as (
+        select a.market_key, a.commodity_key, a.date,
+               round(s.state_median::numeric, 2)                         as state_median_same_day,
+               round((a.modal_price / s.state_median)::numeric, 4)       as ratio_to_state,
+               round((b.modal_price / b.lookback_median)::numeric, 4)    as prev_ratio_to_median,
+               case
+                   when a.modal_price * 3 < s.state_median
+                       then 'more than 3x below the same-day state median'
+                   when a.modal_price > 3 * s.state_median
+                       then 'more than 3x above the same-day state median'
+                   when a.modal_price < 0.9 * a.lookback_median
+                    and (b.modal_price is null or b.lookback_median is null
+                         or b.modal_price >= 0.9 * b.lookback_median)
+                       then 'single low report, not yet confirmed by a second report'
+               end                                                       as verify_reason
+        from recent a
+        left join recent b
+          on b.market_key = a.market_key and b.commodity_key = a.commodity_key and b.rn = 2
+        left join state_day s
+          on s.state = a.state and s.commodity_key = a.commodity_key and s.date = a.date
+        where a.rn = 1
+    )"""
+
 DATASETS: dict[str, str] = {
     "meta": """
         select min(date) as data_from, max(date) as data_as_of, count(*) as n_market_days
@@ -37,14 +80,24 @@ DATASETS: dict[str, str] = {
     "latest_prices": f"""
         with p as (
             select * from marts.int_analysis_prices where date > {LATEST} - 30
+        ),
+        {VERIFY_CTES.strip()},
+        lp as (
+            select market_key, commodity_key, commodity,
+                   max(date)                                          as last_report_date,
+                   (array_agg(modal_price order by date desc))[1]     as last_price,
+                   count(*)                                           as report_days_last_30
+            from p
+            group by market_key, commodity_key, commodity
         )
-        select market_key, commodity,
-               max(date)                                          as last_report_date,
-               (array_agg(modal_price order by date desc))[1]     as last_price,
-               count(*)                                           as report_days_last_30
-        from p
-        group by market_key, commodity
-        order by market_key, commodity
+        select lp.market_key, lp.commodity, lp.last_report_date, lp.last_price,
+               lp.report_days_last_30, v.state_median_same_day, v.ratio_to_state,
+               v.verify_reason is not null as needs_verify, v.verify_reason
+        from lp
+        left join verify v
+          on v.market_key = lp.market_key and v.commodity_key = lp.commodity_key
+         and v.date = lp.last_report_date
+        order by lp.market_key, lp.commodity
     """,
     "suspect_series": """
         select distinct m.market_key, f.commodity
@@ -81,7 +134,8 @@ DATASETS: dict[str, str] = {
             from marts.int_crash_labels
             where date >= {LATEST} - 14
             order by market_key, commodity_key, date desc
-        )
+        ),
+        {VERIFY_CTES.strip()}
         select l.market_key, l.commodity, l.date, l.modal_price,
                round(l.lookback_median::numeric, 2)                   as median_30d,
                round((l.modal_price / l.lookback_median)::numeric, 4) as ratio_to_median,
@@ -93,11 +147,16 @@ DATASETS: dict[str, str] = {
                      on m.state = f.state and m.district = f.district and m.market = f.market
                    where f.flag_persistent_low and m.market_key = l.market_key
                      and f.commodity = l.commodity
-               )                                                      as is_suspect_series
+               )                                                      as is_suspect_series,
+               v.state_median_same_day, v.ratio_to_state, v.prev_ratio_to_median,
+               v.verify_reason is not null                            as needs_verify,
+               v.verify_reason
         from last l
         left join ml.crash_risk r
           on r.market_key = l.market_key and r.commodity_key = l.commodity_key and r.date = l.date
          and r.model_version = (select max(model_version) from ml.crash_risk)
+        left join verify v
+          on v.market_key = l.market_key and v.commodity_key = l.commodity_key and v.date = l.date
         order by l.market_key, l.commodity
     """,
     "district_access": """

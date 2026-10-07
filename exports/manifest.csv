@@ -17,14 +17,14 @@ powerbi/ml_price_forecast,920,0.04,0.1
 powerbi/ml_price_forecast_backtest,108004,2.24,12.84
 powerbi/ml_crash_risk,920,0.03,0.09
 powerbi/ml_market_cluster,1128,0.06,0.15
-powerbi/ml_crash_status_latest,920,0.04,0.1
+powerbi/ml_crash_status_latest,920,0.05,0.13
 app/meta,1,0.0,
 app/markets,594,0.07,
-app/latest_prices,999,0.02,
+app/latest_prices,999,0.03,
 app/suspect_series,22,0.0,
 app/price_history,125258,0.25,
 app/forecast_latest,920,0.04,
 app/forecast_backtest,108004,2.2,
-app/crash_status,920,0.04,
+app/crash_status,920,0.05,
 app/district_access,463,0.02,
 app/clusters,1128,0.07,

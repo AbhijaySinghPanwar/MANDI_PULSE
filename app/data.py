@@ -76,5 +76,18 @@ def haversine_km(lat1, lon1, lat2, lon2) -> float:
     return 2 * 6371.0088 * asin(sqrt(a))
 
 
+VERIFY_BADGE = "⚠️ Verify before acting"
+VERIFY_NOTE = (
+    "⚠️ **Verify before acting** = the latest report is more than 3× away from the same-day median "
+    "of the state's markets, or it is a single low report not yet confirmed by a second one. "
+    "Call the mandi or check the next report before you act on it."
+)
+
+
+def verify_label(reason) -> str:
+    """Badge text for the 'Check' column: empty when the latest report looks consistent."""
+    return f"{VERIFY_BADGE}: {reason}" if isinstance(reason, str) and reason else ""
+
+
 def rupees(x) -> str:
     return "–" if pd.isna(x) else f"₹{x:,.0f}"

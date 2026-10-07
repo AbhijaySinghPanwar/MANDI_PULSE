@@ -6,7 +6,16 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st  # noqa: E402
-from data import COMMODITIES, UNIT, load, page_setup, read_json, rupees  # noqa: E402
+from data import (  # noqa: E402
+    COMMODITIES,
+    UNIT,
+    VERIFY_NOTE,
+    load,
+    page_setup,
+    read_json,
+    rupees,
+    verify_label,
+)
 
 FALLING = 0.90  # price below 90% of its 30-day median = falling now
 
@@ -36,12 +45,14 @@ s["Market"] = s["market"] + " (" + s["district"] + ", " + s["state"] + ")"
 s["Latest price"] = s["modal_price"].map(rupees)
 s["Usual price (30-day median)"] = s["median_30d"].map(rupees)
 s["Last report"] = s["date"].dt.strftime("%d %b %Y")
+s["Check"] = s["verify_reason"].map(verify_label)
 
 st.header("1. Falling now")
 st.caption(
     f"Simple rule, no model: the latest price is below {FALLING:.0%} of the usual price. {UNIT}."
 )
-falling = s[s["ratio_to_median"] < FALLING].sort_values("ratio_to_median")
+# confirmed drops first, then the ones to verify (each group: steepest first)
+falling = s[s["ratio_to_median"] < FALLING].sort_values(["needs_verify", "ratio_to_median"])
 falling = falling.assign(
     **{"Below usual by": (1 - falling["ratio_to_median"]).map(lambda v: f"{v:.0%}")}
 )
@@ -57,10 +68,15 @@ else:
                 "Usual price (30-day median)",
                 "Below usual by",
                 "Last report",
+                "Check",
             ]
         ].rename(columns={"commodity": "Crop"}),
         hide_index=True,
         width="stretch",
+    )
+    n_verify = int(falling["needs_verify"].sum())
+    st.caption(
+        f"{len(falling) - n_verify} confirmed, {n_verify} to verify (listed last). " + VERIFY_NOTE
     )
 
 st.header("2. Early warning (model)")
