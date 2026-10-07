@@ -1,5 +1,7 @@
 # Deploying the app on Streamlit Community Cloud
 
+**Deployed:** https://mandi-pulse.streamlit.app/ (2026-10-07).
+
 The deployed app reads the committed snapshot in `data/app_snapshot/` (Parquet, about 2.7 MB). It needs **no database, no `.env` and no secrets**. Deployment is free and takes about 10 minutes.
 
 ## What the deployment uses

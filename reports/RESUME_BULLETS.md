@@ -1,5 +1,7 @@
 # Resume bullets and interview prep
 
+**Live demo:** [mandi-pulse.streamlit.app](https://mandi-pulse.streamlit.app/) · **Code:** [github.com/AbhijaySinghPanwar/MANDI_PULSE](https://github.com/AbhijaySinghPanwar/MANDI_PULSE)
+
 Every number below comes from a saved result in this repository; the source is given in brackets. Do not round them up.
 
 ## Resume bullets (pick 3–4)
@@ -8,11 +10,11 @@ Every number below comes from a saved result in this repository; the source is g
 - **Quantified hidden price gaps between nearby wholesale markets:** after transport and 6% fees, a mandi within 100 km paid more on **33.8% of market-days** (24.4–42.2% across robustness checks and cost scenarios), with a median gain of **₹370 per quintal**. Also identified **22 "price-trapped" districts**. *[reports/PHASE3_FINDINGS.md]*
 - **Developed a LightGBM 7-day price forecast** that cut error by **6.9% vs the best baseline** over 108,004 walk-forward forecasts. Validated the objective on a separate pre-test window, and calibrated the p10–p90 range with conformal prediction (coverage 75.6% → 77.3%). *[reports/ML_REPORT.md]*
 - **Built a crash early-warning model** that, on days *before* prices start falling, ranks risk **about 2× better than a seasonal baseline** (PR-AUC 0.29 vs 0.15; 0.25 vs 0.07 outside December): about 3 in 10 alerts come true, **~6.6 days ahead**. Showed that 74% of "crashes" were already under way, and reported the honest metric instead of the flattering one (0.75). *[reports/ml/crash_risk_metrics.json]*
-- **Delivered the insights as a 5-page Streamlit decision tool** (best mandi after costs, forecasts, crash alerts), deployable without a database from a 2.7 MB snapshot and smoke-tested on two data backends, **plus a 5-page Power BI dashboard specification**. *[app/, powerbi/DASHBOARD_SPEC.md]*
+- **Delivered the insights as a 5-page Streamlit decision tool** (best mandi after costs, forecasts, crash alerts), deployable without a database from a 2.7 MB snapshot and smoke-tested on two data backends, **plus a 5-page Power BI dashboard specification**. Live at mandi-pulse.streamlit.app. *[app/, powerbi/DASHBOARD_SPEC.md]*
 
 ## 30-second pitch
 
-"Indian farmers usually sell at the nearest mandi without knowing what nearby mandis pay. I took 8 years of government mandi prices for tomato, onion and potato in four states and built a pipeline in Python, Postgres and dbt to clean them; the data had real problems, like a market renaming and a state that turned out to report retail prices. The main finding: on about a third of days, a mandi within 100 km paid more even after transport and commission, typically ₹370 a quintal, and these opportunities persisted day to day. I also built a 7-day price forecast and a crash early-warning model. I'm careful about how I report them: the forecast is only about 7% better than 'next week equals today', and about 3 in 10 crash warnings come true, roughly a week ahead. It all ships as a Streamlit app that tells a farmer which mandi to sell at this week."
+"Indian farmers usually sell at the nearest mandi without knowing what nearby mandis pay. I took 8 years of government mandi prices for tomato, onion and potato in four states and built a pipeline in Python, Postgres and dbt to clean them; the data had real problems, like a market renaming and a state that turned out to report retail prices. The main finding: on about a third of days, a mandi within 100 km paid more even after transport and commission, typically ₹370 a quintal, and these opportunities persisted day to day. I also built a 7-day price forecast and a crash early-warning model. I'm careful about how I report them: the forecast is only about 7% better than 'next week equals today', and about 3 in 10 crash warnings come true, roughly a week ahead. It all ships as a Streamlit app, live at mandi-pulse.streamlit.app, that tells a farmer which mandi to sell at this week."
 
 ## Likely interview questions, with short honest answers
 

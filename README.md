@@ -1,5 +1,9 @@
 # Mandi Pulse
 
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mandi-pulse.streamlit.app/)
+
+**Live demo: [mandi-pulse.streamlit.app](https://mandi-pulse.streamlit.app/)** (free hosting; if it has been idle, click "Yes, get this app back up!" and wait about 30 s).
+
 **"Google Flights for farmers' vegetable prices."** Mandi Pulse answers three questions:
 - Which mandi (wholesale market) gives the best price for a crop this week, *after* transport and fees?
 - Is a price crash coming?
